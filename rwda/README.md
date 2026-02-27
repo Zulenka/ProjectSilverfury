@@ -2,6 +2,9 @@
 
 This directory contains a Mudlet Lua combat brain that runs alongside SVO.
 
+Project log:
+- `RWDA_Dev_Test_Log.md` at repo root tracks commands, configuration decisions, feature milestones, and test outcomes.
+
 ## What it includes
 - Canonical state model (`rwda/state/*`) for self, target, cooldowns, and runtime flags.
 - Data dictionaries (`rwda/data/*`) for core afflictions, defences, abilities, and venoms.
@@ -37,6 +40,7 @@ RWDA does not send herb/salve/sip cures when SVO is active.
 - `rwda off`
 - `rwda stop`
 - `rwda resume`
+- `rwda reload`
 - `rwda target <name>`
 - `rwda mode <auto|human|dragon>`
 - `rwda goal <pressure|limbprep|impale_kill|dragon_devour>`
@@ -53,6 +57,7 @@ RWDA does not send herb/salve/sip cures when SVO is active.
 - Planner mode automatically follows form: human mode for Runewarden, dragon mode for dragonform.
 - Execution defaults to Achaea server queueing (`queue addclear`), with `freestand` used for devour attempts.
 - `rwda stop` sets a kill switch and can clear all server queues.
+- `rwda explain` reports the last planned/sent action, while `rwda status` reports current tracked state (including target shield/rebounding flags).
 
 ## Known next steps
 - Tune exact combat-line patterns from your own logs for highest-confidence limb and defence updates.

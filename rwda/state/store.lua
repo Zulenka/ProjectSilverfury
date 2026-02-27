@@ -89,8 +89,14 @@ end
 
 function state.setTarget(name)
   ensure()
+  if type(name) == "string" then
+    name = name:gsub("^%s+", ""):gsub("%s+$", "")
+  end
   state.target.name = name
   state.target.dead = false
+  state.target.available = true
+  state.target.unavailable_reason = nil
+  state.target.unavailable_since = 0
   state.target.last_seen = util.now()
 end
 
@@ -188,8 +194,30 @@ end
 function state.setTargetDead(isDead, source)
   ensure()
   state.target.dead = not not isDead
+  if isDead then
+    state.target.available = false
+    state.target.unavailable_reason = "dead"
+    state.target.unavailable_since = util.now()
+  end
   state.target.last_seen = util.now()
   state.target.dead_source = source or "unknown"
+end
+
+function state.setTargetAvailable(isAvailable, source, reason)
+  ensure()
+  isAvailable = not not isAvailable
+
+  state.target.available = isAvailable
+  if isAvailable then
+    state.target.unavailable_reason = nil
+    state.target.unavailable_since = 0
+    state.target.last_seen = util.now()
+  else
+    state.target.unavailable_reason = reason or "unknown"
+    state.target.unavailable_since = util.now()
+  end
+
+  state.target.available_source = source or "unknown"
 end
 
 function state.setTargetImpaled(isImpaled, source)
@@ -230,6 +258,19 @@ end
 function state.hasTarget()
   ensure()
   return state.target.name and state.target.name ~= "" and not state.target.dead
+end
+
+function state.isTargetAvailable()
+  ensure()
+  if not state.hasTarget() then
+    return false
+  end
+
+  if rwda.config and rwda.config.combat and rwda.config.combat.require_target_available == false then
+    return true
+  end
+
+  return state.target.available
 end
 
 function state.decayTargetDefences(nowMs)

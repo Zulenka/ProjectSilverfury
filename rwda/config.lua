@@ -23,6 +23,9 @@ config.combat = config.combat or {
   target = nil,
   anti_spam_ms = 250,
   auto_tick_on_prompt = true,
+  require_target_available = true,
+  clear_queue_when_target_missing = true,
+  require_room_presence_when_gmcp = true,
 }
 
 config.parser = config.parser or {

@@ -181,6 +181,10 @@ function rwda.tick(source)
     rwda.integrations.aklimb.sync()
   end
 
+  if rwda.engine and rwda.engine.parser and rwda.engine.parser.refreshTargetAvailabilityFromGMCP then
+    rwda.engine.parser.refreshTargetAvailabilityFromGMCP("tick")
+  end
+
   local action = rwda.engine.planner.choose(rwda.state)
   if not action then
     return nil
@@ -199,6 +203,41 @@ function rwda.statusLine()
     return rwda.ui.commands.statusText()
   end
   return "RWDA loaded"
+end
+
+function rwda.shutdown()
+  if rwda.ui and rwda.ui.commands and rwda.ui.commands.unregisterAlias then
+    pcall(rwda.ui.commands.unregisterAlias)
+  end
+
+  if rwda.engine and rwda.engine.parser and rwda.engine.parser.unregisterMudletHandlers then
+    pcall(rwda.engine.parser.unregisterMudletHandlers)
+  end
+
+  if rwda.engine and rwda.engine.executor and rwda.engine.executor.unregisterSafetyValve then
+    pcall(rwda.engine.executor.unregisterSafetyValve)
+  end
+
+  if rwda.integrations and rwda.integrations.svof and rwda.integrations.svof.unregisterHandlers then
+    pcall(rwda.integrations.svof.unregisterHandlers)
+  end
+
+  rwda._bootstrapped = false
+end
+
+function rwda.reload(opts)
+  opts = opts or {}
+  local base = opts.base_path or rwda.base_path
+
+  rwda.shutdown()
+  rwda._loaded_files = {}
+  rwda.loadAll(base)
+  rwda._bootstrapped = false
+
+  return rwda.bootstrap({
+    load_files = false,
+    base_path = base,
+  })
 end
 
 if not rwda._autoboot_disabled then

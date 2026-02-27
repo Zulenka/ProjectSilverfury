@@ -289,6 +289,14 @@ function planner.choose(state)
     return nil
   end
 
+  if rwda.state and rwda.state.isTargetAvailable and not rwda.state.isTargetAvailable() then
+    state.runtime.last_reason = {
+      summary = string.format("Target unavailable (%s), hold offense.", tostring(state.target.unavailable_reason or "unknown")),
+      code = "target_unavailable",
+    }
+    return nil
+  end
+
   local mode = planner.resolveMode(state)
   local selected
 

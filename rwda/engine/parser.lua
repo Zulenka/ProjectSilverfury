@@ -21,12 +21,29 @@ local function stripAnsi(text)
   return text:gsub("\27%[[0-9;]*m", "")
 end
 
+local function trim(text)
+  if type(text) ~= "string" then
+    return ""
+  end
+  return text:gsub("^%s+", ""):gsub("%s+$", "")
+end
+
 local function normalizeName(name)
   if type(name) ~= "string" then
     return ""
   end
 
   return name:lower():gsub("[^%w%s%-']", ""):gsub("%s+", " "):gsub("^%s+", ""):gsub("%s+$", "")
+end
+
+local function captureByPatterns(source, patterns)
+  for _, pat in ipairs(patterns) do
+    local value = source:match(pat)
+    if value and value ~= "" then
+      return trim(value)
+    end
+  end
+  return nil
 end
 
 local function isTarget(who)
@@ -82,10 +99,56 @@ local function setBalance(balance, value, source)
   end
 end
 
+local function markTargetSeen(source)
+  if rwda.state and rwda.state.target and rwda.state.target.name then
+    rwda.state.setTargetAvailable(true, source or "line", "seen")
+  end
+end
+
+local function roomPlayersTable()
+  if not gmcp or not gmcp.Room then
+    return nil
+  end
+  return gmcp.Room.Players or gmcp.Room.players
+end
+
+local function roomHasTargetByGMCP()
+  local target = rwda.state and rwda.state.target and rwda.state.target.name
+  if not target or target == "" then
+    return nil
+  end
+
+  local players = roomPlayersTable()
+  if type(players) ~= "table" then
+    return nil
+  end
+
+  local targetNorm = normalizeName(target)
+
+  for k, v in pairs(players) do
+    local candidate = nil
+    if type(v) == "string" then
+      candidate = v
+    elseif type(v) == "table" then
+      candidate = v.name or v.fullname or v.id
+    elseif type(k) == "string" and type(v) == "boolean" and v then
+      candidate = k
+    end
+
+    if candidate and normalizeName(tostring(candidate)) == targetNorm then
+      return true
+    end
+  end
+
+  return false
+end
+
 local function setLimbBrokenFromWords(who, side, part)
   if not isTarget(who) then
     return false
   end
+
+  markTargetSeen("limb")
 
   local limb
   if part == "leg" then
@@ -111,6 +174,8 @@ local function setLimbMangledFromWords(who, side, part)
   if not isTarget(who) then
     return false
   end
+
+  markTargetSeen("limb")
 
   local limb
   if part == "leg" then
@@ -145,6 +210,20 @@ local function markTargetDead(name, source)
   end
 
   return true
+end
+
+local function markTargetMissing(reason)
+  if not (rwda.state and rwda.state.target and rwda.state.target.name) then
+    return
+  end
+
+  rwda.state.setTargetAvailable(false, "line", reason or "missing")
+  emit("TARGET_UNAVAILABLE", { reason = reason or "missing" })
+
+  if rwda.config and rwda.config.combat and rwda.config.combat.clear_queue_when_target_missing
+    and rwda.engine and rwda.engine.queue then
+    rwda.engine.queue.clear("all")
+  end
 end
 
 function parser.onGMCPVitals()
@@ -182,6 +261,27 @@ function parser.onGMCPVitals()
   end
 end
 
+function parser.refreshTargetAvailabilityFromGMCP(source)
+  if not (rwda.config and rwda.config.combat and rwda.config.combat.require_room_presence_when_gmcp) then
+    return
+  end
+
+  local present = roomHasTargetByGMCP()
+  if present == nil then
+    return
+  end
+
+  if present then
+    rwda.state.setTargetAvailable(true, source or "gmcp_room", "seen")
+  else
+    rwda.state.setTargetAvailable(false, source or "gmcp_room", "gmcp_not_in_room")
+  end
+end
+
+function parser.onGMCPRoomPlayers()
+  parser.refreshTargetAvailabilityFromGMCP("gmcp_room")
+end
+
 function parser.onPrompt()
   local state = rwda.state
   state.me.last_prompt_ms = rwda.util.now()
@@ -189,6 +289,8 @@ function parser.onPrompt()
   if rwda.integrations and rwda.integrations.svof and rwda.state.integration.svof_present then
     rwda.integrations.svof.syncFromGlobals()
   end
+
+  parser.refreshTargetAvailabilityFromGMCP("prompt")
 
   if rwda.state.flags.enabled and rwda.config.combat.auto_tick_on_prompt then
     rwda.tick("prompt")
@@ -224,12 +326,31 @@ function parser.handleLine(line)
   end
 
   line = stripAnsi(line)
+  line = trim(line)
   if line == "" then
     return
   end
 
   local state = rwda.state
   local lower = line:lower()
+
+  local missingTargetMessages = {
+    "you detect nothing here by that name.",
+    "you cannot see that being here.",
+    "i do not recognise anything called that here.",
+    "i do not recognize anything called that here.",
+    "there is no one here by that name.",
+    "you see no one by that name here.",
+    "they aren't here.",
+    "they are not here.",
+    "no such person here.",
+  }
+  for _, msg in ipairs(missingTargetMessages) do
+    if lower == msg then
+      markTargetMissing("not_here")
+      return
+    end
+  end
 
   if line:find("You have recovered equilibrium and balance", 1, true) then
     setBalance("equilibrium", true, "line")
@@ -244,29 +365,58 @@ function parser.handleLine(line)
     setBalance("equilibrium", false, "line")
   end
 
-  local shieldUp = line:match("^A shimmering shield surrounds (.+)%.$")
+  local shieldUp = captureByPatterns(line, {
+    "^A shimmering shield surrounds (.+)%.$",
+    "^A shimmering shield surrounds (.+)!$",
+    "^A shimmering shield surrounds (.+)$",
+  }) or captureByPatterns(lower, {
+    "^a shimmering shield surrounds (.+)[%.!]*$",
+  })
   if shieldUp and isTarget(shieldUp) then
+    markTargetSeen("shield")
     state.setTargetDefence("shield", true, 1.0, "line")
     emit("DEF_GAINED", { who = shieldUp, defence = "shield" })
     return
   end
 
-  local shieldDown = line:match("^The shimmering shield around (.+) shatters%.$")
+  local shieldDown = captureByPatterns(line, {
+    "^The shimmering shield around (.+) shatters%.$",
+    "^The shimmering shield around (.+) is destroyed%.$",
+  }) or captureByPatterns(lower, {
+    "^the shimmering shield around (.+) shatters[%.!]*$",
+    "^the shimmering shield around (.+) is destroyed[%.!]*$",
+  })
   if shieldDown and isTarget(shieldDown) then
+    markTargetSeen("shield")
     state.setTargetDefence("shield", false, 0.0, "line")
     emit("DEF_LOST", { who = shieldDown, defence = "shield" })
     return
   end
 
-  local reboundUp = line:match("^A nearly invisible magical shield forms around (.+)%.$")
+  local reboundUp = captureByPatterns(line, {
+    "^A nearly invisible magical shield forms around (.+)%.$",
+    "^A nearly invisible magical shield forms around (.+)!$",
+    "^An aura of weapons rebounding begins to surround (.+)%.$",
+  }) or captureByPatterns(lower, {
+    "^a nearly invisible magical shield forms around (.+)[%.!]*$",
+    "^an aura of weapons rebounding begins to surround (.+)[%.!]*$",
+  })
   if reboundUp and isTarget(reboundUp) then
+    markTargetSeen("rebounding")
     state.setTargetDefence("rebounding", true, 1.0, "line")
     emit("DEF_GAINED", { who = reboundUp, defence = "rebounding" })
     return
   end
 
-  local reboundDown = line:match("^The rebounding aura around (.+) dissipates%.$")
+  local reboundDown = captureByPatterns(line, {
+    "^The rebounding aura around (.+) dissipates%.$",
+    "^The aura of weapons rebounding around (.+) dissipates%.$",
+  }) or captureByPatterns(lower, {
+    "^the rebounding aura around (.+) dissipates[%.!]*$",
+    "^the aura of weapons rebounding around (.+) dissipates[%.!]*$",
+  })
   if reboundDown and isTarget(reboundDown) then
+    markTargetSeen("rebounding")
     state.setTargetDefence("rebounding", false, 0.0, "line")
     emit("DEF_LOST", { who = reboundDown, defence = "rebounding" })
     return
@@ -277,6 +427,7 @@ function parser.handleLine(line)
     or line:match("^(.+) falls to the ground%.$")
 
   if proneHit and isTarget(proneHit) then
+    markTargetSeen("prone")
     state.setTargetProne(true, "line")
     emit("TARGET_PRONE", { who = proneHit })
     return
@@ -287,6 +438,7 @@ function parser.handleLine(line)
     or line:match("^(.+) climbs back to (?:his|her|their) feet%.$")
 
   if stood and isTarget(stood) then
+    markTargetSeen("stood")
     state.setTargetProne(false, "line")
     emit("TARGET_STOOD", { who = stood })
     return
@@ -318,6 +470,7 @@ function parser.handleLine(line)
 
   local impaledTarget = line:match("^You impale (.+)%.$")
   if impaledTarget and isTarget(impaledTarget) then
+    markTargetSeen("impale")
     state.setTargetImpaled(true, "line")
     emit("TARGET_IMPALED", { who = impaledTarget })
     return
@@ -327,6 +480,7 @@ function parser.handleLine(line)
     or line:match("^(.+) wriggles free from the impalement%.$")
 
   if unimpaledTarget and isTarget(unimpaledTarget) then
+    markTargetSeen("impale")
     state.setTargetImpaled(false, "line")
     emit("TARGET_UNIMPALED", { who = unimpaledTarget })
     return
@@ -344,6 +498,7 @@ function parser.handleLine(line)
 
   local torsoBreak = line:match("^(.+)'s torso .-[Bb]reak")
   if torsoBreak and isTarget(torsoBreak) then
+    markTargetSeen("torso")
     state.updateTargetLimb("torso", { broken = true, damage_pct = 100, confidence = 1.0 })
     emit("LIMB_BROKEN", { who = torsoBreak, limb = "torso" })
     return
@@ -351,6 +506,7 @@ function parser.handleLine(line)
 
   local torsoMangled = line:match("^(.+)'s torso is mangled")
   if torsoMangled and isTarget(torsoMangled) then
+    markTargetSeen("torso")
     state.updateTargetLimb("torso", { mangled = true, damage_pct = math.max(75, state.target.limbs.torso.damage_pct), confidence = 0.92 })
     emit("LIMB_MANGLED", { who = torsoMangled, limb = "torso" })
     return
@@ -358,6 +514,7 @@ function parser.handleLine(line)
 
   local rendHitWho, rendLimb = line:match("^You rend (.+)'s ([%a_ ]+)%.$")
   if rendHitWho and isTarget(rendHitWho) then
+    markTargetSeen("rend")
     local map = {
       ["left leg"] = "left_leg",
       ["right leg"] = "right_leg",
@@ -383,6 +540,7 @@ function parser.handleLine(line)
 
   local escape = line:match("^(.+) leaves [a-z]+%.$")
   if escape and isTarget(escape) then
+    markTargetMissing("left_room")
     state.target.last_seen = rwda.util.now()
     emit("TARGET_MOVED", { who = escape })
     return
@@ -399,6 +557,9 @@ function parser.registerMudletHandlers()
   end
 
   parser._handler_ids.gmcp_vitals = registerAnonymousEventHandler("gmcp.Char.Vitals", "rwda.engine.parser.onGMCPVitals")
+  parser._handler_ids.gmcp_room_players = registerAnonymousEventHandler("gmcp.Room.Players", "rwda.engine.parser.onGMCPRoomPlayers")
+  parser._handler_ids.gmcp_room_add = registerAnonymousEventHandler("gmcp.Room.AddPlayer", "rwda.engine.parser.onGMCPRoomPlayers")
+  parser._handler_ids.gmcp_room_remove = registerAnonymousEventHandler("gmcp.Room.RemovePlayer", "rwda.engine.parser.onGMCPRoomPlayers")
   parser._handler_ids.prompt = registerAnonymousEventHandler("sysPrompt", "rwda.engine.parser.onPrompt")
 
   if rwda.config.parser.use_data_events then

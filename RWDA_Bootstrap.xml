@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.0">
+  <ScriptPackage>
+    <ScriptGroup isActive="yes" isFolder="yes">
+      <name>RWDA</name>
+      <packageName></packageName>
+      <script></script>
+      <eventHandlerList/>
+      <Script isActive="yes" isFolder="no">
+        <name>RWDA Loader</name>
+        <packageName></packageName>
+        <script><![CDATA[
+function rwda_bootstrap_loader()
+  local function log(msg)
+    if type(echo) == "function" then
+      echo("[RWDA Loader] " .. msg .. "\n")
+    end
+  end
+
+  local function fileExists(path)
+    if type(path) ~= "string" or path == "" then return false end
+    local f = io.open(path, "r")
+    if f then f:close(); return true end
+    return false
+  end
+
+  local candidates = {
+    [[C:\Users\jness\Documents\Project Silverfury\ProjectSilverfury\rwda\init.lua]],
+    getMudletHomeDir() .. [[\rwda\init.lua]],
+    getMudletHomeDir() .. [[/rwda/init.lua]],
+  }
+
+  local initPath = nil
+  for _, path in ipairs(candidates) do
+    if fileExists(path) then
+      initPath = path
+      break
+    end
+  end
+
+  if not initPath and type(invokeFileDialog) == "function" then
+    local chosen = invokeFileDialog(false, "Select RWDA init.lua")
+    if chosen and chosen ~= "" and fileExists(chosen) then
+      initPath = chosen
+    end
+  end
+
+  if not initPath then
+    log("Could not locate rwda/init.lua. Update the loader path in script 'RWDA Loader'.")
+    return
+  end
+
+  local ok, err = pcall(dofile, initPath)
+  if not ok then
+    log("Load failed: " .. tostring(err))
+    return
+  end
+
+  if rwda and rwda.bootstrap and not rwda._bootstrapped then
+    local base = initPath:match("^(.*)[/\\][^/\\]+$")
+    local bOk, bErr = pcall(rwda.bootstrap, { load_files = true, base_path = base })
+    if not bOk then
+      log("Bootstrap failed: " .. tostring(bErr))
+      return
+    end
+  end
+
+  log("Loaded from " .. initPath)
+end
+
+rwda_bootstrap_loader()
+        ]]></script>
+        <eventHandlerList>
+          <string>sysLoadEvent</string>
+        </eventHandlerList>
+      </Script>
+    </ScriptGroup>
+  </ScriptPackage>
+</MudletPackage>

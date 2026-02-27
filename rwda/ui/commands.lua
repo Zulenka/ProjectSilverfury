@@ -25,9 +25,29 @@ local function splitWords(input)
   return out
 end
 
+local function trim(input)
+  if type(input) ~= "string" then
+    return ""
+  end
+  return input:gsub("^%s+", ""):gsub("%s+$", "")
+end
+
 function commands.statusText()
   local s = rwda.state
+  local function defStatus(name)
+    local d = s.target.defs and s.target.defs[name]
+    if not d then
+      return "0"
+    end
+    if d.active then
+      return string.format("1(%.2f)", d.confidence or 1.0)
+    end
+    return "0"
+  end
+
   local target = s.target.name or "(none)"
+  local targetAvail = s.target.available and "yes" or "no"
+  local targetAvailReason = s.target.unavailable_reason or "-"
   local mode = s.flags.mode or "auto"
   local goal = s.flags.goal or "limbprep"
   local profile = s.flags.profile or "duel"
@@ -37,7 +57,7 @@ function commands.statusText()
   local stopped = s.flags.stopped and "yes" or "no"
 
   return string.format(
-    "enabled=%s stopped=%s mode=%s goal=%s profile=%s form=%s target=%s bal=%s eq=%s",
+    "enabled=%s stopped=%s mode=%s goal=%s profile=%s form=%s target=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s",
     tostring(s.flags.enabled),
     stopped,
     mode,
@@ -45,13 +65,17 @@ function commands.statusText()
     profile,
     form,
     target,
+    targetAvail,
+    targetAvailReason,
     bal,
-    eq
+    eq,
+    defStatus("shield"),
+    defStatus("rebounding")
   )
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|status|explain|tick|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|line <text>|replay <file>|clear target|reset")
+  tell("Commands: rwda on|off|stop|resume|reload|status|explain|tick|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|line <text>|replay <file>|clear target|reset")
 end
 
 function commands.handle(raw)
@@ -84,6 +108,20 @@ function commands.handle(raw)
     return
   end
 
+  if sub == "reload" then
+    if rwda.reload then
+      local ok, err = pcall(rwda.reload)
+      if ok then
+        tell("RWDA reloaded.")
+      else
+        tell("Reload failed: " .. tostring(err))
+      end
+    else
+      tell("Reload unavailable.")
+    end
+    return
+  end
+
   if sub == "status" then
     tell(commands.statusText())
     return
@@ -111,6 +149,7 @@ function commands.handle(raw)
 
   if sub == "target" then
     local target = raw:match("^target%s+(.+)$")
+    target = trim(target)
     if target and target ~= "" then
       rwda.setTarget(target)
       tell("Target set to " .. target)
