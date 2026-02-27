@@ -1,0 +1,256 @@
+rwda = rwda or {}
+rwda.ui = rwda.ui or {}
+rwda.ui.commands = rwda.ui.commands or {
+  _alias_id = nil,
+}
+
+local commands = rwda.ui.commands
+
+local function tell(message)
+  if rwda.util then
+    rwda.util.log("info", "%s", message)
+    return
+  end
+
+  if type(echo) == "function" then
+    echo("[RWDA] " .. message .. "\n")
+  end
+end
+
+local function splitWords(input)
+  local out = {}
+  for word in tostring(input or ""):gmatch("%S+") do
+    out[#out + 1] = word
+  end
+  return out
+end
+
+function commands.statusText()
+  local s = rwda.state
+  local target = s.target.name or "(none)"
+  local mode = s.flags.mode or "auto"
+  local goal = s.flags.goal or "limbprep"
+  local profile = s.flags.profile or "duel"
+  local form = s.me.form or "human"
+  local bal = s.me.bal and "up" or "down"
+  local eq = s.me.eq and "up" or "down"
+  local stopped = s.flags.stopped and "yes" or "no"
+
+  return string.format(
+    "enabled=%s stopped=%s mode=%s goal=%s profile=%s form=%s target=%s bal=%s eq=%s",
+    tostring(s.flags.enabled),
+    stopped,
+    mode,
+    goal,
+    profile,
+    form,
+    target,
+    bal,
+    eq
+  )
+end
+
+function commands.printHelp()
+  tell("Commands: rwda on|off|stop|resume|status|explain|tick|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|line <text>|replay <file>|clear target|reset")
+end
+
+function commands.handle(raw)
+  raw = (raw or ""):gsub("^%s+", ""):gsub("%s+$", "")
+  if raw == "" then
+    commands.printHelp()
+    return
+  end
+
+  local words = splitWords(raw)
+  local sub = (words[1] or ""):lower()
+
+  if sub == "on" then
+    rwda.enable()
+    return
+  end
+
+  if sub == "off" then
+    rwda.disable()
+    return
+  end
+
+  if sub == "stop" then
+    rwda.stop()
+    return
+  end
+
+  if sub == "resume" then
+    rwda.resume()
+    return
+  end
+
+  if sub == "status" then
+    tell(commands.statusText())
+    return
+  end
+
+  if sub == "explain" then
+    local reason = rwda.state.runtime.last_reason
+    if reason then
+      tell(string.format("last_action=%s (%s)", reason.summary or "no summary", reason.code or "no code"))
+    else
+      tell("No action reason recorded yet.")
+    end
+    return
+  end
+
+  if sub == "tick" or sub == "attack" then
+    local action = rwda.tick("manual")
+    if action then
+      tell(string.format("planned=%s", action.name or "unknown"))
+    else
+      tell("No action planned.")
+    end
+    return
+  end
+
+  if sub == "target" then
+    local target = raw:match("^target%s+(.+)$")
+    if target and target ~= "" then
+      rwda.setTarget(target)
+      tell("Target set to " .. target)
+    else
+      tell("Usage: rwda target <name>")
+    end
+    return
+  end
+
+  if sub == "clear" and (words[2] or ""):lower() == "target" then
+    rwda.state.clearTarget()
+    tell("Target state cleared.")
+    return
+  end
+
+  if sub == "mode" then
+    local mode = (words[2] or ""):lower()
+    if mode == "auto" or mode == "human" or mode == "dragon" then
+      rwda.state.setMode(mode)
+      tell("Mode set to " .. mode)
+    else
+      tell("Usage: rwda mode <auto|human|dragon>")
+    end
+    return
+  end
+
+  if sub == "goal" then
+    local goal = (words[2] or ""):lower()
+    if goal == "pressure" or goal == "limbprep" or goal == "impale_kill" or goal == "dragon_devour" then
+      rwda.state.setGoal(goal)
+      tell("Goal set to " .. goal)
+    else
+      tell("Usage: rwda goal <pressure|limbprep|impale_kill|dragon_devour>")
+    end
+    return
+  end
+
+  if sub == "profile" then
+    local profile = (words[2] or ""):lower()
+    local profileCfg = rwda.config.profiles and rwda.config.profiles[profile]
+    if profileCfg then
+      rwda.state.flags.profile = profile
+      if profileCfg.mode then
+        rwda.state.setMode(profileCfg.mode)
+      end
+      if profileCfg.goal then
+        rwda.state.setGoal(profileCfg.goal)
+      end
+      tell(string.format("Profile set to %s (mode=%s goal=%s)", profile, rwda.state.flags.mode, rwda.state.flags.goal))
+    else
+      tell("Usage: rwda profile <duel|group>")
+    end
+    return
+  end
+
+  if sub == "debug" then
+    local v = (words[2] or ""):lower()
+    rwda.state.flags.debug = (v == "on" or v == "1" or v == "true")
+    tell("Debug set to " .. tostring(rwda.state.flags.debug))
+    return
+  end
+
+  if sub == "line" then
+    local text = raw:match("^line%s+(.+)$")
+    if text and text ~= "" then
+      rwda.engine.parser.handleLine(text)
+      tell("Line parsed.")
+    else
+      tell("Usage: rwda line <raw combat line>")
+    end
+    return
+  end
+
+  if sub == "replay" then
+    local path = raw:match("^replay%s+(.+)$")
+    if not path or path == "" then
+      tell("Usage: rwda replay <path-to-log-file>")
+      return
+    end
+
+    if not rwda.engine or not rwda.engine.replay then
+      tell("Replay module not loaded.")
+      return
+    end
+
+    local result, err = rwda.engine.replay.runFile(path, {
+      auto_tick = rwda.config.replay and rwda.config.replay.auto_tick,
+      prompt_pattern = rwda.config.replay and rwda.config.replay.prompt_pattern,
+    })
+
+    if not result then
+      tell("Replay failed: " .. tostring(err))
+      return
+    end
+
+    tell(string.format(
+      "Replay done: lines=%d prompts=%d actions=%d last_action=%s",
+      result.lines,
+      result.prompts,
+      result.actions,
+      tostring(result.last_action or "nil")
+    ))
+    return
+  end
+
+  if sub == "reset" then
+    rwda.state.reset()
+    rwda.state.flags.profile = rwda.config.combat.profile or "duel"
+    rwda.state.flags.mode = rwda.config.combat.mode or "auto"
+    rwda.state.flags.goal = rwda.config.combat.goal or "limbprep"
+    tell("RWDA state reset.")
+    return
+  end
+
+  if sub == "queue" and (words[2] or ""):lower() == "clear" then
+    if rwda.engine and rwda.engine.queue then
+      rwda.engine.queue.clear("all")
+      tell("Server queue cleared.")
+    end
+    return
+  end
+
+  commands.printHelp()
+end
+
+function commands.registerAlias()
+  if commands._alias_id or type(tempAlias) ~= "function" then
+    return false
+  end
+
+  commands._alias_id = tempAlias("^rwda(?:\\s+(.+))?$", [[rwda.ui.commands.handle(matches[2] or "")]])
+  return true
+end
+
+function commands.unregisterAlias()
+  if not commands._alias_id or type(killAlias) ~= "function" then
+    return false
+  end
+
+  pcall(killAlias, commands._alias_id)
+  commands._alias_id = nil
+  return true
+end
