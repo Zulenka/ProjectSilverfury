@@ -50,6 +50,7 @@ local FILES = {
   "engine/executor.lua",
   "engine/parser.lua",
   "engine/replay.lua",
+  "integrations/legacy.lua",
   "integrations/svof.lua",
   "integrations/aklimb.lua",
   "integrations/groupcombat.lua",
@@ -99,7 +100,17 @@ function rwda.bootstrap(opts)
   rwda.state.bootstrap()
   applyConfigToState()
 
-  if rwda.config.integration.use_svof and rwda.integrations and rwda.integrations.svof then
+  local legacyActive = false
+  if rwda.config.integration.use_legacy and rwda.integrations and rwda.integrations.legacy then
+    legacyActive = rwda.integrations.legacy.detect()
+    if legacyActive then
+      rwda.integrations.legacy.syncFromGlobals()
+      rwda.integrations.legacy.registerHandlers()
+    end
+  end
+
+  local allowParallel = rwda.config.integration.allow_parallel_backends
+  if rwda.config.integration.use_svof and rwda.integrations and rwda.integrations.svof and (allowParallel or not legacyActive) then
     rwda.integrations.svof.detect()
     rwda.integrations.svof.syncFromGlobals()
     rwda.integrations.svof.registerHandlers()
@@ -169,7 +180,14 @@ function rwda.tick(source)
     return nil
   end
 
-  if rwda.state.integration.svof_present and rwda.integrations and rwda.integrations.svof then
+  local allowParallel = rwda.config.integration.allow_parallel_backends
+  local usingLegacy = rwda.state.integration.legacy_present
+
+  if usingLegacy and rwda.integrations and rwda.integrations.legacy then
+    rwda.integrations.legacy.syncFromGlobals()
+  end
+
+  if rwda.state.integration.svof_present and rwda.integrations and rwda.integrations.svof and (allowParallel or not usingLegacy) then
     rwda.integrations.svof.syncFromGlobals()
   end
 
@@ -220,6 +238,10 @@ function rwda.shutdown()
 
   if rwda.integrations and rwda.integrations.svof and rwda.integrations.svof.unregisterHandlers then
     pcall(rwda.integrations.svof.unregisterHandlers)
+  end
+
+  if rwda.integrations and rwda.integrations.legacy and rwda.integrations.legacy.unregisterHandlers then
+    pcall(rwda.integrations.legacy.unregisterHandlers)
   end
 
   rwda._bootstrapped = false

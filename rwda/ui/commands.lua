@@ -46,6 +46,12 @@ function commands.statusText()
   end
 
   local target = s.target.name or "(none)"
+  local backend = "none"
+  if s.integration.legacy_present then
+    backend = "legacy"
+  elseif s.integration.svof_present then
+    backend = "svof"
+  end
   local targetAvail = s.target.available and "yes" or "no"
   local targetAvailReason = s.target.unavailable_reason or "-"
   local mode = s.flags.mode or "auto"
@@ -57,9 +63,10 @@ function commands.statusText()
   local stopped = s.flags.stopped and "yes" or "no"
 
   return string.format(
-    "enabled=%s stopped=%s mode=%s goal=%s profile=%s form=%s target=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s",
+    "enabled=%s stopped=%s backend=%s mode=%s goal=%s profile=%s form=%s target=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s",
     tostring(s.flags.enabled),
     stopped,
+    backend,
     mode,
     goal,
     profile,

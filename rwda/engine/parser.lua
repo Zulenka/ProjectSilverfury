@@ -286,7 +286,14 @@ function parser.onPrompt()
   local state = rwda.state
   state.me.last_prompt_ms = rwda.util.now()
 
-  if rwda.integrations and rwda.integrations.svof and rwda.state.integration.svof_present then
+  local allowParallel = rwda.config.integration.allow_parallel_backends
+  local usingLegacy = rwda.state.integration.legacy_present
+
+  if rwda.integrations and rwda.integrations.legacy and usingLegacy then
+    rwda.integrations.legacy.syncFromGlobals()
+  end
+
+  if rwda.integrations and rwda.integrations.svof and rwda.state.integration.svof_present and (allowParallel or not usingLegacy) then
     rwda.integrations.svof.syncFromGlobals()
   end
 

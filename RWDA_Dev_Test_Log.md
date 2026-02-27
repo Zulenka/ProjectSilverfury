@@ -167,6 +167,40 @@ Validation:
   - Players without target => action `nil`, reason `gmcp_not_in_room`.
   - Players containing target => planner resumed (`dsl`).
 
+### 2026-02-27 - Reduced auto behavior defaults
+Change:
+- Set `combat.auto_tick_on_prompt = false` by default.
+- Set `parser.use_temp_line_trigger = false` by default.
+
+Reason:
+- Keep RWDA in explicit/manual tick mode by default.
+- Avoid potential side effects from a global catch-all line trigger in mixed-script profiles.
+
+Result:
+- Parsing still works through GMCP and data-receive event handlers.
+- Offense only fires when user explicitly calls `rwda tick` (unless user enables auto tick).
+
+### 2026-02-27 - Migration to Legacy-first integration
+Context:
+- User requested migration away from SVO-centric runtime due maintenance concerns.
+
+Implemented:
+- Added `rwda/integrations/legacy.lua` adapter.
+- RWDA bootstrap now prefers Legacy integration (`use_legacy = true` by default).
+- SVO integration remains available as optional fallback (`use_svof = false` default).
+- Parallel Legacy+SVO syncing is disabled by default (`allow_parallel_backends = false`) to avoid mixed-state conflicts.
+- Legacy sync sources:
+  - `Legacy.Curing.Affs`
+  - `Legacy.Curing.Defs.current` (with tracking fallback)
+  - `Legacy.Curing.bal`
+  - GMCP vitals/aff/def events
+- Prompt/tick sync now pulls Legacy state first.
+- Config module rebuilt with per-key defaults so old in-memory tables do not block newly added keys.
+- `rwda status` now reports active backend (`legacy`, `svof`, or `none`).
+
+Operational expectation:
+- RWDA offense runs alongside Legacy curing/defence stack without requiring SVO.
+
 ### 2026-02-27 - Runtime incident: alias missing while engine still active
 Symptoms:
 - Entering `rwda ...` reached server (`I'm sorry, I don't know what "rwda" does.`).
