@@ -292,6 +292,102 @@ Toggle:
 lua rwda.config.integration.auto_enable_with_legacy = false
 ```
 
+### 2026-02-27 - Command-based live config controls
+Implemented:
+- Added runtime command controls in `rwda/ui/commands.lua`:
+  - `rwda show config`
+  - `rwda set breath <type>`
+  - `rwda set venoms <main> <off>`
+  - `rwda set autostart <on|off>`
+  - `rwda set prompttick <on|off>`
+- Help text updated to include new commands.
+- README command list updated.
+- Command-list generator mapping updated and regenerated.
+
+Validation steps:
+1. `rwda reload`
+2. `rwda show config`
+3. `rwda set breath lightning`
+4. `rwda set venoms curare epteth`
+5. `rwda set autostart on`
+6. `rwda set prompttick off`
+7. `rwda show config`
+
+Expected:
+- Config changes are reflected immediately in `rwda show config`.
+
+### 2026-02-27 - Persistent config save/load
+Implemented:
+- Added config persistence methods in `rwda/config.lua`:
+  - `rwda.config.savePersisted()`
+  - `rwda.config.loadPersisted()`
+  - `rwda.config.persistedExists()`
+- Added bootstrap auto-load of persisted config in `rwda/init.lua` (when file exists and persistence auto-load is enabled).
+- Added new commands:
+  - `rwda save config`
+  - `rwda load config`
+
+Default persistence path:
+- `<MudletHome>\\rwda_config.lua`
+
+Validation steps:
+1. `rwda set breath lightning`
+2. `rwda set venoms curare epteth`
+3. `rwda save config`
+4. `rwda reload`
+5. `rwda load config` (optional, bootstrap auto-load also applies)
+6. `rwda show config`
+
+Expected:
+- Saved settings remain after reload/reconnect.
+
+### 2026-02-27 - Built-in offline selftest harness
+Implemented:
+- Added module: `rwda/engine/selftest.lua`
+- Added command: `rwda selftest`
+- Added selftest coverage for:
+  - human shield-strip choice (`razeslash`)
+  - dragon summon-first choice (`summon`)
+  - dragon prone setup (`gust`)
+  - dragon fast devour window (`devour`)
+  - unavailable target offense hold (`target_unavailable`)
+
+Usage:
+```lua
+rwda selftest
+```
+
+Expected:
+- Command prints pass/fail counts and one line per test case.
+
+### 2026-02-27 - Group target adapter event hooks
+Implemented:
+- Added configurable event names in `config.integration.group_target_events`.
+- `rwda/integrations/groupcombat.lua` now supports:
+  - `registerHandlers()`
+  - `unregisterHandlers()`
+  - event callback sync (`onTargetEvent`)
+- Bootstrap now registers group handlers when group layer is enabled.
+- Tick path now supports late attachment to group target backend and logs attach.
+
+Default watched event names:
+- `GroupTargetChanged`
+- `group target changed`
+- `gcom target changed`
+- `ga target changed`
+
+### 2026-02-27 - Mudlet package build script
+Implemented:
+- Added `rwda/tools/build_mpackage.ps1`.
+- Script builds `dist/RWDA_Bootstrap.mpackage` from:
+  - `RWDA_Bootstrap.xml`
+  - generated package `config.lua` metadata
+
+Usage:
+```powershell
+pwsh -File rwda/tools/build_mpackage.ps1
+```
+
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:
   - defence text variants,

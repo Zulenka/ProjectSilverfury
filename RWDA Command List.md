@@ -2,7 +2,7 @@
 
 Auto-generated from rwda/ui/commands.lua.
 
-Last generated: 2026-02-27 17:19:46 -05:00
+Last generated: 2026-02-27 23:37:02 -05:00
 
 ## Runtime Commands
 
@@ -16,11 +16,19 @@ Last generated: 2026-02-27 17:19:46 -05:00
 | rwda status | Print current runtime state snapshot. | - |
 | rwda explain | Show reason/code for last planned action. | - |
 | rwda tick | Run one planning/execution cycle immediately. | Equivalent alias: rwda attack. |
+| rwda selftest | Run built-in offline planner regression tests. | - |
 | rwda target <name> | Set combat target name. | - |
 | rwda mode <auto|human|dragon> | Force or auto-select combat mode. | - |
 | rwda goal <pressure|limbprep|impale_kill|dragon_devour> | Set planner goal. | - |
 | rwda profile <duel|group> | Apply profile presets for mode/goal. | - |
 | rwda debug <on|off> | Toggle verbose trace logging. | - |
+| rwda set breath <type> | Set dragon summon breath type. | - |
+| rwda set venoms <main> <off> | Set primary DSL venom pair. | - |
+| rwda set autostart <on|off> | Toggle auto-enable with LegacyLoaded. | - |
+| rwda set prompttick <on|off> | Toggle automatic tick on prompt. | - |
+| rwda show config | Print current live RWDA config highlights. | - |
+| rwda save config | Persist current RWDA config to disk. | - |
+| rwda load config | Load persisted RWDA config from disk. | - |
 | rwda line <text> | Feed one raw combat line into parser. | - |
 | rwda replay <file> | Replay a combat log file through parser/planner. | - |
 | rwda clear target | Clear target state and availability locks. | - |

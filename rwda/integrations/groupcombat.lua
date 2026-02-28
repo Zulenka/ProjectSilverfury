@@ -1,6 +1,8 @@
 rwda = rwda or {}
 rwda.integrations = rwda.integrations or {}
-rwda.integrations.groupcombat = rwda.integrations.groupcombat or {}
+rwda.integrations.groupcombat = rwda.integrations.groupcombat or {
+  _handler_ids = {},
+}
 
 local adapter = rwda.integrations.groupcombat
 
@@ -39,4 +41,42 @@ function adapter.sync()
   end
 
   return false
+end
+
+function adapter.onTargetEvent()
+  adapter.sync()
+end
+
+function adapter.registerHandlers()
+  if type(registerAnonymousEventHandler) ~= "function" then
+    return false
+  end
+
+  if next(adapter._handler_ids) then
+    return true
+  end
+
+  local events = (rwda.config and rwda.config.integration and rwda.config.integration.group_target_events) or {}
+  for i, eventName in ipairs(events) do
+    if type(eventName) == "string" and eventName ~= "" then
+      local ok, id = pcall(registerAnonymousEventHandler, eventName, "rwda.integrations.groupcombat.onTargetEvent")
+      if ok and id then
+        adapter._handler_ids[i] = id
+      end
+    end
+  end
+
+  return true
+end
+
+function adapter.unregisterHandlers()
+  if type(killAnonymousEventHandler) ~= "function" then
+    return false
+  end
+
+  for _, id in pairs(adapter._handler_ids) do
+    pcall(killAnonymousEventHandler, id)
+  end
+  adapter._handler_ids = {}
+  return true
 end

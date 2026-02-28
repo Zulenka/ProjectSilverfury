@@ -50,6 +50,7 @@ local FILES = {
   "engine/executor.lua",
   "engine/parser.lua",
   "engine/replay.lua",
+  "engine/selftest.lua",
   "integrations/legacy.lua",
   "integrations/svof.lua",
   "integrations/aklimb.lua",
@@ -76,7 +77,7 @@ function rwda.loadAll(basePath)
   end
 end
 
-local function applyConfigToState()
+function rwda.applyConfigToState()
   rwda.state.flags.mode = rwda.config.combat.mode or "auto"
   rwda.state.flags.goal = rwda.config.combat.goal or "limbprep"
   rwda.state.flags.profile = rwda.config.combat.profile or "duel"
@@ -93,12 +94,21 @@ function rwda.bootstrap(opts)
     rwda.loadAll(opts.base_path)
   end
 
+  if rwda.config and rwda.config.persistence and rwda.config.persistence.auto_load and rwda.config.persistedExists and rwda.config.loadPersisted then
+    if rwda.config.persistedExists() then
+      local ok, err = rwda.config.loadPersisted()
+      if not ok and rwda.util and rwda.util.log then
+        rwda.util.log("warn", "Failed to load persisted RWDA config: %s", tostring(err))
+      end
+    end
+  end
+
   if not rwda.state or not rwda.state.bootstrap then
     error("RWDA state module is not loaded.")
   end
 
   rwda.state.bootstrap()
-  applyConfigToState()
+  rwda.applyConfigToState()
 
   local legacyActive = false
   if rwda.config.integration.use_legacy and rwda.integrations and rwda.integrations.legacy then
@@ -126,6 +136,7 @@ function rwda.bootstrap(opts)
 
   if rwda.config.integration.use_group_layer and rwda.integrations and rwda.integrations.groupcombat then
     rwda.integrations.groupcombat.detect()
+    rwda.integrations.groupcombat.registerHandlers()
   end
 
   if rwda.engine and rwda.engine.parser then
@@ -200,6 +211,13 @@ function rwda.tick(source)
     end
   end
 
+  if rwda.config.integration.use_group_layer and rwda.integrations and rwda.integrations.groupcombat and not rwda.state.integration.group_present then
+    if rwda.integrations.groupcombat.detect() then
+      rwda.integrations.groupcombat.registerHandlers()
+      rwda.util.log("info", "RWDA attached to group target backend.")
+    end
+  end
+
   local allowParallel = rwda.config.integration.allow_parallel_backends
   local usingLegacy = rwda.state.integration.legacy_present
 
@@ -262,6 +280,10 @@ function rwda.shutdown()
 
   if rwda.integrations and rwda.integrations.legacy and rwda.integrations.legacy.unregisterHandlers then
     pcall(rwda.integrations.legacy.unregisterHandlers)
+  end
+
+  if rwda.integrations and rwda.integrations.groupcombat and rwda.integrations.groupcombat.unregisterHandlers then
+    pcall(rwda.integrations.groupcombat.unregisterHandlers)
   end
 
   rwda._bootstrapped = false

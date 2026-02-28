@@ -43,6 +43,13 @@ RWDA does not send herb/salve/sip cures when either Legacy or SVO integration is
   - `lua rwda\\tools\\replay_cli.lua C:\\path\\to\\combat.log TargetName`
 - A tiny sample file is included at `rwda/tools/sample_replay.log`.
 
+## Packaging
+- Build Mudlet bootstrap package:
+  - `pwsh -File rwda/tools/build_mpackage.ps1`
+- Output:
+  - `dist/RWDA_Bootstrap.mpackage`
+- Import that `.mpackage` in Mudlet. It installs `RWDA_Bootstrap.xml`, which loads `rwda/init.lua` from your configured filesystem paths.
+
 ## Commands
 - `rwda on`
 - `rwda off`
@@ -55,7 +62,15 @@ RWDA does not send herb/salve/sip cures when either Legacy or SVO integration is
 - `rwda status`
 - `rwda explain`
 - `rwda tick`
+- `rwda selftest`
+- `rwda show config`
+- `rwda set breath <type>`
+- `rwda set venoms <main> <off>`
+- `rwda set autostart <on|off>`
+- `rwda set prompttick <on|off>`
 - `rwda queue clear`
+- `rwda save config`
+- `rwda load config`
 - `rwda line <raw combat line>`
 - `rwda replay <path-to-log-file>`
 - `rwda clear target`

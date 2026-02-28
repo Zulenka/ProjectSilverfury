@@ -32,6 +32,37 @@ local function trim(input)
   return input:gsub("^%s+", ""):gsub("%s+$", "")
 end
 
+local function parseBoolWord(word)
+  word = tostring(word or ""):lower()
+  if word == "on" or word == "true" or word == "1" or word == "yes" then
+    return true, true
+  end
+  if word == "off" or word == "false" or word == "0" or word == "no" then
+    return true, false
+  end
+  return false, nil
+end
+
+local function formatCurrentConfig()
+  local cfg = rwda.config or {}
+  local dragon = cfg.dragon or {}
+  local integration = cfg.integration or {}
+  local combat = cfg.combat or {}
+  local mainVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_main and cfg.runewarden.venoms.dsl_main[1] or "curare"
+  local offVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_off and cfg.runewarden.venoms.dsl_off[1] or "epteth"
+
+  return string.format(
+    "cfg breath=%s dsl=%s/%s autostart_legacy=%s prompttick=%s use_legacy=%s use_svof=%s",
+    tostring(dragon.breath_type or "lightning"),
+    tostring(mainVenom),
+    tostring(offVenom),
+    tostring(integration.auto_enable_with_legacy ~= false),
+    tostring(combat.auto_tick_on_prompt == true),
+    tostring(integration.use_legacy ~= false),
+    tostring(integration.use_svof == true)
+  )
+end
+
 function commands.statusText()
   local s = rwda.state
   local function defStatus(name)
@@ -82,7 +113,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|explain|tick|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|line <text>|replay <file>|clear target|reset")
+  tell("Commands: rwda on|off|stop|resume|reload|status|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set prompttick <on|off>|show config|save config|load config|line <text>|replay <file>|clear target|reset")
 end
 
 function commands.handle(raw)
@@ -154,6 +185,20 @@ function commands.handle(raw)
     return
   end
 
+  if sub == "selftest" then
+    if not rwda.engine or not rwda.engine.selftest or not rwda.engine.selftest.run then
+      tell("Selftest module not loaded.")
+      return
+    end
+
+    local report = rwda.engine.selftest.run()
+    tell(string.format("selftest passed=%d failed=%d total=%d", report.passed, report.failed, report.total))
+    for _, row in ipairs(report.rows or {}) do
+      tell(string.format("selftest %s: %s (%s)", row.ok and "ok" or "fail", tostring(row.name), tostring(row.detail)))
+    end
+    return
+  end
+
   if sub == "target" then
     local target = raw:match("^target%s+(.+)$")
     target = trim(target)
@@ -216,6 +261,105 @@ function commands.handle(raw)
     local v = (words[2] or ""):lower()
     rwda.state.flags.debug = (v == "on" or v == "1" or v == "true")
     tell("Debug set to " .. tostring(rwda.state.flags.debug))
+    return
+  end
+
+  if sub == "set" then
+    local key = (words[2] or ""):lower()
+    if key == "breath" then
+      local breath = trim(raw:match("^set%s+breath%s+(.+)$"))
+      if breath == "" then
+        tell("Usage: rwda set breath <type>")
+        return
+      end
+      rwda.config.dragon = rwda.config.dragon or {}
+      rwda.config.dragon.breath_type = breath
+      tell("Breath type set to " .. breath)
+      return
+    end
+
+    if key == "venoms" then
+      local main = trim(words[3] or "")
+      local off = trim(words[4] or "")
+      if main == "" or off == "" then
+        tell("Usage: rwda set venoms <main> <off>")
+        return
+      end
+
+      rwda.config.runewarden = rwda.config.runewarden or {}
+      rwda.config.runewarden.venoms = rwda.config.runewarden.venoms or {}
+      rwda.config.runewarden.venoms.dsl_main = rwda.config.runewarden.venoms.dsl_main or {}
+      rwda.config.runewarden.venoms.dsl_off = rwda.config.runewarden.venoms.dsl_off or {}
+      rwda.config.runewarden.venoms.dsl_main[1] = main
+      rwda.config.runewarden.venoms.dsl_off[1] = off
+      tell(string.format("DSL venoms set to %s/%s", main, off))
+      return
+    end
+
+    if key == "autostart" then
+      local ok, value = parseBoolWord(words[3])
+      if not ok then
+        tell("Usage: rwda set autostart <on|off>")
+        return
+      end
+      rwda.config.integration = rwda.config.integration or {}
+      rwda.config.integration.auto_enable_with_legacy = value
+      tell("Legacy autostart set to " .. tostring(value))
+      return
+    end
+
+    if key == "prompttick" then
+      local ok, value = parseBoolWord(words[3])
+      if not ok then
+        tell("Usage: rwda set prompttick <on|off>")
+        return
+      end
+      rwda.config.combat = rwda.config.combat or {}
+      rwda.config.combat.auto_tick_on_prompt = value
+      tell("Prompt auto-tick set to " .. tostring(value))
+      return
+    end
+
+    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set autostart <on|off> | set prompttick <on|off>")
+    return
+  end
+
+  if sub == "show" and (words[2] or ""):lower() == "config" then
+    tell(formatCurrentConfig())
+    return
+  end
+
+  if sub == "save" and (words[2] or ""):lower() == "config" then
+    if not rwda.config or not rwda.config.savePersisted then
+      tell("Config persistence unavailable.")
+      return
+    end
+
+    local ok, result = rwda.config.savePersisted()
+    if ok then
+      tell("Config saved to " .. tostring(result))
+    else
+      tell("Save failed: " .. tostring(result))
+    end
+    return
+  end
+
+  if sub == "load" and (words[2] or ""):lower() == "config" then
+    if not rwda.config or not rwda.config.loadPersisted then
+      tell("Config persistence unavailable.")
+      return
+    end
+
+    local ok, result = rwda.config.loadPersisted()
+    if not ok then
+      tell("Load failed: " .. tostring(result))
+      return
+    end
+
+    if rwda.applyConfigToState then
+      rwda.applyConfigToState()
+    end
+    tell("Config loaded from " .. tostring(result))
     return
   end
 
