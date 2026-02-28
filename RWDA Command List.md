@@ -2,7 +2,7 @@
 
 Auto-generated from rwda/ui/commands.lua.
 
-Last generated: 2026-02-28 01:14:15 -05:00
+Last generated: 2026-02-28 01:25:13 -05:00
 
 ## Runtime Commands
 
@@ -36,6 +36,7 @@ Last generated: 2026-02-28 01:14:15 -05:00
 | rwda line <text> | Feed one raw combat line into parser. | - |
 | rwda replay <file> | Replay a combat log file through parser/planner. | - |
 | rwda replayassert <file> <expected_last_action> [min_actions] | Replay with assertions and fail details. | - |
+| rwda replaysuite <suite_file> | Run a multi-case replay assertion suite file. | - |
 | rwda clear target | Clear target state and availability locks. | - |
 | rwda reset | Reset RWDA state to defaults. | - |
 | rwda queue clear | Clear all queued server commands. | Clears Achaea server queue (clearqueue all). |

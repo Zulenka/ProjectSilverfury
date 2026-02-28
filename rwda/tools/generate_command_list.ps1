@@ -84,6 +84,7 @@ $descriptions = @{
   "line <text>" = "Feed one raw combat line into parser."
   "replay <file>" = "Replay a combat log file through parser/planner."
   "replayassert <file> <expected_last_action> [min_actions]" = "Replay with assertions and fail details."
+  "replaysuite <suite_file>" = "Run a multi-case replay assertion suite file."
   "clear target" = "Clear target state and availability locks."
   "reset" = "Reset RWDA state to defaults."
   "queue clear" = "Clear all queued server commands."

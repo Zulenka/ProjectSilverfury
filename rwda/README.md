@@ -35,6 +35,7 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - Example:
   - `lua rwda\\tools\\replay_cli.lua C:\\path\\to\\combat.log TargetName`
 - A tiny sample file is included at `rwda/tools/sample_replay.log`.
+- Sample assertion suite file: `rwda/tools/sample_replay_suite.lua`
 
 ## Packaging
 - Build Mudlet bootstrap package:
@@ -71,6 +72,7 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - `rwda line <raw combat line>`
 - `rwda replay <path-to-log-file>`
 - `rwda replayassert <path> <expected_last_action> [min_actions]`
+- `rwda replaysuite <path-to-suite-file>`
 - `rwda clear target`
 - `rwda reset`
 

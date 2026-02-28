@@ -115,7 +115,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set prompttick <on|off>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|clear target|reset")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set prompttick <on|off>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset")
 end
 
 function commands.handle(raw)
@@ -495,6 +495,31 @@ function commands.handle(raw)
       for _, msg in ipairs(result.assertion_failures or {}) do
         tell("assert: " .. tostring(msg))
       end
+    end
+    return
+  end
+
+  if sub == "replaysuite" then
+    local suitePath = trim(raw:match("^replaysuite%s+(.+)$"))
+    if suitePath == "" then
+      tell("Usage: rwda replaysuite <path-to-suite-file>")
+      return
+    end
+
+    if not rwda.engine or not rwda.engine.replay or not rwda.engine.replay.runSuite then
+      tell("Replay module not loaded.")
+      return
+    end
+
+    local summary, err = rwda.engine.replay.runSuite(suitePath)
+    if not summary then
+      tell("Replay suite failed: " .. tostring(err))
+      return
+    end
+
+    tell(string.format("Replay suite: passed=%d failed=%d total=%d", tonumber(summary.passed or 0), tonumber(summary.failed or 0), tonumber(summary.total or 0)))
+    for _, row in ipairs(summary.cases or {}) do
+      tell(string.format("suite %s: %s (%s)", row.passed and "ok" or "fail", tostring(row.name), tostring(row.detail)))
     end
     return
   end

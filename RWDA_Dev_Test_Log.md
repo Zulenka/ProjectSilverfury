@@ -442,6 +442,26 @@ Validation:
 - CLI selftest passed.
 - Replay CLI passed.
 
+### 2026-02-28 - Replay assertion suite runner
+Implemented:
+- Added replay suite API:
+  - `rwda.engine.replay.runSuite(path)`
+- Added command:
+  - `rwda replaysuite <path-to-suite-file>`
+- Added sample suite file:
+  - `rwda/tools/sample_replay_suite.lua`
+
+Suite format:
+- Lua file returning `{ cases = { ... } }`
+- Per case:
+  - `name`
+  - `log`
+  - `target` (optional)
+  - `assertions` (optional)
+
+Validation:
+- Sample suite passes against `rwda/tools/sample_replay.log`.
+
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:
   - defence text variants,

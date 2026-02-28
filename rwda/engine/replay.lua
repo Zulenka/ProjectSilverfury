@@ -126,3 +126,102 @@ function replay.runFileWithAssertions(path, opts)
 
   return result
 end
+
+local function loadSuite(path)
+  local chunk, err = loadfile(path)
+  if not chunk then
+    return nil, err
+  end
+
+  local ok, suite = pcall(chunk)
+  if not ok then
+    return nil, suite
+  end
+
+  if type(suite) ~= "table" then
+    return nil, "suite_not_table"
+  end
+
+  if type(suite.cases) == "table" then
+    return suite.cases
+  end
+
+  return suite
+end
+
+function replay.runSuite(path, opts)
+  opts = opts or {}
+  local cases, err = loadSuite(path)
+  if not cases then
+    return nil, err
+  end
+
+  local summary = {
+    total = 0,
+    passed = 0,
+    failed = 0,
+    cases = {},
+  }
+
+  for i, case in ipairs(cases) do
+    summary.total = summary.total + 1
+
+    if rwda.state and rwda.state.reset then
+      rwda.state.reset()
+      if rwda.applyConfigToState then
+        rwda.applyConfigToState()
+      end
+      if rwda.enable then
+        rwda.enable()
+      end
+    end
+
+    if case.target and case.target ~= "" and rwda.setTarget then
+      rwda.setTarget(case.target)
+    end
+
+    local runOpts = {
+      auto_tick = case.auto_tick,
+      prompt_pattern = case.prompt_pattern,
+      assertions = case.assertions,
+    }
+
+    if runOpts.auto_tick == nil then
+      runOpts.auto_tick = rwda.config.replay and rwda.config.replay.auto_tick
+    end
+
+    if not runOpts.prompt_pattern then
+      runOpts.prompt_pattern = rwda.config.replay and rwda.config.replay.prompt_pattern
+    end
+
+    local result, runErr = replay.runFileWithAssertions(case.log, runOpts)
+    local passed = false
+    local detail = ""
+    if not result then
+      detail = tostring(runErr)
+    else
+      if type(case.assertions) == "table" then
+        passed = not not result.assertions_ok
+        detail = passed and "assertions_ok" or table.concat(result.assertion_failures or {}, "; ")
+      else
+        passed = true
+        detail = "no_assertions"
+      end
+    end
+
+    summary.cases[#summary.cases + 1] = {
+      name = case.name or ("case_" .. tostring(i)),
+      passed = passed,
+      detail = detail,
+      result = result,
+    }
+
+    if passed then
+      summary.passed = summary.passed + 1
+    else
+      summary.failed = summary.failed + 1
+    end
+  end
+
+  return summary
+end
