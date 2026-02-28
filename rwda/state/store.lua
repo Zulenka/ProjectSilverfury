@@ -283,7 +283,8 @@ function state.decayTargetDefences(nowMs)
 
   nowMs = nowMs or util.now()
   for name, def in pairs(state.target.defs) do
-    if def.active and def.last_seen and def.last_seen > 0 then
+    local hasSignal = def.active or ((def.confidence or 0) > 0)
+    if hasSignal and def.last_seen and def.last_seen > 0 then
       local spec = rwda.data.defences[name]
       local decay = spec and spec.decay_seconds or 0
       if decay and decay > 0 then
@@ -294,7 +295,11 @@ function state.decayTargetDefences(nowMs)
           def.source = "decay"
         else
           local remain = 1 - (ageSec / decay)
-          def.confidence = math.max(0.05, util.round(remain, 3))
+          if def.active then
+            def.confidence = math.max(0.05, util.round(remain, 3))
+          else
+            def.confidence = math.max(0, util.round(remain, 3))
+          end
         end
       end
     end

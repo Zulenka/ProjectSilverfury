@@ -156,6 +156,9 @@ config.parser = config.parser or {}
 setDefault(config.parser, "use_temp_line_trigger", false)
 setDefault(config.parser, "use_data_events", true)
 setDefault(config.parser, "decay_target_defences", true)
+setDefault(config.parser, "infer_defence_loss_on_aggressive", true)
+setDefault(config.parser, "infer_defence_loss_on_move", true)
+setDefault(config.parser, "inferred_defence_confidence", 0.35)
 config.parser.form_detect = config.parser.form_detect or {}
 setDefault(config.parser.form_detect, "enabled", true)
 config.parser.form_detect.dragon_on = config.parser.form_detect.dragon_on or {

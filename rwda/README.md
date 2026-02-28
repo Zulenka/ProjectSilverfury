@@ -81,6 +81,7 @@ RWDA does not send herb/salve/sip cures when either Legacy or SVO integration is
 - Execution defaults to Achaea server queueing (`queue addclear`), with `freestand` used for devour attempts.
 - `rwda stop` sets a kill switch and can clear all server queues.
 - `rwda explain` reports the last planned/sent action, while `rwda status` reports current tracked state (including target shield/rebounding flags).
+- Defence inference can mark uncertain drops as inactive with confidence; these display as `0(x.xx)` in `rwda status`.
 
 ## Known next steps
 - Tune exact combat-line patterns from your own logs for highest-confidence limb and defence updates.

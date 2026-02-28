@@ -73,6 +73,9 @@ function commands.statusText()
     if d.active then
       return string.format("1(%.2f)", d.confidence or 1.0)
     end
+    if d.confidence and d.confidence > 0 then
+      return string.format("0(%.2f)", d.confidence)
+    end
     return "0"
   end
 

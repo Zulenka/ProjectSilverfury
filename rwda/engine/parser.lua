@@ -80,6 +80,119 @@ local function detectFormFromText(lowerLine)
   return nil
 end
 
+local AGGRESSIVE_VERBS = {
+  attack = true,
+  attacks = true,
+  blast = true,
+  blasts = true,
+  bite = true,
+  bites = true,
+  cast = true,
+  casts = true,
+  claw = true,
+  claws = true,
+  cut = true,
+  cuts = true,
+  disembowel = true,
+  disembowels = true,
+  drive = true,
+  drives = true,
+  gaze = true,
+  gazes = true,
+  gesture = true,
+  gestures = true,
+  gust = true,
+  gusts = true,
+  hit = true,
+  hits = true,
+  impale = true,
+  impales = true,
+  intimidate = true,
+  intimidates = true,
+  kick = true,
+  kicks = true,
+  lash = true,
+  lashes = true,
+  lunge = true,
+  lunges = true,
+  point = true,
+  points = true,
+  punch = true,
+  punches = true,
+  raze = true,
+  razes = true,
+  rend = true,
+  rends = true,
+  slash = true,
+  slashes = true,
+  smash = true,
+  smashes = true,
+  stab = true,
+  stabs = true,
+  stare = true,
+  stares = true,
+  strike = true,
+  strikes = true,
+  summon = true,
+  summons = true,
+  swipe = true,
+  swipes = true,
+  tailsmash = true,
+  tailsmashes = true,
+  throw = true,
+  throws = true,
+}
+
+local function targetRemainderFromLine(line)
+  local target = rwda.state and rwda.state.target and rwda.state.target.name
+  if not target or target == "" then
+    return nil
+  end
+
+  local lineNorm = normalizeName(line)
+  local targetNorm = normalizeName(target)
+  if lineNorm == "" or targetNorm == "" then
+    return nil
+  end
+
+  local prefix = targetNorm .. " "
+  if lineNorm:sub(1, #prefix) == prefix then
+    return lineNorm:sub(#prefix + 1)
+  end
+
+  local possessivePrefix = targetNorm .. "'s "
+  if lineNorm:sub(1, #possessivePrefix) == possessivePrefix then
+    return lineNorm:sub(#possessivePrefix + 1)
+  end
+
+  return nil
+end
+
+local function isLikelyTargetAggressive(line)
+  local rem = targetRemainderFromLine(line)
+  if not rem or rem == "" then
+    return false
+  end
+
+  local verb = rem:match("^(%a+)")
+  if verb and AGGRESSIVE_VERBS[verb] then
+    return true
+  end
+
+  if rem:find(" hits you", 1, true)
+    or rem:find(" strikes you", 1, true)
+    or rem:find(" slashes you", 1, true)
+    or rem:find(" attacks you", 1, true)
+    or rem:find(" stares at you", 1, true)
+    or rem:find(" points at you", 1, true)
+    or rem:find(" gestures toward you", 1, true)
+    or rem:find(" gestures at you", 1, true) then
+    return true
+  end
+
+  return false
+end
+
 local function isTarget(who)
   local target = rwda.state and rwda.state.target and rwda.state.target.name
   if not target or target == "" or type(who) ~= "string" then
@@ -258,6 +371,47 @@ local function markTargetMissing(reason)
     and rwda.engine and rwda.engine.queue then
     rwda.engine.queue.clear("all")
   end
+end
+
+local function inferTargetDefenceLoss(kind, line)
+  local parserCfg = rwda.config and rwda.config.parser or {}
+  if kind == "aggressive" and parserCfg.infer_defence_loss_on_aggressive == false then
+    return false
+  end
+  if kind == "move" and parserCfg.infer_defence_loss_on_move == false then
+    return false
+  end
+
+  local specs = rwda.data and rwda.data.defences or {}
+  local targetName = rwda.state and rwda.state.target and rwda.state.target.name
+  local confidence = tonumber(parserCfg.inferred_defence_confidence) or 0.35
+  local changed = false
+
+  for defName, spec in pairs(specs) do
+    local shouldDrop = false
+    if kind == "aggressive" and spec.drop_on_aggressive_act then
+      shouldDrop = true
+    elseif kind == "move" and spec.drop_on_move then
+      shouldDrop = true
+    end
+
+    if shouldDrop then
+      local d = rwda.state.target.defs and rwda.state.target.defs[defName]
+      if d and d.active then
+        rwda.state.setTargetDefence(defName, false, confidence, "assumed_" .. kind)
+        emit("DEF_ASSUMED_LOST", {
+          who = targetName,
+          defence = defName,
+          reason = kind,
+          confidence = confidence,
+          line = line,
+        })
+        changed = true
+      end
+    end
+  end
+
+  return changed
 end
 
 function parser.onGMCPVitals()
@@ -481,6 +635,11 @@ function parser.handleLine(line)
     return
   end
 
+  if isLikelyTargetAggressive(line) then
+    markTargetSeen("aggressive")
+    inferTargetDefenceLoss("aggressive", line)
+  end
+
   local proneHit = line:match("^(.+) is knocked off balance and falls to the ground%.$")
     or line:match("^(.+) is hurled to the ground%.$")
     or line:match("^(.+) falls to the ground%.$")
@@ -593,6 +752,7 @@ function parser.handleLine(line)
 
   local escape = line:match("^(.+) leaves [a-z]+%.$")
   if escape and isTarget(escape) then
+    inferTargetDefenceLoss("move", line)
     markTargetMissing("left_room")
     state.target.last_seen = rwda.util.now()
     emit("TARGET_MOVED", { who = escape })

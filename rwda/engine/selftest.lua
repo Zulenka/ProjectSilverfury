@@ -53,6 +53,30 @@ function selftest.run()
   rows[#rows + 1] = expectAction("human strips shield first", "razeslash")
 
   resetBaseline()
+  rwda.state.setTargetDefence("shield", true, 1.0, "selftest")
+  rwda.state.setTargetDefence("rebounding", true, 1.0, "selftest")
+  rwda.engine.parser.handleLine("Bainz slashes viciously at you.")
+  local sDef = rwda.state.target.defs.shield
+  local rDef = rwda.state.target.defs.rebounding
+  if sDef and (not sDef.active) and (sDef.confidence or 0) > 0 and rDef and (not rDef.active) and (rDef.confidence or 0) > 0 then
+    rows[#rows + 1] = resultRow("aggressive inference drops shield/rebounding", true, "assumed_aggressive")
+  else
+    rows[#rows + 1] = resultRow("aggressive inference drops shield/rebounding", false, "expected inactive defs with confidence > 0")
+  end
+
+  resetBaseline()
+  rwda.state.setTargetDefence("shield", true, 1.0, "selftest")
+  rwda.state.setTargetDefence("rebounding", true, 1.0, "selftest")
+  rwda.engine.parser.handleLine("Bainz leaves north.")
+  local moveShield = rwda.state.target.defs.shield
+  local moveRebound = rwda.state.target.defs.rebounding
+  if moveShield and (not moveShield.active) and (moveShield.confidence or 0) > 0 and moveRebound and moveRebound.active then
+    rows[#rows + 1] = resultRow("move inference drops shield but keeps rebounding", true, "assumed_move")
+  else
+    rows[#rows + 1] = resultRow("move inference drops shield but keeps rebounding", false, "expected shield down and rebounding still active")
+  end
+
+  resetBaseline()
   rwda.state.flags.mode = "dragon"
   rwda.state.me.form = "dragon"
   rwda.state.me.dragon.breath_summoned = false

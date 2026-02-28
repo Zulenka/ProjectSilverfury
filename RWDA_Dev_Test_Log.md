@@ -388,6 +388,23 @@ Usage:
 pwsh -File rwda/tools/build_mpackage.ps1
 ```
 
+### 2026-02-27 - Defence confidence inference (assumed drops)
+Implemented:
+- Added parser inference controls in `rwda/config.lua`:
+  - `config.parser.infer_defence_loss_on_aggressive = true`
+  - `config.parser.infer_defence_loss_on_move = true`
+  - `config.parser.inferred_defence_confidence = 0.35`
+- Parser now infers defence loss when target performs likely aggressive acts:
+  - drops shield/rebounding to inactive with partial confidence (source `assumed_aggressive`)
+- Parser now infers shield loss on target movement lines (source `assumed_move`), while keeping rebounding active on move.
+- `rwda status` now shows inactive defence confidence as `0(<confidence>)`.
+- Defence confidence decay now applies to both active and inactive tracked defences over `decay_seconds`.
+
+Validation:
+- Extended `rwda selftest` with inference checks:
+  - aggressive line drops shield/rebounding by assumption
+  - move line drops shield but not rebounding
+
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:
   - defence text variants,
