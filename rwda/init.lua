@@ -102,10 +102,14 @@ function rwda.bootstrap(opts)
 
   local legacyActive = false
   if rwda.config.integration.use_legacy and rwda.integrations and rwda.integrations.legacy then
+    -- Register first so late Legacy init still reaches RWDA via LegacyLoaded.
+    rwda.integrations.legacy.registerHandlers()
     legacyActive = rwda.integrations.legacy.detect()
     if legacyActive then
       rwda.integrations.legacy.syncFromGlobals()
-      rwda.integrations.legacy.registerHandlers()
+      if rwda.config.integration.auto_enable_with_legacy and not rwda.state.flags.enabled then
+        rwda.enable()
+      end
     end
   end
 
@@ -178,6 +182,22 @@ end
 function rwda.tick(source)
   if not rwda.state.flags.enabled or rwda.state.flags.stopped then
     return nil
+  end
+
+  if rwda.config.integration.use_legacy and rwda.integrations and rwda.integrations.legacy and not rwda.state.integration.legacy_present then
+    if rwda.integrations.legacy.detect() then
+      rwda.integrations.legacy.registerHandlers()
+      rwda.integrations.legacy.syncFromGlobals()
+      rwda.util.log("info", "RWDA attached to Legacy backend.")
+    end
+  end
+
+  if rwda.config.integration.use_svof and rwda.integrations and rwda.integrations.svof and not rwda.state.integration.svof_present then
+    if rwda.integrations.svof.detect() then
+      rwda.integrations.svof.registerHandlers()
+      rwda.integrations.svof.syncFromGlobals()
+      rwda.util.log("info", "RWDA attached to SVO backend.")
+    end
   end
 
   local allowParallel = rwda.config.integration.allow_parallel_backends

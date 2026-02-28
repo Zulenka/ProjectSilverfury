@@ -46,6 +46,40 @@ local function captureByPatterns(source, patterns)
   return nil
 end
 
+local function containsAny(haystack, needles)
+  if type(haystack) ~= "string" or type(needles) ~= "table" then
+    return false
+  end
+
+  for _, needle in ipairs(needles) do
+    if type(needle) == "string" and needle ~= "" and haystack:find(needle, 1, true) then
+      return true
+    end
+  end
+
+  return false
+end
+
+local function detectFormFromText(lowerLine)
+  local parserCfg = rwda.config and rwda.config.parser or {}
+  local formCfg = parserCfg.form_detect or {}
+  if formCfg.enabled == false then
+    return nil
+  end
+
+  local dragonOn = formCfg.dragon_on or {}
+  if containsAny(lowerLine, dragonOn) then
+    return "dragon"
+  end
+
+  local dragonOff = formCfg.dragon_off or {}
+  if containsAny(lowerLine, dragonOff) then
+    return "human"
+  end
+
+  return nil
+end
+
 local function isTarget(who)
   local target = rwda.state and rwda.state.target and rwda.state.target.name
   if not target or target == "" or type(who) ~= "string" then
@@ -286,8 +320,26 @@ function parser.onPrompt()
   local state = rwda.state
   state.me.last_prompt_ms = rwda.util.now()
 
+  if rwda.config.integration.use_legacy and rwda.integrations and rwda.integrations.legacy and not rwda.state.integration.legacy_present then
+    if rwda.integrations.legacy.detect() then
+      rwda.integrations.legacy.registerHandlers()
+      rwda.integrations.legacy.syncFromGlobals()
+      rwda.util.log("info", "RWDA attached to Legacy backend.")
+    end
+  end
+
   local allowParallel = rwda.config.integration.allow_parallel_backends
   local usingLegacy = rwda.state.integration.legacy_present
+
+  if rwda.config.integration.use_svof and rwda.integrations and rwda.integrations.svof and not rwda.state.integration.svof_present and (allowParallel or not usingLegacy) then
+    if rwda.integrations.svof.detect() then
+      rwda.integrations.svof.registerHandlers()
+      rwda.integrations.svof.syncFromGlobals()
+      rwda.util.log("info", "RWDA attached to SVO backend.")
+    end
+  end
+
+  usingLegacy = rwda.state.integration.legacy_present
 
   if rwda.integrations and rwda.integrations.legacy and usingLegacy then
     rwda.integrations.legacy.syncFromGlobals()
@@ -451,15 +503,9 @@ function parser.handleLine(line)
     return
   end
 
-  if lower:find("you assume the form of a dragon", 1, true)
-    or lower:find("you are now in dragonform", 1, true) then
-    parser.setForm("dragon", "line")
-    return
-  end
-
-  if lower:find("you return to your lesser form", 1, true)
-    or lower:find("you are no longer in dragonform", 1, true) then
-    parser.setForm("human", "line")
+  local detectedForm = detectFormFromText(lower)
+  if detectedForm then
+    parser.setForm(detectedForm, "line")
     return
   end
 

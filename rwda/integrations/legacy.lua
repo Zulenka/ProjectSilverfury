@@ -16,7 +16,16 @@ end
 
 local function hasLegacy()
   local L = rawget(_G, "Legacy")
-  return type(L) == "table" and type(L.Curing) == "table"
+  if type(L) ~= "table" then
+    return false
+  end
+
+  if type(L.Curing) == "table" then
+    return true
+  end
+
+  -- Legacy may exist briefly before Curing is populated; treat as present.
+  return type(L.Settings) == "table" or type(L.Version) == "string"
 end
 
 local function setBalance(balance, value)
@@ -32,6 +41,24 @@ local function setBalance(balance, value)
       rwda.state.me.last_eq_loss = now()
     end
   end
+end
+
+local function autoEnableWithLegacy()
+  local cfg = rwda.config and rwda.config.integration or {}
+  if cfg.auto_enable_with_legacy == false then
+    return false
+  end
+
+  if rwda.state and rwda.state.flags and rwda.state.flags.enabled then
+    return false
+  end
+
+  if rwda.enable then
+    rwda.enable()
+    return true
+  end
+
+  return false
 end
 
 function legacy.detect()
@@ -117,6 +144,7 @@ end
 
 function legacy.onLegacyLoaded()
   legacy.syncFromGlobals()
+  autoEnableWithLegacy()
 end
 
 function legacy.onVitals()

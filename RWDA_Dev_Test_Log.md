@@ -37,7 +37,7 @@ Use this as the source of truth during iterative feature work and testing.
 - `rwda queue clear`
 
 Compatibility alias:
-- `rwd ...` is accepted as shorthand for `rwda ...` (added for convenience).
+- Removed. Only `rwda ...` is supported.
 
 ## Mudlet Load Commands
 If needed for manual reload in Mudlet:
@@ -103,7 +103,7 @@ Implemented:
 - Trimmed target names in state and command parsing to avoid trailing-space mismatches.
 - Added `rwda reload` support for live file refresh.
 - Extended status output with target defence visibility (`tshield`, `trebound`).
-- Accepted both command prefixes:
+- Temporarily accepted both command prefixes (later reverted):
   - `rwda ...`
   - `rwd ...`
 
@@ -224,6 +224,73 @@ lua if rwda and rwda.ui and rwda.ui.commands and rwda.ui.commands.registerAlias 
 Post-recovery verification:
 1. `rwda status`
 2. Confirm `tavail` and `treason` fields appear in status line (new code loaded).
+
+### 2026-02-27 - Legacy backend late-init auto-attach
+Issue observed:
+- `rwda status` showed `backend=none` after RWDA loaded before Legacy fully initialized.
+
+Implemented:
+- `rwda/init.lua`
+  - Legacy handlers are now registered whenever Legacy integration is enabled, even if Legacy is not present yet at bootstrap.
+  - This ensures RWDA can receive `LegacyLoaded` and attach later.
+- `rwda/engine/parser.lua`
+  - Prompt handler now attempts backend attachment (Legacy first, SVO fallback) when backend is missing.
+  - RWDA logs backend attach once detected.
+- `rwda/integrations/legacy.lua`
+  - Detection now tolerates early Legacy table initialization before `Legacy.Curing` is fully populated.
+
+Validation steps:
+1. `rwda reload`
+2. Wait for at least one prompt line.
+3. `rwda status`
+
+Expected:
+- `backend=legacy` once Legacy has initialized in-session.
+
+### 2026-02-27 - Auto dragon-form detection from transformation text
+Implemented:
+- Added configurable parser text detection for form changes:
+  - `config.parser.form_detect.enabled`
+  - `config.parser.form_detect.dragon_on` (substring list)
+  - `config.parser.form_detect.dragon_off` (substring list)
+- Parser now auto-switches `form=dragon|human` when incoming combat text matches configured transformation lines.
+
+Defaults include common lines such as:
+- `you assume the form of a dragon`
+- `you are now in dragonform`
+- `you return to your lesser form`
+- `you are no longer in dragonform`
+
+Validation steps:
+1. `rwda reload`
+2. Trigger real dragon transformation in-game.
+3. `rwda status`
+
+Expected:
+- Status `form` updates automatically from line text without manual mode changes.
+
+### 2026-02-27 - Auto-generated RWDA command reference
+Implemented:
+- Added generator script: `rwda/tools/generate_command_list.ps1`
+- Added generated command doc: `RWDA Command List.md`
+- Generator reads `rwda/ui/commands.lua` help string and writes command syntax + descriptions + notes.
+- Includes hidden alias note for `rwda attack` and includes `rwda queue clear`.
+
+Usage:
+```powershell
+pwsh -File rwda/tools/generate_command_list.ps1
+```
+
+### 2026-02-27 - Auto-start RWDA with Legacy on login
+Implemented:
+- Added config flag: `config.integration.auto_enable_with_legacy = true` (default).
+- On `LegacyLoaded`, RWDA now auto-enables when this flag is true.
+- During bootstrap, if Legacy is already present, RWDA also auto-enables.
+
+Toggle:
+```lua
+lua rwda.config.integration.auto_enable_with_legacy = false
+```
 
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:

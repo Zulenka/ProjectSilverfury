@@ -15,6 +15,7 @@ setDefault(config.logging, "level", "info")
 
 config.integration = config.integration or {}
 setDefault(config.integration, "use_legacy", true)
+setDefault(config.integration, "auto_enable_with_legacy", true)
 setDefault(config.integration, "legacy_control_mode", false)
 setDefault(config.integration, "use_svof", false)
 setDefault(config.integration, "svof_control_mode", false)
@@ -38,6 +39,28 @@ config.parser = config.parser or {}
 setDefault(config.parser, "use_temp_line_trigger", false)
 setDefault(config.parser, "use_data_events", true)
 setDefault(config.parser, "decay_target_defences", true)
+config.parser.form_detect = config.parser.form_detect or {}
+setDefault(config.parser.form_detect, "enabled", true)
+config.parser.form_detect.dragon_on = config.parser.form_detect.dragon_on or {
+  "you assume the form of a dragon",
+  "you are now in dragonform",
+  "you transform into a dragon",
+  "you morph into a dragon",
+  "you shift into a dragon",
+  "you surge into dragonform",
+  "you take draconic form",
+  "you assume draconic form",
+}
+config.parser.form_detect.dragon_off = config.parser.form_detect.dragon_off or {
+  "you return to your lesser form",
+  "you are no longer in dragonform",
+  "you return to your human form",
+  "you return to your mortal form",
+  "you return to your normal form",
+  "you revert to your lesser form",
+  "you revert to your human form",
+  "you are no longer a dragon",
+}
 
 config.weapons = config.weapons or {}
 setDefault(config.weapons, "mainhand", "scimitar")
