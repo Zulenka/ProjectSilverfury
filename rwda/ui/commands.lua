@@ -48,17 +48,19 @@ local function formatCurrentConfig()
   local dragon = cfg.dragon or {}
   local integration = cfg.integration or {}
   local combat = cfg.combat or {}
+  local parser = cfg.parser or {}
   local mainVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_main and cfg.runewarden.venoms.dsl_main[1] or "curare"
   local offVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_off and cfg.runewarden.venoms.dsl_off[1] or "epteth"
 
   return string.format(
-    "cfg breath=%s dsl=%s/%s autostart_legacy=%s prompttick=%s use_legacy=%s",
+    "cfg breath=%s dsl=%s/%s autostart_legacy=%s prompttick=%s use_legacy=%s capture_unmatched=%s",
     tostring(dragon.breath_type or "lightning"),
     tostring(mainVenom),
     tostring(offVenom),
     tostring(integration.auto_enable_with_legacy ~= false),
     tostring(combat.auto_tick_on_prompt == true),
-    tostring(integration.use_legacy ~= false)
+    tostring(integration.use_legacy ~= false),
+    tostring(parser.capture_unmatched_lines == true)
   )
 end
 
@@ -113,7 +115,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set prompttick <on|off>|show config|save config|load config|line <text>|replay <file>|clear target|reset")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set prompttick <on|off>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|clear target|reset")
 end
 
 function commands.handle(raw)
@@ -171,6 +173,19 @@ function commands.handle(raw)
       tell(string.format("last_action=%s (%s)", reason.summary or "no summary", reason.code or "no code"))
     else
       tell("No action reason recorded yet.")
+    end
+    return
+  end
+
+  if sub == "doctor" then
+    if not rwda.engine or not rwda.engine.doctor or not rwda.engine.doctor.run then
+      tell("Doctor module not loaded.")
+      return
+    end
+
+    local _, lines = rwda.engine.doctor.run()
+    for _, line in ipairs(lines or {}) do
+      tell(line)
     end
     return
   end
@@ -320,7 +335,43 @@ function commands.handle(raw)
       return
     end
 
-    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set autostart <on|off> | set prompttick <on|off>")
+    if key == "capture" then
+      local ok, value = parseBoolWord(words[3])
+      if not ok then
+        tell("Usage: rwda set capture <on|off>")
+        return
+      end
+      rwda.config.parser = rwda.config.parser or {}
+      rwda.config.parser.capture_unmatched_lines = value
+      tell("Capture unmatched lines set to " .. tostring(value))
+      return
+    end
+
+    if key == "captureprompts" then
+      local ok, value = parseBoolWord(words[3])
+      if not ok then
+        tell("Usage: rwda set captureprompts <on|off>")
+        return
+      end
+      rwda.config.parser = rwda.config.parser or {}
+      rwda.config.parser.capture_unmatched_include_prompts = value
+      tell("Capture prompts set to " .. tostring(value))
+      return
+    end
+
+    if key == "capturepath" then
+      local path = trim(raw:match("^set%s+capturepath%s+(.+)$"))
+      if path == "" then
+        tell("Usage: rwda set capturepath <path>")
+        return
+      end
+      rwda.config.parser = rwda.config.parser or {}
+      rwda.config.parser.capture_unmatched_path = path
+      tell("Capture path set to " .. path)
+      return
+    end
+
+    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set autostart <on|off> | set prompttick <on|off> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
     return
   end
 
@@ -403,6 +454,48 @@ function commands.handle(raw)
       result.actions,
       tostring(result.last_action or "nil")
     ))
+    return
+  end
+
+  if sub == "replayassert" then
+    local path, expectedAction, minActions = raw:match("^replayassert%s+(.+)%s+(%S+)%s+(%d+)$")
+    if not path then
+      path, expectedAction = raw:match("^replayassert%s+(.+)%s+(%S+)$")
+    end
+
+    path = trim(path)
+    if path == "" or not expectedAction or expectedAction == "" then
+      tell("Usage: rwda replayassert <path-to-log-file> <expected_last_action> [min_actions]")
+      return
+    end
+
+    if not rwda.engine or not rwda.engine.replay or not rwda.engine.replay.runFileWithAssertions then
+      tell("Replay module not loaded.")
+      return
+    end
+
+    local result, err = rwda.engine.replay.runFileWithAssertions(path, {
+      auto_tick = rwda.config.replay and rwda.config.replay.auto_tick,
+      prompt_pattern = rwda.config.replay and rwda.config.replay.prompt_pattern,
+      assertions = {
+        expected_last_action = expectedAction,
+        min_actions = tonumber(minActions),
+      },
+    })
+
+    if not result then
+      tell("Replay assertion failed to run: " .. tostring(err))
+      return
+    end
+
+    if result.assertions_ok then
+      tell(string.format("Replay assertion PASSED: last_action=%s actions=%d prompts=%d", tostring(result.last_action), tonumber(result.actions or 0), tonumber(result.prompts or 0)))
+    else
+      tell(string.format("Replay assertion FAILED: last_action=%s actions=%d prompts=%d", tostring(result.last_action), tonumber(result.actions or 0), tonumber(result.prompts or 0)))
+      for _, msg in ipairs(result.assertion_failures or {}) do
+        tell("assert: " .. tostring(msg))
+      end
+    end
     return
   end
 

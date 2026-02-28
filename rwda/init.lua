@@ -50,6 +50,7 @@ local FILES = {
   "engine/executor.lua",
   "engine/parser.lua",
   "engine/replay.lua",
+  "engine/doctor.lua",
   "engine/selftest.lua",
   "integrations/legacy.lua",
   "integrations/aklimb.lua",

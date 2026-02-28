@@ -75,3 +75,54 @@ function replay.runFile(path, opts)
 
   return replay.runLines(splitLines(blob), opts)
 end
+
+function replay.assertResult(result, assertions)
+  assertions = assertions or {}
+  local failures = {}
+
+  local function fail(msg)
+    failures[#failures + 1] = msg
+  end
+
+  if assertions.expected_last_action and result.last_action ~= assertions.expected_last_action then
+    fail(string.format("expected_last_action=%s actual=%s", tostring(assertions.expected_last_action), tostring(result.last_action)))
+  end
+
+  if assertions.min_actions and result.actions < assertions.min_actions then
+    fail(string.format("min_actions=%d actual=%d", tonumber(assertions.min_actions), tonumber(result.actions)))
+  end
+
+  if assertions.max_actions and result.actions > assertions.max_actions then
+    fail(string.format("max_actions=%d actual=%d", tonumber(assertions.max_actions), tonumber(result.actions)))
+  end
+
+  if assertions.min_prompts and result.prompts < assertions.min_prompts then
+    fail(string.format("min_prompts=%d actual=%d", tonumber(assertions.min_prompts), tonumber(result.prompts)))
+  end
+
+  if assertions.max_prompts and result.prompts > assertions.max_prompts then
+    fail(string.format("max_prompts=%d actual=%d", tonumber(assertions.max_prompts), tonumber(result.prompts)))
+  end
+
+  if assertions.min_lines and result.lines < assertions.min_lines then
+    fail(string.format("min_lines=%d actual=%d", tonumber(assertions.min_lines), tonumber(result.lines)))
+  end
+
+  return #failures == 0, failures
+end
+
+function replay.runFileWithAssertions(path, opts)
+  opts = opts or {}
+  local result, err = replay.runFile(path, opts)
+  if not result then
+    return nil, err
+  end
+
+  if type(opts.assertions) == "table" then
+    local ok, failures = replay.assertResult(result, opts.assertions)
+    result.assertions_ok = ok
+    result.assertion_failures = failures
+  end
+
+  return result
+end

@@ -53,6 +53,7 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - `rwda mode <auto|human|dragon>`
 - `rwda goal <pressure|limbprep|impale_kill|dragon_devour>`
 - `rwda status`
+- `rwda doctor`
 - `rwda explain`
 - `rwda tick`
 - `rwda selftest`
@@ -61,11 +62,15 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - `rwda set venoms <main> <off>`
 - `rwda set autostart <on|off>`
 - `rwda set prompttick <on|off>`
+- `rwda set capture <on|off>`
+- `rwda set captureprompts <on|off>`
+- `rwda set capturepath <path>`
 - `rwda queue clear`
 - `rwda save config`
 - `rwda load config`
 - `rwda line <raw combat line>`
 - `rwda replay <path-to-log-file>`
+- `rwda replayassert <path> <expected_last_action> [min_actions]`
 - `rwda clear target`
 - `rwda reset`
 
@@ -75,6 +80,7 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - `rwda stop` sets a kill switch and can clear all server queues.
 - `rwda explain` reports the last planned/sent action, while `rwda status` reports current tracked state (including target shield/rebounding flags).
 - Defence inference can mark uncertain drops as inactive with confidence; these display as `0(x.xx)` in `rwda status`.
+- `rwda doctor` prints backend/handler diagnostics for Legacy wiring and parser capture settings.
 
 ## Known next steps
 - Tune exact combat-line patterns from your own logs for highest-confidence limb and defence updates.

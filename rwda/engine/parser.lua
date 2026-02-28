@@ -80,6 +80,62 @@ local function detectFormFromText(lowerLine)
   return nil
 end
 
+local function matchesPromptPattern(line)
+  if type(line) ~= "string" then
+    return false
+  end
+
+  local pattern = rwda.config and rwda.config.replay and rwda.config.replay.prompt_pattern
+  if not pattern or pattern == "" then
+    return false
+  end
+
+  local ok, result = pcall(string.match, line, pattern)
+  return ok and result ~= nil
+end
+
+local function resolveCapturePath()
+  local parserCfg = rwda.config and rwda.config.parser or {}
+  local explicit = parserCfg.capture_unmatched_path
+  if type(explicit) == "string" and explicit ~= "" then
+    return explicit
+  end
+
+  if type(getMudletHomeDir) == "function" then
+    local ok, home = pcall(getMudletHomeDir)
+    if ok and type(home) == "string" and home ~= "" then
+      return home .. "\\rwda_unmatched.log"
+    end
+  end
+
+  return "rwda_unmatched.log"
+end
+
+local function captureUnmatchedLine(line)
+  local parserCfg = rwda.config and rwda.config.parser or {}
+  if not parserCfg.capture_unmatched_lines then
+    return
+  end
+
+  if line == "" then
+    return
+  end
+
+  if not parserCfg.capture_unmatched_include_prompts and matchesPromptPattern(line) then
+    return
+  end
+
+  local path = resolveCapturePath()
+  local f = io.open(path, "a")
+  if not f then
+    return
+  end
+
+  local ts = os.date and os.date("%Y-%m-%d %H:%M:%S") or "0000-00-00 00:00:00"
+  f:write(string.format("%s | %s\n", ts, line))
+  f:close()
+end
+
 local AGGRESSIVE_VERBS = {
   attack = true,
   attacks = true,
@@ -743,6 +799,8 @@ function parser.handleLine(line)
     emit("TARGET_MOVED", { who = escape })
     return
   end
+
+  captureUnmatchedLine(line)
 end
 
 function parser.registerMudletHandlers()

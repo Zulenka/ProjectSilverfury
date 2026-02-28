@@ -2,7 +2,7 @@
 
 Auto-generated from rwda/ui/commands.lua.
 
-Last generated: 2026-02-27 23:37:02 -05:00
+Last generated: 2026-02-28 01:14:15 -05:00
 
 ## Runtime Commands
 
@@ -14,6 +14,7 @@ Last generated: 2026-02-27 23:37:02 -05:00
 | rwda resume | Resume execution after stop. | - |
 | rwda reload | Reload RWDA modules from disk. | - |
 | rwda status | Print current runtime state snapshot. | - |
+| rwda doctor | Run Legacy/backend/handler diagnostics. | - |
 | rwda explain | Show reason/code for last planned action. | - |
 | rwda tick | Run one planning/execution cycle immediately. | Equivalent alias: rwda attack. |
 | rwda selftest | Run built-in offline planner regression tests. | - |
@@ -26,11 +27,15 @@ Last generated: 2026-02-27 23:37:02 -05:00
 | rwda set venoms <main> <off> | Set primary DSL venom pair. | - |
 | rwda set autostart <on|off> | Toggle auto-enable with LegacyLoaded. | - |
 | rwda set prompttick <on|off> | Toggle automatic tick on prompt. | - |
+| rwda set capture <on|off> | Toggle unmatched-line capture logging. | - |
+| rwda set captureprompts <on|off> | Include prompt lines in unmatched capture log. | - |
+| rwda set capturepath <path> | Set unmatched capture log file path. | - |
 | rwda show config | Print current live RWDA config highlights. | - |
 | rwda save config | Persist current RWDA config to disk. | - |
 | rwda load config | Load persisted RWDA config from disk. | - |
 | rwda line <text> | Feed one raw combat line into parser. | - |
 | rwda replay <file> | Replay a combat log file through parser/planner. | - |
+| rwda replayassert <file> <expected_last_action> [min_actions] | Replay with assertions and fail details. | - |
 | rwda clear target | Clear target state and availability locks. | - |
 | rwda reset | Reset RWDA state to defaults. | - |
 | rwda queue clear | Clear all queued server commands. | Clears Achaea server queue (clearqueue all). |

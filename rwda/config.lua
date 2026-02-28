@@ -98,6 +98,12 @@ local function exportPersistedConfig()
       require_room_presence_when_gmcp = config.combat.require_room_presence_when_gmcp,
     },
     parser = {
+      capture_unmatched_lines = config.parser.capture_unmatched_lines,
+      capture_unmatched_path = config.parser.capture_unmatched_path,
+      capture_unmatched_include_prompts = config.parser.capture_unmatched_include_prompts,
+      infer_defence_loss_on_aggressive = config.parser.infer_defence_loss_on_aggressive,
+      infer_defence_loss_on_move = config.parser.infer_defence_loss_on_move,
+      inferred_defence_confidence = config.parser.inferred_defence_confidence,
       form_detect = {
         enabled = config.parser.form_detect and config.parser.form_detect.enabled,
         dragon_on = copyArray(config.parser.form_detect and config.parser.form_detect.dragon_on),
@@ -155,6 +161,9 @@ setDefault(config.parser, "decay_target_defences", true)
 setDefault(config.parser, "infer_defence_loss_on_aggressive", true)
 setDefault(config.parser, "infer_defence_loss_on_move", true)
 setDefault(config.parser, "inferred_defence_confidence", 0.35)
+setDefault(config.parser, "capture_unmatched_lines", false)
+setDefault(config.parser, "capture_unmatched_path", nil)
+setDefault(config.parser, "capture_unmatched_include_prompts", false)
 config.parser.form_detect = config.parser.form_detect or {}
 setDefault(config.parser.form_detect, "enabled", true)
 config.parser.form_detect.dragon_on = config.parser.form_detect.dragon_on or {

@@ -417,6 +417,31 @@ Implemented:
 Result:
 - RWDA now explicitly uses Legacy as the only backend source.
 
+### 2026-02-28 - Diagnostics, unmatched capture logging, replay assertions
+Implemented:
+- Added diagnostics module: `rwda/engine/doctor.lua`
+  - New command: `rwda doctor`
+  - Reports Legacy presence, backend flags, handler registration counts, runtime status, and parser capture settings.
+- Added parser unmatched-line capture:
+  - Config:
+    - `config.parser.capture_unmatched_lines`
+    - `config.parser.capture_unmatched_path`
+    - `config.parser.capture_unmatched_include_prompts`
+  - New set commands:
+    - `rwda set capture <on|off>`
+    - `rwda set captureprompts <on|off>`
+    - `rwda set capturepath <path>`
+  - Unmatched lines are appended to configured file (`<MudletHome>\\rwda_unmatched.log` by default).
+- Added replay assertion mode:
+  - `rwda.engine.replay.runFileWithAssertions(...)`
+  - New command:
+    - `rwda replayassert <path> <expected_last_action> [min_actions]`
+
+Validation:
+- `luac -p` passed.
+- CLI selftest passed.
+- Replay CLI passed.
+
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:
   - defence text variants,
