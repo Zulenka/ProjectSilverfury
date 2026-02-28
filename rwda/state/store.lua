@@ -32,7 +32,6 @@ local function ensure()
     state.integration = {
       gmcp_present = false,
       legacy_present = false,
-      svof_present = false,
       aklimb_present = false,
       group_present = false,
     }
@@ -67,7 +66,6 @@ function state.reset()
   state.integration = {
     gmcp_present = false,
     legacy_present = false,
-    svof_present = false,
     aklimb_present = false,
     group_present = false,
   }

@@ -474,7 +474,7 @@ function parser.onPrompt()
   local state = rwda.state
   state.me.last_prompt_ms = rwda.util.now()
 
-  if rwda.config.integration.use_legacy and rwda.integrations and rwda.integrations.legacy and not rwda.state.integration.legacy_present then
+  if rwda.integrations and rwda.integrations.legacy and not rwda.state.integration.legacy_present then
     if rwda.integrations.legacy.detect() then
       rwda.integrations.legacy.registerHandlers()
       rwda.integrations.legacy.syncFromGlobals()
@@ -482,25 +482,10 @@ function parser.onPrompt()
     end
   end
 
-  local allowParallel = rwda.config.integration.allow_parallel_backends
   local usingLegacy = rwda.state.integration.legacy_present
-
-  if rwda.config.integration.use_svof and rwda.integrations and rwda.integrations.svof and not rwda.state.integration.svof_present and (allowParallel or not usingLegacy) then
-    if rwda.integrations.svof.detect() then
-      rwda.integrations.svof.registerHandlers()
-      rwda.integrations.svof.syncFromGlobals()
-      rwda.util.log("info", "RWDA attached to SVO backend.")
-    end
-  end
-
-  usingLegacy = rwda.state.integration.legacy_present
 
   if rwda.integrations and rwda.integrations.legacy and usingLegacy then
     rwda.integrations.legacy.syncFromGlobals()
-  end
-
-  if rwda.integrations and rwda.integrations.svof and rwda.state.integration.svof_present and (allowParallel or not usingLegacy) then
-    rwda.integrations.svof.syncFromGlobals()
   end
 
   parser.refreshTargetAvailabilityFromGMCP("prompt")

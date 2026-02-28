@@ -52,14 +52,13 @@ local function formatCurrentConfig()
   local offVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_off and cfg.runewarden.venoms.dsl_off[1] or "epteth"
 
   return string.format(
-    "cfg breath=%s dsl=%s/%s autostart_legacy=%s prompttick=%s use_legacy=%s use_svof=%s",
+    "cfg breath=%s dsl=%s/%s autostart_legacy=%s prompttick=%s use_legacy=%s",
     tostring(dragon.breath_type or "lightning"),
     tostring(mainVenom),
     tostring(offVenom),
     tostring(integration.auto_enable_with_legacy ~= false),
     tostring(combat.auto_tick_on_prompt == true),
-    tostring(integration.use_legacy ~= false),
-    tostring(integration.use_svof == true)
+    tostring(integration.use_legacy ~= false)
   )
 end
 
@@ -83,8 +82,6 @@ function commands.statusText()
   local backend = "none"
   if s.integration.legacy_present then
     backend = "legacy"
-  elseif s.integration.svof_present then
-    backend = "svof"
   end
   local targetAvail = s.target.available and "yes" or "no"
   local targetAvailReason = s.target.unavailable_reason or "-"

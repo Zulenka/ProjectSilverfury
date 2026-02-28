@@ -405,6 +405,18 @@ Validation:
   - aggressive line drops shield/rebounding by assumption
   - move line drops shield but not rebounding
 
+### 2026-02-28 - Legacy-only runtime (SVO removed)
+Implemented:
+- Removed SVO integration module from RWDA load graph.
+- Deleted `rwda/integrations/svof.lua`.
+- Removed SVO runtime attach/sync/unregister code paths from bootstrap/tick/prompt handlers.
+- Removed SVO/parallel backend settings from active config surface.
+- Forced `config.integration.use_legacy = true` after defaults and persisted config loads.
+- Updated status/config output and README wording to Legacy-only behavior.
+
+Result:
+- RWDA now explicitly uses Legacy as the only backend source.
+
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:
   - defence text variants,

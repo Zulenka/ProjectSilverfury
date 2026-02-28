@@ -89,8 +89,6 @@ local function exportPersistedConfig()
     },
     integration = {
       use_legacy = config.integration.use_legacy,
-      use_svof = config.integration.use_svof,
-      allow_parallel_backends = config.integration.allow_parallel_backends,
       auto_enable_with_legacy = config.integration.auto_enable_with_legacy,
     },
     combat = {
@@ -126,11 +124,9 @@ setDefault(config.logging, "level", "info")
 
 config.integration = config.integration or {}
 setDefault(config.integration, "use_legacy", true)
+config.integration.use_legacy = true
 setDefault(config.integration, "auto_enable_with_legacy", true)
 setDefault(config.integration, "legacy_control_mode", false)
-setDefault(config.integration, "use_svof", false)
-setDefault(config.integration, "svof_control_mode", false)
-setDefault(config.integration, "allow_parallel_backends", false)
 setDefault(config.integration, "use_aklimb", true)
 setDefault(config.integration, "use_group_layer", true)
 config.integration.group_target_events = config.integration.group_target_events or {
@@ -290,6 +286,9 @@ function config.loadPersisted(path)
       config[k] = v
     end
   end
+
+  config.integration = config.integration or {}
+  config.integration.use_legacy = true
 
   return true, resolved
 end

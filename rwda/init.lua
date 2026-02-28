@@ -52,7 +52,6 @@ local FILES = {
   "engine/replay.lua",
   "engine/selftest.lua",
   "integrations/legacy.lua",
-  "integrations/svof.lua",
   "integrations/aklimb.lua",
   "integrations/groupcombat.lua",
   "ui/commands.lua",
@@ -111,7 +110,7 @@ function rwda.bootstrap(opts)
   rwda.applyConfigToState()
 
   local legacyActive = false
-  if rwda.config.integration.use_legacy and rwda.integrations and rwda.integrations.legacy then
+  if rwda.integrations and rwda.integrations.legacy then
     -- Register first so late Legacy init still reaches RWDA via LegacyLoaded.
     rwda.integrations.legacy.registerHandlers()
     legacyActive = rwda.integrations.legacy.detect()
@@ -121,13 +120,6 @@ function rwda.bootstrap(opts)
         rwda.enable()
       end
     end
-  end
-
-  local allowParallel = rwda.config.integration.allow_parallel_backends
-  if rwda.config.integration.use_svof and rwda.integrations and rwda.integrations.svof and (allowParallel or not legacyActive) then
-    rwda.integrations.svof.detect()
-    rwda.integrations.svof.syncFromGlobals()
-    rwda.integrations.svof.registerHandlers()
   end
 
   if rwda.config.integration.use_aklimb and rwda.integrations and rwda.integrations.aklimb then
@@ -195,19 +187,11 @@ function rwda.tick(source)
     return nil
   end
 
-  if rwda.config.integration.use_legacy and rwda.integrations and rwda.integrations.legacy and not rwda.state.integration.legacy_present then
+  if rwda.integrations and rwda.integrations.legacy and not rwda.state.integration.legacy_present then
     if rwda.integrations.legacy.detect() then
       rwda.integrations.legacy.registerHandlers()
       rwda.integrations.legacy.syncFromGlobals()
       rwda.util.log("info", "RWDA attached to Legacy backend.")
-    end
-  end
-
-  if rwda.config.integration.use_svof and rwda.integrations and rwda.integrations.svof and not rwda.state.integration.svof_present then
-    if rwda.integrations.svof.detect() then
-      rwda.integrations.svof.registerHandlers()
-      rwda.integrations.svof.syncFromGlobals()
-      rwda.util.log("info", "RWDA attached to SVO backend.")
     end
   end
 
@@ -218,15 +202,10 @@ function rwda.tick(source)
     end
   end
 
-  local allowParallel = rwda.config.integration.allow_parallel_backends
   local usingLegacy = rwda.state.integration.legacy_present
 
   if usingLegacy and rwda.integrations and rwda.integrations.legacy then
     rwda.integrations.legacy.syncFromGlobals()
-  end
-
-  if rwda.state.integration.svof_present and rwda.integrations and rwda.integrations.svof and (allowParallel or not usingLegacy) then
-    rwda.integrations.svof.syncFromGlobals()
   end
 
   if rwda.state.integration.group_present and rwda.integrations and rwda.integrations.groupcombat then
@@ -272,10 +251,6 @@ function rwda.shutdown()
 
   if rwda.engine and rwda.engine.executor and rwda.engine.executor.unregisterSafetyValve then
     pcall(rwda.engine.executor.unregisterSafetyValve)
-  end
-
-  if rwda.integrations and rwda.integrations.svof and rwda.integrations.svof.unregisterHandlers then
-    pcall(rwda.integrations.svof.unregisterHandlers)
   end
 
   if rwda.integrations and rwda.integrations.legacy and rwda.integrations.legacy.unregisterHandlers then

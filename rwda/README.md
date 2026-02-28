@@ -1,6 +1,6 @@
 # RWDA (Runewarden + Silver Dragon AI)
 
-This directory contains a Mudlet Lua combat brain that runs alongside Legacy (with optional SVO compatibility fallback).
+This directory contains a Mudlet Lua combat brain that runs alongside Legacy.
 
 Project log:
 - `RWDA_Dev_Test_Log.md` at repo root tracks commands, configuration decisions, feature milestones, and test outcomes.
@@ -9,7 +9,7 @@ Project log:
 - Canonical state model (`rwda/state/*`) for self, target, cooldowns, and runtime flags.
 - Data dictionaries (`rwda/data/*`) for core afflictions, defences, abilities, and venoms.
 - Engine modules (`rwda/engine/*`) for events, parsing, planning, server-queue execution, and safety controls.
-- Integrations (`rwda/integrations/*`) for Legacy (primary), SVO (fallback), AK limb tracker (adapter stub), and group combat target sync (adapter stub).
+- Integrations (`rwda/integrations/*`) for Legacy (primary), AK limb tracker (adapter stub), and group combat target sync (adapter stub).
 - Command UI (`rwda/ui/commands.lua`) with `rwda` alias controls.
 - Replay harness (`rwda/engine/replay.lua`) for log-driven parser/planner validation.
 
@@ -19,14 +19,7 @@ The Legacy adapter is read-only by default and uses runtime state/events present
 - Events: `LegacyLoaded`, `gmcp.Char.Afflictions.Add/Remove`, `gmcp.Char.Defences.Add/Remove`, `gmcp.Char.Vitals`
 
 RWDA does not replace Legacy curing/defence logic; it uses Legacy as state source and handles offense planning/execution.
-Default backend preference is Legacy-first (`use_legacy=true`, `use_svof=false`, `allow_parallel_backends=false`).
-
-## SVO integration (fallback)
-The SVO adapter remains available as fallback and uses globals/events:
-- Globals: `affl`, `defc`, `bals`
-- Events: `svo got aff`, `svo lost aff`, `svo got def`, `svo lost def`, `svo got balance`, `svo lost balance`, `svo got dragonform`, `svo lost dragonform`
-
-RWDA does not send herb/salve/sip cures when either Legacy or SVO integration is active.
+RWDA does not send herb/salve/sip cures while Legacy integration is active.
 
 ## Loading in Mudlet
 1. Ensure these files are available in your profile/module sync path.
