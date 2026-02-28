@@ -179,8 +179,8 @@ function rwda.resume()
   rwda.util.log("info", "RWDA resumed.")
 end
 
-function rwda.setTarget(name)
-  rwda.state.setTarget(name)
+function rwda.setTarget(name, source)
+  rwda.state.setTarget(name, source)
 end
 
 function rwda.tick(source)

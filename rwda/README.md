@@ -9,7 +9,7 @@ Project log:
 - Canonical state model (`rwda/state/*`) for self, target, cooldowns, and runtime flags.
 - Data dictionaries (`rwda/data/*`) for core afflictions, defences, abilities, and venoms.
 - Engine modules (`rwda/engine/*`) for events, parsing, planning, server-queue execution, and safety controls.
-- Integrations (`rwda/integrations/*`) for Legacy (primary), AK limb tracker (adapter stub), and group combat target sync (adapter stub).
+- Integrations (`rwda/integrations/*`) for Legacy (primary), AK/lb limb feeds, and group/Legacy target sync.
 - Command UI (`rwda/ui/commands.lua`) with `rwda` alias controls.
 - Replay harness (`rwda/engine/replay.lua`) for log-driven parser/planner validation.
 
@@ -17,6 +17,7 @@ Project log:
 The Legacy adapter is read-only by default and uses runtime state/events present in Legacy:
 - Globals: `Legacy`, `Legacy.Curing.Affs`, `Legacy.Curing.Defs.current`, `Legacy.Curing.bal`
 - Events: `LegacyLoaded`, `gmcp.Char.Afflictions.Add/Remove`, `gmcp.Char.Defences.Add/Remove`, `gmcp.Char.Vitals`
+- Optional target-follow input: Legacy/global `target`, `gmcp.IRE.Target.Set/Info`, and group-target events.
 
 RWDA does not replace Legacy curing/defence logic; it uses Legacy as state source and handles offense planning/execution.
 RWDA does not send herb/salve/sip cures while Legacy integration is active.
@@ -62,6 +63,7 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - `rwda set breath <type>`
 - `rwda set venoms <main> <off>`
 - `rwda set autostart <on|off>`
+- `rwda set followlegacytarget <on|off>`
 - `rwda set prompttick <on|off>`
 - `rwda set capture <on|off>`
 - `rwda set captureprompts <on|off>`
@@ -81,6 +83,7 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - Execution defaults to Achaea server queueing (`queue addclear`), with `freestand` used for devour attempts.
 - `rwda stop` sets a kill switch and can clear all server queues.
 - `rwda explain` reports the last planned/sent action, while `rwda status` reports current tracked state (including target shield/rebounding flags).
+- `rwda status` includes `tsrc` to show where target selection is currently coming from (`manual` vs `external`).
 - Defence inference can mark uncertain drops as inactive with confidence; these display as `0(x.xx)` in `rwda status`.
 - `rwda doctor` prints backend/handler diagnostics for Legacy wiring and parser capture settings.
 

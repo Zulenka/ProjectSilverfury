@@ -74,6 +74,7 @@ $descriptions = @{
   "set breath <type>" = "Set dragon summon breath type."
   "set venoms <main> <off>" = "Set primary DSL venom pair."
   "set autostart <on|off>" = "Toggle auto-enable with LegacyLoaded."
+  "set followlegacytarget <on|off>" = "Toggle RWDA target-follow from Legacy/global target feeds."
   "set prompttick <on|off>" = "Toggle automatic tick on prompt."
   "set capture <on|off>" = "Toggle unmatched-line capture logging."
   "set captureprompts <on|off>" = "Include prompt lines in unmatched capture log."

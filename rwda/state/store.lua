@@ -87,16 +87,18 @@ function state.setStopped(stopped)
   state.flags.stopped = not not stopped
 end
 
-function state.setTarget(name)
+function state.setTarget(name, source)
   ensure()
   if type(name) == "string" then
     name = name:gsub("^%s+", ""):gsub("%s+$", "")
   end
   state.target.name = name
+  state.target.target_source = source or "manual"
   state.target.dead = false
   state.target.available = true
   state.target.unavailable_reason = nil
   state.target.unavailable_since = 0
+  state.target.available_source = source or "manual"
   state.target.last_seen = util.now()
 end
 

@@ -90,6 +90,8 @@ local function exportPersistedConfig()
     integration = {
       use_legacy = config.integration.use_legacy,
       auto_enable_with_legacy = config.integration.auto_enable_with_legacy,
+      follow_legacy_target = config.integration.follow_legacy_target,
+      group_target_events = copyArray(config.integration.group_target_events),
     },
     combat = {
       auto_tick_on_prompt = config.combat.auto_tick_on_prompt,
@@ -135,11 +137,15 @@ setDefault(config.integration, "auto_enable_with_legacy", true)
 setDefault(config.integration, "legacy_control_mode", false)
 setDefault(config.integration, "use_aklimb", true)
 setDefault(config.integration, "use_group_layer", true)
+setDefault(config.integration, "follow_legacy_target", true)
 config.integration.group_target_events = config.integration.group_target_events or {
   "GroupTargetChanged",
   "group target changed",
   "gcom target changed",
   "ga target changed",
+  "gmcp.IRE.Target.Set",
+  "gmcp.IRE.Target.Info",
+  "LPrompt",
 }
 
 config.combat = config.combat or {}

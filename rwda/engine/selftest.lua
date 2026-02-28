@@ -110,6 +110,40 @@ function selftest.run()
     rows[#rows + 1] = resultRow("holds offense when target unavailable", false, "expected target_unavailable")
   end
 
+  resetBaseline()
+  rwda.state.clearTarget()
+  _G.target = "Bainz"
+  local pulledExternal = false
+  if rwda.integrations and rwda.integrations.groupcombat and rwda.integrations.groupcombat.sync then
+    pulledExternal = rwda.integrations.groupcombat.sync()
+  end
+  if pulledExternal and rwda.state.target.name == "Bainz" and rwda.state.target.target_source == "external" then
+    rows[#rows + 1] = resultRow("external target sync imports legacy target", true, "external_target_imported")
+  else
+    rows[#rows + 1] = resultRow("external target sync imports legacy target", false, "expected Bainz from external target stream")
+  end
+
+  resetBaseline()
+  rwda.state.setTarget("ManualTarget", "manual")
+  if rwda.integrations and rwda.integrations.groupcombat then
+    rwda.integrations.groupcombat._last_external_target = "Bainz"
+  end
+  _G.target = "OtherTarget"
+  local changedManual = false
+  if rwda.integrations and rwda.integrations.groupcombat and rwda.integrations.groupcombat.sync then
+    changedManual = rwda.integrations.groupcombat.sync()
+  end
+  if not changedManual and rwda.state.target.name == "ManualTarget" and rwda.state.target.target_source == "manual" then
+    rows[#rows + 1] = resultRow("manual target is not overridden by external stream", true, "manual_protected")
+  else
+    rows[#rows + 1] = resultRow("manual target is not overridden by external stream", false, "manual target should remain unchanged")
+  end
+
+  _G.target = nil
+  if rwda.integrations and rwda.integrations.groupcombat then
+    rwda.integrations.groupcombat._last_external_target = nil
+  end
+
   for _, row in ipairs(rows) do
     if row.ok then
       passed = passed + 1

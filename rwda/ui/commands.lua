@@ -53,11 +53,12 @@ local function formatCurrentConfig()
   local offVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_off and cfg.runewarden.venoms.dsl_off[1] or "epteth"
 
   return string.format(
-    "cfg breath=%s dsl=%s/%s autostart_legacy=%s prompttick=%s use_legacy=%s capture_unmatched=%s",
+    "cfg breath=%s dsl=%s/%s autostart_legacy=%s follow_legacy_target=%s prompttick=%s use_legacy=%s capture_unmatched=%s",
     tostring(dragon.breath_type or "lightning"),
     tostring(mainVenom),
     tostring(offVenom),
     tostring(integration.auto_enable_with_legacy ~= false),
+    tostring(integration.follow_legacy_target ~= false),
     tostring(combat.auto_tick_on_prompt == true),
     tostring(integration.use_legacy ~= false),
     tostring(parser.capture_unmatched_lines == true)
@@ -81,6 +82,7 @@ function commands.statusText()
   end
 
   local target = s.target.name or "(none)"
+  local targetSource = s.target.target_source or "-"
   local backend = "none"
   if s.integration.legacy_present then
     backend = "legacy"
@@ -96,7 +98,7 @@ function commands.statusText()
   local stopped = s.flags.stopped and "yes" or "no"
 
   return string.format(
-    "enabled=%s stopped=%s backend=%s mode=%s goal=%s profile=%s form=%s target=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s",
+    "enabled=%s stopped=%s backend=%s mode=%s goal=%s profile=%s form=%s target=%s tsrc=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s",
     tostring(s.flags.enabled),
     stopped,
     backend,
@@ -105,6 +107,7 @@ function commands.statusText()
     profile,
     form,
     target,
+    targetSource,
     targetAvail,
     targetAvailReason,
     bal,
@@ -115,7 +118,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set prompttick <on|off>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset")
 end
 
 function commands.handle(raw)
@@ -323,6 +326,18 @@ function commands.handle(raw)
       return
     end
 
+    if key == "followlegacytarget" then
+      local ok, value = parseBoolWord(words[3])
+      if not ok then
+        tell("Usage: rwda set followlegacytarget <on|off>")
+        return
+      end
+      rwda.config.integration = rwda.config.integration or {}
+      rwda.config.integration.follow_legacy_target = value
+      tell("Legacy target-follow set to " .. tostring(value))
+      return
+    end
+
     if key == "prompttick" then
       local ok, value = parseBoolWord(words[3])
       if not ok then
@@ -371,7 +386,7 @@ function commands.handle(raw)
       return
     end
 
-    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set autostart <on|off> | set prompttick <on|off> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
+    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
     return
   end
 

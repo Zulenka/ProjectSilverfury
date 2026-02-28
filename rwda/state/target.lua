@@ -26,6 +26,7 @@ end
 function builders.newTarget()
   return {
     name = nil,
+    target_source = "unknown",
     class = nil,
     dead = false,
     available = true,
@@ -50,6 +51,7 @@ function builders.newTarget()
     stance = {
       standing = true,
     },
+    available_source = "unknown",
     last_seen = 0,
     last_action_ms = 0,
   }

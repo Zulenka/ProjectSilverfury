@@ -2,7 +2,7 @@
 
 Auto-generated from rwda/ui/commands.lua.
 
-Last generated: 2026-02-28 01:25:13 -05:00
+Last generated: 2026-02-28 02:48:24 -05:00
 
 ## Runtime Commands
 
@@ -26,6 +26,7 @@ Last generated: 2026-02-28 01:25:13 -05:00
 | rwda set breath <type> | Set dragon summon breath type. | - |
 | rwda set venoms <main> <off> | Set primary DSL venom pair. | - |
 | rwda set autostart <on|off> | Toggle auto-enable with LegacyLoaded. | - |
+| rwda set followlegacytarget <on|off> | Toggle RWDA target-follow from Legacy/global target feeds. | - |
 | rwda set prompttick <on|off> | Toggle automatic tick on prompt. | - |
 | rwda set capture <on|off> | Toggle unmatched-line capture logging. | - |
 | rwda set captureprompts <on|off> | Include prompt lines in unmatched capture log. | - |

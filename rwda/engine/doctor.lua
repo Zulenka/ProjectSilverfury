@@ -33,12 +33,15 @@ function doctor.collect()
   report.backend = {
     legacy_present = st.integration and st.integration.legacy_present or false,
     gmcp_present = st.integration and st.integration.gmcp_present or false,
+    aklimb_present = st.integration and st.integration.aklimb_present or false,
+    group_present = st.integration and st.integration.group_present or false,
   }
 
   report.runtime = {
     enabled = st.flags and st.flags.enabled or false,
     stopped = st.flags and st.flags.stopped or false,
     target = st.target and st.target.name or "(none)",
+    target_source = st.target and st.target.target_source or "-",
     target_available = st.target and st.target.available or false,
     target_reason = st.target and st.target.unavailable_reason or "-",
     bal = st.me and st.me.bal or false,
@@ -67,20 +70,23 @@ function doctor.format(report)
   local lines = {}
 
   lines[#lines + 1] = string.format(
-    "doctor legacy_present=%s legacy_curing=%s legacy_version=%s backend=legacy:%s gmcp:%s",
+    "doctor legacy_present=%s legacy_curing=%s legacy_version=%s backend=legacy:%s gmcp:%s ak:%s group:%s",
     yesNo(report.legacy.present),
     yesNo(report.legacy.has_curing),
     tostring(report.legacy.version),
     yesNo(report.backend.legacy_present),
-    yesNo(report.backend.gmcp_present)
+    yesNo(report.backend.gmcp_present),
+    yesNo(report.backend.aklimb_present),
+    yesNo(report.backend.group_present)
   )
 
   lines[#lines + 1] = string.format(
-    "doctor runtime enabled=%s stopped=%s form=%s target=%s tavail=%s treason=%s bal=%s eq=%s",
+    "doctor runtime enabled=%s stopped=%s form=%s target=%s tsrc=%s tavail=%s treason=%s bal=%s eq=%s",
     yesNo(report.runtime.enabled),
     yesNo(report.runtime.stopped),
     tostring(report.runtime.form),
     tostring(report.runtime.target),
+    tostring(report.runtime.target_source),
     yesNo(report.runtime.target_available),
     tostring(report.runtime.target_reason),
     yesNo(report.runtime.bal),

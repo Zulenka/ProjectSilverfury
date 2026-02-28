@@ -296,10 +296,11 @@ lua rwda.config.integration.auto_enable_with_legacy = false
 Implemented:
 - Added runtime command controls in `rwda/ui/commands.lua`:
   - `rwda show config`
-  - `rwda set breath <type>`
-  - `rwda set venoms <main> <off>`
-  - `rwda set autostart <on|off>`
-  - `rwda set prompttick <on|off>`
+- `rwda set breath <type>`
+- `rwda set venoms <main> <off>`
+- `rwda set autostart <on|off>`
+- `rwda set followlegacytarget <on|off>`
+- `rwda set prompttick <on|off>`
 - Help text updated to include new commands.
 - README command list updated.
 - Command-list generator mapping updated and regenerated.
@@ -462,12 +463,38 @@ Suite format:
 Validation:
 - Sample suite passes against `rwda/tools/sample_replay.log`.
 
+### 2026-02-28 - Legacy target-follow hardening and AK/LB adapter expansion
+Implemented:
+- Added target source tracking in RWDA state (`target_source`) and surfaced it in:
+  - `rwda status` as `tsrc=<manual|external>`
+  - `rwda doctor` runtime line.
+- Group/target adapter now ingests additional external target feeds:
+  - Legacy/global `target`
+  - `gmcp.IRE.Target.Set`
+  - `gmcp.IRE.Target.Info`
+  - `LPrompt` refresh events
+  - existing group events.
+- Added guard logic so external target sync will not override a manually diverged RWDA target unexpectedly.
+- Added runtime toggle:
+  - `rwda set followlegacytarget <on|off>`
+  - persisted in config save/load.
+- Expanded AK adapter coverage:
+  - Detects `ak`, `aklimb`, and `lb`.
+  - Imports target defence booleans from `ak.defs` (`shield`, `rebounding`).
+  - Attempts limb snapshot ingest from multiple AK/LB table shapes and `lb.prompt()` key/value output.
+
+Validation:
+- `luac -p` passed all RWDA Lua files (`26` files).
+- `rwda.engine.selftest.run()` passed (`9/9`).
+- Replay assertion sample passed (`expected_last_action=dsl`, `min_actions=1`).
+- Replay suite sample passed (`1/1`).
+
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:
   - defence text variants,
   - limb messaging variants,
   - kill/death announcements.
-- Add “target present in room” guard (optional) to avoid queuing attacks on absent targets.
+- Capture one or two live dumps of `ak`/`lb` table shape to tighten limb adapter parsing confidence and key mapping.
 
 ## Update Protocol (for future iterations)
 For each new feature/test cycle, append:
