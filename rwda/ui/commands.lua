@@ -34,6 +34,20 @@ local function trim(input)
   return input:gsub("^%s+", ""):gsub("%s+$", "")
 end
 
+-- Resolve a file path: if relative (no drive letter or leading slash), prepend rwda.base_path.
+local function resolvePath(path)
+  if type(path) ~= "string" or path == "" then return path end
+  -- Absolute: Windows drive letter or Unix root
+  if path:match("^[A-Za-z]:[/\\]") or path:match("^/") then
+    return path
+  end
+  local base = rwda and rwda.base_path or ""
+  if base == "" then return path end
+  -- Join with the separator already present in base_path, or default to backslash on Windows.
+  local sep = base:match("[/\\]") or "\\"
+  return base:gsub("[/\\]$", "") .. sep .. path
+end
+
 local function parseBoolWord(word)
   word = tostring(word or ""):lower()
   if word == "on" or word == "true" or word == "1" or word == "yes" then
@@ -687,7 +701,7 @@ function commands.handle(raw)
   end
 
   if sub == "replay" then
-    local path = raw:match("^replay%s+(.+)$")
+    local path = resolvePath(raw:match("^replay%s+(.+)$"))
     if not path or path == "" then
       tell("Usage: rwda replay <path-to-log-file>")
       return
@@ -724,7 +738,7 @@ function commands.handle(raw)
       path, expectedAction = raw:match("^replayassert%s+(.+)%s+(%S+)$")
     end
 
-    path = trim(path)
+    path = resolvePath(trim(path))
     if path == "" or not expectedAction or expectedAction == "" then
       tell("Usage: rwda replayassert <path-to-log-file> <expected_last_action> [min_actions]")
       return
@@ -761,7 +775,7 @@ function commands.handle(raw)
   end
 
   if sub == "replaysuite" then
-    local suitePath = trim(raw:match("^replaysuite%s+(.+)$"))
+    local suitePath = resolvePath(trim(raw:match("^replaysuite%s+(.+)$")))
     if suitePath == "" then
       tell("Usage: rwda replaysuite <path-to-suite-file>")
       return
