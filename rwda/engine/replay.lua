@@ -37,9 +37,50 @@ local function isPromptLine(line, pattern)
   return ok and match ~= nil
 end
 
+-- Lightweight tick used during replay: skips live state sync (Legacy/GMCP/group)
+-- and disables the GMCP room-presence check so replay targets are always treated
+-- as available.  Returns the chosen action or nil.
+local function replayTick()
+  if not rwda.state.flags.enabled or rwda.state.flags.stopped then
+    return nil
+  end
+
+  -- Ensure target is treated as available without querying live GMCP room.
+  if rwda.state.target.name and rwda.state.target.name ~= "" then
+    rwda.state.setTargetAvailable(true, "replay", "seen")
+  end
+
+  -- Keep retaliation and finisher state machines advancing.
+  if rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.update then
+    rwda.engine.retaliation.update()
+  end
+  if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.update then
+    rwda.engine.finisher.update()
+  end
+
+  local action = rwda.engine.planner.choose(rwda.state)
+  if not action then
+    return nil
+  end
+
+  -- Record the action without actually sending it to the server.
+  rwda.state.runtime.last_action = action
+  return action
+end
+
 function replay.runLines(lines, opts)
   opts = opts or {}
   lines = lines or {}
+
+  -- Disable live-game filters that would block fictional replay names/targets.
+  local savedRoomPresence = rwda.config.combat and rwda.config.combat.require_room_presence_when_gmcp
+  local savedIgnoreNonPlayers = rwda.config.retaliation and rwda.config.retaliation.ignore_non_players
+  if rwda.config.combat then
+    rwda.config.combat.require_room_presence_when_gmcp = false
+  end
+  if rwda.config.retaliation then
+    rwda.config.retaliation.ignore_non_players = false
+  end
 
   local total = 0
   local prompts = 0
@@ -52,11 +93,19 @@ function replay.runLines(lines, opts)
 
     if opts.auto_tick and isPromptLine(line, opts.prompt_pattern) then
       prompts = prompts + 1
-      local action = rwda.tick("replay")
+      local action = replayTick()
       if action then
         actions = actions + 1
       end
     end
+  end
+
+  -- Restore live-game filter settings.
+  if rwda.config.combat then
+    rwda.config.combat.require_room_presence_when_gmcp = savedRoomPresence
+  end
+  if rwda.config.retaliation then
+    rwda.config.retaliation.ignore_non_players = savedIgnoreNonPlayers
   end
 
   return {
