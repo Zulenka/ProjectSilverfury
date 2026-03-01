@@ -644,7 +644,7 @@ Validation steps (to run against live Mudlet):
 2. `rwda selftest` — expect all tests to pass.
 3. `rwda builder open` — expect popout UI to open with correct tab labels and block list.
 4. Toggle a block in the Runewarden tab, click Apply, `rwda strategy show` — verify change.
-5. `rwda replaysuite rwda/tools/suite_strategy_retal_finisher.lua` — expect 5/5 passed.
+5. `rwda replaysuite tools/suite_strategy_retal_finisher.lua` — expect 5/5 passed.
    (Note: log files use parser patterns that should match default config.  If any case fails
    with a wrong last_action, cross-check the line text against your in-game output and update
    the corresponding log file.)
@@ -684,7 +684,7 @@ Updated suite (`rwda/tools/suite_strategy_retal_finisher.lua`): now 7 cases (+2)
 Validation steps:
 1. `rwda reload`
 2. `rwda selftest` — expect 2 additional passing cases
-3. `rwda replaysuite rwda/tools/suite_strategy_retal_finisher.lua` — expect 7/7
+3. `rwda replaysuite tools/suite_strategy_retal_finisher.lua` — expect 7/7
 4. In-game: have two players attack you — confirm RWDA holds on original target.
 5. Kill primary; confirm RWDA auto-switches to the remaining attacker.
 

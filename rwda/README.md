@@ -112,4 +112,4 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - Tune exact combat-line patterns from your own logs for highest-confidence limb and defence updates.
 - Expand AK/group adapters once the exact API names are confirmed in your local packages.
 - Package this into `.mpackage` from Mudlet once script order is verified in your profile.
-- Run `rwda replaysuite rwda/tools/suite_strategy_retal_finisher.lua` against live Mudlet environment to confirm log patterns match your server output.
+- Run `rwda replaysuite tools/suite_strategy_retal_finisher.lua` against live Mudlet environment to confirm log patterns match your server output.
