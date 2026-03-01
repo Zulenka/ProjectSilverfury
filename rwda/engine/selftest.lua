@@ -32,6 +32,11 @@ local function resetBaseline()
   rwda.state.me.balances.equilibrium = true
   rwda.state.flags.mode = "auto"
   rwda.state.flags.goal = "limbprep"
+  -- Selftest uses fictional names not present in any live GMCP room list.
+  -- Disable the room-presence filter so retaliation tests are not blocked.
+  if rwda.config and rwda.config.retaliation then
+    rwda.config.retaliation.ignore_non_players = false
+  end
 end
 
 local function resultRow(name, ok, detail)
