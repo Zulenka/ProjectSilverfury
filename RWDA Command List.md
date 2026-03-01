@@ -17,6 +17,7 @@ Last generated: 2026-02-28 (updated manually — builder/strategy commands added
 | rwda doctor | Run Legacy/backend/handler diagnostics. | - |
 | rwda explain | Show reason/code for last planned action. | - |
 | rwda tick | Run one planning/execution cycle immediately. | Equivalent alias: rwda attack. |
+| rwda engage <name> | Set target, enable offense, and fire the first tick in one command. | Shorthand for rwda target + rwda on + rwda tick. |
 | rwda selftest | Run built-in offline planner regression tests. | - |
 | rwda target <name> | Set combat target name. | - |
 | rwda mode <auto|human|dragon> | Force or auto-select combat mode. | - |

@@ -150,7 +150,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset")
 end
 
 function commands.handle(raw)
@@ -231,6 +231,24 @@ function commands.handle(raw)
       tell(string.format("planned=%s", action.name or "unknown"))
     else
       tell("No action planned.")
+    end
+    return
+  end
+
+  if sub == "engage" then
+    local name = trim(raw:match("^engage%s+(.+)$") or "")
+    if name == "" then
+      tell("Usage: rwda engage <target>")
+      return
+    end
+    rwda.state.setTarget(name, "manual")
+    rwda.state.setTargetAvailable(true, "engage", "seen")
+    if rwda.enable then rwda.enable() end
+    local action = rwda.tick("manual")
+    if action then
+      tell(string.format("engaging %s -> %s", name, action.name or "unknown"))
+    else
+      tell(string.format("engaging %s (no action planned yet)", name))
     end
     return
   end
