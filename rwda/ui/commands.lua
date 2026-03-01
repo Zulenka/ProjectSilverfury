@@ -13,7 +13,7 @@ local function tell(message)
   end
 
   if type(decho) == "function" then
-    decho("<192,192,192>[RWDA] " .. tostring(message) .. "<r>\n")
+    decho("<239,243,238>[RWDA] " .. tostring(message) .. "<r>\n")
   elseif type(echo) == "function" then
     echo("[RWDA] " .. tostring(message) .. "\n")
   end
