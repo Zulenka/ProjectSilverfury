@@ -12,9 +12,7 @@ local function tell(message)
     return
   end
 
-  if type(cecho) == "function" then
-    cecho("<silver>[RWDA] " .. tostring(message) .. "<reset>\n")
-  elseif type(decho) == "function" then
+  if type(decho) == "function" then
     decho("<192,192,192>[RWDA] " .. tostring(message) .. "<r>\n")
   elseif type(echo) == "function" then
     echo("[RWDA] " .. tostring(message) .. "\n")
