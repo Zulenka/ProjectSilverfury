@@ -1,13 +1,12 @@
 -- Replay suite: strategy blocks, retaliation, and finisher lifecycle.
--- Run with: rwda replaysuite rwda/tools/suite_strategy_retal_finisher.lua
+-- Run with: rwda replaysuite tools/suite_strategy_retal_finisher.lua
 --
 -- Each case resets state before running.  pre_state applies per-case
 -- goal/mode/retaliation/execute settings on top of the reset baseline.
 --
--- Log file paths are relative to the Mudlet home directory or wherever
--- rwda is loaded from.  Adjust the prefix if your installation path differs.
+-- Log file paths are relative to rwda.base_path (the rwda/ directory).
 
-local BASE = "rwda/tools/"
+local BASE = "tools/"
 
 return {
   cases = {

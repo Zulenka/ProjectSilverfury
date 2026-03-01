@@ -218,7 +218,18 @@ function replay.runSuite(path, opts)
       runOpts.prompt_pattern = rwda.config.replay and rwda.config.replay.prompt_pattern
     end
 
-    local result, runErr = replay.runFileWithAssertions(case.log, runOpts)
+    -- Resolve relative log paths against rwda.base_path so suite files can use
+    -- short paths like "tools/foo.log" regardless of Mudlet's working directory.
+    local logPath = case.log or ""
+    if logPath ~= "" and not logPath:match("^[A-Za-z]:[/\\]") and not logPath:match("^/") then
+      local base = rwda and rwda.base_path or ""
+      if base ~= "" then
+        local sep = base:match("[/\\]") or "\\"
+        logPath = base:gsub("[/\\]$", "") .. sep .. logPath
+      end
+    end
+
+    local result, runErr = replay.runFileWithAssertions(logPath, runOpts)
     local passed = false
     local detail = ""
     if not result then
