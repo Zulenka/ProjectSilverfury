@@ -519,7 +519,10 @@ function planner.humanDualcut(state)
   local fallbackBlockId = finisherFallbackBlock("human_dualcut")
   if fallbackBlockId then
     local block, profileName = findStrategyBlockById("human_dualcut", state, fallbackBlockId)
-    selected = humanActionFromBlock(state, target, block, profileName, ctx)
+    -- Forced fallback bypasses the block's condition so it always fires.
+    local forcedBlock = block and rwda.util.deepcopy(block) or { id = fallbackBlockId, enabled = true }
+    forcedBlock.when = { "always" }
+    selected = humanActionFromBlock(state, target, forcedBlock, profileName, ctx)
     if selected then
       return tagFinisherFallback(selected, fallbackBlockId)
     end
@@ -551,7 +554,10 @@ function planner.dragonSilver(state)
   local fallbackBlockId = finisherFallbackBlock("dragon_silver")
   if fallbackBlockId then
     local block, profileName = findStrategyBlockById("dragon_silver", state, fallbackBlockId)
-    selected = dragonActionFromBlock(state, target, block, profileName, ctx)
+    -- Forced fallback bypasses the block's condition so it always fires.
+    local forcedBlock = block and rwda.util.deepcopy(block) or { id = fallbackBlockId, enabled = true }
+    forcedBlock.when = { "always" }
+    selected = dragonActionFromBlock(state, target, forcedBlock, profileName, ctx)
     if selected then
       return tagFinisherFallback(selected, fallbackBlockId)
     end

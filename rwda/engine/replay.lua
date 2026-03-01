@@ -65,6 +65,13 @@ local function replayTick()
 
   -- Record the action without actually sending it to the server.
   rwda.state.runtime.last_action = action
+
+  -- Notify the finisher so it can start attempt tracking for execute actions,
+  -- and clear fallback state when a fallback block action is taken.
+  if rwda.engine and rwda.engine.events and rwda.engine.events.emit then
+    rwda.engine.events.emit("ACTION_SENT", { action = action })
+  end
+
   return action
 end
 
