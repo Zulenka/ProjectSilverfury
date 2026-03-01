@@ -62,6 +62,34 @@ function doctor.collect()
     capture_path = rwda.config and rwda.config.parser and rwda.config.parser.capture_unmatched_path or "(default)",
   }
 
+  local strategyCfg = rwda.config and rwda.config.strategy or {}
+  report.strategy = {
+    enabled = strategyCfg.enabled ~= false,
+    version = tonumber(strategyCfg.version) or 0,
+    active_profile = (st.flags and st.flags.profile) or strategyCfg.active_profile or "duel",
+  }
+
+  local retaliationStatus = rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.status and rwda.engine.retaliation.status() or {}
+  report.retaliation = {
+    enabled = retaliationStatus.enabled or false,
+    locked = retaliationStatus.locked or false,
+    locked_target = retaliationStatus.locked_target or "-",
+    last_aggressor = retaliationStatus.last_aggressor or "-",
+    last_reason = retaliationStatus.last_reason or "-",
+  }
+
+  local finisherStatus = rwda.engine and rwda.engine.finisher and rwda.engine.finisher.status and rwda.engine.finisher.status() or {}
+  report.finisher = {
+    enabled = finisherStatus.enabled or false,
+    active = finisherStatus.active or false,
+    attempt_name = finisherStatus.attempt_name or "-",
+    attempt_mode = finisherStatus.attempt_mode or "-",
+    fallback_active = finisherStatus.fallback_active or false,
+    fallback_action = finisherStatus.fallback_action or "-",
+    last_result = finisherStatus.last_result or "-",
+    last_reason = finisherStatus.last_reason or "-",
+  }
+
   return report
 end
 
@@ -106,6 +134,34 @@ function doctor.format(report)
     "doctor parser capture_unmatched=%s capture_path=%s",
     yesNo(report.parser.capture_unmatched),
     tostring(report.parser.capture_path)
+  )
+
+  lines[#lines + 1] = string.format(
+    "doctor strategy enabled=%s version=%s profile=%s",
+    yesNo(report.strategy.enabled),
+    tostring(report.strategy.version),
+    tostring(report.strategy.active_profile)
+  )
+
+  lines[#lines + 1] = string.format(
+    "doctor retaliation enabled=%s locked=%s target=%s last_aggressor=%s reason=%s",
+    yesNo(report.retaliation.enabled),
+    yesNo(report.retaliation.locked),
+    tostring(report.retaliation.locked_target),
+    tostring(report.retaliation.last_aggressor),
+    tostring(report.retaliation.last_reason)
+  )
+
+  lines[#lines + 1] = string.format(
+    "doctor finisher enabled=%s active=%s attempt=%s mode=%s fallback=%s fallback_action=%s last=%s reason=%s",
+    yesNo(report.finisher.enabled),
+    yesNo(report.finisher.active),
+    tostring(report.finisher.attempt_name),
+    tostring(report.finisher.attempt_mode),
+    yesNo(report.finisher.fallback_active),
+    tostring(report.finisher.fallback_action),
+    tostring(report.finisher.last_result),
+    tostring(report.finisher.last_reason)
   )
 
   return lines

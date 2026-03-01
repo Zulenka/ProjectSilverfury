@@ -95,9 +95,12 @@ function util.log(level, fmt, ...)
     message = tostring(fmt)
   end
 
-  local line = string.format("[RWDA][%s] %s", string.upper(level), message)
+  local tag    = string.upper(level)
+  local line   = string.format("[RWDA][%s] %s", tag, message)
 
-  if type(echo) == "function" then
+  if type(decho) == "function" then
+    decho(string.format("<192,192,192>[RWDA][%s] %s<r>\n", tag, message))
+  elseif type(echo) == "function" then
     echo(line .. "\n")
   elseif type(print) == "function" then
     print(line)

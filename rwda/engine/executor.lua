@@ -112,6 +112,14 @@ function executor.execute(action)
 
   state.runtime.pending_action = nil
   rememberSend(action, state)
+
+  if rwda.engine and rwda.engine.events and rwda.engine.events.emit then
+    rwda.engine.events.emit("ACTION_SENT", {
+      action = action,
+      at = now(),
+    })
+  end
+
   return true
 end
 

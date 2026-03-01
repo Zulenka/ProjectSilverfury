@@ -12,8 +12,10 @@ local function tell(message)
     return
   end
 
-  if type(echo) == "function" then
-    echo("[RWDA] " .. message .. "\n")
+  if type(decho) == "function" then
+    decho("<192,192,192>[RWDA] " .. tostring(message) .. "<r>\n")
+  elseif type(echo) == "function" then
+    echo("[RWDA] " .. tostring(message) .. "\n")
   end
 end
 
@@ -48,18 +50,24 @@ local function formatCurrentConfig()
   local dragon = cfg.dragon or {}
   local integration = cfg.integration or {}
   local combat = cfg.combat or {}
+  local retaliation = cfg.retaliation or {}
+  local finisher = cfg.finisher or {}
   local parser = cfg.parser or {}
   local mainVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_main and cfg.runewarden.venoms.dsl_main[1] or "curare"
   local offVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_off and cfg.runewarden.venoms.dsl_off[1] or "epteth"
 
   return string.format(
-    "cfg breath=%s dsl=%s/%s autostart_legacy=%s follow_legacy_target=%s prompttick=%s use_legacy=%s capture_unmatched=%s",
+    "cfg breath=%s dsl=%s/%s autostart_legacy=%s follow_legacy_target=%s prompttick=%s retaliation=%s retalock=%sms execute=%s executecooldown=%sms use_legacy=%s capture_unmatched=%s",
     tostring(dragon.breath_type or "lightning"),
     tostring(mainVenom),
     tostring(offVenom),
     tostring(integration.auto_enable_with_legacy ~= false),
     tostring(integration.follow_legacy_target ~= false),
     tostring(combat.auto_tick_on_prompt == true),
+    tostring(retaliation.enabled == true),
+    tostring(retaliation.lock_ms or 8000),
+    tostring(finisher.enabled ~= false),
+    tostring(finisher.cooldown_ms or 1500),
     tostring(integration.use_legacy ~= false),
     tostring(parser.capture_unmatched_lines == true)
   )
@@ -96,9 +104,16 @@ function commands.statusText()
   local bal = s.me.bal and "up" or "down"
   local eq = s.me.eq and "up" or "down"
   local stopped = s.flags.stopped and "yes" or "no"
+  local finisherStatus = rwda.engine and rwda.engine.finisher and rwda.engine.finisher.status and rwda.engine.finisher.status() or {}
+  local execEnabled = finisherStatus.enabled
+  if execEnabled == nil then
+    execEnabled = rwda.config and rwda.config.finisher and rwda.config.finisher.enabled ~= false
+  end
+  local execActive = finisherStatus.active == true and "yes" or "no"
+  local execFallback = finisherStatus.fallback_active == true and "yes" or "no"
 
   return string.format(
-    "enabled=%s stopped=%s backend=%s mode=%s goal=%s profile=%s form=%s target=%s tsrc=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s",
+    "enabled=%s stopped=%s backend=%s mode=%s goal=%s profile=%s form=%s target=%s tsrc=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s execute=%s eactive=%s efallback=%s",
     tostring(s.flags.enabled),
     stopped,
     backend,
@@ -113,12 +128,15 @@ function commands.statusText()
     bal,
     eq,
     defStatus("shield"),
-    defStatus("rebounding")
+    defStatus("rebounding"),
+    tostring(execEnabled),
+    execActive,
+    execFallback
   )
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset")
 end
 
 function commands.handle(raw)
@@ -262,6 +280,8 @@ function commands.handle(raw)
     local profileCfg = rwda.config.profiles and rwda.config.profiles[profile]
     if profileCfg then
       rwda.state.flags.profile = profile
+      rwda.config.strategy = rwda.config.strategy or {}
+      rwda.config.strategy.active_profile = profile
       if profileCfg.mode then
         rwda.state.setMode(profileCfg.mode)
       end
@@ -279,6 +299,129 @@ function commands.handle(raw)
     local v = (words[2] or ""):lower()
     rwda.state.flags.debug = (v == "on" or v == "1" or v == "true")
     tell("Debug set to " .. tostring(rwda.state.flags.debug))
+    return
+  end
+
+  if sub == "retaliate" then
+    local ok, value = parseBoolWord(words[2])
+    if not ok then
+      tell("Usage: rwda retaliate <on|off>")
+      return
+    end
+
+    rwda.config.retaliation = rwda.config.retaliation or {}
+    rwda.config.retaliation.enabled = value
+    if rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.setEnabled then
+      rwda.engine.retaliation.setEnabled(value)
+    end
+    tell("Retaliation set to " .. tostring(value))
+    return
+  end
+
+  if sub == "execute" then
+    local ok, value = parseBoolWord(words[2])
+    if not ok then
+      tell("Usage: rwda execute <on|off>")
+      return
+    end
+
+    rwda.config.finisher = rwda.config.finisher or {}
+    rwda.config.finisher.enabled = value
+    if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.setEnabled then
+      rwda.engine.finisher.setEnabled(value)
+    end
+    tell("Execute automation set to " .. tostring(value))
+    return
+  end
+
+  if sub == "builder" then
+    local action = (words[2] or ""):lower()
+    if action == "open" then
+      if rwda.ui and rwda.ui.combat_builder and rwda.ui.combat_builder.open then
+        local pok, v1, v2 = pcall(rwda.ui.combat_builder.open)
+        if not pok then
+          tell("Combat builder error: " .. tostring(v1))
+        elseif v1 == false then
+          tell("Combat builder open failed: " .. tostring(v2))
+        end
+      else
+        tell("Combat builder not loaded.")
+      end
+    elseif action == "close" then
+      if rwda.ui and rwda.ui.combat_builder and rwda.ui.combat_builder.close then
+        pcall(rwda.ui.combat_builder.close)
+      else
+        tell("Combat builder not loaded.")
+      end
+    else
+      tell("Usage: rwda builder open|close")
+    end
+    return
+  end
+
+  if sub == "strategy" then
+    local action = (words[2] or ""):lower()
+    if action == "show" then
+      if not (rwda.ui and rwda.ui.combat_builder_state and rwda.ui.combat_builder_state.summaryLines) then
+        tell("Strategy module not loaded.")
+        return
+      end
+      local lines = rwda.ui.combat_builder_state.summaryLines(false)
+      for _, line in ipairs(lines or {}) do
+        tell(line)
+      end
+    elseif action == "apply" then
+      if not (rwda.ui and rwda.ui.combat_builder_state) then
+        tell("Strategy module not loaded.")
+        return
+      end
+      local state = rwda.ui.combat_builder_state
+      if not state.isOpen() then state.open() end
+      local ok, err = state.apply()
+      if ok then
+        tell("Strategy applied.")
+      else
+        tell("Apply failed: " .. tostring(err))
+      end
+    elseif action == "save" then
+      if not (rwda.ui and rwda.ui.combat_builder_state) then
+        tell("Strategy module not loaded.")
+        return
+      end
+      local state = rwda.ui.combat_builder_state
+      if not state.isOpen() then state.open() end
+      local ok, err = state.apply()
+      if not ok then
+        tell("Apply failed: " .. tostring(err))
+        return
+      end
+      if rwda.config and rwda.config.savePersisted then
+        local saveOk, result = rwda.config.savePersisted()
+        if saveOk then
+          tell("Strategy saved to " .. tostring(result))
+        else
+          tell("Save failed: " .. tostring(result))
+        end
+      else
+        tell("Config persistence unavailable.")
+      end
+    elseif action == "load" then
+      if rwda.config and rwda.config.loadPersisted then
+        local ok, result = rwda.config.loadPersisted()
+        if not ok then
+          tell("Load failed: " .. tostring(result))
+          return
+        end
+        if rwda.applyConfigToState then
+          rwda.applyConfigToState()
+        end
+        tell("Strategy loaded from " .. tostring(result))
+      else
+        tell("Config persistence unavailable.")
+      end
+    else
+      tell("Usage: rwda strategy show|apply|save|load")
+    end
     return
   end
 
@@ -350,6 +493,109 @@ function commands.handle(raw)
       return
     end
 
+    if key == "retalockms" then
+      local value = tonumber(words[3] or "")
+      if not value or value < 0 then
+        tell("Usage: rwda set retalockms <ms>")
+        return
+      end
+      rwda.config.retaliation = rwda.config.retaliation or {}
+      rwda.config.retaliation.lock_ms = math.floor(value)
+      tell("Retaliation lock_ms set to " .. tostring(rwda.config.retaliation.lock_ms))
+      return
+    end
+
+    if key == "retaldebounce" then
+      local value = tonumber(words[3] or "")
+      if not value or value < 0 then
+        tell("Usage: rwda set retaldebounce <ms>")
+        return
+      end
+      rwda.config.retaliation = rwda.config.retaliation or {}
+      rwda.config.retaliation.swap_debounce_ms = math.floor(value)
+      tell("Retaliation swap_debounce_ms set to " .. tostring(rwda.config.retaliation.swap_debounce_ms))
+      return
+    end
+
+    if key == "retalminconf" then
+      local value = tonumber(words[3] or "")
+      if not value or value < 0 or value > 1 then
+        tell("Usage: rwda set retalminconf <0-1>")
+        return
+      end
+      rwda.config.retaliation = rwda.config.retaliation or {}
+      rwda.config.retaliation.min_confidence = value
+      tell("Retaliation min_confidence set to " .. tostring(value))
+      return
+    end
+
+    if key == "executecooldown" then
+      local value = tonumber(words[3] or "")
+      if not value or value < 0 then
+        tell("Usage: rwda set executecooldown <ms>")
+        return
+      end
+      rwda.config.finisher = rwda.config.finisher or {}
+      rwda.config.finisher.cooldown_ms = math.floor(value)
+      tell("Execute cooldown_ms set to " .. tostring(rwda.config.finisher.cooldown_ms))
+      return
+    end
+
+    if key == "executefallbackwindow" then
+      local value = tonumber(words[3] or "")
+      if not value or value < 0 then
+        tell("Usage: rwda set executefallbackwindow <ms>")
+        return
+      end
+      rwda.config.finisher = rwda.config.finisher or {}
+      rwda.config.finisher.fallback_window_ms = math.floor(value)
+      tell("Execute fallback_window_ms set to " .. tostring(rwda.config.finisher.fallback_window_ms))
+      return
+    end
+
+    if key == "executetimeout" then
+      local actionName = tostring(words[3] or ""):lower()
+      local value = tonumber(words[4] or "")
+      if (actionName ~= "disembowel" and actionName ~= "devour") or not value or value < 0 then
+        tell("Usage: rwda set executetimeout <disembowel|devour> <ms>")
+        return
+      end
+      rwda.config.finisher = rwda.config.finisher or {}
+      rwda.config.finisher.timeouts = rwda.config.finisher.timeouts or {}
+      rwda.config.finisher.timeouts[actionName .. "_ms"] = math.floor(value)
+      tell(string.format("Execute timeout for %s set to %s", actionName, tostring(rwda.config.finisher.timeouts[actionName .. "_ms"])))
+      return
+    end
+
+    if key == "executefallback" then
+      local modeWord = tostring(words[3] or ""):lower()
+      local blockId = trim(raw:match("^set%s+executefallback%s+%S+%s+(.+)$"))
+      if blockId == "" then
+        tell("Usage: rwda set executefallback <human|dragon> <block_id>")
+        return
+      end
+
+      local mode
+      if modeWord == "human" or modeWord == "runewarden" then
+        mode = "human_dualcut"
+      elseif modeWord == "dragon" then
+        mode = "dragon_silver"
+      else
+        tell("Usage: rwda set executefallback <human|dragon> <block_id>")
+        return
+      end
+
+      rwda.config.finisher = rwda.config.finisher or {}
+      rwda.config.finisher.fallback_blocks = rwda.config.finisher.fallback_blocks or {}
+      if blockId == "none" or blockId == "off" then
+        rwda.config.finisher.fallback_blocks[mode] = nil
+      else
+        rwda.config.finisher.fallback_blocks[mode] = blockId
+      end
+      tell(string.format("Execute fallback block for %s set to %s", mode, tostring(rwda.config.finisher.fallback_blocks[mode] or "none")))
+      return
+    end
+
     if key == "capture" then
       local ok, value = parseBoolWord(words[3])
       if not ok then
@@ -386,7 +632,7 @@ function commands.handle(raw)
       return
     end
 
-    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
+    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
     return
   end
 

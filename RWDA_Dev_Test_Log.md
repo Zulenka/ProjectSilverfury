@@ -1,6 +1,6 @@
 # RWDA Development and Test Log
 
-Last updated: 2026-02-27
+Last updated: 2026-02-28 (multi-attacker retaliation)
 
 ## Purpose
 This file is the persistent reference for:
@@ -30,6 +30,21 @@ Use this as the source of truth during iterative feature work and testing.
 - `rwda goal <pressure|limbprep|impale_kill|dragon_devour>`
 - `rwda profile <duel|group>`
 - `rwda debug <on|off>`
+- `rwda retaliate <on|off>`
+- `rwda execute <on|off>`
+- `rwda builder open`
+- `rwda builder close`
+- `rwda strategy show`
+- `rwda strategy apply`
+- `rwda strategy save`
+- `rwda strategy load`
+- `rwda set retalockms <ms>`
+- `rwda set retaldebounce <ms>`
+- `rwda set retalminconf <0-1>`
+- `rwda set executecooldown <ms>`
+- `rwda set executefallbackwindow <ms>`
+- `rwda set executetimeout <disembowel|devour> <ms>`
+- `rwda set executefallback <human|dragon> <block_id>`
 - `rwda line <raw combat line>`
 - `rwda replay <path-to-log-file>`
 - `rwda clear target`
@@ -488,6 +503,190 @@ Validation:
 - `rwda.engine.selftest.run()` passed (`9/9`).
 - Replay assertion sample passed (`expected_last_action=dsl`, `min_actions=1`).
 - Replay suite sample passed (`1/1`).
+
+### 2026-02-28 - Phase A strategy core (schema + resolver + planner refactor)
+Implemented:
+- Added strategy preset data module:
+  - `rwda/data/strategy_presets.lua`
+  - Profiles: `duel`, `group`
+  - Per-mode block lists: `runewarden`, `dragon` with priority + condition tokens.
+- Added strategy resolver engine:
+  - `rwda/engine/strategy.lua`
+  - Bootstraps config strategy defaults from presets
+  - Resolves profile based on runtime profile
+  - Evaluates simple condition DSL tokens (`target.def.*`, `goal.*`, `not ...`, etc.)
+  - Selects highest-priority enabled matching block.
+- Refactored planner to strategy-driven selection:
+  - `rwda/engine/planner.lua`
+  - Human and dragon decision paths now select action block via strategy engine.
+  - Existing behavior preserved by default strategy profile values.
+  - Legacy fallback branch preserved when strategy is disabled or unresolved.
+- Bootstrap/load graph updates:
+  - `rwda/init.lua` now loads strategy preset/engine modules and bootstraps strategy state.
+- Config persistence updates:
+  - `rwda/config.lua` now persists `config.strategy`.
+- Diagnostics updates:
+  - `rwda/engine/doctor.lua` now reports strategy status/version/profile.
+- Selftest updates:
+  - Added checks for strategy block tagging and fallback behavior when strategy is disabled.
+
+Validation:
+- `luac -p` passed all RWDA Lua files (`28` files after module additions).
+- `rwda.engine.selftest.run()` passed with strategy and fallback coverage.
+- Replay assertion sample passed.
+- Replay suite sample passed.
+
+### 2026-02-28 - Phase B auto-retaliation engine and aggressor wiring
+Implemented:
+- Added retaliation engine:
+  - `rwda/engine/retaliation.lua`
+  - Event subscription to parser aggressor signal (`AGGRESSOR_HIT`)
+  - Target lock state with:
+    - lock duration (`lock_ms`)
+    - swap debounce (`swap_debounce_ms`)
+    - confidence gating (`min_confidence`)
+    - optional previous-target restore on lock expiry.
+- Added parser aggressor extraction:
+  - `rwda/engine/parser.lua`
+  - Emits `AGGRESSOR_HIT` on incoming hostile lines addressed to player.
+  - Prompt loop now advances retaliation expiry/restore state.
+- Runtime integration updates:
+  - `rwda/init.lua` now loads/bootstraps retaliation engine.
+  - Tick loop now calls retaliation update to handle lock expiry and restore.
+  - Shutdown unregisters retaliation event handler.
+- Config + persistence:
+  - Added `config.retaliation` defaults and persistence in `rwda/config.lua`.
+- Command surface additions:
+  - `rwda retaliate <on|off>`
+  - `rwda set retalockms <ms>`
+  - `rwda set retaldebounce <ms>`
+  - `rwda set retalminconf <0-1>`
+- Diagnostics updates:
+  - `rwda doctor` now prints retaliation status (enabled/locked/current aggressor/reason).
+- Selftest expansion:
+  - Added retaliation coverage:
+    - retarget on aggressor
+    - lock status accuracy
+    - restore previous target after expiry
+    - disabled-state guard (no target swap).
+
+Validation:
+- `luac -p` passed all RWDA Lua files.
+- `rwda.engine.selftest.run()` passed with retaliation cases included.
+- Replay assertion sample passed.
+- Replay suite sample passed.
+
+### 2026-02-28 - Phase C auto execute lifecycle + fallback routing
+Implemented:
+- Added/expanded finisher execution lifecycle (`rwda/engine/finisher.lua`):
+  - Tracks `disembowel` and `devour` attempts from `ACTION_SENT`.
+  - Marks success/failure from parser events.
+  - Applies execute cooldown and fallback forcing windows after failure/timeout.
+  - Clears fallback state when configured fallback block is sent.
+- Planner integration:
+  - `rwda/engine/planner.lua` now checks finisher fallback recommendations first for both human and dragon modes.
+  - Selected fallback actions are tagged in reason payload (`finisher_fallback=true`).
+- Prompt integration:
+  - `rwda/engine/parser.lua` prompt handler now advances finisher state (`update()`).
+- Config + persistence:
+  - Added persisted `config.finisher` defaults and save/load support in `rwda/config.lua`.
+- Command surface:
+  - `rwda execute <on|off>`
+  - `rwda set executecooldown <ms>`
+  - `rwda set executefallbackwindow <ms>`
+  - `rwda set executetimeout <disembowel|devour> <ms>`
+  - `rwda set executefallback <human|dragon> <block_id>`
+- Diagnostics:
+  - `rwda status` now includes execute state flags (`execute`, `eactive`, `efallback`).
+  - `rwda doctor` now includes finisher lifecycle status line.
+- Selftest expansion:
+  - Added execute/fallback cases for:
+    - human disembowel failure forcing DSL fallback
+    - fallback clear after fallback action send
+    - dragon devour timeout forcing configured fallback
+    - execute-disabled guard
+
+### 2026-02-28 - Phase D popout combat builder UI + Phase E replay suite expansion
+
+Implemented:
+- Added combat builder view model: `rwda/ui/combat_builder_state.lua`
+  - Open/close/apply/revert lifecycle around working copy of strategy/retaliation/finisher config.
+  - Block enable/priority mutation helpers.
+  - summaryLines() for strategy show command.
+- Added combat builder Geyser UI: `rwda/ui/combat_builder.lua`
+  - `Geyser.Window` (520×440px) with:
+    - Close button, 4 tab headers (Runewarden / Dragon / Shared / Safety),
+    - Action bar: Apply, Save, Revert buttons + live Retaliate/Execute toggles.
+    - `Geyser.MiniConsole` content area; clickable [ON/OFF] and [+]/[-] per strategy block via `echoLink`.
+  - Lazy init: no Geyser widgets created until `builder.open()` is first called (safe offline).
+  - Shutdown method unregisters and clears all widget references.
+- New commands:
+  - `rwda builder open|close`
+  - `rwda strategy show|apply|save|load`
+- Bootstrap and shutdown wired into `rwda/init.lua`.
+- `ui/combat_builder_state.lua` and `ui/combat_builder.lua` added to init FILES load list.
+- Added `pre_state` case support to `rwda/engine/replay.lua` suite runner:
+  - Per-case `goal`, `mode`, `retaliate`, `execute` settings applied after state reset.
+- Added 5 new replay log files:
+  - `rwda/tools/replay_dragon_shield_to_devour.log`
+  - `rwda/tools/replay_dragon_devour_fail.log`
+  - `rwda/tools/replay_rw_impale_disembowel.log`
+  - `rwda/tools/replay_rw_disembowel_fail.log`
+  - `rwda/tools/replay_retaliation_switch.log`
+- Added new replay suite:
+  - `rwda/tools/suite_strategy_retal_finisher.lua` — 5 cases covering the full strategy/finisher/retaliation feature surface.
+- Updated docs:
+  - `RWDA Command List.md` — builder and strategy rows added.
+  - `rwda/README.md` — UI module mentioned, builder commands listed.
+
+Validation steps (to run against live Mudlet):
+1. `rwda reload`
+2. `rwda selftest` — expect all tests to pass.
+3. `rwda builder open` — expect popout UI to open with correct tab labels and block list.
+4. Toggle a block in the Runewarden tab, click Apply, `rwda strategy show` — verify change.
+5. `rwda replaysuite rwda/tools/suite_strategy_retal_finisher.lua` — expect 5/5 passed.
+   (Note: log files use parser patterns that should match default config.  If any case fails
+   with a wrong last_action, cross-check the line text against your in-game output and update
+   the corresponding log file.)
+
+### 2026-02-28 - Multi-attacker retaliation hold + target-dead auto-switch
+
+Changed behavior in `rwda/engine/retaliation.lua`:
+
+**Multi-attacker hold:**
+- Retaliation now tracks every validated aggressor in `rt.active_aggressors[key] = { name, last_hit_ms }`.
+- On each hit, stale entries (older than `aggressor_ttl_ms`, default 20 s) are pruned.
+- If 2 or more unique aggressors are active, the system **suppresses target switching** (`last_reason = "multi_attacker_hold"`) and stays on the current target.
+- Single attacker: existing debounce/lock behavior unchanged.
+
+**Target-dead auto-switch:**
+- Retaliation now subscribes to the `TARGET_DEAD` event (`onTargetDead`).
+- On target death: dead player is removed from `active_aggressors`, lock is cleared, and the most-recently-hitting remaining aggressor is automatically retargeted.
+- The dead player is NOT saved as `previous_target` (no restore-to-dead on lock expiry).
+
+New config key:
+- `config.retaliation.aggressor_ttl_ms` — time (ms) since last hit before an aggressor is pruned from the active list.  Default: `20000`.
+
+New `rwda status` fields (from `retaliation.status()`):
+- `active_aggressor_count` — count of currently active aggressors
+- `active_aggressors` — sorted list of active aggressor names
+
+Updated selftest: 2 new cases:
+- `multi-attacker hold keeps current target`
+- `target-dead switch auto-targets remaining aggressor`
+
+New replay logs:
+- `rwda/tools/replay_retaliation_multi_attacker.log`
+- `rwda/tools/replay_retaliation_dead_switch.log`
+
+Updated suite (`rwda/tools/suite_strategy_retal_finisher.lua`): now 7 cases (+2).
+
+Validation steps:
+1. `rwda reload`
+2. `rwda selftest` — expect 2 additional passing cases
+3. `rwda replaysuite rwda/tools/suite_strategy_retal_finisher.lua` — expect 7/7
+4. In-game: have two players attack you — confirm RWDA holds on original target.
+5. Kill primary; confirm RWDA auto-switches to the remaining attacker.
 
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:

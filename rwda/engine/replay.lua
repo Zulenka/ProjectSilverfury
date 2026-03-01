@@ -180,6 +180,30 @@ function replay.runSuite(path, opts)
       rwda.setTarget(case.target)
     end
 
+    if type(case.pre_state) == "table" then
+      local ps = case.pre_state
+      if ps.goal and rwda.state and rwda.state.setGoal then
+        rwda.state.setGoal(ps.goal)
+      end
+      if ps.mode and rwda.state and rwda.state.setMode then
+        rwda.state.setMode(ps.mode)
+      end
+      if ps.retaliate ~= nil then
+        rwda.config.retaliation = rwda.config.retaliation or {}
+        rwda.config.retaliation.enabled = ps.retaliate
+        if rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.setEnabled then
+          rwda.engine.retaliation.setEnabled(ps.retaliate)
+        end
+      end
+      if ps.execute ~= nil then
+        rwda.config.finisher = rwda.config.finisher or {}
+        rwda.config.finisher.enabled = ps.execute
+        if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.setEnabled then
+          rwda.engine.finisher.setEnabled(ps.execute)
+        end
+      end
+    end
+
     local runOpts = {
       auto_tick = case.auto_tick,
       prompt_pattern = case.prompt_pattern,

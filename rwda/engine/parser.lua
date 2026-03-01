@@ -199,6 +199,106 @@ local AGGRESSIVE_VERBS = {
   throws = true,
 }
 
+local function ownName()
+  if gmcp and gmcp.Char and gmcp.Char.Status and type(gmcp.Char.Status.name) == "string" then
+    return gmcp.Char.Status.name
+  end
+  return nil
+end
+
+local function looksLikePlayerName(name)
+  if type(name) ~= "string" then
+    return false
+  end
+  local trimmed = trim(name)
+  if trimmed == "" then
+    return false
+  end
+  local lowered = trimmed:lower()
+  if lowered == "you" or lowered == "someone" then
+    return false
+  end
+  if lowered == "a" or lowered == "an" or lowered == "the" then
+    return false
+  end
+  if lowered:sub(1, 2) == "a " or lowered:sub(1, 3) == "an " or lowered:sub(1, 4) == "the " then
+    return false
+  end
+  return true
+end
+
+local function detectAggressorFromLine(line)
+  if type(line) ~= "string" or line == "" then
+    return nil
+  end
+
+  local patterns = {
+    "^([A-Z][%w'%-]+) attacks you",
+    "^([A-Z][%w'%-]+) hits you",
+    "^([A-Z][%w'%-]+) strikes you",
+    "^([A-Z][%w'%-]+) slashes you",
+    "^([A-Z][%w'%-]+) kicks you",
+    "^([A-Z][%w'%-]+) punches you",
+    "^([A-Z][%w'%-]+) stares at you",
+    "^([A-Z][%w'%-]+) points at you",
+    "^([A-Z][%w'%-]+) gestures toward you",
+    "^([A-Z][%w'%-]+) gestures at you",
+    "^([A-Z][%w'%-]+) .- at you",
+  }
+
+  local who
+  for _, pat in ipairs(patterns) do
+    who = line:match(pat)
+    if who and who ~= "" then
+      break
+    end
+  end
+
+  if not who or who == "" then
+    return nil
+  end
+
+  local mine = ownName()
+  if mine and normalizeName(who) == normalizeName(mine) then
+    return nil
+  end
+
+  if not looksLikePlayerName(who) then
+    return nil
+  end
+
+  return who
+end
+
+local function detectFinisherOutcome(lowerLine)
+  if type(lowerLine) ~= "string" then
+    return nil
+  end
+
+  if lowerLine:find("you disembowel", 1, true) then
+    return { event = "FINISHER_SUCCESS", name = "disembowel", reason = "line_success" }
+  end
+
+  if lowerLine:find("you devour", 1, true) or lowerLine:find("you have devoured", 1, true) then
+    return { event = "FINISHER_SUCCESS", name = "devour", reason = "line_success" }
+  end
+
+  if lowerLine:find("you cannot disembowel", 1, true)
+    or lowerLine:find("you fail to disembowel", 1, true)
+    or lowerLine:find("you are not impaling", 1, true) then
+    return { event = "FINISHER_FAIL", name = "disembowel", reason = "line_fail" }
+  end
+
+  if lowerLine:find("you cannot devour", 1, true)
+    or lowerLine:find("you fail to devour", 1, true)
+    or lowerLine:find("you cease trying to devour", 1, true)
+    or lowerLine:find("you stop trying to devour", 1, true) then
+    return { event = "FINISHER_FAIL", name = "devour", reason = "line_fail" }
+  end
+
+  return nil
+end
+
 local function targetRemainderFromLine(line)
   local target = rwda.state and rwda.state.target and rwda.state.target.name
   if not target or target == "" then
@@ -546,6 +646,14 @@ function parser.onPrompt()
 
   parser.refreshTargetAvailabilityFromGMCP("prompt")
 
+  if rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.update then
+    rwda.engine.retaliation.update()
+  end
+
+  if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.update then
+    rwda.engine.finisher.update()
+  end
+
   if rwda.state.flags.enabled and rwda.config.combat.auto_tick_on_prompt then
     rwda.tick("prompt")
   end
@@ -587,6 +695,24 @@ function parser.handleLine(line)
 
   local state = rwda.state
   local lower = line:lower()
+
+  local aggressor = detectAggressorFromLine(line)
+  if aggressor then
+    emit("AGGRESSOR_HIT", {
+      who = aggressor,
+      line = line,
+      confidence = 0.9,
+    })
+  end
+
+  local finisherOutcome = detectFinisherOutcome(lower)
+  if finisherOutcome then
+    emit(finisherOutcome.event, {
+      name = finisherOutcome.name,
+      line = line,
+      reason = finisherOutcome.reason,
+    })
+  end
 
   local missingTargetMessages = {
     "you detect nothing here by that name.",
@@ -789,6 +915,27 @@ function parser.handleLine(line)
     or line:match("^(.+) has been slain by you%.$")
   if killed and markTargetDead(killed, "line") then
     return
+  end
+
+  -- Starburst tattoo: target survived death via tattoo resurrection.
+  -- Server line: "A starburst tattoo flares and bathes <Name> in red light"
+  -- The kill line fires first (clearing/marking the target dead), then this line
+  -- arrives on the next server line.  Restore the target so attacks continue.
+  -- Match against both the current target name and the most recent cleared target
+  -- (state.target.last_target) so the restore works even after clearTarget().
+  local starburstWho = line:match("^A starburst tattoo flares and bathes ([A-Z][%w'%-]+)")
+  if starburstWho then
+    local norm = normalizeName(starburstWho)
+    local targetNorm = normalizeName(state.target.name or "")
+    local lastNorm = normalizeName(state.target.last_target or "")
+    if (targetNorm ~= "" and norm == targetNorm)
+      or (lastNorm ~= "" and norm == lastNorm) then
+      local restoreSource = state.target.target_source or "starburst"
+      state.setTarget(starburstWho, restoreSource)
+      emit("TARGET_ALIVE", { who = starburstWho, reason = "starburst" })
+      rwda.util.log("info", "Starburst: %s survived, resuming attack.", tostring(starburstWho))
+      return
+    end
   end
 
   local escape = line:match("^(.+) leaves [a-z]+%.$")

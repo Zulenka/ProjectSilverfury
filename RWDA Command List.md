@@ -2,7 +2,7 @@
 
 Auto-generated from rwda/ui/commands.lua.
 
-Last generated: 2026-02-28 02:48:24 -05:00
+Last generated: 2026-02-28 (updated manually — builder/strategy commands added)
 
 ## Runtime Commands
 
@@ -23,11 +23,26 @@ Last generated: 2026-02-28 02:48:24 -05:00
 | rwda goal <pressure|limbprep|impale_kill|dragon_devour> | Set planner goal. | - |
 | rwda profile <duel|group> | Apply profile presets for mode/goal. | - |
 | rwda debug <on|off> | Toggle verbose trace logging. | - |
+| rwda retaliate <on|off> | Toggle auto-retaliation target lock on aggressor hits. | - |
+| rwda execute <on|off> | Toggle auto execute/finisher lifecycle automation. | - |
+| rwda builder open | Open the combat strategy popout UI. | Requires Geyser (Mudlet). |
+| rwda builder close | Close the combat strategy popout UI. | - |
+| rwda strategy show | Print active strategy profile summary (live config). | - |
+| rwda strategy apply | Apply pending builder changes to live config. | - |
+| rwda strategy save | Apply and persist strategy to disk. | - |
+| rwda strategy load | Load strategy from disk and apply to state. | - |
 | rwda set breath <type> | Set dragon summon breath type. | - |
 | rwda set venoms <main> <off> | Set primary DSL venom pair. | - |
 | rwda set autostart <on|off> | Toggle auto-enable with LegacyLoaded. | - |
 | rwda set followlegacytarget <on|off> | Toggle RWDA target-follow from Legacy/global target feeds. | - |
 | rwda set prompttick <on|off> | Toggle automatic tick on prompt. | - |
+| rwda set retalockms <ms> | Set retaliation lock duration in milliseconds. | - |
+| rwda set retaldebounce <ms> | Set minimum milliseconds between retaliation target swaps. | - |
+| rwda set retalminconf <0-1> | Set minimum aggressor detection confidence for auto-retaliation. | - |
+| rwda set executecooldown <ms> | Set execute attempt cooldown in milliseconds. | - |
+| rwda set executefallbackwindow <ms> | Set fallback forcing window after failed execute. | - |
+| rwda set executetimeout <disembowel|devour> <ms> | Set execute timeout per finisher action. | - |
+| rwda set executefallback <human|dragon> <block_id> | Set fallback strategy block ID for human/dragon execute failure. | - |
 | rwda set capture <on|off> | Toggle unmatched-line capture logging. | - |
 | rwda set captureprompts <on|off> | Include prompt lines in unmatched capture log. | - |
 | rwda set capturepath <path> | Set unmatched capture log file path. | - |

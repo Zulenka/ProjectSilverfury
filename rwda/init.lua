@@ -43,9 +43,13 @@ local FILES = {
   "data/defences.lua",
   "data/abilities.lua",
   "data/venoms.lua",
+  "data/strategy_presets.lua",
   "engine/events.lua",
   "engine/timers.lua",
   "engine/queue.lua",
+  "engine/strategy.lua",
+  "engine/retaliation.lua",
+  "engine/finisher.lua",
   "engine/planner.lua",
   "engine/executor.lua",
   "engine/parser.lua",
@@ -55,6 +59,8 @@ local FILES = {
   "integrations/legacy.lua",
   "integrations/aklimb.lua",
   "integrations/groupcombat.lua",
+  "ui/combat_builder_state.lua",
+  "ui/combat_builder.lua",
   "ui/commands.lua",
 }
 
@@ -80,8 +86,18 @@ end
 function rwda.applyConfigToState()
   rwda.state.flags.mode = rwda.config.combat.mode or "auto"
   rwda.state.flags.goal = rwda.config.combat.goal or "limbprep"
-  rwda.state.flags.profile = rwda.config.combat.profile or "duel"
+  rwda.state.flags.profile = (rwda.config.strategy and rwda.config.strategy.active_profile) or rwda.config.combat.profile or "duel"
   rwda.state.me.dragon.breath_type = rwda.config.dragon.breath_type or "lightning"
+
+  if rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.setEnabled then
+    local retalCfg = rwda.config.retaliation or {}
+    rwda.engine.retaliation.setEnabled(retalCfg.enabled == true)
+  end
+
+  if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.setEnabled then
+    local finisherCfg = rwda.config.finisher or {}
+    rwda.engine.finisher.setEnabled(finisherCfg.enabled ~= false)
+  end
 end
 
 function rwda.bootstrap(opts)
@@ -109,6 +125,18 @@ function rwda.bootstrap(opts)
 
   rwda.state.bootstrap()
   rwda.applyConfigToState()
+
+  if rwda.engine and rwda.engine.strategy and rwda.engine.strategy.bootstrap then
+    rwda.engine.strategy.bootstrap()
+  end
+
+  if rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.bootstrap then
+    rwda.engine.retaliation.bootstrap()
+  end
+
+  if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.bootstrap then
+    rwda.engine.finisher.bootstrap()
+  end
 
   local legacyActive = false
   if rwda.integrations and rwda.integrations.legacy then
@@ -221,6 +249,14 @@ function rwda.tick(source)
     rwda.engine.parser.refreshTargetAvailabilityFromGMCP("tick")
   end
 
+  if rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.update then
+    rwda.engine.retaliation.update()
+  end
+
+  if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.update then
+    rwda.engine.finisher.update()
+  end
+
   local action = rwda.engine.planner.choose(rwda.state)
   if not action then
     return nil
@@ -242,6 +278,10 @@ function rwda.statusLine()
 end
 
 function rwda.shutdown()
+  if rwda.ui and rwda.ui.combat_builder and rwda.ui.combat_builder.shutdown then
+    pcall(rwda.ui.combat_builder.shutdown)
+  end
+
   if rwda.ui and rwda.ui.commands and rwda.ui.commands.unregisterAlias then
     pcall(rwda.ui.commands.unregisterAlias)
   end
@@ -252,6 +292,14 @@ function rwda.shutdown()
 
   if rwda.engine and rwda.engine.executor and rwda.engine.executor.unregisterSafetyValve then
     pcall(rwda.engine.executor.unregisterSafetyValve)
+  end
+
+  if rwda.engine and rwda.engine.retaliation and rwda.engine.retaliation.shutdown then
+    pcall(rwda.engine.retaliation.shutdown)
+  end
+
+  if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.shutdown then
+    pcall(rwda.engine.finisher.shutdown)
   end
 
   if rwda.integrations and rwda.integrations.legacy and rwda.integrations.legacy.unregisterHandlers then

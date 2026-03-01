@@ -42,6 +42,71 @@ local function action(mode, name, commands, reason, extra)
   }
 end
 
+local function enrichReason(summary, code, profileName, blockId, extra)
+  local out = {}
+  if type(extra) == "table" then
+    for k, v in pairs(extra) do
+      out[k] = v
+    end
+  end
+  out.summary = summary
+  out.code = code
+  if profileName then
+    out.strategy_profile = profileName
+  end
+  if blockId then
+    out.strategy_block = blockId
+  end
+  return out
+end
+
+local function profileForState(state)
+  if rwda.engine and rwda.engine.strategy and rwda.engine.strategy.resolveProfileName then
+    return rwda.engine.strategy.resolveProfileName(state)
+  end
+  return (state.flags and state.flags.profile) or "duel"
+end
+
+local function findStrategyBlockById(mode, state, blockId)
+  if not blockId or blockId == "" then
+    return nil, profileForState(state)
+  end
+
+  local profileName = profileForState(state)
+  if rwda.engine and rwda.engine.strategy and rwda.engine.strategy.blocksForMode then
+    local blocks, resolvedProfile = rwda.engine.strategy.blocksForMode(mode, state)
+    if resolvedProfile then
+      profileName = resolvedProfile
+    end
+
+    for _, block in ipairs(blocks or {}) do
+      if type(block) == "table" and tostring(block.id or "") == tostring(blockId) then
+        return block, profileName
+      end
+    end
+  end
+
+  return { id = blockId, enabled = true }, profileName
+end
+
+local function finisherFallbackBlock(mode)
+  if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.recommendedFallbackBlock then
+    return rwda.engine.finisher.recommendedFallbackBlock(mode)
+  end
+  return nil
+end
+
+local function tagFinisherFallback(selected, blockId)
+  if not selected then
+    return nil
+  end
+
+  selected.reason = selected.reason or {}
+  selected.reason.finisher_fallback = true
+  selected.reason.finisher_fallback_block = blockId
+  return selected
+end
+
 function planner.resolveMode(state)
   local forced = (state.flags.mode or "auto"):lower()
 
@@ -107,18 +172,208 @@ function planner.canDevour(state)
   return planner.estimateDevourTime(state) < threshold
 end
 
-function planner.humanDualcut(state)
-  local target = state.target.name
-  if not target then
-    return nil
+local function humanContext(state)
+  local targetImpaled = state.target.impaled or state.target.affs.impaled
+  local bothLegsBroken = limbBroken(state.target, "left_leg") and limbBroken(state.target, "right_leg")
+  local goal = (state.flags.goal or "limbprep"):lower()
+  local limb = planner.nextPrepLimb(state)
+  local vMain = rwda.config.runewarden.venoms.dsl_main or { "curare", "gecko" }
+  local vOff = rwda.config.runewarden.venoms.dsl_off or { "epteth", "kalmia" }
+
+  return {
+    goal = goal,
+    target_impaled = targetImpaled,
+    both_legs_broken = bothLegsBroken,
+    limb = limb,
+    v1 = vMain[1] or "curare",
+    v2 = vOff[1] or "gecko",
+  }
+end
+
+local function dragonPressureLimb(state)
+  local limbOrder = { "left_leg", "right_leg", "left_arm", "right_arm", "head" }
+  for _, limb in ipairs(limbOrder) do
+    if not limbBroken(state.target, limb) then
+      return limb
+    end
+  end
+  return "left_leg"
+end
+
+local function dragonContext(state)
+  local devourTime = planner.estimateDevourTime(state)
+  return {
+    goal = (state.flags.goal or "dragon_devour"):lower(),
+    can_devour = planner.canDevour(state),
+    devour_time = devourTime,
+    pressure_limb = dragonPressureLimb(state),
+  }
+end
+
+local function humanActionFromBlock(state, target, block, profileName, ctx)
+  local id = block and block.id or ""
+  if id == "strip_rebounding" then
+    return action(
+      "human_dualcut",
+      "raze",
+      { string.format("raze %s rebounding", target) },
+      enrichReason("Strip rebounding before weapon pressure.", "strip_rebounding", profileName, id)
+    )
   end
 
+  if id == "strip_shield" then
+    return action(
+      "human_dualcut",
+      "razeslash",
+      { string.format("razeslash %s", target) },
+      enrichReason("Break magical shield while preserving pressure.", "strip_shield", profileName, id)
+    )
+  end
+
+  if id == "impale_window" then
+    return action(
+      "human_dualcut",
+      "impale",
+      { string.format("impale %s", target) },
+      enrichReason("Target is prone with both legs broken, start impale lock.", "impale_window", profileName, id)
+    )
+  end
+
+  if id == "disembowel_followup" then
+    return action(
+      "human_dualcut",
+      "disembowel",
+      { string.format("disembowel %s", target) },
+      enrichReason("Target is impaled, convert lock into kill damage.", "disembowel_followup", profileName, id)
+    )
+  end
+
+  if id == "intimidate_lock" then
+    return action(
+      "human_dualcut",
+      "intimidate",
+      { string.format("intimidate %s", target) },
+      enrichReason("Reinforce tumble delay while kill setup is active.", "intimidate_lock", profileName, id)
+    )
+  end
+
+  if id == "limbprep_dsl" then
+    local cmd = string.format("dsl %s %s %s %s", target, ctx.limb, ctx.v1, ctx.v2)
+    return action(
+      "human_dualcut",
+      "dsl",
+      { cmd },
+      enrichReason(
+        string.format("Apply dual-cut pressure on %s with venom throughput.", ctx.limb),
+        "limbprep_dsl",
+        profileName,
+        id,
+        { limb = ctx.limb, venoms = { ctx.v1, ctx.v2 } }
+      )
+    )
+  end
+
+  return nil
+end
+
+local function dragonActionFromBlock(state, target, block, profileName, ctx)
+  local id = block and block.id or ""
+  if id == "summon_breath" then
+    local breathType = rwda.config.dragon.breath_type or "lightning"
+    return action(
+      "dragon_silver",
+      "summon",
+      { string.format("summon %s", breathType) },
+      enrichReason("Summon breath before dragon offense cycle.", "summon_breath", profileName, id)
+    )
+  end
+
+  if id == "dragon_strip_shield" then
+    return action(
+      "dragon_silver",
+      "tailsmash",
+      { string.format("tailsmash %s", target) },
+      enrichReason("Shield detected, use tailsmash to reopen offense.", "dragon_strip_shield", profileName, id)
+    )
+  end
+
+  if id == "dragon_strip_rebounding" then
+    return action(
+      "dragon_silver",
+      "breathstrip",
+      { string.format("breathstrip %s", target) },
+      enrichReason("Rebounding detected, strip with breath utility.", "dragon_strip_rebounding", profileName, id)
+    )
+  end
+
+  if id == "dragon_force_prone" then
+    return action(
+      "dragon_silver",
+      "gust",
+      { string.format("gust %s", target) },
+      enrichReason("Force prone state to lock movement and prep devour window.", "dragon_force_prone", profileName, id)
+    )
+  end
+
+  if id == "devour_window" then
+    return action(
+      "dragon_silver",
+      "devour",
+      { string.format("devour %s", target) },
+      enrichReason(
+        string.format("Estimated devour time %.1fs is under threshold, execute.", ctx.devour_time),
+        "devour_window",
+        profileName,
+        id,
+        { devour_time = ctx.devour_time }
+      ),
+      { queue_type = "freestand" }
+    )
+  end
+
+  if id == "dragon_torso_pressure" then
+    return action(
+      "dragon_silver",
+      "rend",
+      { string.format("rend %s torso", target) },
+      enrichReason("Increase torso damage to accelerate devour channel.", "dragon_torso_pressure", profileName, id)
+    )
+  end
+
+  if id == "dragon_limb_pressure" then
+    return action(
+      "dragon_silver",
+      "rend",
+      { string.format("rend %s %s", target, ctx.pressure_limb) },
+      enrichReason(
+        string.format("Keep adding restoration pressure on %s.", ctx.pressure_limb),
+        "dragon_limb_pressure",
+        profileName,
+        id,
+        { limb = ctx.pressure_limb, devour_time = ctx.devour_time }
+      )
+    )
+  end
+
+  if id == "dragon_blast" then
+    return action(
+      "dragon_silver",
+      "blast",
+      { string.format("blast %s", target) },
+      enrichReason("Apply direct pressure with blast.", "dragon_blast", profileName, id)
+    )
+  end
+
+  return nil
+end
+
+local function humanLegacyFallback(state, target, ctx)
   if defActive(state.target, "rebounding") then
     return action(
       "human_dualcut",
       "raze",
       { string.format("raze %s rebounding", target) },
-      { summary = "Strip rebounding before weapon pressure.", code = "strip_rebounding" }
+      enrichReason("Strip rebounding before weapon pressure.", "strip_rebounding")
     )
   end
 
@@ -127,76 +382,62 @@ function planner.humanDualcut(state)
       "human_dualcut",
       "razeslash",
       { string.format("razeslash %s", target) },
-      { summary = "Break magical shield while preserving pressure.", code = "strip_shield" }
+      enrichReason("Break magical shield while preserving pressure.", "strip_shield")
     )
   end
 
-  local bothLegsBroken = limbBroken(state.target, "left_leg") and limbBroken(state.target, "right_leg")
-  local goal = (state.flags.goal or "limbprep"):lower()
-  local targetImpaled = state.target.impaled or state.target.affs.impaled
-
-  if goal == "impale_kill" then
-    if state.target.prone and bothLegsBroken and not targetImpaled then
+  if ctx.goal == "impale_kill" then
+    if state.target.prone and ctx.both_legs_broken and not ctx.target_impaled then
       return action(
         "human_dualcut",
         "impale",
         { string.format("impale %s", target) },
-        { summary = "Target is prone with both legs broken, start impale lock.", code = "impale_window" }
+        enrichReason("Target is prone with both legs broken, start impale lock.", "impale_window")
       )
     end
 
-    if targetImpaled then
+    if ctx.target_impaled then
       return action(
         "human_dualcut",
         "disembowel",
         { string.format("disembowel %s", target) },
-        { summary = "Target is impaled, convert lock into kill damage.", code = "disembowel_followup" }
+        enrichReason("Target is impaled, convert lock into kill damage.", "disembowel_followup")
       )
     end
 
-    if state.target.prone and bothLegsBroken then
+    if state.target.prone and ctx.both_legs_broken then
       return action(
         "human_dualcut",
         "intimidate",
         { string.format("intimidate %s", target) },
-        { summary = "Reinforce tumble delay while kill setup is active.", code = "intimidate_lock" }
+        enrichReason("Reinforce tumble delay while kill setup is active.", "intimidate_lock")
       )
     end
   end
 
-  local limb = planner.nextPrepLimb(state)
-  local vMain = rwda.config.runewarden.venoms.dsl_main or { "curare", "gecko" }
-  local vOff = rwda.config.runewarden.venoms.dsl_off or { "epteth", "kalmia" }
-  local v1 = vMain[1] or "curare"
-  local v2 = vOff[1] or "gecko"
-
-  local cmd = string.format("dsl %s %s %s %s", target, limb, v1, v2)
+  local cmd = string.format("dsl %s %s %s %s", target, ctx.limb, ctx.v1, ctx.v2)
   return action(
     "human_dualcut",
     "dsl",
     { cmd },
-    {
-      summary = string.format("Apply dual-cut pressure on %s with venom throughput.", limb),
-      code = "limbprep_dsl",
-      limb = limb,
-      venoms = { v1, v2 },
-    }
+    enrichReason(
+      string.format("Apply dual-cut pressure on %s with venom throughput.", ctx.limb),
+      "limbprep_dsl",
+      nil,
+      nil,
+      { limb = ctx.limb, venoms = { ctx.v1, ctx.v2 } }
+    )
   )
 end
 
-function planner.dragonSilver(state)
-  local target = state.target.name
-  if not target then
-    return nil
-  end
-
+local function dragonLegacyFallback(state, target, ctx)
   if not state.me.dragon.breath_summoned then
     local breathType = rwda.config.dragon.breath_type or "lightning"
     return action(
       "dragon_silver",
       "summon",
       { string.format("summon %s", breathType) },
-      { summary = "Summon breath before dragon offense cycle.", code = "summon_breath" }
+      enrichReason("Summon breath before dragon offense cycle.", "summon_breath")
     )
   end
 
@@ -205,7 +446,7 @@ function planner.dragonSilver(state)
       "dragon_silver",
       "tailsmash",
       { string.format("tailsmash %s", target) },
-      { summary = "Shield detected, use tailsmash to reopen offense.", code = "dragon_strip_shield" }
+      enrichReason("Shield detected, use tailsmash to reopen offense.", "dragon_strip_shield")
     )
   end
 
@@ -214,7 +455,7 @@ function planner.dragonSilver(state)
       "dragon_silver",
       "breathstrip",
       { string.format("breathstrip %s", target) },
-      { summary = "Rebounding detected, strip with breath utility.", code = "dragon_strip_rebounding" }
+      enrichReason("Rebounding detected, strip with breath utility.", "dragon_strip_rebounding")
     )
   end
 
@@ -223,25 +464,23 @@ function planner.dragonSilver(state)
       "dragon_silver",
       "gust",
       { string.format("gust %s", target) },
-      { summary = "Force prone state to lock movement and prep devour window.", code = "dragon_force_prone" }
+      enrichReason("Force prone state to lock movement and prep devour window.", "dragon_force_prone")
     )
   end
 
-  local goal = (state.flags.goal or "dragon_devour"):lower()
-  if goal == "dragon_devour" and planner.canDevour(state) then
-    local devourTime = planner.estimateDevourTime(state)
+  if ctx.goal == "dragon_devour" and ctx.can_devour then
     return action(
       "dragon_silver",
       "devour",
       { string.format("devour %s", target) },
-      {
-        summary = string.format("Estimated devour time %.1fs is under threshold, execute.", devourTime),
-        code = "devour_window",
-        devour_time = devourTime,
-      },
-      {
-        queue_type = "freestand",
-      }
+      enrichReason(
+        string.format("Estimated devour time %.1fs is under threshold, execute.", ctx.devour_time),
+        "devour_window",
+        nil,
+        nil,
+        { devour_time = ctx.devour_time }
+      ),
+      { queue_type = "freestand" }
     )
   end
 
@@ -250,30 +489,86 @@ function planner.dragonSilver(state)
       "dragon_silver",
       "rend",
       { string.format("rend %s torso", target) },
-      { summary = "Increase torso damage to accelerate devour channel.", code = "dragon_torso_pressure" }
+      enrichReason("Increase torso damage to accelerate devour channel.", "dragon_torso_pressure")
     )
-  end
-
-  local limbOrder = { "left_leg", "right_leg", "left_arm", "right_arm", "head" }
-  local chosen = "left_leg"
-  for _, limb in ipairs(limbOrder) do
-    if not limbBroken(state.target, limb) then
-      chosen = limb
-      break
-    end
   end
 
   return action(
     "dragon_silver",
     "rend",
-    { string.format("rend %s %s", target, chosen) },
-    {
-      summary = string.format("Keep adding restoration pressure on %s.", chosen),
-      code = "dragon_limb_pressure",
-      limb = chosen,
-      devour_time = planner.estimateDevourTime(state),
-    }
+    { string.format("rend %s %s", target, ctx.pressure_limb) },
+    enrichReason(
+      string.format("Keep adding restoration pressure on %s.", ctx.pressure_limb),
+      "dragon_limb_pressure",
+      nil,
+      nil,
+      { limb = ctx.pressure_limb, devour_time = ctx.devour_time }
+    )
   )
+end
+
+function planner.humanDualcut(state)
+  local target = state.target.name
+  if not target then
+    return nil
+  end
+
+  local ctx = humanContext(state)
+  local selected
+
+  local fallbackBlockId = finisherFallbackBlock("human_dualcut")
+  if fallbackBlockId then
+    local block, profileName = findStrategyBlockById("human_dualcut", state, fallbackBlockId)
+    selected = humanActionFromBlock(state, target, block, profileName, ctx)
+    if selected then
+      return tagFinisherFallback(selected, fallbackBlockId)
+    end
+  end
+
+  if rwda.engine and rwda.engine.strategy and rwda.engine.strategy.selectBlock then
+    local block, profileName = rwda.engine.strategy.selectBlock("human_dualcut", state, ctx)
+    if block then
+      selected = humanActionFromBlock(state, target, block, profileName, ctx)
+    end
+  end
+
+  if selected then
+    return selected
+  end
+
+  return humanLegacyFallback(state, target, ctx)
+end
+
+function planner.dragonSilver(state)
+  local target = state.target.name
+  if not target then
+    return nil
+  end
+
+  local ctx = dragonContext(state)
+  local selected
+
+  local fallbackBlockId = finisherFallbackBlock("dragon_silver")
+  if fallbackBlockId then
+    local block, profileName = findStrategyBlockById("dragon_silver", state, fallbackBlockId)
+    selected = dragonActionFromBlock(state, target, block, profileName, ctx)
+    if selected then
+      return tagFinisherFallback(selected, fallbackBlockId)
+    end
+  end
+
+  if rwda.engine and rwda.engine.strategy and rwda.engine.strategy.selectBlock then
+    local block, profileName = rwda.engine.strategy.selectBlock("dragon_silver", state, ctx)
+    if block then
+      selected = dragonActionFromBlock(state, target, block, profileName, ctx)
+    end
+  end
+
+  if selected then
+    return selected
+  end
+
+  return dragonLegacyFallback(state, target, ctx)
 end
 
 function planner.choose(state)

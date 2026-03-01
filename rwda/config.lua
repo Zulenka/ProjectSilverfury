@@ -99,6 +99,15 @@ local function exportPersistedConfig()
       clear_queue_when_target_missing = config.combat.clear_queue_when_target_missing,
       require_room_presence_when_gmcp = config.combat.require_room_presence_when_gmcp,
     },
+    retaliation = {
+      enabled = config.retaliation.enabled,
+      lock_ms = config.retaliation.lock_ms,
+      swap_debounce_ms = config.retaliation.swap_debounce_ms,
+      min_confidence = config.retaliation.min_confidence,
+      restore_previous_target = config.retaliation.restore_previous_target,
+      ignore_non_players = config.retaliation.ignore_non_players,
+    },
+    finisher = rwda.util.deepcopy(config.finisher or {}),
     parser = {
       capture_unmatched_lines = config.parser.capture_unmatched_lines,
       capture_unmatched_path = config.parser.capture_unmatched_path,
@@ -123,6 +132,7 @@ local function exportPersistedConfig()
       default_goal = config.dragon.default_goal,
       devour_threshold = config.dragon.devour_threshold,
     },
+    strategy = rwda.util.deepcopy(config.strategy or {}),
   }
 end
 
@@ -159,6 +169,25 @@ setDefault(config.combat, "auto_tick_on_prompt", false)
 setDefault(config.combat, "require_target_available", true)
 setDefault(config.combat, "clear_queue_when_target_missing", true)
 setDefault(config.combat, "require_room_presence_when_gmcp", true)
+
+config.retaliation = config.retaliation or {}
+setDefault(config.retaliation, "enabled", false)
+setDefault(config.retaliation, "lock_ms", 8000)
+setDefault(config.retaliation, "swap_debounce_ms", 1500)
+setDefault(config.retaliation, "min_confidence", 0.65)
+setDefault(config.retaliation, "restore_previous_target", true)
+setDefault(config.retaliation, "ignore_non_players", true)
+
+config.finisher = config.finisher or {}
+setDefault(config.finisher, "enabled", true)
+setDefault(config.finisher, "cooldown_ms", 1500)
+setDefault(config.finisher, "fallback_window_ms", 6000)
+config.finisher.timeouts = config.finisher.timeouts or {}
+setDefault(config.finisher.timeouts, "disembowel_ms", 2500)
+setDefault(config.finisher.timeouts, "devour_ms", 8000)
+config.finisher.fallback_blocks = config.finisher.fallback_blocks or {}
+setDefault(config.finisher.fallback_blocks, "human_dualcut", "limbprep_dsl")
+setDefault(config.finisher.fallback_blocks, "dragon_silver", "dragon_force_prone")
 
 config.parser = config.parser or {}
 setDefault(config.parser, "use_temp_line_trigger", false)
@@ -218,6 +247,12 @@ setDefault(config.dragon, "devour_threshold", 6.0)
 config.profiles = config.profiles or {}
 config.profiles.duel = config.profiles.duel or { mode = "auto", goal = "limbprep" }
 config.profiles.group = config.profiles.group or { mode = "auto", goal = "pressure" }
+
+config.strategy = config.strategy or {}
+setDefault(config.strategy, "enabled", true)
+setDefault(config.strategy, "version", 1)
+setDefault(config.strategy, "active_profile", "duel")
+config.strategy.profiles = config.strategy.profiles or {}
 
 config.replay = config.replay or {}
 setDefault(config.replay, "prompt_pattern", "^%d+h, %d+m")

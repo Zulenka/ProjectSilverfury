@@ -9,8 +9,11 @@ Project log:
 - Canonical state model (`rwda/state/*`) for self, target, cooldowns, and runtime flags.
 - Data dictionaries (`rwda/data/*`) for core afflictions, defences, abilities, and venoms.
 - Engine modules (`rwda/engine/*`) for events, parsing, planning, server-queue execution, and safety controls.
+- Strategy-driven planner core (`rwda/engine/strategy.lua`) with profile/mode block selection.
+- Finisher lifecycle engine (`rwda/engine/finisher.lua`) with timeout/fallback routing for disembowel/devour attempts.
 - Integrations (`rwda/integrations/*`) for Legacy (primary), AK/lb limb feeds, and group/Legacy target sync.
 - Command UI (`rwda/ui/commands.lua`) with `rwda` alias controls.
+- Combat builder UI (`rwda/ui/combat_builder.lua` + `rwda/ui/combat_builder_state.lua`) — Geyser popout with Runewarden/Dragon/Shared/Safety tabs for live strategy editing.
 - Replay harness (`rwda/engine/replay.lua`) for log-driven parser/planner validation.
 
 ## Legacy integration (primary)
@@ -58,6 +61,14 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - `rwda doctor`
 - `rwda explain`
 - `rwda tick`
+- `rwda retaliate <on|off>`
+- `rwda execute <on|off>`
+- `rwda builder open`
+- `rwda builder close`
+- `rwda strategy show`
+- `rwda strategy apply`
+- `rwda strategy save`
+- `rwda strategy load`
 - `rwda selftest`
 - `rwda show config`
 - `rwda set breath <type>`
@@ -65,6 +76,13 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - `rwda set autostart <on|off>`
 - `rwda set followlegacytarget <on|off>`
 - `rwda set prompttick <on|off>`
+- `rwda set retalockms <ms>`
+- `rwda set retaldebounce <ms>`
+- `rwda set retalminconf <0-1>`
+- `rwda set executecooldown <ms>`
+- `rwda set executefallbackwindow <ms>`
+- `rwda set executetimeout <disembowel|devour> <ms>`
+- `rwda set executefallback <human|dragon> <block_id>`
 - `rwda set capture <on|off>`
 - `rwda set captureprompts <on|off>`
 - `rwda set capturepath <path>`
@@ -86,8 +104,12 @@ RWDA does not send herb/salve/sip cures while Legacy integration is active.
 - `rwda status` includes `tsrc` to show where target selection is currently coming from (`manual` vs `external`).
 - Defence inference can mark uncertain drops as inactive with confidence; these display as `0(x.xx)` in `rwda status`.
 - `rwda doctor` prints backend/handler diagnostics for Legacy wiring and parser capture settings.
+- Planner decisions now route through strategy profiles (`duel`/`group`) with legacy fallbacks if strategy is disabled.
+- Retaliation engine tracks all active aggressors: if two or more people are attacking simultaneously it holds the current target (no churn).  When the current target dies it automatically switches to whoever is still attacking.  Configure aggressor expiry with `config.retaliation.aggressor_ttl_ms` (default 20 s).
+- Finisher engine tracks execute attempts (`disembowel`, `devour`), applies timeout/failure cooldown, and can force a configured fallback block for recovery.
 
 ## Known next steps
 - Tune exact combat-line patterns from your own logs for highest-confidence limb and defence updates.
 - Expand AK/group adapters once the exact API names are confirmed in your local packages.
 - Package this into `.mpackage` from Mudlet once script order is verified in your profile.
+- Run `rwda replaysuite rwda/tools/suite_strategy_retal_finisher.lua` against live Mudlet environment to confirm log patterns match your server output.
