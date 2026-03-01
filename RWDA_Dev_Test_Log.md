@@ -688,6 +688,36 @@ Validation steps:
 4. In-game: have two players attack you — confirm RWDA holds on original target.
 5. Kill primary; confirm RWDA auto-switches to the remaining attacker.
 
+### 2026-03-01 - Live Mudlet validation: Phase E sign-off
+
+Issues found and fixed during live testing:
+
+**selftest: 4 retaliation cases failed in live Mudlet**
+- Root cause: `ignore_non_players=true` (default) blocked fictional test names (Raijin, Kayde) because `gmcp.Room.Players` was a real table with real room data; `inRoomByGMCP` returned `false` → `not_in_room`.
+- Fix: `resetBaseline()` in `selftest.lua` now sets `ignore_non_players = false` before each test.
+
+**replaysuite path errors**
+- `rwda replaysuite` and the log paths inside `suite_strategy_retal_finisher.lua` used `rwda/tools/` prefix, but `rwda.base_path` already points to the `rwda/` directory (doubling the prefix).
+- Fix: `commands.lua` now resolves relative paths against `rwda.base_path`; suite `BASE` corrected to `"tools/"`.
+
+**replaysuite: 0 actions per case (files opened but no ticks fired)**
+- Root cause: `rwda.tick()` called `syncFromGlobals()` (clobbering replay state with live Legacy data) and `refreshTargetAvailabilityFromGMCP()` (marking replay targets unavailable since they weren't in the real room).
+- Fix: `replay.runLines()` now uses a local `replayTick()` that bypasses all live-game state sync and GMCP checks, and saves/restores `require_room_presence_when_gmcp` and `ignore_non_players` for the duration of the replay.
+
+**replaysuite: 2 fallback cases failed (action=devour/disembowel instead of fallback)**
+- Root cause 1: `replayTick()` did not emit `ACTION_SENT`, so the finisher never started tracking the execute attempt and couldn't detect the failure line.
+- Fix: `replayTick()` now emits `ACTION_SENT` after choosing an action.
+- Root cause 2: Finisher fallback blocks in the planner had their condition evaluated; `dragon_force_prone` condition `not target.prone` was false (target already prone after the damage burst), so the fallback silently produced no action and normal strategy re-chose devour.
+- Fix: Planner now force-sets `when = {"always"}` on the fallback block copy before passing it to the action builder, bypassing the condition unconditionally.
+
+**Final validation results (2026-03-01)**
+- `rwda selftest`: passed=23 failed=0 total=23
+- `rwda replaysuite tools/suite_strategy_retal_finisher.lua`: passed=7 failed=0 total=7
+- `rwda doctor`: Legacy/GMCP/strategy/retaliation/finisher all reporting correctly.
+- `rwda builder open`: Geyser popout opened with correct tabs and block list.
+
+Phase E complete. All automated tests passing in live Mudlet.
+
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:
   - defence text variants,
