@@ -235,10 +235,10 @@ function commands.handle(raw)
     return
   end
 
-  if sub == "engage" then
-    local name = trim(raw:match("^engage%s+(.+)$") or "")
+  if sub == "att" or sub == "engage" then
+    local name = trim(raw:match("^%S+%s+(.+)$") or "")
     if name == "" then
-      tell("Usage: rwda engage <target>")
+      tell("Usage: rwda engage <target>  (or: att <target>)")
       return
     end
     rwda.state.setTarget(name, "manual")
@@ -855,20 +855,33 @@ function commands.handle(raw)
 end
 
 function commands.registerAlias()
-  if commands._alias_id or type(tempAlias) ~= "function" then
+  if type(tempAlias) ~= "function" then
     return false
   end
 
-  commands._alias_id = tempAlias("^rwda(?:\\s+(.+))?$", [[rwda.ui.commands.handle(matches[2] or "")]])
+  if not commands._alias_id then
+    commands._alias_id = tempAlias("^rwda(?:\\s+(.+))?$", [[rwda.ui.commands.handle(matches[2] or "")]])
+  end
+
+  if not commands._att_alias_id then
+    commands._att_alias_id = tempAlias("^att(?:\\s+(.+))?$", [[rwda.ui.commands.handle("att " .. (matches[2] or ""))]])
+  end
+
   return true
 end
 
 function commands.unregisterAlias()
-  if not commands._alias_id or type(killAlias) ~= "function" then
-    return false
+  if type(killAlias) ~= "function" then return false end
+
+  if commands._alias_id then
+    pcall(killAlias, commands._alias_id)
+    commands._alias_id = nil
   end
 
-  pcall(killAlias, commands._alias_id)
-  commands._alias_id = nil
+  if commands._att_alias_id then
+    pcall(killAlias, commands._att_alias_id)
+    commands._att_alias_id = nil
+  end
+
   return true
 end

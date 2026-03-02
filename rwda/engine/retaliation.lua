@@ -210,10 +210,12 @@ local function canAcceptAggressor(name, confidence)
 
   if cfg.ignore_non_players then
     local present = inRoomByGMCP(name)
-    if present == false then
-      return false, "not_in_room"
-    end
-    if present == nil and not likelyPlayerName(name) then
+    -- present == true  → confirmed in room, accept
+    -- present == nil   → GMCP not available, fall through to name check
+    -- present == false → GMCP available but attacker not found yet (GMCP
+    --                    update often arrives after the attack line); treat
+    --                    as unknown and fall through to name check
+    if present ~= true and not likelyPlayerName(name) then
       return false, "non_player_like"
     end
   end
