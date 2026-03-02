@@ -26,6 +26,23 @@ local function defaultProfiles()
   return rwda.util.deepcopy(presets.profiles or {})
 end
 
+local function mergeBlocksFromDefault(existingBlocks, defaultBlocks)
+  if type(defaultBlocks) ~= "table" then
+    return
+  end
+  local existingIds = {}
+  for _, b in ipairs(existingBlocks) do
+    if type(b) == "table" and b.id then
+      existingIds[tostring(b.id)] = true
+    end
+  end
+  for _, b in ipairs(defaultBlocks) do
+    if type(b) == "table" and b.id and not existingIds[tostring(b.id)] then
+      existingBlocks[#existingBlocks + 1] = rwda.util.deepcopy(b)
+    end
+  end
+end
+
 local function ensureProfileShape(profile, defaultProfile)
   profile = profile or {}
 
@@ -36,8 +53,20 @@ local function ensureProfileShape(profile, defaultProfile)
     profile.dragon = rwda.util.deepcopy(defaultProfile and defaultProfile.dragon or { blocks = {} })
   end
 
-  profile.runewarden.blocks = profile.runewarden.blocks or rwda.util.deepcopy(defaultProfile and defaultProfile.runewarden and defaultProfile.runewarden.blocks or {})
-  profile.dragon.blocks = profile.dragon.blocks or rwda.util.deepcopy(defaultProfile and defaultProfile.dragon and defaultProfile.dragon.blocks or {})
+  local rwDefault = defaultProfile and defaultProfile.runewarden
+  if not profile.runewarden.blocks then
+    profile.runewarden.blocks = rwda.util.deepcopy(rwDefault and rwDefault.blocks or {})
+  else
+    mergeBlocksFromDefault(profile.runewarden.blocks, rwDefault and rwDefault.blocks)
+  end
+
+  local drDefault = defaultProfile and defaultProfile.dragon
+  if not profile.dragon.blocks then
+    profile.dragon.blocks = rwda.util.deepcopy(drDefault and drDefault.blocks or {})
+  else
+    mergeBlocksFromDefault(profile.dragon.blocks, drDefault and drDefault.blocks)
+  end
+
   return profile
 end
 

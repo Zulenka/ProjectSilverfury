@@ -13,6 +13,10 @@ end
 
 local function resetBaseline()
   rwda.state.reset()
+  -- Clear saved profiles so bootstrap always reloads from current presets.
+  if rwda.config and rwda.config.strategy then
+    rwda.config.strategy.profiles = nil
+  end
   if rwda.engine and rwda.engine.strategy and rwda.engine.strategy.bootstrap then
     rwda.engine.strategy.bootstrap()
   end
