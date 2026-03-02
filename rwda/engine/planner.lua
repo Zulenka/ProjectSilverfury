@@ -233,38 +233,44 @@ local function pickLockVenoms()
     return affScore(aff) < (thresh or 100)
   end
 
-  -- ── v1: main cut ─────────────────────────────────────────────────────────
-  -- Priority: paralysis (full) → asthma (50%) → weariness (33%) → recklessness
-  local v1
-  if need("paralysis", 100) then
-    v1 = "curare"
-  elseif need("asthma", 50) then
-    v1 = "kalmia"
-  elseif need("weariness", 33) then
-    v1 = "vernalius"
-  else
-    v1 = "eurypteria"   -- recklessness: always useful as filler
+  local function pickFrom(order, avoid)
+    for _, entry in ipairs(order) do
+      if entry.venom ~= avoid and need(entry.aff, entry.thresh) then
+        return entry.venom
+      end
+    end
+    return nil
   end
 
+  -- ── v1: main cut ─────────────────────────────────────────────────────────
+  -- Priority: asthma → slickness → anorexia → paralysis → impatience
+  -- then kelp pressure (weariness/clumsiness/sensitivity) → nausea → mental
+  local v1 = pickFrom({
+    { venom = "kalmia",    aff = "asthma",      thresh = 100 },
+    { venom = "gecko",     aff = "slickness",   thresh = 100 },
+    { venom = "slike",     aff = "anorexia",    thresh = 100 },
+    { venom = "curare",    aff = "paralysis",   thresh = 100 },
+    { venom = "epteth",    aff = "impatience",  thresh = 100 },
+    { venom = "vernalius", aff = "weariness",   thresh = 50 },
+    { venom = "xentio",    aff = "clumsiness",  thresh = 50 },
+    { venom = "prefarar",  aff = "sensitivity", thresh = 50 },
+    { venom = "euphorbia", aff = "nausea",      thresh = 50 },
+    { venom = "aconite",   aff = "stupidity",   thresh = 50 },
+  }) or "eurypteria"  -- recklessness: always useful as filler
+
   -- ── v2: off cut ──────────────────────────────────────────────────────────
-  -- Priority: clumsiness (33%) → nausea (50%) → asthma (50%, if v1 ≠ kalmia)
-  --           → slickness (49%) → anorexia (100%) → stupidity (33%) → dizziness
-  local v2
-  if need("clumsiness", 33) then
-    v2 = "xentio"
-  elseif need("nausea", 50) then
-    v2 = "euphorbia"
-  elseif need("asthma", 50) and v1 ~= "kalmia" then
-    v2 = "kalmia"
-  elseif need("slickness", 49) then
-    v2 = "gecko"
-  elseif need("anorexia", 100) then
-    v2 = "slike"
-  elseif need("stupidity", 33) then
-    v2 = "aconite"
-  else
-    v2 = "larkspur"     -- dizziness: always useful as filler
-  end
+  -- Keep lock pressure on the off cut, then stack kelp and mental affs.
+  local v2 = pickFrom({
+    { venom = "gecko",     aff = "slickness",   thresh = 100 },
+    { venom = "slike",     aff = "anorexia",    thresh = 100 },
+    { venom = "curare",    aff = "paralysis",   thresh = 100 },
+    { venom = "epteth",    aff = "impatience",  thresh = 100 },
+    { venom = "euphorbia", aff = "nausea",      thresh = 50 },
+    { venom = "vernalius", aff = "weariness",   thresh = 50 },
+    { venom = "xentio",    aff = "clumsiness",  thresh = 50 },
+    { venom = "prefarar",  aff = "sensitivity", thresh = 50 },
+    { venom = "aconite",   aff = "stupidity",   thresh = 50 },
+  }, v1) or "larkspur"  -- dizziness: always useful as filler
 
   return v1, v2
 end

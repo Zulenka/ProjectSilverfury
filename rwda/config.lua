@@ -246,7 +246,19 @@ config.runewarden.prep_limbs = config.runewarden.prep_limbs or { "left_leg", "to
 -- Damage % at which nextPrepLimb switches from balanced to sequential-break mode
 setDefault(config.runewarden, "near_break_pct", 75)
 -- Lock venom priority: pick the two most-needed from this list each tick
-config.runewarden.lock_venom_priority = config.runewarden.lock_venom_priority or { "kalmia", "gecko", "slike", "curare", "epteth", "aconite" }
+config.runewarden.lock_venom_priority = config.runewarden.lock_venom_priority or {
+  "kalmia",
+  "gecko",
+  "slike",
+  "curare",
+  "epteth",
+  "vernalius",
+  "xentio",
+  "prefarar",
+  "euphorbia",
+  "aconite",
+  "larkspur",
+}
 config.runewarden.venoms = config.runewarden.venoms or {}
 config.runewarden.venoms.dsl_main = config.runewarden.venoms.dsl_main or { "curare", "gecko" }
 config.runewarden.venoms.dsl_off = config.runewarden.venoms.dsl_off or { "epteth", "kalmia" }
