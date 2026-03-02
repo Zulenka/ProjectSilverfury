@@ -347,26 +347,57 @@ end
 local function renderRunewardenTab()
   renderBlocksTable("runewarden", "Runewarden")
   renderFinisherPanel("runewarden")
+  local rwCfg  = rwda.config and rwda.config.runewarden or {}
+  local venoms = rwCfg.venoms or {}
+  local mainV  = (venoms.dsl_main or {})[1] or "curare"
+  local offV   = (venoms.dsl_off  or {})[1] or "epteth"
+  cprint("\n<yellow>DSL Venoms<reset>\n")
+  cprint(string.format("  <gray>Main:<reset> <white>%-12s<reset>  <gray>Off:<reset> <white>%s<reset>\n", mainV, offV))
+  cprint("  <gray>rwda set venoms <main> <off><reset>\n")
 end
 
 local function renderDragonTab()
   renderBlocksTable("dragon", "Dragon")
   renderFinisherPanel("dragon")
+  local dragon     = rwda.config and rwda.config.dragon or {}
+  local breathType = dragon.breath_type or "lightning"
+  cprint("\n<yellow>Dragon Config<reset>\n")
+  cprint(string.format("  <gray>Breath type:<reset> <white>%s<reset>\n", breathType))
+  cprint("  <gray>rwda set breath <type><reset>\n")
 end
 
 local function renderSharedTab()
   local ret      = workingRetal()
   local integCfg = rwda.config and rwda.config.integration or {}
+  local combCfg  = rwda.config and rwda.config.combat or {}
 
   local retEnabled  = ret.enabled == true
-  local lockMs      = tonumber(ret.lock_ms)      or 8000
+  local lockMs      = tonumber(ret.lock_ms)          or 8000
   local debounceMs  = tonumber(ret.swap_debounce_ms) or 1500
   local minConf     = tonumber(ret.min_confidence)   or 0.65
   local restorePrev = ret.restore_previous_target ~= false
-  local followLeg   = integCfg.follow_legacy_target ~= false
   local ignNonPlay  = ret.ignore_non_players ~= false
 
-  local retCmd = "rwda.ui.combat_builder.onToggleRetaliate()"
+  local autostart  = integCfg.auto_enable_with_legacy ~= false
+  local followLeg  = integCfg.follow_legacy_target ~= false
+  local promptTick = combCfg.auto_tick_on_prompt == true
+
+  local retCmd     = "rwda.ui.combat_builder.onToggleRetaliate()"
+  local restoreCmd = "rwda.ui.combat_builder.onToggleRestorePrev()"
+  local ignNPCmd   = "rwda.ui.combat_builder.onToggleIgnNonPlay()"
+  local astartCmd  = "rwda.ui.combat_builder.onToggleAutostart()"
+  local followCmd  = "rwda.ui.combat_builder.onToggleFollowLegacy()"
+  local ptickCmd   = "rwda.ui.combat_builder.onTogglePromptTick()"
+
+  local function tog(v, cmd, label)
+    cprint("  ")
+    if v then
+      clink("<0,180,0>[ON ]<reset>", cmd, label)
+    else
+      clink("<180,40,40>[OFF]<reset>", cmd, label)
+    end
+    cprint("  <gray>" .. label .. "<reset>\n")
+  end
 
   cprint("\n<yellow>Auto-Retaliation<reset>\n")
   cprint("  ")
@@ -375,25 +406,22 @@ local function renderSharedTab()
   else
     clink("<180,40,40>[OFF]<reset>", retCmd, "Toggle retaliation")
   end
-  cprint(string.format("  <gray>lock:<reset> <white>%dms<reset>", lockMs))
-  cprint(string.format("  <gray>debounce:<reset> <white>%dms<reset>", debounceMs))
-  cprint(string.format("  <gray>conf:<reset> <white>%.2f<reset>\n", minConf))
-  cprint(string.format("  <gray>Restore prev target:<reset>  <white>%s<reset>\n", restorePrev and "yes" or "no"))
-  cprint(string.format("  <gray>Ignore non-players: <reset>  <white>%s<reset>\n", ignNonPlay and "yes" or "no"))
+  cprint(string.format("  <gray>lock:<reset> <white>%dms<reset>  <gray>dbnc:<reset> <white>%dms<reset>  <gray>conf:<reset> <white>%.2f<reset>\n", lockMs, debounceMs, minConf))
+  cprint("  <gray>(rwda set retalockms / retaldebounce / retalminconf)<reset>\n")
+  tog(restorePrev, restoreCmd, "restore prev target")
+  tog(ignNonPlay,  ignNPCmd,   "ignore non-players")
 
-  cprint(string.format("\n  <gray>Follow Legacy target:<reset>  <white>%s<reset>\n", followLeg and "yes" or "no"))
-
-  cprint("\n<yellow>Tweak Commands<reset>\n")
-  cprint("  <gray>rwda set retalockms <ms>\n")
-  cprint("  rwda set retaldebounce <ms>\n")
-  cprint("  rwda set retalminconf <0-1>\n")
-  cprint("  rwda set followlegacytarget on|off<reset>\n")
+  cprint("\n<yellow>Integration<reset>\n")
+  tog(autostart,  astartCmd, "auto-enable with Legacy")
+  tog(followLeg,  followCmd,  "follow Legacy target")
+  tog(promptTick, ptickCmd,   "tick on each prompt")
 end
 
 local function renderSafetyTab()
-  local finCfg = rwda.config and rwda.config.finisher or {}
-  local to     = finCfg.timeouts or {}
-  local retCfg = rwda.config and rwda.config.retaliation or {}
+  local finCfg    = rwda.config and rwda.config.finisher or {}
+  local to        = finCfg.timeouts or {}
+  local fbs       = finCfg.fallback_blocks or {}
+  local parserCfg = rwda.config and rwda.config.parser or {}
 
   local stopCmd = "rwda.ui.commands.handle('stop')"
 
@@ -402,23 +430,45 @@ local function renderSafetyTab()
   clink("<180,40,40>[STOP NOW]<reset>", stopCmd, "Stop RWDA immediately")
   cprint("  <gray>disables offense + clears queues<reset>\n")
 
-  cprint("\n<yellow>Active Limits<reset>\n")
-  cprint(string.format("  <gray>Finisher cooldown:<reset>   <white>%d ms<reset>\n",
+  cprint("\n<yellow>Finisher Limits<reset>\n")
+  cprint(string.format("  <gray>Cooldown:        <reset><white>%dms<reset>  <gray>(set executecooldown <ms>)<reset>\n",
     tonumber(finCfg.cooldown_ms)        or 1500))
-  cprint(string.format("  <gray>Fallback window:  <reset>   <white>%d ms<reset>\n",
+  cprint(string.format("  <gray>Fallback window: <reset><white>%dms<reset>  <gray>(set executefallbackwindow <ms>)<reset>\n",
     tonumber(finCfg.fallback_window_ms) or 6000))
-  cprint(string.format("  <gray>Disembowel timeout:<reset>  <white>%d ms<reset>\n",
-    tonumber(to.disembowel_ms) or 2500))
-  cprint(string.format("  <gray>Devour timeout:  <reset>    <white>%d ms<reset>\n",
-    tonumber(to.devour_ms)     or 8000))
-  cprint(string.format("  <gray>Ignore non-players:<reset>  <white>%s<reset>\n",
-    (retCfg.ignore_non_players ~= false) and "yes" or "no"))
+  cprint(string.format("  <gray>Disembowel TO:   <reset><white>%dms<reset>  <gray>(set executetimeout disembowel <ms>)<reset>\n",
+    tonumber(to.disembowel_ms)          or 2500))
+  cprint(string.format("  <gray>Devour TO:       <reset><white>%dms<reset>  <gray>(set executetimeout devour <ms>)<reset>\n",
+    tonumber(to.devour_ms)              or 8000))
+  cprint(string.format("  <gray>Fallback human:  <reset><white>%s<reset>  <gray>(set executefallback human <block>)<reset>\n",
+    fbs.human_dualcut or "none"))
+  cprint(string.format("  <gray>Fallback dragon: <reset><white>%s<reset>  <gray>(set executefallback dragon <block>)<reset>\n",
+    fbs.dragon_silver  or "none"))
 
-  cprint("\n<yellow>Tweak Commands<reset>\n")
-  cprint("  <gray>rwda set executecooldown <ms>\n")
-  cprint("  rwda set executefallbackwindow <ms>\n")
-  cprint("  rwda set executetimeout disembowel|devour <ms>\n")
-  cprint("  rwda set executefallback human|dragon <block_id><reset>\n")
+  local captureOn  = parserCfg.capture_unmatched_lines == true
+  local captPrompt = parserCfg.capture_unmatched_include_prompts == true
+  local captPath   = parserCfg.capture_unmatched_path or "(default)"
+
+  local capCmd  = "rwda.ui.combat_builder.onToggleCapture()"
+  local capPCmd = "rwda.ui.combat_builder.onToggleCapturePrompts()"
+
+  cprint("\n<yellow>Capture Log<reset>\n")
+  cprint("  ")
+  if captureOn then
+    clink("<0,180,0>[ON ]<reset>", capCmd, "Toggle unmatched line capture")
+  else
+    clink("<180,40,40>[OFF]<reset>", capCmd, "Toggle unmatched line capture")
+  end
+  cprint("  <gray>capture unmatched lines<reset>\n")
+
+  cprint("  ")
+  if captPrompt then
+    clink("<0,180,0>[ON ]<reset>", capPCmd, "Toggle prompt capture")
+  else
+    clink("<180,40,40>[OFF]<reset>", capPCmd, "Toggle prompt capture")
+  end
+  cprint("  <gray>include prompts<reset>\n")
+  cprint(string.format("  <gray>Path: <reset><white>%s<reset>\n", captPath))
+  cprint("  <gray>(set capturepath <path>)<reset>\n")
 end
 
 -- ────────────────────────────────────────────────────────
@@ -501,6 +551,70 @@ function builder.onToggleExecute()
   end
   local cur = not (ws.finisher and ws.finisher.enabled == false)
   rwda.ui.combat_builder_state.setFinisherEnabled(not cur)
+  builder.refresh()
+end
+
+function builder.onToggleRestorePrev()
+  local ws = workingState()
+  if not ws then
+    rwda.ui.combat_builder_state.open()
+    ws = workingState()
+    if not ws then return end
+  end
+  ws.retaliation = ws.retaliation or {}
+  ws.retaliation.restore_previous_target = not (ws.retaliation.restore_previous_target ~= false)
+  builder.refresh()
+end
+
+function builder.onToggleIgnNonPlay()
+  local ws = workingState()
+  if not ws then
+    rwda.ui.combat_builder_state.open()
+    ws = workingState()
+    if not ws then return end
+  end
+  ws.retaliation = ws.retaliation or {}
+  ws.retaliation.ignore_non_players = not (ws.retaliation.ignore_non_players ~= false)
+  builder.refresh()
+end
+
+function builder.onToggleAutostart()
+  local cfg = rwda.config
+  if not cfg then return end
+  cfg.integration = cfg.integration or {}
+  cfg.integration.auto_enable_with_legacy = not (cfg.integration.auto_enable_with_legacy ~= false)
+  builder.refresh()
+end
+
+function builder.onToggleFollowLegacy()
+  local cfg = rwda.config
+  if not cfg then return end
+  cfg.integration = cfg.integration or {}
+  cfg.integration.follow_legacy_target = not (cfg.integration.follow_legacy_target ~= false)
+  builder.refresh()
+end
+
+function builder.onTogglePromptTick()
+  local cfg = rwda.config
+  if not cfg then return end
+  cfg.combat = cfg.combat or {}
+  cfg.combat.auto_tick_on_prompt = not (cfg.combat.auto_tick_on_prompt == true)
+  builder.refresh()
+end
+
+function builder.onToggleCapture()
+  local cfg = rwda.config
+  if not cfg then return end
+  cfg.parser = cfg.parser or {}
+  cfg.parser.capture_unmatched_lines = not (cfg.parser.capture_unmatched_lines == true)
+  builder.refresh()
+end
+
+function builder.onToggleCapturePrompts()
+  local cfg = rwda.config
+  if not cfg then return end
+  cfg.parser = cfg.parser or {}
+  cfg.parser.capture_unmatched_include_prompts = not (cfg.parser.capture_unmatched_include_prompts == true)
   builder.refresh()
 end
 
