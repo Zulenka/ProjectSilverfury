@@ -709,6 +709,36 @@ function planner.dragonSilver(state)
   return dragonLegacyFallback(state, target, ctx)
 end
 
+-- ─────────────────────────────────────────────────────────────────
+-- Auto-goal escalation: adjusts state.flags.goal based on target
+-- damage state so the correct strategy blocks fire automatically.
+-- ─────────────────────────────────────────────────────────────────
+function planner.autoGoal(state)
+  if not (rwda.config and rwda.config.combat and rwda.config.combat.auto_goal ~= false) then
+    return
+  end
+
+  local target = state.target
+  if not target or not target.name then return end
+
+  local mode = planner.resolveMode(state)
+
+  if mode == "human_dualcut" then
+    local bothLegs = limbBroken(target, "left_leg") and limbBroken(target, "right_leg")
+    local impaled  = target.impaled or (target.affs and target.affs.impaled)
+    local curGoal  = (state.flags.goal or "limbprep"):lower()
+
+    if curGoal == "limbprep" and bothLegs then
+      state.flags.goal = "impale_kill"
+      rwda.util.log("info", "Auto-goal: both legs broken → impale_kill")
+    elseif curGoal == "impale_kill" and not bothLegs and not impaled then
+      state.flags.goal = "limbprep"
+      rwda.util.log("info", "Auto-goal: legs recovered → limbprep")
+    end
+  end
+  -- Dragon: blocks are condition-driven; no goal switching needed.
+end
+
 function planner.choose(state)
   if not state.flags.enabled or state.flags.stopped then
     return nil
@@ -721,6 +751,8 @@ function planner.choose(state)
   if not state.target.name or state.target.dead then
     return nil
   end
+
+  planner.autoGoal(state)
 
   if rwda.state and rwda.state.isTargetAvailable and not rwda.state.isTargetAvailable() then
     state.runtime.last_reason = {

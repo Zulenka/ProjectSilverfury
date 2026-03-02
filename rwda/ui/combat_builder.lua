@@ -387,13 +387,15 @@ local function renderSharedTab()
   local autostart  = integCfg.auto_enable_with_legacy ~= false
   local followLeg  = integCfg.follow_legacy_target ~= false
   local promptTick = combCfg.auto_tick_on_prompt == true
+  local autoGoal   = combCfg.auto_goal ~= false
 
-  local retCmd     = "rwda.ui.combat_builder.onToggleRetaliate()"
-  local restoreCmd = "rwda.ui.combat_builder.onToggleRestorePrev()"
-  local ignNPCmd   = "rwda.ui.combat_builder.onToggleIgnNonPlay()"
-  local astartCmd  = "rwda.ui.combat_builder.onToggleAutostart()"
-  local followCmd  = "rwda.ui.combat_builder.onToggleFollowLegacy()"
-  local ptickCmd   = "rwda.ui.combat_builder.onTogglePromptTick()"
+  local retCmd      = "rwda.ui.combat_builder.onToggleRetaliate()"
+  local restoreCmd  = "rwda.ui.combat_builder.onToggleRestorePrev()"
+  local ignNPCmd    = "rwda.ui.combat_builder.onToggleIgnNonPlay()"
+  local astartCmd   = "rwda.ui.combat_builder.onToggleAutostart()"
+  local followCmd   = "rwda.ui.combat_builder.onToggleFollowLegacy()"
+  local ptickCmd    = "rwda.ui.combat_builder.onTogglePromptTick()"
+  local autoGoalCmd = "rwda.ui.combat_builder.onToggleAutoGoal()"
 
   local function tog(v, cmd, label)
     cprint("  ")
@@ -418,9 +420,10 @@ local function renderSharedTab()
   tog(ignNonPlay,  ignNPCmd,   "ignore non-players")
 
   cprint("\n<yellow>Integration<reset>\n")
-  tog(autostart,  astartCmd, "auto-enable with Legacy")
-  tog(followLeg,  followCmd,  "follow Legacy target")
-  tog(promptTick, ptickCmd,   "tick on each prompt")
+  tog(autostart,  astartCmd,   "auto-enable with Legacy")
+  tog(followLeg,  followCmd,   "follow Legacy target")
+  tog(promptTick, ptickCmd,    "tick on each prompt")
+  tog(autoGoal,   autoGoalCmd, "auto-escalate goal on limb state")
 end
 
 local function renderSafetyTab()
@@ -605,6 +608,14 @@ function builder.onTogglePromptTick()
   if not cfg then return end
   cfg.combat = cfg.combat or {}
   cfg.combat.auto_tick_on_prompt = not (cfg.combat.auto_tick_on_prompt == true)
+  builder.refresh()
+end
+
+function builder.onToggleAutoGoal()
+  local cfg = rwda.config
+  if not cfg then return end
+  cfg.combat = cfg.combat or {}
+  cfg.combat.auto_goal = not (cfg.combat.auto_goal ~= false)
   builder.refresh()
 end
 

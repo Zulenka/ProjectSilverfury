@@ -542,6 +542,18 @@ function commands.handle(raw)
       return
     end
 
+    if key == "autogoal" then
+      local ok, value = parseBoolWord(words[3])
+      if not ok then
+        tell("Usage: rwda set autogoal <on|off>")
+        return
+      end
+      rwda.config.combat = rwda.config.combat or {}
+      rwda.config.combat.auto_goal = value
+      tell("Auto-goal escalation set to " .. tostring(value))
+      return
+    end
+
     if key == "retalockms" then
       local value = tonumber(words[3] or "")
       if not value or value < 0 then
@@ -725,7 +737,7 @@ function commands.handle(raw)
       return
     end
 
-    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set cursepriority <c1> <c2>... | set gutvenompriority <v1> <v2>... | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
+    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set cursepriority <c1> <c2>... | set gutvenompriority <v1> <v2>... | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set autogoal <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
     return
   end
 

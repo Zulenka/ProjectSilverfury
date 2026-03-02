@@ -95,6 +95,7 @@ local function exportPersistedConfig()
     },
     combat = {
       auto_tick_on_prompt = config.combat.auto_tick_on_prompt,
+      auto_goal = config.combat.auto_goal,
       require_target_available = config.combat.require_target_available,
       clear_queue_when_target_missing = config.combat.clear_queue_when_target_missing,
       require_room_presence_when_gmcp = config.combat.require_room_presence_when_gmcp,
@@ -166,6 +167,7 @@ setDefault(config.combat, "profile", "duel")
 setDefault(config.combat, "target", nil)
 setDefault(config.combat, "anti_spam_ms", 250)
 setDefault(config.combat, "auto_tick_on_prompt", false)
+setDefault(config.combat, "auto_goal", true)
 setDefault(config.combat, "require_target_available", true)
 setDefault(config.combat, "clear_queue_when_target_missing", true)
 setDefault(config.combat, "require_room_presence_when_gmcp", true)
