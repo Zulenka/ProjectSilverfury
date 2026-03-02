@@ -59,7 +59,23 @@ function doctor.collect()
 
   report.parser = {
     capture_unmatched = rwda.config and rwda.config.parser and rwda.config.parser.capture_unmatched_lines or false,
+    capture_all = rwda.config and rwda.config.parser and rwda.config.parser.capture_all_lines or false,
     capture_path = rwda.config and rwda.config.parser and rwda.config.parser.capture_unmatched_path or "(default)",
+  }
+
+  local hudMod = rwda.ui and rwda.ui.hud or {}
+  report.hud = {
+    initialized = hudMod._initialized == true,
+    visible     = hudMod._visible ~= false,
+    polling     = hudMod._timerId ~= nil,
+  }
+
+  local assessCfg = rwda.config and rwda.config.combat or {}
+  report.assess = {
+    enabled     = assessCfg.assess_enabled ~= false,
+    interval_ms = tonumber(assessCfg.assess_interval_ms) or 9000,
+    stale_ms    = tonumber(assessCfg.assess_stale_ms) or 7000,
+    last_assess = st.target and tonumber(st.target.last_assess) or 0,
   }
 
   local strategyCfg = rwda.config and rwda.config.strategy or {}
@@ -131,9 +147,25 @@ function doctor.format(report)
   )
 
   lines[#lines + 1] = string.format(
-    "doctor parser capture_unmatched=%s capture_path=%s",
+    "doctor parser capture_unmatched=%s capture_all=%s capture_path=%s",
     yesNo(report.parser.capture_unmatched),
+    yesNo(report.parser.capture_all),
     tostring(report.parser.capture_path)
+  )
+
+  lines[#lines + 1] = string.format(
+    "doctor hud initialized=%s visible=%s polling=%s",
+    yesNo(report.hud.initialized),
+    yesNo(report.hud.visible),
+    yesNo(report.hud.polling)
+  )
+
+  lines[#lines + 1] = string.format(
+    "doctor assess enabled=%s interval_ms=%d stale_ms=%d last_assess=%d",
+    yesNo(report.assess.enabled),
+    tonumber(report.assess.interval_ms or 0),
+    tonumber(report.assess.stale_ms or 0),
+    tonumber(report.assess.last_assess or 0)
   )
 
   lines[#lines + 1] = string.format(

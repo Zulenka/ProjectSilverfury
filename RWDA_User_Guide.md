@@ -1,7 +1,7 @@
 # RWDA User Guide
 
 **Runewarden + Silver Dragon AI — Project Silverfury**
-Last updated: 2026-03-01
+Last updated: 2026-03-02
 
 ---
 
@@ -15,13 +15,14 @@ Last updated: 2026-03-01
 6. [Auto-Retaliation](#auto-retaliation)
 7. [Auto-Execute (Finisher)](#auto-execute-finisher)
 8. [Combat Builder UI](#combat-builder-ui)
-9. [Strategy Profiles and Blocks](#strategy-profiles-and-blocks)
-10. [Reading `rwda status`](#reading-rwda-status)
-11. [Reading `rwda explain`](#reading-rwda-explain)
-12. [Safety Features](#safety-features)
-13. [Starburst Tattoo Handling](#starburst-tattoo-handling)
-14. [Persistent Config](#persistent-config)
-15. [Troubleshooting](#troubleshooting)
+9. [Combat HUD](#combat-hud)
+10. [Strategy Profiles and Blocks](#strategy-profiles-and-blocks)
+11. [Reading `rwda status`](#reading-rwda-status)
+12. [Reading `rwda explain`](#reading-rwda-explain)
+13. [Safety Features](#safety-features)
+14. [Starburst Tattoo Handling](#starburst-tattoo-handling)
+15. [Persistent Config](#persistent-config)
+16. [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -211,6 +212,9 @@ Blocks are evaluated top-down by priority. The first enabled block whose conditi
 | `rwda set autostart <on\|off>` | Auto-enable RWDA when Legacy loads |
 | `rwda set followlegacytarget <on\|off>` | Mirror Legacy's target into RWDA |
 | `rwda set prompttick <on\|off>` | Fire a tick automatically on every server prompt |
+| `rwda set autogoal <on\|off>` | Toggle automatic goal escalation as the fight progresses |
+| `rwda set cursepriority <c1> [c2...]` | Set dragon curse application priority (impatience, asthma, paralysis, stupidity) |
+| `rwda set gutvenompriority <v1> [v2...]` | Set dragon gut venom priority (curare, kalmia, gecko, slike, aconite) |
 | `rwda set retalockms <ms>` | How long (ms) a retaliation lock lasts before expiring |
 | `rwda set retaldebounce <ms>` | Minimum time (ms) between retaliation target swaps |
 | `rwda set retalminconf <0-1>` | Minimum confidence before a retaliation swap fires |
@@ -219,6 +223,7 @@ Blocks are evaluated top-down by priority. The first enabled block whose conditi
 | `rwda set executetimeout <disembowel\|devour> <ms>` | Max time to wait for confirmation before treating as timed out |
 | `rwda set executefallback <human\|dragon> <block_id>` | Which strategy block to force after execute failure |
 | `rwda set capture <on\|off>` | Log unmatched combat lines to a file (for tuning patterns) |
+| `rwda set captureall <on\|off>` | Log ALL incoming lines to the capture file (full combat dump) |
 | `rwda set captureprompts <on\|off>` | Also capture prompt lines in the unmatched log |
 | `rwda set capturepath <path>` | Set the path for the unmatched line log file |
 
@@ -246,6 +251,14 @@ Config is saved to `<MudletHome>\rwda_config.lua` and auto-loaded on bootstrap.
 |---|---|
 | `rwda builder open` | Open the Geyser popout combat editor |
 | `rwda builder close` | Close the popout |
+
+### Combat HUD
+
+| Command | What it does |
+|---|---|
+| `rwda hud show` | Show the passive combat HUD panel (default state) |
+| `rwda hud hide` | Hide the HUD panel |
+| `rwda hud refresh` | Force an immediate HUD redraw |
 
 ### Replay and Testing
 
@@ -429,6 +442,55 @@ Changes made in the UI take effect only after clicking **Apply** or **Save**. Be
 
 ---
 
+## Combat HUD
+
+The Combat HUD is a passive, always-on overlay that shows live combat state without requiring any user interaction.
+
+### Layout
+
+```
+┌──────────────────────────────────────────┐
+│  [ON] dragon devour duel RETAL:on EXEC:on │   ← Status strip
+│  Form:dragon  Breath:ready               │
+├──────────────────────────────────────────┤
+│  Aerenna  [available]                    │   ← Target panel
+│  Prone:Y  Shield:N  Reb:Y  Fly:N  Lyrd:N│
+│  LA:████░  RA:░░░░░  LL:█████  RL:███░░  │
+│  Hd:░░░░░  To:████░                     │
+│  Affs: impaled, asthma                   │
+├──────────────────────────────────────────┤
+│  Last Actions:                           │   ← Action log
+│  > gut Aerenna curare | tailsmash Aerenna│
+│    [strip_shield combo]                  │
+│  > devour Aerenna                        │
+│    [devour_window]                       │
+└──────────────────────────────────────────┘
+```
+
+### Panels
+
+| Panel | Content |
+|---|---|
+| **Status strip** | Engine on/off, mode, goal, profile, retaliation and execute states, form, dragon breath |
+| **Target panel** | Target name and availability, status badges (Prone/Shield/Reb/Flying/Lyred), limb damage bars (5-char, each block = 20%), active afflictions |
+| **Action log** | Last 5 `ACTION_SENT` events — commands sent + strategy block reason |
+
+### Limb Bar Colors
+
+| Color | Damage level |
+|---|---|
+| Green | < 50% |
+| Yellow | 50–79% |
+| Tomato/Red | ≥ 80% |
+
+### Visibility
+
+The HUD is initialized automatically at bootstrap (requires Mudlet with Geyser). If WolfUI / GUIframe is present, the HUD registers as a right-side panel via `GUIframe.addWindow()`. Otherwise it creates a standalone docked `UserWindow` at the right edge.
+
+Toggle with `rwda hud show` and `rwda hud hide`. The HUD refreshes every 0.5 seconds via a self-rescheduling timer, and immediately on each `ACTION_SENT` event.
+
+---
+
 ## Strategy Profiles and Blocks
 
 ### Viewing the Current Strategy
@@ -448,6 +510,7 @@ Prints each block for the active profile and mode with: id, priority, enabled, c
 | `impale_window` | 92 | `target.legs_broken and target.prone and not target.impaled` | `impale` |
 | `disembowel_followup` | 91 | `target.impaled` | `disembowel` |
 | `intimidate_lock` | 90 | `target.impaled` | `intimidate` |
+| `assess_target` | 30 | `target.limb_stale` | `assess` |
 | `limbprep_dsl` | 20 | `always` | `dsl` |
 
 ### Default Dragon Blocks (duel profile)
@@ -476,6 +539,7 @@ Conditions use simple space-separated tokens. `not` negates the next token.
 | `target.impaled` | Target is currently impaled |
 | `target.legs_broken` | Both legs are broken |
 | `target.limb.<name>.broken` | Named limb is broken (`left_leg`, `right_arm`, `torso`, etc.) |
+| `target.limb_stale` | Limb data is older than `assess_stale_ms` or no assess has fired within `assess_interval_ms` |
 | `goal.<name>` | Current goal matches (e.g. `goal.dragon_devour`) |
 | `me.form.dragon` | You are in dragon form |
 | `me.form.human` | You are in human form |
@@ -653,6 +717,14 @@ rwda set capture on
 ```
 
 Lines are written to `<MudletHome>\rwda_unmatched.log`. Check that file against the parser patterns and update as needed.
+
+To capture **every** incoming line (not just unmatched ones) for a full combat dump:
+
+```
+rwda set captureall on
+```
+
+This is useful for building new replay logs or reproducing hard-to-reproduce fights. Disable after capturing to avoid large log files.
 
 ### Emergency recovery
 

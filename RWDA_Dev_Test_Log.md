@@ -1,6 +1,6 @@
 # RWDA Development and Test Log
 
-Last updated: 2026-02-28 (multi-attacker retaliation)
+Last updated: 2026-03-02 (Phase E hardening: assess/aff tracking, venom cleanup, stop fix, HUD)
 
 ## Purpose
 This file is the persistent reference for:
@@ -717,6 +717,122 @@ Issues found and fixed during live testing:
 - `rwda builder open`: Geyser popout opened with correct tabs and block list.
 
 Phase E complete. All automated tests passing in live Mudlet.
+
+### 2026-03-02 - Passive combat HUD (rwda/ui/hud.lua)
+
+Implemented:
+- Added passive HUD module: `rwda/ui/hud.lua`
+  - 3 Geyser MiniConsole panels in a vertical container:
+    - **Status strip**: engine on/off, mode, goal, profile, retaliation/execute state, form, dragon breath.
+    - **Target panel**: target name/availability, Prone/Shield/Reb/Flying/Lyred badges, 5-char limb damage bars, active afflictions.
+    - **Action log**: last 5 `ACTION_SENT` events with commands and strategy block reason.
+  - Self-rescheduling 500ms poll timer via `hud._poll()`.
+  - `ACTION_SENT` event handler for immediate action log update.
+  - `sysWindowResizeEvent` handler for redraw on resize.
+  - `GUIframe.addWindow()` path for WolfUI integration; `Geyser.UserWindow` fallback for standalone use.
+  - Background color `#0b1020` (11,16,32) matching KaiAchGui palette.
+  - Color scheme: chartreuse=active/good, MediumSlateBlue=inactive/off, tomato=danger, dim_grey=labels.
+- `rwda/ui/hud.lua` added to `FILES` load list in `rwda/init.lua`.
+- `hud.init()` called at end of `rwda.bootstrap()` (guarded by `pcall`).
+- `hud.shutdown()` called in `rwda.shutdown()`.
+- Commands added to `rwda/ui/commands.lua`:
+  - `rwda hud show|hide|refresh`
+
+Validation steps (to run against live Mudlet):
+1. `rwda reload`
+2. HUD panel should appear in right region of WolfUI / KaiAchGui layout.
+3. `rwda engage <name>` → target panel updates within 0.5s.
+4. `rwda hud hide` / `rwda hud show` → panel toggles visibility.
+5. Resize Mudlet window → HUD redraws.
+6. Load without WolfUI → standalone UserWindow appears at right edge.
+
+### 2026-03-02 - Assess target block + affliction/limb parser tracking
+
+Implemented:
+- Added `assess` ability to `rwda/data/abilities.lua` (requires eq, queue=eq).
+- Added `assess_target` strategy block to `rwda/data/strategy_presets.lua` for both duel and group profiles:
+  - Priority 30, condition `target.limb_stale`, triggers `assess <target>`.
+- Added `limbDataStale(state)` function to `rwda/engine/strategy.lua`:
+  - Returns true if `last_assess` age exceeds `assess_interval_ms` (9000 ms default) OR the newest limb `last_updated` timestamp is older than `assess_stale_ms` (7000 ms default).
+- Added `target.limb_stale` condition token to `strategy.evaluateToken()`.
+- Added executor stamp: `state.target.last_assess = now()` when action name is `"assess"` (`rwda/engine/executor.lua`).
+- Added `last_assess = 0` to target baseline in `rwda/state/target.lua`.
+- Added config defaults to `rwda/config.lua`:
+  - `combat.assess_enabled = true`
+  - `combat.assess_interval_ms = 9000`
+  - `combat.assess_stale_ms = 7000`
+- Extended `rwda/engine/parser.lua` with:
+  - Assess target header detection — sets 2.5s pending window.
+  - Assess limb line parsing within pending window → updates `state.target.limbs[name].damage_pct` and `last_updated`.
+  - `AFF_NAME_MAP` / `buildAffNameMap()` / `resolveAffName()` — fuzzy resolution of affliction names from in-game text.
+  - Self affliction gain/cure lines → `state.setMeAff()` + `AFF_GAINED` / `AFF_CURED` events.
+  - Target affliction gain/cure lines → `state.setTargetAff()` + events.
+  - `capture_all_lines` mode: when enabled, every clean line is appended to the capture log file.
+
+Config keys:
+- `combat.assess_enabled` — toggle assess block activation (default `true`)
+- `combat.assess_interval_ms` — seconds between forced assess (default `9000`)
+- `combat.assess_stale_ms` — max age of limb data before considered stale (default `7000`)
+
+Validation:
+- `rwda selftest` — passed=30 failed=0 total=30 (venom picker test updated for new offline priority: kalmia+gecko).
+
+### 2026-03-02 - Venom picker cleanup (epteth removed)
+
+Fixed:
+- Removed `epteth` / `impatience` from both `v1` and `v2` priority lists in `planner.pickLockVenoms()` (`rwda/engine/planner.lua`).
+- `epteth` is not a real Achaea venom; its presence caused potentially invalid venom sends.
+
+Updated selftest:
+- Venom picker offline test now expects `kalmia+gecko` (kalmia = first v1 pick with asthma<100; gecko = first v2 pick with slickness<100, skipping kalmia).
+
+### 2026-03-02 - Fix: rwda stop blocking all player input
+
+Issue:
+- `rwda stop` blocked ALL outgoing commands including player-typed `say`, `tell`, movement, etc. until `rwda on` or `rwda resume` was called.
+
+Root cause:
+- `config.safety.deny_send_when_stopped = true` (previous default) registered a `sysDataSendRequest` handler that called `denyCurrentSend()` on every outgoing line when stopped, not just RWDA-generated commands.
+- `executor.execute()` already gates on `flags.stopped` so the safety valve was redundant.
+
+Fix:
+- Changed default in `rwda/config.lua`: `setDefault(config.safety, "deny_send_when_stopped", false)`.
+- `rwda stop` now correctly halts the offense engine without touching manual player input.
+
+Expected behavior:
+- After `rwda stop`: RWDA engine silent, server queues cleared, player can type freely.
+- `rwda on` or `rwda engage <name>` to resume.
+
+### 2026-03-02 - Phase E doctor expansion (capture_all, HUD, assess)
+
+Extended `rwda/engine/doctor.lua`:
+- Added `capture_all` field to `report.parser` section.
+- Added `report.hud` section:
+  - `initialized`, `visible`, `polling` (timer active).
+- Added `report.assess` section:
+  - `enabled`, `interval_ms`, `stale_ms`, `last_assess`.
+- Added format lines to `doctor.format()` for all three new sections.
+
+`rwda doctor` now reports:
+```
+doctor parser capture_unmatched=yes capture_all=no capture_path=(default)
+doctor hud initialized=yes visible=yes polling=yes
+doctor assess enabled=yes interval_ms=9000 stale_ms=7000 last_assess=0
+```
+
+### 2026-03-02 - Phase E documentation update
+
+Updated docs to reflect all Phase E work:
+- `RWDA Command List.md`:
+  - Added `rwda hud show|hide|refresh`.
+  - Added `rwda set captureall`, `rwda set cursepriority`, `rwda set gutvenompriority`, `rwda set autogoal`.
+  - Added `att <name>` alias to Extra Aliases.
+- `RWDA_User_Guide.md`:
+  - Added Combat HUD section (layout, panels, bar colors, visibility).
+  - Added `assess_target` block to Default Runewarden Blocks table.
+  - Added `target.limb_stale` condition token.
+  - Added new set commands to Configuration table.
+  - Added `rwda set captureall` to Troubleshooting.
 
 ## Open Tuning Items
 - Adjust line patterns against your exact in-game output for:

@@ -2,7 +2,7 @@
 
 Auto-generated from rwda/ui/commands.lua.
 
-Last generated: 2026-02-28 (updated manually — builder/strategy commands added)
+Last generated: 2026-03-02 (updated manually — hud/captureall/cursepriority/gutvenompriority/autogoal/att added)
 
 ## Runtime Commands
 
@@ -28,6 +28,9 @@ Last generated: 2026-02-28 (updated manually — builder/strategy commands added
 | rwda execute <on|off> | Toggle auto execute/finisher lifecycle automation. | - |
 | rwda builder open | Open the combat strategy popout UI. | Requires Geyser (Mudlet). |
 | rwda builder close | Close the combat strategy popout UI. | - |
+| rwda hud show | Show the passive combat HUD panel. | Requires Geyser (Mudlet). |
+| rwda hud hide | Hide the combat HUD panel. | - |
+| rwda hud refresh | Force an immediate HUD redraw. | - |
 | rwda strategy show | Print active strategy profile summary (live config). | - |
 | rwda strategy apply | Apply pending builder changes to live config. | - |
 | rwda strategy save | Apply and persist strategy to disk. | - |
@@ -35,6 +38,7 @@ Last generated: 2026-02-28 (updated manually — builder/strategy commands added
 | rwda set breath <type> | Set dragon summon breath type. | - |
 | rwda set venoms <main> <off> | Set primary DSL venom pair. | - |
 | rwda set autostart <on|off> | Toggle auto-enable with LegacyLoaded. | - |
+| rwda set autogoal <on|off> | Toggle automatic goal escalation as fight progresses. | - |
 | rwda set followlegacytarget <on|off> | Toggle RWDA target-follow from Legacy/global target feeds. | - |
 | rwda set prompttick <on|off> | Toggle automatic tick on prompt. | - |
 | rwda set retalockms <ms> | Set retaliation lock duration in milliseconds. | - |
@@ -44,7 +48,10 @@ Last generated: 2026-02-28 (updated manually — builder/strategy commands added
 | rwda set executefallbackwindow <ms> | Set fallback forcing window after failed execute. | - |
 | rwda set executetimeout <disembowel|devour> <ms> | Set execute timeout per finisher action. | - |
 | rwda set executefallback <human|dragon> <block_id> | Set fallback strategy block ID for human/dragon execute failure. | - |
+| rwda set cursepriority <c1> [c2...]  | Set dragon curse application priority order. | Valid curses: impatience, asthma, paralysis, stupidity. |
+| rwda set gutvenompriority <v1> [v2...] | Set dragon gut venom priority order. | Valid venoms: curare, kalmia, gecko, slike, aconite. |
 | rwda set capture <on|off> | Toggle unmatched-line capture logging. | - |
+| rwda set captureall <on|off> | Log ALL incoming lines to capture file (for full combat dumps). | Writes to same path as capture. |
 | rwda set captureprompts <on|off> | Include prompt lines in unmatched capture log. | - |
 | rwda set capturepath <path> | Set unmatched capture log file path. | - |
 | rwda show config | Print current live RWDA config highlights. | - |
@@ -63,6 +70,7 @@ Last generated: 2026-02-28 (updated manually — builder/strategy commands added
 | Command | What It Does | Notes |
 |---|---|---|
 | rwda attack | Alias for rwda tick. | Hidden alias (not shown in help string). |
+| att <name> | Shorthand alias: engage target, enable offense, fire first tick. | Equivalent to rwda engage <name>. Registered as a separate Mudlet alias. |
 
 ## Regenerate
 
