@@ -99,7 +99,7 @@ function util.log(level, fmt, ...)
   local line   = string.format("[RWDA][%s] %s", tag, message)
 
   if type(decho) == "function" then
-    decho(string.format("<239,243,238>[RWDA][%s] %s<r>\n", tag, message))
+    decho(string.format("<186,242,239>[RWDA][%s] %s<r>\n", tag, message))
   elseif type(echo) == "function" then
     echo(line .. "\n")
   elseif type(print) == "function" then
