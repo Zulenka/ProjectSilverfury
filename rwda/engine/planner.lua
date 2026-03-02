@@ -125,13 +125,51 @@ function planner.resolveMode(state)
 end
 
 function planner.nextPrepLimb(state)
-  local prep = rwda.config.runewarden.prep_limbs or { "left_leg", "right_leg", "torso" }
+  local prep       = rwda.config.runewarden.prep_limbs or { "left_leg", "torso", "right_leg" }
+  local tgt_limbs  = state.target.limbs or {}
+  local near_break = rwda.config.runewarden.near_break_pct or 75
+
+  -- Once any prep limb is already broken we are in the break-sequence phase.
+  -- Follow the configured order for remaining unbroken limbs so the second
+  -- and third breaks happen in the right order (left_leg → torso → right_leg).
   for _, limb in ipairs(prep) do
-    if not limbBroken(state.target, limb) then
-      return limb
+    if limbBroken(state.target, limb) then
+      -- Sequence mode: return first unbroken limb in prep order.
+      for _, l in ipairs(prep) do
+        if not limbBroken(state.target, l) then
+          return l
+        end
+      end
     end
   end
-  return "torso"
+
+  -- Near-break endgame (no limb broken yet but one is close): also use
+  -- sequence order so the first break is intentionally left_leg (causes prone).
+  for _, limb in ipairs(prep) do
+    if not limbBroken(state.target, limb) then
+      local pct = (tgt_limbs[limb] and tgt_limbs[limb].damage_pct) or 0
+      if pct >= near_break then
+        for _, l in ipairs(prep) do
+          if not limbBroken(state.target, l) then
+            return l
+          end
+        end
+      end
+    end
+  end
+
+  -- Balanced phase: target the unbroken prep limb with the lowest damage_pct
+  -- so all limbs approach the break threshold at roughly the same rate.
+  local best, bestPct = nil, 999
+  for _, limb in ipairs(prep) do
+    if not limbBroken(state.target, limb) then
+      local pct = (tgt_limbs[limb] and tgt_limbs[limb].damage_pct) or 0
+      if pct < bestPct then
+        best, bestPct = limb, pct
+      end
+    end
+  end
+  return best or prep[1] or "torso"
 end
 
 function planner.estimateDevourTime(state)
@@ -172,24 +210,6 @@ function planner.canDevour(state)
   return planner.estimateDevourTime(state) < threshold
 end
 
-local function humanContext(state)
-  local targetImpaled = state.target.impaled or state.target.affs.impaled
-  local bothLegsBroken = limbBroken(state.target, "left_leg") and limbBroken(state.target, "right_leg")
-  local goal = (state.flags.goal or "limbprep"):lower()
-  local limb = planner.nextPrepLimb(state)
-  local vMain = rwda.config.runewarden.venoms.dsl_main or { "curare", "gecko" }
-  local vOff = rwda.config.runewarden.venoms.dsl_off or { "epteth", "kalmia" }
-
-  return {
-    goal = goal,
-    target_impaled = targetImpaled,
-    both_legs_broken = bothLegsBroken,
-    limb = limb,
-    v1 = vMain[1] or "curare",
-    v2 = vOff[1] or "gecko",
-  }
-end
-
 local function affScore(aff)
   if type(affstrack) ~= "table" then
     return 0
@@ -198,6 +218,63 @@ local function affScore(aff)
     return affstrack.score and affstrack.score[aff] or 0
   end)
   return (ok and type(v) == "number") and v or 0
+end
+
+-- Venom → affliction mapping for the Runewarden lock stack.
+local LOCK_VENOM_AFF = {
+  kalmia  = "asthma",
+  gecko   = "slickness",
+  slike   = "anorexia",
+  curare  = "paralysis",
+  epteth  = "weariness",
+  aconite = "stupidity",
+}
+
+-- Saturation thresholds per affliction: once affScore reaches this, pick
+-- the next needed venom instead.
+local LOCK_THRESH = {
+  asthma    = 80,
+  slickness = 80,
+  anorexia  = 80,
+  paralysis = 60,
+  weariness = 50,
+  stupidity = 50,
+}
+
+-- Returns two venoms to use on the next DSL tick, chosen from the lock
+-- priority list in order of most-needed (lowest relative affScore).
+local function pickLockVenoms()
+  local order = (rwda.config and rwda.config.runewarden and rwda.config.runewarden.lock_venom_priority)
+                or { "kalmia", "gecko", "slike", "curare", "epteth", "aconite" }
+  local picked = {}
+  for _, v in ipairs(order) do
+    local aff    = LOCK_VENOM_AFF[v]
+    local thresh = aff and (LOCK_THRESH[aff] or 80) or 80
+    if affScore(aff or v) < thresh then
+      picked[#picked + 1] = v
+      if #picked >= 2 then break end
+    end
+  end
+  -- Fallback: always return two venoms even if all affs are saturated.
+  return picked[1] or (order[1] or "kalmia"),
+         picked[2] or (order[2] or "gecko")
+end
+
+local function humanContext(state)
+  local targetImpaled  = state.target.impaled or state.target.affs.impaled
+  local bothLegsBroken = limbBroken(state.target, "left_leg") and limbBroken(state.target, "right_leg")
+  local goal = (state.flags.goal or "limbprep"):lower()
+  local limb = planner.nextPrepLimb(state)
+  local v1, v2 = pickLockVenoms()
+
+  return {
+    goal             = goal,
+    target_impaled   = targetImpaled,
+    both_legs_broken = bothLegsBroken,
+    limb             = limb,
+    v1               = v1,
+    v2               = v2,
+  }
 end
 
 local CURSE_THRESH = { impatience = 100, asthma = 34, paralysis = 100, stupidity = 50 }

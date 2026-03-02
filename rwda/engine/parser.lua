@@ -669,8 +669,17 @@ function parser.setForm(form, source)
     return
   end
 
+  local prevForm = rwda.state and rwda.state.me and rwda.state.me.form
   rwda.state.setForm(form)
   emit("FORM_CHANGED", { form = form, source = source or "parser" })
+
+  if prevForm and prevForm ~= form and type(decho) == "function" then
+    local fromLabel = prevForm == "dragon" and "Dragon" or "Runewarden"
+    local toLabel   = form == "dragon"
+      and "<orange_red>DRAGON<reset>"
+      or "<chartreuse>RUNEWARDEN<reset>"
+    decho("<dim_grey>[RWDA]<reset> Mode: <white>" .. fromLabel .. "<reset> → " .. toLabel .. "\n")
+  end
 end
 
 function parser.onDataReceived(_, chunk)

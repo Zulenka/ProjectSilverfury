@@ -419,6 +419,61 @@ function selftest.run()
     rwda.engine.finisher.bootstrap()
   end
 
+  -- nextPrepLimb: balanced mode picks the lowest-damage unbroken limb.
+  resetBaseline()
+  rwda.state.updateTargetLimb("left_leg", { damage_pct = 50, confidence = 0.8 })
+  rwda.state.updateTargetLimb("torso",    { damage_pct = 30, confidence = 0.8 })
+  rwda.state.updateTargetLimb("right_leg",{ damage_pct = 40, confidence = 0.8 })
+  local balLimb = rwda.engine.planner.nextPrepLimb(rwda.state)
+  if balLimb == "torso" then
+    rows[#rows + 1] = resultRow("nextPrepLimb balanced picks lowest damage limb", true, "torso")
+  else
+    rows[#rows + 1] = resultRow("nextPrepLimb balanced picks lowest damage limb", false,
+      string.format("expected torso got %s", tostring(balLimb)))
+  end
+
+  -- nextPrepLimb: near-break phase uses sequence order (left_leg first).
+  resetBaseline()
+  rwda.state.updateTargetLimb("left_leg", { damage_pct = 80, confidence = 0.9 })
+  rwda.state.updateTargetLimb("torso",    { damage_pct = 40, confidence = 0.8 })
+  rwda.state.updateTargetLimb("right_leg",{ damage_pct = 35, confidence = 0.8 })
+  local seqLimb = rwda.engine.planner.nextPrepLimb(rwda.state)
+  if seqLimb == "left_leg" then
+    rows[#rows + 1] = resultRow("nextPrepLimb near-break sequences left_leg first", true, "left_leg")
+  else
+    rows[#rows + 1] = resultRow("nextPrepLimb near-break sequences left_leg first", false,
+      string.format("expected left_leg got %s", tostring(seqLimb)))
+  end
+
+  -- nextPrepLimb: after left_leg breaks, targets torso next (sequence mode).
+  resetBaseline()
+  rwda.state.updateTargetLimb("left_leg", { broken = true, damage_pct = 100, confidence = 1.0 })
+  rwda.state.updateTargetLimb("torso",    { damage_pct = 60, confidence = 0.8 })
+  rwda.state.updateTargetLimb("right_leg",{ damage_pct = 70, confidence = 0.8 })
+  local postBreakLimb = rwda.engine.planner.nextPrepLimb(rwda.state)
+  if postBreakLimb == "torso" then
+    rows[#rows + 1] = resultRow("nextPrepLimb post-left_leg-break targets torso", true, "torso")
+  else
+    rows[#rows + 1] = resultRow("nextPrepLimb post-left_leg-break targets torso", false,
+      string.format("expected torso got %s", tostring(postBreakLimb)))
+  end
+
+  -- pickLockVenoms: without affstrack, returns kalmia+gecko (first two in default order).
+  resetBaseline()
+  local dslAction = choose()
+  if dslAction and dslAction.name == "dsl" then
+    local cmd = type(dslAction.commands) == "table" and dslAction.commands[1] or ""
+    if type(cmd) == "string" and cmd:find("kalmia") and cmd:find("gecko") then
+      rows[#rows + 1] = resultRow("smart venom picker uses lock venoms (kalmia+gecko offline)", true, cmd)
+    else
+      rows[#rows + 1] = resultRow("smart venom picker uses lock venoms (kalmia+gecko offline)", false,
+        string.format("expected kalmia+gecko in cmd got: %s", tostring(cmd)))
+    end
+  else
+    rows[#rows + 1] = resultRow("smart venom picker uses lock venoms (kalmia+gecko offline)", false,
+      string.format("expected dsl action got %s", dslAction and dslAction.name or "nil"))
+  end
+
   _G.target = nil
   if rwda.integrations and rwda.integrations.groupcombat then
     rwda.integrations.groupcombat._last_external_target = nil

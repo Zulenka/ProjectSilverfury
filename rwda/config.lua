@@ -123,6 +123,9 @@ local function exportPersistedConfig()
       },
     },
     runewarden = {
+      prep_limbs = copyArray(config.runewarden.prep_limbs),
+      near_break_pct = config.runewarden.near_break_pct,
+      lock_venom_priority = copyArray(config.runewarden.lock_venom_priority),
       venoms = {
         dsl_main = copyArray(config.runewarden.venoms and config.runewarden.venoms.dsl_main),
         dsl_off = copyArray(config.runewarden.venoms and config.runewarden.venoms.dsl_off),
@@ -236,7 +239,12 @@ setDefault(config.executor, "queue_kill_moves_as_freestand", true)
 
 config.runewarden = config.runewarden or {}
 setDefault(config.runewarden, "default_goal", "limbprep")
-config.runewarden.prep_limbs = config.runewarden.prep_limbs or { "left_leg", "right_leg", "torso" }
+-- Break sequence order: left_leg (causes prone) → torso → right_leg → impale
+config.runewarden.prep_limbs = config.runewarden.prep_limbs or { "left_leg", "torso", "right_leg" }
+-- Damage % at which nextPrepLimb switches from balanced to sequential-break mode
+setDefault(config.runewarden, "near_break_pct", 75)
+-- Lock venom priority: pick the two most-needed from this list each tick
+config.runewarden.lock_venom_priority = config.runewarden.lock_venom_priority or { "kalmia", "gecko", "slike", "curare", "epteth", "aconite" }
 config.runewarden.venoms = config.runewarden.venoms or {}
 config.runewarden.venoms.dsl_main = config.runewarden.venoms.dsl_main or { "curare", "gecko" }
 config.runewarden.venoms.dsl_off = config.runewarden.venoms.dsl_off or { "epteth", "kalmia" }

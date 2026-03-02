@@ -31,6 +31,10 @@ rwda.data.abilities = {
       requires = { eq = true },
       queue = "eq",
     },
+    bisect = {
+      requires = { eq = true },
+      queue = "eq",
+    },
   },
   dragon = {
     summon = {
