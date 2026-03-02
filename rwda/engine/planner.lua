@@ -220,44 +220,53 @@ local function affScore(aff)
   return (ok and type(v) == "number") and v or 0
 end
 
--- Venom → affliction mapping for the Runewarden lock stack.
-local LOCK_VENOM_AFF = {
-  kalmia  = "asthma",
-  gecko   = "slickness",
-  slike   = "anorexia",
-  curare  = "paralysis",
-  epteth  = "weariness",
-  aconite = "stupidity",
-}
-
--- Saturation thresholds per affliction: once affScore reaches this, pick
--- the next needed venom instead.
-local LOCK_THRESH = {
-  asthma    = 80,
-  slickness = 80,
-  anorexia  = 80,
-  paralysis = 60,
-  weariness = 50,
-  stupidity = 50,
-}
-
--- Returns two venoms to use on the next DSL tick, chosen from the lock
--- priority list in order of most-needed (lowest relative affScore).
+-- Returns two venoms for the next DSL tick.
+--
+-- Two-slot logic ported from the player's constDWC() function.
+-- v1 (main cut) and v2 (off cut) have separate priority queues because
+-- the afflictions they target serve different roles in the kill setup.
+--
+-- ak.check(aff, pct) equivalent: affScore(aff) >= pct
+-- So "not ak.check(aff, pct)" → affScore(aff) < pct  → still needs dosing.
 local function pickLockVenoms()
-  local order = (rwda.config and rwda.config.runewarden and rwda.config.runewarden.lock_venom_priority)
-                or { "kalmia", "gecko", "slike", "curare", "epteth", "aconite" }
-  local picked = {}
-  for _, v in ipairs(order) do
-    local aff    = LOCK_VENOM_AFF[v]
-    local thresh = aff and (LOCK_THRESH[aff] or 80) or 80
-    if affScore(aff or v) < thresh then
-      picked[#picked + 1] = v
-      if #picked >= 2 then break end
-    end
+  local function need(aff, thresh)
+    return affScore(aff) < (thresh or 100)
   end
-  -- Fallback: always return two venoms even if all affs are saturated.
-  return picked[1] or (order[1] or "kalmia"),
-         picked[2] or (order[2] or "gecko")
+
+  -- ── v1: main cut ─────────────────────────────────────────────────────────
+  -- Priority: paralysis (full) → asthma (50%) → weariness (33%) → recklessness
+  local v1
+  if need("paralysis", 100) then
+    v1 = "curare"
+  elseif need("asthma", 50) then
+    v1 = "kalmia"
+  elseif need("weariness", 33) then
+    v1 = "vernalius"
+  else
+    v1 = "eurypteria"   -- recklessness: always useful as filler
+  end
+
+  -- ── v2: off cut ──────────────────────────────────────────────────────────
+  -- Priority: clumsiness (33%) → nausea (50%) → asthma (50%, if v1 ≠ kalmia)
+  --           → slickness (49%) → anorexia (100%) → stupidity (33%) → dizziness
+  local v2
+  if need("clumsiness", 33) then
+    v2 = "xentio"
+  elseif need("nausea", 50) then
+    v2 = "euphorbia"
+  elseif need("asthma", 50) and v1 ~= "kalmia" then
+    v2 = "kalmia"
+  elseif need("slickness", 49) then
+    v2 = "gecko"
+  elseif need("anorexia", 100) then
+    v2 = "slike"
+  elseif need("stupidity", 33) then
+    v2 = "aconite"
+  else
+    v2 = "larkspur"     -- dizziness: always useful as filler
+  end
+
+  return v1, v2
 end
 
 local function humanContext(state)
