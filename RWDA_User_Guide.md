@@ -1,7 +1,7 @@
 # RWDA User Guide
 
 **Runewarden + Silver Dragon AI — Project Silverfury**
-Last updated: 2026-02-28
+Last updated: 2026-03-01
 
 ---
 
@@ -36,6 +36,8 @@ RWDA is an offense-only combat brain for Mudlet. It runs alongside **Legacy** cu
 
 RWDA reads your current state (balances, form, target defences, limb state) and picks the highest-priority valid action from your configured strategy. Every decision is recorded and visible via `rwda explain`.
 
+RWDA does **not** send attacks itself — it queues them each tick. Ticks fire automatically on every server prompt when `rwda set prompttick on` is enabled, or you can fire one manually with `rwda tick`.
+
 ---
 
 ## Installation
@@ -50,40 +52,57 @@ The loader tries these paths for `init.lua` in order:
 - `<MudletHome>\rwda\init.lua`
 - File dialog (prompts you if neither is found)
 
-If RWDA loads correctly you will see `[RWDA Loader] Loaded from ...` in the main console.
+If RWDA loads correctly you will see `[RWDA] bootstrap complete` in the main console.
 
 ---
 
 ## Quick Start
 
-```
-rwda on                          -- enable offense
-rwda target Bainz                -- set your target
-rwda mode auto                   -- auto-detect form (recommended)
-rwda goal limbprep               -- start with limb preparation
-rwda set prompttick on           -- fire a tick on every server prompt
-```
-
-To enable full automation:
+### Starting a fight
 
 ```
-rwda retaliate on                -- auto-target aggressors
-rwda execute on                  -- auto-dispatch disembowel / devour
+rwda engage Bainz
 ```
 
-To stop everything immediately:
+`rwda engage <name>` is the single command to start combat — it sets the target, enables offense, and fires the first tick in one shot. From there, enable prompt ticking so RWDA attacks automatically on every server prompt:
 
 ```
-rwda stop                        -- kill switch: halts offense and clears all server queues
+rwda set prompttick on
+```
+
+### Full automation setup (recommended)
+
+```
+rwda engage Bainz               -- start fighting
+rwda goal impale_kill           -- or: dragon_devour, limbprep, pressure
+rwda retaliate on               -- auto-target aggressors who hit you
+rwda execute on                 -- auto-dispatch disembowel / devour
+```
+
+### Stop everything immediately
+
+```
+rwda stop                       -- kill switch: halts offense and clears all server queues
 ```
 
 ---
 
 ## Core Concepts
 
+### How RWDA Decides What to Send
+
+RWDA does not react to what you type. It reads your actual in-game state each tick:
+- Your current **form** (human or dragon) — detected from server text, no manual switch needed
+- Target **defences** (shield, rebounding)
+- Target **limb state** (broken, mangled)
+- Your own **balances** (bal, eq)
+- Your current **goal**
+
+It then evaluates your strategy blocks top-down by priority and sends the first one whose condition is true.
+
 ### Goals
 
-The **goal** tells the planner what outcome you are working toward. It controls which strategy blocks are active and in what order.
+The **goal** tells the planner what outcome you are working toward.
 
 | Goal | Description |
 |---|---|
@@ -96,17 +115,17 @@ Change with: `rwda goal <name>`
 
 ### Modes
 
-The **mode** controls which planner logic runs: Runewarden (human dual-cut) or Dragon (silver dragon).
+The **mode** controls which planner logic runs: Runewarden or Dragon. In `auto` mode RWDA follows your actual form — no command needed when you shift.
 
 | Mode | Description |
 |---|---|
-| `auto` | Follows your current in-game form automatically |
+| `auto` | Follows your current in-game form automatically (recommended) |
 | `human` | Forces Runewarden logic regardless of form |
 | `dragon` | Forces Dragon logic regardless of form |
 
 Change with: `rwda mode <auto\|human\|dragon>`
 
-Auto mode detects form changes from combat text (e.g. "You assume the form of a dragon.").
+Form changes are detected from combat text (e.g. `"You assume the form of a dragon."`).
 
 ### Strategy Profiles
 
@@ -117,14 +136,14 @@ A **profile** is a named set of strategy blocks. Two profiles are built in:
 | `duel` | 1v1 combat — aggressive single-target pressure |
 | `group` | Group combat — conservative, safer target churn |
 
-Change with: `rwda profile <duel\|group>` *(if the profile command is wired)* or via the Combat Builder UI.
+Switch with `rwda profile <duel\|group>` or via the Combat Builder UI.
 
 ### Strategy Blocks
 
 Each profile contains ordered **blocks** per mode. Each block has:
-- A unique **id** (e.g. `strip_shield`, `force_prone`, `limbprep_dsl`)
+- A unique **id** (e.g. `strip_shield`, `dragon_force_prone`, `limbprep_dsl`)
 - A **priority** (higher number = checked first)
-- A **condition** (e.g. `target.def.shield`, `target.prone`, `always`)
+- A **condition** (e.g. `target.def.shield`, `not target.prone`, `always`)
 - An **action** (e.g. `razeslash`, `gust`, `dsl`)
 - An **enabled** flag
 
@@ -134,13 +153,20 @@ Blocks are evaluated top-down by priority. The first enabled block whose conditi
 
 ## All Commands
 
+### Combat
+
+| Command | What it does |
+|---|---|
+| `rwda engage <name>` | **Start fighting**: sets target, enables offense, fires first tick |
+| `rwda stop` | **Hard kill switch**: disables offense AND clears all server queues immediately |
+| `rwda tick` | Manually force one planning + execution cycle (alias: `rwda attack`) |
+
 ### Engine Control
 
 | Command | What it does |
 |---|---|
 | `rwda on` | Enable offense — RWDA will send attacks on each tick |
 | `rwda off` | Disable offense — RWDA stops attacking but keeps state |
-| `rwda stop` | **Hard kill switch**: disables offense AND clears all server queues immediately |
 | `rwda resume` | Re-enable after `rwda off` or `rwda stop` |
 | `rwda reload` | Hot-reload all Lua files without restarting Mudlet |
 | `rwda reset` | Wipe all runtime state (target, limbs, defences, balances) back to defaults |
@@ -149,7 +175,7 @@ Blocks are evaluated top-down by priority. The first enabled block whose conditi
 
 | Command | What it does |
 |---|---|
-| `rwda target <name>` | Manually set your attack target |
+| `rwda target <name>` | Manually set your attack target (does not enable or tick) |
 | `rwda clear target` | Remove the current target (stop attacking) |
 
 ### Mode and Goal
@@ -173,7 +199,6 @@ Blocks are evaluated top-down by priority. The first enabled block whose conditi
 | `rwda status` | Print current tracked state: target, form, balances, defences, limbs, retaliation/execute flags |
 | `rwda explain` | Print the last planned action with its reason code and strategy block |
 | `rwda doctor` | Full diagnostic report: Legacy wiring, handler counts, strategy status, retaliation/finisher state |
-| `rwda tick` | Manually force one planning + execution cycle |
 | `rwda selftest` | Run the offline test suite — prints pass/fail for all engine cases |
 
 ### Configuration (set)
@@ -224,12 +249,19 @@ Config is saved to `<MudletHome>\rwda_config.lua` and auto-loaded on bootstrap.
 
 ### Replay and Testing
 
+Paths are relative to the `rwda/` directory (i.e. relative to `rwda.base_path`).
+
 | Command | What it does |
 |---|---|
 | `rwda replay <path>` | Replay a combat log file through the parser/planner pipeline |
 | `rwda replayassert <path> <action> [min]` | Replay a log and assert the last action and minimum action count |
 | `rwda replaysuite <path>` | Run a multi-case assertion suite (`.lua` file) |
 | `rwda line <text>` | Feed a single raw combat line into the parser manually |
+
+Example:
+```
+rwda replaysuite tools/suite_strategy_retal_finisher.lua
+```
 
 ### Queue
 
@@ -314,7 +346,7 @@ Goal: `dragon_devour`
 
 1. Planner breaks torso and limbs, forces prone (via strategy blocks)
 2. The devour readiness score is computed from limb damage and time estimates
-3. When the score is below the threshold (`config.finisher.devour_threshold_ms`, default 6000 ms), the `devour_window` block fires `devour`
+3. When the score is within the threshold (`config.finisher.devour_threshold_ms`, default 8000 ms), the `devour_window` block fires `devour`
 4. Parser watches for:
    - `"You devour..."` / `"You have devoured..."` → **success**
    - `"You fail to devour..."` / `"You cease trying to devour..."` → **failure**, fallback fires
@@ -323,22 +355,24 @@ Goal: `dragon_devour`
 
 After a **failure or timeout**:
 
-1. A cooldown window is applied (default: `executecooldown` ms) — no execute attempt during this window
-2. A fallback window activates (default: `executefallbackwindow` ms) — during this window the planner **forces** the configured fallback block
+1. A cooldown window is applied (`executecooldown` ms) — no execute attempt during this window
+2. A fallback window activates (`executefallbackwindow` ms) — the planner **forces** the configured fallback block, bypassing its normal condition
 3. The fallback block re-establishes the conditions needed for the next attempt (e.g. limb re-prime, re-prone)
-4. After the fallback window closes, the planner resumes normal strategy evaluation and will attempt the execute again
+4. After the fallback window closes, normal strategy evaluation resumes and the execute will be attempted again
+
+The fallback block's condition is **always bypassed** when forced — it fires unconditionally regardless of the current target state.
 
 ### Configuration
 
 | Command | Default | Description |
 |---|---|---|
 | `rwda execute on/off` | `off` | Master toggle |
-| `rwda set executecooldown <ms>` | `3000` | Cooldown after failure before retrying |
-| `rwda set executefallbackwindow <ms>` | `5000` | How long fallback block is forced |
-| `rwda set executetimeout disembowel <ms>` | `4000` | Timeout waiting for disembowel confirmation |
-| `rwda set executetimeout devour <ms>` | `6000` | Timeout waiting for devour confirmation |
+| `rwda set executecooldown <ms>` | `1500` | Cooldown after failure before retrying |
+| `rwda set executefallbackwindow <ms>` | `6000` | How long fallback block is forced |
+| `rwda set executetimeout disembowel <ms>` | `2500` | Timeout waiting for disembowel confirmation |
+| `rwda set executetimeout devour <ms>` | `8000` | Timeout waiting for devour confirmation |
 | `rwda set executefallback human <block_id>` | `limbprep_dsl` | Fallback block after disembowel failure |
-| `rwda set executefallback dragon <block_id>` | `force_prone` | Fallback block after devour failure |
+| `rwda set executefallback dragon <block_id>` | `dragon_force_prone` | Fallback block after devour failure |
 
 ---
 
@@ -409,21 +443,24 @@ Prints each block for the active profile and mode with: id, priority, enabled, c
 
 | Block ID | Priority | Condition | Action |
 |---|---|---|---|
-| `strip_rebounding` | 110 | `target.def.rebounding` | `razeslash` |
-| `strip_shield` | 100 | `target.def.shield` | `razeslash` |
-| `impale_window` | 90 | `target.legs_broken and target.prone and not target.impaled` | `impale` |
-| `disembowel_followup` | 90 | `target.impaled` | `disembowel` |
-| `limbprep_dsl` | 70 | `always` | `dsl` |
+| `strip_rebounding` | 100 | `target.def.rebounding` | `razeslash` |
+| `strip_shield` | 95 | `target.def.shield` | `razeslash` |
+| `impale_window` | 92 | `target.legs_broken and target.prone and not target.impaled` | `impale` |
+| `disembowel_followup` | 91 | `target.impaled` | `disembowel` |
+| `intimidate_lock` | 90 | `target.impaled` | `intimidate` |
+| `limbprep_dsl` | 20 | `always` | `dsl` |
 
 ### Default Dragon Blocks (duel profile)
 
 | Block ID | Priority | Condition | Action |
 |---|---|---|---|
-| `summon_breath` | 120 | `not me.dragon.breath_summoned` | `summon` |
-| `strip_shield` | 110 | `target.def.shield` | `tailsmash` |
-| `devour_window` | 100 | `state.can_devour` | `devour` |
-| `force_prone` | 80 | `not target.prone` | `gust` |
-| `prone_pressure` | 70 | `target.prone` | `bite` |
+| `summon_breath` | 100 | `not me.dragon.breath_summoned` | `summon` |
+| `dragon_strip_shield` | 95 | `target.def.shield` | `tailsmash` |
+| `dragon_strip_rebounding` | 94 | `target.def.rebounding` | `tailsmash` |
+| `dragon_force_prone` | 85 | `not target.prone` | `gust` |
+| `devour_window` | 80 | `state.can_devour` | `devour` |
+| `dragon_torso_pressure` | 70 | `always` | `rend` |
+| `dragon_limb_pressure` | 20 | `always` | `bite` |
 
 ### Condition DSL Tokens
 
@@ -518,7 +555,7 @@ Sets a kill switch that immediately:
 - Disables offense
 - Clears all server queues (`CLEARQUEUE ALL`)
 
-Nothing sends until you `rwda on` or `rwda resume`.
+Nothing sends until you `rwda on`, `rwda resume`, or `rwda engage <name>`.
 
 ### Target Availability Guard
 
@@ -589,22 +626,23 @@ Settings that are persisted include: strategy profile, retaliation settings, fin
    - `target_unavailable` — target isn't in your room
    - `no_balance` / `no_equilibrium` — waiting for balance to return
    - `target_dead` — target confirmed dead, waiting for you to set a new target
-   - `stopped` — `rwda stop` was called; use `rwda on` to resume
+   - `stopped` — `rwda stop` was called; use `rwda on` or `rwda engage <name>` to resume
 3. `rwda doctor` — full backend diagnostics
 
 ### Target won't switch / sticks on wrong person
 
 - Check `rwda status` for `retal=`, `locked=`, `reason=`
 - `multi_attacker_hold` means 2+ people are attacking — this is intentional
-- Use `rwda target <name>` to manually override at any time
+- Use `rwda target <name>` or `rwda engage <name>` to manually override at any time
 - `rwda clear target` to stop attacking entirely
 
 ### Devour / disembowel never fires
 
 - Confirm `rwda execute on`
 - Check `rwda status` for `execute=on` and that `goal` is set correctly (`dragon_devour` or `impale_kill`)
-- `rwda explain` should show `block=devour_window` or `block=disembowel_followup` with a condition mismatch if preconditions aren't met
-- For devour: check that `tprone=yes` and enough limbs are broken
+- `rwda explain` should show `block=devour_window` or `block=disembowel_followup` — if it shows something else, the preconditions aren't met yet
+- For devour: check that `tprone=yes` and enough limbs are broken (`state.can_devour` condition)
+- For disembowel: check that `target.impaled=yes`
 
 ### Patterns not matching your server output
 
