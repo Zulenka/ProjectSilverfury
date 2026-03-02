@@ -237,6 +237,7 @@ local function detectAggressorFromLine(line)
     "^([A-Z][%w'%-]+) hits you",
     "^([A-Z][%w'%-]+) strikes you",
     "^([A-Z][%w'%-]+) slashes you",
+    "^([A-Z][%w'%-]+) slashes viciously at you",
     "^([A-Z][%w'%-]+) kicks you",
     "^([A-Z][%w'%-]+) punches you",
     "^([A-Z][%w'%-]+) stares at you",
@@ -696,8 +697,11 @@ function parser.handleLine(line)
   local state = rwda.state
   local lower = line:lower()
 
+  local matched = false
+
   local aggressor = detectAggressorFromLine(line)
   if aggressor then
+    matched = true
     emit("AGGRESSOR_HIT", {
       who = aggressor,
       line = line,
@@ -707,6 +711,7 @@ function parser.handleLine(line)
 
   local finisherOutcome = detectFinisherOutcome(lower)
   if finisherOutcome then
+    matched = true
     emit(finisherOutcome.event, {
       name = finisherOutcome.name,
       line = line,
@@ -977,7 +982,9 @@ function parser.handleLine(line)
     return
   end
 
-  captureUnmatchedLine(line)
+  if not matched then
+    captureUnmatchedLine(line)
+  end
 end
 
 function parser.registerMudletHandlers()
