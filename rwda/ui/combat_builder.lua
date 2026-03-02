@@ -287,11 +287,11 @@ local function sortedBlocks(blocks)
 end
 
 local function renderBlocksTable(modeKey, heading)
-  cprint(string.format("\n<yellow>── %s Blocks ──<reset>\n", heading))
+  cprint(string.format("\n<yellow>%s Blocks<reset>\n", heading))
 
   local blocks = sortedBlocks(blocksForMode(modeKey))
   if #blocks == 0 then
-    cprint("<gray>  (no blocks – use presets or add via config)\n<reset>")
+    cprint("  <gray>(none)<reset>\n")
     return
   end
 
@@ -307,18 +307,18 @@ local function renderBlocksTable(modeKey, heading)
     local downCmd = string.format(
       "rwda.ui.combat_builder.adjustPriority(%q, %q, -5)", modeKey, id)
 
+    -- color tag must be in the same string as the text, not a standalone decho call
     cprint("  ")
     if enabled then
-      cprint("<green>")
+      clink("<0,180,0>[ON ]<reset>", toggleCmd, "Toggle " .. id)
     else
-      cprint("<red>")
+      clink("<180,40,40>[OFF]<reset>", toggleCmd, "Toggle " .. id)
     end
-    clink(enabled and "[ON] " or "[OFF]", toggleCmd, "Toggle " .. id)
-    cprint("<reset>")
-    cprint(string.format(" %-26s  pri:", id))
-    clink("[+]", upCmd,   "Raise priority")
-    cprint(string.format("%4d", priority))
-    clink("[-]", downCmd, "Lower priority")
+    local nameFmt = enabled and "<white>  %-26s<reset>" or "<gray>  %-26s<reset>"
+    cprint(string.format(nameFmt, id))
+    clink("  <gray>+<reset>", upCmd,   "+5 priority")
+    cprint(string.format(" <white>%3d<reset> ", priority))
+    clink("<gray>-<reset>", downCmd, "-5 priority")
     cprint("\n")
   end
 end
@@ -334,23 +334,24 @@ local function renderFinisherPanel(modeKey)
   local exEnabled = finCfg.enabled ~= false
   local exCmd     = "rwda.ui.combat_builder.onToggleExecute()"
 
-  cprint(string.format("\n<yellow>── Auto-Execute (%s) ──<reset>\n", finName))
-  cprint("  Execute: ")
-  if exEnabled then cprint("<green>") else cprint("<red>") end
-  clink(exEnabled and "[ON] " or "[OFF]", exCmd, "Toggle auto-execute")
-  cprint(string.format("<reset>  Fallback: <cyan>%s<reset>\n", fallback))
+  cprint(string.format("\n<yellow>Auto-Execute  <gray>(%s)<reset>\n", finName))
+  cprint("  ")
+  if exEnabled then
+    clink("<0,180,0>[ON ]<reset>", exCmd, "Toggle auto-execute")
+  else
+    clink("<180,40,40>[OFF]<reset>", exCmd, "Toggle auto-execute")
+  end
+  cprint(string.format("  <gray>fallback: <cyan>%s<reset>\n", fallback))
 end
 
 local function renderRunewardenTab()
   renderBlocksTable("runewarden", "Runewarden")
   renderFinisherPanel("runewarden")
-  cprint("\n<gray>Tip: use rwda set executefallback human <block_id> to change fallback.<reset>\n")
 end
 
 local function renderDragonTab()
   renderBlocksTable("dragon", "Dragon")
   renderFinisherPanel("dragon")
-  cprint("\n<gray>Tip: use rwda set executefallback dragon <block_id> to change fallback.<reset>\n")
 end
 
 local function renderSharedTab()
@@ -367,25 +368,26 @@ local function renderSharedTab()
 
   local retCmd = "rwda.ui.combat_builder.onToggleRetaliate()"
 
-  cprint("\n<yellow>── Auto-Retaliation ──<reset>\n")
-  cprint("  Auto-retaliate: ")
-  if retEnabled then cprint("<green>") else cprint("<red>") end
-  clink(retEnabled and "[ON] " or "[OFF]", retCmd, "Toggle retaliation")
-  cprint("<reset>\n")
-  cprint(string.format("  Lock duration:      <cyan>%d ms<reset>\n", lockMs))
-  cprint(string.format("  Swap debounce:      <cyan>%d ms<reset>\n", debounceMs))
-  cprint(string.format("  Min confidence:     <cyan>%.2f<reset>\n", minConf))
-  cprint(string.format("  Restore prev target: <cyan>%s<reset>\n", restorePrev and "yes" or "no"))
-  cprint(string.format("  Ignore non-players:  <cyan>%s<reset>\n", ignNonPlay and "yes" or "no"))
+  cprint("\n<yellow>Auto-Retaliation<reset>\n")
+  cprint("  ")
+  if retEnabled then
+    clink("<0,180,0>[ON ]<reset>", retCmd, "Toggle retaliation")
+  else
+    clink("<180,40,40>[OFF]<reset>", retCmd, "Toggle retaliation")
+  end
+  cprint(string.format("  <gray>lock:<reset> <white>%dms<reset>", lockMs))
+  cprint(string.format("  <gray>debounce:<reset> <white>%dms<reset>", debounceMs))
+  cprint(string.format("  <gray>conf:<reset> <white>%.2f<reset>\n", minConf))
+  cprint(string.format("  <gray>Restore prev target:<reset>  <white>%s<reset>\n", restorePrev and "yes" or "no"))
+  cprint(string.format("  <gray>Ignore non-players: <reset>  <white>%s<reset>\n", ignNonPlay and "yes" or "no"))
 
-  cprint("\n<yellow>── Targeting ──<reset>\n")
-  cprint(string.format("  Follow Legacy target: <cyan>%s<reset>\n", followLeg and "yes" or "no"))
+  cprint(string.format("\n  <gray>Follow Legacy target:<reset>  <white>%s<reset>\n", followLeg and "yes" or "no"))
 
-  cprint("\n<yellow>── Tweak Commands ──<reset>\n")
-  cprint("  rwda set retalockms <ms>\n")
+  cprint("\n<yellow>Tweak Commands<reset>\n")
+  cprint("  <gray>rwda set retalockms <ms>\n")
   cprint("  rwda set retaldebounce <ms>\n")
   cprint("  rwda set retalminconf <0-1>\n")
-  cprint("  rwda set followlegacytarget on|off\n")
+  cprint("  rwda set followlegacytarget on|off<reset>\n")
 end
 
 local function renderSafetyTab()
@@ -395,28 +397,28 @@ local function renderSafetyTab()
 
   local stopCmd = "rwda.ui.commands.handle('stop')"
 
-  cprint("\n<yellow>── Emergency ──<reset>\n")
-  cprint("  Immediate stop: ")
-  clink("<red>[STOP]<reset>", stopCmd, "Stop RWDA immediately")
-  cprint("\n")
+  cprint("\n<yellow>Emergency<reset>\n")
+  cprint("  ")
+  clink("<180,40,40>[STOP NOW]<reset>", stopCmd, "Stop RWDA immediately")
+  cprint("  <gray>disables offense + clears queues<reset>\n")
 
-  cprint("\n<yellow>── Active Limits (live config) ──<reset>\n")
-  cprint(string.format("  Finisher cooldown:        <cyan>%d ms<reset>\n",
-    tonumber(finCfg.cooldown_ms)       or 1500))
-  cprint(string.format("  Fallback window:          <cyan>%d ms<reset>\n",
+  cprint("\n<yellow>Active Limits<reset>\n")
+  cprint(string.format("  <gray>Finisher cooldown:<reset>   <white>%d ms<reset>\n",
+    tonumber(finCfg.cooldown_ms)        or 1500))
+  cprint(string.format("  <gray>Fallback window:  <reset>   <white>%d ms<reset>\n",
     tonumber(finCfg.fallback_window_ms) or 6000))
-  cprint(string.format("  Disembowel timeout:       <cyan>%d ms<reset>\n",
+  cprint(string.format("  <gray>Disembowel timeout:<reset>  <white>%d ms<reset>\n",
     tonumber(to.disembowel_ms) or 2500))
-  cprint(string.format("  Devour timeout:           <cyan>%d ms<reset>\n",
+  cprint(string.format("  <gray>Devour timeout:  <reset>    <white>%d ms<reset>\n",
     tonumber(to.devour_ms)     or 8000))
-  cprint(string.format("  Ignore non-players:       <cyan>%s<reset>\n",
+  cprint(string.format("  <gray>Ignore non-players:<reset>  <white>%s<reset>\n",
     (retCfg.ignore_non_players ~= false) and "yes" or "no"))
 
-  cprint("\n<yellow>── Tweak Commands ──<reset>\n")
-  cprint("  rwda set executecooldown <ms>\n")
+  cprint("\n<yellow>Tweak Commands<reset>\n")
+  cprint("  <gray>rwda set executecooldown <ms>\n")
   cprint("  rwda set executefallbackwindow <ms>\n")
   cprint("  rwda set executetimeout disembowel|devour <ms>\n")
-  cprint("  rwda set executefallback human|dragon <block_id>\n")
+  cprint("  rwda set executefallback human|dragon <block_id><reset>\n")
 end
 
 -- ────────────────────────────────────────────────────────
@@ -430,7 +432,7 @@ function builder.refresh()
   cclear()
 
   local profName = activeProfile()
-  cprint(string.format("<yellow>Profile: <cyan>%s<reset>\n", profName))
+  cprint(string.format("<yellow>Profile: <white>%s<reset>\n", profName))
 
   local tab = builder._active_tab or "runewarden"
   if     tab == "runewarden" then renderRunewardenTab()
