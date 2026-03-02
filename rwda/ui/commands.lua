@@ -391,6 +391,23 @@ function commands.handle(raw)
     return
   end
 
+  if sub == "hud" then
+    local action = (words[2] or "show"):lower()
+    if action == "show" then
+      if rwda.ui and rwda.ui.hud then rwda.ui.hud.show()
+      else tell("RWDA HUD not loaded.") end
+    elseif action == "hide" then
+      if rwda.ui and rwda.ui.hud then rwda.ui.hud.hide()
+      else tell("RWDA HUD not loaded.") end
+    elseif action == "refresh" then
+      if rwda.ui and rwda.ui.hud then rwda.ui.hud.refresh()
+      else tell("RWDA HUD not loaded.") end
+    else
+      tell("Usage: rwda hud show|hide|refresh")
+    end
+    return
+  end
+
   if sub == "strategy" then
     local action = (words[2] or ""):lower()
     if action == "show" then

@@ -34,11 +34,12 @@ try {
   Copy-Item -Path $bootstrapXml -Destination (Join-Path $tempRoot "RWDA_Bootstrap.xml") -Force
 
   $outFile = Join-Path $outDirPath ("{0}.mpackage" -f $PackageBaseName)
-  if (Test-Path $outFile) {
-    Remove-Item -Path $outFile -Force
-  }
+  $zipFile = Join-Path $outDirPath ("{0}.zip" -f $PackageBaseName)
+  if (Test-Path $outFile) { Remove-Item -Path $outFile -Force }
+  if (Test-Path $zipFile) { Remove-Item -Path $zipFile -Force }
 
-  Compress-Archive -Path (Join-Path $tempRoot "*") -DestinationPath $outFile -Force
+  Compress-Archive -Path (Join-Path $tempRoot "*") -DestinationPath $zipFile -Force
+  Rename-Item -Path $zipFile -NewName (Split-Path $outFile -Leaf)
   Write-Host ("Built {0}" -f $outFile)
 }
 finally {

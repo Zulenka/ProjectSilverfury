@@ -61,6 +61,7 @@ local FILES = {
   "integrations/groupcombat.lua",
   "ui/combat_builder_state.lua",
   "ui/combat_builder.lua",
+  "ui/hud.lua",
   "ui/commands.lua",
 }
 
@@ -172,6 +173,10 @@ function rwda.bootstrap(opts)
     rwda.ui.commands.registerAlias()
   end
 
+  if rwda.ui and rwda.ui.hud then
+    pcall(rwda.ui.hud.init)
+  end
+
   rwda._bootstrapped = true
   rwda.util.log("info", "RWDA bootstrap complete (version %s).", rwda._version)
   return true
@@ -278,6 +283,10 @@ function rwda.statusLine()
 end
 
 function rwda.shutdown()
+  if rwda.ui and rwda.ui.hud and rwda.ui.hud.shutdown then
+    pcall(rwda.ui.hud.shutdown)
+  end
+
   if rwda.ui and rwda.ui.combat_builder and rwda.ui.combat_builder.shutdown then
     pcall(rwda.ui.combat_builder.shutdown)
   end
