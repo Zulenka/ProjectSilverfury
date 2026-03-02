@@ -645,6 +645,50 @@ function commands.handle(raw)
       return
     end
 
+    if key == "cursepriority" then
+      -- rwda set cursepriority impatience asthma paralysis stupidity
+      local valid = { impatience=true, asthma=true, paralysis=true, stupidity=true }
+      local list = {}
+      for i = 3, #words do
+        local c = words[i]:lower()
+        if not valid[c] then
+          tell("Invalid curse: " .. c .. ". Valid: impatience, asthma, paralysis, stupidity")
+          return
+        end
+        list[#list + 1] = c
+      end
+      if #list == 0 then
+        tell("Usage: rwda set cursepriority <curse1> <curse2> ... (e.g. asthma impatience paralysis stupidity)")
+        return
+      end
+      rwda.config.dragon = rwda.config.dragon or {}
+      rwda.config.dragon.curse_priority = list
+      tell("Dragon curse priority set to: " .. table.concat(list, " > "))
+      return
+    end
+
+    if key == "gutvenompriority" then
+      -- rwda set gutvenompriority curare kalmia gecko slike aconite
+      local valid = { curare=true, kalmia=true, gecko=true, slike=true, aconite=true }
+      local list = {}
+      for i = 3, #words do
+        local v = words[i]:lower()
+        if not valid[v] then
+          tell("Invalid venom: " .. v .. ". Valid: curare, kalmia, gecko, slike, aconite")
+          return
+        end
+        list[#list + 1] = v
+      end
+      if #list == 0 then
+        tell("Usage: rwda set gutvenompriority <venom1> <venom2> ... (e.g. curare kalmia gecko slike aconite)")
+        return
+      end
+      rwda.config.dragon = rwda.config.dragon or {}
+      rwda.config.dragon.gut_venom_priority = list
+      tell("Dragon gut venom priority set to: " .. table.concat(list, " > "))
+      return
+    end
+
     if key == "capture" then
       local ok, value = parseBoolWord(words[3])
       if not ok then
@@ -681,7 +725,7 @@ function commands.handle(raw)
       return
     end
 
-    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
+    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set cursepriority <c1> <c2>... | set gutvenompriority <v1> <v2>... | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
     return
   end
 

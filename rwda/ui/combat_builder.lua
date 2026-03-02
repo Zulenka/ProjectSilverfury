@@ -359,11 +359,17 @@ end
 local function renderDragonTab()
   renderBlocksTable("dragon", "Dragon")
   renderFinisherPanel("dragon")
-  local dragon     = rwda.config and rwda.config.dragon or {}
+  local dragon    = rwda.config and rwda.config.dragon or {}
   local breathType = dragon.breath_type or "lightning"
+  local cursePrio  = dragon.curse_priority     or { "impatience", "asthma", "paralysis", "stupidity" }
+  local gutPrio    = dragon.gut_venom_priority or { "curare", "kalmia", "gecko", "slike", "aconite" }
+
   cprint("\n<yellow>Dragon Config<reset>\n")
-  cprint(string.format("  <gray>Breath type:<reset> <white>%s<reset>\n", breathType))
-  cprint("  <gray>rwda set breath <type><reset>\n")
+  cprint(string.format("  <gray>Breath:      <reset><white>%s<reset>  <gray>(set breath <type>)<reset>\n", breathType))
+  cprint(string.format("  <gray>Curse order: <reset><white>%s<reset>\n", table.concat(cursePrio, " > ")))
+  cprint("  <gray>(set cursepriority impatience asthma paralysis stupidity)<reset>\n")
+  cprint(string.format("  <gray>Gut venoms:  <reset><white>%s<reset>\n", table.concat(gutPrio, " > ")))
+  cprint("  <gray>(set gutvenompriority curare kalmia gecko slike aconite)<reset>\n")
 end
 
 local function renderSharedTab()
