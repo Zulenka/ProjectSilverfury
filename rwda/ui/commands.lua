@@ -713,6 +713,21 @@ function commands.handle(raw)
       return
     end
 
+    if key == "captureall" then
+      local ok, value = parseBoolWord(words[3])
+      if not ok then
+        tell("Usage: rwda set captureall <on|off>")
+        return
+      end
+      rwda.config.parser = rwda.config.parser or {}
+      rwda.config.parser.capture_all_lines = value
+      local path = (rwda.config.parser.capture_unmatched_path ~= nil and rwda.config.parser.capture_unmatched_path ~= "")
+        and rwda.config.parser.capture_unmatched_path
+        or "rwda_unmatched.log (default)"
+      tell(string.format("Capture ALL lines: %s  →  %s", value and "ON" or "OFF", path))
+      return
+    end
+
     if key == "captureprompts" then
       local ok, value = parseBoolWord(words[3])
       if not ok then
@@ -737,7 +752,7 @@ function commands.handle(raw)
       return
     end
 
-    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set cursepriority <c1> <c2>... | set gutvenompriority <v1> <v2>... | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set autogoal <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
+    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set cursepriority <c1> <c2>... | set gutvenompriority <v1> <v2>... | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set autogoal <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set captureall <on|off> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
     return
   end
 

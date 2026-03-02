@@ -111,6 +111,7 @@ local function exportPersistedConfig()
     finisher = rwda.util.deepcopy(config.finisher or {}),
     parser = {
       capture_unmatched_lines = config.parser.capture_unmatched_lines,
+      capture_all_lines = config.parser.capture_all_lines,
       capture_unmatched_path = config.parser.capture_unmatched_path,
       capture_unmatched_include_prompts = config.parser.capture_unmatched_include_prompts,
       infer_defence_loss_on_aggressive = config.parser.infer_defence_loss_on_aggressive,
@@ -202,6 +203,7 @@ setDefault(config.parser, "infer_defence_loss_on_aggressive", true)
 setDefault(config.parser, "infer_defence_loss_on_move", true)
 setDefault(config.parser, "inferred_defence_confidence", 0.35)
 setDefault(config.parser, "capture_unmatched_lines", false)
+setDefault(config.parser, "capture_all_lines", false)
 setDefault(config.parser, "capture_unmatched_path", nil)
 setDefault(config.parser, "capture_unmatched_include_prompts", false)
 config.parser.form_detect = config.parser.form_detect or {}

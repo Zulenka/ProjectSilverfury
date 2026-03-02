@@ -703,6 +703,19 @@ function parser.handleLine(line)
     return
   end
 
+  -- Capture every clean line to the log file when capture_all_lines is on.
+  -- Use the same path as unmatched capture so one file covers the whole fight.
+  local parserCfgAll = rwda.config and rwda.config.parser or {}
+  if parserCfgAll.capture_all_lines then
+    local path = resolveCapturePath()
+    local f = io.open(path, "a")
+    if f then
+      local ts = os.date and os.date("%Y-%m-%d %H:%M:%S") or "0000-00-00 00:00:00"
+      f:write(string.format("%s | %s\n", ts, line))
+      f:close()
+    end
+  end
+
   local state = rwda.state
   local lower = line:lower()
 
