@@ -33,6 +33,8 @@ function builders.newTarget()
     unavailable_reason = nil,
     unavailable_since = 0,
     prone = false,
+    flying = false,
+    lyred = false,
     impaled = false,
     blocked_exit = nil,
     affs = {},

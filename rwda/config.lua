@@ -243,6 +243,8 @@ config.dragon = config.dragon or {}
 setDefault(config.dragon, "breath_type", "lightning")
 setDefault(config.dragon, "default_goal", "dragon_devour")
 setDefault(config.dragon, "devour_threshold", 6.0)
+config.dragon.curse_priority = config.dragon.curse_priority or { "impatience", "asthma", "paralysis", "stupidity" }
+config.dragon.gut_venom_priority = config.dragon.gut_venom_priority or { "curare", "kalmia", "gecko", "slike", "aconite" }
 
 config.profiles = config.profiles or {}
 config.profiles.duel = config.profiles.duel or { mode = "auto", goal = "limbprep" }

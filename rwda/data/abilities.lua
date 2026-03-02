@@ -73,5 +73,21 @@ rwda.data.abilities = {
       requires = { eq = true },
       queue = "eq",
     },
+    gut = {
+      requires = { bal = true },
+      queue = "bal",
+    },
+    breathgust = {
+      requires = { eq = true },
+      queue = "eq",
+    },
+    bite = {
+      requires = { bal = true },
+      queue = "bal",
+    },
+    becalm = {
+      requires = { eq = true },
+      queue = "eq",
+    },
   },
 }

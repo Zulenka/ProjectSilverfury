@@ -829,6 +829,36 @@ function parser.handleLine(line)
     return
   end
 
+  -- TODO: fill in exact Achaea output lines for target taking flight / landing
+  -- Flying up (target takes to the skies):
+  -- local flyingUp = line:match("^(.+) takes to the skies%.$")
+  -- if flyingUp and isTarget(flyingUp) then
+  --   markTargetSeen("flying")
+  --   state.target.flying = true
+  --   return
+  -- end
+  -- Flying down (target lands):
+  -- local flyingDown = line:match("^(.+) descends from the skies%.$")
+  -- if flyingDown and isTarget(flyingDown) then
+  --   state.target.flying = false
+  --   return
+  -- end
+
+  -- TODO: fill in exact Achaea output lines for target caught in / freed from lyre trap
+  -- Lyred (target caught):
+  -- local lyred = line:match("^(.+) is ensnared by a .-lyre trap%.$")
+  -- if lyred and isTarget(lyred) then
+  --   markTargetSeen("lyred")
+  --   state.target.lyred = true
+  --   return
+  -- end
+  -- Freed from lyre:
+  -- local unlyred = line:match("^(.+) breaks free from the lyre trap%.$")
+  -- if unlyred and isTarget(unlyred) then
+  --   state.target.lyred = false
+  --   return
+  -- end
+
   local detectedForm = detectFormFromText(lower)
   if detectedForm then
     parser.setForm(detectedForm, "line")

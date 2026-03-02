@@ -190,6 +190,50 @@ local function humanContext(state)
   }
 end
 
+local function affScore(aff)
+  if type(affstrack) ~= "table" then
+    return 0
+  end
+  local ok, v = pcall(function()
+    return affstrack.score and affstrack.score[aff] or 0
+  end)
+  return (ok and type(v) == "number") and v or 0
+end
+
+local CURSE_THRESH = { impatience = 100, asthma = 34, paralysis = 100, stupidity = 50 }
+
+local function dragonPickCurse()
+  local order = (rwda.config and rwda.config.dragon and rwda.config.dragon.curse_priority)
+                or { "impatience", "asthma", "paralysis", "stupidity" }
+  for _, name in ipairs(order) do
+    local thresh = CURSE_THRESH[name] or 100
+    if affScore(name) < thresh then
+      return name
+    end
+  end
+  return order[1] or "impatience"
+end
+
+local VENOM_AFF = {
+  curare  = "paralysis",
+  kalmia  = "asthma",
+  gecko   = "slickness",
+  slike   = "anorexia",
+  aconite = "stupidity",
+}
+
+local function dragonPickGutVenom(curse)
+  local order = (rwda.config and rwda.config.dragon and rwda.config.dragon.gut_venom_priority)
+                or { "curare", "kalmia", "gecko", "slike", "aconite" }
+  for _, v in ipairs(order) do
+    local aff = VENOM_AFF[v]
+    if aff ~= curse and affScore(aff or v) < 100 then
+      return v
+    end
+  end
+  return order[1] or "curare"
+end
+
 local function dragonPressureLimb(state)
   local limbOrder = { "left_leg", "right_leg", "left_arm", "right_arm", "head" }
   for _, limb in ipairs(limbOrder) do
@@ -202,11 +246,14 @@ end
 
 local function dragonContext(state)
   local devourTime = planner.estimateDevourTime(state)
+  local curse = dragonPickCurse()
   return {
     goal = (state.flags.goal or "dragon_devour"):lower(),
     can_devour = planner.canDevour(state),
     devour_time = devourTime,
     pressure_limb = dragonPressureLimb(state),
+    curse = curse,
+    gut_venom = dragonPickGutVenom(curse),
   }
 end
 
@@ -364,6 +411,70 @@ local function dragonActionFromBlock(state, target, block, profileName, ctx)
     )
   end
 
+  if id == "dragon_shield_curse" then
+    return action(
+      "dragon_silver",
+      "tailsmash",
+      {
+        { cmd = string.format("tailsmash %s", target),                   queue = "bal" },
+        { cmd = string.format("dragoncurse %s %s 1", target, ctx.curse), queue = "eq" },
+      },
+      enrichReason(
+        string.format("Shield up: tailsmash to strip then curse(%s) for pressure.", ctx.curse),
+        "dragon_shield_curse", profileName, id, { curse = ctx.curse }
+      ),
+      { requires = { bal = true, eq = true } }
+    )
+  end
+
+  if id == "dragon_lyred_blast" then
+    return action(
+      "dragon_silver",
+      "blast",
+      { string.format("blast %s", target) },
+      enrichReason("Target lyred, apply blast pressure.", "dragon_lyred_blast", profileName, id)
+    )
+  end
+
+  if id == "dragon_flying_becalm" then
+    return action(
+      "dragon_silver",
+      "becalm",
+      { "becalm" },
+      enrichReason("Target airborne, becalm to ground them.", "dragon_flying_becalm", profileName, id)
+    )
+  end
+
+  if id == "dragon_curse_gut" then
+    return action(
+      "dragon_silver",
+      "gut",
+      {
+        { cmd = string.format("dragoncurse %s %s 1", target, ctx.curse), queue = "eq" },
+        { cmd = string.format("gut %s %s", target, ctx.gut_venom),       queue = "bal" },
+        { cmd = string.format("breathgust %s", target),                   queue = "eq" },
+      },
+      enrichReason(
+        string.format("Curse(%s)+gut(%s)+breathgust combo.", ctx.curse, ctx.gut_venom),
+        "dragon_curse_gut", profileName, id, { curse = ctx.curse, venom = ctx.gut_venom }
+      ),
+      { requires = { bal = true, eq = true } }
+    )
+  end
+
+  if id == "dragon_bite" then
+    return action(
+      "dragon_silver",
+      "bite",
+      {
+        { cmd = string.format("bite %s", target),       queue = "bal" },
+        { cmd = string.format("breathgust %s", target), queue = "eq" },
+      },
+      enrichReason("Target prone, bite+breathgust for max damage.", "dragon_bite", profileName, id),
+      { requires = { bal = true, eq = true } }
+    )
+  end
+
   return nil
 end
 
@@ -462,9 +573,30 @@ local function dragonLegacyFallback(state, target, ctx)
   if not state.target.prone then
     return action(
       "dragon_silver",
-      "gust",
-      { string.format("gust %s", target) },
-      enrichReason("Force prone state to lock movement and prep devour window.", "dragon_force_prone")
+      "gut",
+      {
+        { cmd = string.format("dragoncurse %s %s 1", target, ctx.curse), queue = "eq" },
+        { cmd = string.format("gut %s %s", target, ctx.gut_venom),       queue = "bal" },
+        { cmd = string.format("breathgust %s", target),                   queue = "eq" },
+      },
+      enrichReason(
+        string.format("Fallback curse(%s)+gut(%s)+breathgust.", ctx.curse, ctx.gut_venom),
+        "dragon_curse_gut"
+      ),
+      { requires = { bal = true, eq = true } }
+    )
+  end
+
+  if state.target.prone then
+    return action(
+      "dragon_silver",
+      "bite",
+      {
+        { cmd = string.format("bite %s", target),       queue = "bal" },
+        { cmd = string.format("breathgust %s", target), queue = "eq" },
+      },
+      enrichReason("Target prone, bite+breathgust fallback.", "dragon_bite"),
+      { requires = { bal = true, eq = true } }
     )
   end
 

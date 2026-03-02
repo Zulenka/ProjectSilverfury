@@ -108,7 +108,50 @@ function selftest.run()
   rwda.state.me.form = "dragon"
   rwda.state.me.dragon.breath_summoned = true
   rwda.state.target.prone = false
-  rows[#rows + 1] = expectAction("dragon forces prone before devour", "gust")
+  rows[#rows + 1] = expectAction("dragon attacks with curse+gut when not prone", "gut")
+
+  resetBaseline()
+  rwda.state.flags.mode = "dragon"
+  rwda.state.me.form = "dragon"
+  rwda.state.me.dragon.breath_summoned = true
+  rwda.state.target.prone = true
+  local dragonBiteAction = choose()
+  if dragonBiteAction and dragonBiteAction.name == "bite" and type(dragonBiteAction.commands) == "table" and #dragonBiteAction.commands == 2 then
+    rows[#rows + 1] = resultRow("dragon bites+breathgusts when prone", true, "bite+breathgust")
+  else
+    local got = dragonBiteAction and dragonBiteAction.name or "nil"
+    local cmds = dragonBiteAction and #(dragonBiteAction.commands or {}) or 0
+    rows[#rows + 1] = resultRow("dragon bites+breathgusts when prone", false, string.format("expected bite/2cmds got %s/%d", got, cmds))
+  end
+
+  resetBaseline()
+  rwda.state.flags.mode = "dragon"
+  rwda.state.me.form = "dragon"
+  rwda.state.me.dragon.breath_summoned = true
+  rwda.state.target.prone = false
+  rwda.state.setTargetDefence("shield", true, 1.0, "selftest")
+  local shieldCurseAction = choose()
+  if shieldCurseAction and shieldCurseAction.name == "tailsmash" and type(shieldCurseAction.commands) == "table" and #shieldCurseAction.commands == 2 then
+    rows[#rows + 1] = resultRow("dragon_shield_curse fires tailsmash+curse combo", true, "tailsmash+curse")
+  else
+    local got = shieldCurseAction and shieldCurseAction.name or "nil"
+    local cmds = shieldCurseAction and #(shieldCurseAction.commands or {}) or 0
+    rows[#rows + 1] = resultRow("dragon_shield_curse fires tailsmash+curse combo", false, string.format("expected tailsmash/2cmds got %s/%d", got, cmds))
+  end
+
+  resetBaseline()
+  rwda.state.flags.mode = "dragon"
+  rwda.state.me.form = "dragon"
+  rwda.state.me.dragon.breath_summoned = true
+  rwda.state.target.prone = false
+  local curseGutAction = choose()
+  if curseGutAction and curseGutAction.name == "gut" and type(curseGutAction.commands) == "table" and #curseGutAction.commands == 3 then
+    rows[#rows + 1] = resultRow("dragon_curse_gut fires 3-command combo", true, "curse+gut+breathgust")
+  else
+    local got = curseGutAction and curseGutAction.name or "nil"
+    local cmds = curseGutAction and #(curseGutAction.commands or {}) or 0
+    rows[#rows + 1] = resultRow("dragon_curse_gut fires 3-command combo", false, string.format("expected gut/3cmds got %s/%d", got, cmds))
+  end
 
   resetBaseline()
   rwda.state.flags.mode = "dragon"

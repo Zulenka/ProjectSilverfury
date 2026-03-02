@@ -139,6 +139,12 @@ function strategy.evaluateToken(token, state, context)
   if token == "target.prone" then
     return state.target and state.target.prone
   end
+  if token == "target.flying" then
+    return state.target and state.target.flying
+  end
+  if token == "target.lyred" then
+    return state.target and state.target.lyred
+  end
   if token == "target.available" then
     return state.target and state.target.available
   end

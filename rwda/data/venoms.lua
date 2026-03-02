@@ -22,4 +22,12 @@ rwda.data.venoms = {
     applies = "darkshade",
     class = "pressure",
   },
+  slike = {
+    applies = "anorexia",
+    class = "pressure",
+  },
+  aconite = {
+    applies = "stupidity",
+    class = "pressure",
+  },
 }
