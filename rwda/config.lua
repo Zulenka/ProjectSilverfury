@@ -288,7 +288,7 @@ setDefault(config.replay, "prompt_pattern", "^%d+h, %d+m")
 setDefault(config.replay, "auto_tick", true)
 
 config.safety = config.safety or {}
-setDefault(config.safety, "deny_send_when_stopped", true)
+setDefault(config.safety, "deny_send_when_stopped", false)
 
 config.persistence = config.persistence or {}
 setDefault(config.persistence, "enabled", true)
