@@ -205,6 +205,22 @@ function adapter.pull(targetName)
     mergeLimbTable(snapshot.limbs, lbGlobal.limbs)
     mergeLimbTable(snapshot.limbs, lbGlobal.damage)
     extractFromLBPrompt(lbGlobal, snapshot.limbs)
+    -- limb 1.2 shape: lb[targetName].hits[limbName] = cumulative damage %
+    -- Values >= 100 indicate a broken limb.
+    if targetName and type(lbGlobal[targetName]) == "table"
+        and type(lbGlobal[targetName].hits) == "table" then
+      for lname, val in pairs(lbGlobal[targetName].hits) do
+        local limb = mapLimbKey(lname)
+        local dmg = type(val) == "number" and val or nil
+        if limb and dmg then
+          snapshot.limbs[limb] = snapshot.limbs[limb] or {}
+          snapshot.limbs[limb].damage_pct = math.max(0, math.min(150, dmg))
+          if dmg >= 100 then
+            snapshot.limbs[limb].broken = true
+          end
+        end
+      end
+    end
   end
 
   if type(akGlobal) == "table" and type(akGlobal.defs) == "table" then
