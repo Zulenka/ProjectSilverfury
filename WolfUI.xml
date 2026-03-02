@@ -2142,13 +2142,14 @@ function kaiUI.chat.capture()
   if channel_ignores[channel] then return false end
 
   
-  --NDB highlighting of text
+  --NDB highlighting of text (guarded: ori/color_table may not be present)
+  if ori and ori.ndb and ori.ndb.db and color_table then
     local format = string.match(text, "&lt;%d+.-&gt;")
     local alreadyHighlighted = {}
     for word in string.gmatch(text, "%a+") do
       if ori.ndb.db[word] and not table.contains(alreadyHighlighted, word) then
         local color = ori.ndb.getColor(word)
-          if color then
+          if color and color_table[color] then
           color =
             "&lt;" ..
             color_table[color][1] ..
@@ -2162,6 +2163,7 @@ function kaiUI.chat.capture()
         table.insert(alreadyHighlighted, word)
       end
     end
+  end
   
   -- demonnic.chat:decho(snd.last_channel, text.."\n")
   -- -- enableTrigger("generic capture")
