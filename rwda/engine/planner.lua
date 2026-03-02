@@ -243,14 +243,13 @@ local function pickLockVenoms()
   end
 
   -- ── v1: main cut ─────────────────────────────────────────────────────────
-  -- Priority: asthma → slickness → anorexia → paralysis → impatience
+  -- Priority: asthma → slickness → anorexia → paralysis
   -- then kelp pressure (weariness/clumsiness/sensitivity) → nausea → mental
   local v1 = pickFrom({
     { venom = "kalmia",    aff = "asthma",      thresh = 100 },
     { venom = "gecko",     aff = "slickness",   thresh = 100 },
     { venom = "slike",     aff = "anorexia",    thresh = 100 },
     { venom = "curare",    aff = "paralysis",   thresh = 100 },
-    { venom = "epteth",    aff = "impatience",  thresh = 100 },
     { venom = "vernalius", aff = "weariness",   thresh = 50 },
     { venom = "xentio",    aff = "clumsiness",  thresh = 50 },
     { venom = "prefarar",  aff = "sensitivity", thresh = 50 },
@@ -264,7 +263,6 @@ local function pickLockVenoms()
     { venom = "gecko",     aff = "slickness",   thresh = 100 },
     { venom = "slike",     aff = "anorexia",    thresh = 100 },
     { venom = "curare",    aff = "paralysis",   thresh = 100 },
-    { venom = "epteth",    aff = "impatience",  thresh = 100 },
     { venom = "euphorbia", aff = "nausea",      thresh = 50 },
     { venom = "vernalius", aff = "weariness",   thresh = 50 },
     { venom = "xentio",    aff = "clumsiness",  thresh = 50 },
@@ -393,6 +391,15 @@ local function humanActionFromBlock(state, target, block, profileName, ctx)
       "intimidate",
       { string.format("intimidate %s", target) },
       enrichReason("Reinforce tumble delay while kill setup is active.", "intimidate_lock", profileName, id)
+    )
+  end
+
+  if id == "assess_target" then
+    return action(
+      "human_dualcut",
+      "assess",
+      { string.format("assess %s", target) },
+      enrichReason("Refresh limb status from assess output.", "assess_target", profileName, id)
     )
   end
 

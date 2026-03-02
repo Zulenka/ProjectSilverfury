@@ -56,5 +56,6 @@ function builders.newTarget()
     available_source = "unknown",
     last_seen = 0,
     last_action_ms = 0,
+    last_assess = 0,
   }
 end

@@ -21,6 +21,37 @@ local function limbBroken(target, limb)
   return l and l.broken
 end
 
+local function limbDataStale(state)
+  local cfg = rwda.config and rwda.config.combat or {}
+  if cfg.assess_enabled == false then
+    return false
+  end
+
+  local now = rwda.util and rwda.util.now and rwda.util.now() or 0
+  local target = state.target or {}
+  local interval = tonumber(cfg.assess_interval_ms) or 9000
+  local staleMs = tonumber(cfg.assess_stale_ms) or 7000
+
+  if target.last_assess and now - target.last_assess < interval then
+    return false
+  end
+
+  local limbs = target.limbs or {}
+  local newest = 0
+  for _, limb in pairs(limbs) do
+    local ts = tonumber(limb.last_updated) or 0
+    if ts > newest then
+      newest = ts
+    end
+  end
+
+  if newest == 0 then
+    return true
+  end
+
+  return (now - newest) >= staleMs
+end
+
 local function defaultProfiles()
   local presets = rwda.data and rwda.data.strategy_presets or {}
   return rwda.util.deepcopy(presets.profiles or {})
@@ -176,6 +207,9 @@ function strategy.evaluateToken(token, state, context)
   end
   if token == "target.available" then
     return state.target and state.target.available
+  end
+  if token == "target.limb_stale" then
+    return limbDataStale(state)
   end
   if token == "target.impaled" then
     return context and context.target_impaled or (state.target and (state.target.impaled or state.target.affs.impaled))

@@ -459,19 +459,20 @@ function selftest.run()
   end
 
   -- pickLockVenoms offline: no affstrack → all affScores = 0.
-  -- v1: paralysis < 100 → curare.  v2: clumsiness < 33 → xentio.
+  -- v1: kalmia (asthma=0 < 100 → first entry).
+  -- v2: gecko  (slickness=0 < 100 → first entry that is not kalmia).
   resetBaseline()
   local dslAction = choose()
   if dslAction and dslAction.name == "dsl" then
     local cmd = type(dslAction.commands) == "table" and dslAction.commands[1] or ""
-    if type(cmd) == "string" and cmd:find("curare") and cmd:find("xentio") then
-      rows[#rows + 1] = resultRow("constDWC venom picker: curare+xentio offline", true, cmd)
+    if type(cmd) == "string" and cmd:find("kalmia") and cmd:find("gecko") then
+      rows[#rows + 1] = resultRow("venom picker: kalmia+gecko offline", true, cmd)
     else
-      rows[#rows + 1] = resultRow("constDWC venom picker: curare+xentio offline", false,
-        string.format("expected curare+xentio in cmd got: %s", tostring(cmd)))
+      rows[#rows + 1] = resultRow("venom picker: kalmia+gecko offline", false,
+        string.format("expected kalmia+gecko in cmd got: %s", tostring(cmd)))
     end
   else
-    rows[#rows + 1] = resultRow("constDWC venom picker: curare+xentio offline", false,
+    rows[#rows + 1] = resultRow("venom picker: kalmia+gecko offline", false,
       string.format("expected dsl action got %s", dslAction and dslAction.name or "nil"))
   end
 

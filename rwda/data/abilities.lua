@@ -27,6 +27,10 @@ rwda.data.abilities = {
       requires = { eq = true },
       queue = "eq",
     },
+    assess = {
+      requires = { eq = true },
+      queue = "eq",
+    },
     predict = {
       requires = { eq = true },
       queue = "eq",

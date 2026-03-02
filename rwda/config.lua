@@ -175,6 +175,9 @@ setDefault(config.combat, "auto_goal", true)
 setDefault(config.combat, "require_target_available", true)
 setDefault(config.combat, "clear_queue_when_target_missing", true)
 setDefault(config.combat, "require_room_presence_when_gmcp", true)
+setDefault(config.combat, "assess_enabled", true)
+setDefault(config.combat, "assess_interval_ms", 9000)
+setDefault(config.combat, "assess_stale_ms", 7000)
 
 config.retaliation = config.retaliation or {}
 setDefault(config.retaliation, "enabled", false)

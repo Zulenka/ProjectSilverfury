@@ -6,6 +6,8 @@ rwda.engine.parser = rwda.engine.parser or {
 }
 
 local parser = rwda.engine.parser
+parser._pending_assess_target = nil
+parser._pending_assess_until = 0
 
 local function emit(name, payload)
   if rwda.engine and rwda.engine.events then
@@ -36,6 +38,121 @@ local function normalizeName(name)
   return name:lower():gsub("[^%w%s%-']", ""):gsub("%s+", " "):gsub("^%s+", ""):gsub("%s+$", "")
 end
 
+local AFF_NAME_MAP = nil
+
+local function buildAffNameMap()
+  local data = rwda.data and rwda.data.afflictions or {}
+  local count = 0
+  for _ in pairs(data) do
+    count = count + 1
+  end
+
+  if AFF_NAME_MAP and AFF_NAME_MAP._count == count and count > 0 then
+    return AFF_NAME_MAP
+  end
+
+  local map = {}
+  for key, _ in pairs(data) do
+    local norm = tostring(key):lower():gsub("_", " "):gsub("%s+", " ")
+    map[norm] = tostring(key)
+  end
+
+  map._count = count
+  AFF_NAME_MAP = map
+  return map
+end
+
+local function resolveAffName(phrase)
+  if type(phrase) ~= "string" then
+    return nil
+  end
+
+  local cleaned = phrase:lower():gsub("[^%a%s]", ""):gsub("%s+", " "):gsub("^%s+", ""):gsub("%s+$", "")
+  if cleaned == "" then
+    return nil
+  end
+
+  local map = buildAffNameMap()
+  if map[cleaned] then
+    return map[cleaned]
+  end
+
+  for norm, key in pairs(map) do
+    if cleaned:find(norm, 1, true) then
+      return key
+    end
+  end
+
+  return nil
+end
+
+local ASSESS_LIMB_MAP = {
+  ["left leg"] = "left_leg",
+  ["right leg"] = "right_leg",
+  ["left arm"] = "left_arm",
+  ["right arm"] = "right_arm",
+  torso = "torso",
+  head = "head",
+}
+
+local function assessSeverityToPct(desc)
+  local d = desc:lower()
+  if d:find("broken", 1, true) then
+    return 100, true, false
+  end
+  if d:find("mangled", 1, true) then
+    return 100, false, true
+  end
+  if d:find("very badly", 1, true) then
+    return 90, false, false
+  end
+  if d:find("badly", 1, true) then
+    return 75, false, false
+  end
+  if d:find("moderately", 1, true) then
+    return 50, false, false
+  end
+  if d:find("slightly", 1, true) then
+    return 25, false, false
+  end
+  if d:find("scratched", 1, true) or d:find("bruised", 1, true) then
+    return 10, false, false
+  end
+  if d:find("healthy", 1, true) or d:find("uninjured", 1, true) then
+    return 0, false, false
+  end
+  return nil, false, false
+end
+
+local function parseAssessLimbLine(line)
+  local lower = line:lower()
+  local limbText, pct = lower:match("^%s*(left leg|right leg|left arm|right arm|torso|head)%s*[:%-]?%s*(%d+)%%")
+  if not limbText then
+    limbText, pct = lower:match("^%s*(left leg|right leg|left arm|right arm|torso|head)%s+is%s+(%d+)%%")
+  end
+  if limbText and pct then
+    local limb = ASSESS_LIMB_MAP[limbText]
+    if limb then
+      local value = tonumber(pct) or 0
+      local broken = value >= 100
+      return limb, math.min(100, value), broken, false
+    end
+  end
+
+  local limbText2, desc = lower:match("^%s*(left leg|right leg|left arm|right arm|torso|head)%s+is%s+([%a%s]+)%.?")
+  if limbText2 and desc then
+    local limb = ASSESS_LIMB_MAP[limbText2]
+    if limb then
+      local value, broken, mangled = assessSeverityToPct(desc)
+      if value ~= nil then
+        return limb, value, broken, mangled
+      end
+    end
+  end
+
+  return nil
+end
+
 local function captureByPatterns(source, patterns)
   for _, pat in ipairs(patterns) do
     local value = source:match(pat)
@@ -44,6 +161,16 @@ local function captureByPatterns(source, patterns)
     end
   end
   return nil
+end
+
+local function captureTargetAff(source, patterns)
+  for _, pat in ipairs(patterns) do
+    local who, aff = source:match(pat)
+    if who and who ~= "" and aff and aff ~= "" then
+      return trim(who), trim(aff)
+    end
+  end
+  return nil, nil
 end
 
 local function containsAny(haystack, needles)
@@ -718,6 +845,28 @@ function parser.handleLine(line)
 
   local state = rwda.state
   local lower = line:lower()
+  local nowMs = rwda.util.now()
+
+  if parser._pending_assess_until and nowMs <= parser._pending_assess_until then
+    local limb, pct, broken, mangled = parseAssessLimbLine(line)
+    if limb then
+      markTargetSeen("assess")
+      state.target.last_assess = nowMs
+      state.updateTargetLimb(limb, {
+        damage_pct = pct,
+        broken = broken or state.target.limbs[limb].broken,
+        mangled = mangled or state.target.limbs[limb].mangled,
+        confidence = 0.9,
+      })
+      emit("LIMB_DAMAGE", { who = state.target.name, limb = limb, source = "assess" })
+      if broken then
+        emit("LIMB_BROKEN", { who = state.target.name, limb = limb, source = "assess" })
+      elseif mangled then
+        emit("LIMB_MANGLED", { who = state.target.name, limb = limb, source = "assess" })
+      end
+      return
+    end
+  end
 
   local matched = false
 
@@ -770,6 +919,105 @@ function parser.handleLine(line)
     setBalance("balance", false, "line")
   elseif line:find("You lose your equilibrium", 1, true) then
     setBalance("equilibrium", false, "line")
+  end
+
+  local assessTarget = captureByPatterns(line, {
+    "^You assess (.+) and determine that:?$",
+    "^You assess (.+)%.$",
+    "^You assess (.+), determining that:?$",
+  }) or captureByPatterns(lower, {
+    "^you assess (.+) and determine that:?$",
+    "^you assess (.+)[%.!]*$",
+    "^you assess (.+), determining that:?$",
+  })
+  if assessTarget and isTarget(assessTarget) then
+    markTargetSeen("assess")
+    state.target.last_assess = nowMs
+    parser._pending_assess_target = assessTarget
+    parser._pending_assess_until = nowMs + 2500
+    return
+  end
+
+  local selfAffGain = captureByPatterns(line, {
+    "^You are afflicted with (.+)%.$",
+    "^You have been afflicted with (.+)%.$",
+    "^You are now afflicted with (.+)%.$",
+    "^You suffer from (.+)%.$",
+  }) or captureByPatterns(lower, {
+    "^you are afflicted with (.+)[%.!]*$",
+    "^you have been afflicted with (.+)[%.!]*$",
+    "^you are now afflicted with (.+)[%.!]*$",
+    "^you suffer from (.+)[%.!]*$",
+  })
+  if selfAffGain then
+    local aff = resolveAffName(selfAffGain)
+    if aff then
+      state.setMeAff(aff, true, "line")
+      emit("AFF_GAINED", { who = "me", affliction = aff })
+      return
+    end
+  end
+
+  local selfAffCure = captureByPatterns(line, {
+    "^You are no longer afflicted with (.+)%.$",
+    "^You have recovered from (.+)%.$",
+    "^You are cured of (.+)%.$",
+  }) or captureByPatterns(lower, {
+    "^you are no longer afflicted with (.+)[%.!]*$",
+    "^you have recovered from (.+)[%.!]*$",
+    "^you are cured of (.+)[%.!]*$",
+  })
+  if selfAffCure then
+    local aff = resolveAffName(selfAffCure)
+    if aff then
+      state.setMeAff(aff, false, "line")
+      emit("AFF_CURED", { who = "me", affliction = aff })
+      return
+    end
+  end
+
+  local who, affText = captureTargetAff(line, {
+    "^(.+) is afflicted with (.+)%.$",
+    "^(.+) has been afflicted with (.+)%.$",
+    "^(.+) suffers from (.+)%.$",
+  })
+  if not who then
+    who, affText = captureTargetAff(lower, {
+      "^(.+) is afflicted with (.+)[%.!]*$",
+      "^(.+) has been afflicted with (.+)[%.!]*$",
+      "^(.+) suffers from (.+)[%.!]*$",
+    })
+  end
+  if who and affText and isTarget(who) then
+    local aff = resolveAffName(affText)
+    if aff then
+      markTargetSeen("aff")
+      state.setTargetAff(aff, true, "line")
+      emit("AFF_GAINED", { who = who, affliction = aff })
+      return
+    end
+  end
+
+  local whoCure, affTextCure = captureTargetAff(line, {
+    "^(.+) is no longer afflicted with (.+)%.$",
+    "^(.+) has recovered from (.+)%.$",
+    "^(.+) is cured of (.+)%.$",
+  })
+  if not whoCure then
+    whoCure, affTextCure = captureTargetAff(lower, {
+      "^(.+) is no longer afflicted with (.+)[%.!]*$",
+      "^(.+) has recovered from (.+)[%.!]*$",
+      "^(.+) is cured of (.+)[%.!]*$",
+    })
+  end
+  if whoCure and affTextCure and isTarget(whoCure) then
+    local aff = resolveAffName(affTextCure)
+    if aff then
+      markTargetSeen("aff")
+      state.setTargetAff(aff, false, "line")
+      emit("AFF_CURED", { who = whoCure, affliction = aff })
+      return
+    end
   end
 
   local shieldUp = captureByPatterns(line, {

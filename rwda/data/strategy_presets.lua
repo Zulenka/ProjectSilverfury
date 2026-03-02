@@ -11,6 +11,7 @@ rwda.data.strategy_presets = rwda.data.strategy_presets or {
           { id = "impale_window", enabled = true, priority = 92, when = { "goal.impale_kill", "target.prone", "target.legs_broken", "not target.impaled" } },
           { id = "disembowel_followup", enabled = true, priority = 91, when = { "goal.impale_kill", "target.impaled" } },
           { id = "intimidate_lock", enabled = true, priority = 90, when = { "goal.impale_kill", "target.prone", "target.legs_broken" } },
+          { id = "assess_target", enabled = true, priority = 30, when = { "target.limb_stale" } },
           { id = "limbprep_dsl", enabled = true, priority = 20, when = { "always" } },
         },
       },
@@ -36,6 +37,7 @@ rwda.data.strategy_presets = rwda.data.strategy_presets or {
         blocks = {
           { id = "strip_rebounding", enabled = true, priority = 100, when = { "target.def.rebounding" } },
           { id = "strip_shield", enabled = true, priority = 95, when = { "target.def.shield" } },
+          { id = "assess_target", enabled = true, priority = 30, when = { "target.limb_stale" } },
           { id = "limbprep_dsl", enabled = true, priority = 20, when = { "always" } },
         },
       },

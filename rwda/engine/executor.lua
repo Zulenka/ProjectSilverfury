@@ -53,6 +53,9 @@ local function rememberSend(action, state)
   local key = keyForAction(action)
   state.runtime.last_send_by_command[key] = now()
   state.runtime.last_action = action
+  if action and action.name == "assess" and state.target then
+    state.target.last_assess = now()
+  end
 end
 
 local function sendCommand(command, queueType, mode)
