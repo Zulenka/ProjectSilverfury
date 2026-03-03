@@ -1,5 +1,5 @@
 rwda = rwda or {}
-rwda._version = rwda._version or "0.3.0"
+rwda._version = rwda._version or "0.3.1"
 rwda._loaded_files = rwda._loaded_files or {}
 rwda._bootstrapped = rwda._bootstrapped or false
 

@@ -39,6 +39,19 @@ rune_configs.presets["kena_lock"] = {
   ink_cost     = { red = 4, purple = 3 },
 }
 
+rune_configs.presets["kena_bisect"] = {
+  name         = "kena_bisect",
+  description  = "Pithakhan mana drain → Kena impatience → Sleizak nausea → Inguz cracked ribs + BISECT at ≤20% health",
+  profile_hint = "kena_lock",
+  goal_hint    = "impale_kill",
+  core_rune    = "pithakhan",
+  config_runes = { "kena", "sleizak", "inguz" },
+  weapon_runes = { "lagul", "lagua", "laguz" },
+  bisect       = true,
+  notes        = "Full flow: head attack → Pithakhan mana drain → Kena attunes at ≤20% mana → EMPOWER kena → impatience → lock → BISECT. Wield LEFT.",
+  ink_cost     = { red = 4, purple = 3 },
+}
+
 rune_configs.presets["sleep_lock"] = {
   name         = "sleep_lock",
   description  = "Pithakhan mana drain → Fehu sleep → Kena impatience → Inguz cracked ribs",
