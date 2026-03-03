@@ -1311,6 +1311,30 @@ function parser.handleLine(line)
     return
   end
 
+  -- ── Runesmith: sketch / empower confirmation lines ───────────────────────────
+  -- All lines are routed through runesmith.onLine() regardless of which specific
+  -- pattern matched.  The state machine inside runesmith decides relevance.
+  if rwda.engine and rwda.engine.runesmith and rwda.engine.runesmith.onLine then
+    local rsPatterns = {
+      "you sketch the",
+      "you empower",
+      "you set the empowerment priority",
+      "you need more equilibrium",
+      "you don't have any",
+      "you aren't holding",
+      "that is not a runeblade",
+      "you cannot sketch",
+      "you cannot empower",
+      "you don't have enough mana",
+    }
+    for _, pat in ipairs(rsPatterns) do
+      if lower:find(pat, 1, true) then
+        rwda.engine.runesmith.onLine(line)
+        break
+      end
+    end
+  end
+
   if not matched then
     captureUnmatchedLine(line)
   end

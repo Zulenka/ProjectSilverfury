@@ -150,7 +150,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]|runesmith [list [goal]|info <preset>|weapon <ref> <preset>|armour <ref>|configure <ref> <preset>|status|cancel]  (alias: rs)")
 end
 
 function commands.handle(raw)
@@ -1157,6 +1157,116 @@ function commands.handle(raw)
     end
 
     tell("falcon ops: status | track on|off | observe on|off | follow on|off | slay <name> | report")
+    return
+  end
+
+  -- ── Runesmith ─────────────────────────────────────────────────────────────
+  if sub == "runesmith" or sub == "rs" then
+    local op  = (words[2] or ""):lower()
+    local arg2 = words[3] or ""
+    local arg3 = words[4] or ""
+
+    if op == "" or op == "status" then
+      if rwda.engine and rwda.engine.runesmith then
+        rwda.engine.runesmith.status()
+      else
+        tell("Runesmith module not loaded.")
+      end
+      return
+    end
+
+    -- rwda runesmith list [goal]
+    if op == "list" then
+      local rc = rwda.data and rwda.data.rune_configs
+      if not rc then tell("rune_configs module not loaded.") return end
+      local names = arg2 ~= "" and (function()
+        local out = {}
+        for _, p in ipairs(rc.forGoal(arg2)) do out[#out + 1] = p.name end
+        return out
+      end)() or rc.list()
+      for _, name in ipairs(names) do
+        local p = rc.get(name)
+        tell(string.format("  %-20s  core=%-12s  ink=%-12s  %s",
+          name,
+          tostring(p.core_rune or "armour"),
+          rc.inkCostString(name),
+          p.description
+        ))
+      end
+      return
+    end
+
+    -- rwda runesmith info <preset>
+    if op == "info" then
+      local rc = rwda.data and rwda.data.rune_configs
+      if not rc then tell("rune_configs module not loaded.") return end
+      local p = rc.get(arg2)
+      if not p then
+        tell("Unknown preset '" .. arg2 .. "'. Use: rwda runesmith list")
+        return
+      end
+      tell(string.format("[%s] %s", p.name, p.description))
+      tell(string.format("  core:    %s", tostring(p.core_rune or "n/a (armour)")))
+      tell(string.format("  config:  %s", table.concat(p.config_runes or {}, ", ")))
+      tell(string.format("  profile: %s  goal: %s", tostring(p.profile_hint or "none"), tostring(p.goal_hint or "none")))
+      tell(string.format("  ink:     %s", rc.inkCostString(p.name)))
+      tell(string.format("  notes:   %s", tostring(p.notes or "")))
+      return
+    end
+
+    -- rwda runesmith weapon <ref> <preset>
+    if op == "weapon" then
+      if arg2 == "" or arg3 == "" then
+        tell("Usage: rwda runesmith weapon <ref> <preset>  (e.g. rwda runesmith weapon runeblade kena_lock)")
+        return
+      end
+      if rwda.engine and rwda.engine.runesmith then
+        rwda.engine.runesmith.beginWeapon(arg2, arg3)
+      else
+        tell("Runesmith module not loaded.")
+      end
+      return
+    end
+
+    -- rwda runesmith armour <ref>
+    if op == "armour" or op == "armor" then
+      if arg2 == "" then
+        tell("Usage: rwda runesmith armour <ref>  (e.g. rwda runesmith armour armour)")
+        return
+      end
+      if rwda.engine and rwda.engine.runesmith then
+        rwda.engine.runesmith.beginArmour(arg2)
+      else
+        tell("Runesmith module not loaded.")
+      end
+      return
+    end
+
+    -- rwda runesmith configure <ref> <preset>
+    if op == "configure" or op == "config" then
+      if arg2 == "" or arg3 == "" then
+        tell("Usage: rwda runesmith configure <ref> <preset>  (e.g. rwda runesmith configure left arm_break)")
+        return
+      end
+      if rwda.engine and rwda.engine.runesmith then
+        rwda.engine.runesmith.beginConfigure(arg2, arg3)
+      else
+        tell("Runesmith module not loaded.")
+      end
+      return
+    end
+
+    -- rwda runesmith cancel
+    if op == "cancel" then
+      if rwda.engine and rwda.engine.runesmith then
+        rwda.engine.runesmith.cancel()
+      else
+        tell("Runesmith module not loaded.")
+      end
+      return
+    end
+
+    tell("runesmith ops: status | list [goal] | info <preset> | weapon <ref> <preset> | armour <ref> | configure <ref> <preset> | cancel")
     return
   end
 

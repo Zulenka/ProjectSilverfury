@@ -45,6 +45,7 @@ local FILES = {
   "data/abilities.lua",
   "data/venoms.lua",
   "data/runes.lua",
+  "data/rune_configs.lua",
   "data/strategy_presets.lua",
   "engine/events.lua",
   "engine/timers.lua",
@@ -54,6 +55,7 @@ local FILES = {
   "engine/finisher.lua",
   "engine/runelore.lua",
   "engine/falcon.lua",
+  "engine/runesmith.lua",
   "engine/planner.lua",
   "engine/executor.lua",
   "engine/parser.lua",
@@ -154,6 +156,10 @@ function rwda.bootstrap(opts)
 
   if rwda.engine and rwda.engine.falcon and rwda.engine.falcon.bootstrap then
     rwda.engine.falcon.bootstrap()
+  end
+
+  if rwda.engine and rwda.engine.runesmith and rwda.engine.runesmith.bootstrap then
+    rwda.engine.runesmith.bootstrap()
   end
 
   local legacyActive = false

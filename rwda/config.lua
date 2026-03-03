@@ -138,8 +138,9 @@ local function exportPersistedConfig()
       devour_threshold = config.dragon.devour_threshold,
     },
     strategy = rwda.util.deepcopy(config.strategy or {}),
-    runelore  = rwda.util.deepcopy(config.runelore or {}),
-    falcon    = rwda.util.deepcopy(config.falcon   or {}),
+    runelore  = rwda.util.deepcopy(config.runelore  or {}),
+    falcon    = rwda.util.deepcopy(config.falcon    or {}),
+    runesmith = rwda.util.deepcopy(config.runesmith or {}),
   }
 end
 
@@ -294,6 +295,15 @@ setDefault(config.falcon, "auto_track", true)
 setDefault(config.falcon, "observe_on_attack", true)
 -- Automatically send `follow <target>` on engage and when target changes (opt-in).
 setDefault(config.falcon, "auto_follow", false)
+
+-- Runesmith: automated sketch/empower workflow engine
+config.runesmith = config.runesmith or {}
+-- Delay between sequential sketch commands (ms)
+setDefault(config.runesmith, "step_delay_ms", 800)
+-- After runesmith finishes, auto-sync rwda.config.runelore with the preset's core/config/priority.
+setDefault(config.runesmith, "auto_sync_runelore", true)
+-- After runesmith finishes, auto-switch RWDA profile to the preset's profile_hint.
+setDefault(config.runesmith, "auto_switch_profile", true)
 
 config.dragon = config.dragon or {}
 setDefault(config.dragon, "breath_type", "lightning")
