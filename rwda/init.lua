@@ -1,5 +1,5 @@
 rwda = rwda or {}
-rwda._version = rwda._version or "0.1.0"
+rwda._version = rwda._version or "0.2.2"
 rwda._loaded_files = rwda._loaded_files or {}
 rwda._bootstrapped = rwda._bootstrapped or false
 
@@ -39,10 +39,12 @@ local FILES = {
   "state/target.lua",
   "state/cooldowns.lua",
   "state/store.lua",
+  "state/runeblade.lua",
   "data/afflictions.lua",
   "data/defences.lua",
   "data/abilities.lua",
   "data/venoms.lua",
+  "data/runes.lua",
   "data/strategy_presets.lua",
   "engine/events.lua",
   "engine/timers.lua",
@@ -50,6 +52,8 @@ local FILES = {
   "engine/strategy.lua",
   "engine/retaliation.lua",
   "engine/finisher.lua",
+  "engine/runelore.lua",
+  "engine/falcon.lua",
   "engine/planner.lua",
   "engine/executor.lua",
   "engine/parser.lua",
@@ -125,6 +129,11 @@ function rwda.bootstrap(opts)
   end
 
   rwda.state.bootstrap()
+
+  if rwda.state and rwda.state.runeblade and rwda.state.runeblade.bootstrap then
+    rwda.state.runeblade.bootstrap()
+  end
+
   rwda.applyConfigToState()
 
   if rwda.engine and rwda.engine.strategy and rwda.engine.strategy.bootstrap then
@@ -137,6 +146,14 @@ function rwda.bootstrap(opts)
 
   if rwda.engine and rwda.engine.finisher and rwda.engine.finisher.bootstrap then
     rwda.engine.finisher.bootstrap()
+  end
+
+  if rwda.engine and rwda.engine.runelore and rwda.engine.runelore.bootstrap then
+    rwda.engine.runelore.bootstrap()
+  end
+
+  if rwda.engine and rwda.engine.falcon and rwda.engine.falcon.bootstrap then
+    rwda.engine.falcon.bootstrap()
   end
 
   local legacyActive = false
@@ -246,8 +263,13 @@ function rwda.tick(source)
     rwda.integrations.groupcombat.sync()
   end
 
-  if rwda.state.integration.aklimb_present and rwda.integrations and rwda.integrations.aklimb then
-    rwda.integrations.aklimb.sync()
+  if rwda.config.integration.use_aklimb and rwda.integrations and rwda.integrations.aklimb then
+    if not rwda.state.integration.aklimb_present then
+      rwda.integrations.aklimb.detect()
+    end
+    if rwda.state.integration.aklimb_present then
+      rwda.integrations.aklimb.sync()
+    end
   end
 
   if rwda.engine and rwda.engine.parser and rwda.engine.parser.refreshTargetAvailabilityFromGMCP then

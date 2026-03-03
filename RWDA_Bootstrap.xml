@@ -69,10 +69,10 @@ function rwda_bootstrap_loader()
   log("Loaded from " .. initPath)
 end
 
-rwda_bootstrap_loader()
+-- Do not call directly; let it trigger on LegacyLoaded event
         ]]></script>
         <eventHandlerList>
-          <string>sysLoadEvent</string>
+          <string>LegacyLoaded</string>
         </eventHandlerList>
       </Script>
     </ScriptGroup>

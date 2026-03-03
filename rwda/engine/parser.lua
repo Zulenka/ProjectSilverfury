@@ -800,6 +800,11 @@ function parser.setForm(form, source)
   rwda.state.setForm(form)
   emit("FORM_CHANGED", { form = form, source = source or "parser" })
 
+  -- Dragon shift auto-stores weapons; mark as unwielded so executor re-wields on return.
+  if form == "dragon" then
+    rwda.state.me.swords_wielded = false
+  end
+
   if prevForm and prevForm ~= form and type(decho) == "function" then
     local fromLabel = prevForm == "dragon" and "Dragon" or "Runewarden"
     local toLabel   = form == "dragon"
@@ -1152,6 +1157,16 @@ function parser.handleLine(line)
     return
   end
 
+  if lower:find("you begin to wield", 1, true) then
+    state.me.swords_wielded = true
+    return
+  end
+
+  if lower:find("you stop wielding", 1, true) or lower:find("you are no longer wielding", 1, true) then
+    state.me.swords_wielded = false
+    return
+  end
+
   local impaledTarget = line:match("^You impale (.+)%.$")
   if impaledTarget and isTarget(impaledTarget) then
     markTargetSeen("impale")
@@ -1252,12 +1267,54 @@ function parser.handleLine(line)
     return
   end
 
+  -- ── Runelore: rune attunement / empower events ────────────────────────────
+  -- These messages are sent by the Achaea server when your runeblade rune
+  -- mechanics activate.  All are first-person messages (only fire for your own
+  -- runeblade), so no target-matching is required.
+
+  local runeAttuned = line:match("^Your (%a+) rune becomes attuned")
+    or line:match("^Your (%a+) rune has become attuned")
+    or lower:match("^your (%a+) rune becomes attuned")
+    or lower:match("^your (%a+) rune has become attuned")
+  if runeAttuned and rwda.engine and rwda.engine.runelore then
+    rwda.engine.runelore.onRuneAttuned_event(runeAttuned)
+    return
+  end
+
+  local runeDetuned = line:match("^Your (%a+) rune is no longer attuned")
+    or line:match("^Your (%a+) rune loses its attunement")
+    or lower:match("^your (%a+) rune is no longer attuned")
+    or lower:match("^your (%a+) rune loses its attunement")
+  if runeDetuned and rwda.engine and rwda.engine.runelore then
+    rwda.engine.runelore.onRuneAttuneLost_event(runeDetuned)
+    return
+  end
+
+  local runeEmpowered = line:match("^You empower your (%a+) rune")
+    or lower:match("^you empower your (%a+) rune")
+  if runeEmpowered and rwda.engine and rwda.engine.runelore then
+    rwda.engine.runelore.onRuneEmpowered_event(runeEmpowered)
+    return
+  end
+
+  if (lower:find("your runic configuration", 1, true))
+    and (lower:find("activates", 1, true) or lower:find("springs to life", 1, true))
+    and rwda.engine and rwda.engine.runelore then
+    rwda.engine.runelore.onConfigActivated_event()
+    return
+  end
+
+  if (lower:find("your pithakhan rune", 1, true))
+    and (lower:find("drain", 1, true) or lower:find("mana from", 1, true))
+    and rwda.engine and rwda.engine.runelore then
+    rwda.engine.runelore.onPithakhanDrain_event()
+    return
+  end
+
   if not matched then
     captureUnmatchedLine(line)
   end
 end
-
-function parser.registerMudletHandlers()
   if type(registerAnonymousEventHandler) ~= "function" then
     return false
   end

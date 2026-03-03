@@ -106,6 +106,25 @@ function doctor.collect()
     last_reason = finisherStatus.last_reason or "-",
   }
 
+  local rlCfg = rwda.config and rwda.config.runelore or {}
+  local rbState = rwda.state and rwda.state.runeblade and rwda.state.runeblade._state
+  local rbCfg = rbState and rbState.configuration or {}
+  local attuned = {}
+  for runeName, att in pairs(rbState and rbState.attunement or {}) do
+    if att.attuned then attuned[#attuned + 1] = runeName end
+  end
+  table.sort(attuned)
+  report.runelore = {
+    bootstrapped   = rbState ~= nil,
+    core_rune      = rbCfg.core_rune or "none",
+    config_runes   = table.concat(rbCfg.config_runes or {}, ","),
+    empowered      = rbState and rbState.empowered or false,
+    attuned_runes  = table.concat(attuned, ","),
+    auto_empower   = rlCfg.auto_empower ~= false,
+    bisect_enabled = rlCfg.bisect_enabled == true,
+    kena_threshold = rlCfg.kena_mana_threshold or 0.40,
+  }
+
   return report
 end
 
@@ -195,6 +214,20 @@ function doctor.format(report)
     tostring(report.finisher.last_result),
     tostring(report.finisher.last_reason)
   )
+
+  if report.runelore then
+    lines[#lines + 1] = string.format(
+      "doctor runelore boot=%s core=%s config=%s empowered=%s attuned=%s auto_empower=%s bisect=%s kena_threshold=%.2f",
+      yesNo(report.runelore.bootstrapped),
+      tostring(report.runelore.core_rune),
+      tostring(report.runelore.config_runes),
+      yesNo(report.runelore.empowered),
+      tostring(report.runelore.attuned_runes),
+      yesNo(report.runelore.auto_empower),
+      yesNo(report.runelore.bisect_enabled),
+      tonumber(report.runelore.kena_threshold or 0.40)
+    )
+  end
 
   return lines
 end

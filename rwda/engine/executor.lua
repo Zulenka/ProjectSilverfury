@@ -105,6 +105,24 @@ function executor.execute(action)
   end
 
   local defaultQueue = action.queue_type or rwda.config.executor.queue_type_default or "bal"
+
+  -- Auto-wield: if in human form without swords, send wield before weapon attacks.
+  if state.me.form == "human" and state.me.swords_wielded == false then
+    local needsSwords = false
+    for _, entry in ipairs(action.commands or {}) do
+      local cmd = (type(entry) == "table" and (entry.cmd or entry[1] or "")) or tostring(entry)
+      if cmd:match("^dsl ") or cmd:match("^rend ") or cmd:match("^disembowel ") then
+        needsSwords = true
+        break
+      end
+    end
+    if needsSwords and type(send) == "function" then
+      send("wield sword sword")
+      state.me.swords_wielded = true
+      rwda.util.log("info", "Auto-wield: rewielded swords before attack.")
+    end
+  end
+
   for _, entry in ipairs(action.commands or {}) do
     if type(entry) == "table" then
       sendCommand(entry.cmd or entry[1], entry.queue or defaultQueue, entry.mode)

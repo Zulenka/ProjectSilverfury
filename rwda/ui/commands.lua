@@ -150,7 +150,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]")
 end
 
 function commands.handle(raw)
@@ -244,6 +244,10 @@ function commands.handle(raw)
     rwda.state.setTarget(name, "manual")
     rwda.state.setTargetAvailable(true, "engage", "seen")
     if rwda.enable then rwda.enable() end
+    -- Falcon: slay + track on new engage, and player follow (if enabled).
+    if rwda.engine and rwda.engine.falcon then
+      rwda.engine.falcon.onEngage(name)
+    end
     local action = rwda.tick("manual")
     if action then
       tell(string.format("engaging %s -> %s", name, action.name or "unknown"))
@@ -259,10 +263,33 @@ function commands.handle(raw)
       return
     end
 
-    local report = rwda.engine.selftest.run()
-    tell(string.format("selftest passed=%d failed=%d total=%d", report.passed, report.failed, report.total))
-    for _, row in ipairs(report.rows or {}) do
-      tell(string.format("selftest %s: %s (%s)", row.ok and "ok" or "fail", tostring(row.name), tostring(row.detail)))
+    local arg2 = raw:match("^selftest%s+(%S+)")
+    if arg2 == "ui" then
+      if not rwda.engine.selftest.runUI then
+        tell("UI selftest not available.")
+        return
+      end
+      local report = rwda.engine.selftest.runUI()
+      tell(string.format("selftest ui passed=%d failed=%d total=%d", report.passed, report.failed, report.total))
+      for _, row in ipairs(report.rows or {}) do
+        tell(string.format("selftest %s: %s (%s)", row.ok and "ok" or "fail", tostring(row.name), tostring(row.detail)))
+      end
+    elseif arg2 == "runelore" or arg2 == "rl" then
+      if not rwda.engine.selftest.runRunelore then
+        tell("Runelore selftest not available.")
+        return
+      end
+      local report = rwda.engine.selftest.runRunelore()
+      tell(string.format("selftest runelore passed=%d failed=%d total=%d", report.passed, report.failed, report.total))
+      for _, row in ipairs(report.rows or {}) do
+        tell(string.format("selftest %s: %s (%s)", row.ok and "ok" or "fail", tostring(row.name), tostring(row.detail)))
+      end
+    else
+      local report = rwda.engine.selftest.run()
+      tell(string.format("selftest passed=%d failed=%d total=%d", report.passed, report.failed, report.total))
+      for _, row in ipairs(report.rows or {}) do
+        tell(string.format("selftest %s: %s (%s)", row.ok and "ok" or "fail", tostring(row.name), tostring(row.detail)))
+      end
     end
     return
   end
@@ -919,6 +946,217 @@ function commands.handle(raw)
       rwda.engine.queue.clear("all")
       tell("Server queue cleared.")
     end
+    return
+  end
+
+  -- ── Runelore commands ─────────────────────────────────────────────────────
+  -- rwda runelore [status|core|config|autoempower|bisect|empower|priority]
+  if sub == "runelore" or sub == "rl" then
+    local op  = (words[2] or ""):lower()
+    local val = words[3] or ""
+
+    if op == "" or op == "status" then
+      local rb = rwda.state and rwda.state.runeblade and rwda.state.runeblade._state
+      if not rb then
+        tell("runelore: runeblade state not bootstrapped.")
+        return
+      end
+      local cfg = rb.configuration
+      tell(string.format(
+        "runelore core=%s config=%s empowered=%s auto_empower=%s bisect=%s",
+        tostring(cfg.core_rune or "none"),
+        table.concat(cfg.config_runes or {}, ","),
+        tostring(rb.empowered),
+        tostring(rwda.config.runelore and rwda.config.runelore.auto_empower),
+        tostring(rwda.config.runelore and rwda.config.runelore.bisect_enabled)
+      ))
+      -- Also report per-rune attunement
+      for runeName, att in pairs(rb.attunement or {}) do
+        tell(string.format("runelore  rune=%s attuned=%s can_empower=%s",
+          runeName, tostring(att.attuned), tostring(att.can_empower)))
+      end
+      return
+    end
+
+    if op == "core" then
+      if val == "" then
+        tell("Usage: rwda runelore core <pithakhan|nairat|eihwaz|hugalaz>")
+        return
+      end
+      if rwda.state and rwda.state.runeblade then
+        local curState = rwda.state.runeblade._state and rwda.state.runeblade._state.configuration
+        local cfgRunes = curState and curState.config_runes or {}
+        local ok, err = rwda.state.runeblade.setConfiguration(val, cfgRunes)
+        if ok ~= false then
+          tell("runelore: core rune set to " .. val)
+        else
+          tell("runelore: invalid core rune '" .. val .. "' -- " .. tostring(err))
+        end
+      else
+        tell("runelore: runeblade state not available.")
+      end
+      return
+    end
+
+    if op == "config" then
+      if val == "" then
+        tell("Usage: rwda runelore config <rune1>[,<rune2>,<rune3>]")
+        return
+      end
+      if rwda.state and rwda.state.runeblade then
+        local runes = {}
+        for r in val:gmatch("[^,]+") do
+          runes[#runes + 1] = trim(r):lower()
+        end
+        local curState = rwda.state.runeblade._state and rwda.state.runeblade._state.configuration
+        local core = curState and curState.core_rune or "pithakhan"
+        rwda.state.runeblade.setConfiguration(core, runes)
+        tell("runelore: configuration runes set to " .. table.concat(runes, ", "))
+      else
+        tell("runelore: runeblade state not available.")
+      end
+      return
+    end
+
+    if op == "autoempower" or op == "auto" then
+      local ok, bval = parseBoolWord(val)
+      if not ok then
+        tell("Usage: rwda runelore autoempower on|off")
+        return
+      end
+      if rwda.config.runelore then rwda.config.runelore.auto_empower = bval end
+      if rwda.engine and rwda.engine.runelore and rwda.engine.runelore.setAutoEmpower then
+        rwda.engine.runelore.setAutoEmpower(bval)
+      end
+      tell("runelore: auto_empower = " .. tostring(bval))
+      return
+    end
+
+    if op == "bisect" then
+      local ok, bval = parseBoolWord(val)
+      if not ok then
+        tell("Usage: rwda runelore bisect on|off")
+        return
+      end
+      if rwda.config.runelore then rwda.config.runelore.bisect_enabled = bval end
+      tell("runelore: bisect_enabled = " .. tostring(bval))
+      return
+    end
+
+    if op == "empower" then
+      if val == "" then
+        tell("Usage: rwda runelore empower <rune>")
+        return
+      end
+      if rwda.engine and rwda.engine.runelore and rwda.engine.runelore.manualEmpower then
+        rwda.engine.runelore.manualEmpower(val)
+      else
+        if type(sendCommand) == "function" then
+          sendCommand("empower " .. val)
+        else
+          tell("runelore: empower command not available (not connected?)")
+        end
+      end
+      return
+    end
+
+    if op == "priority" then
+      local priorityList = {}
+      for i = 3, #words do
+        priorityList[#priorityList + 1] = words[i]:lower()
+      end
+      if #priorityList == 0 then
+        tell("Usage: rwda runelore priority <rune1> <rune2> ...")
+        return
+      end
+      if rwda.state and rwda.state.runeblade and rwda.state.runeblade.setEmpowerPriority then
+        rwda.state.runeblade.setEmpowerPriority(priorityList)
+        tell("runelore: empower priority set to " .. table.concat(priorityList, ", "))
+      else
+        tell("runelore: runeblade state not available.")
+      end
+      return
+    end
+
+    tell("runelore ops: status | core <rune> | config <r1,r2> | autoempower on/off | bisect on/off | empower <rune> | priority <r1> <r2> ...")
+    return
+  end
+
+  -- ── Falcon ──────────────────────────────────────────────────────────────
+  if sub == "falcon" or sub == "fl" then
+    local op  = (words[2] or ""):lower()
+    local val = (words[3] or ""):lower()
+
+    if op == "" or op == "status" then
+      if rwda.engine and rwda.engine.falcon then
+        rwda.engine.falcon.status()
+      else
+        tell("Falcon module not loaded.")
+      end
+      return
+    end
+
+    -- rwda falcon track <on|off>  — toggle FALCON TRACK on engage / target change
+    if op == "track" then
+      local ok, bval = parseBoolWord(val)
+      if ok then
+        if rwda.engine and rwda.engine.falcon then
+          rwda.engine.falcon.setAutoTrack(bval)
+        end
+        tell("falcon auto-track: " .. (bval and "ON" or "OFF"))
+      else
+        tell("Usage: rwda falcon track on|off")
+      end
+      return
+    end
+
+    -- rwda falcon observe <on|off>  — toggle observe-on-attack
+    if op == "observe" then
+      local ok, bval = parseBoolWord(val)
+      if ok then
+        if rwda.engine and rwda.engine.falcon then
+          rwda.engine.falcon.setObserveOnAttack(bval)
+        end
+        tell("falcon observe-on-attack: " .. (bval and "ON" or "OFF"))
+      else
+        tell("Usage: rwda falcon observe on|off")
+      end
+      return
+    end
+
+    -- rwda falcon follow <on|off>  — toggle player auto-follow
+    if op == "follow" then
+      local ok, bval = parseBoolWord(val)
+      if ok then
+        if rwda.engine and rwda.engine.falcon then
+          rwda.engine.falcon.setAutoFollow(bval)
+        end
+        tell("falcon auto-follow (player): " .. (bval and "ON" or "OFF"))
+      else
+        tell("Usage: rwda falcon follow on|off")
+      end
+      return
+    end
+
+    -- rwda falcon slay <name>  — manually order falcon to slay someone
+    if op == "slay" then
+      local target = trim(raw:match("^%S+%s+%S+%s+(.+)$") or "")
+      if target == "" then
+        tell("Usage: rwda falcon slay <name>")
+        return
+      end
+      if type(send) == "function" then send("falcon slay " .. target) end
+      tell("falcon slay " .. target)
+      return
+    end
+
+    -- rwda falcon report  — falcon report
+    if op == "report" then
+      if type(send) == "function" then send("falcon report") end
+      return
+    end
+
+    tell("falcon ops: status | track on|off | observe on|off | follow on|off | slay <name> | report")
     return
   end
 

@@ -40,6 +40,7 @@ function builders.newMe()
       breath_type = "lightning",
       clawparry_target = nil,
     },
+    swords_wielded = true,
     last_balance_loss = 0,
     last_eq_loss = 0,
     last_prompt_ms = 0,

@@ -138,6 +138,8 @@ local function exportPersistedConfig()
       devour_threshold = config.dragon.devour_threshold,
     },
     strategy = rwda.util.deepcopy(config.strategy or {}),
+    runelore  = rwda.util.deepcopy(config.runelore or {}),
+    falcon    = rwda.util.deepcopy(config.falcon   or {}),
   }
 end
 
@@ -265,6 +267,33 @@ config.runewarden.lock_venom_priority = config.runewarden.lock_venom_priority or
 config.runewarden.venoms = config.runewarden.venoms or {}
 config.runewarden.venoms.dsl_main = config.runewarden.venoms.dsl_main or { "curare", "gecko" }
 config.runewarden.venoms.dsl_off = config.runewarden.venoms.dsl_off or { "epteth", "kalmia" }
+
+-- Runelore / runeblade configuration
+-- Reflects December 2025 classleads (Kena <40% mana, Pithakhan 13% broken-head drain).
+config.runelore = config.runelore or {}
+-- Auto-send EMPOWER <rune> immediately when a configuration rune attunes.
+setDefault(config.runelore, "auto_empower", true)
+-- Enable the bisect_window strategy block (requires hugalaz as core rune).
+setDefault(config.runelore, "bisect_enabled", false)
+-- Mana fraction below which Kena is considered eligible to attune (Dec 2025: 0.40).
+setDefault(config.runelore, "kena_mana_threshold", 0.40)
+-- Mana fraction drained by Pithakhan on a broken head (Dec 2025: 0.13).
+setDefault(config.runelore, "pithakhan_broken_head_drain", 0.13)
+-- Default core rune for the configured runeblade.
+setDefault(config.runelore, "default_core", "pithakhan")
+-- Default configuration runes (up to 3 around the core).
+config.runelore.default_config_runes = config.runelore.default_config_runes or { "kena", "sleizak", "inguz" }
+-- Empower priority order (first eligible attuned rune in this list is empowered).
+config.runelore.empower_priority = config.runelore.empower_priority or { "kena", "inguz", "sleizak" }
+
+-- Falcon / falconry integration
+config.falcon = config.falcon or {}
+-- Send FALCON SLAY + FALCON TRACK once on each engage; re-track when target changes.
+setDefault(config.falcon, "auto_track", true)
+-- Send `observe <target>` alongside each offensive attack tick (health report).
+setDefault(config.falcon, "observe_on_attack", true)
+-- Automatically send `follow <target>` on engage and when target changes (opt-in).
+setDefault(config.falcon, "auto_follow", false)
 
 config.dragon = config.dragon or {}
 setDefault(config.dragon, "breath_type", "lightning")

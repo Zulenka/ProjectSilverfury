@@ -14,15 +14,16 @@ Last updated: 2026-03-02
 5. [All Commands](#all-commands)
 6. [Auto-Retaliation](#auto-retaliation)
 7. [Auto-Execute (Finisher)](#auto-execute-finisher)
-8. [Combat Builder UI](#combat-builder-ui)
-9. [Combat HUD](#combat-hud)
-10. [Strategy Profiles and Blocks](#strategy-profiles-and-blocks)
-11. [Reading `rwda status`](#reading-rwda-status)
-12. [Reading `rwda explain`](#reading-rwda-explain)
-13. [Safety Features](#safety-features)
-14. [Starburst Tattoo Handling](#starburst-tattoo-handling)
-15. [Persistent Config](#persistent-config)
-16. [Troubleshooting](#troubleshooting)
+8. [Runelore Integration](#runelore-integration)
+9. [Combat Builder UI](#combat-builder-ui)
+10. [Combat HUD](#combat-hud)
+11. [Strategy Profiles and Blocks](#strategy-profiles-and-blocks)
+12. [Reading `rwda status`](#reading-rwda-status)
+13. [Reading `rwda explain`](#reading-rwda-explain)
+14. [Safety Features](#safety-features)
+15. [Starburst Tattoo Handling](#starburst-tattoo-handling)
+16. [Persistent Config](#persistent-config)
+17. [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -80,6 +81,33 @@ rwda retaliate on               -- auto-target aggressors who hit you
 rwda execute on                 -- auto-dispatch disembowel / devour
 ```
 
+### Runelore / Kena lock setup
+
+If your runeblade has a **Pithakhan** core rune + **Kena**, **Sleizak**, and **Inguz** configuration runes:
+
+```
+rwda runelore core pithakhan                    -- confirm core rune
+rwda runelore config kena,sleizak,inguz         -- confirm config runes
+rwda runelore autoempower on                    -- auto-send EMPOWER when a rune attunes
+rwda profile kena_lock                          -- switch to head-focused profile
+rwda engage Bainz
+```
+
+For a **Hugalaz** core (enables BISECT at ≤20% health):
+
+```
+rwda runelore core hugalaz
+rwda runelore bisect on                         -- unlock bisect_window block
+rwda profile kena_lock
+rwda engage Bainz
+```
+
+RWDA will automatically:
+1. Attack **head** every tick (maximises Pithakhan mana drain — guaranteed proc on damaged head)
+2. Detect when a configuration rune attunes and immediately send `EMPOWER <rune>`
+3. Deliver **impatience** via Kena when target mana drops below 40%
+4. Fire **BISECT** at ≤20% target health (if hugalaz + `bisect on`)
+
 ### Stop everything immediately
 
 ```
@@ -130,14 +158,16 @@ Form changes are detected from combat text (e.g. `"You assume the form of a drag
 
 ### Strategy Profiles
 
-A **profile** is a named set of strategy blocks. Two profiles are built in:
+A **profile** is a named set of strategy blocks. Four profiles are built in:
 
 | Profile | Use case |
 |---|---|
 | `duel` | 1v1 combat — aggressive single-target pressure |
 | `group` | Group combat — conservative, safer target churn |
+| `kena_lock` | Runelore: head-focused DSL + BISECT finisher (requires hugalaz + kena config rune) |
+| `head_focus` | Runelore: head-focused DSL pressure + Pithakhan mana drain (no BISECT) |
 
-Switch with `rwda profile <duel\|group>` or via the Combat Builder UI.
+Switch with `rwda profile <duel\|group\|kena_lock\|head_focus>` or via the Combat Builder UI.
 
 ### Strategy Blocks
 
@@ -201,6 +231,19 @@ Blocks are evaluated top-down by priority. The first enabled block whose conditi
 | `rwda explain` | Print the last planned action with its reason code and strategy block |
 | `rwda doctor` | Full diagnostic report: Legacy wiring, handler counts, strategy status, retaliation/finisher state |
 | `rwda selftest` | Run the offline test suite — prints pass/fail for all engine cases |
+| `rwda selftest runelore` | Run the Runelore-specific test suite only |
+
+### Runelore
+
+| Command | What it does |
+|---|---|
+| `rwda runelore status` | Show current runeblade configuration, attunement state, and auto-empower flag |
+| `rwda runelore core <rune>` | Set the core runeblade rune (`pithakhan`, `nairat`, `eihwaz`, `hugalaz`) |
+| `rwda runelore config <r1,r2,r3>` | Set configuration runes (comma-separated, up to 3) |
+| `rwda runelore autoempower on\|off` | Auto-send `EMPOWER <rune>` immediately when a configuration rune attunes |
+| `rwda runelore bisect on\|off` | Enable the `bisect_window` block (instant kill at ≤20% health, requires hugalaz) |
+| `rwda runelore empower <rune>` | Manually dispatch `EMPOWER <rune>` |
+| `rwda runelore priority <r1> <r2>` | Set the empower priority order |
 
 ### Configuration (set)
 
@@ -281,6 +324,88 @@ rwda replaysuite tools/suite_strategy_retal_finisher.lua
 | Command | What it does |
 |---|---|
 | `rwda queue clear` | Clear all pending server queues (`CLEARQUEUE ALL`) |
+
+---
+
+## Runelore Integration
+
+RWDA has built-in support for the Runelore skill's runeblade configuration system.
+
+### How It Works
+
+The game sends text messages when your runeblade runes attune, detune, or get empowered. RWDA's parser watches for these messages and routes them to the Runelore engine, which:
+
+1. Tracks which configuration runes are currently **attuned**
+2. Optionally auto-sends `EMPOWER <rune>` immediately on attunement (when `autoempower on`)
+3. Empower priority is configurable — if multiple runes attune on the same tick, the highest-priority one is empowered first
+
+### Attunement Conditions (Dec 2025 classleads)
+
+| Rune | Attunes when | Empower effect |
+|---|---|---|
+| **Kena** | Target mana < **40%** (raised from 20%) | Impatience |
+| **Inguz** | Target is paralysed | Cracked ribs |
+| **Wunjo** | Target is shivering | Cracked ribs damage |
+| **Sowulu** | Struck limb is damaged | Healthleech + fracture relapse |
+| **Fehu** | Target is prone or missing insomnia | Sleep |
+| **Mannaz** | Target is off focus balance | Mana regen block |
+| **Isaz** | Engage prevents escape | Epilepsy |
+| **Tiwaz** | Off salve balance + no restoration needed | Break both arms |
+| **Sleizak** | Target is weary or lethargic | Nausea / voyria |
+| **Loshre** | Target is addicted | Eating punishment |
+
+### Pithakhan (Core Rune) Mechanics
+
+| Condition | Drain |
+|---|---|
+| Normal proc | 10% of target's max mana |
+| Head is **damaged** | Guaranteed proc (always fires) — July 2022 rework |
+| Head is **broken** | 13% drain per proc — Dec 2025 classlead (was 10%) |
+
+Focusing head attacks therefore converts Pithakhan from a random proc to a guaranteed 13% mana drain every attack tick — the foundation of the Kena lock path.
+
+### Kena Lock Path
+
+```
+Focus head  ─►  Pithakhan fires (guaranteed)  ─►  Mana drops below 40%
+  ─►  Kena attunes  ─►  EMPOWER Kena  ─►  Impatience delivered
+  ─►  Impatience blocks FOCUS  ─►  Asthma/paralysis sticks  ─►  True lock
+```
+
+Recommended runeblade setup: **Pithakhan** core + **Kena**, **Sleizak**, **Inguz** configuration.
+
+### BISECT
+
+`BISECT` is an instant-kill ability that fires when:
+- Your runeblade has **Hugalaz** as the core rune (edged weapon)
+- Target health is ≤ **20%**
+- Bypasses rebounding — no need to strip first
+
+In RWDA, the `bisect_window` strategy block handles this. Enable it with:
+
+```
+rwda runelore core hugalaz
+rwda runelore bisect on
+```
+
+The `kena_lock` profile includes the `bisect_window` block at priority 99 (second only to strip-rebounding). With `bisect on`, RWDA will automatically fire `BISECT <target>` as a freestand action the moment health drops to ≤20%.
+
+### Dual-Cutting with a Configured Runeblade
+
+When dual-cutting, the **configured runeblade goes in the LEFT hand**. RWDA sends the standard `dsl <target> <limb> <v1> <v2>` command — Legacy handles which hand attacks which limb. No RWDA config change is needed for dual-cutting.
+
+### Setup Commands
+
+```
+rwda runelore status                      -- view current config + attunement
+rwda runelore core pithakhan              -- set core rune
+rwda runelore config kena,sleizak,inguz   -- set config runes
+rwda runelore autoempower on              -- enable auto-empower
+rwda runelore priority kena inguz sleizak -- empower in this order when multiple attune
+rwda profile kena_lock                    -- switch to Runelore head-focus profile
+```
+
+Configuration persists via `rwda save config` / `rwda load config`.
 
 ---
 
@@ -505,13 +630,27 @@ Prints each block for the active profile and mode with: id, priority, enabled, c
 
 | Block ID | Priority | Condition | Action |
 |---|---|---|---|
-| `strip_rebounding` | 100 | `target.def.rebounding` | `razeslash` |
+| `strip_rebounding` | 100 | `target.def.rebounding` | `raze` |
 | `strip_shield` | 95 | `target.def.shield` | `razeslash` |
 | `impale_window` | 92 | `target.legs_broken and target.prone and not target.impaled` | `impale` |
 | `disembowel_followup` | 91 | `target.impaled` | `disembowel` |
 | `intimidate_lock` | 90 | `target.impaled` | `intimidate` |
 | `assess_target` | 30 | `target.limb_stale` | `assess` |
 | `limbprep_dsl` | 20 | `always` | `dsl` |
+
+### Runelore Runewarden Blocks (kena_lock profile)
+
+| Block ID | Priority | Condition | Action |
+|---|---|---|---|
+| `strip_rebounding` | 100 | `target.def.rebounding` | `raze` |
+| `bisect_window` | 99 | `runelore.bisect_ready and target.health_low` | `bisect` |
+| `strip_shield` | 95 | `target.def.shield` | `razeslash` |
+| `assess_target` | 30 | `target.limb_stale` | `assess` |
+| `head_focus_dsl` | 20 | `always` | `dsl` (head) |
+
+The `bisect_window` block is only enabled when `rwda runelore bisect on` **and** the core rune is `hugalaz`. Without that it is skipped and `head_focus_dsl` always fires.
+
+The `head_focus` profile is identical but ships with `bisect_window` disabled — use it when your core rune is Pithakhan/Nairat/Eihwaz and you just want reliable head pressure.
 
 ### Default Dragon Blocks (duel profile)
 
@@ -545,6 +684,8 @@ Conditions use simple space-separated tokens. `not` negates the next token.
 | `me.form.human` | You are in human form |
 | `me.dragon.breath_summoned` | Dragon breath is currently summoned |
 | `state.can_devour` | Devour readiness score is within the configured threshold |
+| `target.health_low` | Target health is ≤ 20% (used by `bisect_window`) |
+| `runelore.bisect_ready` | Core rune is `hugalaz`, `bisect_enabled=true`, and target health is ≤ 20% |
 
 ---
 

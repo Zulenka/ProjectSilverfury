@@ -419,6 +419,48 @@ local function humanActionFromBlock(state, target, block, profileName, ctx)
     )
   end
 
+  -- ── Runelore blocks ───────────────────────────────────────────────────────
+  -- bisect_window: instant-kill BISECT at ≤20% health.
+  -- Requires hugalaz as core rune on an edged runeblade (config.runelore.bisect_enabled).
+  -- Bypasses rebounding; does NOT require balance (freestand action).
+  if id == "bisect_window" then
+    local bisectEnabled = rwda.config.runelore and rwda.config.runelore.bisect_enabled
+    if not bisectEnabled then
+      return nil
+    end
+    return action(
+      "human_dualcut",
+      "bisect",
+      { string.format("bisect %s", target) },
+      enrichReason(
+        "Target health ≤20% with hugalaz configured: BISECT for instant kill.",
+        "bisect_window",
+        profileName,
+        id
+      ),
+      { queue_type = "freestand" }
+    )
+  end
+
+  -- head_focus_dsl: dual-cut always targeting head with standard lock venoms.
+  -- Maximises Pithakhan attunement (guaranteed proc on damaged head, Jul 2022)
+  -- and Kena impatience delivery when target mana drops below 40% (Dec 2025).
+  if id == "head_focus_dsl" then
+    local cmd = string.format("dsl %s head %s %s", target, ctx.v1, ctx.v2)
+    return action(
+      "human_dualcut",
+      "dsl",
+      { cmd },
+      enrichReason(
+        "Head-focused dual-cut to maximise Pithakhan mana drain and Kena impatience rate.",
+        "head_focus_dsl",
+        profileName,
+        id,
+        { limb = "head", venoms = { ctx.v1, ctx.v2 } }
+      )
+    )
+  end
+
   return nil
 end
 
