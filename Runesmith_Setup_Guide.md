@@ -118,32 +118,33 @@ The `rwda runesmith` system (`rwda rs`) handles the entire sketch→empower→co
 
 #### Pithakhan Core (mana drain, 3P + 4R ink)
 
-| Preset | Config Runes | Goal | Notes |
-|---|---|---|---|
-| `kena_lock` | kena → sleizak → inguz | impale_kill | Primary lock path. Wield LEFT. |
-| `sleep_lock` | fehu → kena → inguz | impale_kill | Opens sleep window during lock. |
-| `mana_crush` | kena → mannaz → fehu | pressure | Extended mana denial, blocks regen. |
-| `fracture_drain` | sowulu → kena → inguz | impale_kill | Best vs targets running restoration. |
-| `ribs_burst` | inguz → wunjo → kena | impale_kill | Stack ribs via paralysis, burst with Wunjo. |
+| Preset | Config Runes | Goal | BISECT | Notes |
+|---|---|---|---|---|
+| `kena_lock` | kena → sleizak → inguz | impale_kill | — | Primary lock path. Wield LEFT. |
+| `kena_bisect` | kena → sleizak → inguz | impale_kill | ✓ | Full kill flow: head attack → mana drain → Kena attunes → impatience → lock → BISECT at ≤20% health. |
+| `sleep_lock` | fehu → kena → inguz | impale_kill | — | Opens sleep window during lock. |
+| `mana_crush` | kena → mannaz → fehu | pressure | — | Extended mana denial, blocks regen. |
+| `fracture_drain` | sowulu → kena → inguz | impale_kill | — | Best vs targets running restoration. |
+| `ribs_burst` | inguz → wunjo → kena | impale_kill | — | Stack ribs via paralysis, burst with Wunjo. |
 
 #### Hugalaz Core (hail + BISECT, 3P + 2B + 4R ink)
 
-| Preset | Config Runes | Goal | Notes |
-|---|---|---|---|
-| `arm_break` | tiwaz → kena → inguz | impale_kill | Breaks both arms when off salve bal. |
-| `bisect_finish` | kena → inguz → sleizak | impale_kill | Auto-enables BISECT at ≤20% health. |
+| Preset | Config Runes | Goal | BISECT | Notes |
+|---|---|---|---|---|
+| `arm_break` | tiwaz → kena → inguz | impale_kill | — | Breaks both arms when off salve bal. |
+| `bisect_finish` | kena → inguz → sleizak | impale_kill | ✓ | Auto-enables BISECT at ≤20% health. |
 
 #### Eihwaz Core (venom masking, 3P + 3B + 1Y + 4R ink)
 
-| Preset | Config Runes | Goal | Notes |
-|---|---|---|---|
-| `epilepsy_sleep` | isaz → fehu → kena | pressure | Epilepsy when engage blocks escape. |
+| Preset | Config Runes | Goal | BISECT | Notes |
+|---|---|---|---|---|
+| `epilepsy_sleep` | isaz → fehu → kena | pressure | — | Epilepsy when engage blocks escape. |
 
 #### Nairat Core (freeze proc, 3P + 1B + 1Y + 4R ink)
 
-| Preset | Config Runes | Goal | Notes |
-|---|---|---|---|
-| `voyria_pressure` | sleizak → fehu → kena | pressure | Group/skirmish. Freeze + affliction cascade. |
+| Preset | Config Runes | Goal | BISECT | Notes |
+|---|---|---|---|---|
+| `voyria_pressure` | sleizak → fehu → kena | pressure | — | Group/skirmish. Freeze + affliction cascade. |
 
 #### Armour (2G ink)
 
@@ -153,14 +154,17 @@ The `rwda runesmith` system (`rwda rs`) handles the entire sketch→empower→co
 
 ---
 
-## Typical Workflow Example
+## Typical Workflow Examples
 
-Setting up a `kena_lock` runeblade on your left-hand weapon:
+### Full kill flow — `kena_bisect` (recommended starting point)
+
+Head attack every tick → Pithakhan mana drain → Kena attunes at ≤20% mana → RWDA auto-empowers Kena → impatience delivered → blocks FOCUS → lock → BISECT at ≤20% health.
 
 ```
-rwda rs info kena_lock          -- review ink cost and rune order
-rwda rs weapon left kena_lock   -- start automated workflow
-rwda rs status                  -- check progress mid-sequence
+rwda rs info kena_bisect          -- review ink cost and rune order
+rwda rs weapon left kena_bisect   -- start automated workflow
+rwda profile kena_lock            -- activate the matching strategy profile
+rwda goal impale_kill
 ```
 
 RWDA will:
@@ -169,8 +173,19 @@ RWDA will:
 3. `EMPOWER` the weapon
 4. Sketch `CONFIGURATION left kena sleizak inguz`
 5. Set `EMPOWER PRIORITY` to `kena sleizak inguz`
+6. Auto-enable `rwda runelore bisect on`
 
 On completion it auto-syncs your `rwda runelore` config and switches to the `kena_lock` profile.
+
+### Lock without bisect — `kena_lock`
+
+```
+rwda rs info kena_lock          -- review ink cost and rune order
+rwda rs weapon left kena_lock   -- start automated workflow
+rwda rs status                  -- check progress mid-sequence
+```
+
+Same as above but bisect is not enabled — use when you want the impatience lock path without committing to a bisect finish.
 
 ---
 
