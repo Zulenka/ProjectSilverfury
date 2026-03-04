@@ -240,11 +240,11 @@ end
 
 function hud._poll()
   if hud._initialized then hud.refresh() end
-  hud._timerId = tempTimer(0.5, "rwda.ui.hud._poll()")
+  hud._timerId = tempTimer(0.5, function() hud._poll() end)
 end
 
 function hud.startPolling()
-  hud._timerId = tempTimer(0.5, "rwda.ui.hud._poll()")
+  hud._timerId = tempTimer(0.5, function() hud._poll() end)
 end
 
 function hud.onResize()
