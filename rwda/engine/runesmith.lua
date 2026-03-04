@@ -293,6 +293,14 @@ function runesmith.onLine(line)
     return
   end
 
+  -- Rune already present — treat as success and advance.
+  if lower:find("there is no need to duplicate runes", 1, true) then
+    log("Step %d: rune already present, skipping.", sm.step_index)
+    emit("RUNESMITH_STEP_DONE", { step = sm.step_index, cmd = step.cmd })
+    scheduleAdvance()
+    return
+  end
+
   -- Check fail patterns
   for _, pat in ipairs(step.fail or {}) do
     if lower:find(pat:lower(), 1, true) then
