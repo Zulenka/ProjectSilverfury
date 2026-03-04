@@ -1256,28 +1256,32 @@ function commands.handle(raw)
       return
     end
 
-    -- rwda runesmith weapon <ref> <preset>
+    -- rwda runesmith weapon <sketch_ref> <preset> [empower_ref]
     if op == "weapon" then
       if arg2 == "" or arg3 == "" then
-        tell("Usage: rwda runesmith weapon <ref> <preset>  (e.g. rwda runesmith weapon runeblade kena_lock)")
+        tell("Usage: rwda runesmith weapon <sketch_ref> <preset> [empower_ref]")
+        tell("  e.g.  rwda runesmith weapon left kena_bisect scimitar")
+        tell("  (empower_ref is the weapon name for the EMPOWER command; defaults to sketch_ref)")
         return
       end
+      local empower_ref = words[5] or ""
       if rwda.engine and rwda.engine.runesmith then
-        rwda.engine.runesmith.beginWeapon(arg2, arg3)
+        rwda.engine.runesmith.beginWeapon(arg2, arg3, empower_ref)
       else
         tell("Runesmith module not loaded.")
       end
       return
     end
 
-    -- rwda runesmith armour <ref>
+    -- rwda runesmith armour <ref> [empower_ref]
     if op == "armour" or op == "armor" then
       if arg2 == "" then
-        tell("Usage: rwda runesmith armour <ref>  (e.g. rwda runesmith armour armour)")
+        tell("Usage: rwda runesmith armour <ref> [empower_ref]  (e.g. rwda runesmith armour armour)")
         return
       end
+      local empower_ref = arg3 ~= "" and arg3 or nil
       if rwda.engine and rwda.engine.runesmith then
-        rwda.engine.runesmith.beginArmour(arg2)
+        rwda.engine.runesmith.beginArmour(arg2, empower_ref)
       else
         tell("Runesmith module not loaded.")
       end

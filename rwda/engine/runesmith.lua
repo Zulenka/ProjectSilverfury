@@ -152,10 +152,12 @@ local function sketchStep(rune, ref, stateName)
   }
 end
 
-local function empowerStep(ref, stateName)
+local function empowerStep(empower_ref, stateName)
   return {
-    cmd        = string.format("empower %s", ref),
-    confirm    = "you empower",
+    cmd        = string.format("empower %s", empower_ref),
+    -- Achaea prints a multi-line ritual description; this phrase appears on the
+    -- first line that is unique to a successful empower.
+    confirm    = "lightly inscribe a circle",
     fail       = EMPOWER_FAIL,
     state_name = stateName or "empowering",
   }
@@ -183,7 +185,11 @@ end
 -- Step sequence builders
 -- ─────────────────────────────────────────────────────────────────────────────
 
-local function buildWeaponSteps(ref, preset)
+-- empower_ref: item keyword for the EMPOWER command (e.g. "scimitar").
+--              Defaults to ref (works when ref IS the item name, e.g. armour).
+--              Use separately when sketch ref is a hand position ("left"/"right").
+local function buildWeaponSteps(ref, preset, empower_ref)
+  empower_ref = empower_ref or ref
   local steps = {}
 
   -- 1. Baseline weapon runes (lagul, lagua, laguz)
@@ -193,7 +199,7 @@ local function buildWeaponSteps(ref, preset)
 
   -- 2. Empower weapon (locks in baseline, makes it a proper Runeblade)
   --    Core and config runes REQUIRE an already-empowered Runeblade.
-  steps[#steps + 1] = empowerStep(ref, "empowering_weapon")
+  steps[#steps + 1] = empowerStep(empower_ref, "empowering_weapon")
 
   -- 3. Core runeblade rune (must come AFTER empower)
   if preset.core_rune then
@@ -209,11 +215,12 @@ local function buildWeaponSteps(ref, preset)
   return steps
 end
 
-local function buildArmourSteps(ref)
+local function buildArmourSteps(ref, empower_ref)
+  empower_ref = empower_ref or ref
   return {
     sketchStep("gebu", ref, "sketching_gebu"),
     sketchStep("gebo", ref, "sketching_gebo"),
-    empowerStep(ref, "empowering_armour"),
+    empowerStep(empower_ref, "empowering_armour"),
   }
 end
 
@@ -351,8 +358,12 @@ end
 -- Public workflow entry points
 -- ─────────────────────────────────────────────────────────────────────────────
 
---- Full weapon build: sketch baseline runes → core → EMPOWER → CONFIGURATION.
-function runesmith.beginWeapon(ref, configName)
+--- Full weapon build: sketch baseline runes → EMPOWER → core → CONFIGURATION.
+--- ref:         item keyword used for SKETCH commands (e.g. "left", "right", "scimitar")
+--- configName:  preset name
+--- empower_ref: item keyword for the EMPOWER command (e.g. "scimitar").
+---              Defaults to ref. Required when ref is a hand position ("left"/"right").
+function runesmith.beginWeapon(ref, configName, empower_ref)
   if sm.state ~= "idle" and sm.state ~= "done" then
     warn("Already running a workflow (state=%s). Cancel first.", sm.state)
     return false
@@ -368,31 +379,35 @@ function runesmith.beginWeapon(ref, configName)
     return false
   end
 
+  empower_ref = (empower_ref and empower_ref ~= "") and empower_ref or ref
   sm.work_ref    = ref
   sm.config_name = configName
-  sm.steps       = buildWeaponSteps(ref, preset)
+  sm.steps       = buildWeaponSteps(ref, preset, empower_ref)
   sm.step_index  = 0
 
   local inkStr = rwda.data.rune_configs.inkCostString(configName)
-  log("Starting weapon workflow: ref='%s' preset='%s' steps=%d ink=%s", ref, configName, #sm.steps, inkStr)
+  log("Starting weapon workflow: ref='%s' empower='%s' preset='%s' steps=%d ink=%s",
+    ref, empower_ref, configName, #sm.steps, inkStr)
   registerLineTrigger()
   scheduleAdvance()
   return true
 end
 
 --- Armour empowerment: sketch Gebu + Gebo → EMPOWER.
-function runesmith.beginArmour(ref)
+--- ref/empower_ref: usually the same (the armour item keyword).
+function runesmith.beginArmour(ref, empower_ref)
   if sm.state ~= "idle" and sm.state ~= "done" then
     warn("Already running a workflow (state=%s). Cancel first.", sm.state)
     return false
   end
 
+  empower_ref = (empower_ref and empower_ref ~= "") and empower_ref or ref
   sm.work_ref    = ref
   sm.config_name = nil
-  sm.steps       = buildArmourSteps(ref)
+  sm.steps       = buildArmourSteps(ref, empower_ref)
   sm.step_index  = 0
 
-  log("Starting armour workflow: ref='%s' steps=%d ink=2G", ref, #sm.steps)
+  log("Starting armour workflow: ref='%s' empower='%s' steps=%d ink=2G", ref, empower_ref, #sm.steps)
   registerLineTrigger()
   scheduleAdvance()
   return true

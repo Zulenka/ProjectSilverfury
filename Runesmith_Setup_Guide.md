@@ -97,8 +97,8 @@ The `rwda runesmith` system (`rwda rs`) handles the entire sketch→empower→co
 | `rwda rs list` | Show all presets with ink cost |
 | `rwda rs list <goal>` | Filter by goal (`pressure`, `impale_kill`) |
 | `rwda rs info <preset>` | Full detail on a preset |
-| `rwda rs weapon <ref> <preset>` | Full weapon workflow (sketch all runes → empower → configure) |
-| `rwda rs armour <ref>` | Armour workflow (sketch gebu+gebo → empower) |
+| `rwda rs weapon <ref> <preset> [empower_ref]` | Full weapon workflow (sketch all runes → empower → configure) |
+| `rwda rs armour <ref> [empower_ref]` | Armour workflow (sketch gebu+gebo → empower) |
 | `rwda rs configure <ref> <preset>` | Configure-only on an already-empowered blade |
 | `rwda rs status` | Show current workflow progress |
 | `rwda rs cancel` | Abort active workflow |
@@ -168,11 +168,15 @@ To check the current cycle: `rwda set venomcycle` (no args prints current value)
 Head attack every tick → Pithakhan mana drain → Kena attunes at ≤20% mana → RWDA auto-empowers Kena → impatience delivered → blocks FOCUS → lock → BISECT at ≤20% health.
 
 ```
-rwda rs info kena_bisect          -- review ink cost and rune order
-rwda rs weapon left kena_bisect   -- start automated workflow
-rwda profile kena_lock            -- activate the matching strategy profile
+rwda rs info kena_bisect                       -- review ink cost and rune order
+rwda rs weapon left kena_bisect scimitar       -- sketch ref=left, empower ref=scimitar
+rwda profile kena_lock                         -- activate the matching strategy profile
 rwda goal impale_kill
 ```
+
+> **Note:** The third argument (`scimitar`) is the weapon keyword used for the `EMPOWER` command.
+> SKETCH accepts hand position (`left`/`right`) but EMPOWER needs the actual item name.
+> Omit it only if your sketch ref and empower ref are the same word.
 
 RWDA will:
 1. Sketch `lagul`, `lagua`, `laguz` (baseline)
