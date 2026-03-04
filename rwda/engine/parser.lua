@@ -1335,6 +1335,26 @@ function parser.handleLine(line)
     end
   end
 
+  -- ── Fury: activation / loss confirmation lines ──────────────────────────────
+  if rwda.engine and rwda.engine.fury and rwda.engine.fury.onLine then
+    local furyPatterns = {
+      "surge of fury",
+      "you activate your fury",
+      "you enter a fury",
+      "your fury fades",
+      "your fury dissipates",
+      "you relax out of your fury",
+      "you are already in a fury",
+      "you do not have enough willpower",
+    }
+    for _, pat in ipairs(furyPatterns) do
+      if lower:find(pat, 1, true) then
+        rwda.engine.fury.onLine(line)
+        break
+      end
+    end
+  end
+
   if not matched then
     captureUnmatchedLine(line)
   end

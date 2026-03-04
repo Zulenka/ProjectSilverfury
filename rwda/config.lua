@@ -141,6 +141,7 @@ local function exportPersistedConfig()
     runelore  = rwda.util.deepcopy(config.runelore  or {}),
     falcon    = rwda.util.deepcopy(config.falcon    or {}),
     runesmith = rwda.util.deepcopy(config.runesmith or {}),
+    fury      = rwda.util.deepcopy(config.fury      or {}),
   }
 end
 
@@ -308,6 +309,19 @@ setDefault(config.runesmith, "step_delay_ms", 800)
 setDefault(config.runesmith, "auto_sync_runelore", true)
 -- After runesmith finishes, auto-switch RWDA profile to the preset's profile_hint.
 setDefault(config.runesmith, "auto_switch_profile", true)
+
+-- Fury: keep FURY on for the duration of every fight
+config.fury = config.fury or {}
+-- Send FURY ON automatically when rwda engage fires.
+setDefault(config.fury, "auto_activate",       true)
+-- Re-send FURY ON automatically when fury fades mid-fight.
+setDefault(config.fury, "auto_reactivate",     true)
+-- Minimum willpower required to pay the 500-wp re-activation cost.
+setDefault(config.fury, "min_wp_reactivate",   1500)
+-- Endurance fraction below which a low-endurance warning is echoed.
+setDefault(config.fury, "endurance_warn_pct",  0.25)
+-- Endurance fraction below which FURY OFF is sent automatically.
+setDefault(config.fury, "endurance_floor_pct", 0.10)
 
 config.dragon = config.dragon or {}
 setDefault(config.dragon, "breath_type", "lightning")

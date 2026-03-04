@@ -44,5 +44,10 @@ function builders.newMe()
     last_balance_loss = 0,
     last_eq_loss = 0,
     last_prompt_ms = 0,
+    fury_active  = false,
+    willpower    = 0,
+    maxwillpower = 0,
+    endurance    = 0,
+    maxendurance = 0,
   }
 end

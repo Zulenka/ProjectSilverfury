@@ -248,6 +248,10 @@ function commands.handle(raw)
     if rwda.engine and rwda.engine.falcon then
       rwda.engine.falcon.onEngage(name)
     end
+    -- Fury: activate on engage (free first-use slot per Achaean day).
+    if rwda.engine and rwda.engine.fury then
+      rwda.engine.fury.onEngage()
+    end
     local action = rwda.tick("manual")
     if action then
       tell(string.format("engaging %s -> %s", name, action.name or "unknown"))
@@ -1292,6 +1296,65 @@ function commands.handle(raw)
     end
 
     tell("runesmith ops: status | list [goal] | info <preset> | weapon <ref> <preset> | armour <ref> | configure <ref> <preset> | cancel")
+    return
+  end
+
+  -- ── Fury ──────────────────────────────────────────────────────────────────
+  if sub == "fury" or sub == "fy" then
+    local op   = (words[2] or ""):lower()
+    local arg2 = (words[3] or ""):lower()
+
+    if op == "" or op == "status" then
+      if rwda.engine and rwda.engine.fury then
+        rwda.engine.fury.status()
+      else
+        tell("Fury module not loaded.")
+      end
+      return
+    end
+
+    if op == "on" then
+      sendGame("fury on")
+      return
+    end
+
+    if op == "off" then
+      if rwda.engine and rwda.engine.fury then
+        rwda.engine.fury.cancel()
+      else
+        sendGame("fury off")
+      end
+      return
+    end
+
+    if op == "auto" then
+      local ok, val = parseBoolWord(arg2)
+      if not ok then tell("Usage: rwda fury auto on|off") return end
+      rwda.config.fury = rwda.config.fury or {}
+      rwda.config.fury.auto_activate = val
+      tell("Fury auto-activate set to " .. tostring(val))
+      return
+    end
+
+    if op == "reactivate" then
+      local ok, val = parseBoolWord(arg2)
+      if not ok then tell("Usage: rwda fury reactivate on|off") return end
+      rwda.config.fury = rwda.config.fury or {}
+      rwda.config.fury.auto_reactivate = val
+      tell("Fury auto-reactivate set to " .. tostring(val))
+      return
+    end
+
+    if op == "minwp" then
+      local v = tonumber(words[3])
+      if not v then tell("Usage: rwda fury minwp <number>") return end
+      rwda.config.fury = rwda.config.fury or {}
+      rwda.config.fury.min_wp_reactivate = v
+      tell("Fury min willpower to re-activate set to " .. v)
+      return
+    end
+
+    tell("fury ops: status | on | off | auto on|off | reactivate on|off | minwp <value>")
     return
   end
 

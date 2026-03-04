@@ -1,5 +1,5 @@
 rwda = rwda or {}
-rwda._version = rwda._version or "0.3.2"
+rwda._version = rwda._version or "0.3.3"
 rwda._loaded_files = rwda._loaded_files or {}
 rwda._bootstrapped = rwda._bootstrapped or false
 
@@ -55,6 +55,7 @@ local FILES = {
   "engine/finisher.lua",
   "engine/runelore.lua",
   "engine/falcon.lua",
+  "engine/fury.lua",
   "engine/runesmith.lua",
   "engine/planner.lua",
   "engine/executor.lua",
@@ -156,6 +157,10 @@ function rwda.bootstrap(opts)
 
   if rwda.engine and rwda.engine.falcon and rwda.engine.falcon.bootstrap then
     rwda.engine.falcon.bootstrap()
+  end
+
+  if rwda.engine and rwda.engine.fury and rwda.engine.fury.bootstrap then
+    rwda.engine.fury.bootstrap()
   end
 
   if rwda.engine and rwda.engine.runesmith and rwda.engine.runesmith.bootstrap then
