@@ -103,7 +103,7 @@ end
 -- ─────────────────────────────────────────────
 
 function hud.refreshStatus(state)
-  clearAll(hud._statusCon.name)
+  clearWindow(hud._statusCon.name)
   local f  = state.flags or {}
   local me = state.me or {}
 
@@ -138,7 +138,7 @@ function hud.refreshStatus(state)
 end
 
 function hud.refreshTarget(state)
-  clearAll(hud._targetCon.name)
+  clearWindow(hud._targetCon.name)
   local t = state.target
 
   if not t or not t.name then
@@ -199,7 +199,7 @@ function hud.refreshTarget(state)
 end
 
 function hud.refreshAction(state)
-  clearAll(hud._actionCon.name)
+  clearWindow(hud._actionCon.name)
   decho(hud._actionCon.name, "<dim_grey>Last Actions:\n")
 
   for _, entry in ipairs(hud._actionLog) do
