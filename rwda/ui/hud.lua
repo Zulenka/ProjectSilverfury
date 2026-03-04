@@ -16,7 +16,9 @@ rwda.ui.hud = rwda.ui.hud or {
 local hud = rwda.ui.hud
 
 local function geyserOk()
-  return type(Geyser) == "table" and type(Geyser.Container) == "function"
+  return type(Geyser) == "table"
+    and type(Geyser.Container) == "table"
+    and type(Geyser.MiniConsole) == "table"
 end
 
 local function makeFlag(v, on, off)
