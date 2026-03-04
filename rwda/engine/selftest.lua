@@ -679,8 +679,11 @@ function selftest.runUI()
       ok ~= false,
       tostring(rb._state and rb._state.configuration and rb._state.configuration.core_rune))
 
-    -- Reject invalid core
+    -- Reject invalid core (suppress expected warn so it doesn't appear in live output)
+    local _savedLog = rwda.util and rwda.util.log
+    if rwda.util then rwda.util.log = function() end end
     local bad = rb.setConfiguration("invalid_rune", {})
+    if rwda.util and _savedLog then rwda.util.log = _savedLog end
     rows[#rows + 1] = resultRow("runeblade.setConfiguration(invalid) returns false",
       bad == false, tostring(bad))
 
