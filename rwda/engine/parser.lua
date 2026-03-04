@@ -1326,7 +1326,7 @@ function parser.handleLine(line)
       "you cannot sketch",
       "you cannot empower",
       "you don't have enough mana",
-      "there is no need to duplicate runes",
+      "no need to duplicate",
     }
     for _, pat in ipairs(rsPatterns) do
       if lower:find(pat, 1, true) then

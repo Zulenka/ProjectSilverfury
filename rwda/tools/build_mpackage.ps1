@@ -1,7 +1,7 @@
 param(
   [string]$OutputDir = "dist",
   [string]$PackageBaseName = "RWDA_Bootstrap",
-  [string]$Version = "0.3.4",
+  [string]$Version = "0.3.5",
   [string]$Author = "Project Silverfury",
   [string]$Title = "RWDA Bootstrap Loader"
 )

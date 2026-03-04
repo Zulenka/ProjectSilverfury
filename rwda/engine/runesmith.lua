@@ -23,6 +23,7 @@ local sm = {
   steps       = {},    -- { cmd, confirm, fail_patterns } ordered list
   step_index  = 0,
   _timer      = nil,
+  verbose     = false, -- set true in-game with: lua rwda.engine.runesmith.setVerbose(true)
 }
 
 -- ─────────────────────────────────────────────────────────────────────────────
@@ -286,16 +287,24 @@ function runesmith.onLine(line)
   local step  = sm.steps[sm.step_index]
   if not step then return end
 
+  if sm.verbose then
+    log("[onLine] state=%s step=%d line=%q", sm.state, sm.step_index, line)
+  end
+
   -- Check confirm
   if lower:find(step.confirm, 1, true) then
+    log("Step %d confirmed: %q", sm.step_index, step.cmd)
     emit("RUNESMITH_STEP_DONE", { step = sm.step_index, cmd = step.cmd })
     scheduleAdvance()
     return
   end
 
   -- Rune already present — treat as success and advance.
-  if lower:find("there is no need to duplicate runes", 1, true) then
-    log("Step %d: rune already present, skipping.", sm.step_index)
+  -- Matches any variant: "There is no need to duplicate runes."
+  if lower:find("no need to duplicate", 1, true)
+    or lower:find("already sketched", 1, true)
+    or lower:find("rune already exists", 1, true) then
+    log("Step %d: rune already present (%q), skipping.", sm.step_index, line)
     emit("RUNESMITH_STEP_DONE", { step = sm.step_index, cmd = step.cmd })
     scheduleAdvance()
     return
@@ -308,6 +317,12 @@ function runesmith.onLine(line)
       return
     end
   end
+end
+
+--- Toggle verbose line logging (useful for diagnosing what lines arrive while active).
+function runesmith.setVerbose(flag)
+  sm.verbose = flag == true
+  log("Verbose %s.", sm.verbose and "ON" or "OFF")
 end
 
 -- ─────────────────────────────────────────────────────────────────────────────
@@ -446,6 +461,22 @@ function runesmith.bootstrap()
       runesmith.onLine(payload and payload.line)
     end)
   end
+
+  -- Fallback direct Mudlet line trigger for the duplicate-rune message.
+  -- This fires even if the sysDataReceived path doesn't deliver the line,
+  -- e.g. when another Mudlet trigger consumes it first.
+  if type(tempRegexTrigger) == "function" then
+    -- Kill any prior registration (handles rwda reload without Mudlet restart).
+    if runesmith._dup_trigger and type(killTrigger) == "function" then
+      pcall(killTrigger, runesmith._dup_trigger)
+      runesmith._dup_trigger = nil
+    end
+    runesmith._dup_trigger = tempRegexTrigger(
+      "no need to duplicate",
+      function() runesmith.onLine(line) end
+    )
+  end
+
   log("Bootstrap complete (step_delay=%dms auto_sync_runelore=%s auto_switch_profile=%s)",
     cfg().step_delay_ms or 800,
     tostring(cfg().auto_sync_runelore ~= false),
