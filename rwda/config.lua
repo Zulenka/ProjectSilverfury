@@ -331,8 +331,11 @@ config.dragon.curse_priority = config.dragon.curse_priority or { "impatience", "
 config.dragon.gut_venom_priority = config.dragon.gut_venom_priority or { "curare", "kalmia", "gecko", "slike", "aconite" }
 
 config.profiles = config.profiles or {}
-config.profiles.duel = config.profiles.duel or { mode = "auto", goal = "limbprep" }
-config.profiles.group = config.profiles.group or { mode = "auto", goal = "pressure" }
+config.profiles.duel      = config.profiles.duel      or { mode = "auto", goal = "limbprep" }
+config.profiles.group     = config.profiles.group     or { mode = "auto", goal = "pressure" }
+config.profiles.kena_lock = config.profiles.kena_lock or { mode = "auto", goal = "impale_kill" }
+config.profiles.kena_bisect = config.profiles.kena_bisect or { mode = "auto", goal = "impale_kill", bisect = true }
+config.profiles.head_focus  = config.profiles.head_focus  or { mode = "auto", goal = "pressure" }
 
 config.strategy = config.strategy or {}
 setDefault(config.strategy, "enabled", true)

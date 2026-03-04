@@ -358,9 +358,12 @@ function commands.handle(raw)
       if profileCfg.goal then
         rwda.state.setGoal(profileCfg.goal)
       end
+      if profileCfg.bisect and rwda.config.runelore then
+        rwda.config.runelore.bisect_enabled = true
+      end
       tell(string.format("Profile set to %s (mode=%s goal=%s)", profile, rwda.state.flags.mode, rwda.state.flags.goal))
     else
-      tell("Usage: rwda profile <duel|group>")
+      tell("Usage: rwda profile <duel|group|kena_lock|kena_bisect|head_focus>")
     end
     return
   end
