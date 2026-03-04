@@ -17,13 +17,16 @@ local runesmith = rwda.engine.runesmith
 --   idle → sketching_config → setting_priority → done
 
 local sm = {
-  state       = "idle",
+  state              = "idle",
   work_ref    = nil,   -- item reference string (e.g. "runeblade", "left", "armour")
   config_name = nil,   -- chosen preset name
   steps       = {},    -- { cmd, confirm, fail_patterns } ordered list
   step_index  = 0,
   _timer      = nil,
   verbose     = false, -- set true in-game with: lua rwda.engine.runesmith.setVerbose(true)
+  -- lookup_empower state
+  _lookup_phase      = nil,  -- "scanning" | "confirming" | nil
+  _pending_empower_id = nil, -- item ID discovered from II output
 }
 
 -- ─────────────────────────────────────────────────────────────────────────────
@@ -97,8 +100,17 @@ local function advanceStep()
 
   local step = sm.steps[sm.step_index]
   sm.state = step.state_name or "working"
-  log("Step %d/%d: %s", sm.step_index, #sm.steps, step.cmd)
-  sendGame(step.cmd)
+
+  -- For lookup_empower steps, send II first to discover the item ID.
+  if step.type == "lookup_empower" then
+    sm._lookup_phase      = "scanning"
+    sm._pending_empower_id = nil
+    log("Step %d/%d: II (looking up item ID for hand='%s')", sm.step_index, #sm.steps, tostring(step.hand))
+    sendGame("II")
+  else
+    log("Step %d/%d: %s", sm.step_index, #sm.steps, step.cmd)
+    sendGame(step.cmd)
+  end
 end
 
 local function scheduleAdvance()
@@ -152,15 +164,42 @@ local function sketchStep(rune, ref, stateName)
   }
 end
 
-local function empowerStep(empower_ref, stateName)
-  return {
-    cmd        = string.format("empower %s", empower_ref),
-    -- Achaea prints a multi-line ritual description; this phrase appears on the
-    -- first line that is unique to a successful empower.
-    confirm    = "lightly inscribe a circle",
-    fail       = EMPOWER_FAIL,
-    state_name = stateName or "empowering",
-  }
+local function empowerStep(ref, empower_ref, stateName)
+  -- If empower_ref is a hand position ("left"/"right") or not provided,
+  -- we must run II first to get the actual item ID, then empower by ID.
+  -- If empower_ref is explicitly provided and not a hand word, use it directly.
+  local hand = (empower_ref or ref or ""):lower()
+  local is_hand_pos = (hand == "left" or hand == "right")
+  local use_lookup  = is_hand_pos or (empower_ref == nil or empower_ref == "")
+
+  if use_lookup then
+    -- Determine which hand to scan in II output.
+    local scan_hand = hand
+    if not is_hand_pos then
+      -- ref itself is a hand position
+      scan_hand = (ref or ""):lower()
+      if scan_hand ~= "left" and scan_hand ~= "right" then
+        scan_hand = "left"  -- safe fallback
+      end
+    end
+    return {
+      type       = "lookup_empower",
+      cmd        = "II",
+      hand       = scan_hand,
+      -- Achaea prints multi-line text; this phrase is unique to successful empower.
+      confirm    = "as the flames fade",
+      fail       = EMPOWER_FAIL,
+      state_name = stateName or "empowering",
+    }
+  else
+    -- Caller supplied explicit item ID / name (e.g. "scimitar228403").
+    return {
+      cmd        = string.format("empower %s", empower_ref),
+      confirm    = "as the flames fade",
+      fail       = EMPOWER_FAIL,
+      state_name = stateName or "empowering",
+    }
+  end
 end
 
 local function configStep(ref, runes, stateName)
@@ -189,7 +228,6 @@ end
 --              Defaults to ref (works when ref IS the item name, e.g. armour).
 --              Use separately when sketch ref is a hand position ("left"/"right").
 local function buildWeaponSteps(ref, preset, empower_ref)
-  empower_ref = empower_ref or ref
   local steps = {}
 
   -- 1. Baseline weapon runes (lagul, lagua, laguz)
@@ -199,7 +237,7 @@ local function buildWeaponSteps(ref, preset, empower_ref)
 
   -- 2. Empower weapon (locks in baseline, makes it a proper Runeblade)
   --    Core and config runes REQUIRE an already-empowered Runeblade.
-  steps[#steps + 1] = empowerStep(empower_ref, "empowering_weapon")
+  steps[#steps + 1] = empowerStep(ref, empower_ref, "empowering_weapon")
 
   -- 3. Core runeblade rune (must come AFTER empower)
   if preset.core_rune then
@@ -216,11 +254,10 @@ local function buildWeaponSteps(ref, preset, empower_ref)
 end
 
 local function buildArmourSteps(ref, empower_ref)
-  empower_ref = empower_ref or ref
   return {
     sketchStep("gebu", ref, "sketching_gebu"),
     sketchStep("gebo", ref, "sketching_gebo"),
-    empowerStep(empower_ref, "empowering_armour"),
+    empowerStep(ref, empower_ref, "empowering_armour"),
   }
 end
 
@@ -241,6 +278,8 @@ end
 function runesmith.complete()
   cancelTimer()
   cancelLineTrigger()
+  sm._lookup_phase       = nil
+  sm._pending_empower_id = nil
   sm.state = "done"
   local preset = sm.config_name and rwda.data and rwda.data.rune_configs and rwda.data.rune_configs.get(sm.config_name)
   log("Workflow complete for '%s' using preset '%s'.", tostring(sm.work_ref), tostring(sm.config_name or "armour"))
@@ -297,6 +336,8 @@ end
 function runesmith.fail(reason)
   cancelTimer()
   cancelLineTrigger()
+  sm._lookup_phase       = nil
+  sm._pending_empower_id = nil
   warn("Workflow FAILED at step %d/%d (%s): %s", sm.step_index, #sm.steps, sm.state, tostring(reason))
   emit("RUNESMITH_FAILED", { reason = reason, state = sm.state, step = sm.step_index })
   sm.state      = "idle"
@@ -317,9 +358,48 @@ function runesmith.onLine(line)
   if not step then return end
 
   if sm.verbose then
-    log("[onLine] state=%s step=%d line=%q", sm.state, sm.step_index, line)
+    log("[onLine] state=%s step=%d phase=%s line=%q", sm.state, sm.step_index, tostring(sm._lookup_phase), line)
   end
 
+  -- ── lookup_empower: two-phase step ──────────────────────────────────────
+  -- Phase 1 "scanning": we sent II; read hand-position lines to get the item ID.
+  -- Phase 2 "confirming": we sent empower <id>; wait for the ritual confirm.
+  if step.type == "lookup_empower" then
+    if sm._lookup_phase == "scanning" then
+      -- II output format:  "   Left hand:  scimitar228403      a Scimitar of Eagles"
+      local hand = (step.hand or "left"):lower()
+      local id = lower:match(hand .. " hand:%s*(%S+)")
+      if id then
+        sm._pending_empower_id = id
+        sm._lookup_phase = "confirming"
+        log("Step %d: found item ID=%s, sending: empower %s", sm.step_index, id, id)
+        sendGame("empower " .. id)
+      end
+      -- Keep scanning until we find the line (don't advance yet).
+      return
+    elseif sm._lookup_phase == "confirming" then
+      -- Check fail patterns first.
+      for _, pat in ipairs(step.fail or {}) do
+        if lower:find(pat:lower(), 1, true) then
+          runesmith.fail(pat)
+          return
+        end
+      end
+      -- Success: the empower ritual completion phrase.
+      if lower:find(step.confirm, 1, true) then
+        local empowered_id = sm._pending_empower_id
+        log("Step %d: empower confirmed (item=%s)", sm.step_index, tostring(empowered_id))
+        sm._lookup_phase       = nil
+        sm._pending_empower_id = nil
+        emit("RUNESMITH_STEP_DONE", { step = sm.step_index, cmd = "empower " .. tostring(empowered_id) })
+        scheduleAdvance()
+      end
+      return
+    end
+    -- Unexpected: fall through to normal handling.
+  end
+
+  -- ── Normal step handling ─────────────────────────────────────────────────
   -- Check confirm
   if lower:find(step.confirm, 1, true) then
     log("Step %d confirmed: %q", sm.step_index, step.cmd)
@@ -451,6 +531,8 @@ end
 function runesmith.cancel()
   cancelTimer()
   cancelLineTrigger()
+  sm._lookup_phase       = nil
+  sm._pending_empower_id = nil
   if sm.state == "idle" then
     log("Nothing to cancel.")
     return

@@ -169,14 +169,10 @@ Head attack every tick → Pithakhan mana drain → Kena attunes at ≤20% mana 
 
 ```
 rwda rs info kena_bisect                       -- review ink cost and rune order
-rwda rs weapon left kena_bisect scimitar       -- sketch ref=left, empower ref=scimitar
+rwda rs weapon left kena_bisect                -- RWDA auto-looks up item ID via II
 rwda profile kena_lock                         -- activate the matching strategy profile
 rwda goal impale_kill
 ```
-
-> **Note:** The third argument (`scimitar`) is the weapon keyword used for the `EMPOWER` command.
-> SKETCH accepts hand position (`left`/`right`) but EMPOWER needs the actual item name.
-> Omit it only if your sketch ref and empower ref are the same word.
 
 RWDA will:
 1. Sketch `lagul`, `lagua`, `laguz` (baseline)

@@ -1260,8 +1260,9 @@ function commands.handle(raw)
     if op == "weapon" then
       if arg2 == "" or arg3 == "" then
         tell("Usage: rwda runesmith weapon <sketch_ref> <preset> [empower_ref]")
-        tell("  e.g.  rwda runesmith weapon left kena_bisect scimitar")
-        tell("  (empower_ref is the weapon name for the EMPOWER command; defaults to sketch_ref)")
+        tell("  e.g.  rwda runesmith weapon left kena_bisect")
+        tell("  (omit empower_ref to auto-detect item ID via II lookup)")
+        tell("  (pass explicit ID to skip lookup: rwda rs weapon left kena_bisect scimitar228403)")
         return
       end
       local empower_ref = words[5] or ""
