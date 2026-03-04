@@ -42,6 +42,21 @@ end
 -- ─────────────────────────────────────────────
 
 function hud.buildLayout()
+  -- Destroy any existing named windows from a previous (possibly partial) init.
+  if hud._win then
+    pcall(function() hud._win:hide() end)
+    hud._win    = nil
+    hud._statusCon = nil
+    hud._targetCon = nil
+    hud._actionCon = nil
+  end
+  -- Mudlet can also hold a Geyser window by name — remove it if present.
+  pcall(function()
+    if Geyser.contains and Geyser.contains("rwdaHUDWin") then
+      Geyser.destroy("rwdaHUDWin")
+    end
+  end)
+
   local useGUIframe = type(GUIframe) == "table" and type(GUIframe.addWindow) == "function"
 
   if useGUIframe then
@@ -51,7 +66,7 @@ function hud.buildLayout()
     })
     GUIframe.addWindow("rwdaHUDWin", { side = "right" })
   else
-    if type(Geyser.UserWindow) == "function" then
+    if type(Geyser.UserWindow) == "table" then
       hud._win = Geyser.UserWindow:new({
         name = "rwdaHUDWin",
         docked = true, dockPosition = "right",
@@ -228,6 +243,7 @@ end
 
 function hud.refresh()
   if not hud._initialized or not rwda.state then return end
+  if not hud._statusCon or not hud._targetCon or not hud._actionCon then return end
   local ok, err = pcall(function()
     hud.refreshStatus(rwda.state)
     hud.refreshTarget(rwda.state)
@@ -273,8 +289,14 @@ end
 
 function hud.init()
   if hud._initialized or not geyserOk() then return end
+  local ok, err = pcall(hud.buildLayout)
+  if not ok or not hud._statusCon then
+    if rwda.util and rwda.util.log then
+      rwda.util.log("warn", "RWDA HUD buildLayout failed: %s", tostring(err or "consoles nil"))
+    end
+    return
+  end
   hud._initialized = true
-  hud.buildLayout()
   hud.startPolling()
   hud.registerHandlers()
   hud.refresh()
