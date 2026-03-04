@@ -1316,7 +1316,7 @@ function parser.handleLine(line)
   -- pattern matched.  The state machine inside runesmith decides relevance.
   if rwda.engine and rwda.engine.runesmith and rwda.engine.runesmith.onLine then
     local rsPatterns = {
-      "you sketch the",
+      "you finish sketching",
       "you empower",
       "you set the empowerment priority",
       "you need more equilibrium",

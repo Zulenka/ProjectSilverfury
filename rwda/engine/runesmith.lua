@@ -126,7 +126,7 @@ local EMPOWER_FAIL = {
 local function sketchStep(rune, ref, stateName)
   return {
     cmd        = string.format("sketch %s on %s", rune:lower(), ref),
-    confirm    = string.format("you sketch the %s rune", rune:lower()),
+    confirm    = string.format("you finish sketching a %s rune", rune:lower()),
     fail       = SKETCH_FAIL,
     state_name = stateName or ("sketching_" .. rune:lower()),
   }
@@ -144,7 +144,7 @@ end
 local function configStep(ref, runes, stateName)
   return {
     cmd        = string.format("sketch configuration %s %s", ref, table.concat(runes, " ")),
-    confirm    = "you sketch the configuration",
+    confirm    = "you finish sketching the configuration",
     fail       = SKETCH_FAIL,
     state_name = stateName or "sketching_config",
   }
