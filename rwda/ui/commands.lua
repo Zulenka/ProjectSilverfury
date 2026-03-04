@@ -433,8 +433,21 @@ function commands.handle(raw)
     elseif action == "refresh" then
       if rwda.ui and rwda.ui.hud then rwda.ui.hud.refresh()
       else tell("RWDA HUD not loaded.") end
+    elseif action == "init" then
+      if rwda.ui and rwda.ui.hud then
+        -- Reset so init() will run even if it previously bailed.
+        rwda.ui.hud._initialized = false
+        local ok, err = pcall(rwda.ui.hud.init)
+        if ok and rwda.ui.hud._initialized then
+          tell("HUD initialized.")
+        else
+          tell("HUD init failed: " .. tostring(err or "Geyser not ready — is WolfUI loaded?"))
+        end
+      else
+        tell("RWDA HUD not loaded.")
+      end
     else
-      tell("Usage: rwda hud show|hide|refresh")
+      tell("Usage: rwda hud show|hide|refresh|init")
     end
     return
   end

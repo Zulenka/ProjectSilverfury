@@ -203,6 +203,14 @@ function rwda.bootstrap(opts)
 
   if rwda.ui and rwda.ui.hud then
     pcall(rwda.ui.hud.init)
+    -- Geyser may not be ready at LegacyLoaded time; retry after a short delay.
+    if not rwda.ui.hud._initialized and type(tempTimer) == "function" then
+      tempTimer(1.5, function()
+        if rwda.ui and rwda.ui.hud and not rwda.ui.hud._initialized then
+          pcall(rwda.ui.hud.init)
+        end
+      end)
+    end
   end
 
   rwda._bootstrapped = true
