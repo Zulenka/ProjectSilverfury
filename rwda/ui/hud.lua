@@ -45,40 +45,28 @@ function hud.buildLayout()
   -- Destroy any existing named windows from a previous (possibly partial) init.
   if hud._win then
     pcall(function() hud._win:hide() end)
-    hud._win    = nil
+    hud._win       = nil
     hud._statusCon = nil
     hud._targetCon = nil
     hud._actionCon = nil
   end
-  -- Mudlet can also hold a Geyser window by name — remove it if present.
-  pcall(function()
-    if Geyser.contains and Geyser.contains("rwdaHUDWin") then
-      Geyser.destroy("rwdaHUDWin")
-    end
-  end)
 
-  local useGUIframe = type(GUIframe) == "table" and type(GUIframe.addWindow) == "function"
-
-  if useGUIframe then
-    hud._win = Geyser.Container:new({
-      name = "rwdaHUDWin",
-      x = 0, y = 0, width = "100%", height = "100%",
+  -- Use a plain UserWindow or Container — do NOT go through GUIframe.addWindow,
+  -- whose API varies by WolfUI version and crashes on unknown option keys.
+  if type(Geyser.UserWindow) == "table" then
+    hud._win = Geyser.UserWindow:new({
+      name         = "rwdaHUDWin",
+      docked       = true,
+      dockPosition = "right",
+      width        = 210,
+      height       = "60%",
     })
-    GUIframe.addWindow("rwdaHUDWin", { side = "right" })
   else
-    if type(Geyser.UserWindow) == "table" then
-      hud._win = Geyser.UserWindow:new({
-        name = "rwdaHUDWin",
-        docked = true, dockPosition = "right",
-        width = 210, height = "60%",
-      })
-    else
-      -- Last-resort: plain container anchored by the user
-      hud._win = Geyser.Container:new({
-        name = "rwdaHUDWin",
-        x = "80%", y = "10%", width = "19%", height = "60%",
-      })
-    end
+    hud._win = Geyser.Container:new({
+      name   = "rwdaHUDWin",
+      x      = "80%", y = "10%",
+      width  = "19%", height = "60%",
+    })
   end
 
   hud._statusCon = Geyser.MiniConsole:new({
