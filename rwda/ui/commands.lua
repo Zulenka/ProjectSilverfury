@@ -1095,6 +1095,22 @@ function commands.handle(raw)
       return
     end
 
+    -- 'empowered' = manually declare blade as empowered (e.g. pre-existing blades on session start)
+    if op == "empowered" then
+      local ok, bval = parseBoolWord(val)
+      if not ok then
+        tell("Usage: rwda runelore empowered on|off")
+        return
+      end
+      if rwda.state and rwda.state.runeblade and rwda.state.runeblade.setEmpowered then
+        rwda.state.runeblade.setEmpowered(bval)
+        tell("runelore: empowered = " .. tostring(bval))
+      else
+        tell("runelore: runeblade state not available.")
+      end
+      return
+    end
+
     if op == "empower" then
       if val == "" then
         tell("Usage: rwda runelore empower <rune>")
@@ -1130,7 +1146,7 @@ function commands.handle(raw)
       return
     end
 
-    tell("runelore ops: status | core <rune> | config <r1,r2> | autoempower on/off | bisect on/off | empower <rune> | priority <r1> <r2> ...")
+    tell("runelore ops: status | core <rune> | config <r1,r2> | autoempower on/off | bisect on/off | empowered on/off | empower <rune> | priority <r1> <r2> ...")
     return
   end
 
