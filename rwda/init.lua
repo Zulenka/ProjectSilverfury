@@ -1,5 +1,5 @@
 rwda = rwda or {}
-rwda._version = rwda._version or "0.3.5"
+rwda._version = "0.3.5"  -- always stamp; no `or` guard so dofile always wins
 rwda._loaded_files = rwda._loaded_files or {}
 rwda._bootstrapped = rwda._bootstrapped or false
 
@@ -369,7 +369,10 @@ function rwda.reload(opts)
 
   rwda.shutdown()
   rwda._loaded_files = {}
-  rwda._version = nil   -- clear so the `or` guard in init.lua picks up the new value
+  -- NOTE: _version is NOT cleared here.
+  -- The XML loader dofiles init.lua before calling reload(), which already stamped
+  -- the correct version (no `or` guard above).  Clearing it here would cause
+  -- bootstrap() to log "version nil" since init.lua is not in the FILES list.
   rwda.loadAll(base)
   rwda._bootstrapped = false
 
