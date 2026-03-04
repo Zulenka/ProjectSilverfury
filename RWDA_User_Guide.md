@@ -252,6 +252,7 @@ Blocks are evaluated top-down by priority. The first enabled block whose conditi
 | `rwda show config` | Print the current config table |
 | `rwda set breath <type>` | Set your dragon breath type (e.g. `lightning`) |
 | `rwda set venoms <main> <off>` | Set main and off-hand venom |
+| `rwda set venomcycle <v1> [v2] [v3] ...` | Set the kelp pressure venom cycle applied each tick after core lock affs (asthma/paralysis/slickness/anorexia). Auto-set when a runesmith preset is applied. e.g. `rwda set venomcycle vernalius xentio prefarar` |
 | `rwda set autostart <on\|off>` | Auto-enable RWDA when Legacy loads |
 | `rwda set followlegacytarget <on\|off>` | Mirror Legacy's target into RWDA |
 | `rwda set prompttick <on\|off>` | Fire a tick automatically on every server prompt |

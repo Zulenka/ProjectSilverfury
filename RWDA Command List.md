@@ -36,7 +36,8 @@ Last generated: 2026-03-02 (updated manually — hud/captureall/cursepriority/gu
 | rwda strategy save | Apply and persist strategy to disk. | - |
 | rwda strategy load | Load strategy from disk and apply to state. | - |
 | rwda set breath <type> | Set dragon summon breath type. | - |
-| rwda set venoms <main> <off> | Set primary DSL venom pair. | - |
+| rwda set venoms <main> <off> | Set primary DSL venom pair (mainhand / offhand). | - |
+| rwda set venomcycle <v1> [v2] [v3] ... | Set the kelp pressure venom cycle applied after core lock affs. Auto-set by `rwda runesmith` when a preset is applied. | e.g. `rwda set venomcycle vernalius xentio prefarar` |
 | rwda set autostart <on|off> | Toggle auto-enable with LegacyLoaded. | - |
 | rwda set autogoal <on|off> | Toggle automatic goal escalation as fight progresses. | - |
 | rwda set followlegacytarget <on|off> | Toggle RWDA target-follow from Legacy/global target feeds. | - |

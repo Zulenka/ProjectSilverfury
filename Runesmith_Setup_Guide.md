@@ -114,6 +114,24 @@ The `rwda runesmith` system (`rwda rs`) handles the entire sketch→empower→co
 | `rwda rs status` | Show current workflow progress |
 | `rwda rs cancel` | Abort active workflow |
 
+### Kelp Venom Cycle (Auto-set by Runesmith)
+
+When `rwda runesmith` completes a weapon preset, it automatically sets the **kelp pressure venom cycle** — the sequence of venoms applied each tick *after* the core lock affs (asthma/slickness/anorexia/paralysis) are landed.
+
+**Why this matters:** The lock only sticks if the target runs out of kelp before impatience lands and blocks FOCUS. The kelp cycle forces them to use kelp every tick on weariness, clumsiness, and sensitivity — so when impatience fires, they have none left to cure asthma.
+
+All pithakhan presets set this cycle automatically:
+```
+vernalius (weariness) → xentio (clumsiness) → prefarar (sensitivity)
+```
+
+To override manually:
+```
+rwda set venomcycle vernalius xentio prefarar
+```
+
+To check the current cycle: `rwda set venomcycle` (no args prints current value).
+
 ### Built-in Presets
 
 #### Pithakhan Core (mana drain, 3P + 4R ink)

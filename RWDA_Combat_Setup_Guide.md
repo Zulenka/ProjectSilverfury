@@ -83,23 +83,32 @@ Both should report `failed=0`.
 
 ### DSL (Dual-Slash) Venoms
 
-RWDA applies two venoms per dual-slash attack. The planner picks from your priority list, selecting whichever two venoms the target is most missing.
+RWDA applies two venoms per dual-slash attack. The planner uses a two-tier system:
 
-**Set your primary venoms** (the default starting pair):
+**Tier 1 — Core lock affs** (always first, hardcoded):
+```
+kalmia (asthma) → gecko (slickness) → slike (anorexia) → curare (paralysis)
+```
+These are always prioritised. Until the target has all four, they fill both venom slots.
+
+**Tier 2 — Kelp pressure cycle** (configurable, applied after core affs land):
+```
+vernalius (weariness) → xentio (clumsiness) → prefarar (sensitivity)
+```
+These burn the target's kelp supply on every tick, so when impatience lands and blocks FOCUS, they cannot kelp-cure asthma away → true lock.
+
+**Set your primary venoms** (mainhand / offhand starting defaults):
 ```
 rwda set venoms curare gecko
 ```
-- First argument = mainhand venom
-- Second argument = offhand venom
 
-**Default:** `curare / gecko`
-
-**The full venom priority list** (order = most-wanted first) controls which venoms get selected each tick. To change it, edit `config.runewarden.lock_venom_priority` in a saved config file (see Section 10), or adjust the defaults in `rwda/config.lua`.
-
-Default priority:
+**Set the kelp pressure cycle** (overrides the default):
 ```
-kalmia → gecko → slike → curare → epteth → vernalius → xentio → prefarar → euphorbia → aconite → larkspur
+rwda set venomcycle vernalius xentio prefarar
 ```
+This is set **automatically** when you apply a runesmith preset (e.g. `rwda rs weapon left kena_bisect`).
+
+**Default kelp cycle:** `vernalius → xentio → prefarar → euphorbia → aconite`
 
 ### Limb Prep Sequence
 
