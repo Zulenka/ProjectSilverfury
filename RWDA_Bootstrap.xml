@@ -64,6 +64,15 @@ function rwda_bootstrap_loader()
       log("Bootstrap failed: " .. tostring(bErr))
       return
     end
+  elseif rwda and rwda._bootstrapped then
+    -- Already live — do a hot reload so updated files take effect.
+    local reOk, reErr = pcall(rwda.reload)
+    if reOk then
+      log("Hot-reloaded (was already bootstrapped).")
+    else
+      log("Hot-reload failed: " .. tostring(reErr))
+    end
+    return
   end
 
   log("Loaded from " .. initPath)

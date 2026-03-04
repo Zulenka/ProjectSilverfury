@@ -369,6 +369,7 @@ function rwda.reload(opts)
 
   rwda.shutdown()
   rwda._loaded_files = {}
+  rwda._version = nil   -- clear so the `or` guard in init.lua picks up the new value
   rwda.loadAll(base)
   rwda._bootstrapped = false
 
