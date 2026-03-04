@@ -56,28 +56,17 @@ SKETCH LAGUA ON <weapon>
 SKETCH LAGUZ ON <weapon>
 ```
 
-### Phase 2 — Core Rune (choose one)
+### Phase 2 — Empower (baseline lock-in)
 
-This slot defines your runeblade's "always-on" passive. Sketch **after** the baseline, **before** empowering.
-
-| Core Rune   | Ink Cost | Effect                                |
-|-------------|----------|---------------------------------------|
-| Pithakhan   | 1 Red    | Mana drain procs on hit               |
-| Hugalaz     | 1 Blue   | Bonus hail damage chance + enables BISECT |
-| Eihwaz      | 1 Blue + 1 Yellow | Masks venoms, complicates curing |
-| Nairat      | 1 Yellow | Random freeze proc                    |
-
-```
-SKETCH <core_rune> ON <weapon>
-```
-
-### Phase 3 — Empower
-
-Costs **2000 mana** and 10s equilibrium. Lock in baseline + core for 100 months.
+Costs **2000 mana** and 10s equilibrium. Lock in the three baseline runes and create a proper Runeblade. **This must happen before sketching the core rune.**
 
 ```
 EMPOWER <weapon>
 ```
+
+### Phase 3 — Core Rune (choose one)
+
+This slot defines your runeblade's "always-on" passive. Sketch **after** empowering the baseline — the game requires the weapon to already be an empowered Runeblade.
 
 ### Phase 4 — Configuration (optional, combat procs)
 
@@ -187,8 +176,8 @@ rwda goal impale_kill
 
 RWDA will:
 1. Sketch `lagul`, `lagua`, `laguz` (baseline)
-2. Sketch `pithakhan` (core)
-3. `EMPOWER` the weapon
+2. `EMPOWER` the weapon (locks in baseline)
+3. Sketch `pithakhan` (core — requires empowered runeblade)
 4. Sketch `CONFIGURATION left kena sleizak inguz`
 5. Set `EMPOWER PRIORITY` to `kena sleizak inguz`
 6. Auto-enable `rwda runelore bisect on`

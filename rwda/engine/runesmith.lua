@@ -191,13 +191,14 @@ local function buildWeaponSteps(ref, preset)
     steps[#steps + 1] = sketchStep(r, ref, "sketching_baseline")
   end
 
-  -- 2. Core runeblade rune
+  -- 2. Empower weapon (locks in baseline, makes it a proper Runeblade)
+  --    Core and config runes REQUIRE an already-empowered Runeblade.
+  steps[#steps + 1] = empowerStep(ref, "empowering_weapon")
+
+  -- 3. Core runeblade rune (must come AFTER empower)
   if preset.core_rune then
     steps[#steps + 1] = sketchStep(preset.core_rune, ref, "sketching_core")
   end
-
-  -- 3. Empower weapon
-  steps[#steps + 1] = empowerStep(ref, "empowering_weapon")
 
   -- 4. Configuration runes (if any)
   if preset.config_runes and #preset.config_runes > 0 then
