@@ -426,6 +426,17 @@ function runesmith.status()
   )
 end
 
+--- Return raw state-machine fields for external inspection / debugging.
+-- Returns: state (string), step_index (int), total_steps (int), ref (string|nil), preset (string|nil)
+function runesmith.getState()
+  return sm.state, sm.step_index, #sm.steps, sm.work_ref, sm.config_name
+end
+
+--- Return the current step table (confirm/cmd) for debugging.
+function runesmith.currentStep()
+  return sm.steps[sm.step_index]
+end
+
 --- Bootstrap: register line listener, log init.
 function runesmith.bootstrap()
   -- Register as a listener on the parser's DATA_LINE event if available.

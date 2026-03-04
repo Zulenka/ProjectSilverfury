@@ -1308,7 +1308,29 @@ function commands.handle(raw)
       return
     end
 
-    tell("runesmith ops: status | list [goal] | info <preset> | weapon <ref> <preset> | armour <ref> | configure <ref> <preset> | cancel")
+    -- rwda runesmith debug
+    if op == "debug" then
+      local rs = rwda.engine and rwda.engine.runesmith
+      if not rs then
+        tell("Runesmith module not loaded.")
+        return
+      end
+      if rs.getState then
+        local state, idx, total, ref, preset = rs.getState()
+        tell(string.format("[Runesmith Debug] state=%s step=%d/%d ref=%s preset=%s",
+          tostring(state), idx, total, tostring(ref or "none"), tostring(preset or "none")))
+        local step = rs.currentStep and rs.currentStep()
+        if step then
+          tell(string.format("  cmd:     %s", tostring(step.cmd or "n/a")))
+          tell(string.format("  confirm: %q", tostring(step.confirm or "n/a")))
+        end
+      else
+        tell("getState() not available — run: rwda reload")
+      end
+      return
+    end
+
+    tell("runesmith ops: status | debug | list [goal] | info <preset> | weapon <ref> <preset> | armour <ref> | configure <ref> <preset> | cancel")
     return
   end
 
