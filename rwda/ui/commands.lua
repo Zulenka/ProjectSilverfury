@@ -150,7 +150,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]|runesmith [list [goal]|info <preset>|weapon <ref> <preset>|armour <ref>|configure <ref> <preset>|status|cancel]  (alias: rs)")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour|bisect>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]|runesmith [list [goal]|info <preset>|weapon <ref> <preset>|armour <ref>|configure <ref> <preset>|status|cancel]  (alias: rs)")
 end
 
 function commands.handle(raw)
@@ -332,8 +332,15 @@ function commands.handle(raw)
     if goal == "pressure" or goal == "limbprep" or goal == "impale_kill" or goal == "dragon_devour" then
       rwda.state.setGoal(goal)
       tell("Goal set to " .. goal)
+    elseif goal == "bisect" then
+      -- bisect = impale_kill goal + bisect_enabled flag (both set together)
+      rwda.state.setGoal("impale_kill")
+      if rwda.config.runelore then
+        rwda.config.runelore.bisect_enabled = true
+      end
+      tell("Goal set to impale_kill (bisect_enabled = true)")
     else
-      tell("Usage: rwda goal <pressure|limbprep|impale_kill|dragon_devour>")
+      tell("Usage: rwda goal <pressure|limbprep|impale_kill|dragon_devour|bisect>")
     end
     return
   end
