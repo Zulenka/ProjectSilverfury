@@ -1339,6 +1339,8 @@ function parser.handleLine(line)
     captureUnmatchedLine(line)
   end
 end
+
+function parser.registerMudletHandlers()
   if type(registerAnonymousEventHandler) ~= "function" then
     return false
   end
