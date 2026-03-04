@@ -268,6 +268,10 @@ config.runewarden.lock_venom_priority = config.runewarden.lock_venom_priority or
 config.runewarden.venoms = config.runewarden.venoms or {}
 config.runewarden.venoms.dsl_main = config.runewarden.venoms.dsl_main or { "curare", "gecko" }
 config.runewarden.venoms.dsl_off = config.runewarden.venoms.dsl_off or { "epteth", "kalmia" }
+-- Ordered list of pressure venoms applied after core lock affs (asthma/slickness/anorexia/paralysis).
+-- These are kelp-cure venoms whose purpose is to burn the target's kelp supply so asthma sticks.
+-- Set automatically by rwda runesmith when a preset with kelp_cycle is applied.
+config.runewarden.venoms.kelp_cycle = config.runewarden.venoms.kelp_cycle or { "vernalius", "xentio", "prefarar", "euphorbia", "aconite" }
 
 -- Runelore / runeblade configuration
 -- Reflects December 2025 classleads (Kena <40% mana, Pithakhan 13% broken-head drain).

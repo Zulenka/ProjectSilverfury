@@ -228,6 +228,46 @@ end
 --
 -- ak.check(aff, pct) equivalent: affScore(aff) >= pct
 -- So "not ak.check(aff, pct)" → affScore(aff) < pct  → still needs dosing.
+--
+-- The "pressure" section (after core lock affs) is driven by
+-- config.runewarden.venoms.kelp_cycle so rune presets can control which
+-- kelp-cure venoms are prioritised each tick.
+
+-- Venom → affliction map for configurable pressure portion.
+local PRESSURE_AFF = {
+  vernalius = "weariness",
+  xentio    = "clumsiness",
+  prefarar  = "sensitivity",
+  euphorbia = "nausea",
+  aconite   = "stupidity",
+  larkspur  = "dizziness",
+  kalmia    = "asthma",
+}
+
+local function pressureOrder()
+  local cycle = rwda.config and rwda.config.runewarden
+                and rwda.config.runewarden.venoms
+                and rwda.config.runewarden.venoms.kelp_cycle
+  if cycle and #cycle > 0 then
+    local out = {}
+    for _, v in ipairs(cycle) do
+      local aff = PRESSURE_AFF[v]
+      if aff then
+        out[#out + 1] = { venom = v, aff = aff, thresh = 50 }
+      end
+    end
+    if #out > 0 then return out end
+  end
+  -- Default fallback (preserves original behaviour when no cycle is set).
+  return {
+    { venom = "vernalius", aff = "weariness",   thresh = 50 },
+    { venom = "xentio",    aff = "clumsiness",  thresh = 50 },
+    { venom = "prefarar",  aff = "sensitivity", thresh = 50 },
+    { venom = "euphorbia", aff = "nausea",      thresh = 50 },
+    { venom = "aconite",   aff = "stupidity",   thresh = 50 },
+  }
+end
+
 local function pickLockVenoms()
   local function need(aff, thresh)
     return affScore(aff) < (thresh or 100)
@@ -242,33 +282,33 @@ local function pickLockVenoms()
     return nil
   end
 
+  local pressure = pressureOrder()
+
   -- ── v1: main cut ─────────────────────────────────────────────────────────
-  -- Priority: asthma → slickness → anorexia → paralysis
-  -- then kelp pressure (weariness/clumsiness/sensitivity) → nausea → mental
-  local v1 = pickFrom({
-    { venom = "kalmia",    aff = "asthma",      thresh = 100 },
-    { venom = "gecko",     aff = "slickness",   thresh = 100 },
-    { venom = "slike",     aff = "anorexia",    thresh = 100 },
-    { venom = "curare",    aff = "paralysis",   thresh = 100 },
-    { venom = "vernalius", aff = "weariness",   thresh = 50 },
-    { venom = "xentio",    aff = "clumsiness",  thresh = 50 },
-    { venom = "prefarar",  aff = "sensitivity", thresh = 50 },
-    { venom = "euphorbia", aff = "nausea",      thresh = 50 },
-    { venom = "aconite",   aff = "stupidity",   thresh = 50 },
-  }) or "eurypteria"  -- recklessness: always useful as filler
+  -- Priority: asthma → slickness → anorexia → paralysis (core lock affs)
+  -- then configurable kelp pressure cycle (weariness/clumsiness/sensitivity by default).
+  local v1Core = {
+    { venom = "kalmia", aff = "asthma",    thresh = 100 },
+    { venom = "gecko",  aff = "slickness", thresh = 100 },
+    { venom = "slike",  aff = "anorexia",  thresh = 100 },
+    { venom = "curare", aff = "paralysis", thresh = 100 },
+  }
+  local v1Order = {}
+  for _, e in ipairs(v1Core)    do v1Order[#v1Order + 1] = e end
+  for _, e in ipairs(pressure)  do v1Order[#v1Order + 1] = e end
+  local v1 = pickFrom(v1Order) or "eurypteria"  -- recklessness: always useful as filler
 
   -- ── v2: off cut ──────────────────────────────────────────────────────────
-  -- Keep lock pressure on the off cut, then stack kelp and mental affs.
-  local v2 = pickFrom({
-    { venom = "gecko",     aff = "slickness",   thresh = 100 },
-    { venom = "slike",     aff = "anorexia",    thresh = 100 },
-    { venom = "curare",    aff = "paralysis",   thresh = 100 },
-    { venom = "euphorbia", aff = "nausea",      thresh = 50 },
-    { venom = "vernalius", aff = "weariness",   thresh = 50 },
-    { venom = "xentio",    aff = "clumsiness",  thresh = 50 },
-    { venom = "prefarar",  aff = "sensitivity", thresh = 50 },
-    { venom = "aconite",   aff = "stupidity",   thresh = 50 },
-  }, v1) or "larkspur"  -- dizziness: always useful as filler
+  -- Keep lock pressure on the off cut, then the same kelp pressure cycle.
+  local v2Core = {
+    { venom = "gecko",  aff = "slickness", thresh = 100 },
+    { venom = "slike",  aff = "anorexia",  thresh = 100 },
+    { venom = "curare", aff = "paralysis", thresh = 100 },
+  }
+  local v2Order = {}
+  for _, e in ipairs(v2Core)   do v2Order[#v2Order + 1] = e end
+  for _, e in ipairs(pressure) do v2Order[#v2Order + 1] = e end
+  local v2 = pickFrom(v2Order, v1) or "larkspur"  -- dizziness: always useful as filler
 
   return v1, v2
 end

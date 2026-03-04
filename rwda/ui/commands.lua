@@ -533,6 +533,31 @@ function commands.handle(raw)
       return
     end
 
+    if key == "venomcycle" then
+      -- rwda set venomcycle <v1> [v2] [v3] ...
+      -- Sets the kelp pressure venom cycle used after core lock affs each tick.
+      -- e.g. rwda set venomcycle vernalius xentio prefarar
+      local cycle = {}
+      for i = 3, #words do
+        local v = trim(words[i] or "")
+        if v ~= "" then cycle[#cycle + 1] = v end
+      end
+      if #cycle == 0 then
+        tell("Usage: rwda set venomcycle <v1> [v2] [v3] ...")
+        tell("  e.g. rwda set venomcycle vernalius xentio prefarar")
+        local cur = rwda.config and rwda.config.runewarden and rwda.config.runewarden.venoms and rwda.config.runewarden.venoms.kelp_cycle
+        if cur and #cur > 0 then
+          tell("  Current: " .. table.concat(cur, ", "))
+        end
+        return
+      end
+      rwda.config.runewarden = rwda.config.runewarden or {}
+      rwda.config.runewarden.venoms = rwda.config.runewarden.venoms or {}
+      rwda.config.runewarden.venoms.kelp_cycle = cycle
+      tell("Kelp venom cycle set to: " .. table.concat(cycle, ", "))
+      return
+    end
+
     if key == "autostart" then
       local ok, value = parseBoolWord(words[3])
       if not ok then

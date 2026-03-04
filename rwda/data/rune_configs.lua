@@ -35,6 +35,8 @@ rune_configs.presets["kena_lock"] = {
   core_rune    = "pithakhan",
   config_runes = { "kena", "sleizak", "inguz" },
   weapon_runes = { "lagul", "lagua", "laguz" },
+  -- Pressure venom cycle: maximise kelp depletion so asthma sticks when impatience lands.
+  kelp_cycle   = { "vernalius", "xentio", "prefarar" },
   notes        = "Primary lock path. Wield in LEFT hand. Use head_focus_dsl profile for guaranteed Pithakhan proc.",
   ink_cost     = { red = 4, purple = 3 },
 }
@@ -48,6 +50,8 @@ rune_configs.presets["kena_bisect"] = {
   config_runes = { "kena", "sleizak", "inguz" },
   weapon_runes = { "lagul", "lagua", "laguz" },
   bisect       = true,
+  -- Pressure venom cycle: all four kelp venoms to burn kelp supply and lock out FOCUS curing.
+  kelp_cycle   = { "vernalius", "xentio", "prefarar" },
   notes        = "Full flow: head attack → Pithakhan mana drain → Kena attunes at ≤20% mana → EMPOWER kena → impatience → lock → BISECT. Wield LEFT.",
   ink_cost     = { red = 4, purple = 3 },
 }
@@ -60,6 +64,7 @@ rune_configs.presets["sleep_lock"] = {
   core_rune    = "pithakhan",
   config_runes = { "fehu", "kena", "inguz" },
   weapon_runes = { "lagul", "lagua", "laguz" },
+  kelp_cycle   = { "vernalius", "xentio", "prefarar" },
   notes        = "Fehu attuning before kena opens a sleep window while victim is locked.",
   ink_cost     = { red = 4, purple = 3 },
 }
@@ -72,6 +77,7 @@ rune_configs.presets["mana_crush"] = {
   core_rune    = "pithakhan",
   config_runes = { "kena", "mannaz", "fehu" },
   weapon_runes = { "lagul", "lagua", "laguz" },
+  kelp_cycle   = { "vernalius", "xentio", "prefarar" },
   notes        = "Extended mana denial path. Mannaz fires when target goes off focus balance after impatience.",
   ink_cost     = { red = 4, purple = 3 },
 }
@@ -84,6 +90,7 @@ rune_configs.presets["fracture_drain"] = {
   core_rune    = "pithakhan",
   config_runes = { "sowulu", "kena", "inguz" },
   weapon_runes = { "lagul", "lagua", "laguz" },
+  kelp_cycle   = { "vernalius", "xentio", "prefarar" },
   notes        = "Best vs targets running restoration. Sowulu attunes on any damaged limb.",
   ink_cost     = { red = 4, purple = 3 },
 }
@@ -96,6 +103,7 @@ rune_configs.presets["ribs_burst"] = {
   core_rune    = "pithakhan",
   config_runes = { "inguz", "wunjo", "kena" },
   weapon_runes = { "lagul", "lagua", "laguz" },
+  kelp_cycle   = { "vernalius", "xentio", "prefarar" },
   notes        = "Stack cracked ribs via paralysis, then burst with Wunjo. Kena as safety lock finisher.",
   ink_cost     = { red = 4, purple = 3 },
 }

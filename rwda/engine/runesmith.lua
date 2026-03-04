@@ -238,6 +238,15 @@ function runesmith.complete()
     end
   end
 
+  -- Auto-apply kelp_cycle from preset to venom planner
+  if preset and preset.kelp_cycle and #preset.kelp_cycle > 0 then
+    if rwda.config and rwda.config.runewarden then
+      rwda.config.runewarden.venoms = rwda.config.runewarden.venoms or {}
+      rwda.config.runewarden.venoms.kelp_cycle = { table.unpack(preset.kelp_cycle) }
+      log("Kelp venom cycle set to: %s", table.concat(preset.kelp_cycle, ", "))
+    end
+  end
+
   -- Auto-switch RWDA profile
   if preset and preset.profile_hint and cfg().auto_switch_profile ~= false then
     if rwda.state and rwda.state.flags then
