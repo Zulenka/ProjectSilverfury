@@ -59,6 +59,25 @@ local function cancelTimer()
   sm._timer = nil
 end
 
+-- Catch-all Mudlet line trigger — alive only during an active workflow.
+-- This is the primary delivery path because sysDataReceived can be unreliable
+-- depending on other packages installed in the Mudlet session.
+local function cancelLineTrigger()
+  if runesmith._line_trigger and type(killTrigger) == "function" then
+    pcall(killTrigger, runesmith._line_trigger)
+    runesmith._line_trigger = nil
+  end
+end
+
+local function registerLineTrigger()
+  cancelLineTrigger()  -- kill any stale one first
+  if type(tempRegexTrigger) == "function" then
+    runesmith._line_trigger = tempRegexTrigger(".", function()
+      runesmith.onLine(line)  -- `line` is the Mudlet trigger global
+    end)
+  end
+end
+
 local function emit(name, payload)
   if rwda.engine and rwda.engine.events and rwda.engine.events.emit then
     rwda.engine.events.emit(name, payload)
@@ -213,6 +232,7 @@ end
 
 function runesmith.complete()
   cancelTimer()
+  cancelLineTrigger()
   sm.state = "done"
   local preset = sm.config_name and rwda.data and rwda.data.rune_configs and rwda.data.rune_configs.get(sm.config_name)
   log("Workflow complete for '%s' using preset '%s'.", tostring(sm.work_ref), tostring(sm.config_name or "armour"))
@@ -268,6 +288,7 @@ end
 
 function runesmith.fail(reason)
   cancelTimer()
+  cancelLineTrigger()
   warn("Workflow FAILED at step %d/%d (%s): %s", sm.step_index, #sm.steps, sm.state, tostring(reason))
   emit("RUNESMITH_FAILED", { reason = reason, state = sm.state, step = sm.step_index })
   sm.state      = "idle"
@@ -353,6 +374,7 @@ function runesmith.beginWeapon(ref, configName)
 
   local inkStr = rwda.data.rune_configs.inkCostString(configName)
   log("Starting weapon workflow: ref='%s' preset='%s' steps=%d ink=%s", ref, configName, #sm.steps, inkStr)
+  registerLineTrigger()
   scheduleAdvance()
   return true
 end
@@ -370,6 +392,7 @@ function runesmith.beginArmour(ref)
   sm.step_index  = 0
 
   log("Starting armour workflow: ref='%s' steps=%d ink=2G", ref, #sm.steps)
+  registerLineTrigger()
   scheduleAdvance()
   return true
 end
@@ -403,6 +426,7 @@ function runesmith.beginConfigure(ref, configName)
   end
 
   log("Starting configure-only workflow: ref='%s' preset='%s' steps=%d", ref, configName, #sm.steps)
+  registerLineTrigger()
   scheduleAdvance()
   return true
 end
@@ -410,6 +434,7 @@ end
 --- Abort any active workflow.
 function runesmith.cancel()
   cancelTimer()
+  cancelLineTrigger()
   if sm.state == "idle" then
     log("Nothing to cancel.")
     return
@@ -463,18 +488,18 @@ function runesmith.bootstrap()
   end
 
   -- Fallback direct Mudlet line trigger for the duplicate-rune message.
-  -- This fires even if the sysDataReceived path doesn't deliver the line,
-  -- e.g. when another Mudlet trigger consumes it first.
+  -- NOTE: a broader catch-all trigger is now registered per-workflow in
+  -- registerLineTrigger() (called by beginWeapon/beginArmour/beginConfigure).
+  -- The bootstrap trigger below is kept as a last-resort for the specific
+  -- duplicate message only, in case bootstrap runs before a workflow starts.
   if type(tempRegexTrigger) == "function" then
     -- Kill any prior registration (handles rwda reload without Mudlet restart).
     if runesmith._dup_trigger and type(killTrigger) == "function" then
       pcall(killTrigger, runesmith._dup_trigger)
       runesmith._dup_trigger = nil
     end
-    runesmith._dup_trigger = tempRegexTrigger(
-      "no need to duplicate",
-      function() runesmith.onLine(line) end
-    )
+    -- Workflow catch-all (registerLineTrigger) supersedes this, so skip here.
+    -- runesmith._dup_trigger = tempRegexTrigger(...)
   end
 
   log("Bootstrap complete (step_delay=%dms auto_sync_runelore=%s auto_switch_profile=%s)",
