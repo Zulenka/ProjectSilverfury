@@ -50,8 +50,10 @@ local function sendGame(cmd)
 end
 
 local function tell(msg)
-  if rwda.util and rwda.util.tell then
-    rwda.util.tell(msg)
+  if rwda.util and rwda.util.log then
+    rwda.util.log("info", "%s", msg)
+  elseif type(decho) == "function" then
+    decho("<186,242,239>[RWDA] " .. tostring(msg) .. "<r>\n")
   end
 end
 
