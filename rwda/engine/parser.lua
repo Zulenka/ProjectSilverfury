@@ -835,6 +835,22 @@ function parser.setForm(form, source)
     rwda.state.me.swords_wielded = false
   end
 
+  -- Send configurable form-transition commands (e.g. attack style changes).
+  if prevForm and prevForm ~= form then
+    local cmds = {}
+    local dragonCfg = rwda.config and rwda.config.dragon or {}
+    if form == "dragon" then
+      cmds = type(dragonCfg.on_shift_cmds) == "table" and dragonCfg.on_shift_cmds or {}
+    else
+      cmds = type(dragonCfg.on_revert_cmds) == "table" and dragonCfg.on_revert_cmds or {}
+    end
+    if #cmds > 0 and type(send) == "function" then
+      for _, cmd in ipairs(cmds) do
+        send(cmd)
+      end
+    end
+  end
+
   if prevForm and prevForm ~= form and type(decho) == "function" then
     local fromLabel = prevForm == "dragon" and "Dragon" or "Runewarden"
     local toLabel   = form == "dragon"

@@ -841,6 +841,46 @@ function commands.handle(raw)
       return
     end
 
+    -- rwda set dragonshift <cmd>  — append a command sent on shift into dragon form
+    -- rwda set dragonshift clear  — clear all dragon shift commands
+    if key == "dragonshift" then
+      local cmd = trim(raw:match("^set%s+dragonshift%s+(.+)$") or "")
+      if cmd == "" then
+        tell("Usage: rwda set dragonshift <command>  (or 'clear' to reset)")
+        return
+      end
+      rwda.config.dragon = rwda.config.dragon or {}
+      rwda.config.dragon.on_shift_cmds = rwda.config.dragon.on_shift_cmds or {}
+      if cmd:lower() == "clear" then
+        rwda.config.dragon.on_shift_cmds = {}
+        tell("Dragon shift commands cleared.")
+      else
+        table.insert(rwda.config.dragon.on_shift_cmds, cmd)
+        tell("Dragon shift cmd added: " .. cmd .. "  (total: " .. #rwda.config.dragon.on_shift_cmds .. ")")
+      end
+      return
+    end
+
+    -- rwda set humanshift <cmd>  — append a command sent on revert to human form
+    -- rwda set humanshift clear  — clear all human revert commands
+    if key == "humanshift" then
+      local cmd = trim(raw:match("^set%s+humanshift%s+(.+)$") or "")
+      if cmd == "" then
+        tell("Usage: rwda set humanshift <command>  (or 'clear' to reset)")
+        return
+      end
+      rwda.config.dragon = rwda.config.dragon or {}
+      rwda.config.dragon.on_revert_cmds = rwda.config.dragon.on_revert_cmds or {}
+      if cmd:lower() == "clear" then
+        rwda.config.dragon.on_revert_cmds = {}
+        tell("Human revert commands cleared.")
+      else
+        table.insert(rwda.config.dragon.on_revert_cmds, cmd)
+        tell("Human revert cmd added: " .. cmd .. "  (total: " .. #rwda.config.dragon.on_revert_cmds .. ")")
+      end
+      return
+    end
+
     tell("Usage: rwda set breath <type> | set venoms <main> <off> | set cursepriority <c1> <c2>... | set gutvenompriority <v1> <v2>... | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set autogoal <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set captureall <on|off> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
     return
   end

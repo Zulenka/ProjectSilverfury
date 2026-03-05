@@ -329,6 +329,12 @@ setDefault(config.dragon, "default_goal", "dragon_devour")
 setDefault(config.dragon, "devour_threshold", 6.0)
 config.dragon.curse_priority = config.dragon.curse_priority or { "impatience", "asthma", "paralysis", "stupidity" }
 config.dragon.gut_venom_priority = config.dragon.gut_venom_priority or { "curare", "kalmia", "gecko", "slike", "aconite" }
+-- Commands sent automatically when RWDA detects a shift INTO dragon form.
+-- e.g. { "sk rend", "dragonarmour on" }
+config.dragon.on_shift_cmds = config.dragon.on_shift_cmds or {}
+-- Commands sent automatically when RWDA detects a return to human (runewarden) form.
+-- e.g. { "sk slash" }
+config.dragon.on_revert_cmds = config.dragon.on_revert_cmds or {}
 
 config.profiles = config.profiles or {}
 config.profiles.duel      = config.profiles.duel      or { mode = "auto", goal = "limbprep" }
