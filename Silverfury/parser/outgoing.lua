@@ -1,0 +1,107 @@
+-- Silverfury/parser/outgoing.lua
+-- Track outgoing commands and confirm actions (venoms applied, attacks sent).
+
+Silverfury = Silverfury or {}
+Silverfury.parser = Silverfury.parser or {}
+
+local outgoing = {}
+Silverfury.parser.outgoing = outgoing
+
+-- ── Track last sent DSL/attack so we can extract venoms ──────────────────────
+
+local _last_cmd     = nil
+local _last_venoms  = {}   -- list of venom names from most recently sent attack cmd
+
+-- Extract venoms and assume affs landed on target (unconfirmed / inferred).
+local function _processVenoms(v1, v2)
+  _last_venoms = {}
+  local function process(vname)
+    if not vname then return end
+    local data = Silverfury.offense.venoms.DATA[vname]
+    if data then
+      Silverfury.offense.venoms.record(vname)
+      _last_venoms[#_last_venoms + 1] = vname
+      -- Assume the aff landed (conservative: not confirmed, confidence = 0.5).
+      if data.aff then
+        Silverfury.state.target.addAff(data.aff, false)
+        Silverfury.log.trace("Assumed aff: %s (from %s)", data.aff, vname)
+      end
+    end
+  end
+  process(v1)
+  process(v2)
+end
+
+-- Intercept via SF_CommandSent event fired by queue.
+local function onCommandSent(_, cmd)
+  _last_cmd = cmd
+
+  -- dsl pattern: "dsl target limb venom1 venom2"
+  local v1, v2 = cmd:match("^dsl%s+%S+%s+%S+%s+(%S+)%s+(%S+)")
+  if v1 then
+    _processVenoms(v1, v2)
+    Silverfury.logging.logger.write("OUTGOING_COMMAND", { cmd=cmd, venom1=v1, venom2=v2 })
+    return
+  end
+
+  -- undercut pattern: "undercut target limb venom1 venom2"
+  v1, v2 = cmd:match("^undercut%s+%S+%s+%S+%s+(%S+)%s+(%S+)")
+  if v1 then
+    _processVenoms(v1, v2)
+    Silverfury.logging.logger.write("OUTGOING_COMMAND", { cmd=cmd, venom1=v1, venom2=v2 })
+    return
+  end
+
+  -- razeslash pattern: "razeslash target venom1 venom2"
+  local rv1, rv2 = cmd:match("^razeslash%s+%S+%s+(%S+)%s+(%S+)")
+  if rv1 then
+    _processVenoms(rv1, rv2)
+    Silverfury.logging.logger.write("OUTGOING_COMMAND", { cmd=cmd, venom1=rv1, venom2=rv2 })
+  end
+end
+
+-- ── Confirm lines ─────────────────────────────────────────────────────────────
+-- These patterns confirm that a sent command was accepted by the server.
+
+local CONFIRMS = {
+  { "^You slash (.+) with",          "dsl_confirm" },
+  { "^You raze (.+) with",           "raze_confirm" },
+  { "^You impale (.+)%.",            "impale_confirm" },
+  { "^You disembowel (.+) with",     "disembowel_confirm" },
+  { "^You undercut (.+) with",       "undercut_confirm" },
+}
+
+local function onLine(_, line)
+  if not line then return end
+  for _, entry in ipairs(CONFIRMS) do
+    if line:match(entry[1]) then
+      raiseEvent("SF_OutgoingConfirm", entry[2], line)
+      Silverfury.logging.logger.write("OUTGOING_CONFIRM", { type=entry[2], line=line })
+    end
+  end
+end
+
+-- ── Registration ─────────────────────────────────────────────────────────────
+
+local _handlers = {}
+
+function outgoing.registerHandlers()
+  for _, id in ipairs(_handlers) do killHandler(id) end
+  _handlers = {}
+
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_CommandSent", onCommandSent)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("sysDataReceived", onLine)
+end
+
+function outgoing.shutdown()
+  for _, id in ipairs(_handlers) do killHandler(id) end
+  _handlers = {}
+end
+
+function outgoing.lastCmd()
+  return _last_cmd
+end
+
+function outgoing.lastVenoms()
+  return _last_venoms
+end
