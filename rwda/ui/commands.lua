@@ -881,7 +881,19 @@ function commands.handle(raw)
       return
     end
 
-    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set cursepriority <c1> <c2>... | set gutvenompriority <v1> <v2>... | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set autogoal <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set captureall <on|off> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path>")
+    if key == "rewieldcmd" then
+      local cmd = trim(raw:match("^set%s+rewieldcmd%s+(.+)$") or "")
+      if cmd == "" then
+        tell("Usage: rwda set rewieldcmd <cmd>  (e.g. 'wield scimitar scimitar')")
+        return
+      end
+      rwda.config.runewarden = rwda.config.runewarden or {}
+      rwda.config.runewarden.rewield_cmd = cmd
+      tell("Rewield command set to: " .. cmd)
+      return
+    end
+
+    tell("Usage: rwda set breath <type> | set venoms <main> <off> | set cursepriority <c1> <c2>... | set gutvenompriority <v1> <v2>... | set autostart <on|off> | set followlegacytarget <on|off> | set prompttick <on|off> | set autogoal <on|off> | set retalockms <ms> | set retaldebounce <ms> | set retalminconf <0-1> | set executecooldown <ms> | set executefallbackwindow <ms> | set executetimeout <disembowel|devour> <ms> | set executefallback <human|dragon> <block_id> | set captureall <on|off> | set capture <on|off> | set captureprompts <on|off> | set capturepath <path> | set rewieldcmd <cmd>")
     return
   end
 

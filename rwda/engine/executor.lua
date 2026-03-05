@@ -117,9 +117,10 @@ function executor.execute(action)
       end
     end
     if needsSwords and type(send) == "function" then
-      send("wield sword sword")
+      local rewieldCmd = (rwda.config.runewarden and rwda.config.runewarden.rewield_cmd) or "wield scimitar scimitar"
+      send(rewieldCmd)
       state.me.swords_wielded = true
-      rwda.util.log("info", "Auto-wield: rewielded swords before attack.")
+      rwda.util.log("info", "Auto-wield: rewielded swords (%s).", rewieldCmd)
     end
   end
 

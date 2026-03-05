@@ -269,6 +269,9 @@ config.runewarden.lock_venom_priority = config.runewarden.lock_venom_priority or
 config.runewarden.venoms = config.runewarden.venoms or {}
 config.runewarden.venoms.dsl_main = config.runewarden.venoms.dsl_main or { "curare", "gecko" }
 config.runewarden.venoms.dsl_off = config.runewarden.venoms.dsl_off or { "epteth", "kalmia" }
+-- Command sent to re-equip weapons after a disarm. 'wield scimitar scimitar' re-wields
+-- both runewarden blades in one command. Override with: rwda set rewieldcmd <cmd>
+setDefault(config.runewarden, "rewield_cmd", "wield scimitar scimitar")
 -- Ordered list of pressure venoms applied after core lock affs (asthma/slickness/anorexia/paralysis).
 -- These are kelp-cure venoms whose purpose is to burn the target's kelp supply so asthma sticks.
 -- Set automatically by rwda runesmith when a preset with kelp_cycle is applied.
