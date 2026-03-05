@@ -241,7 +241,11 @@ setDefault(config.weapons, "mainhand", "scimitar")
 setDefault(config.weapons, "offhand", "scimitar")
 
 config.executor = config.executor or {}
-setDefault(config.executor, "use_server_queue", true)
+-- use_server_queue=false: send() passes through Mudlet's alias processor so
+-- client-defined aliases (dsl, fury, falcon etc.) expand correctly before
+-- reaching the game server. When true, commands bypass Mudlet and go to the
+-- Achaea server queue raw; only enable if your aliases are server-side macros.
+setDefault(config.executor, "use_server_queue", false)
 setDefault(config.executor, "clear_on_stop", true)
 setDefault(config.executor, "queue_type_default", "bal")
 setDefault(config.executor, "queue_kill_moves_as_freestand", true)

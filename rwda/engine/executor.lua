@@ -135,6 +135,19 @@ function executor.execute(action)
   state.runtime.pending_action = nil
   rememberSend(action, state)
 
+  -- Optimistically clear balance/equilibrium so prompttick doesn't re-fire the
+  -- same action before the game server confirms recovery via GMCP Char.Vitals.
+  -- GMCP will set them back to true when balance actually returns.
+  local req = action.requires or {}
+  if req.bal then
+    state.me.bal = false
+    state.me.balances.balance = false
+  end
+  if req.eq then
+    state.me.eq = false
+    state.me.balances.equilibrium = false
+  end
+
   if rwda.engine and rwda.engine.events and rwda.engine.events.emit then
     rwda.engine.events.emit("ACTION_SENT", {
       action = action,
