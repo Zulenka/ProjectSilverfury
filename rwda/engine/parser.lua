@@ -231,11 +231,41 @@ local function resolveCapturePath()
   if type(getMudletHomeDir) == "function" then
     local ok, home = pcall(getMudletHomeDir)
     if ok and type(home) == "string" and home ~= "" then
-      return home .. "\\rwda_unmatched.log"
+      -- Use / separator — works on Windows, Mac, and Linux.
+      return home:gsub("\\$", "") .. "/rwda_combat.log"
     end
   end
 
-  return "rwda_unmatched.log"
+  return "rwda_combat.log"
+end
+
+-- Persistent line-capture trigger (works around broken sysDataReceived).
+-- Active whenever capture_all_lines is true.
+function parser.capturePath()
+  return resolveCapturePath()
+end
+
+function parser.startCaptureTrigger()
+  parser.stopCaptureTrigger()
+  if type(tempRegexTrigger) ~= "function" then return end
+  parser._capture_trigger = tempRegexTrigger(".", function()
+    local parserCfg = rwda.config and rwda.config.parser or {}
+    if not parserCfg.capture_all_lines then return end
+    local path = resolveCapturePath()
+    local f = io.open(path, "a")
+    if f then
+      local ts = os.date and os.date("%Y-%m-%d %H:%M:%S") or "0000-00-00 00:00:00"
+      f:write(string.format("%s | %s\n", ts, tostring(line)))
+      f:close()
+    end
+  end)
+end
+
+function parser.stopCaptureTrigger()
+  if parser._capture_trigger and type(killTrigger) == "function" then
+    pcall(killTrigger, parser._capture_trigger)
+  end
+  parser._capture_trigger = nil
 end
 
 local function captureUnmatchedLine(line)

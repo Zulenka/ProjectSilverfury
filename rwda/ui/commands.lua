@@ -800,10 +800,20 @@ function commands.handle(raw)
       end
       rwda.config.parser = rwda.config.parser or {}
       rwda.config.parser.capture_all_lines = value
-      local path = (rwda.config.parser.capture_unmatched_path ~= nil and rwda.config.parser.capture_unmatched_path ~= "")
-        and rwda.config.parser.capture_unmatched_path
-        or "rwda_unmatched.log (default)"
-      tell(string.format("Capture ALL lines: %s  →  %s", value and "ON" or "OFF", path))
+      -- Start/stop a direct tempRegexTrigger so capture works even when
+      -- sysDataReceived is broken (the trigger writes `line` each game line).
+      if rwda.engine and rwda.engine.parser then
+        if value then
+          rwda.engine.parser.startCaptureTrigger()
+        else
+          rwda.engine.parser.stopCaptureTrigger()
+        end
+      end
+      local path = (rwda.engine and rwda.engine.parser and rwda.engine.parser.capturePath
+        and rwda.engine.parser.capturePath())
+        or (rwda.config.parser.capture_unmatched_path ~= "" and rwda.config.parser.capture_unmatched_path)
+        or "(Mudlet home)/rwda_combat.log"
+      tell(string.format("Capture ALL lines: %s  \xe2\x86\x92  %s", value and "ON" or "OFF", path))
       return
     end
 
