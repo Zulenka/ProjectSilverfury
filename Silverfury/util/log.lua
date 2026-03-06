@@ -15,7 +15,7 @@ local COLOURS = {
 
 local PREFIX_COLOURS = {
   trace = "<ansi_dark_gray>",
-  info  = "<#7EC8E3>",
+  info  = "<126,200,227>",
   warn  = "<ansi_yellow>",
   error = "<ansi_red>",
 }
