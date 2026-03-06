@@ -8,14 +8,14 @@ local LEVELS = { trace=1, info=2, warn=3, error=4 }
 
 local COLOURS = {
   trace = "<ansi_dark_gray>",
-  info  = "<lightcyan>",
+  info  = "<ansi_light_cyan>",
   warn  = "<ansi_yellow>",
   error = "<ansi_red>",
 }
 
 local PREFIX_COLOURS = {
   trace = "<ansi_dark_gray>",
-  info  = "<126,200,227>",
+  info  = "<ansi_cyan>",
   warn  = "<ansi_yellow>",
   error = "<ansi_red>",
 }
