@@ -77,10 +77,17 @@ local function loadAll()
   load("runelore/runes.lua")
   load("runelore/core.lua")
 
+  -- Dragon combat profile (depends on config, state, engine, runelore)
+  load("dragon/core.lua")
+  load("dragon/commands.lua")
+  load("dragon/devour.lua")
+  load("dragon/matchups.lua")
+
   -- Scenarios (depends on all above)
   load("scenarios/base.lua")
   load("scenarios/venomlock.lua")
   load("scenarios/runelore_kill.lua")
+  load("scenarios/dragon_devour.lua")
 
   -- Retaliation (depends on state, safety)
   load("retaliate.lua")
@@ -153,6 +160,9 @@ function Silverfury.bootstrap()
   Silverfury.runelore.core.init()
   Silverfury.runelore.core.registerHandlers()
 
+  -- Register dragon event hooks.
+  Silverfury.dragon.core.registerHandlers()
+
   -- Register parser hooks.
   Silverfury.parser.incoming.registerHandlers()
   Silverfury.parser.outgoing.registerHandlers()
@@ -194,6 +204,7 @@ function Silverfury.shutdown()
   Silverfury.bridge.legacy.shutdown()
   Silverfury.bridge.ak.shutdown()
   Silverfury.runelore.core.shutdown()
+  Silverfury.dragon.core.shutdown()
   Silverfury.ui.bindings.shutdown()
   Silverfury.ui.window.shutdown()
   Silverfury.logging.logger.shutdown()

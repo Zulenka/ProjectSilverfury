@@ -57,6 +57,72 @@ local function onCommandSent(_, cmd)
   if rv1 then
     _processVenoms(rv1, rv2)
     Silverfury.logging.logger.write("OUTGOING_COMMAND", { cmd=cmd, venom1=rv1, venom2=rv2 })
+    return
+  end
+
+  -- ── Dragon command recognizers ────────────────────────────────────────────
+
+  -- summon <type>
+  local btype = cmd:match("^summon%s+(%S+)")
+  if btype then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="summon", breath=btype })
+    raiseEvent("SF_DragonSummonSent", btype)
+    return
+  end
+
+  -- devour <target>
+  if cmd:match("^devour%s+%S+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="devour" })
+    raiseEvent("SF_DevourSent")
+    return
+  end
+
+  -- block <direction>
+  local bdir = cmd:match("^block%s+(%S+)")
+  if bdir then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="block", dir=bdir })
+    raiseEvent("SF_DragonBlockSent", bdir)
+    return
+  end
+
+  -- unblock
+  if cmd:match("^unblock$") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="unblock" })
+    raiseEvent("SF_DragonUnblockSent")
+    return
+  end
+
+  -- breathgust <target> — optimistically mark target as prone
+  if cmd:match("^breathgust%s+%S+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="breathgust" })
+    raiseEvent("SF_DragonGustSent")
+    return
+  end
+
+  -- tailsweep — room-wide prone
+  if cmd:match("^tailsweep$") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="tailsweep" })
+    raiseEvent("SF_DragonTailsweepSent")
+    return
+  end
+
+  -- gut / rend / bite — log dragon physical strikes
+  if cmd:match("^gut%s+") or cmd:match("^rend%s+") or cmd:match("^bite%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="strike" })
+    return
+  end
+
+  -- dragonarmour on/off
+  local da = cmd:match("^dragonarmour%s+(%S+)")
+  if da then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="dragonarmour", state=da })
+    return
+  end
+
+  -- dragonflex
+  if cmd:match("^dragonflex$") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="dragonflex" })
+    return
   end
 end
 

@@ -325,6 +325,154 @@ local PATTERNS = {
     function(_, name)
       if incoming._isTarget(name) then Silverfury.state.target.lyred = false end
     end },
+
+  -- ── Dragon form ───────────────────────────────────────────────────────────
+  -- NOTE: exact Achaea message text needs live-test confirmation.
+  { "You transform into your draconic form",
+    function(_)
+      Silverfury.state.me.form = "dragon"
+      raiseEvent("SF_DragonFormGained")
+      Silverfury.log.info("Dragon: transformed to dragon form")
+    end },
+
+  { "You return to your previous form",
+    function(_)
+      Silverfury.state.me.form = "human"
+      raiseEvent("SF_DragonFormLost")
+      Silverfury.log.info("Dragon: reverted to human form")
+    end },
+
+  -- ── Dragon armour ─────────────────────────────────────────────────────────
+  { "You surround yourself with magical armour",
+    function(_)
+      Silverfury.dragon.core.setDragonarmour(true)
+      raiseEvent("SF_DragonarmourOn")
+    end },
+
+  { "Your dragonarmour fades",
+    function(_)
+      Silverfury.dragon.core.setDragonarmour(false)
+      raiseEvent("SF_DragonarmourOff")
+    end },
+
+  -- ── Breath summon ─────────────────────────────────────────────────────────
+  { "You summon your (.+) breath",
+    function(_, btype)
+      Silverfury.dragon.core.setBreathSummoned(true)
+      raiseEvent("SF_DragonBreathSummoned", btype)
+      Silverfury.log.info("Dragon: %s breath summoned", btype)
+    end },
+
+  -- Breath is consumed on Blast/Storm/Strip — track so we know to re-summon.
+  { "Your breath weapon dissipates",
+    function(_)
+      Silverfury.dragon.core.setBreathSummoned(false)
+      raiseEvent("SF_DragonBreathLost")
+    end },
+
+  -- ── Enmesh ────────────────────────────────────────────────────────────────
+  { "You will the fabric of the [Vv]eil to bind (.+) with",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.enmeshed = true
+        raiseEvent("SF_TargetEnmeshed")
+      end
+    end },
+
+  { "(.+) escapes? from the ethereal tendrils",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.enmeshed = false
+        raiseEvent("SF_TargetEnmeshBroken")
+      end
+    end },
+
+  -- ── Breathstrip / tailsmash defence removal ───────────────────────────────
+  { "You strip the defences of (.+) with your breath",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("shield", false)
+        Silverfury.state.target.setDef("rebounding", false)
+        raiseEvent("SF_TargetStripped", name)
+      end
+    end },
+
+  { "You shatter (.+)['s]* magical shield with your tail",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("shield", false)
+        raiseEvent("SF_TargetShieldShattered", name)
+      end
+    end },
+
+  -- ── Dragonflex ────────────────────────────────────────────────────────────
+  { "You snap through your bindings with a powerful flex",
+    function(_)
+      Silverfury.state.me.affs["webbed"]      = nil
+      Silverfury.state.me.affs["transfixed"]  = nil
+      raiseEvent("SF_Dragonflex")
+    end },
+
+  -- ── Devour ────────────────────────────────────────────────────────────────
+  { "You begin to devour (.+)",
+    function(_, name)
+      raiseEvent("SF_DevourStarted", name)
+      Silverfury.logging.logger.write("DRAGON_ACTION", { action="devour_begin", target=name })
+    end },
+
+  { "You tear the head from (.+)['s]* shoulders",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.dead = true
+        -- Log outcome for estimator calibration.
+        local sc = Silverfury.scenarios and Silverfury.scenarios.dragon_devour
+        local elapsed = nil
+        if sc and sc.devourStartT() then
+          elapsed = (Silverfury.time.now() - sc.devourStartT()) / 1000
+          sc.clearDevourStartT()
+        end
+        Silverfury.dragon.devour.logOutcome(true, elapsed)
+        raiseEvent("SF_DevourSucceeded", name)
+      end
+    end },
+
+  { "[Yy]our [Dd]evour is interrupted",
+    function(_)
+      local sc = Silverfury.scenarios and Silverfury.scenarios.dragon_devour
+      local elapsed = nil
+      if sc and sc.devourStartT() then
+        elapsed = (Silverfury.time.now() - sc.devourStartT()) / 1000
+        sc.clearDevourStartT()
+      end
+      Silverfury.dragon.devour.logOutcome(false, elapsed)
+      raiseEvent("SF_DevourInterrupted")
+    end },
+
+  { "You cannot devour",
+    function(_)
+      raiseEvent("SF_DevourFailed", "precondition")
+    end },
+
+  -- ── Target flying ─────────────────────────────────────────────────────────
+  -- Note: base flying patterns track tgt.flying; also flag can_fly.
+  { "(.+) takes to the air",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.flying  = true
+        Silverfury.state.target.can_fly = true
+      end
+    end },
+
+  -- ── Target escapes ────────────────────────────────────────────────────────
+  -- Record the last direction the target fled so PIN phase can block it.
+  { "(.+) leaves? to the (north|south|east|west|northeast|northwest|southeast|southwest|up|down)",
+    function(_, name, dir)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.in_room        = false
+        Silverfury.state.target.last_escape_dir = dir
+        Silverfury.log.info("Dragon: target fled %s — stored as last_escape_dir", dir)
+      end
+    end },
 }
 
 -- ── Helpers ───────────────────────────────────────────────────────────────────

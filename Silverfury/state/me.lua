@@ -22,7 +22,8 @@ local function newMe()
     defs = {},
 
     -- Form: "human" or "dragon"
-    form = "human",
+    form   = "human",
+    flying = false,   -- airborne in dragon form
 
     -- Weapon state
     swords_wielded = false,

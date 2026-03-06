@@ -135,6 +135,48 @@ local defaults = {
     enabled    = true,
     auto_load  = true,
   },
+
+  -- ── Dragon combat ─────────────────────────────────────────────────────────
+  dragon = {
+    enabled               = true,
+    breath_type           = "lightning",   -- Silver Dragon default
+    mode                  = "devour",      -- "devour" | "breath_pressure"
+    -- Setup upkeep
+    auto_dragonarmour     = true,
+    auto_summon_breath    = true,
+    auto_becalm           = true,
+    -- Devour estimator
+    use_estimator         = true,
+    devour_safe_threshold = 5.7,           -- seconds; start conservative
+    -- Phase thresholds
+    leg_prep_pct          = 70,            -- min leg damage_pct before TORSO_FOCUS
+    torso_focus_pct       = 60,            -- min torso pct before devour window
+    -- Room control
+    control_block_dirs    = true,
+    use_enmesh            = true,
+    prefer_breathgust     = true,          -- EQ-based; use over tailsweep when possible
+    prefer_tailsweep      = true,          -- BAL-based; fallback prone method
+    -- Matchup overrides (class-specific config can override these at runtime)
+    matchup_overrides     = {
+      serpent = { use_breathstorm = true },
+      sylvan  = { abort_in_grove  = true },
+      druid   = { abort_in_grove  = true },
+    },
+    -- Attack command templates (used by _chooseDragonAction free-form path)
+    templates = {
+      blast       = "blast {target}",
+      breathgust  = "breathgust {target}",
+      breathstrip = "breathstrip {target}",
+      block       = "block {direction}",
+      rend        = "rend {target}",
+      gut         = "gut {target}",
+      bite        = "bite {target}",
+      devour      = "devour {target}",
+      becalm      = "becalm {target}",
+      enmesh      = "enmesh {target}",
+      tailsmash   = "tailsmash {target}",
+    },
+  },
 }
 
 -- ── Config module ─────────────────────────────────────────────────────────────

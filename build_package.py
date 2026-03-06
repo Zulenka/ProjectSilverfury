@@ -33,9 +33,14 @@ LOAD_ORDER = [
     "offense/attacks.lua",
     "runelore/runes.lua",
     "runelore/core.lua",
+    "dragon/core.lua",
+    "dragon/commands.lua",
+    "dragon/devour.lua",
+    "dragon/matchups.lua",
     "scenarios/base.lua",
     "scenarios/venomlock.lua",
     "scenarios/runelore_kill.lua",
+    "scenarios/dragon_devour.lua",
     "retaliate.lua",
     "parser/incoming.lua",
     "parser/outgoing.lua",
@@ -75,6 +80,7 @@ function Silverfury.shutdown()
   Silverfury.bridge.legacy.shutdown()
   Silverfury.bridge.ak.shutdown()
   Silverfury.runelore.core.shutdown()
+  Silverfury.dragon.core.shutdown()
   Silverfury.ui.bindings.shutdown()
   Silverfury.ui.window.shutdown()
   Silverfury.logging.logger.shutdown()
@@ -103,6 +109,7 @@ end
 Silverfury.logging.logger.init()
 Silverfury.runelore.core.init()
 Silverfury.runelore.core.registerHandlers()
+Silverfury.dragon.core.registerHandlers()
 Silverfury.parser.incoming.registerHandlers()
 Silverfury.parser.outgoing.registerHandlers()
 Silverfury.bridge.gmcp.registerHandlers()

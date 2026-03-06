@@ -97,13 +97,99 @@ function bindings.handle(raw)
       Silverfury.scenarios.venomlock.start()
     elseif sub == "runelore" then
       Silverfury.scenarios.runelore_kill.start()
+    elseif sub == "dragon" then
+      Silverfury.scenarios.dragon_devour.start()
     elseif sub == "stop" then
       Silverfury.scenarios.base.stop("sf exec stop")
     else
-      Silverfury.log.warn("Usage: sf exec <venomlock|runelore|stop>")
+      Silverfury.log.warn("Usage: sf exec <venomlock|runelore|dragon|stop>")
     end
 
-  -- ── Runelore ─────────────────────────────────────────────────────────────
+  -- ── Dragon ────────────────────────────────────────────────────────────────
+  elseif cmd == "dragon" or cmd == "dr" then
+    local sub = (args[1] or ""):lower()
+    if sub == "on" then
+      Silverfury.config.set("dragon.enabled", true)
+      Silverfury.log.info("Dragon mode: ON")
+    elseif sub == "off" then
+      Silverfury.config.set("dragon.enabled", false)
+      Silverfury.log.info("Dragon mode: OFF")
+    elseif sub == "form" then
+      Silverfury.engine.queue.send("dragonform")
+    elseif sub == "lesserform" or sub == "human" then
+      Silverfury.engine.queue.send("lesserform")
+    elseif sub == "breath" then
+      local btype = (args[2] or "lightning"):lower()
+      Silverfury.config.set("dragon.breath_type", btype)
+      Silverfury.log.info("Dragon breath type: %s", btype)
+    elseif sub == "mode" then
+      local mode = (args[2] or "devour"):lower()
+      Silverfury.config.set("dragon.mode", mode)
+      Silverfury.log.info("Dragon mode: %s", mode)
+    elseif sub == "armour" or sub == "armor" then
+      local v = (args[2] or "on"):lower()
+      Silverfury.engine.queue.send("dragonarmour " .. v)
+    elseif sub == "summon" then
+      local btype = args[2] or Silverfury.config.get("dragon.breath_type") or "lightning"
+      Silverfury.engine.queue.send("summon " .. btype)
+    elseif sub == "status" then
+      local dcore = Silverfury.dragon.core
+      local tgt   = Silverfury.state.target
+      local est   = tgt.devour_estimate
+      cecho("\n<ansi_cyan>══ Dragon Status ══════════════════════════<reset>\n")
+      cecho(string.format(" Form: %s  Armour: %s  Breath: %s\n",
+        Silverfury.state.me.form == "dragon" and "<ansi_green>DRAGON<reset>" or "human",
+        dcore.hasDragonarmour()  and "<ansi_green>ON<reset>"  or "<ansi_red>OFF<reset>",
+        dcore.breathSummoned()   and "<ansi_green>summoned<reset>" or "<ansi_red>none<reset>"))
+      if tgt.name then
+        local torso = tgt.limbs and tgt.limbs.torso
+        cecho(string.format(" Target: %s  Prone: %s  Torso: %d%%  Broken: %s\n",
+          tgt.name,
+          tgt.prone and "<ansi_yellow>Y<reset>" or "N",
+          (torso and torso.damage_pct or 0),
+          (torso and torso.broken) and "<ansi_red>YES<reset>" or "no"))
+        if est then
+          cecho(string.format(" Devour estimate: %s\n",
+            est.safe and string.format("<ansi_green>%.1fs SAFE<reset>", est.total_seconds)
+                      or string.format("<ansi_red>%.1fs NOT SAFE<reset>", est.total_seconds)))
+        end
+      end
+      local sc = Silverfury.scenarios and Silverfury.scenarios.base.status()
+      if sc and sc.active and sc.name == "dragon_devour" then
+        local ph = Silverfury.scenarios.dragon_devour.phase and
+                   Silverfury.scenarios.dragon_devour.phase() or "?"
+        cecho(string.format(" Scenario: dragon_devour [%s]\n", ph))
+      end
+      cecho("<ansi_cyan>══════════════════════════════════════════<reset>\n")
+    elseif sub == "debug" then
+      local mc = Silverfury.dragon.matchups.get(Silverfury.state.target.class)
+      if mc then
+        cecho("\n<ansi_cyan>Matchup notes:<reset> " .. (mc.notes or "none") .. "\n")
+        if mc.high_threat     then cecho(" <ansi_red>[HIGH THREAT]<reset>\n") end
+        if mc.abort_in_grove  then cecho(" <ansi_yellow>[ABORT IN GROVE]<reset>\n") end
+        if mc.use_breathstorm then cecho(" <ansi_cyan>[BREATHSTORM PRIORITY]<reset>\n") end
+      else
+        Silverfury.log.info("No matchup data for class: %s", tostring(Silverfury.state.target.class))
+      end
+    elseif sub == "devour" then
+      local est = Silverfury.dragon.devour.estimate()
+      cecho(string.format("\n<ansi_cyan>Devour estimate:<reset> %s\n", est.reason))
+      for _, l in ipairs(est.breakdown) do
+        cecho("  " .. l .. "\n")
+      end
+    elseif sub == "threshold" then
+      local s = tonumber(args[2])
+      if s and s > 0 and s < 10 then
+        Silverfury.config.set("dragon.devour_safe_threshold", s)
+        Silverfury.log.info("Devour safe threshold: %.1fs", s)
+      else
+        Silverfury.log.warn("Usage: sf dragon threshold <seconds, e.g. 5.7>")
+      end
+    else
+      Silverfury.log.warn("sf dragon: on|off|form|lesserform|breath <type>|mode <mode>|armour on|off|summon|status|debug|devour|threshold <s>")
+    end
+
+  -- ── Runelore ──────────────────────────────────────────────────────────────────────
   elseif cmd == "runelore" or cmd == "rl" then
     local sub = (args[1] or ""):lower()
     if sub == "status" then

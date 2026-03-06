@@ -47,7 +47,17 @@ local function newTarget()
     flying    = false,
     lyred     = false,
     impaled   = false,
-    hp_pct    = nil,   -- 0.0–1.0 when known from parser, nil = unknown
+    hp_pct         = nil,    -- 0.0-1.0 when known from parser, nil = unknown
+    mana_pct       = nil,    -- 0.0-1.0 when known, nil = unknown
+
+    -- Dragon-specific target state
+    class          = nil,    -- detected class name string
+    can_fly        = nil,    -- true/false/nil when unknown
+    enmeshed       = false,  -- ethereal tendrils bound
+    last_escape_dir = nil,   -- last direction target fled
+    devour_estimate = nil,   -- most recent devour.estimate() result
+    balance_hindered = false,
+    eq_hindered      = false,
 
     -- Affs tracked: key = aff_name, val = newAff record
     affs = {},

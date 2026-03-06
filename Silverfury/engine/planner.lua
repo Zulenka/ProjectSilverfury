@@ -44,6 +44,12 @@ function planner.choose()
     return action("idle", nil, "attack disabled")
   end
 
+  -- Branch: dragon form uses its own planner to avoid mixing sword/venom logic.
+  if Silverfury.state.me.form == "dragon"
+      and Silverfury.config.get("dragon.enabled") then
+    return planner._chooseDragonAction()
+  end
+
   return planner._chooseAttack()
 end
 
@@ -95,6 +101,15 @@ function planner._chooseAttack()
   -- Standard DSL limb prep.
   local tpl = cfg.get("attack.templates." .. template_key) or "dsl {target} {limb} {venom1} {venom2}"
   return action("attack", planner._fill(tpl, {v1=v1, v2=v2, limb=limb}), "limbprep " .. (limb or "?"))
+end
+
+-- ── Dragon attack selection ───────────────────────────────────────────────────
+-- Delegates to dragon/core.lua free-form logic when in dragon form without
+-- an active scenario. The dragon_devour scenario handles its own action
+-- selection via scenarios/base.lua; this is only for unscripted dragon play.
+
+function planner._chooseDragonAction()
+  return Silverfury.dragon.core.chooseFreeAction()
 end
 
 -- ── Limb selection ────────────────────────────────────────────────────────────
