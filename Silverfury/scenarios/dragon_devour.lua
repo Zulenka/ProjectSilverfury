@@ -75,8 +75,8 @@ local function advancePhase()
     end
 
   elseif _phase == PHASE.PIN then
-    -- Advance to GROUND once we have at least blocked or have no pending pin work.
-    _phase = PHASE.GROUND
+    -- PIN exits to GROUND from within pinAction() once control work is done.
+    -- advancePhase() does not auto-advance here to avoid skipping pin work.
 
   elseif _phase == PHASE.GROUND then
     if t.prone then
@@ -266,7 +266,6 @@ function scenario.executeAction()
 
   if est.safe and me().bal then
     _devour_start_t = Silverfury.time.now()
-    raiseEvent("SF_DevourStarted", t.name)
     Silverfury.log.info("Dragon: DEVOUR %s — %s", t.name or "?", est.reason)
     return act(cmds().devour(t.name), "execute: devour (" .. est.reason .. ")")
   end
@@ -294,6 +293,11 @@ function scenario.isComplete()
 end
 
 -- ── Lifecycle ─────────────────────────────────────────────────────────────────
+
+-- Public entry point — called by bindings.lua "sf exec dragon".
+function scenario.start()
+  Silverfury.scenarios.base.start("dragon_devour", scenario)
+end
 
 function scenario.onStart()
   _phase          = PHASE.LOCATE

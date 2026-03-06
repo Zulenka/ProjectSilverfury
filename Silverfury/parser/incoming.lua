@@ -423,7 +423,8 @@ local PATTERNS = {
   { "You tear the head from (.+)['s]* shoulders",
     function(_, name)
       if incoming._isTarget(name) then
-        Silverfury.state.target.dead = true
+        Silverfury.state.target.dead    = true
+        Silverfury.state.target.in_room = false
         -- Log outcome for estimator calibration.
         local sc = Silverfury.scenarios and Silverfury.scenarios.dragon_devour
         local elapsed = nil
@@ -432,6 +433,8 @@ local PATTERNS = {
           sc.clearDevourStartT()
         end
         Silverfury.dragon.devour.logOutcome(true, elapsed)
+        Silverfury.logging.logger.write("TARGET_DEAD", { name=name, method="devour" })
+        raiseEvent("SF_TargetDead",      name)
         raiseEvent("SF_DevourSucceeded", name)
       end
     end },

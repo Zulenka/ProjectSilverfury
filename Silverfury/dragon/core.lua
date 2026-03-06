@@ -94,7 +94,13 @@ function core.chooseFreeAction()
     return act(cmds.breathstrip(tgt.name), "dragon: breathstrip → strip rebounding")
   end
 
-  -- 4. Ground target if standing.
+  -- 4. Breathstorm for matchup-specific strategies (Serpent reveal, Magi/Sentinel clear).
+  if Silverfury.dragon.matchups.shouldBreathstorm(tgt.class)
+      and _state.breath_summoned and me.bal then
+    return act(cmds.breathstorm(tgt.name), "dragon: breathstorm (matchup)")
+  end
+
+  -- 5. Ground target if standing.
   if not tgt.prone then
     if cfg.get("dragon.prefer_breathgust") and me.eq then
       return act(cmds.breathgust(tgt.name), "dragon: breathgust → prone")
@@ -125,8 +131,6 @@ function core.chooseFreeAction()
 
   -- 8. Blast (eq-based breath attack).
   if me.eq and _state.breath_summoned then
-    local btype = core.breathForClass(tgt.class)
-    _ = btype   -- used for matchup; actual blast command is generic
     return act(cmds.blast(tgt.name), "dragon: blast")
   end
 
@@ -144,6 +148,13 @@ function core.registerHandlers()
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_TargetChanged", function()
     -- Keep breath/armour state; only reset per-target tracking is done in target.lua.
     Silverfury.log.trace("Dragon core: target changed")
+  end)
+
+  -- Reset state when dragon form is re-entered so upkeep reruns armour/breath checks.
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_DragonFormGained", function()
+    _state.breath_summoned = false
+    _state.dragonarmour    = false
+    Silverfury.log.info("Dragon: transformed to dragon form — resetting dragon state")
   end)
 
   -- If we revert from dragon form, clear breath state.

@@ -124,6 +124,55 @@ local function onCommandSent(_, cmd)
     Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="dragonflex" })
     return
   end
+
+  -- tailsmash <target>
+  if cmd:match("^tailsmash%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="tailsmash" })
+    return
+  end
+
+  -- breathstrip <target>
+  if cmd:match("^breathstrip%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="breathstrip" })
+    return
+  end
+
+  -- blast <target> — breath weapon fired
+  if cmd:match("^blast%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="blast" })
+    raiseEvent("SF_DragonBlastSent")
+    return
+  end
+
+  -- breathstorm <target>
+  if cmd:match("^breathstorm%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="breathstorm" })
+    return
+  end
+
+  -- swipe <target> ...
+  if cmd:match("^swipe%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="swipe" })
+    return
+  end
+
+  -- enmesh <target>
+  if cmd:match("^enmesh%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="enmesh" })
+    return
+  end
+
+  -- becalm <target>
+  if cmd:match("^becalm%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="becalm" })
+    return
+  end
+
+  -- track <target>
+  if cmd:match("^track%s+") then
+    Silverfury.logging.logger.write("DRAGON_COMMAND", { cmd=cmd, action="track" })
+    return
+  end
 end
 
 -- ── Confirm lines ─────────────────────────────────────────────────────────────
