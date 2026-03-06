@@ -1,27 +1,13 @@
 -- Silverfury/ui/bindings.lua
 -- All "sf ..." alias command handlers.
--- One Mudlet alias: ^sf(.*)$
+-- The alias ^sf(.*)$ is defined as a static Mudlet XML alias (via build_package.py)
+-- and calls: Silverfury.ui.bindings.handle(matches[2])
 
 Silverfury = Silverfury or {}
 Silverfury.ui = Silverfury.ui or {}
 
 Silverfury.ui.bindings = Silverfury.ui.bindings or {}
 local bindings = Silverfury.ui.bindings
-
--- ── Alias registration ────────────────────────────────────────────────────────
-
-function bindings.registerAlias()
-  if bindings._alias_id then killAlias(bindings._alias_id) end
-  bindings._alias_id = tempAlias("^sf(.*)", function()
-    local raw = matches[2] or ""
-    bindings.handle(raw)
-  end)
-  Silverfury.log.trace("SF alias registered.")
-end
-
-function bindings.shutdown()
-  if bindings._alias_id then killAlias(bindings._alias_id); bindings._alias_id = nil end
-end
 
 -- ── Dispatcher ────────────────────────────────────────────────────────────────
 

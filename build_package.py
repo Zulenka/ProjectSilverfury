@@ -81,7 +81,6 @@ function Silverfury.shutdown()
   Silverfury.bridge.ak.shutdown()
   Silverfury.runelore.core.shutdown()
   Silverfury.dragon.core.shutdown()
-  Silverfury.ui.bindings.shutdown()
   Silverfury.ui.window.shutdown()
   Silverfury.logging.logger.shutdown()
   Silverfury.log.info("Silverfury shut down.")
@@ -117,7 +116,6 @@ Silverfury.bridge.legacy.registerHandlers()
 Silverfury.bridge.ak.registerHandlers()
 Silverfury.safety.registerHandlers()
 Silverfury.retaliate.registerHandlers()
-Silverfury.ui.bindings.registerAlias()
 Silverfury.ui.window.registerHandlers()
 
 if Silverfury.config.get("ui.open_on_start") then
@@ -181,6 +179,19 @@ def build_xml():
     lines += [
         '    </ScriptGroup>',
         '  </ScriptPackage>',
+        '  <AliasPackage>',
+        '    <AliasGroup isActive="yes" isFolder="yes">',
+        '      <name>Silverfury</name>',
+        '      <packageName>Silverfury</packageName>',
+        '      <Alias isActive="yes" isFolder="no">',
+        '        <name>sf</name>',
+        '        <packageName>Silverfury</packageName>',
+        '        <script><![CDATA[Silverfury.ui.bindings.handle(matches[2])]]></script>',
+        '        <command></command>',
+        '        <regex>^sf(.*)</regex>',
+        '      </Alias>',
+        '    </AliasGroup>',
+        '  </AliasPackage>',
         '</MudletPackage>',
     ]
 
