@@ -10,10 +10,12 @@ Silverfury.engine.planner = planner
 
 -- ── Action descriptor ─────────────────────────────────────────────────────────
 -- An "action" is a table:
---   { type = "attack"|"rune"|"scenario"|"idle", cmd = "...", reason = "..." }
+--   { type = "attack"|"rune"|"scenario"|"dragon"|"idle",
+--     cmd = "...", reason = "...",
+--     resource = "bal"|"eq"|"eqbal"|"freestand"|"free"|"class"|"direct" }
 
-local function action(type, cmd, reason)
-  return { type=type, cmd=cmd, reason=reason or "" }
+local function action(type, cmd, reason, resource)
+  return { type=type, cmd=cmd, reason=reason or "", resource=resource or "bal" }
 end
 
 -- ── Main decision entry ───────────────────────────────────────────────────────
@@ -69,7 +71,7 @@ function planner._chooseAttack()
 
   -- Shield stripping takes priority.
   if tgt.hasDef("shield") then
-    local tpl = cfg.get("attack.templates.razeslash") or "razeslash {target} {venom1} {venom2}"
+    local tpl = cfg.get("attack.templates.razeslash") or "razeslash {target}"
     return action("attack", planner._fill(tpl, {v1=v1, v2=v2}), "strip shield")
   end
 
@@ -154,19 +156,28 @@ end
 function planner.execute(a)
   if not a or a.type == "idle" or not a.cmd then return end
   local me = Silverfury.state.me
+  local resource = a.resource or "bal"
 
-  -- Wield check for human form.
+  -- Wield check for human form — zero balance cost, bypass queue slot.
   if me.form == "human" and not me.swords_wielded then
     local rewield = Silverfury.config.get("attack.rewield_cmd") or "wield scimitar scimitar"
-    Silverfury.engine.queue.send(rewield)
+    Silverfury.engine.queue.send(rewield, "direct")
     me.swords_wielded = true
   end
 
-  local sent = Silverfury.engine.queue.send(a.cmd)
+  local sent = Silverfury.engine.queue.send(a.cmd, resource)
   if sent then
-    -- Optimistically clear balance so we don't double-fire this tick.
-    me.bal = false
-    Silverfury.log.info("[%s] %s  — %s", a.type, a.cmd, a.reason)
+    -- Optimistically clear the balance flag the action consumes.
+    if resource == "eq" then
+      me.eq = false
+    elseif resource == "freestand" or resource == "eqbal" then
+      me.bal = false
+      me.eq  = false
+    elseif resource ~= "direct" then
+      -- "bal", "free", "class" all consume balance.
+      me.bal = false
+    end
+    Silverfury.log.info("[%s|%s] %s  — %s", a.type, resource, a.cmd, a.reason)
     Silverfury.logging.logger.write("OUTGOING_COMMAND", { cmd=a.cmd, reason=a.reason, type=a.type })
     raiseEvent("SF_ActionSent", a)
   else

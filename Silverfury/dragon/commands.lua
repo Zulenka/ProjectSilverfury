@@ -59,20 +59,22 @@ function commands.enmesh(target)
 end
 
 -- ── Physical attacks ──────────────────────────────────────────────────────────
--- rend: targeted limb is optional; without it AK records faster balance.
-function commands.rend(target, limb)
-  if limb then
-    return "rend " .. (target or tname()) .. " " .. limb
-  end
-  return "rend " .. (target or tname())
+-- rend: limb and venom are both optional; without limb AK grants faster balance.
+function commands.rend(target, limb, venom)
+  local cmd = "rend " .. (target or tname())
+  if limb then cmd = cmd .. " " .. limb end
+  if venom and venom ~= "" then cmd = cmd .. " " .. venom end
+  return cmd
 end
 
--- swipe: hits one limb then follows up on head or torso.
-function commands.swipe(target, limb, follow)
-  return string.format("swipe %s %s %s",
+-- swipe: hits one limb then follows up on head or torso; venom optional.
+function commands.swipe(target, limb, follow, venom)
+  local cmd = string.format("swipe %s %s %s",
     target or tname(),
     limb   or "left leg",
     follow or "torso")
+  if venom and venom ~= "" then cmd = cmd .. " " .. venom end
+  return cmd
 end
 
 function commands.gut(target, venom)

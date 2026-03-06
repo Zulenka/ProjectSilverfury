@@ -13,10 +13,16 @@ local _pending       = nil   -- action waiting for balance
 
 -- ── Internal send ─────────────────────────────────────────────────────────────
 
-local function rawSend(cmd)
+-- resource: "bal" | "eq" | "eqbal" | "freestand" | "free" | "class" | "direct"
+-- "direct" bypasses the server queue (used for zero-balance-cost commands like summon).
+local function rawSend(cmd, resource)
   if Silverfury.config.get("combat.use_server_queue") then
-    -- server queue mode: use Achaea's sq system
-    sendAll("queue addclear bal " .. cmd)
+    if resource == "direct" then
+      send(cmd)
+    else
+      local slot = resource or "bal"
+      sendAll("queue addclear " .. slot .. " " .. cmd)
+    end
   else
     send(cmd)
   end
@@ -26,23 +32,24 @@ end
 -- ── Public API ────────────────────────────────────────────────────────────────
 
 -- Send a command immediately if not throttled. Returns true if sent.
-function Q.send(cmd)
+-- resource: "bal"|"eq"|"eqbal"|"freestand"|"free"|"class"|"direct" (default "bal")
+function Q.send(cmd, resource)
   local anti_spam = Silverfury.config.get("combat.anti_spam_ms") or 275
   local elapsed   = Silverfury.time.now() - _last_sent_ms
   if elapsed < anti_spam then
     Silverfury.log.trace("queue.send throttled (%dms < %dms): %s", elapsed, anti_spam, cmd)
     return false
   end
-  rawSend(cmd)
-  Silverfury.log.trace("queue.send → %s", cmd)
+  rawSend(cmd, resource)
+  Silverfury.log.trace("queue.send [%s] → %s", resource or "bal", cmd)
   raiseEvent("SF_CommandSent", cmd)
   return true
 end
 
 -- Send multiple commands in sequence (one per send call, not batched).
-function Q.sendAll(cmds)
+function Q.sendAll(cmds, resource)
   for _, cmd in ipairs(cmds) do
-    rawSend(cmd)
+    rawSend(cmd, resource)
   end
   raiseEvent("SF_CommandSent", table.concat(cmds, "; "))
 end

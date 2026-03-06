@@ -71,19 +71,20 @@ function core.chooseFreeAction()
   local cmds = Silverfury.dragon.commands
   local cfg  = Silverfury.config
 
-  local function act(cmd, reason)
-    return { type = "dragon", cmd = cmd, reason = reason }
+  -- resource: "bal"|"eq"|"freestand"|"direct"
+  local function act(cmd, reason, resource)
+    return { type = "dragon", cmd = cmd, reason = reason, resource = resource or "bal" }
   end
 
-  -- 1. Dragonarmour upkeep.
+  -- 1. Dragonarmour upkeep (eq-based).
   if core.shouldEnsureDragonarmour() then
-    return act(cmds.dragonarmour("on"), "dragon: ensure dragonarmour")
+    return act(cmds.dragonarmour("on"), "dragon: ensure dragonarmour", "eq")
   end
 
-  -- 2. Breath summon.
+  -- 2. Breath summon (no balance/eq cost — direct send only).
   if core.shouldSummonBreath() then
     local btype = cfg.get("dragon.breath_type") or "lightning"
-    return act(cmds.summon(btype), "dragon: summon " .. btype)
+    return act(cmds.summon(btype), "dragon: summon " .. btype, "direct")
   end
 
   -- 3. Strip shield/rebounding.
@@ -95,44 +96,45 @@ function core.chooseFreeAction()
   end
 
   -- 4. Breathstorm for matchup-specific strategies (Serpent reveal, Magi/Sentinel clear).
+  --    breathstorm is room-wide — no target argument.
   if Silverfury.dragon.matchups.shouldBreathstorm(tgt.class)
       and _state.breath_summoned and me.bal then
-    return act(cmds.breathstorm(tgt.name), "dragon: breathstorm (matchup)")
+    return act(cmds.breathstorm(), "dragon: breathstorm (matchup)")
   end
 
   -- 5. Ground target if standing.
   if not tgt.prone then
     if cfg.get("dragon.prefer_breathgust") and me.eq then
-      return act(cmds.breathgust(tgt.name), "dragon: breathgust → prone")
+      return act(cmds.breathgust(tgt.name), "dragon: breathgust → prone", "eq")
     elseif me.bal then
       return act(cmds.tailsweep(), "dragon: tailsweep → prone")
     end
   end
 
-  -- 5. Devour window check.
+  -- 6. Devour window check (freestand: requires bal+eq+standing+not hindered).
   local est = Silverfury.dragon.devour.estimate()
   if est.safe and me.bal then
-    return act(cmds.devour(tgt.name), "dragon: devour (" .. est.reason .. ")")
+    return act(cmds.devour(tgt.name), "dragon: devour (" .. est.reason .. ")", "freestand")
   end
 
-  -- 6. Torso focus if torso not broken.
+  -- 7. Torso focus if torso not broken.
   local torso = tgt.limbs and tgt.limbs.torso
   if torso and not torso.broken and me.bal then
     local gv = Silverfury.offense.venoms.pick()
     return act(cmds.gut(tgt.name, gv), "dragon: gut → torso pressure")
   end
 
-  -- 7. General pressure.
+  -- 8. General pressure.
   if me.bal then
     if tgt.prone then
       return act(cmds.bite(tgt.name), "dragon: bite (prone)")
     end
-    return act(cmds.rend(tgt.name, nil), "dragon: rend")
+    return act(cmds.rend(tgt.name), "dragon: rend")
   end
 
-  -- 8. Blast (eq-based breath attack).
+  -- 9. Blast (eq-based breath attack).
   if me.eq and _state.breath_summoned then
-    return act(cmds.blast(tgt.name), "dragon: blast")
+    return act(cmds.blast(tgt.name), "dragon: blast", "eq")
   end
 
   return { type = "idle", cmd = nil, reason = "dragon: waiting for balance" }

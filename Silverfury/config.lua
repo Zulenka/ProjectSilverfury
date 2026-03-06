@@ -51,7 +51,7 @@ local defaults = {
       razeslash  = "razeslash {target}",                   -- strips shield + jabs; no venom arg
       impale     = "impale {target}",
       disembowel = "disembowel {target}",
-      bisect     = "bisect {target}",
+      bisect     = "bisect {target} {venom1}",          -- optional venom; _fill cleans trailing space
     },
     default_template = "dsl",
     prep_limbs = { "left_leg", "right_leg", "torso" },   -- break order
