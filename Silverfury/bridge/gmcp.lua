@@ -73,6 +73,29 @@ local function onRoomInfo()
   end
 end
 
+-- ── Char.Status (dragon form detection) ──────────────────────────────────────
+
+local function onCharStatus()
+  local st = gmcp and gmcp.Char and gmcp.Char.Status
+  if type(st) ~= "table" then return end
+  local race = (st.race or ""):lower()
+  local me   = Silverfury.state.me
+  local cur  = me.form
+  if race:find("dragon") then
+    if cur ~= "dragon" then
+      me.form = "dragon"
+      raiseEvent("SF_DragonFormGained")
+      Silverfury.log.info("Dragon: dragon form detected via GMCP (race: %s)", tostring(st.race))
+    end
+  else
+    if cur == "dragon" then
+      me.form = "human"
+      raiseEvent("SF_DragonFormLost")
+      Silverfury.log.info("Dragon: human form detected via GMCP (race: %s)", tostring(st.race))
+    end
+  end
+end
+
 -- ── Registration ─────────────────────────────────────────────────────────────
 
 function gmcp.registerHandlers()
@@ -82,6 +105,7 @@ function gmcp.registerHandlers()
   _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Char.Vitals",    onVitals)
   _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Room.Players",   onRoomPlayers)
   _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Room.Info",       onRoomInfo)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Char.Status",     onCharStatus)
 end
 
 function gmcp.shutdown()

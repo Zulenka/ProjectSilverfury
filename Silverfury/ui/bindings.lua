@@ -183,8 +183,18 @@ function bindings.handle(raw)
       else
         Silverfury.log.warn("Usage: sf dragon threshold <seconds, e.g. 5.7>")
       end
+    elseif sub == "setform" then
+      local form = (args[2] or "human"):lower()
+      Silverfury.state.me.form = form
+      if form == "dragon" then
+        raiseEvent("SF_DragonFormGained")
+        Silverfury.log.info("Dragon: form manually set to dragon")
+      else
+        raiseEvent("SF_DragonFormLost")
+        Silverfury.log.info("Dragon: form manually set to human")
+      end
     else
-      Silverfury.log.warn("sf dragon: on|off|form|lesserform|breath <type>|mode <mode>|armour on|off|summon|status|debug|devour|threshold <s>")
+      Silverfury.log.warn("sf dragon: on|off|form|lesserform|setform <dragon|human>|breath <type>|mode <mode>|armour on|off|summon|status|debug|devour|threshold <s>")
     end
 
   -- ── Runelore ──────────────────────────────────────────────────────────────────────
