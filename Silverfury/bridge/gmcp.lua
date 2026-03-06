@@ -1,5 +1,6 @@
 -- Silverfury/bridge/gmcp.lua
--- GMCP data bridge: Char.Vitals, Room.Players, Char.Status.
+-- GMCP data bridge: Char.Vitals, Room.Players, Char.Status,
+-- IRE.Target.Set (auto-target), IRE.Target.Status (target HP%).
 
 Silverfury = Silverfury or {}
 Silverfury.bridge = Silverfury.bridge or {}
@@ -96,16 +97,51 @@ local function onCharStatus()
   end
 end
 
+-- ── IRE.Target.Set (auto-target from in-game settarget) ──────────────────────
+-- RWDA groupcombat integration pattern: read target name from GMCP.
+-- Fires when the player uses `settarget <name>` in Achaea.
+-- Mudlet stores the data at gmcp.IRE.Target with a "name" field.
+
+local function onTargetSet()
+  local t = gmcp and gmcp.IRE and gmcp.IRE.Target
+  if type(t) ~= "table" then return end
+  local tname = t.name or t.Name or ""
+  if tname == "" then return end
+  local tgt = Silverfury.state.target
+  if (tgt.name or ""):lower() ~= tname:lower() then
+    Silverfury.state.target.setName(tname)
+    Silverfury.log.info("Target: auto-set from GMCP settarget → %s", tname)
+  end
+end
+
+-- ── IRE.Target.Status (target HP% for bisect eligibility) ────────────────────
+-- When available, syncs target HP/mana percentage into tgt.hp_pct / tgt.mana_pct
+-- for use by the Hugalaz bisect threshold check and devour estimator.
+
+local function onTargetStatus()
+  local s = gmcp and gmcp.IRE and gmcp.IRE.Target and gmcp.IRE.Target.Status
+  if type(s) ~= "table" then return end
+  local tgt    = Silverfury.state.target
+  local hp_pct = tonumber(s.hppercent) or tonumber(s.hp_percent)
+             or tonumber(s.hpPercent)
+  local mp_pct = tonumber(s.mppercent) or tonumber(s.mp_percent)
+             or tonumber(s.mpPercent)
+  if hp_pct then tgt.hp_pct   = hp_pct / 100 end
+  if mp_pct then tgt.mana_pct = mp_pct / 100 end
+end
+
 -- ── Registration ─────────────────────────────────────────────────────────────
 
 function gmcp.registerHandlers()
   for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
-  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Char.Vitals",    onVitals)
-  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Room.Players",   onRoomPlayers)
-  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Room.Info",       onRoomInfo)
-  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Char.Status",     onCharStatus)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Char.Vitals",       onVitals)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Room.Players",      onRoomPlayers)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Room.Info",          onRoomInfo)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Char.Status",        onCharStatus)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.IRE.Target.Set",     onTargetSet)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.IRE.Target.Status",  onTargetStatus)
 end
 
 function gmcp.shutdown()

@@ -518,6 +518,74 @@ function incoming._isTarget(name)
   return tname:lower() == name:lower()
 end
 
+-- ── Assess line parser ─────────────────────────────────────────────────────────
+-- RWDA-derived pattern: map severity keywords from `assess <target>` output to
+-- approximate damage_pct values and push them into tgt.updateLimb().
+-- Acts as a fallback when the AK bridge is not active.
+-- Severity map (RWDA ASSESS_LIMB_MAP equivalent):
+
+local ASSESS_SEV_PCT = {
+  undamaged     = 0,
+  pristine      = 0,
+  minor         = 15,
+  moderate      = 30,
+  serious       = 50,
+  severe        = 50,
+  critical      = 65,
+  mauled        = 85,
+  broken        = 100,
+  mangled       = 120,
+}
+
+-- Achaea assess limb names → SF internal limb names.
+local ASSESS_LIMB_MAP = {
+  ["left leg"]  = "left_leg",
+  ["right leg"] = "right_leg",
+  ["left arm"]  = "left_arm",
+  ["right arm"] = "right_arm",
+  head          = "head",
+  torso         = "torso",
+}
+
+function incoming._assessProcess(clean)
+  if not clean or clean == "" then return end
+  local tgt   = Silverfury.state.target
+  local tname = tgt.name
+  if not tname then return end
+
+  local low = clean:lower()
+  -- Must mention our current target.
+  if not low:find(tname:lower(), 1, true) then return end
+
+  -- Find a limb name in this line.
+  local sf_limb = nil
+  for game_name, sf_name in pairs(ASSESS_LIMB_MAP) do
+    if low:find(game_name, 1, true) then
+      sf_limb = sf_name
+      break
+    end
+  end
+  if not sf_limb then return end
+
+  -- Find the highest-severity keyword on the same line.
+  local dmg_pct = nil
+  for sev, pct in pairs(ASSESS_SEV_PCT) do
+    if low:find(sev, 1, true) then
+      if dmg_pct == nil or pct > dmg_pct then
+        dmg_pct = pct
+      end
+    end
+  end
+  if dmg_pct == nil then return end
+
+  local is_broken  = dmg_pct >= 100
+  local is_mangled = dmg_pct >= 120
+  tgt.updateLimb(sf_limb, dmg_pct, is_broken, is_mangled)
+  raiseEvent("SF_AssessLimb", sf_limb, dmg_pct)
+  Silverfury.log.trace("Assess [%s]: %s = %d%%%s",
+    tname, sf_limb, dmg_pct, is_broken and " (broken)" or "")
+end
+
 -- ── Line processor ────────────────────────────────────────────────────────────
 
 function incoming.process(line)
@@ -538,6 +606,10 @@ function incoming.process(line)
       -- Don't break — multiple patterns may match one line.
     end
   end
+
+  -- Assess fallback parser (RWDA-derived): reads `assess <target>` severity
+  -- lines and updates tgt.limbs when AK bridge data is unavailable/stale.
+  incoming._assessProcess(clean)
 end
 
 -- ── Event registration ────────────────────────────────────────────────────────
