@@ -43,6 +43,7 @@ LOAD_ORDER = [
     "scenarios/dragon_devour.lua",
     "retaliate.lua",
     "parser/incoming.lua",
+    "parser/class_detect.lua",
     "parser/outgoing.lua",
     "bridge/gmcp.lua",
     "bridge/legacy.lua",
@@ -75,6 +76,7 @@ function Silverfury.shutdown()
   Silverfury.safety.shutdown()
   Silverfury.retaliate.shutdown()
   Silverfury.parser.incoming.shutdown()
+  Silverfury.parser.class_detect.shutdown()
   Silverfury.parser.outgoing.shutdown()
   Silverfury.bridge.gmcp.shutdown()
   Silverfury.bridge.legacy.shutdown()
@@ -110,6 +112,7 @@ Silverfury.runelore.core.init()
 Silverfury.runelore.core.registerHandlers()
 Silverfury.dragon.core.registerHandlers()
 Silverfury.parser.incoming.registerHandlers()
+Silverfury.parser.class_detect.registerHandlers()
 Silverfury.parser.outgoing.registerHandlers()
 Silverfury.bridge.gmcp.registerHandlers()
 Silverfury.bridge.legacy.registerHandlers()

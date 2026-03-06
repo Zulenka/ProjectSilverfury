@@ -507,6 +507,299 @@ local PATTERNS = {
         Silverfury.log.info("Dragon: target fled %s — stored as last_escape_dir", dir)
       end
     end },
+
+  -- ──────────────────────────────────────────────────────────────────────────
+  -- RWDA / SVOF DERIVED PATTERNS (added from reference system analysis)
+  -- ──────────────────────────────────────────────────────────────────────────
+
+  -- ── Balance/eq combined restore + loss ───────────────────────────────────
+  -- "You have recovered equilibrium and balance" is a single combined line
+  -- that the existing split patterns would not catch.
+  { "You have recovered equilibrium and balance",
+    function()
+      Silverfury.state.me.bal = true
+      Silverfury.state.me.eq  = true
+      Silverfury.engine.queue.onBalanceRestored()
+    end },
+
+  { "You lose your balance",
+    function() Silverfury.state.me.bal = false end },
+
+  { "You lose your equilibrium",
+    function() Silverfury.state.me.eq = false end },
+
+  { "You cease to wield balance",
+    function() Silverfury.state.me.bal = false end },
+
+  -- ── Wield state (RWDA) ────────────────────────────────────────────────────
+  { "you begin to wield",
+    function() Silverfury.state.me.swords_wielded = true end },
+
+  { "you stop wielding",
+    function() Silverfury.state.me.swords_wielded = false end },
+
+  { "you are no longer wielding",
+    function() Silverfury.state.me.swords_wielded = false end },
+
+  -- ── Target shield — RWDA-precise phrasings ────────────────────────────────
+  { "^A shimmering shield surrounds (.+)%.",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("shield", true)
+      end
+    end },
+
+  { "^The shimmering shield around (.+) is destroyed",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("shield", false)
+      end
+    end },
+
+  -- ── Target rebounding — RWDA-precise phrasings ───────────────────────────
+  { "^A nearly invisible magical shield forms around (.+)%.",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("rebounding", true)
+      end
+    end },
+
+  { "^An aura of weapons rebounding begins to surround (.+)%.",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("rebounding", true)
+      end
+    end },
+
+  { "^The rebounding aura around (.+) dissipates",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("rebounding", false)
+      end
+    end },
+
+  { "^The aura of weapons rebounding around (.+) dissipates",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("rebounding", false)
+      end
+    end },
+
+  -- ── More prone / stood patterns (RWDA) ───────────────────────────────────
+  { "(.+) is knocked off balance and falls to the ground",
+    function(_, name)
+      if incoming._isTarget(name) then Silverfury.state.target.prone = true end
+    end },
+
+  { "(.+) is hurled to the ground",
+    function(_, name)
+      if incoming._isTarget(name) then Silverfury.state.target.prone = true end
+    end },
+
+  { "(.+) falls to the ground%.",
+    function(_, name)
+      if incoming._isTarget(name) then Silverfury.state.target.prone = true end
+    end },
+
+  { "(.+) stands up and stretches",
+    function(_, name)
+      if incoming._isTarget(name) then Silverfury.state.target.prone = false end
+    end },
+
+  { "(.+) gets to %w+ feet",
+    function(_, name)
+      if incoming._isTarget(name) then Silverfury.state.target.prone = false end
+    end },
+
+  { "(.+) climbs back to %w+ feet",
+    function(_, name)
+      if incoming._isTarget(name) then Silverfury.state.target.prone = false end
+    end },
+
+  -- ── More impale-free patterns (RWDA) ─────────────────────────────────────
+  { "(.+) pulls free from the impalement",
+    function(_, name)
+      if incoming._isTarget(name) then Silverfury.state.target.impaled = false end
+    end },
+
+  { "(.+) wriggles free from the impalement",
+    function(_, name)
+      if incoming._isTarget(name) then Silverfury.state.target.impaled = false end
+    end },
+
+  -- ── Kill confirmation from our side (RWDA) ───────────────────────────────
+  { "^You have slain (.+)%.",
+    function(_, name)
+      Silverfury.state.target.dead    = true
+      Silverfury.state.target.in_room = false
+      raiseEvent("SF_TargetDead", name)
+      Silverfury.logging.logger.write("TARGET_DEAD", { name=name, method="slay" })
+    end },
+
+  -- ── More finisher outcomes (RWDA) ─────────────────────────────────────────
+  -- "you disembowel" catches the success line broadly (RWDA plain-find).
+  { "you disembowel",
+    function()
+      raiseEvent("SF_DisembowelSuccess", Silverfury.state.target.name)
+    end },
+
+  { "you fail to disembowel",
+    function() raiseEvent("SF_DisembowelFail", "failed") end },
+
+  { "you are not impaling",
+    function() raiseEvent("SF_DisembowelFail", "not impaling") end },
+
+  { "you cease trying to devour",
+    function()
+      Silverfury.dragon.devour.logOutcome(false, nil)
+      raiseEvent("SF_DevourFailed", "ceased")
+    end },
+
+  { "you stop trying to devour",
+    function()
+      Silverfury.dragon.devour.logOutcome(false, nil)
+      raiseEvent("SF_DevourFailed", "stopped")
+    end },
+
+  -- ── More aggressor verbs (RWDA AGGRESSIVE_VERBS) ─────────────────────────
+  { "^([A-Z][%w'%-]+) bites you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) claws you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) attacks you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) strikes you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) kicks you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) punches you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) stares at you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) points at you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) blasts you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  { "^([A-Z][%w'%-]+) smashes you",
+    function(_, name) raiseEvent("SF_AggressorHit", name) end },
+
+  -- ── Self-affliction tracking (SVOF exact patterns) ────────────────────────
+  -- Track critical self-affs so safety.canAct() can gate offense correctly.
+
+  -- Paralysis (bloodroot cure)
+  { "A prickly stinging overcomes your body, fading away into numbness%.",
+    function()
+      Silverfury.state.me.affs["paralysis"] = true
+      raiseEvent("SF_SelfParalysed")
+      Silverfury.log.warn("Self: paralysed — offense gated")
+    end },
+
+  { "Your muscles unlock, and the paralysis retreats%.",
+    function()
+      Silverfury.state.me.affs["paralysis"] = nil
+      raiseEvent("SF_SelfParalysisCured")
+    end },
+
+  -- Asthma (kelp cure)
+  { "You feel a tightening sensation grow in your lungs%.",
+    function()
+      Silverfury.state.me.affs["asthma"] = true
+      raiseEvent("SF_SelfAsthma")
+    end },
+
+  { "You can breathe again%.",
+    function()
+      Silverfury.state.me.affs["asthma"] = nil
+      raiseEvent("SF_SelfAsthmaCured")
+    end },
+
+  -- Slickness (valerian/bloodroot smoke cure)
+  { "your sweat glands have begun to rapidly secrete a foul, oily substance",
+    function()
+      Silverfury.state.me.affs["slickness"] = true
+      raiseEvent("SF_SelfSlick")
+    end },
+
+  { "Your glands cease their oily secretion%.",
+    function()
+      Silverfury.state.me.affs["slickness"] = nil
+      raiseEvent("SF_SelfSlickCured")
+    end },
+
+  -- ── Missing target — clear in_room (RWDA missingTargetMessages) ───────────
+  { "you detect nothing here by that name",
+    function() Silverfury.state.target.in_room = false end },
+
+  { "you cannot see that being here",
+    function() Silverfury.state.target.in_room = false end },
+
+  { "there is no one here by that name",
+    function() Silverfury.state.target.in_room = false end },
+
+  { "you see no one by that name here",
+    function() Silverfury.state.target.in_room = false end },
+
+  { "they are not here",
+    function() Silverfury.state.target.in_room = false end },
+
+  -- ── Fury lifecycle (RWDA fury patterns) ───────────────────────────────────
+  { "surge of fury",
+    function()
+      Silverfury.state.me.fury_active = true
+      raiseEvent("SF_FuryGained")
+    end },
+
+  { "you enter a fury",
+    function()
+      Silverfury.state.me.fury_active = true
+      raiseEvent("SF_FuryGained")
+    end },
+
+  { "your fury fades",
+    function()
+      Silverfury.state.me.fury_active = false
+      raiseEvent("SF_FuryLost")
+    end },
+
+  { "your fury dissipates",
+    function()
+      Silverfury.state.me.fury_active = false
+      raiseEvent("SF_FuryLost")
+    end },
+
+  -- ── Rune patterns — RWDA phrasings (supplement existing patterns) ──────────
+  -- Existing patterns cover "You attune yourself to the rune of X" and
+  -- "You are no longer attuned to the rune of X". RWDA uses different phrasing.
+  { "^[Yy]our (%a+) rune becomes attuned",
+    function(_, rune) raiseEvent("SF_RuneAttuned", rune:lower()) end },
+
+  { "^[Yy]our (%a+) rune has become attuned",
+    function(_, rune) raiseEvent("SF_RuneAttuned", rune:lower()) end },
+
+  { "^[Yy]our (%a+) rune is no longer attuned",
+    function(_, rune) raiseEvent("SF_RuneAttuneLost", rune:lower()) end },
+
+  { "^[Yy]our (%a+) rune loses its attunement",
+    function(_, rune) raiseEvent("SF_RuneAttuneLost", rune:lower()) end },
+
+  { "your runic configuration.-(activates?|springs? to life)",
+    function() raiseEvent("SF_RuneConfigActivated") end },
+
+  -- Pithakhan drain — RWDA two-condition phrasing.
+  { "your pithakhan rune.+drain",
+    function() raiseEvent("SF_PithakhanDrain") end },
+
+  { "your pithakhan rune.+mana from",
+    function() raiseEvent("SF_PithakhanDrain") end },
 }
 
 -- ── Helpers ───────────────────────────────────────────────────────────────────
