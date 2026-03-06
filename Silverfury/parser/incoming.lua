@@ -327,15 +327,14 @@ local PATTERNS = {
     end },
 
   -- ── Dragon form ───────────────────────────────────────────────────────────
-  -- NOTE: exact Achaea message text needs live-test confirmation.
-  { "You transform into your draconic form",
+  { "You are Dragon!",
     function(_)
       Silverfury.state.me.form = "dragon"
       raiseEvent("SF_DragonFormGained")
       Silverfury.log.info("Dragon: transformed to dragon form")
     end },
 
-  { "You return to your previous form",
+  { "Your draconic form melts away",
     function(_)
       Silverfury.state.me.form = "human"
       raiseEvent("SF_DragonFormLost")
