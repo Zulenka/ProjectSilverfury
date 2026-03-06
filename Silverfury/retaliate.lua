@@ -119,11 +119,12 @@ end
 
 -- ── Event hooks ───────────────────────────────────────────────────────────────
 
-local _handlers = {}
+retaliate._handlers = retaliate._handlers or {}
+local _handlers = retaliate._handlers
 
 function retal.registerHandlers()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_AggressorHit", function(_, name)
     retal.onAggressor(name)
@@ -149,7 +150,7 @@ end
 
 function retal.shutdown()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
   _state.aggressors = {}
 end
 

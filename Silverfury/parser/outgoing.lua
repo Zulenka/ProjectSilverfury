@@ -4,8 +4,8 @@
 Silverfury = Silverfury or {}
 Silverfury.parser = Silverfury.parser or {}
 
-local outgoing = {}
-Silverfury.parser.outgoing = outgoing
+Silverfury.parser.outgoing = Silverfury.parser.outgoing or {}
+local outgoing = Silverfury.parser.outgoing
 
 -- ── Track last sent DSL/attack so we can extract venoms ──────────────────────
 
@@ -198,11 +198,12 @@ end
 
 -- ── Registration ─────────────────────────────────────────────────────────────
 
-local _handlers = {}
+outgoing._handlers = outgoing._handlers or {}
+local _handlers = outgoing._handlers
 
 function outgoing.registerHandlers()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_CommandSent", onCommandSent)
   _handlers[#_handlers+1] = registerAnonymousEventHandler("sysDataReceived", onLine)
@@ -210,7 +211,7 @@ end
 
 function outgoing.shutdown()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end
 
 function outgoing.lastCmd()

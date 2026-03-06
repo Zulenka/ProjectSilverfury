@@ -4,10 +4,11 @@
 Silverfury = Silverfury or {}
 Silverfury.bridge = Silverfury.bridge or {}
 
-local gmcp = {}
-Silverfury.bridge.gmcp = gmcp
+Silverfury.bridge.gmcp = Silverfury.bridge.gmcp or {}
+local gmcp = Silverfury.bridge.gmcp
 
-local _handlers = {}
+gmcp._handlers = gmcp._handlers or {}
+local _handlers = gmcp._handlers
 
 -- ── Vitals ──────────────────────────────────────────────────────────────────
 
@@ -76,7 +77,7 @@ end
 
 function gmcp.registerHandlers()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Char.Vitals",    onVitals)
   _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Room.Players",   onRoomPlayers)
@@ -85,5 +86,5 @@ end
 
 function gmcp.shutdown()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end

@@ -5,10 +5,11 @@
 Silverfury = Silverfury or {}
 Silverfury.bridge = Silverfury.bridge or {}
 
-local legacy = {}
-Silverfury.bridge.legacy = legacy
+Silverfury.bridge.legacy = Silverfury.bridge.legacy or {}
+local legacy = Silverfury.bridge.legacy
 
-local _handlers = {}
+legacy._handlers = legacy._handlers or {}
+local _handlers = legacy._handlers
 
 -- ── Detection ────────────────────────────────────────────────────────────────
 
@@ -114,7 +115,7 @@ function legacy.registerHandlers()
   for _, id in ipairs(_handlers) do
     killHandler(id)
   end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("LegacyLoaded",         onLegacyLoaded)
   _handlers[#_handlers+1] = registerAnonymousEventHandler("LPrompt",               onPrompt)
@@ -139,5 +140,5 @@ end
 
 function legacy.shutdown()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end

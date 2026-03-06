@@ -5,8 +5,8 @@
 Silverfury = Silverfury or {}
 Silverfury.runelore = Silverfury.runelore or {}
 
-local core = {}
-Silverfury.runelore.core = core
+Silverfury.runelore.core = Silverfury.runelore.core or {}
+local core = Silverfury.runelore.core
 
 -- ── Runeblade live state ──────────────────────────────────────────────────────
 
@@ -257,11 +257,12 @@ end
 
 -- ── Event hooks ───────────────────────────────────────────────────────────────
 
-local _handlers = {}
+core._handlers = core._handlers or {}
+local _handlers = core._handlers
 
 function core.registerHandlers()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   -- Track pithakhan drain observations.
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_PithakhanDrain", function()
@@ -343,7 +344,7 @@ end
 
 function core.shutdown()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
   core.cancelQueue()
 end
 

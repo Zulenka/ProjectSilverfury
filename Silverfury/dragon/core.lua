@@ -5,8 +5,8 @@
 Silverfury       = Silverfury or {}
 Silverfury.dragon = Silverfury.dragon or {}
 
-local core = {}
-Silverfury.dragon.core = core
+Silverfury.dragon.core = Silverfury.dragon.core or {}
+local core = Silverfury.dragon.core
 
 -- ── Internal state ────────────────────────────────────────────────────────────
 
@@ -139,11 +139,12 @@ end
 
 -- ── Reset on target change ────────────────────────────────────────────────────
 
-local _handlers = {}
+core._handlers = core._handlers or {}
+local _handlers = core._handlers
 
 function core.registerHandlers()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_TargetChanged", function()
     -- Keep breath/armour state; only reset per-target tracking is done in target.lua.
@@ -167,5 +168,5 @@ end
 
 function core.shutdown()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end

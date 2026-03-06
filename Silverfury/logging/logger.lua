@@ -6,8 +6,8 @@
 Silverfury = Silverfury or {}
 Silverfury.logging = Silverfury.logging or {}
 
-local logger = {}
-Silverfury.logging.logger = logger
+Silverfury.logging.logger = Silverfury.logging.logger or {}
+local logger = Silverfury.logging.logger
 
 -- ── State ─────────────────────────────────────────────────────────────────────
 
@@ -15,7 +15,8 @@ local _file    = nil    -- current log file handle
 local _path    = nil    -- current log file path
 local _buffer  = {}     -- in-memory buffer
 local _enabled = true
-local _handlers = {}
+logger._handlers = logger._handlers or {}
+local _handlers = logger._handlers
 
 -- ── File management ───────────────────────────────────────────────────────────
 
@@ -144,7 +145,7 @@ function logger.init()
   _enabled = Silverfury.config.get("logging.enabled") ~= false
 
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("LPrompt",           onPrompt)
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_TargetChanged",  onTargetChanged)
@@ -163,7 +164,7 @@ function logger.shutdown()
   logger.closeFile()
   if _flush_timer then killTimer(_flush_timer); _flush_timer = nil end
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end
 
 -- ── Path helper ───────────────────────────────────────────────────────────────

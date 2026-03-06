@@ -5,8 +5,8 @@
 Silverfury = Silverfury or {}
 Silverfury.parser = Silverfury.parser or {}
 
-local incoming = {}
-Silverfury.parser.incoming = incoming
+Silverfury.parser.incoming = Silverfury.parser.incoming or {}
+local incoming = Silverfury.parser.incoming
 
 -- ── Pattern definitions ───────────────────────────────────────────────────────
 -- Each entry: { pattern, handler(captures...) }
@@ -508,11 +508,12 @@ end
 
 -- ── Event registration ────────────────────────────────────────────────────────
 
-local _handlers = {}
+incoming._handlers = incoming._handlers or {}
+local _handlers = incoming._handlers
 
 function incoming.registerHandlers()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("sysDataReceived", function(_, line)
     incoming.process(line)
@@ -521,7 +522,7 @@ end
 
 function incoming.shutdown()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end
 
 -- ── Manual injection for testing ─────────────────────────────────────────────

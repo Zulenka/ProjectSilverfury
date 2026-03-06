@@ -156,11 +156,12 @@ end
 
 -- ── Event hooks ───────────────────────────────────────────────────────────────
 
-local _handlers = {}
+safety._handlers = safety._handlers or {}
+local _handlers = safety._handlers
 
 function safety.registerHandlers()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   -- Room change → abort execute if configured
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_RoomChanged", function()
@@ -183,7 +184,7 @@ end
 
 function safety.shutdown()
   for _, id in ipairs(_handlers) do killHandler(id) end
-  _handlers = {}
+  for i = #_handlers, 1, -1 do _handlers[i] = nil end
   safety._cancelDeadman()
 end
 

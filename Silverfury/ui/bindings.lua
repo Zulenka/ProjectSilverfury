@@ -5,16 +5,14 @@
 Silverfury = Silverfury or {}
 Silverfury.ui = Silverfury.ui or {}
 
-local bindings = {}
-Silverfury.ui.bindings = bindings
+Silverfury.ui.bindings = Silverfury.ui.bindings or {}
+local bindings = Silverfury.ui.bindings
 
 -- ── Alias registration ────────────────────────────────────────────────────────
 
-local _alias_id = nil
-
 function bindings.registerAlias()
-  if _alias_id then killAlias(_alias_id) end
-  _alias_id = tempAlias("^sf(.*)", function()
+  if bindings._alias_id then killAlias(bindings._alias_id) end
+  bindings._alias_id = tempAlias("^sf(.*)", function()
     local raw = matches[2] or ""
     bindings.handle(raw)
   end)
@@ -22,7 +20,7 @@ function bindings.registerAlias()
 end
 
 function bindings.shutdown()
-  if _alias_id then killAlias(_alias_id); _alias_id = nil end
+  if bindings._alias_id then killAlias(bindings._alias_id); bindings._alias_id = nil end
 end
 
 -- ── Dispatcher ────────────────────────────────────────────────────────────────

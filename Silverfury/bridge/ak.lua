@@ -10,8 +10,8 @@
 Silverfury = Silverfury or {}
 Silverfury.bridge = Silverfury.bridge or {}
 
-local bridge = {}
-Silverfury.bridge.ak = bridge
+Silverfury.bridge.ak = Silverfury.bridge.ak or {}
+local bridge = Silverfury.bridge.ak
 
 -- Maps AK 8.3 limb key → SF limb key.
 local AK_TO_SF = {
