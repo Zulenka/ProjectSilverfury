@@ -75,8 +75,10 @@ function commands.swipe(target, limb, follow)
     follow or "torso")
 end
 
-function commands.gut(target)
-  return "gut " .. (target or tname())
+function commands.gut(target, venom)
+  local cmd = "gut " .. (target or tname())
+  if venom and venom ~= "" then cmd = cmd .. " " .. venom end
+  return cmd
 end
 
 function commands.bite(target)

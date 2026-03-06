@@ -118,7 +118,8 @@ function core.chooseFreeAction()
   -- 6. Torso focus if torso not broken.
   local torso = tgt.limbs and tgt.limbs.torso
   if torso and not torso.broken and me.bal then
-    return act(cmds.gut(tgt.name), "dragon: gut → torso pressure")
+    local gv = Silverfury.offense.venoms.pick()
+    return act(cmds.gut(tgt.name, gv), "dragon: gut → torso pressure")
   end
 
   -- 7. General pressure.

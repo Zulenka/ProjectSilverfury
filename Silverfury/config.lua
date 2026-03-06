@@ -42,12 +42,13 @@ local defaults = {
 
   -- ── Attack configuration ───────────────────────────────────────────────────
   attack = {
-    -- Template placeholders: {target}, {venom1}, {venom2}, {limb}
+    -- Template placeholders: {target}, {venom1}, {venom2}
+    -- {limb} only used in undercut (requires battleaxe equipped)
     templates = {
-      dsl        = "dsl {target} {limb} {venom1} {venom2}",
-      undercut   = "undercut {target} {limb} {venom1} {venom2}",
-      raze       = "raze {target}",
-      razeslash  = "razeslash {target} {venom1} {venom2}",
+      dsl        = "dsl {target} {venom1} {venom2}",      -- inline venom; no limb arg
+      undercut   = "undercut {target} {limb}",             -- battleaxe only; no venom arg
+      raze       = "raze {target} rebounding",             -- must specify type (rebounding strip)
+      razeslash  = "razeslash {target}",                   -- strips shield + jabs; no venom arg
       impale     = "impale {target}",
       disembowel = "disembowel {target}",
       bisect     = "bisect {target}",
