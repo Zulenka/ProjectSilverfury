@@ -180,6 +180,17 @@ function safety.registerHandlers()
       end
     end
   end)
+
+  -- Waterbonds: send writhe immediately, bypassing the offense queue.
+  -- Clears automatically when SF_SelfWaterbondsCured fires (via incoming parser).
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_SelfWaterbonded", function()
+    Silverfury.log.warn("Safety: waterbonds detected — sending writhe")
+    send("writhe")
+  end)
+
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_SelfWaterbondsCured", function()
+    Silverfury.log.info("Safety: waterbonds cleared")
+  end)
 end
 
 function safety.shutdown()
