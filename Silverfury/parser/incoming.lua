@@ -441,6 +441,7 @@ local PATTERNS = {
     function(_)
       Silverfury.state.me.affs["webbed"]      = nil
       Silverfury.state.me.affs["transfixed"]  = nil
+      Silverfury.state.me.affs["puppeted"]    = nil
       raiseEvent("SF_Dragonflex")
     end },
 
@@ -735,7 +736,81 @@ local PATTERNS = {
       raiseEvent("SF_SelfSlickCured")
     end },
 
-  -- ── Missing target — clear in_room (RWDA missingTargetMessages) ───────────
+  -- ── Web (various sources — dragonflex breaks it in dragon form) ───────────
+  -- NOTE: exact Achaea messages confirmed from SVOF reference; verify live.
+  { "You have been webbed%.",
+    function()
+      Silverfury.state.me.affs["webbed"] = true
+      raiseEvent("SF_SelfWebbed")
+      Silverfury.log.warn("Self: webbed")
+    end },
+
+  { "entrapped in a web of sticky",
+    function()
+      Silverfury.state.me.affs["webbed"] = true
+      raiseEvent("SF_SelfWebbed")
+      Silverfury.log.warn("Self: webbed (sticky)")
+    end },
+
+  { "The magical webbing dissolves",
+    function()
+      Silverfury.state.me.affs["webbed"] = nil
+      raiseEvent("SF_SelfWebbedCured")
+    end },
+
+  { "You break free from the web",
+    function()
+      Silverfury.state.me.affs["webbed"] = nil
+      raiseEvent("SF_SelfWebbedCured")
+    end },
+
+  -- ── Transfix (Serpent hypnosis endpoint, various classes) ─────────────────
+  { "Your legs turn to stone and you find yourself transfixed",
+    function()
+      Silverfury.state.me.affs["transfixed"] = true
+      raiseEvent("SF_SelfTransfixed")
+      Silverfury.log.warn("Self: transfixed")
+    end },
+
+  { "You find yourself transfixed",
+    function()
+      Silverfury.state.me.affs["transfixed"] = true
+      raiseEvent("SF_SelfTransfixed")
+      Silverfury.log.warn("Self: transfixed")
+    end },
+
+  { "You are no longer transfixed",
+    function()
+      Silverfury.state.me.affs["transfixed"] = nil
+      raiseEvent("SF_SelfTransfixedCured")
+    end },
+
+  { "You shake off the transfix",
+    function()
+      Silverfury.state.me.affs["transfixed"] = nil
+      raiseEvent("SF_SelfTransfixedCured")
+    end },
+
+  -- ── Jester puppet strings ─────────────────────────────────────────────────
+  -- Dragonflex breaks puppet strings faster than writhe.
+  { "you are now under the control of .+'s puppet",
+    function()
+      Silverfury.state.me.affs["puppeted"] = true
+      raiseEvent("SF_SelfPuppeted")
+      Silverfury.log.warn("Self: puppeted — Dragonflex required")
+    end },
+
+  { "puppet strings controlling you snap",
+    function()
+      Silverfury.state.me.affs["puppeted"] = nil
+      raiseEvent("SF_SelfPuppetedCured")
+    end },
+
+  { "you break free from the puppet",
+    function()
+      Silverfury.state.me.affs["puppeted"] = nil
+      raiseEvent("SF_SelfPuppetedCured")
+    end },
   { "you detect nothing here by that name",
     function() Silverfury.state.target.in_room = false end },
 

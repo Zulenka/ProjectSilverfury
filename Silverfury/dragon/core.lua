@@ -167,6 +167,25 @@ function core.registerHandlers()
     _state.dragonarmour    = false
     Silverfury.log.info("Dragon: reverted to human form — resetting dragon state")
   end)
+
+  -- ── Binding escape reflex ─────────────────────────────────────────────────
+  -- Dragonflex (balance-based) breaks webs, transfixing, and Jester puppet
+  -- strings faster than writhe. Fire immediately on detection using the bal
+  -- server queue slot so it executes as soon as balance is available.
+  local function doFlex(event)
+    if not core.isActive() then return end
+    local cmd = Silverfury.dragon.commands.dragonflex()
+    if Silverfury.config.get("combat.use_server_queue") then
+      sendAll("queue addclear bal " .. cmd)
+    else
+      send(cmd)
+    end
+    Silverfury.log.warn("Dragon reflex: dragonflex fired (%s)", event or "binding")
+  end
+
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_SelfWebbed",    function() doFlex("webbed")     end)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_SelfTransfixed", function() doFlex("transfixed") end)
+  _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_SelfPuppeted",   function() doFlex("puppeted")   end)
 end
 
 function core.shutdown()
