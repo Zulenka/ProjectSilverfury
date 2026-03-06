@@ -19,7 +19,14 @@ function Silverfury.files.ensureDir(path)
   -- Mudlet's lfs or os.execute mkdir -p
   if lfs then
     -- Walk and create each segment.
+    -- On Windows, seed current with the drive letter (e.g. "C:") so that
+    -- the first lfs.mkdir call gets "C:/Users/..." not "/C:/Users/...".
     local current = ""
+    local drive = path:match("^([A-Za-z]:)")
+    if drive then
+      current = drive
+      path = path:sub(#drive + 1)
+    end
     for segment in path:gmatch("[^/\\]+") do
       current = current .. "/" .. segment
       lfs.mkdir(current)
