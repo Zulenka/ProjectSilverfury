@@ -445,6 +445,69 @@ local PATTERNS = {
       raiseEvent("SF_Dragonflex")
     end },
 
+  -- Detect SELF binding afflictions and fire Dragonflex immediately when in
+  -- dragon form. Message text needs live confirmation; these catch the most
+  -- common Achaea phrasings — confirm exact text with testing.
+  { "Strands of webbing entangle your legs",
+    function()
+      Silverfury.state.me.affs["webbed"] = true
+      raiseEvent("SF_SelfWebbed")
+      if Silverfury.state.me.form == "dragon" and Silverfury.state.me.bal then
+        Silverfury.engine.queue.send("dragonflex", "bal")
+        Silverfury.log.warn("Dragon: webbed → dragonflex fired")
+      end
+    end },
+
+  { "You are entangled in webbing",
+    function()
+      Silverfury.state.me.affs["webbed"] = true
+      raiseEvent("SF_SelfWebbed")
+      if Silverfury.state.me.form == "dragon" and Silverfury.state.me.bal then
+        Silverfury.engine.queue.send("dragonflex", "bal")
+        Silverfury.log.warn("Dragon: webbed → dragonflex fired")
+      end
+    end },
+
+  { "You are transfixed, unable to move",
+    function()
+      Silverfury.state.me.affs["transfixed"] = true
+      raiseEvent("SF_SelfTransfixed")
+      if Silverfury.state.me.form == "dragon" and Silverfury.state.me.bal then
+        Silverfury.engine.queue.send("dragonflex", "bal")
+        Silverfury.log.warn("Dragon: transfixed → dragonflex fired")
+      end
+    end },
+
+  -- Jester puppetry — strings attach, preventing self-control.
+  { "puppet strings.+attach to you",
+    function()
+      Silverfury.state.me.affs["puppeted"] = true
+      raiseEvent("SF_SelfPuppeted")
+      if Silverfury.state.me.form == "dragon" and Silverfury.state.me.bal then
+        Silverfury.engine.queue.send("dragonflex", "bal")
+        Silverfury.log.warn("Dragon: puppeted → dragonflex fired")
+      end
+    end },
+
+  -- Binding cleared by writhe or timer expiry.
+  { "You writhe free from the webbing",
+    function()
+      Silverfury.state.me.affs["webbed"] = nil
+      raiseEvent("SF_SelfWebbedCured")
+    end },
+
+  { "The webbing falls away from your legs",
+    function()
+      Silverfury.state.me.affs["webbed"] = nil
+      raiseEvent("SF_SelfWebbedCured")
+    end },
+
+  { "The transfixion fades",
+    function()
+      Silverfury.state.me.affs["transfixed"] = nil
+      raiseEvent("SF_SelfTransfixedCured")
+    end },
+
   -- ── Devour ────────────────────────────────────────────────────────────────
   { "You begin to devour (.+)",
     function(_, name)

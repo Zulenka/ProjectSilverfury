@@ -37,8 +37,8 @@ local function core()  return Silverfury.dragon.core             end
 local function match() return Silverfury.dragon.matchups         end
 local function room()  return Silverfury.state.room              end
 
-local function act(cmd, reason)
-  return { type = "dragon", cmd = cmd, reason = reason }
+local function act(cmd, reason, resource)
+  return { type = "dragon", cmd = cmd, reason = reason, resource = resource or "bal" }
 end
 
 -- ── SETUP phase ───────────────────────────────────────────────────────────────
@@ -55,11 +55,11 @@ function scenario.setupAction()
     return act("dragonform", "setup: transform to dragon form")
   end
   if cfg().get("dragon.auto_dragonarmour") and not core().hasDragonarmour() then
-    return act(cmds().dragonarmour("on"), "setup: dragonarmour on")
+    return act(cmds().dragonarmour("on"), "setup: dragonarmour on", "eq")
   end
   if cfg().get("dragon.auto_summon_breath") and not core().breathSummoned() then
     local btype = cfg().get("dragon.breath_type") or "lightning"
-    return act(cmds().summon(btype), "setup: summon " .. btype)
+    return act(cmds().summon(btype), "setup: summon " .. btype, "direct")
   end
   return nil
 end
@@ -125,15 +125,15 @@ local function pinAction()
     return act(cmds().becalm(t.name), "pin: becalm flier")
   end
 
-  -- Block known escape direction.
+  -- Block known escape direction (no balance cost — direct send).
   local edir = t.last_escape_dir
   if edir and cfg().get("dragon.control_block_dirs") then
-    return act(cmds().block(edir), "pin: block " .. edir)
+    return act(cmds().block(edir), "pin: block " .. edir, "direct")
   end
 
-  -- Enmesh if configured and target not already enmeshed.
+  -- Enmesh if configured and target not already enmeshed (equilibrium cost).
   if cfg().get("dragon.use_enmesh") and not t.enmeshed and me().eq then
-    return act(cmds().enmesh(t.name), "pin: enmesh")
+    return act(cmds().enmesh(t.name), "pin: enmesh", "eq")
   end
 
   -- PIN is a transient gating phase — advance immediately.
@@ -155,7 +155,7 @@ local function groundAction()
 
   if not t.prone then
     if cfg().get("dragon.prefer_breathgust") and m.eq then
-      return act(cmds().breathgust(t.name), "ground: breathgust → prone")
+      return act(cmds().breathgust(t.name), "ground: breathgust → prone", "eq")
     end
     if m.bal then
       return act(cmds().tailsweep(), "ground: tailsweep → prone")
@@ -267,7 +267,7 @@ function scenario.executeAction()
   if est.safe and me().bal then
     _devour_start_t = Silverfury.time.now()
     Silverfury.log.info("Dragon: DEVOUR %s — %s", t.name or "?", est.reason)
-    return act(cmds().devour(t.name), "execute: devour (" .. est.reason .. ")")
+    return act(cmds().devour(t.name), "execute: devour (" .. est.reason .. ")", "freestand")
   end
 
   -- Window closed between canExecute check and now — drop back.
