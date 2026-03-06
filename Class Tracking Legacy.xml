@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<TriggerPackage>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Class Tracking</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Enemy List</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Enemy Add #2</name>
+					<script>enableTrigger("Add by name")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>You have the following enemies:</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Add by name</name>
+					<script>if Legacy.CT.Enemies[matches[2]] == nil then
+  Legacy.CT.Enemies[matches[2]] = ""
+end
+
+
+
+Legacy.NDB.lookup(matches[2])</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+)$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>close gate</name>
+					<script>disableTrigger("Add by name")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^You have currently used (\d+) enemy slots of your (\d+) maximum\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Enemy Add #1</name>
+					<script>if Legacy.CT.Enemies[matches[2]] == nil then
+  Legacy.CT.Enemies[matches[2]] = ""
+end
+Legacy.NDB.lookup(matches[2])</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) is now one of your enemies\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>unenemy all</name>
+					<script>Legacy.CT.Enemies = {}
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>In a moment of forgiveness, you declare that you have no enemies.</string>
+						<string>You have no enemies.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>unenemy</name>
+					<script>Legacy.CT.Enemies[matches[2]] = nil</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^You declare that (\w+) will no longer be one of your enemies\.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>quick enemy</name>
+					<script>local str = matches[2].." "..matches[3]
+
+local name_table = string.split(str, ", ")
+send("unenemy all")
+for _,v in pairs(name_table) do
+  send("enemy "..v)
+end
+
+disableTrigger("quick enemy")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(.+) and (\w+)\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Tracking lines</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Alchemist</name>
+					<script>local who = matches[2]
+if Legacy.CT.timers[who] then
+  if Legacy.CT.timers[who].class == "Sublimation" then
+    ClassTimer(who, "Sublimation")
+  else
+    ClassTimer(who, "Alchemist")
+  end
+else
+  ClassTimer(who, "Alchemist")
+end
+
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^A diminutive homunculus resembling (\w+) stares menacingly at you, its eyes flashing brightly\.$</string>
+						<string>^(\w+) glowers at you with a look of repressed disgust before making a slight gesture toward you\.$</string>
+						<string>^A short convulsion sweeps through your body as (\w+) wracks your \w+ humour\.$</string>
+						<string>^A short convulsion sweeps through your body as (\w+) wracks your \w+ and \w+ humours\.$</string>
+						<string>^A low growl echoes from a diminutive homunculus resembling (\w+)'s throat, and blood begins flowing from your nose\.$</string>
+						<string>^A diminutive homunculus resembling (\w+) turns its head towards you, its jaws opening wider than what seems possible\. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts\.$</string>
+						<string>^(\w+) waves a hand in your direction and you feel energy wreathing about you\. A strong burning sensation rushes through your body\.$</string>
+						<string>^(\w+) waves a hand in your direction and you feel energy wreathing about you\. Small patches of your skin waver before turning into shards of sharp glass\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Sublimation</name>
+					<script>for k, v in pairs(Legacy.CT.timers) do
+  if Legacy.CT.timers[k].class == "Alchemist" then
+    ClassTimer(k, "Sublimation")
+    Legacy.echo("&lt;b&gt;&lt;red&gt;Adjusted "..Legacy.NDB.color(k)..k.."&lt;red&gt; to &lt;gold&gt;Sublimation&lt;red&gt;.")
+  end
+end</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^Your .+ (?:are|is) wracked by residual energy\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Apostate</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Apostate")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) stares at you, giving you the evil eye\.$</string>
+						<string>^Your .+ defence has been stripped by (\w+)'s Baalzadeen\.$</string>
+						<string>^(\w+)'s Baalzadeen casts a piercing glance at you\.$</string>
+						<string>^With a snarl, (\w+)'s Baalzadeen opens its mouth and spews a foul black liquid all over you\.$</string>
+						<string>^Before you can avoid it, (\w+)'s hand brushes against your arm and it withers away\.$</string>
+						<string>^You watch in horror as (\w+) touches your \w+ arm, and it shrivels away to uselessness\.$</string>
+						<string>^(\w+) reaches out and grabs your leg, which almost gives way underneath you as it shrivels feebly away\.$</string>
+						<string>^You stumble slightly as (\w+) touches your \w+ leg, and it shrivels away\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Bard</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Bard")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+)'s paean slams into you with all the weight of history's greatest triumphs.$</string>
+						<string>^With a flourish of .+ (\w+) steps in close, \w+ blade slicing at your .+.$</string>
+						<string> ^(\w+)'s refrain leaves you gasping for breath.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Blademaster</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Blademaster")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^As (\w+) draws (\w+) (\w+) from its scabbard, (\w+) drives the pommel into your chin\.$</string>
+						<string>^(\w+) unleashes a vicious slash towards you before resheathing (\w+) blade, (\w+) (\w+)\.$</string>
+						<string>^In a single motion, (\w+) draws (\w+) (\w+) from its scabbard and looses a vicious (\w+) slash at your (\w+)\.$</string>
+						<string>^Spinning to the \w+ as (\w+) draws (\w+) (\w+) from its sheath, (\w+) delivers a precise slash across your arms\.$</string>
+						<string>^With a smooth lunge to the \w+, (\w+) draws (\w+) (\w+) from its scabbard and delivers a powerful slash across your legs\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Depthswalker</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Depthswalker")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) delivers a lightning-fast strike to you with (.+)\.$</string>
+						<string>^(\w+) lays into you with a savage blow from (.+)\.$</string>
+						<string>^(\w+) raises (.+) and points it at you with a sinister smile\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Dragon</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Dragon")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^A heavy burden descends upon your soul as (\w+) lays the ancient Dragoncurse upon you\.$</string>
+						<string>^(\w+) lunges forward with long, flashing claws extended, tearing down to the bones of your (.+)\.$</string>
+						<string>^(\w+) snaps (\w+) massive jaws close around you, flinging you effortlessly into the air before catching you with a second powerful bite\.$</string>
+						<string>^(\w+) turns to fix (\w+) gaze upon you, and you feel your heart increase its palpitations as a low keening echoes from (\w+) throat\.$</string>
+						<string>^You are knocked forcefully off your feet by the impact of (\w+)'s huge tail\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Druid</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Druid")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^The fire on the hands of (\w+) jumps to you, setting you ablaze\.$</string>
+						<string>^With a synchronous, guttural rasp, (\w+)'s many serpentine heads breathe forth wisps of rapidlycondensing smoke that entangle you in a tangible web\.$</string>
+						<string>^(\w+) sinks (\w+) vicious fangs deep into your body, ravaging your flesh\.$</string>
+						<string>^Quicker than you can follow, one of (\w+)'s serpentine heads darts forward to snap at your flesh\.$</string>
+						<string>^With \w+ deadly tail, (\w+) strikes out at you and stings you\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Infernal</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Infernal")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^You feel sickened and weak by the aura of death emanating from (\w+)\.$</string>
+						<string>^Your very blood rebels against the profane touch of (.+)\.$</string>
+						<string>^Pain becomes a familiar foe as (\w+) reaches out and grasps you by your left arm and right arm, violently hoisting you into the air before cruelly twisting and wrenching at your fragile bones\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Jester</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Jester")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^With an appraising glance at you, (\w+) shapes the arms and legs of a rough puppet\.$</string>
+						<string>^(\w+) glances at you while adding some facial detail to a puppet\.$</string>
+						<string>^(\w+) looks closely at your hands and alters a puppet\.$</string>
+						<string>^(\w+) looks at your eyes and makes some alterations to (\w+) puppet\.$</string>
+						<string>^With one hand ominously pointed towards you, (\w+) rubs a finger over the heart of a puppet\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Magi</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Magi")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) weaves earth and water and a torrent of thick sticky mud thunders forth to roll over you and knocking you off your feet.$</string>
+						<string>^(\w+) clicks \w+ fingers and a bolt of lightning strikes from the air in a fulminous flash to transfix you.$</string>
+						<string>^(\w+) makes no motion or word, but a roiling nausea rolls through you, a terrible dizziness and rejection as bile fills the back of your throat.$</string>
+						<string>^(\w+) makes the slightest flick with an elemental staff, and a deluge of freezing water descends like the hand of some angered titan to smash you with a hammer colder than the oldest grave.$</string>
+						<string> ^A wave of heat rolls over you from the direction of (\w+), and flames ignite upon your skin.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Monk Shik</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Shikudo")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) whips (.+) in a long sweep at your legs\.$</string>
+						<string>^Stepping forward, (\w+) drives (.+) into your (.+)\.</string>
+						<string>^(\w+) spins a full rotation, bringing (.+) around in a blur to crash into your (\w+)\.$</string>
+						<string>^(\w+) lashes out with a high kick at your (\w+)\.$</string>
+						<string>^Bracing \w+ back foot, (\w+) lunges forward with a knotted willow staff at your (.+)\.$</string>
+						<string>^Continuing \w+ kata, (\w+) spins a knotted willow staff in (\w+) hands before driving it in a swiftthrust towards your (.+)\.$</string>
+						<string>^Snapping back into a ready stance, (\w+) whips a knotted willow staff in a wide arc at your (.+)\.$</string>
+						<string>^Spinning on one foot (\w+) drives a knotted willow staff into your (.+) with a lightning-fast thrust\.$</string>
+						<string>^Snapping \w+ leg out to its full extent, (\w+) drives a heel into your (.+)\.$</string>
+						<string>^(\w+) lashes out with a straight kick at you\.$</string>
+						<string>^Whirling around, (\w+) drives the ball of his foot into your ribs\.$</string>
+						<string>^(\w+) flows around you like water, a knotted willow staff lashing out in a swift thrust at yourvulnerable kidneys\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Monk Tekura</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Tekura")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) pumps out at you with a powerful side kick.$</string>
+						<string>^(\w+) unleashes a powerful hook towards you.$</string>
+						<string>^(\w+) launches a powerful uppercut at you.$</string>
+						<string>^(\w+) forms a spear hand and stabs out at you.$</string>
+						<string>^(\w+) balls up one fist and hammerfists you.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Occultist</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Occultist")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) draws back with a knowing smirk and utters some alien word that vibrates deep within your bones\. Your mind swirls and body convulses in excruciating pain as your very spirit cries out in agony\.$</string>
+						<string>^(\w+) passes (\w+) hand in front of you\. You feel an invisible claw brush the back of your skull\.$</string>
+						<string>^(\w+) lowers (\w+) eyes and an unearthly image appears before you\. Unable to accept what this vision means, your thoughts become jumbled\.$</string>
+						<string>^(\w+) speaks something in an unknown and impossible language\. Unable to process the alien images these words induce, your thoughts become jumbled\.$</string>
+						<string>^(\w+) utters a terrible curse and points a finger at you\.$</string>
+						<string>^(\w+) gestures sharply in your direction, and a mass of green slime flows up and over you, coating your skin\.$</string>
+						<string>^Seven rays of different coloured light spring out from (\w+)'s outstretched hands, irradiating the location with blinding strobes\.$</string>
+						<string>^(\w+) sends an icy blue tendril of light that lashes out at you and wraps around you, sending a strange chill deep into your bones\.$</string>
+						<string>^(\w+) makes a sharp motion with one hand in your direction, the briefest flicker of something crackling between (\w+) digits\.$</string>
+						<string>^Before you can avoid it, (\w+) hand brushes against your (\w+) and it withers away\.$</string>
+						<string>^(\w+) makes a sudden, quick gesture in front of you, almost hitting your nose\. (\w+) hand glows with a vibrant violet light before snapping back to (\w+) side\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Paladin</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Paladin")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^As fire surges about the righteous (\w+), a terrible heat fills your chest, a scorching pain that threatens to scour you from Creation\.$</string>
+						<string>^(\w+) is outlined in a nimbus of fire for an instant as (\w+) glares at you, but it abruptly winks out\.$</string>
+						<string>^A nimbus of flame blazes about (\w+) as (\w+) turns (\w+) righteousness upon you.$</string>
+						<string>^.+ flares with brilliant flame as (\w+) lunges for you!$</string>
+						<string>^Fire burns in the eyes of (\w+) as (\w+) turns (\w+) righteous attention towardsyou.$</string>
+						<string>^(\w+) whispers a prayer to the Righteous Fire, and white flame bursts into Creation to scour your blight away\.$</string>
+						<string>^At the command of (\w+) a beam of radiance strikes down from on high, transfixing you with its relentless glare.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Pariah</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Pariah")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) sweeps (.+) in a circle above (\w+) head, the point of the blade coming to rest aimed at you. You feel a sharp pain, gone as swiftly as it came, and a fine crimson spray falls about you and (\w+)\.$</string>
+						<string>^(\w+) raises (\w+) left hand in front of you, clenching it into a fist, your body spasming under some arcane assault\.$</string>
+						<string>^(\w+)'s hand lashes out, (\w+) glittering ritual blade flashing as drops of crimson blood land upon its ensorceled blade\.$</string>
+						<string>^(\w+) traces a logograph (.+) in the air before you, the blood upon his knife bursting into arcane flame as it hangs in the wake of the blade's passage\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Priest</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Priest")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) utters a prayer and smites your (.+) with (.+)\.$</string>
+						<string>^"Repent for your crimes!" (\w+) denounces you, hand raised in warding\.$</string>
+						<string>^Your .+ defence has been stripped by (\w+)'s guardian angel\.$</string>
+						<string>^(\w+)'s guardian angel's eyes glow like embers as searing heat pours over you, causing you to burst into flames\.$</string>
+						<string>^(\w+) draws you into (\w+) gaze, lowering (\w+) brow and glaring at you with righteous fury\. Pointing at you with a single raised finger, (\w+) recites a list of your transgressions, condemning your actions and words\. A blaze of holy fire surges about (\w+) as (\w+) dictates your sentence\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Psion</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Psion")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^A sharp pain across your throat and a sudden lack of breath comes moments before you register the retreat of (\w+), bloody dagger in hand\.$</string>
+						<string>^Your \w+ arm flops uselessly as (\w+) severs the muscles in it with a precise blow of (\w+) translucent sword\.$</string>
+						<string>^(\w+) delivers a series of lashes against you with a translucent lash, and your muscles grow weak,lethargy overcoming you in a rush\.$</string>
+						<string>^(\w+) delivers a series of lashes against you with a translucent lash, and your thoughts scatterlike leaves on the wind\.$</string>
+						<string>^With a brutal thrust of a translucent sword, (\w+) sinks (\w+) weapon into your guts, ripping it freein a spray of crimson\.$</string>
+						<string>^Stars explode in front of your eyes as (\w+) smashes a translucent mace into the side of your head\.$</string>
+						<string>^(\w+) gives a great shout of exertion as (\w+) eyes lock with yours, and a terrible pain explodeswithin your skull, your vision blacking out and your skull feeling like it shall burst apart at anymoment\.$</string>
+						<string>^A terrible weariness overcomes you as (\w+) darts out (\w+) blade and drives the tip into you justbeneath your right shoulder\.$</string>
+						<string>^(\w+) ducks low, (\w+) blade slicing into your (.+)\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Runewarden</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Runewarden")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^Cold blue flames wreathe (\w+)'s runeblade, emanating an icy chill that penetrates you to the bone\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Sentinel</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Sentinel")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) viciously gouges your (.+) with (.+)\.$</string>
+						<string>^(\w+) whips (.+) in a swift motion toward you, scything through your (.+) defence\.$</string>
+						<string>^(\w+) swiftly sweeps your feet out from beneath you with (.+) before driving the point of the weapon into your (?:right|left) leg\.$</string>
+						<string>^(\w+) deftly hooks (.+) behind your foot and sends you tumbling off (.+) before driving the point of the weapon into your (?:right|left) leg\.$</string>
+						<string>^(\w+) draws (.+) in an expert lateral slice across your (.+)\.$</string>
+						<string>^(\w+) viciously lacerates your (.+) with (.+)\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Serpent</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Serpent")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) flays away your aura of rebounding defence\.$</string>
+						<string>^(\w+) sinks (\w+) fangs into your body and you wince in pain\.$</string>
+						<string>^(\w+) quickly pricks you with (\w+) dirk\.$</string>
+						<string>^(\w+) leaps from the shadows and plunges a dagger into your unsuspecting back!$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Shaman</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Shaman")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) points an imperious finger at you\.$</string>
+						<string>^With an appraising glance at you, (\w+) shapes the arms and legs of a rough doll\.$</string>
+						<string>^(\w+) glances at you while adding some facial detail to a doll\.$</string>
+						<string>^(\w+) looks at your eyes and makes some alterations to (\w+) doll\.$</string>
+						<string>^(\w+) looks closely at your hands and alters a Vodun doll\.$</string>
+						<string>^With one hand ominously pointed towards you, (\w+) rubs a finger over the heart of a Vodun doll\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Sylvan</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Sylvan")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) gestures sharply in your direction with one hand, and invisible whips viciously lash at you\.$</string>
+						<string>^(\w+) summons a blade of condensed air and shears cleanly through the magical shield surrounding you\.$</string>
+						<string>^Your body locks in paralysis as a burst of arcane power floods your system, directed by (\w+)\.$</string>
+						<string>^Your ears are abruptly filled with the shockingly loud clap of nearby thunder, summoned forth by (\w+)\.$</string>
+						<string>^More a physical blow than a simple sound, the shocking thunderclap summoned forth by (\w+) leaves you reeling\.$</string>
+						<string>^Sweat breaking out on the forehead of (\w+) is your only warning before a bolt of lightning leaps down from on high, slamming into you and electrifying every nerve in a synchronised wave of agony\.$</string>
+						<string>^Drawing \w+ up to \w+ full height, (\w+) throws (\w+) arms wide\. The clouds above roil, then bolt after bolt of incandescent lightning falls upon you\. The world becomes nothing but light and pain\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Unnamable</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Unnamable")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^A wall of sound slams into you, a terrible symphony of something undescribably wrong as each of the mouths that have torn open upon the body of (\w+) howl in silent wrath\.$</string>
+						<string>^\w+ eyes rolling back in \w+ skull, (\w+) opens \w+ true mouth and speaks something so unnatural that your entire body rebels against the horror given voice\.$</string>
+						<string>^The myriad mouths that have torn open upon the body of (\w+) croon in profane symphony toyou, a choir of entropic whispers which sets your bones to shuddering\.$</string>
+						<string>^(\w+) whispers words so anathema to you that you feel your mind fracturing at the very knowing, each twisted syllable threatening to sweep away the very essence that composes you\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>2H</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "2H")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) brings (.+) down upon you with a brutal overhand blow\.$</string>
+						<string>^(\w+) explodes upward from a low crouch, driving (.+) toward your (.+)\.$</string>
+						<string>^(\w+) drops into a low crouch, sweeping (.+) beneath your guard and tangling it with your legs\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>DwC</name>
+					<script>DwCdetect = (DwCdetect + 1) or 1
+if DwCdetect == 2 then
+local who = matches[2]:title()
+ClassTimer(who, "DwC")
+
+end</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) slashes into your .+ with (.+)\.$</string>
+						<string>Lightning-quick, (\w+) jabs your .+ with (.+)\.$</string>
+						<string>^(\w+) swings (.+) at your .+ with all (\w+) might\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>SnB</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "SnB")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) quickly lunges to the side, bringing (\w+) shield around to smash into your spine\.$</string>
+						<string>^The blade of (\w+) is a blur as (\w+) moves forward, slicing into you\.$</string>
+						<string>^(\w+) drives the edge of (\w+) shield into your throat, cutting off your air supply\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>DwB</name>
+					<script>DwBdetect = (DwBdetect + 1) or 1
+if DwBdetect == 2 then
+local who = matches[2]:title()
+ClassTimer(who, "DwB")
+
+end</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) whips (.+) toward your (.+)\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Airlord</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Airlord")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) casts a hand out in your direction, an icy zephyr descending upon you to tear your fortitude away\.$</string>
+						<string>^(\w+) studies you intently, the howling winds that surround (\w+) stilling for a moment\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Earthlord</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Earthlord")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^(\w+) rains a flurry of blows down upon you with (\w+) great stone fists\.$</string>
+						<string>^(\w+) swings a magma-wreathed fist at you, but you duck aside at the last moment\.$</string>
+						<string>^(\w+) brings a magma-wreathed fist around impossibly fast, driving it clean through your magical shield in an explosion of translucent shards\.$</string>
+						<string>^(\w+) slams a foot to the ground, great tremors radiating out from the impact\.$</string>
+						<string>^With a terrible roar (\w+) whips a colossal fist at your (.+)\.$</string>
+						<string>^Cloaked in a shifting mantle of molten stone, (\w+) charges in from the (\w+) with a deafening roar\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Firelord</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Firelord")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^A whip of flame coalesces in the hand of (\w+), with which (\w+) viciously lashes you\.$</string>
+						<string>^The flames that are the eyes of (\w+) flare as (\w+) rakes them across you in an imperious glare\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Waterlord</name>
+					<script>local who = matches[2]:title()
+ClassTimer(who, "Waterlord")
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^The amorphous form of (\w+) trembles, some of the liquid composing it falling away from the greater whole\.$</string>
+						<string>^A sudden deluge of shockingly cold water drenches you, robbing you of strength by the will of (\w+)\.$</string>
+						<string>^You double over and hack up water beneath the pitiless gaze of (\w+)\.$</string>
+						<string>^You feel suddenly light-headed as ripples race across the amorphous form of (\w+)\.$</string>
+						<string>^A wave of nausea rolls over you as (\w+) casually waves a hand in your direction\.$</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Dual detector</name>
+					<script>DwBdetect = 0
+DwCdetect = 0</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string></string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>7</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+		</TriggerGroup>
+	</TriggerPackage>
+</MudletPackage>

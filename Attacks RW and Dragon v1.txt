@@ -1,0 +1,740 @@
+H:6080|100% M:5515|100% [E|SW] 11:00:55  [ Austere ]
+predict nax
+
+[DEF]: Rebounding
+You have recovered equilibrium.
+Your aura of weapons rebounding disappears.
+You cast a discerning glance over Naxx's limbs and find:
+Head:          Perfect health
+Torso:         Perfect health
+Left arm:      Perfect health
+Right arm:     Perfect health
+Left leg:      Perfect health
+Right leg:     Perfect health
+H:6080|100% M:5515|100% [E|SW] 11:00:56  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5515|100% [E|SW] 11:00:56  [ Austere ]
+You may drink another health or mana elixir. Mana (4.252)
+H:6080|100% M:5515|100% [E|SW] 11:00:56  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.456)
+H:6080|100% M:5515|100% [E|SW] 11:00:57  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5515|100% [E|SW] 11:00:57  [ Austere ]
+
+[DEF]: Pacing
+[Curing]: PACING ON
+You begin to pace yourself and prepare for sudden bursts of exertion.
+H:6080|100% M:5515|100% [E|SW] 11:00:59  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5515|100% [E|SW] 11:01:01  [ Austere ]
+
+[DEF]: Gripping
+[Curing]: GRIP
+You concentrate on gripping tightly with your hands.
+H:6080|100% M:5515|100% [E|SW] 11:01:01  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5515|100% [E|SW] 11:01:04  [ Austere ]
+say can you put up a shield? 
+You say with a clear, sireni accent, "Can you put up a shield?"
+H:6080|100% M:5515|100% [E|SW] 11:01:05  [ Austere ]
+A nearly invisible magical shield forms around Naxx.
+H:6080|100% M:5515|100% [E|SW] 11:01:09  [ Austere ]
+raze naxx shield
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You raze Naxx's magical shield with a Scimitar of Eagles.
+H:6080|100% M:5515|100% [E|SW] 11:01:18  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5515|100% [E|SW] 11:01:19  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.409)
+H:6080|100% M:5515|100% [E|SW] 11:01:20  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5515|100% [E|SW] 11:01:20  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5515|100% [E|SW] 11:01:27  [ Austere ]
+raze naxx rebounding
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You whip a Scimitar of Eagles through the air in front of Naxx, to no effect.
+H:6080|100% M:5515|100% [E|SW] 11:01:30  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5515|100% [E|SW] 11:01:30  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.432)
+H:6080|100% M:5515|100% [E|SW] 11:01:31  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5515|100% [E|SW] 11:01:31  [ Austere ]
+raze naxx rebounding
+You whip a Scimitar of Eagles through the air in front of Naxx, to no effect.
+H:6080|100% M:5515|100% [E|SW] 11:01:37  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5515|100% [E|SW] 11:01:38  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5515|100% [E|SW] 11:01:39  [ Austere ]
+A great weight seems to have been lifted from Naxx.
+H:6080|100% M:5515|100% [E|SW] 11:01:43  [ Austere ]
+Naxx takes some salve from a vial and rubs it on her skin.
+H:6080|100% M:5515|100% [E|SW] 11:01:43  [ Austere ]
+say Can you put on rebounding?
+You say with a clear, sireni accent, "Can you put on rebounding?"
+H:6080|100% M:5515|100% [E|SW] 11:01:50  [ Austere ]
+Naxx takes a long drag off her pipe.
+H:6080|100% M:5515|100% [E|SW] 11:01:58  [ Austere ]
+raze naxx rebounding
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You whip a Scimitar of Eagles through the air in front of Naxx, to no effect.
+H:6080|100% M:5515|100% [E|SW] 11:02:01  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5515|100% [E|SW] 11:02:01  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.315)
+H:6080|100% M:5515|100% [E|SW] 11:02:02  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5515|100% [E|SW] 11:02:02  [ Austere ]
+You suddenly perceive the vague outline of an aura of rebounding around Naxx.
+H:6080|100% M:5515|100% [E|SW] 11:02:06  [ Austere ]
+raze naxx rebounding
+You raze Naxx's aura of rebounding with a Scimitar of Eagles.
+H:6080|100% M:5515|100% [E|SW] 11:02:09  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5515|100% [E|SW] 11:02:09  [ Austere ]
+Naxx takes a long drag off her pipe.
+H:6080|100% M:5515|100% [E|SW] 11:02:09  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5515|100% [E|SW] 11:02:11  [ Austere ]
+dsl
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5515|100% [E|SW] 11:02:16  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.309)
+H:6080|100% M:5515|100% [E|SW] 11:02:17  [ Austere ]
+You suddenly perceive the vague outline of an aura of rebounding around Naxx.
+H:6080|100% M:5515|100% [E|SW] 11:02:18  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5515|100% [E|SW] 11:02:25  [ Austere ]
+dsl naxx
+
+[DEF]: Rebounding
+[DEF]: Blindness
+Your aura of weapons rebounding disappears.
+Lightning-quick, you jab Naxx with a Scimitar of Eagles.
+The attack rebounds back onto you!
+You are confused as to the effects of the venom.
+Lightning-quick, you jab Naxx with a Scimitar of Eagles.
+The attack rebounds back onto you!
+[AFF]: Sleeping
+[AFF]: Prone
+You feel incredibly tired, and fall asleep immediately..
+H:5232|86% M:5515|100% [E|SW] 11:02:28  [ Austere ] ( -848h 13% )[PR asleep] 
+[Curing]: WAKE
+You begin your struggle to escape from the dreamworld.
+H:5232|86% M:5515|100% [E|SW] 11:02:28  [ Austere ][PR asleep] 
+H:5232|86% M:5515|100% [E|SW] 11:02:28  [ Austere ][PR asleep] 
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SIP HEALTH
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5232|86% M:5515|100% [E|SW] 11:02:28  [ Austere ][PR asleep] 
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SIP HEALTH
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5232|86% M:5515|100% [E|SW] 11:02:28  [ Austere ][PR asleep] 
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: CLOT
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SIP HEALTH
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5232|86% M:5515|100% [E|SW] 11:02:29  [ Austere ][PR asleep] 
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SIP HEALTH
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5232|86% M:5515|100% [E|SW] 11:02:29  [ Austere ][PR asleep] 
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SIP HEALTH
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5232|86% M:5515|100% [E|SW] 11:02:29  [ Austere ][PR asleep] 
+You continue your struggle to escape from the dreamworld.
+H:5232|86% M:5515|100% [E|SW] 11:02:29  [ Austere ][PR asleep] 
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SIP HEALTH
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5232|86% M:5515|100% [E|SW] 11:02:29  [ Austere ][PR asleep] 
+A bedraggled young orphan stands in the street, his eyes despondent. As you hand him a
+tempting red lollipop, his eyes fill with surprise and sheer joy at your kindness. 
+Taking his hand, you lead the happy child through the city, ushering him through a 
+doorway marked "Loving Hearts Orphanage."
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:29  [ Austere ] ( +425h 6% )[PR asleep] 
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:29  [ Austere ][PR asleep] 
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:30  [ Austere ][PR asleep] 
+You have recovered balance on all limbs.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:30  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:30  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:30  [ Austere ][PR asleep] 
+You continue your struggle to escape from the dreamworld.
+H:5657|93% M:5515|100% [E|SW] 11:02:30  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:30  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:30  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:31  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:31  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5657|93% M:5515|100% [E|SW] 11:02:31  [ Austere ][PR asleep] 
+You continue your struggle to escape from the dreamworld.
+H:5778|95% M:5515|100% [E|SW] 11:02:31  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5778|95% M:5515|100% [E|SW] 11:02:31  [ Austere ][PR asleep] 
+You bleed 20 health.
+H:5758|94% M:5515|100% [E|SW] 11:02:32  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:32  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:32  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:32  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:32  [ Austere ][PR asleep] 
+You continue your struggle to escape from the dreamworld.
+H:5758|94% M:5515|100% [E|SW] 11:02:32  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:32  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:32  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:33  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:33  [ Austere ][PR asleep] 
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: SMOKE MALACHITE
+You are asleep and can do nothing. WAKE will attempt to wake you.
+[Curing]: STAND
+You are asleep and can do nothing. WAKE will attempt to wake you.
+H:5758|94% M:5515|100% [E|SW] 11:02:33  [ Austere ][PR asleep] 
+You open your eyes and yawn mightily.
+[AFF]: Sleeping
+H:5758|94% M:5515|100% [E|SW] 11:02:33  [ Austere ][PR] 
+[Curing]: STAND
+You stand up.
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:5758|94% M:5515|100% [E|SW] 11:02:33  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.294)
+H:6062|99% M:5515|100% [E|SW] 11:02:34  [ Austere ] ( +304h 5% )
+You bleed 11 health.
+H:6051|99% M:5515|100% [E|SW] 11:02:37  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5515|100% [E|SW] 11:02:41  [ Austere ]
+laugh
+You give a trillingly melodic laugh.
+H:6080|100% M:5515|100% [E|SW] 11:02:49  [ Austere ]
+The corners of Naxx's mouth turn up as she grins mischievously.
+H:6080|100% M:5515|100% [E|SW] 11:02:53  [ Austere ]
+say You can drop that haha
+You say with a clear, sireni accent, "You can drop that haha."
+H:6080|100% M:5515|100% [E|SW] 11:03:04  [ Austere ]
+"Ok!" Naxx exclaims.
+H:6080|100% M:5515|100% [E|SW] 11:03:11  [ Austere ]
+say I just obliterated myself
+You say with a clear, sireni accent, "I just obliterated myself."
+H:6080|100% M:5515|100% [E|SW] 11:03:12  [ Austere ]
+dsl naxx
+
+[DEF]: Rebounding
+[DEF]: Deafness
+Your aura of weapons rebounding disappears.
+You slash into Naxx with a Scimitar of Eagles.
+The attack rebounds back onto you!
+Your eyes dim as you lose your sight.
+[AFF]: Deafness
+Sounds fade as you lose your hearing.
+You swing a Scimitar of Eagles at Naxx with all your might.
+The attack rebounds back onto you!
+[AFF]: Scytherus
+You feel light headed and dizzy..
+H:5232|86% M:5515|100% [E|SW] 11:03:19  [ Austere ] ( -848h 13% )[SCYT] 
+[Curing]: EAT FERRUM
+You eat a ferrum flake.
+outr ferrum
+You feel your blood thickening.
+[AFF]: Scytherus
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+[Curing]: CLOT
+[Curing]: CLOT
+[Curing]: CLOT
+[Curing]: SIP HEALTH
+You take a drink from an elegant diamond vial.
+The elixir heals and soothes you.
+H:6080|100% M:5335|96% [E|SW] 11:03:19  [ Austere ] ( +848h 13% -180m 3% )
+H:6080|100% M:5335|96% [E|SW] 11:03:20  [ Austere ]
+[OUTR]: 1 Ferrum (1523)
+You bleed 10 health.
+H:6070|99% M:5335|96% [E|SW] 11:03:21  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.557)
+H:6070|99% M:5335|96% [E|SW] 11:03:21  [ Austere ]
+You may eat another plant or mineral. Eat (1.559)
+H:6070|99% M:5335|96% [E|SW] 11:03:21  [ Austere ]
+You have recovered balance on all limbs.
+H:6070|99% M:5335|96% [E|SW] 11:03:21  [ Austere ]
+You may drink another health or mana elixir. Health (4.412)
+H:6080|100% M:5335|96% [E|SW] 11:03:24  [ Austere ]
+dsl naxx
+You slash into Naxx with a Scimitar of Eagles.
+The attack rebounds back onto you!
+[AFF]: Addiction
+You feel a terrible hunger grow within you.
+You swing a Scimitar of Eagles at Naxx with all your might.
+The attack rebounds back onto you!
+You are confused as to the effects of the venom..
+H:5232|86% M:5335|96% [E|SW] 11:03:27  [ Austere ] ( -848h 13% )[ADD] 
+outr 5 kelp
+outr 5 bloodroot
+outr 5 ginseng
+outr 5 goldenseal
+outr 5 aurum
+outr 5 magnesium
+outr 5 ferrum
+outr 5 plumbum
+[Curing]: EAT FERRUM
+You eat a ferrum flake.
+outr ferrum
+Your terrible addiction seems to wane.
+[AFF]: Addiction
+[Curing]: CLOT
+[Curing]: CLOT
+[Curing]: CLOT
+[Curing]: SIP HEALTH
+You take a drink from an elegant diamond vial.
+The elixir heals and soothes you.
+H:6080|100% M:5155|93% [E|SW] 11:03:27  [ Austere ] ( +848h 13% -180m 3% )
+H:6080|100% M:5155|93% [E|SW] 11:03:27  [ Austere ]
+You have no kelp stored in the Rift.
+H:6080|100% M:5155|93% [E|SW] 11:03:28  [ Austere ]
+[OUTR]: 5 Bloodroot (1267)
+[OUTR]: 5 Ginseng (853)
+[OUTR]: 5 Goldenseal (788)
+[OUTR]: 5 Aurum (1234)
+[OUTR]: 5 Magnesium (1429)
+[OUTR]: 5 Ferrum (1518)
+[OUTR]: 5 Plumbum (1492)
+[OUTR]: 1 Ferrum (1517)
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:03:28  [ Austere ]
+You may eat another plant or mineral. Eat (1.083)
+H:6080|100% M:5155|93% [E|SW] 11:03:28  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5155|93% [E|SW] 11:03:29  [ Austere ]
+You may drink another health or mana elixir. Health (3.974)
+H:6080|100% M:5155|93% [E|SW] 11:03:31  [ Austere ]
+You bleed 10 health.
+H:6070|99% M:5155|93% [E|SW] 11:03:32  [ Austere ]
+Naxx says, "Raze it."
+H:6080|100% M:5155|93% [E|SW] 11:03:34  [ Austere ]
+You bleed 2 health.
+H:6078|99% M:5155|93% [E|SW] 11:03:37  [ Austere ]
+raze naxx rebounding
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You raze Naxx's aura of rebounding with a Scimitar of Eagles.
+H:6078|99% M:5155|93% [E|SW] 11:03:39  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6078|99% M:5155|93% [E|SW] 11:03:40  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.385)
+H:6080|100% M:5155|93% [E|SW] 11:03:41  [ Austere ]
+dsl naxx
+You have recovered balance on all limbs.
+H:6080|100% M:5155|93% [E|SW] 11:03:41  [ Austere ]
+You swing a Scimitar of Eagles at Naxx with all your might.
+Lightning-quick, you jab Naxx with a Scimitar of Eagles.
+The protective coating covering the skin of Naxx sloughs off..
+H:6080|100% M:5155|93% [E|SW] 11:03:41  [ Austere ]
+Naxx takes a long drag off her pipe.
+Naxx eats a plumbum flake.
+Naxx applies a quicksilver droplet to herself.
+H:6080|100% M:5155|93% [E|SW] 11:03:41  [ Austere ]
+Naxx touches a tree of life tattoo.
+H:6080|100% M:5155|93% [E|SW] 11:03:42  [ Austere ]
+H:6080|100% M:5155|93% [E|SW] 11:03:42  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5155|93% [E|SW] 11:03:43  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:03:48  [ Austere ]
+A supple metallic shell of quicksilver has formed around Naxx.
+H:6080|100% M:5155|93% [E|SW] 11:03:51  [ Austere ]
+A great weight seems to have been lifted from Naxx.
+H:6080|100% M:5155|93% [E|SW] 11:03:59  [ Austere ]
+Naxx takes some salve from a vial and rubs it on her skin.
+H:6080|100% M:5155|93% [E|SW] 11:03:59  [ Austere ]
+queue addclear free stand|wield sword sword|dsl naxx
+
+[DEF]: Rebounding
+You cease wielding a Scimitar of Eagles in your right hand.
+You cease wielding a Scimitar of Eagles in your left hand.
+As your hand closes upon the hilt of a Scimitar of Eagles, you begin to fill the runic
+configuration with power.
+You start to wield a Scimitar of Eagles in your left hand.
+You start to wield a Scimitar of Eagles in your right hand.
+Your aura of weapons rebounding disappears.
+You slash into Naxx with a Scimitar of Eagles.
+You slash into Naxx with a Scimitar of Eagles.
+Horror overcomes Naxx's face as her body stiffens into paralysis..
+H:6080|100% M:5155|93% [E|SW] 11:04:24  [ Austere ]
+Naxx eats a magnesium chip.
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+You have smoked the last traces of malachite in an ornately carved ivory pipe.
+H:6080|100% M:5155|93% [E|SW] 11:04:24  [ Austere ]
+H:6080|100% M:5155|93% [E|SW] 11:04:24  [ Austere ]
+Naxx touches a tree of life tattoo.
+H:6080|100% M:5155|93% [E|SW] 11:04:25  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.493)
+H:6080|100% M:5155|93% [E|SW] 11:04:26  [ Austere ]
+You have recovered balance on all limbs.
+[Curing]: OUTRIFT MALACHITE
+[OUTR]: 1 Malachite (1087)
+[Curing]: PUT MALACHITE IN 501044
+You fill your pipe with a pinch of ground malachite.
+H:6080|100% M:5155|93% [E|SW] 11:04:26  [ Austere ]
+A Scimitar of Eagles grows hot beneath your touch as the runic configuration upon the 
+weapon flashes bright.
+H:6080|100% M:5155|93% [E|SW] 11:04:29  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:04:33  [ Austere ]
+say ok one moment
+You say with a clear, sireni accent, "Ok one moment."
+H:6080|100% M:5155|93% [E|SW] 11:05:06  [ Austere ]
+l
+The arena gates.
+Crackling ozone heralds warp-touched mirage, their coming the advent of change. The 
+sun sinks toward the cloudless horizon, shining out radiant and fiery from the western
+skies. This is a small chamber of modern construction adjacent the main wall of the 
+Ashtan arena. The walls have been recently painted a dull white. Several benches rest 
+about the room and an ominous black portal resides directly in the centre of the room.
+Occasionally a brilliant white light shimmers across its surface, as though beckoning 
+challengers to enter. A small window sits along the northern wall, allowing a view of 
+the extraordinary arena, which occupies the western quarter of the old Palace gardens,
+where rests the ancient tomb of Glanos, founder of Ashtan. A small wooden sign is 
+here. A runic totem is planted solidly in the ground. The burning frame of a chaos 
+hound gleams with viridian light. There are 2 sentries of the Vanguard here. Mounted 
+astride a grim chaos hound, a black rider patrols the city. Hunched but ever vigilant,
+a thrall of the wheel stands here. Fell purpose seethes from the towering frame of a 
+Sorrowborne sentinel. A sigil in the shape of a small, rectangular monolith is on the 
+ground. The Black Dragon Naxx's imposing form looms.
+You see exits leading east and southwest.
+H:6080|100% M:5155|93% [E|SW] 11:05:16  [ Austere ]
+sw
+The spectator enclosure. (indoors)
+Crackling ozone heralds warp-touched mirage, their coming the advent of change. A 
+runic totem is planted solidly in the ground. Mounted astride a grim chaos hound, a 
+black rider patrols the city. A sentry of the Vanguard maintains his vigil, a flame-
+blackened bardiche planted beside him. A logosmas stocking has been hung here, 
+awaiting gifts. There are 2 thralls of the wheel here. A whistling tumult of whirling 
+air surrounds a gangly, robe-clad figure.
+You see a single exit leading northeast.
+A black rider gives you a nod of acknowledgment, his hound's attention elsewhere.
+H:6080|100% M:5155|93% [NE] 11:05:17  [ Austere ]
+lunge naxx
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You charge with a lunge towards Naxx, your sword at the ready.
+The arena gates.
+Crackling ozone heralds warp-touched mirage, their coming the advent of change. The 
+sun sinks toward the cloudless horizon, shining out radiant and fiery from the western
+skies. A small wooden sign is here. A runic totem is planted solidly in the ground. 
+The burning frame of a chaos hound gleams with viridian light. There are 2 sentries of
+the Vanguard here. Mounted astride a grim chaos hound, a black rider patrols the city.
+Hunched but ever vigilant, a thrall of the wheel stands here. Fell purpose seethes 
+from the towering frame of a Sorrowborne sentinel. A sigil in the shape of a small, 
+rectangular monolith is on the ground. The Black Dragon Naxx's imposing form looms.
+You see exits leading east and southwest.
+With a cry of delight, you skewer Naxx on your blade, who writhes and screams as the 
+cruel metal is driven deep into her flesh.
+H:6080|100% M:5155|93% [E|SW] 11:05:19  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5155|93% [E|SW] 11:05:20  [ Austere ]
+Naxx stands up.
+Naxx takes a drink from a black-walnut vial.
+H:6080|100% M:5155|93% [E|SW] 11:05:20  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (0.884)
+H:6080|100% M:5155|93% [E|SW] 11:05:20  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5155|93% [E|SW] 11:05:22  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:05:27  [ Austere ]
+The argent radiance of the moon seeps into the sky, waking the stars as darkness 
+descends over the land.
+H:6080|100% M:5155|93% [E|SW] 11:05:28  [ Austere ]
+razeslash naxx
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You whip a Scimitar of Eagles through the air in front of Naxx, to no effect.
+You lash out at Naxx with a Scimitar of Eagles, but miss.
+H:6080|100% M:5155|93% [E|SW] 11:05:41  [ Austere ][clum] 
+[Curing]: EAT AURUM
+You eat an aurum flake.
+outr aurum
+Thank Maya, the Great Mother! Your clumsiness has been cured.
+[AFF]: Clumsiness
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5155|93% [E|SW] 11:05:42  [ Austere ]
+[OUTR]: 1 Aurum (1233)
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.451)
+H:6080|100% M:5155|93% [E|SW] 11:05:43  [ Austere ]
+You may eat another plant or mineral. Eat (1.453)
+H:6080|100% M:5155|93% [E|SW] 11:05:43  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5155|93% [E|SW] 11:05:44  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:05:50  [ Austere ]
+undercut naxx left leg
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You must be wielding a battleaxe in order to undercut someone.
+H:6080|100% M:5155|93% [E|SW] 11:05:59  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5155|93% [E|SW] 11:05:59  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.467)
+H:6080|100% M:5155|93% [E|SW] 11:06:01  [ Austere ]
+say oh I forgot the battleaxe
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:06:08  [ Austere ]
+You say with a clear, sireni accent, "Oh I forgot the battleaxe."
+H:6080|100% M:5155|93% [E|SW] 11:06:08  [ Austere ]
+say I forgot undercut needed that
+You say with a clear, sireni accent, "I forgot undercut needed that."
+H:6080|100% M:5155|93% [E|SW] 11:06:16  [ Austere ]
+nod
+You nod your head emphatically.
+H:6080|100% M:5155|93% [E|SW] 11:06:19  [ Austere ]
+cleave naxx
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You raise your scimitar over your head and begin to swing it in a wide circle, gaining
+speed as you go.
+H:6080|100% M:5155|93% [E|SW] 11:06:22  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You cease the whirling of your weapon over your head.
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5155|93% [E|SW] 11:06:22  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.444)
+H:6080|100% M:5155|93% [E|SW] 11:06:24  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5155|93% [E|SW] 11:06:24  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:06:31  [ Austere ]
+master on
+I'm sorry, I don't know what "master" does.
+H:6080|100% M:5155|93% [E|SW] 11:06:34  [ Austere ]
+mastery on
+You already have mastery on.
+H:6080|100% M:5155|93% [E|SW] 11:06:36  [ Austere ]
+concuss naxx
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You must be wielding a battleaxe in order to concuss someone.
+H:6080|100% M:5155|93% [E|SW] 11:06:42  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5155|93% [E|SW] 11:06:42  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.46)
+H:6080|100% M:5155|93% [E|SW] 11:06:43  [ Austere ]
+intimidate naxx
+Naxx is not in a vulnerable enough state to be at all intimidated by you.
+H:6080|100% M:5155|93% [E|SW] 11:06:50  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:06:51  [ Austere ]
+You have recovered equilibrium.
+H:6080|100% M:5155|93% [E|SW] 11:06:51  [ Austere ]
+A great weight seems to have been lifted from Naxx.
+H:6080|100% M:5155|93% [E|SW] 11:07:15  [ Austere ]
+Naxx takes some salve from a vial and rubs it on her skin.
+H:6080|100% M:5155|93% [E|SW] 11:07:15  [ Austere ]
+say can you put up a shield or rebounding again?
+You say with a clear, sireni accent, "Can you put up a shield or rebounding again?"
+H:6080|100% M:5155|93% [E|SW] 11:07:16  [ Austere ]
+A nearly invisible magical shield forms around Naxx.
+H:6080|100% M:5155|93% [E|SW] 11:07:21  [ Austere ]
+razeslash naxx
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You raze Naxx's magical shield with a Scimitar of Eagles.
+Lightning-quick, you jab Naxx with a Scimitar of Eagles..
+H:6080|100% M:5155|93% [E|SW] 11:07:27  [ Austere ]
+[Curing]: SMOKE MALACHITE
+You take a long drag of malachite off your pipe.
+H:6080|100% M:5155|93% [E|SW] 11:07:27  [ Austere ]
+H:6080|100% M:5155|93% [E|SW] 11:07:28  [ Austere ]
+Your lungs have recovered enough to smoke another mineral or plant. Smoke (1.495)
+H:6080|100% M:5155|93% [E|SW] 11:07:29  [ Austere ]
+You have recovered balance on all limbs.
+H:6080|100% M:5155|93% [E|SW] 11:07:29  [ Austere ]
+
+[DEF]: Rebounding
+You feel an aura of rebounding surround you.
+H:6080|100% M:5155|93% [E|SW] 11:07:36  [ Austere ]
+System Message: Logging has started. Log file is C:/Users/jness/.config/mudlet/
+profiles/Constanstia/log/2026-03-06#11-07-43.txt
+razeslash naxx
+
+[DEF]: Rebounding
+Your aura of weapons rebounding disappears.
+You whip a Scimitar of Eagles through the air in front of Naxx, to no effect.
+You slash into Naxx with a Scimitar of Eagles..

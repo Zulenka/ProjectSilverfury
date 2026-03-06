@@ -1,0 +1,44 @@
+Silver Dragon
+Ability	Description
+Overwhelm	Charge with the brunt of your massive body.
+Syntax: OVERWHELM <target>
+Works on/against: Denizens
+Cooldown: 16.00 seconds
+Resource: 14 rage
+Details:
+Overwhelm your massive form at your target, causing great damage as you collide.
+
+Sizzle	Breathe small bolts of lightning around your opponent.
+Syntax: SIZZLE <target>
+Extra Information: Gives denizen affliction: Sensitivity
+Works on/against: Denizens
+Cooldown: 27.00 seconds
+Resource: 25 rage
+Details:
+Cause sensitivity in your target for a short time as you assault it with many small bolts of lightning.
+
+Dragonspark	Blast your opponent with your lightning breath.
+Syntax: DRAGONSPARK <target>
+Works on/against: Denizens
+Cooldown: 23.00 seconds
+Resource: 36 rage
+Details:
+Breathe a blast of lightning at your target, causing great pain.
+
+Stormflare	Electrify your target with a lattice of lightning.
+Syntax: STORMFLARE <target>
+Extra Information: Uses denizen affliction: Amnesia or Fear
+Works on/against: Denizens
+Cooldown: 23.00 seconds
+Resource: 25 rage
+Details:
+Summon repeated bolts of lightning in a deadly lattice that surrounds your target.
+
+Galvanize	Taunt your target with stings of lightning.
+Syntax: GALVANIZE <target>
+Extra Information: Gives denizen affliction: Recklessness
+Works on/against: Denizens
+Cooldown: 19.00 seconds
+Resource: 18 rage
+Details:
+Afflict your opponent with recklessness with repeated stings of lightning.
