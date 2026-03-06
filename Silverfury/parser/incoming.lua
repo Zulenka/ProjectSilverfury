@@ -326,6 +326,38 @@ local PATTERNS = {
       if incoming._isTarget(name) then Silverfury.state.target.lyred = false end
     end },
 
+  -- ── Waterbonds (self-affliction) ──────────────────────────────────────────
+  -- Magi Hydromancy: binds our legs, blocking direction movement and leap.
+  -- Cured by: writhe, focus body, or timer expiry.
+  -- NOTE: exact Achaea text below needs confirmation with live testing.
+  { "water.+ your legs.+holding",
+    function(_)
+      Silverfury.state.me.affs["waterbonds"] = true
+      raiseEvent("SF_SelfWaterbonded")
+      Silverfury.log.warn("Waterbonds: legs bound — writhe or focus body to escape")
+    end },
+
+  { "water.+ coil.+ your legs",
+    function(_)
+      Silverfury.state.me.affs["waterbonds"] = true
+      raiseEvent("SF_SelfWaterbonded")
+      Silverfury.log.warn("Waterbonds: legs bound — writhe or focus body to escape")
+    end },
+
+  { "watery bonds? hold you no longer",
+    function(_)
+      Silverfury.state.me.affs["waterbonds"] = nil
+      raiseEvent("SF_SelfWaterbondsCured")
+      Silverfury.log.info("Waterbonds: cured")
+    end },
+
+  { "You writhe.+free.+water",
+    function(_)
+      Silverfury.state.me.affs["waterbonds"] = nil
+      raiseEvent("SF_SelfWaterbondsCured")
+      Silverfury.log.info("Waterbonds: cured by writhe")
+    end },
+
   -- ── Dragon form ───────────────────────────────────────────────────────────
   { "You are Dragon!",
     function(_)

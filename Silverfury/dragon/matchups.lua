@@ -82,8 +82,16 @@ local DATA = {
   },
   Magi = {
     breath          = "lightning",
-    use_breathstorm = true,
-    notes = "Breathstorm to shatter crystalline room utility.",
+    use_breathstorm = true,   -- Breathstorm shatters crystal forests before they combine with waterbonds
+    high_threat     = true,
+    notes = "High threat. DO NOT scatter limb damage — focus one limb to a break. "
+         .. "Right leg first: a broken leg prevents mending, keeps target prone, enables hamstring. "
+         .. "Bulwer-class cures bloodroot in the same server pulse as hit; paralysis-first fails. "
+         .. "Waterbonds in a flooded room is the kill-condition: writhe or focus body immediately. "
+         .. "Breathstorm early to shatter crystal forests before they enable waterbonds lockdown. "
+         .. "Magi rarely mends own limbs — confirm single-limb break within first 3-4 exchanges. "
+         .. "Expect 35-40% mana drain from vibration/resonance — sip mana proactively below 60%. "
+         .. "Calcifiedtorso hits for 2000+ — maintain health sip at or above 60% HP at all times.",
   },
   Alchemist = {
     breath = "lightning",
