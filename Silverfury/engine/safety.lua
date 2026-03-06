@@ -160,7 +160,7 @@ safety._handlers = safety._handlers or {}
 local _handlers = safety._handlers
 
 function safety.registerHandlers()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   -- Room change → abort execute if configured
@@ -183,7 +183,7 @@ function safety.registerHandlers()
 end
 
 function safety.shutdown()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
   safety._cancelDeadman()
 end

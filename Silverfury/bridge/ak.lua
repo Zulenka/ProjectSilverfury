@@ -77,7 +77,7 @@ end
 
 function bridge.shutdown()
   if _handler then
-    killHandler(_handler)
+    killAnonymousEventHandler(_handler)
     _handler = nil
   end
   if ak then

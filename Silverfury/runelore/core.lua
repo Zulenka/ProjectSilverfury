@@ -261,7 +261,7 @@ core._handlers = core._handlers or {}
 local _handlers = core._handlers
 
 function core.registerHandlers()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   -- Track pithakhan drain observations.
@@ -343,7 +343,7 @@ function core.registerHandlers()
 end
 
 function core.shutdown()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
   core.cancelQueue()
 end

@@ -144,7 +144,7 @@ end
 function logger.init()
   _enabled = Silverfury.config.get("logging.enabled") ~= false
 
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("LPrompt",           onPrompt)
@@ -163,7 +163,7 @@ end
 function logger.shutdown()
   logger.closeFile()
   if _flush_timer then killTimer(_flush_timer); _flush_timer = nil end
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end
 

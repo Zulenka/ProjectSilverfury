@@ -482,11 +482,11 @@ end
 
 -- ── Event hooks ───────────────────────────────────────────────────────────────
 
-window._handlers = window._handlers or {}
-local _handlers = window._handlers
+win._handlers = win._handlers or {}
+local _handlers = win._handlers
 
 function win.registerHandlers()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_ActionSent",  win.onActionSent)
@@ -496,7 +496,7 @@ function win.registerHandlers()
 end
 
 function win.shutdown()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
   if _root then _root:hide() end
   _visible = false

@@ -202,7 +202,7 @@ outgoing._handlers = outgoing._handlers or {}
 local _handlers = outgoing._handlers
 
 function outgoing.registerHandlers()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("SF_CommandSent", onCommandSent)
@@ -210,7 +210,7 @@ function outgoing.registerHandlers()
 end
 
 function outgoing.shutdown()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end
 

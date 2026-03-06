@@ -113,7 +113,7 @@ end
 function legacy.registerHandlers()
   -- Clear old handlers.
   for _, id in ipairs(_handlers) do
-    killHandler(id)
+    killAnonymousEventHandler(id)
   end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
@@ -139,6 +139,6 @@ function legacy.registerHandlers()
 end
 
 function legacy.shutdown()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end

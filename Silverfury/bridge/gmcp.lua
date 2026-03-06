@@ -99,7 +99,7 @@ end
 -- ── Registration ─────────────────────────────────────────────────────────────
 
 function gmcp.registerHandlers()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 
   _handlers[#_handlers+1] = registerAnonymousEventHandler("gmcp.Char.Vitals",    onVitals)
@@ -109,6 +109,6 @@ function gmcp.registerHandlers()
 end
 
 function gmcp.shutdown()
-  for _, id in ipairs(_handlers) do killHandler(id) end
+  for _, id in ipairs(_handlers) do killAnonymousEventHandler(id) end
   for i = #_handlers, 1, -1 do _handlers[i] = nil end
 end
