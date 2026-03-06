@@ -15,13 +15,15 @@ local incoming = Silverfury.parser.incoming
 local PATTERNS = {
 
   -- ── Balance/equilibrium ──────────────────────────────────────────────────
-  { "^You have recovered balance%.",
+  -- Matches both "You have recovered balance." and
+  -- "You have recovered balance on all limbs." (post-paralysis variant).
+  { "You have recovered balance",
     function()
       Silverfury.state.me.bal = true
       Silverfury.engine.queue.onBalanceRestored()
     end },
 
-  { "^You have recovered equilibrium%.",
+  { "You have recovered equilibrium",
     function()
       Silverfury.state.me.eq = true
       Silverfury.engine.queue.onBalanceRestored()
@@ -277,6 +279,112 @@ local PATTERNS = {
       end
     end },
 
+  { "^(.+) applies? a restoration salve",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "restoration")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "restoration", aff)
+      end
+    end },
+
+  { "^(.+) applies? a caloric salve",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "caloric")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "caloric", aff)
+      end
+    end },
+
+  { "^(.+) eats? some lobelia",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "lobelia")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "lobelia", aff)
+      end
+    end },
+
+  { "^(.+) eats? some bellwort",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "bellwort")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "bellwort", aff)
+      end
+    end },
+
+  { "^(.+) eats? some prickly ash",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "prickly_ash")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "prickly_ash", aff)
+      end
+    end },
+
+  { "^(.+) eats? some ginger",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "ginger")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "ginger", aff)
+      end
+    end },
+
+  { "^(.+) eats? an? pear",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "pear")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "pear", aff)
+      end
+    end },
+
+  { "^(.+) exhales? a puff of elm",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "elm")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "elm", aff)
+      end
+    end },
+
+  { "^(.+) smokes? some elm",
+    function(_, name)
+      if incoming._isTarget(name) then
+        local tgt = Silverfury.state.target
+        local aff = Silverfury.data.afflictions.chooseAffToClear(tgt, "elm")
+        if aff then tgt.removeAff(aff) end
+        raiseEvent("SF_TargetCured", "elm", aff)
+      end
+    end },
+
+  -- Quicksilver (alchemical salve defence — Alchemist class).
+  { "A supple metallic shell of quicksilver has formed around (.+)",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("quicksilver", true)
+        Silverfury.log.info("Target quicksilver defence detected: %s", name)
+      end
+    end },
+
+  { "The protective coating covering the skin of (.+) sloughs off",
+    function(_, name)
+      if incoming._isTarget(name) then
+        Silverfury.state.target.setDef("quicksilver", false)
+      end
+    end },
+
   -- ── Target focus ──────────────────────────────────────────────────────────
   -- Focus is used to cure mental affs; track it so condition evaluators can work.
   { "^(.+) focuses?%.",
@@ -434,6 +542,47 @@ local PATTERNS = {
         Silverfury.state.target.setDef("shield", false)
         raiseEvent("SF_TargetShieldShattered", name)
       end
+    end },
+
+  -- ── Our own defences being stripped or consumed ───────────────────────────
+  { "(.+) razes your magical shield with",
+    function(_, name)
+      Silverfury.state.me.defs = Silverfury.state.me.defs or {}
+      Silverfury.state.me.defs["shield"] = false
+      raiseEvent("SF_SelfShieldRazed", name)
+      Silverfury.log.warn("Self: shield razed by %s", name)
+    end },
+
+  { "(.+) razes your aura of rebounding with",
+    function(_, name)
+      Silverfury.state.me.defs = Silverfury.state.me.defs or {}
+      Silverfury.state.me.defs["rebounding"] = false
+      raiseEvent("SF_SelfReboundingRazed", name)
+      Silverfury.log.warn("Self: rebounding razed by %s", name)
+    end },
+
+  { "Your aura of weapons rebounding disappears",
+    function()
+      Silverfury.state.me.defs = Silverfury.state.me.defs or {}
+      Silverfury.state.me.defs["rebounding"] = false
+      raiseEvent("SF_SelfReboundingExpired")
+    end },
+
+  -- Our attack hit enemy's rebounding — deflected back onto us; confirms they have rebounding.
+  { "The attack rebounds back onto you",
+    function()
+      Silverfury.state.target.setDef("rebounding", true)
+      raiseEvent("SF_TargetReboundingConfirmed")
+      Silverfury.log.warn("Attack bounced — target has rebounding")
+    end },
+
+  -- Their attack hit OUR rebounding — our rebounding deflected it (consumed).
+  { "The attack rebounds off your rebounding aura",
+    function()
+      Silverfury.state.me.defs = Silverfury.state.me.defs or {}
+      Silverfury.state.me.defs["rebounding"] = false
+      raiseEvent("SF_SelfReboundingConsumed")
+      Silverfury.log.info("Self: rebounding consumed — deflected incoming attack")
     end },
 
   -- ── Dragonflex ────────────────────────────────────────────────────────────
@@ -771,6 +920,60 @@ local PATTERNS = {
     function()
       Silverfury.state.me.affs["paralysis"] = nil
       raiseEvent("SF_SelfParalysisCured")
+    end },
+
+  -- Alternate paralysis cure phrasing (wiki-confirmed).
+  { "Your muscles unlock; you are no longer paralysed",
+    function()
+      Silverfury.state.me.affs["paralysis"] = nil
+      raiseEvent("SF_SelfParalysisCured")
+    end },
+
+  -- ── Self-aff gain: blindness, deafness, sleep ────────────────────────────
+  { "Your eyes dim as you lose your sight",
+    function()
+      Silverfury.state.me.affs["blindness"] = true
+      raiseEvent("SF_SelfBlind")
+      Silverfury.log.warn("Self: blinded")
+    end },
+
+  { "Sounds fade as you lose your hearing",
+    function()
+      Silverfury.state.me.affs["deafness"] = true
+      raiseEvent("SF_SelfDeaf")
+      Silverfury.log.warn("Self: deafened")
+    end },
+
+  { "You feel incredibly tired, and fall asleep",
+    function()
+      Silverfury.state.me.affs["sleep"] = true
+      raiseEvent("SF_SelfAsleep")
+      Silverfury.log.warn("Self: fell asleep")
+    end },
+
+  -- ── Self-aff cure: blindness, deafness, sleep ────────────────────────────
+  { "Your sight returns",
+    function()
+      Silverfury.state.me.affs["blindness"] = nil
+      raiseEvent("SF_SelfBlindCured")
+    end },
+
+  { "You can see clearly once more",
+    function()
+      Silverfury.state.me.affs["blindness"] = nil
+      raiseEvent("SF_SelfBlindCured")
+    end },
+
+  { "Your hearing returns",
+    function()
+      Silverfury.state.me.affs["deafness"] = nil
+      raiseEvent("SF_SelfDeafCured")
+    end },
+
+  { "You open your eyes and yawn mightily",
+    function()
+      Silverfury.state.me.affs["sleep"] = nil
+      raiseEvent("SF_SelfAwakenedCured")
     end },
 
   -- Asthma (kelp cure)
