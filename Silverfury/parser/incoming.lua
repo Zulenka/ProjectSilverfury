@@ -490,12 +490,14 @@ end
 
 function incoming.process(line)
   if not line or line == "" then return end
-  Silverfury.logging.logger.write("INCOMING_LINE", { line=line })
+  -- Strip ANSI colour codes so patterns match plain text regardless of server colouring.
+  local clean = decolor and decolor(line) or line
+  Silverfury.logging.logger.write("INCOMING_LINE", { line=clean })
 
   for _, entry in ipairs(PATTERNS) do
     local pat = entry[1]
     local handler = entry[2]
-    local m = { line:match(pat) }
+    local m = { clean:match(pat) }
     if m[1] ~= nil then
       local ok, err = pcall(handler, table.unpack(m))
       if not ok then
