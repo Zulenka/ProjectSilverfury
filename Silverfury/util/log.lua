@@ -8,7 +8,14 @@ local LEVELS = { trace=1, info=2, warn=3, error=4 }
 
 local COLOURS = {
   trace = "<ansi_dark_gray>",
-  info  = "<ansi_cyan>",
+  info  = "<lightcyan>",
+  warn  = "<ansi_yellow>",
+  error = "<ansi_red>",
+}
+
+local PREFIX_COLOURS = {
+  trace = "<ansi_dark_gray>",
+  info  = "<#7EC8E3>",
   warn  = "<ansi_yellow>",
   error = "<ansi_red>",
 }
@@ -21,10 +28,11 @@ end
 
 local function emit(lvl, fmt, ...)
   if (LEVELS[lvl] or 0) < level() then return end
-  local msg = string.format(fmt, ...)
+  local msg    = string.format(fmt, ...)
   local colour = COLOURS[lvl] or ""
+  local pcol   = PREFIX_COLOURS[lvl] or colour
   local prefix = string.format("[SF/%s] ", lvl:upper())
-  cecho(colour .. prefix .. msg .. "<reset>\n")
+  cecho(pcol .. prefix .. colour .. msg .. "<reset>\n")
 
   -- Optional file output handled by logging module when fully initialised.
   if Silverfury.logging and Silverfury.logging.logger and Silverfury.logging.logger.raw then
