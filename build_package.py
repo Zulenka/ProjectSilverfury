@@ -191,7 +191,7 @@ def build_xml():
         '        <packageName>Silverfury</packageName>',
         '        <script><![CDATA[Silverfury.ui.bindings.handle(matches[2])]]></script>',
         '        <command></command>',
-        '        <regex>^sf(.*)</regex>',
+        '        <regexCode>^sf(.*)</regexCode>',
         '      </Alias>',
         '    </AliasGroup>',
         '  </AliasPackage>',
