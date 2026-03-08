@@ -1,0 +1,234 @@
+{
+  "bardic": [
+    {
+      "doc_id": "doc_01d548741923aecf-rankings",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=rankings",
+      "name": "BARDIC"
+    },
+    {
+      "doc_id": "doc_0d43016388c557a1-bound",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=bound",
+      "name": "BARDIC"
+    },
+    {
+      "doc_id": "doc_2d21ffd9f93b18a2-credit",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=credit",
+      "name": "BARDIC"
+    },
+    {
+      "doc_id": "doc_306",
+      "title": "Game Help | Achaea",
+      "url": null,
+      "name": "BARDIC"
+    },
+    {
+      "doc_id": "doc_3f43c5d2b0f8f162-ranking",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=ranking",
+      "name": "BARDIC"
+    },
+    {
+      "doc_id": "doc_5ec7da51558320af-credits",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=credits",
+      "name": "BARDIC"
+    }
+  ],
+  "tabard": [
+    {
+      "doc_id": "doc_13656471ec09d5bc-questions",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=questions",
+      "name": "TABARD"
+    },
+    {
+      "doc_id": "doc_143",
+      "title": "Game Help | Achaea",
+      "url": null,
+      "name": "TABARD"
+    },
+    {
+      "doc_id": "doc_6003526caf7be720-questions-we-hear-quite-often",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=questions-we-hear-quite-often",
+      "name": "TABARD"
+    },
+    {
+      "doc_id": "doc_78a02c513ead0798-questions-we-hear-quite-often",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=questions+we+hear+quite+often",
+      "name": "TABARD"
+    },
+    {
+      "doc_id": "doc_e0922f05b150297b-question",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=question",
+      "name": "TABARD"
+    }
+  ],
+  "dragons": [
+    {
+      "doc_id": "doc_17a9476b2c273f71-racestats",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=racestats",
+      "name": "DRAGONS"
+    },
+    {
+      "doc_id": "doc_1f2e35a85fdd2dd7-racial-stats-reference",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=racial-stats-reference",
+      "name": "DRAGONS"
+    },
+    {
+      "doc_id": "doc_249",
+      "title": "Game Help | Achaea",
+      "url": null,
+      "name": "DRAGONS"
+    },
+    {
+      "doc_id": "doc_692ce72558e5030a-racial-stats-reference",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=racial+stats+reference",
+      "name": "DRAGONS"
+    }
+  ],
+  "from a magistrate or judge": [
+    {
+      "doc_id": "doc_206fa8fc30125f60-service",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=service",
+      "name": "from a magistrate or judge"
+    },
+    {
+      "doc_id": "doc_43b3d6715b70d8c8-customer-service",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=customer-service",
+      "name": "from a magistrate or judge"
+    },
+    {
+      "doc_id": "doc_92",
+      "title": "Game Help | Achaea",
+      "url": null,
+      "name": "from a magistrate or judge"
+    },
+    {
+      "doc_id": "doc_df269ac5d0641dec-customer-service",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=customer+service",
+      "name": "from a magistrate or judge"
+    }
+  ],
+  "dragon": [
+    {
+      "doc_id": "doc_23424f845366def3-win",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=win",
+      "name": "DRAGON"
+    },
+    {
+      "doc_id": "doc_5b2ec5e4f1dd55e4-losing",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=losing",
+      "name": "DRAGON"
+    },
+    {
+      "doc_id": "doc_866e51aa9caa3542-goals-in-achaea",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=goals-in-achaea",
+      "name": "DRAGON"
+    },
+    {
+      "doc_id": "doc_927d75c529b270d3-point",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=point",
+      "name": "DRAGON"
+    },
+    {
+      "doc_id": "doc_95",
+      "title": "Game Help | Achaea",
+      "url": null,
+      "name": "DRAGON"
+    },
+    {
+      "doc_id": "doc_9a30130e80e7cb35-goals",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=goals",
+      "name": "DRAGON"
+    },
+    {
+      "doc_id": "doc_a56df30586cd7c86-goals-in-achaea",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=goals+in+achaea",
+      "name": "DRAGON"
+    },
+    {
+      "doc_id": "doc_c08a3595657c983d-lose",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=lose",
+      "name": "DRAGON"
+    },
+    {
+      "doc_id": "doc_d7aeac50287506de-winning",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=winning",
+      "name": "DRAGON"
+    }
+  ],
+  "class monk or help house ebonfist": [
+    {
+      "doc_id": "doc_3119c395b61326ba-tanjinn",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=tanjinn",
+      "name": "CLASS MONK or HELP HOUSE EBONFIST"
+    },
+    {
+      "doc_id": "doc_797c8c17b3d6d5bd-the-tanjinn",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=the-tanjinn",
+      "name": "CLASS MONK or HELP HOUSE EBONFIST"
+    },
+    {
+      "doc_id": "doc_7c18b86f69f5bebf-the-tanjinn",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=the+tanjinn",
+      "name": "CLASS MONK or HELP HOUSE EBONFIST"
+    }
+  ],
+  "class magi": [
+    {
+      "doc_id": "doc_80db72dd84c2aa1b-arcanists",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=arcanists",
+      "name": "CLASS MAGI"
+    },
+    {
+      "doc_id": "doc_ab6dc3b0fa1ea0dd-arcanist",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=arcanist",
+      "name": "CLASS MAGI"
+    },
+    {
+      "doc_id": "doc_d339271ec766edcc-arcanist-class-or-house",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=arcanist-class-or-house",
+      "name": "CLASS MAGI"
+    }
+  ],
+  "house serpentlord": [
+    {
+      "doc_id": "doc_c9ea71be7cab28b5-serpentlord",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=serpentlord",
+      "name": "HOUSE SERPENTLORD"
+    },
+    {
+      "doc_id": "doc_e974b25b60bd70e3-the-cult-of-the-serpent-lord",
+      "title": "Game Help | Achaea",
+      "url": "https://www.achaea.com/game-help/?what=the-cult-of-the-serpent-lord",
+      "name": "HOUSE SERPENTLORD"
+    }
+  ]
+}

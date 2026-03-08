@@ -1,0 +1,114 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+5.12 Recovery of Health, Mana, Endurance, and Willpower
+(See also:
+HELP REGEN
+,
+HELP
+HEAL
+)
+There is one basic way to recover
+health
+and one to recover
+mana
+. There are
+many
+other
+methods which you must discover for yourself. You will find some
+of them in
+HELP HEAL
+.
+To recover health:
+SLEEP
+(also recovers
+endurance
+)
+To recover mana:   MEDITATE       (also recovers
+willpower
+)
+SLEEP: By typing SLEEP, you can put yourself to sleep. While asleep, you
+will be unable to perform most actions, but will slowly recover health and
+endurance. WAKE will wake you back up again. One major drawback to being
+asleep is that some
+abilities
+will do more damage to you.
+MEDITATE: By typing MEDITATE or MED, you can begin to meditate in order to
+recover your mana and willpower. While meditating, typing most
+commands
+will
+cause you to cease meditating. However, while meditating, a few abilities will
+do more damage to you than normal.
+Other
+Things
+------------
+For Endurance, the Sentinel's campfire, Druid's/Sylvan's
+Grove
+Rain, or
+even the Priest's endurance blessing may be of interest. There are other
+possibilities as well!
+(See also:
+HELP REGEN
+, HELP HEAL)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,158 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.13 PROJECTS
+Sometimes it is difficult to organise the
+communication
+and activities between
+different members of an organisation, be it
+city
+,
+House
+, order, etc. People are
+often not in the realms at the same
+time
+or have a hard time knowing what their
+fellow members are doing. The
+project
+system
+attempts
+to alleviate some of this
+difficulty. It aims to provide a way in which the members of an organisation
+can
+communicate
+what is
+going
+on and
+who
+is in charge of it (so people may
+contact them for more information).
+Projects
+are created by leaders of an organisation (or someone with creation
+permissions
+) and each project is assigned a 'leader'. This leader is then able
+to update information regarding the project (such as its
+name
+or completion
+status
+) as well as add notes so that members know what the project is about.
+Two people always have access to modify and/or
+delete
+a project: The
+organisation leader (can affect ANY project), and the project's leader (can
+only affect his own project).
+*** The
+following
+commands
+are used to view projects
+PROJECTS [BY <person>] [IN <
+group
+pattern>]
+Display a list of projects that are visible to you. Eg. "PROJECTS BY
+AEYR" or "PROJECTS IN ashtan" or "PROJECTS IN a*". PROJECTS by itself
+displays every project. (The BY and IN clauses are optional).
+PROJECT <id>
+Display detailed information on a specific project; including the
+name, status, and
+description
+.
+*** These are used by organisation leaders and project leaders to
+create/modify/delete a project
+PROJECT NEW IN <group> NAMED <name>
+Create a new project in <group> (must be specified, because you can
+belong to more than one) with the given name. This can only be done
+by the organisation leader. Once it is created, the project leader
+may be set.
+PROJECT <id> SET <property> <value>
+This is used to change information about the project. Available
+properties are: 'name', 'status', 'info', and 'leader'. Leader is
+only settable by the organisation leader. Name is what is displayed
+in the project listing. Status is a short description of the current
+status of the project (such as "Planning", "80% Complete",
+"Finished", etc). Info is a long description of what the project is
+about. Basically any information that
+others
+need to know. Examples:
+PROJECT 1 SET status planning
+PROJECT 1 SET leader
+PROJECT <id> EDIT
+This will allow you to edit the 'info' property via the
+Achaea
+composer. Use this when you need some special formatting or are
+setting it to
+something
+quite lengthy.
+PROJECT DELETE <id>
+This will
+remove
+the project from all records. Only usable by an
+organisation or individual project's leader.
+PROJECT
+GROUPS
+Display a list of the groups you are in and what
+level
+of access
+you have. It is either 'Normal' or 'FULL'. FULL indicates you can
+create projects in that group.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,157 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+5.17 BLOODLINES
+Bloodlines
+are simply a way to trace your familial relationships in such a way
+that they are officially recorded by
+Achaea
+. To
+join
+a
+bloodline
+or to begin
+your own, you must either be recorded as the
+child
+of someone or record someone
+as your child.
+In order to record someone as a child, the parent and the child must
+go
+together to the Bloodline Registry in
+Delos
+and then must use the 'record'
+command
+to officially record the relationship. (
+Syntax
+below).
+It should go without
+saying
+that bloodlines are permanent and irrevocable.
+After all, you cannot change
+who
+your biological mother and father are.
+No one may bloodline more
+children
+than the number of years above
+18
+of
+their age. So if you are 40 years old, you may not bloodline a child if you
+already have 22 children.
+Bloodlining vs. Adoption
+------------------------
+The Bloodline
+system
+is meant only as a
+roleplaying
+aid to record biological
+blood relations. It is not intended as a record for adoptions. Adoptions
+should simply be roleplayed in a normal manner. If you do not
+wish
+to imply
+that you had intimate relations with someone, you should probably
+roleplay
+adoption rather than bloodlining a child with that person.
+While different
+races
+are cross-fertile and may even produce children of a
+race
+different from either parent,
+nature
+still requires parents of opposite
+sex. Same-sex couples are welcome to roleplay adoptions.
+Divine
+Intervention
+-------------------
+There is none. The
+Garden
+will not intervene. Even should your prospective
+child be 12 years, 11
+months
+, and 24
+days
+younger than you, we will not
+manually bloodline them for you. We will not undo a bloodline, even if all
+parties
+have a change of heart.
+Commands
+:
+BLOODLINE RECORD <child> AS CHILD
+- Parent and child must both be in the Bloodline Registry in Delos.
+- The child must be at least 13 years younger than the parent.
+- The child must be at least 20 years old.
+- Bloodlined parents may not be the same sex as each
+other
+.
+- PERMANENT.
+BLOODLINE
+SHOW
+<person>
+-
+Shows
+someone's bloodline,
+going
+up to three generations back and three
+generations forward. In this display, M stands for MOTHER and
+F stands for FATHER.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

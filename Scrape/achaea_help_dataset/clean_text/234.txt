@@ -1,0 +1,144 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.6 EQUILIBRIUM AND BALANCE
+The majority of
+abilities
+use either
+balance
+or
+equilibrium
+, which represent
+physical balance and mental equilibrium.
+BALANCE
+-------
+By physical balance, we mean that after doing certain physical
+things
+, like
+swinging a sword, you must recover your balance before doing
+something
+like
+that again.
+For example, if you
+throw
+a punch at someone, you must recover your balance
+before
+throwing
+another punch, or before kicking, or swinging a sword.
+Some abilities use
+other
+forms of balance as well, such as balance for each
+specific limb, or balance related to sipping
+vials
+,
+apply
+salves
+, or even using
+your
+voice
+!
+EQUILIBRIUM
+-----------
+Equilibrium applies mostly to mental activities, but is otherwise quite similar
+to balance.
+If you were to cast a fireball, or use a mental
+ability
+, your mind will
+temporarily reel from the strain. You must wait to recover before conducting
+another such act again.
+In most cases, not having balance prevents you from using an ability that
+requires equilibrium, and vice versa. There are many exceptions to this rule
+which you must discover for yourself.
+The
+time
+it takes to recover is generally from
+2
+to
+5
+seconds
+, depending on the
+ability, and taking into account some racial variations and certain powerful
+artefacts
+. Some very powerful abilities take longer.
+In order to know when you have balance and equilibrium, many players find the
+command
+CONFIG
+PROMPT
+STATS
+very helpful.
+HELP PROMPT
+will
+tell
+you more about
+this.
+Sometimes, you
+might
+lose
+equilibrium for longer than you should. In this
+instance, you should
+CONCENTRATE
+to regain your equilibrium.
+HELP CONCENTRATE
+will tell you more about this.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

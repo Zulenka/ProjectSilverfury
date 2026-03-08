@@ -1,0 +1,170 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+20.5 HOUSE RELOCATION
+(See also:
+HELP HOUSING
+, HELP HOUSING SUMMARY,
+HELP HOUSING UPGRADES
+,
+HELP
+SUBDIVISIONS
+)
+Already built your
+subdivision
+mansion but tired of having to
+walk
+halfway
+across the subdivision to get to it?
+Using a
+housing
+relocation permit available from the
+Delos
+Property office, you
+can relocate your subdivision
+house
+from one
+plot
+to another, provided you own
+both
+plots
+.
+How do I get a relocation permit?
+---------------------------------
+Simple. Head on over to the Delos Property office and, for 50
+bound
+credits
+,
+BUY
+RELOCATION. You can see on
+STAT
+if you currently have a relocation permit
+or not.
+What do I do with it now?
+-------------------------
+Head to the plot outside your subdivision house and RELOCATE FROM HERE. Doing
+so will set the source location on your permit and advise you of how many bound
+credits it will cost to
+move
+your house.
+Once the source location is set, you will need to head to the new plot where
+you would like your house moved to (the plot must have no existing residence
+already) and RELOCATE TO HERE.
+Doing this will
+tell
+you the price for the move and ask for you to RELOCATE TO
+HERE CONFIRM to confirm that you do
+wish
+to move your house to this new
+location.
+What does it cost?
+------------------
+Permit        - 50 bcr
+Relocation    - 100 bcr
+Additional costs:
+Different sub - 100 bcr
+Artefact
+bed
+- 100 bcr
+e.g. Sub house in
+Cyrene
+with an
+artifact
+bed
+moving
+to
+Hashan
+will cost 300
+bcr (100 move + 100 diff sub + 100 arte bed)
+Can I change my mind?
+---------------------
+Whilst you can't return your permit, it won't expire and will remain, waiting
+for you to use it.
+If you've set the source location and have changed your mind, you can use
+RELOCATE CANCEL to clear the source location from the permit so that you can
+select a new source.
+I forgot where I set the source to, what can I do?
+--------------------------------------------------
+You can simply use RELOCATE
+STATUS
+to see whether your permit currently has a
+source set and, if it does, how much it will cost to move the house.
+Commands
+Summary
+----------------
+BUY RELOCATION     - Buy a relocation permit at the
+Delos Property Office
+RELOCATE FROM HERE - Set the relocation source room
+RELOCATE TO HERE   - Relocate your house to this
+destination
+room
+RELOCATE CANCEL    - Clear the relocation source on your permit
+RELOCATE STATUS    - Check the status of your relocation permit
+(See also:
+HELP HOUSING
+, HELP HOUSING SUMMARY,
+HELP HOUSING UPGRADES
+, HELP
+SUBDIVISIONS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

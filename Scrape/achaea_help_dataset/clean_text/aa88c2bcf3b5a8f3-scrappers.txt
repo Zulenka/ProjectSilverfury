@@ -1,0 +1,247 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.16.17 Scrappers
+Scrappers
+are
+minipets
+(or
+artefact
+pets
+) that have been taught to battle and
+can be deployed in scrapper matches against
+other
+players and their own
+scrappers. This battle
+system
+is entirely independent of any other game or
+combat
+system in
+Achaea
+and is wholly a showdown of
+pet
+(s) vs pet(s)
+drawing
+upon their unique
+attacks
+, genus, resistances, strengths, and weaknesses.
+Almost all minipets are eligible to be upgraded into full-fledged scrappers
+with the exception of the
+fire
+/ice sprite from the
+Conclave
+event
+, the pair
+of
+leather
+shoes, the red rubber ball, the
+parchment
+kite, and the living
+rope
+.
+Minipets that
+die
+and the various potted
+plants
+may also not be turned into
+scrappers.
+Most artefact pets will be eligible for upgrading into scrappers, but due to
+the
+nature
+of these this must be done on a bespoke case by case basis by
+contacting pets@achaea.com to discuss options.
+HELP PETS
+has a breakdown of the costs for artefact pets.
+Register
+Your
+Minipet
+!
+=======================
+Jovan in Tasur'ke or Elma on the Prelatorian Highway are Achaea's scrapper
+experts. Pay them a visit to start the process.
+SCRAPPER REGISTER <minipetID>   - This will cost 25,000
+gold
+and upgrade a
+standard minipet into a scrapper at
+level
+1
+with
+health
+(
+hp
+),
+attack
+(atk), and
+defence
+(def)
+stats
+.
+Scrapper Stats and Basics
+==========================
+At level 1, your new scrapper will be weak and inexperienced. By default it
+will know one attack and will need to gain battle
+experience
+to level up and
+gain additional stats and access to further attacks.
+The SCRAPPER
+command
+has all the various instructions for interacting with
+and finding out information about your scrapper!
+SCRAPPER INFO <scrapperID>      - View all information about a scrapper,
+including stats.
+SMATCH                          -
+Everything
+scrapper battling! Just follow
+the menu
+prompts
+!
+Menu prompts can be typed directly into Achaea without any
+prefix
+or prepended
+verb, e.g if prompted to
+JOIN
+, simply type JOIN and Achaea will receive your
+instruction
+. Please note however that any command typed other than the menu
+instructions will pull you out of the menu and require you to enter it again
+via the SMATCH command.
+As your scrapper
+levels
+up they gain an increase in health, atk, and defence.
+This increase is random within a small range.
+The feeding of certain treats (purchased from Jovan or Elma) will allow you
+to
+reroll
+a
+stat
+gained on the last levelup (or all three at once). Simply SCRAPPER FEED <scrapper> <treat>.
+**You can only feed one treat to a scrapper per
+Achaean
+month
+.**
+a
+pumpkin
+-flavoured scrapper treat    - rerolls the health stat on a scrapper.
+a knaveberry-flavoured scrapper treat - rerolls the defence stat on a scrapper.
+a salmon-flavoured scrapper treat     - rerolls the atk stat on a scrapper.
+a floral-smelling scrapper treat      - rerolls all stats on a scrapper.
+Scrapper Attacks
+=================
+All scrappers have access to a set of four different attacks, unlocked
+sequentially as they
+reach
+levels 1,
+3
+, 12, and 20.
+Some of these attacks are shared across multiple similar scrappers but ALL
+scrapper minipets have at least one unique attack available to their species;
+this is learned at level 12 and has an advantage of dealing more damage than
+most standard attack
+moves
+.
+Some attacks will have a
+status
+effect; these
+might
+cause a damage over
+time
+effect, create paralysis/webbing effects that cause your foe to miss a turn,
+or instill a mental affliction that will give your foe the chance to deal
+damage to itself (as well as your scrapper) when it attacks.
+Prestiging
+===========
+Prestiging your scrapper takes it from default (all scrappers at
+registration
+)
+to bronze level, silver level, and gold level.
+Prestiged scrappers have higher potential for health, attack, and defence gain
+on level up, and also start with a higher
+base
+health.
+To create a bronze prestige scrapper you will need two default scrappers of
+the same type (two sleek black otters for example), and both must be at least
+level
+5
+.
+Take your two scrappers to either Jovan or Elma and use the
+following
+command
+while you have 10,000 gold in hand:
+SCRAPPER EXCHANGE <scrapperID> and <scrapperID>
+The two scrappers will be taken from you and exchanged for a level 1 bronze
+scrapper of the same type!
+To create a silver prestige scrapper you will need
+2
+bronze prestige scrappers
+of the same type.
+To create a gold prestige scrapper you will need 2 silver prestige scrappers
+of the same type.
+*** PLEASE NOTE: Customised minipets will NOT retain their
+customisation
+during the prestiging process. ***
+Artefact pets cannot be prestiged in this way, see
+HELP PETS
+for more details on their
+upgrades.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

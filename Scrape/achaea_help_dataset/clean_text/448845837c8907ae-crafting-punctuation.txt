@@ -1,0 +1,186 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.2 Crafting Punctuation
+What follows is a simplified set of
+punctuation
+rules as they pertain to
+crafting
+descriptions
+.
+COMMAS
+------
+If you have multiple adjectives in front of your noun, they usually need to be
+separated with a
+comma
+. A simple way to figure out if a comma is needed is to
+see if the word AND will fit between the adjectives.
+a long blue nightgown (incorrect)
+a long and blue nightgown (correct)
+a long, blue nightgown (correct)
+Not
+everything
+can be broken up with the word AND. In cases such as this, you
+do not use a comma.
+a long
+hunting
+cloak (correct)
+a long and hunting cloak (incorrect)
+a long, hunting cloak (incorrect)
+This method will not make it correct every
+time
+, but more often than not it
+will come in handy.
+NOTE: Information on commas is provided only in the interests of posterity. Commas are NOT permitted in
+design
+appearances at all.
+THE OXFORD COMMA
+----------------
+Achaea
+uses the "Oxford comma" when using lists. This means that when
+writing
+a list, a comma should be used before the "and".
+a red, white and blue scarf (incorrect)
+a red, white, and blue scarf (correct)
+HYPHENS
+-------
+Some adjectives do not
+describe
+the noun. Instead, they describe
+other
+adjectives. When this happens, they should be hyphenated.
+a red hued cloak (incorrect)
+a red, hued cloak (incorrect)
+a red-hued cloak (correct)
+When there is more than one word like this, you need to include all of them in
+the hyphenation.
+a red and orange hued cloak (incorrect)
+a red and orange-hued cloak (incorrect)
+a red- and orange-hued cloak (correct but looks terrible)
+a red-and-orange-hued cloak (correct)
+When adjectives such as these come after the noun, the
+hyphen
+is not used.
+a cloak with a red hue (correct)
+a cloak with a red-hue (incorrect)
+This hyphen still applies if the adjectives come after the noun only to precede
+another related noun.
+a cloak of red hued silk (incorrect)
+a cloak of red-hued silk (correct)
+EMDASHES
+--------
+These are used when you want to add
+something
+that expands upon what you have
+already written, and are especially important after the sentence should have
+been closed.
+The flavour of the secret ingredient - garlic - lingers in your mouth.
+(correct)
+The flavour of the secret ingredient, garlic, lingers in your mouth. (correct)
+Long after you swallow the
+food
+, you can still taste the secret ingredient -
+garlic. (correct)
+Long after you swallow the food, you can still taste the secret ingredient,
+garlic. (incorrect)
+SEMICOLONS
+----------
+Semicolons are used to
+join
+two complete sentences that are related to each
+other. The sentences must both be complete and must both touch on the same
+immediate subject. The second complete sentence is not capitalised.
+The
+ring
+has different types of gems. Sapphire chips surround small emeralds.
+(correct)
+The ring has different types of gems; sapphire chips surround small emeralds.
+(correct)
+The ring has different types of gems; Sapphire chips surround small emeralds.
+(incorrect)
+The ring has different types of gems, sapphire chips surround small emeralds.
+(incorrect)
+The ring has different types of gems; sapphire chips around small emeralds.
+(incorrect)
+The ring has different types of gems - sapphire chips around small emeralds.
+(correct)
+IN
+PRACTICE
+-----------
+Here is what can happen when you use hyphens and commas correctly.
+a flimsy, green-and-blue-coloured, low-cut, silk
+shirt
+That looks terrible, but it is not the fault of the person
+reading
+it or the
+fault of the rules of punctuation. If you want to avoid such tragedy, choose
+carefully when
+selecting
+adjectives for the appearance
+description
+. If the
+world
+as you know it will come to an end because you are unable to prune your
+adjectives, you will have to suffer the punctuation.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

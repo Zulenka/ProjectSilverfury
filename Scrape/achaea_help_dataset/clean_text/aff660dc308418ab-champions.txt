@@ -1,0 +1,232 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13.13 CHAMPIONS AND THE IVORY MARK
+(See also:
+HELP CONTRACTS
+,
+HELP ASSASSINS
+,
+HELP
+WRITS)
+What is a
+Champion
+?
+-------------------
+Champions
+are members of the Ivory
+Mark
+, an organisation dedicated to helping
+to avenge those
+who
+are unable to do it themselves. The headquarters of the
+Ivory Mark is located in a tower in the
+Sangre
+Plains, but many members are
+adventurers who make their homes in the various
+city
+-states of the realm. A
+Champion is an avenging combatant who enters into a
+contract
+with an adventurer
+to slay his or her
+enemies
+.
+Contracting a Champion
+----------------------
+Assuming you have sufficient
+IC
+justification for slaying another adventurer
+(See HELP
+PK
+), you may contract a champion as such:
+REQUEST CHAMPION FOR <target> [AT <amount>
+GOLD
+] <reason>
+You may only do this in the presence of an established contractor for the Ivory
+Mark. These cowled individuals can be found in the
+drinking
+establishments of
+most
+cities
+, as well as the Brass Lantern Inn.
+The price of any contract starts at 5000 gold, and may be modified based upon
+any public positions they may have. Organisational leaders and
+other
+higher-
+profile adventurers will require a higher fee. To impress upon the Champion the
+importance of the contract, you may specify an optional higher fee. A variable
+portion of the fee will be taken by the Ivory Mark organisation, then, if the
+contract has been placed by an individual, half of the Champion's cut will be
+returned to the filer of the contract, the rest will be awarded to the Champion.
+Your reason must be a very clear, brief statement: it will be seen by the
+target
+and is viewable by the administration in the
+event
+of a dispute. A good
+reason
+might
+be "
+Attacking
+me
+in
+Jaru
+on the 29th of Sarapin". Using this to
+make insults against the victim is forbidden, and will result in administrative
+punishment regardless of the context.
+You can have up to 10
+contracts
+in the
+system
+at any one
+time
+.
+Contract Assignments
+--------------------
+Once a Champion is requested, the contract will be placed on the contract
+board
+for the Ivory Mark, and all Champions will be informed that a new contract is
+available to be claimed.
+A contract may be claimed with CONTRACT
+CLAIM
+<contract number> while standing
+at the contract board, which is located in the Ivory Tower in the Sangre
+Plains. A Champion can only claim one contract every 24
+Achaean
+days
+, although
+if they prove skilled and fulfill a contract, this cooldown is reset.
+If you are a Champion and claim a contract, you must fulfill it within the time
+frame of 30
+months
+, or
+die
+trying. If the time expires or you are killed by the
+target, the contract is
+failed
+and your standing in the mark will decrease (see
+"Standing with the Ivory Mark" below).
+Joining
+the Ivory Mark
+----------------------
+In order to
+join
+the Mark, you must find Atlantia in the Sangre Plains and JOIN
+IVORY MARK. Doing so costs 20000 gold. You must be at least
+level
+60 and 21
+years of age.
+You will then be a registered Champion. You may not
+quit
+the organisation until
+approximately 12 Achaean months have elapsed since joining.
+While a
+member
+of the Ivory Mark, you are open to being attacked by anyone at
+any time; your
+membership
+is considered sufficient in-
+character
+justification.
+Members of The
+Quisalis
+or Ivory organisations earn 25% of their
+experience
+deficit back (provided they have one) per
+kill
+. This is not cumulative with other experience deficit bonuses.
+Quitting
+the Ivory Mark
+-----------------------
+In order to quit the Mark, you must QUIT IVORY MARK.
+Standing with the Ivory Mark
+----------------------------
+Completion or
+failure
+of a contract will
+influence
+your standing in the Ivory
+Mark. Higher
+rank
+brings with it many advantages, such as a higher payout per
+contract completion and more prestige.
+The Champion with the highest reputation gains a unique
+HONOURS
+line and
+deathsight for as long as he or she is in that position.
+Negative reputation (due to repeatedly
+failing
+contracts) will result in the
+Mark withholding more of the contract fee. Letting a contract lapse will result
+in a far higher reputation loss than a failed
+attempt
+.
+(See also:
+HELP CONTRACTS
+, HELP
+ASSASSINS
+)
+*For information on Order Champions see
+HELP DIVINEORDER
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

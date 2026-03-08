@@ -1,0 +1,169 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.13.1 FOR MENTORS
+The
+mentoring
+system
+in
+Achaea
+is a system that is designed to ensure a
+friendly reception into Achaea by
+newbies
+. When you
+wish
+to
+mentor
+someone, you
+would type MENTOR <adventurer>. You must be in the room with him at the
+time
+.
+PROTEGES will list any proteges you currently have.
+In return for taking on the responsibilities of a mentor, you will gain
+5
+% of
+the first four
+credit
+purchases your protege makes, up to 1000 total
+credits
+of
+purchases by the protege. These credits will be received as
+bound
+. (If the protege is beyond the 50
+hours
+of gameplay threshold for mentorship benefits, these credits will not be awarded.)
+Under NO circumstances are you to ask the
+newbie
+if he or she intends to
+buy
+credits.
+The responsibilities of you as a mentor are to answer all
+questions
+about
+Achaea that a newbie has, to the best of your
+ability
+, and to, at the very
+least,
+help
+him to help himself. You may choose to give him
+gold
+, or
+equipment
+,
+but at the least, you must help him
+go
+ratting
+, help him find
+other
+things
+to
+fight
+, and perhaps even help him do some
+quests
+or
+kill
+some things. If your
+protege needs help, you are expected to help him or her. The privilege of
+mentorship means that your proteges come first, and you come second. If you
+cannot handle this, do not be a mentor.
+Once the newbie has either purchased credits or played for at least 25 hours,
+he will likely need less help, but you should still be willing to grant
+reasonable assistance if need be. Remember that it is to your advantage to help
+him out. The more interested in Achaea he becomes, the more likely he will be
+to buy credits, and the more credits you will get.
+We take the position of mentor seriously, and if you are not performing your
+duties as a mentor, then you risk having your ability to be a mentor taken
+away.
+Tips for
+Mentors
+:
+1) When dealing with newbies, always try to be in-role.
+2
+) Even if it is not entirely in-role, be patient with them. Remember that
+Achaea is probably much different from their previous mudding
+experience
+(if any).
+3
+) Don't try to push them to buy credits. It's the sort of
+thing
+you
+might
+want to casually work into a conversation if the newbie asks about
+other ways to get
+lessons
+, but any hard-
+selling
+is strictly out of the
+question
+.
+4) To sum it all up: Be professional. You are representing Achaea to newbies,
+who
+are the lifeblood of the
+world
+.
+A final note:
+Should things not work out in the worst of ways, a mentor can
+renounce
+a protege via RENOUNCE PROTEGE <protege>.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

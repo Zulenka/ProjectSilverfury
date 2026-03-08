@@ -1,0 +1,286 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.12.1 IC Resolution (of ISSUES)
+(See
+HELP ISSUES
+, HELP FILING AN ISSUE,
+HELP POLICIES
+,
+HELP
+PK
+)
+I.
+Issuing
+and
+IC
+Resolution
+II
+. Attempting IC Resolution.
+III. What ISN'T IC Resolution?
+IV. Abuse.
+V. When Is Attempting IC Resolution NOT Needed?
+VI. A Final Why.
+Issuing And IC Resolution
+-------------------------
+Achaea
+is a
+multiplayer
+environment
+where each player has the
+ability
+to
+affect
+other
+players within the environment, for good or for ill.
+Inevitably, conflicts arise between players, and part of the play of Achaea
+is reacting to those conflicts in-
+character
+. When at all possible and
+reasonable, react AS your character instead of reacting out-of-character
+(
+OOC
+) by filing an
+issue
+and breaking immersion for yourself and the issuee.
+If someone violates a PK rule against you, don't jump to file an issue against
+him. Breathe. Never file an issue out of anger. Take an
+objective
+look
+at the
+situation and see if it was a reasonable
+move
+by his character. Did he have an
+in-character reason? If so, then
+consider
+how you can react AS your character.
+If you file an issue against somebody,  you give up your ability to seek IC
+resolution.
+Attempting IC Resolution
+------------------------
+The word "resolution" can be misleading. IC resolution does not necessarily
+mean an
+eye
+for an eye, or that you MUST
+win
+against your opponent, or that
+the outcome of the
+attempt
+must be in your
+favour
+immediately.
+There are as many different ways to approach attempting IC resolution as
+there are different conflicts. Every conflict will be different. We're
+hesitant to give a list of possible
+things
+you could do, since some people
+are so literal minded that they turn "a list of ideas" into "a prescriptive
+list of precisely what is allowed." We don't want that, but we'll give some
+ideas
+and hope you understand that they are just that: ideas. Many other
+approaches
+might
+work. Be creative!
+- You could attempt to take
+vengeance
+yourself.
+- You could
+hire
+an
+assassin
+or
+champion
+.
+- You could attempt to undermine them politically, or within their
+community, over
+time
+.
+- You could use your
+influence
+to get them blacklisted from various
+suppliers.
+- You could try to turn the person into your
+ally
+instead of your
+enemy
+.
+- Simply work this person into the fabric of your character's
+roleplay
+as a
+personal nemesis or adversary with whom you can pursue potential future
+conflicts. In-role motivations create more interesting characters!
+What ISN'T IC Resolution?
+-------------------------
+Anything
+like "Do this, or else I'll ISSUE".
+Any time you bring up
+issues
+, you are
+going
+ooc, since issues are blatantly
+OOC and obviously not part of any attempt at IC resolution. You mention
+issuing and this is NOT IC resolution. Do not attempt sophistry by using
+phrases like "Do this, or I will have to petition the
+Garden
+of the
+Gods
+for
+judgement against you" when you mean "Do this, or I'll issue".
+Anyone
+who
+threatens to issue another player in an IC context will 100% of the time have the issue summarily dismissed.
+Abuse
+-----
+ANYONE who is deliberately manipulating the
+system
+will not be
+looked
+upon
+kindly. That goes from the players who abuse issues by issuing other players
+at the drop of a hat, to the players who use every flimsy excuse to PK other
+players, every chance they get, then cry "I had a reason! You didn't try IC
+resolution with
+me
+!" when they are issued.
+1) Issuing frequently. People who issue frequently tend to have their
+complaints taken less seriously. Issuing is really rarely the best course of
+action and issuing a lot is a clear indication, to us, of someone who
+invites trouble and then tries to get the administration to protect him or
+her.  After all, issues are a blatantly OOC course of action. That doesn't
+make them wrong, but it should give you pause to consider whether it's
+really important enough to take OOC.
+2
+) Using flimsy excuses to PK other players, then hiding behind the IC
+resolution requirement when issued. People who get issued frequently by many
+people tend to have their justifications taken less seriously. If it doesn't
+seem like you're putting much thought into why you PK
+others
+, but merely
+taking the slightest excuse to do so, you can
+bet
+we'll be taking a much
+closer look at your justifications.
+3
+) Issues as blackmail. Threatening people with issues to coerce them to do
+something
+they might not do IC otherwise is considered highly distasteful.
+When Is Attempting IC Resolution Not Needed?
+--------------------------------------------
+We allow for circumstances when IC resolution is impossible or so difficult
+as to be unreasonable. Explain your situation in the issue and explain
+clearly why you do not feel IC resolution is possible. We may not agree with
+you, but it's possible we may.
+If someone
+attacks
+you with no IC reason whatsoever, we don't consider it
+fair to request that you treat them in an IC manner. That doesn't mean that
+you can't, or that you should ALWAYS issue without attempting IC resolution
+in such cases, just that you are not 100% required to.
+You do NOT need to attempt IC resolution if an OOC
+policy
+is breached!
+Examples of such
+policies
+would be:
+harassment
+,
+language
+rules,
+seconds
+abuse,
+multiplaying
+, breaches of
+HELP HONOUR
+,
+insanity
+,
+spamming
+,
+auto
+-whatever, etc. If you insult the character Joe, and the player behind
+Joe
+logs
+on to his character Sam to
+kill
+you for the insult to Joe, that's
+an abuse of seconds and you should report it.
+A Final Why
+-----------
+The ISSUES system is OOC - out of character. It is there to protect people
+against rampant abuse and against harassment. It's not there to keep you
+from ever getting interrupted, or ever taking any risks. It's not there to
+be the perfect
+shield
+from all harm. Sorry!
+Achaea is a real and living
+world
+. Stuff happens. We do not grant you a
+permanent, perfect entitlement to freedom from worry, from fear of harm,
+from any inconvenience, from
+theft
+, etc.
+We will intervene when things get out of hand, though, and don't you
+hesitate to let us know if they have (but do keep in mind what's above).
+That's what ISSUES are for.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

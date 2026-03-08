@@ -1,0 +1,281 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.6 ROLEPLAYING and OOC
+(See also:
+HELP ROLEPOINTS
+,
+HELP INSANITY
+,
+HELP LANGUAGERULES
+,
+HELP
+RPWHO
+)
+To
+roleplay
+means to play a role. In the context of
+Achaea
+,
+roleplaying
+means
+that you play as if you were your
+character
+. Achaea is a roleplaying game: some
+level
+of roleplaying is expected. Minimally, please don't seek to disrupt
+other
+peoples' roleplay with out-of-character
+talk
+.
+If you're having a hard
+time
+finding roleplaying, check out
+HELP RPWHO
+.
+RP
+required: where?
+-------------------
+Roleplaying is expected on/in all public venues except the
+newbie
+channel
+.
+-
+shouts
+- yells
+-
+news
+groups
+-
+house
+channels
+-
+city
+channels
+- order channels
+- oakstone channels
+-
+market
+channel
+-
+party
+channels
+-
+army
+channels
+- some
+clans
+(particularly org-owned clans)
+Some few clans may be explicitly
+OOC
+(out-of-character). This will be explicitly indicated somewhere in the
+clan
+helps. The publicly accessible
+clanhelp
+scroll
+(i.e. CLANHELP <CLAN>) must always abide by the ooc and
+language
+rules even if the clan is an ooc clan.
+Tells
+may be ooc, as they're not public.
+All channels are subject to
+HELP LANGUAGERULES
+, except clan channels.
+Staying IN CHARACTER, and Other Restrictions
+--------------------------------------------
+Always try to stay in character (
+IC
+) on channels - you are playing the role of a
+person in a magical
+world
+called Achaea. Talk about real life, other
+muds
+, or
+your favourite singer - this should all be done outside the game or, if you
+must, use TELLS. Be advised, however, that you should not
+go
+OOC with anyone that has not explicitly agreed to do so.
+Be most careful with shouts and public
+posts
+- stay in character, watch
+language rules. Market channel is only for
+buying
+and
+selling
+: no chatting
+please. Newbie channel is for
+questions
+and answers about how to play the game:
+no chatting please.  Most other channels have their own rules, but are
+generally more tolerant of chatting and general conversation.
+Approaching Roleplaying
+-----------------------
+Perhaps the best way to roleplay your character is to first create a coherent
+"life philosophy" for your character, and then follow that with your actions in
+Achaea. You
+might
+even want to write out a summary of your character's
+psychological
+makeup
+in order to make this process easier.
+For example, imagine a character named Valtre,
+who
+is a young mhun
+monk
+.
+Valtre was raised a street urchin in
+Hashan
+and was bitterly unhappy
+until he began
+following
+the way of the monk, and began to
+experience
+moments of inner peace. His primary motivation, currently, is to increase his
+knowledge and
+power
+, but his long-term
+goals
+are not those of
+domination
+over
+his fellow mortals. Instead, he seeks to rise to political power in order to
+help the beleaguered and down-trodden. He chooses not to worship any particular
+God, and his primary
+loyalty
+is to his
+race
+. He despises, perhaps irrationally,
+all dwarves, due to mistreatment he experienced at their hands as a
+child
+.
+Finally, Valtre has recently discovered poetry and is given, somewhat
+pompously, to quoting his favourite poets at what
+others
+might
+consider
+to be
+inappropriate
+times
+, such as the heat of battle.
+With just this brief biography of Valtre, we have an interesting character with
+well-
+defined
+motivations and some indication of his psychological
+status
+. You
+would not find Valtre out slaughtering his fellow mhun in
+Moghedu
+, nor would
+you find him
+killing
+most sentients for no reason. He would be extremely
+interested in
+practicing
+his
+skills
+in order to master them, and would perhaps,
+as a hobby,
+hold
+poetry readings. While Valtre is open-minded enough to accept
+dwarves in the same
+guild
+as him, he definitely would not socialise with them,
+and would likely be quite terse, though not overly rude with any dwarves he was forced to deal with.
+UPCOMING
+--------
+Upcoming is a massively useful tool to allow the administration and your
+organisations to inform you when
+something
+fun is
+going
+to happen that you
+might want to be logged in for. It is an OOC tool, so please refrain from using
+it to foretell the future within In Character
+arena
+.
+THE
+GODS
+--------
+Unless you are explicitly invited to do so, it is never appropriate to be OOC
+with a God, this is
+says
+, tells, and
+messages
+. Gods are IC characters only. If
+you have
+feedback
+or concerns about a God's actions, please
+email
+Makarios@achaea.com or Ictinus@achaea.com and they will investigate.
+CHILDREN
+------------
+While some may choose to roleplay pregnancy and childbirth, please note that we will not tolerate any explicit roleplay involving children anywhere in Achaea.
+(See also:
+HELP ROLEPOINTS
+,
+HELP INSANITY
+,
+HELP LANGUAGERULES
+, HELP RPWHO)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,291 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.4.2.1 Territory Control
+For a full detailing refer to
+Announce
+news
+posts
+4592 and 4593.
+First, a couple of notes.
+-
+Attacking
+troops with
+hunting
+attacks
+will
+go
+badly for you. Use troops to
+attack
+troops.
+- Using battlefields to
+escape
+PK
+is a breach of
+honour
+and is severely frowned
+upon.
+- Factions
+who
+cannot yet request
+beacon
+stones (due to the staggered starts)
+can still defend, they just cannot instigate attacks until they gain access to
+the stones.
+FOR
+GENERALS
+-------------
+Some Terminology:
+Reserves: troops in an organisation's
+army
+that are not yet assigned to a
+division. Troops can not be moved into the reserves, only out of them. All
+newly recruited troops start out in the reserves.
+Division: A division is a large
+group
+of companies. When a battle is initiated,
+one division participates in said battle.
+Company: A company is a small group of up to eight troops of the same
+class
+.
+Each company is controlled by a player.
+Troop: A troop is a single
+member
+of a company. Troops aren't handled on an
+individual basis for the most part.
+Troop
+classes
+:
+Assault
+: assault troops are much faster at securing a location. They also have
+fairly balanced
+stats
+, though they lean towards the offensive.
+Saboteurs: Saboteur troops are able to sabotage tower fortifications, disabling
+them for as long as they're carrying out the
+task
+. They are also the most
+balanced when it comes to stats: not being particularly inclined to either
+attack or
+defence
+, but having a fairly substantial
+health
+pool.
+Demolitionists: Demolitionists are able to damage fortifications, eventually
+destroying them. Demolitionists also have the highest attack
+stat
+of any troop
+class, although their low health and defence offsets this.
+Scouts: Scouts are able to scout a location before entering, potentially
+picking up any fortifications or troops that may be present there. Scouts also
+are the fastest to secure a location after assault class troops, and have the
+highest defensive stats of any troop. This is offset by the fact that they have
+a very low attack stat.
+Managing troops:
+Each
+city
+has a standing army, split up into divisions. Each division is split
+up into companies; these are the units that players
+control
+. A company is
+composed of up to eight troops of a given class. Having a diverse array of
+troop types in each division is vitally important for a balanced army.
+Commands
+:
+Troops:
+FACTION TROOPS LIST                - List what troops you can recruit and their
+costs.
+FACTION TROOPS
+SHOW
+<trooptype>    - More detailed information about a given
+troop type.
+FACTION TROOPS RECRUIT <number> <trooptype>
+- Recruit troops into your faction's
+reserves.
+Reserves:
+FACTION RESERVES LIST              - List what troops your faction has ready
+for assigning.
+FACTION RESERVES DISMISS <number> <trooptype>
+- Dismiss a given number of troops from your
+faction's reserves, permanently.
+Divisions:
+FACTION DIVISION MUSTER <division name>
+- Create a division.
+FACTION DIVISION LIST              - List all your factions created divisions.
+FACTION DIVISION
+RENAME
+<division> TO <division>
+- Change the
+name
+of a division.
+FACTION DIVISION SHOW <division>   - Show what companies currently make up a
+division.
+FACTION DIVISION ASSIGN <number of troop> <troop type> TO <division>
+- Assign a number of troops from your
+faction's reserves to a division.
+Beacons:
+To attack an area, you will need a beacon stone. These beacons allow a division
+to traverse to an area's location. You do not need a beacon to defend an area
+that is claimed by your faction.
+REQUEST BEACON                     - From your faction leader.
+PLANT
+BEACON                       - To open up access to the battlefield!
+CALL DIVISION                      - You can only call one division per battle,
+choose wisely.
+ENTER BATTLEFIELD                  - Enter a battlefield.
+When a division is successfully called, one of two
+things
+will happen:
+1) If a battle for the area is already in progress, you shall
+join
+it.
+or
+2
+) If no battle is currently in progress, one shall be initiated.
+If a faction attacks an area that you have already claimed, you may call a
+division to that area without need for a beacon stone or waiting
+period
+.
+Once a battle starts, anyone in the area may ENTER BATTLEFIELD. This requires
+that you be at both full health and
+mana
+and able to
+move
+normally.
+FOR EVERYONE
+-------------
+TERRITORY
+STATUS
+- Get a breakdown of who has currently
+captured what, as well as some
+other
+battle specific information.
+Controlling Companies:
+There are several commands restricted to specific types of troops.
+COMPANY
+COMMAND
+<company> FOLLOW   - Order a company you are commanding to
+begin
+following
+you.
+COMPANY COMMAND <company> UNFOLLOW|WAIT
+- Order a company to stop following you.
+You still retain command, however.
+COMPANY COMMAND <company> ATTACK|
+KILL
+<company>
+- Command a company you are leading to
+initiate
+combat
+with a hostile company.
+COMPANY COMMAND <company> SECURE PERIMETER
+- Begin the process of securing a location
+for your faction.
+Scouts Only:
+COMPANY COMMAND <company> SCOUT <direction>
+- Receive
+intelligence
+based on what
+fortifications or troops lie in the next
+location.
+Saboteurs Only:
+COMPANY COMMAND <company> SABOTAGE [fortification]
+- Have the company actively interfere with
+the function of a fortified tower,
+preventing it from attacking other troops
+in the location. Omitting a fortification
+shall cause it to pick one at random to
+sabotage.
+Demolitionists Only:
+COMPANY COMMAND <company> DEMOLISH [fortification]
+- Begin the process of destroying a
+fortification. If none is specified, one
+will be picked at random.
+(Towers are given priority.)
+Fortifications
+---------------
+Fortifications are a large tactical advantage in territory contestations.
+Fortifications may be built in a room and serve various purposes, from blocking
+off an
+exit
+to causing periodic damage to all hostiles (players and troops
+both) in a location. Removing fortifications is often crucial in successfully
+capturing an area. When a battle resolves, all non temporary fortifications in
+said location will become loyal to the victor, so it is often advantageous to
+retain some amount of infrastructure where possible.
+Note that during a battle, temporary fortifications may only be built.
+Permanent fortifications take
+time
+to construct and cost more; temporary
+fortifications are built immediately, but are easier to destroy and will
+degrade over time.
+FORTIFICATIONS                     - See what fortifications are built in a
+room.
+FORTIFICATION LIST                 - See what fortifications are available to
+build.
+FORTIFICATION SHOW <fortification> - See more information about a
+fortification, such as build costs.
+FORTIFICATION BUILD <fortification> [TEMPORARY]
+- Build a fortification at your location.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

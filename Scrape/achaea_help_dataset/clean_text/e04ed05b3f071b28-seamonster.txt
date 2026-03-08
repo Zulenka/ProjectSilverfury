@@ -1,0 +1,178 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.22 Seamonsters
+Seamonsters
+and
+denizen
+-controlled
+ships
+can randomly be encountered as you
+roam the high
+seas
+, but are known to populate certain areas more than
+others
+.
+Slaying these scourges of the seas can be a very profitable and rewarding
+endeavour.
+Seamonster
+Commands
+-------------------
+FIRE
+<weapon> AT <seamonster>
+- Fires a
+ship
+-mounted
+weapon
+at a seamonster.
+- All seamonsters can be targeted with the keyword "seamonster".
+SPYGLASS
+LOOK
+- Uses the Spyglass
+ability
+in
+Seafaring
+to view seamonsters.
+SPYGLASS LOOK <seamonster>
+- Get details about a specific seamonster.
+Seamonster
+Movement
+and
+Attacks
+-------------------------------
+After appearing, seamonsters will chase your ship in an
+attempt
+to get next to
+it to perform their most damaging attacks. It is best to try and keep away from
+them. Most seamonsters will also have some ranged attacks.
+Seamonsters prefer the comforting waters of their home regions. Attempting to
+lure a seamonster too far from its home will cause the seamonster to
+sink
+back
+into the depths from whence it came.
+Seamonster attacks can have various effects, including:
+- Damage to the
+sails
+of the ship.
+- Damage to the hull of the ship.
+- Damage to the
+health
+of players on the ship.
+- Set rooms on the ship on fire.
+- Tangle the sails of the ship (CLEAR RIGGING to clear it).
+- Tangle a weapon on the ship (CLEAR <weapon> to clear it).
+- Disrupt usage of the
+figurehead
+(CLEAR FIGUREHEAD to clear it).
+Ship Ammo
+---------
+Different ammo types will have different effects on seamonsters:
+-
+Ballista
+darts and
+war
+discs do damage to seamonsters.
+- Chainshot slows a seamonster's movement
+speed
+for a short
+time
+.
+- Starshot slows the seamonster's
+attack
+speed for a short time.
+- Flares prevent a seamonster from
+moving
+for a very short time.
+- Spidershot will decrease the damage of the next attack of a seamonster.
+Seamonster Rewards
+------------------
+All crewmembers of the
+killing
+ship
+who
+fired a weapon at the seamonster,
+performed a navigational
+command
+, or invoked a useful
+seaspell
+will earn
+experience
+when a seamonster is slain. Denizen crewmembers will receive
+experience and increased morale. A portion of the ammo used against the
+seamonster will be retrieved from the
+corpse
+and placed on the ship's deck.
+Additionally, a trophy will be retrieved from the seamonster's corpse and
+placed on the deck of the killing ship. The trophy can be handed in to Casov,
+the
+mariner
+, in Sea Lion Cove for a substantial
+gold
+reward. The trophy will
+decay
+, so it is best to keep an
+eye
+on it to make sure that you can take
+advantage of the fruits of your labour.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

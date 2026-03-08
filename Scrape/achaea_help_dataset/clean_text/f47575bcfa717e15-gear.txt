@@ -1,0 +1,215 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.31 Gear and Loot
+Whilst
+hunting
+in
+Achaea
+you may find yourself coming into possession of some
+gear
+: specialist
+equipment
+obtained from and designed for hunting and
+exploration
+. In many ways similar to
+artefacts
+, gear
+pieces
+each
+hold
+distinct effects which provide various bonuses and augmentations while hunting
+enemies
+or while travelling about the land in search of
+quests
+and
+other
+adventure
+.
+Note: Interacting with gear is done via the GEAR
+command
+. These are not items in the traditional
+sense
+and thus do not bloat your
+inventory
+. They are entirely distinct.  While
+equipped
+, however, your specialist gear will be revealed descriptively to those
+who
+LOOK
+at you.
+Acquiring Gear
+--------------
+Most commonly, gear can be obtained from
+denizens
+in the
+world
+when slain. Almost every area in Achaea that is worth hunting has the chance for its denizens to relinquish a
+piece
+of
+loot
+when slain. Other sources of gear include completing the toughest quests and defeating the most difficult denizens, whose rare trinkets and keepsakes contain among some of the most valuable and powerful effects.
+Some of these items may be distinctly flavoured for the area where they are obtained (
+Annwyn
+or the
+Underworld
+, for example), but many are simply the spoils of adventuring now left in your hands to enjoy.
+GEAR LIST <filters> (filters being ALL, EQUIPPED, UNEQUIPPED, or a slot)
+- Displays your acquired gear based on your specific parameters.
+Gear Slots
+----------
+Gear pieces all adhere to a specific "slot" in which they can be worn. Typically these include the head, hands, feet, chest, and trinket slots. Only one item can be equipped in each slot.
+GEAR
+EQUIP
+<gear|set>
+GEAR
+UNEQUIP
+<gear|set>
+-
+Equips
+or unequips a piece of gear, or a set
+Gear Effects and Sets
+----------
+All gear items carry their own independent effects and bonuses. These range in magnitude based on rarity, the set (if any), and an element of randomness in addition. The types of effects on items vary wildly, ranging from additional damage on your
+attacks
+to specific resistances, granular bonuses against certain
+denizen
+types, and a plethora of more distinct powers, such as that akin to the Rageblade
+relic
+of old...
+GEAR
+PROBE
+<gear>
+- Examine a piece of gear to
+learn
+its slot, its rarity, its set (if any), remaining
+decay
+time
+, any constraints on where or how it operates (for instance a certain
+environment
+, area, or amount of
+battlerage
+), and of course its effect.
+GEAR SHOWOFF <gear> [FULL]
+-
+Show
+off the
+description
+of a piece of gear to all present.
+- FULL will additionally reveal the effect to those present.
+Some pieces combine to provide an extra benefit when worn as a full set. Sets typically consist of four pieces, with the trinket slot excluded. When probing a piece of gear, you will be able to determine which set, if any, it belongs to.
+GEAR PREVIEW <set>
+- While
+holding
+at least one piece from a set, view the bonus effect for that set, whether or not you currently have it equipped.
+Rarity
+------
+Rarity determines both how long a gear item will last, and the potential magnitude of its effect when obtained. Gear items come in three possible tiers of rarity:
+- Common gear has the shortest decay time and lower magnitude of effects (typically the lower end of the possible range).
+- Rare gear has a longer decay time than common and higher magnitude of effects (typically the higher end of the possible range).
+- Remnant gear evokes echoes of ancient civilisations and technologies long forgotten, thus it has the highest potential decay time and its magnitudes can exceed even the assigned maximum.
+Scrap
+-----
+Surplus gear pieces can be scrapped to obtain arcane ephemera. This unique material can then be utilised in transformation (via
+Augmentation
+) or
+restoration
+(via
+Armoursmithing
+), either via
+trade
+(see
+HELP
+GEAR
+TRADING
+), or directly if you possess the
+abilities
+yourself.
+GEAR SCRAP <piece#>
+- Break down a piece of gear into arcane ephemera.
+- The amount generated is based on the remaining decay time on the piece.
+GEAR LIST ALL
+- Show your full list of gear as well as any ephemera obtained.
+- Ephemera cannot be accumulated beyond 999 units.
+Restoring and Transforming Gear
+-------------------------------
+Armoursmiths and those skilled with Augmentation will be able to offer their services in a gear trade to restore and transform gear. This costs the owner an amount of arcane ephemera.
+Restoration will restore your piece up to its maximum original decay time, while Transformation will
+attempt
+to
+reroll
+a piece's effect into another from those available within its set and slot.
+In cases where the same affix is rolled as the original, the magnitude will still be generated fresh.
+A piece of gear may only be adjusted (restored or transformed) up to three
+times
+, and both restoring and transforming count towards this limit.
+For example: If I restore a piece twice, I can only restore it a third time, or transform it once before it will no longer be possible to adjust any further.
+Note: trinkets cannot be transformed.
+Gear Trading
+--------------
+Trading gear between adventurers uses a unique interface in order to facilitate the exchange of pieces. When engaging in a trade proposal, you will enter negotiation with the other
+party
+and be prompted on how to proceed. This does not follow typical Achaea item exchanges and gear does not behave like typical items.
+HELP GEAR TRADING contains full details on exchanging gear and should be consulted next.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

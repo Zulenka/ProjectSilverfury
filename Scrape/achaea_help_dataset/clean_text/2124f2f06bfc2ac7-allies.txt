@@ -1,0 +1,133 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.5 ALLIES
+PERSONAL
+ALLIES
+-----------------
+By typing
+ALLY
+<adventurer> you may officially add someone to your list of
+allies. ALLIES will list
+who
+your official allies are, and UNALLY <adventurer>
+will
+remove
+an adventurer from that list. You may have, at most, 20 officially
+declared allies. If you
+wish
+to unally all of your allies at once, simply do
+UNALLY ALL.
+The significance of official allies lies in the way some
+abilities
+work and in
+the way your loyal
+mobiles
+, and
+other
+mobiles, will treat your allies. We will
+leave
+it up to the individual adventurer to discover the particulars of this,
+however.
+CITY
+ALLIES
+-----------------
+If you are recognised as a formal ally of a city the
+following
+is important:
+- You can use the city
+language
+.
+- Your deaths count for
+tank
+charging when
+defending
+.*
+- Your kills count for tank charging when
+raiding
+.*
+- Your kills and deaths will count towards a
+war
+effort.*
+- You will not
+lose
+experience
+when in a sanctioned raid situation.*
+- You can use call for
+help
+in the allied city.
+ADMIN
+STANCE - while you can
+show
+up to defend/
+assist
+your ally city in a raid situation, you can be BOUNTIED for participating. This is once per raid, not per
+attack
+or per
+kill
+.
+* These are obviously referring to actions involving your allied city.
+See also:
+HELP ENEMIES
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

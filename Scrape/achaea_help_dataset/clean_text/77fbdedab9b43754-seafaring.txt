@@ -1,0 +1,186 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.47 Seafaring
+(See
+HELP MARQUE
+,
+HELP
+SEAFARING
+SPECIALISTS
+)
+Just about anybody can exist on a
+ship
+on the sea. It is entirely possible
+to
+sail
+aboard a ship without any
+skill
+in Seafaring at all.
+To truly excel and prosper at sea, aboard ship, requires Seafaring.
+Something
+New
+-------------
+Seafaring has an exciting new approach which changes the options usually found
+in
+other
+Achaean
+skills
+where
+abilities
+are always gained in the same order. As
+with other skills, you
+learn
+Seafaring by spending
+lessons
+to increase your
+overall capacity in the skill. The new approach relates to Seafaring
+specialisations
+, which means that any two practitioners of Seafaring are likely
+to have a different set of abilities.
+Seafaring
+Promotion
+Points
+--------------------------
+Each skill
+rank
+(HELP SKILL
+RANKS
+) you gain in your
+study
+of Seafaring grants
+you one or more SPPs - Seafaring Promotion Points. These SPPs may be used to
+increase rank in one of the five Seafaring specialisations: deckhand,
+weapons
+,
+helm, watch, and
+command
+. The grand total of SPPs you may gain is about thirty
+two if you study Seafaring all the way to Transcendent. This would allow you to
+reach
+the maximum rank of five in two specialisations, with a couple of SPPs
+left for other specialisations.
+The Five Seafaring Specialisations
+----------------------------------
+1) Deckhand - stability, repairs, and boarding
+enemy
+ships
+2
+) Weapons  - aiming, firing, and fixing ship weapons
+3
+) Helm     - ship handling,
+bearings
+, manoeuvres, and whirlpools
+4) Watch    - crow's nest, bearings, ship scanning, and ship
+combat
+powers
+5
+) Command  - more effective operations, and several powerful
+seaspells
+Each
+specialisation
+has ranks one through five. Increase your rank in a
+specialisation by spending SPPs as follows:
+To Gain     Will      Grand Total SPPs
+Rank       Cost     Spent to Gain Rank
+I      one SPP           one
+II
+two SPPs         three
+III    three SPPs         six
+IV      four SPPs         ten
+V      five SPPs       fifteen
+General Abilities
+-----------------
+Some abilities are gained by having any specialisation to rank II or above. If
+you get any rank II in any specialisation, you'll gain one of the Seafaring
+General Abilities. If you get any rank III in any specialisation, you'll gain
+another, and so forth.
+How to Gain a Rank in a Specialisation
+--------------------------------------
+Find the proper specialist
+who
+is able to grant your promotion. See HELP
+SPECIALISTS. Make sure you have enough SPPS for the promotion with
+SHOW
+SPPS,
+then
+SPECIALISE IN *
+(* is deckhand, weapons, helm, watch, or command)
+If it works, you spend some SPPs and gain a rank in the specialisation. Check
+your current ranks in specialisations by SKILLS.
+How to Give up a Rank in a Specialisation
+-----------------------------------------
+For at least a little while after Seafaring is made available, you will be able
+to give up a rank in a specialisation at no cost. That is, you'll reduce your
+rank and regain all of the SPPs you had expended to get it. Simply:
+UNSPECIALISE *
+(* is deckhand, weapons, helm, watch, or command)
+If it works, you regain some SPPs and
+lose
+a rank in the specialisation. Check
+your current ranks in specialisations by SKILLS.
+(See
+HELP MARQUE
+, HELP SEAFARING SPECIALISTS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

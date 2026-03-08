@@ -1,0 +1,158 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.98 CHANGING CLASS
+(See also:
+HELP QUIT
+and
+HELP
+8 for
+House
+- and
+class
+-related files)
+Quitting
+or being Kicked out of a House
+---------------------------------------
+Fine.
+Go
+ahead.
+Nothing
+changes, except that you aren't in the House any more.
+Your
+skills
+are unchanged. Go
+join
+another House, stay a rogue, or do
+whatever you please!
+Quitting a Class
+----------------
+Please
+read
+everything
+below before quitting your class! It is -very- important
+that you understand the possible consequences.
+1.   If you are an apprentice or
+journeyman
+/woman in your class, as long
+as you have not embraced class, you will
+lose
+your class skills and
+receive back approximately 98% of the number of
+lessons
+you spent to
+study
+in those class skills.
+2
+.   If you have embraced class (meaning, you are a full
+member
+of the
+class) then you will lose your class skills and receive approximately
+50% of the lessons you spent to study in your class skills.
+3
+.
+QUIT
+CLASS is how you quit the class.
+Resetting invested lessons without
+changing
+Class
+-------------------------------------------------
+Those at
+level
+30 and under may reset the lessons spent in a
+skill
+by using the
+following
+syntax
+: FORGET <SKILL>. This will return almost 100% of your invested
+lessons back to you.
+* Note: This functionality is blocked once you've been offered to
+embrace
+, or
+you've embraced your class.
+Joining
+a new Class
+-------------------
+Nothing special: just join via
+Certimene
+. There is no benefit or advantage to
+joining a class that has skills similar with your previous class.
+The same restrictions
+apply
+here as elsewhere. You may join any class you
+want, but if you want to be in both a House and a class, then those must be
+compatible. See
+HELP HOUSE
+<house shortname> for a list of what
+classes
+are
+accepted within each House. HOUSE LIST will give you the list of
+Houses
+and
+shortnames
+.
+(See also:
+HELP QUIT
+and HELP 8 for House- and class-related files)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

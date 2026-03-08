@@ -1,0 +1,189 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.5.2 Classleads
+What is a
+classlead
+report:
+---------------------------
+An avenue to suggest a change or addition to a
+skill
+or
+ability
+in the game.
+What is NOT a classlead report:
+-------------------------------
+It is not an avenue to submit a
+bug
+. If you want to file a bug, use the BUG
+command
+.
+Who
+can submit classlead reports:
+---------------------------------
+Any player who meets the
+following
+criteria:
+- Has played more than 50
+hours
+.
+- Is relatively active in the realms.
+- Has more than the equivalent of one transcendent skill spent in
+lessons
+.
+How do I submit a classlead report:
+-----------------------------------
+When submissions are open you may CLASSLEAD NEW <skill> <ability> to create a
+new report. This will inform you if it has been successful, and give you a
+report# to use for further modification. If you are not submitting a problem
+with an existing skill, please use "NEW" as the ability
+name
+.
+From here, you will need to
+fill
+in the details of the report, using the
+report# you were given:
+- CLASSLEAD <#> PROBLEM <text>
+- Use this to
+describe
+the problem with the ability. The more concise
+you can be, the higher the chances of the report being actioned.
+- CLASSLEAD <#> SOLUTION <1-3> <text>
+- List up to
+3
+solutions to the problem, again, be as concise as
+possible. You do not need to flesh out every detail, we will contact
+you further in the
+event
+your report is actioned if we need more
+details.
+- CLASSLEAD <#> SUBMIT
+- Submits your classlead report. Once this is done, it becomes locked
+for
+editing
+, and becomes accessible to any player to
+look
+over.
+-- Note: You may only have five (
+5
+) classlead reports at any
+time
+, per
+cycle. If you do not SUBMIT your
+classleads
+, they will not be considered
+as a part of the current cycle.
+More handy
+commands
+:
+--------------------
+- CLASSLEAD LIST [<SKILL>|UNSUBMITTED|SUBMITTED|APPROVED|REJECTED]
+-
+Show
+a refined list of classlead reports.
+- CLASSLEAD LIST [CENSURED|ENDORSED]
+- List classleads you have either endorsed or censured.
+- CLASSLEAD SHOW <#>
+- Show a classlead report in full.
+- CLASSLEAD <#> SKILL <skill>
+- CLASSLEAD <#> ABILITY <ability>
+- Reassign an existing report's skill and ability.
+- CLASSLEAD <#>
+DELETE
+- Delete one of your own reports.
+What happens next?:
+-------------------
+Classleads
+run
+in cycles: There will be a
+period
+of open submission, followed
+by a review period where no new classleads can be submitted. During this time
+of review, players can CLASSLEAD <#> ENDORSE <reason> or CLASSLEAD <#> CENSURE
+<reason> any and all submitted reports - allowing players to add their
+support
+to a suggestion, or to disagree with the proposal. The same restrictions
+apply
+to endorsing and censuring as they do to submitting a report.
+After this review period, the
+Garden
+and ACC will review the submitted reports
+and implement those which are accepted.
+Notes from Administration:
+--------------------------
+The classlead
+system
+is one that acts on maturity and
+level
+-headedness. Players
+who choose to abuse the system, or
+other
+players based on their
+ideas
+and
+submissions will face administrative punishment - up to, and including the
+permanent loss of your
+character
+(s).
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

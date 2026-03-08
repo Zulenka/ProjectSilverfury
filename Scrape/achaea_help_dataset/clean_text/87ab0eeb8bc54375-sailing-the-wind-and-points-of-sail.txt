@@ -1,0 +1,179 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.3 Sailing, the Wind, and Points of Sail
+(See also:
+HELP SHIPS
+,
+HELP
+COMPASS
+)
+Points for All
+--------------
+In
+Sailing
+, the
+ship
+and the
+winds
+matter a great deal. No ship can
+go
+directly
+into the
+wind
+, and some can go closer to the wind than
+others
+. For this
+example, north is up, and that the wind is in the north, which means it is
+coming from the north and
+going
+south.
+Ships
+are depicted with a '*' 'v' '^'
+'>' or '<' at the prow/front to
+show
+which way they are facing.
+N
+(wind)
+|
+|
+V
+This is 'close hauled'       *
+which means as close        /
+to the wind as             /
+possible - also           /
+called 'fetching'
+------> This is a 'beam reach'
+Anything
+between a beam
+This is a 'broad reach'   \
+reach
+and close hauled is
+\        called a 'close reach'
+\
+This is 'running' or    |    *
+'
+running
+downwind'      |
+|
+v
+Best Points of
+Sail
+-------------------
+Different styles and sizes of vessel perform in different manners at each
+point
+of sail.
+Points off
+War
+Sea       Wind
+of the Wind                     Galley   Strider   Cutter
+0            Head to the Wind    0         0         0
+1            \                   0         0
+2
+2             > Close Reach      2
+3
+4
+3            /                   4         4
+5
+4            Beam Reach
+6
+6         7
+5            \                   8         8         8
+6             > Broad Reach     10         9         8
+7            /                  11        10         9
+8            Running            12        10         9
+0 means the ship can make no headway at all. The
+other
+numbers give a feeling
+for the relative speeds - higher numbers representing faster
+movement
+.
+More Sailing Terms
+------------------
+(in)
+irons
+- when a ship comes to a stop because of heading into the wind
+luffing
+- when the
+sails
+flap because of being too close to the wind
+wear(ing)    - turning away from the wind so the wind is on the other side
+of your craft (from larboard to starboard, or vice versa)
+also called jibe/jibing
+coming about - turning into the wind so the wind is on the other side of
+your craft (from larboard to starboard, or vice versa)
+larboard     - the left side of your craft, when
+looking
+forward
+(from 'loading', where 'board' means 'side')
+starboard    - the right side of your craft, when looking forward
+(from 'steering', where 'board' means 'side')
+forward      - towards the front of your vessel
+aft          - towards the rear of your vessel
+beating      - any course that works upwind (also beating to windward)
+tack (noun)  - your current course in relation to the wind - either a
+starboard tack (wind comes from the right) or a larboard
+tack (wind comes from the left)
+tack (verb)  - same as coming about
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

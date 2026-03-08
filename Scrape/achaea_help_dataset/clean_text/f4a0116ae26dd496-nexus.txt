@@ -1,0 +1,133 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.3.1 Nexus - Our Official Client
+Nexus
+is the easiest and sleekest way to
+connect
+to
+Achaea
+. You can, of course, use
+other
+clients
+(
+HELP CLIENTS
+will
+show
+you some options), but Nexus is the official one.
+Nexus is a browser-based
+client
+that'll work regardless of the type of computer you have (works on tablets too, and even phones to a lesser extent), unless you're
+running
+Internet
+Explorer
+. If you are, check out the other client options above.
+You can access Nexus
+3
+at:
+-  http://play.achaea.com
+Nexus 3 can be downloaded as a desktop
+application
+from:
+- https://www.
+ironrealms
+.com/local/nexus-3.0.exe
+or for the linux version
+- https://www.ironrealms.com/local/nexus-linux-3.0.tar.gz
+For andriod users, the Nexus app can be found on Google Play!
+- https://play.google.com/store/apps/details?id=com.ironrealms.nexus
+For all our iOS folks, you can get your hands on it via the Apple Store!
+- https://apps.apple.com/us/app/nexus-
+mud
+-client/id1641739522
+Documentation and various links for Nexus 3.0 can be found here:
+https://nexus.ironrealms.com/Main_Page
+~ ~ ~ ~ ~
+If you're
+looking
+for the previous version of Nexus (
+2
+.0), you can find it at http://legacy.achaea.com
+Nexus 3 will import your Nexus 2 settings when you first login to your
+character
+. However, it does NOT overwrite your Nexus 2 settings. In other words, if you decide to use the Nexus 2, your settings and
+triggers
+will still be there, unaffected.
+Depending on the complexity of your
+system
+, it is likely some of your settings and triggers will not transfer over to Nexus 3.0 correctly. We encourage you to
+join
+the Nexus
+Discord
+server in order to get
+help
+if you need it. https://discord.gg/Tz7t5SaD4q
+~ ~ ~ ~ ~
+To submit
+bugs
+regarding Nexus please follow the
+following
+link:
+https://nexus.ironrealms.com/How_To_Submit_Bugs
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

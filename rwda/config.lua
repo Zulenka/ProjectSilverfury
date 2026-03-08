@@ -250,6 +250,10 @@ setDefault(config.executor, "clear_on_stop", true)
 setDefault(config.executor, "queue_type_default", "bal")
 setDefault(config.executor, "queue_kill_moves_as_freestand", true)
 
+config.helpdb = config.helpdb or {}
+setDefault(config.helpdb, "auto_load", true)
+setDefault(config.helpdb, "path", nil)
+
 config.runewarden = config.runewarden or {}
 setDefault(config.runewarden, "default_goal", "limbprep")
 -- Break sequence order: left_leg (causes prone) → torso → right_leg → impale

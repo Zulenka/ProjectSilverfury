@@ -1,0 +1,161 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.11 TEKURA
+The art of
+Tekura
+was first developed more than 600 years ago, long before the
+fall of the
+Selucarian
+Empire. A sect of
+monks
+was being persecuted by some of
+the
+legions
+of the Empire and the monks were not permitted
+weapons
+to defend
+themselves. So, they were forced to
+train
+their bodies to martial perfection;
+their hands and feet becoming deadly weapons in and of themselves.
+Most of the tekura
+abilities
+are affected by a variety of factors. First,
+being in a stance modifies the damage and
+speed
+of each tekura
+attack
+. You
+will always want to be in some stance or another while using tekura. Second,
+the higher your tekura, the more likely you are to hit an opponent with a
+particular attack, and the more damage you will do with that attack.
+The advancement
+system
+of Tekura is a bit different from the
+other
+skills
+. You
+may progress to a certain
+level
+in the
+skill
+, and then you must be tested to
+see if you are worthy of a new belt. A test consists of successfully
+completing a kata, or a series of
+moves
+, in front of someone
+who
+is either a
+black belt, or at least three belts above you. If you cannot find a fellow
+adventurer who is qualified to grade you, you may ask a
+denizen
+tutor
+with:
+ASK <denizen> GRADING. Denizen
+tutors
+can only grade you as high as the silver
+belt, however.
+If you have located a sensei adventurer to grade you, the sensei must type
+GRADE <your name> to grade you.
+At any
+time
+, you may DEMONSTRATE <kata> (of the katas you know) to
+show
+off
+your mastery of it.
+Belt
+levels
+:
+1) White
+2
+) Grey
+3
+) Yellow
+4) Green
+5
+) Blue
+6
+) Orange
+7) Red
+8) Purple
+9) Bronze
+10) Silver
+11)
+Gold
+12) Black
+Kata
+1) Jakata
+2) Lisagi
+3) Rhee
+4) Philos
+5) Tykorima
+6) Opha
+7)
+Nexus
+8) Kali
+9) Do-san
+10) Rhythos
+11) Krull
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

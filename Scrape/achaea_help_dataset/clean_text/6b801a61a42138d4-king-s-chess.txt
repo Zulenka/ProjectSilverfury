@@ -1,0 +1,193 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.3.4 KING'S CHESS
+The game of King's
+Chess
+is a noble one. Invented approximately 1500 years ago
+by a Sultan of
+Shallam
+named Caro-Kann, it has become the favourite game of
+the intelligentsia of
+Sapience
+. It is a fairly simple game, and easy to
+learn
+,
+but contains nearly infinite subtleties. It is a test of cunning,
+intelligence
+, strategic sensibilities, and
+experience
+.
+In order to play King's Chess, you must have a chessboard, or be in an
+establishment that has them available, such as the occasional tavern, or
+library
+, or
+gaming
+parlour.
+Since the rules of King's Chess are so well known, they will not be included
+here, but in the
+scroll
+HELP CHESSRULES
+.
+The
+commands
+that are involved with King's Chess are:
+CHESS PLAY WITH <whomever>     : Starts a new game of chess, randomly
+choosing
+[AS
+LIGHT
+|DARK]
+who
+will play the light
+pieces
+and who will
+play the dark pieces. Specify an optional
+argument of AS LIGHT or AS DARK to choose the
+side you
+wish
+to play as. This will require
+agreement from your opponent.
+CHESS
+MOVE
+<position> to <position> :
+Moves
+a chess
+piece
+. You may use either
+algebraic notation (a1, b3, etc) or
+descriptive notation (q3, kkt4, etc) to
+designate
+squares on the
+board
+.
+HELP
+CHESSRULES
+will
+tell
+you more about chess
+notation if you are unfamiliar with it.
+(Castling is done with MOVE 0-0 for king-side and MOVE 0-0-0 for queen-side.
+CHESS MOVELIST <id number>     : Lists all the moves taken in the specified
+game.
+CHESS LIST                     : Lists your unfinished chess
+games
+. A * before
+a listing
+tells
+you that that is your current
+game. You may only make moves in your current
+game.
+CHESS SWITCH <id number>       : Switches your current game to another of your
+unfinished games.
+CHESS CONCEDE <id number>      : Concedes defeat in the specified game.
+CHESS DISPLAY <id number>      : Displays the setup of the specified game. You
+may view
+other
+people's games provided you
+know the id number. If you omit the id number,
+it will automatically display your current
+game, if any.
+CHESS TAKEBACK                 : With this
+command
+, you may reverse the last
+move of your opponent. This is to be used for
+the occasion when your opponent has entered
+an incorrect move and he or she
+wishes
+to
+reverse it, or when your opponent has done
+something
+spectacularly stupid, and you wish
+to allow him or her to rethink.
+Achaea's chess game is a near-exact replica of the standard rules for chess.
+Unfortunately though, it is missing a few bits of functionality. It cannot
+tell if you are in checkmate, so it must be left up to the person being
+checkmated to formally concede the game. Upon advancing a pawn to the last
+rank
+, it will automatically be promoted to a Queen. Only in very very rare
+circumstances would you want to promote it to
+anything
+other than a Queen (and
+then, only ever a
+Knight
+, as you cannot have more than one King). The
+ability
+to choose Queen or Knight will be added in at some
+point
+, and the ability to
+detect checkmate may be added also. Further, both stalemate and
+draw
+by virtue
+of repeating the same position
+3
+times
+are not detected.
+Note that playing chess with
+ansi
+colour turned on is the preferred way to do
+things
+for most people.
+See also:
+HELP CHESSRULES
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

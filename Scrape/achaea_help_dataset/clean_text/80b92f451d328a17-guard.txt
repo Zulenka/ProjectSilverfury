@@ -1,0 +1,170 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.7 CITY GUARDS
+The
+Minister
+of
+Defence
+and their
+aides
+in each
+city
+have the
+power
+to protect the city from
+enemies
+, by declaring people official enemies of the city, and by purchasing a variety of
+guards
+to both
+guard
+specific locations within the city, and patrol it
+looking
+for enemies generally.
+If you're being attacked within your city and need
+help
+, you'll want to CALL FOR HELP. Doing so will attract the interest of constables within
+shouting
+range,
+who
+will come
+running
+to help. But be warned that CALL FOR HELP takes
+equilibrium
+, and that the guards will -only-
+attack
+city enemies. Guards will also act to protect
+other
+denizen
+citizens
+of your city, coming at their call when these poor civilians are attacked.
+Guard types:
+------------
+Each of the guard types will have their own set of
+attacks
+and utility
+abilities
+:
+- Constable: Responds to CALL FOR HELP, tracks enemies, has room-wide attacks.
+- Soldier: Powerful attacks against prone enemies.
+- Warrior: Prones enemies and breaks limbs.
+- Captain: Causes blackouts, has room-wide attacks.
+- Archer: Shoots
+flying
+enemies, can send them falling to the ground.
+- Istani: Webs / hinders enemies, has room-wide attacks.
+-
+Guardian
+: Increases the relative
+strength
+of guards throughout the
+city (and additionally further in their room).
+- Additionally, each guard type has the
+ability
+to summon back enemies
+who
+flee
+from their rooms.
+- Room-wide attacks only affect city enemies in the room.
+- Guard numbers are limited to
+5
+per room.
+- Total guard numbers are determined by the size of the city.
+CITY GUARD TYPES
+- Lists all guard types and the amount of hired guards, as well as the city's maximum number of permitted guards.
+CITY GUARD
+HIRE
+<guard type #>
+- Will purchase a guard of that type and station it in the current room.
+- Guards will
+auto
+-attack city enemies, and will
+announce
+on your city
+channel
+when they are first attacked, and when they are
+dying
+.
+CITY GUARD LIST
+- Lists your city guards and their locations.
+- A (P) in front of their
+name
+indicates that they are (P)ursuing.
+- Constable guard types only.
+- A (H) in front of their name indicates that they are (H)olding position.
+- Constable guard types only.
+CITY GUARD STATION <guard>
+-
+Moves
+the selected guard in the current room.
+- Delayed
+command
+.
+CITY GUARD HOLDPOSITION|PURSUE <guard>|HERE
+- Sets constable guards to react to CALL FOR HELP.
+- Use HERE instead of the guard ID to specify all constables in the room.
+CITY GUARD RETIRE <guard>
+- Retires a guard.
+See also: HELP DEFENCE MINISTRY
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

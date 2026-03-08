@@ -1,0 +1,133 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.14 Deep sea diving
+A
+Ship
+------
+Deep sea
+diving
+can only be accomplished on a ship which is at sea.
+A Bell
+------
+The ship that
+wishes
+to permit diving must also have a diving bell. Just about
+anybody can request a diving bell for their ship by doing so in
+writing
+,
+identifying the exact numeric identifier of the ship.
+The bell can be raised or lowered (SHIP RAISE BELL, SHIP LOWER BELL) under most
+circumstances while not
+moving
+and not in port. Most locations for diving would
+be of no value. You'd want a
+leadline
+to figure that out before you dive.
+A Leadline
+----------
+A leadline is a handy
+thing
+used to SHIP TAKE SOUNDING. This will
+tell
+you how
+deep the water is and whether diving will be of any potential benefit.
+A Diver
+-------
+SHIP ENTER BELL before the bell is lowered. Wait till it arrives. You'll note
+that there is a 'down' opening when the bell is ready to disgorge you into the
+deep. When the bell is down, you will hear it
+ring
+. The more rings, the more
+potentially valuable the location is.
+Be absolutely sure that you are in the bell when it begins to rise. If you are
+not, you will
+die
+a watery
+death
+.
+You can SHIP
+LEAVE
+BELL at any
+time
+(if you are in it), even if the bell is not
+on the deck of the ship.
+Skeleton
+Keys
+-------------
+A
+shipfitter
+can make you a skeleton
+key
+to unlock the mysterious
+bone
+chests
+found below.
+Save
+those fingers when you cook
+fish
+for your
+crew
+!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

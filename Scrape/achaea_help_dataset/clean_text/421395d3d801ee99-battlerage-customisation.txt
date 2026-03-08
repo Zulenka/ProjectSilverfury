@@ -1,0 +1,152 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.13.11 Battlerage Customisation
+Customise how your
+battlerage
+attacks
+are seen for 150
+bound
+or
+customisation
+credits
+per
+attack
+!
+CUSTOMISATION NEW FOR <skillname> BATTLERAGE
+This will create a customisation request setup with the fields applicable to the
+skill
+you are
+customising
+!
+You will not be able to create a customisation for a battlerage skill if your current active
+class
+does not have access to it.
+Variants:
+Damage attacks          - need 1p and 3p
+messages
+.
+Afflicting attacks      - need 1p, 3p and end messages.
+Damage over
+Time
+(DoT)  - need 1p, 3p, tick messages, and end messages.
+Target
+Player           - need 1p, 2p, and 3p messages.
+- The timed end of these cannot be customised.
+- Paladin's
+Recovery
+is one of these types.
+Affliction consumers*   - These attacks are empowered by the presence of an additional affliction.
+1p   = first person (you using the
+ability
+)
+3p   = third person (
+others
+in the room)
+2p   = second person (the person
+who
+an ability is being used on)
+tick = an ongoing tick
+message
+.
+end  = when a DoT or affliction
+falls
+off/ends.
+* affliction consumers when customised will be followed by a hardcoded, non-customisable message if an affliction was present to
+empower
+the attack, these are as follows:
+- CLUMSY: In a clumsy
+attempt
+to dodge the strike, $(lname$) succeeds instead at taking its full brunt.
+- WEAKNESS: Weakened by a previous
+assault
+, $(lname$) fails to
+guard
+against the blow.
+- SENSITIVE: Bewildered by sensitivity, $(lname$) recoils in pain and agony.
+- NOHEAL: $+(lname$) staggers at the assault, $(lhis$) wounds
+failing
+to close.
+- RECKLESS: Blinded by
+rage
+, $(lname$) takes and ignores the attack.
+-
+AEON
+: $+(lhis$) perception of time ensures $(lname$) feels the blow before $(lhe$) sees it.
+- AMNESIA: $+(lname$) belatedly raises $(lhis$) guard, but too slowly for success.
+- STUN: Briefly stunned by the force of the assault, $(lname$) shakes free of $(lhis$) daze.
+- FEAR: Recoiling with terror in $(lhis$)
+eyes
+, $(lname$) takes a moment to regain $(lhis$) composure.
+Variables for use within these messages:
+$
+name
+- your name - except in tick and end (timed) messages where this will be the target
+denizen
+.
+$lname - target's name
+$he/him/his - your
+pronouns
+$lhe/lhim/lhis - your target's pronouns.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

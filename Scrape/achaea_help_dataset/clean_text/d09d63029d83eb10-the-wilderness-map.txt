@@ -1,0 +1,284 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.35 The Wilderness Map
+(See also:
+HELP MAPS
+,
+HELP
+SPECIAL
+MAPS
+)
+What is the
+wilderness
+and/or the wilderness
+map
+? How do you deal with it?
+Read
+on.
+Commands
+--------
+ENTER WILDERNESS
+LEAVE
+WILDERNESS
+CONFIG
+MAPSHOW NONE
+- Don't
+show
+any maps when
+moving
+.
+CONFIG MAPSHOW LOCAL
+- Show local out of wilderness map when moving.
+CONFIG MAPSHOW WILDERNESS
+- Show wilderness map when moving.
+CONFIG MAPSHOW ALL
+- Show both maps when moving.
+LOOK
+Getting in and Out of the Wilderness
+------------------------------------
+When you are at a location where you can enter or leave the wilderness, you
+will see "You may enter the wilderness map from here" or "You may type LEAVE
+WILDERNESS to leave the wilderness here."
+To enter, type ENTER WILDERNESS. To leave, type LEAVE WILDERNESS.
+What is the Wilderness
+----------------------
+The wilderness map is millions of rooms all densely connected. That means that
+every room has a connection to the north, northeast, east, southeast, south,
+southwest, west, and northwest, though some
+directions
+may sometimes be blocked
+by high mountains or
+other
+factors.
+On the Map
+----------
+While on the map, you can see an
+ansi
+-coloured
+2
+-dimensional display of your
+location. Every
+time
+you
+move
+, the part of the map you can see will be
+displayed (depending on your setting for CONFIG MAPSHOW ON|OFF.
+The "@"
+character
+represents your current location.
+Your range of
+vision
+will depend on a number of factors, such as whether you're
+flying
+, your
+environment
+(forest, mountains, etc), and the time of
+day
+.
+The Wilderness Map and how it Correlates with the Main Map
+----------------------------------------------------------
+While in the wilderness, you can move through areas that also exist on the main
+map. Even though the wilderness map appears to be similar to the main map, it
+is not identical.
+Example: you could be at "North of New Thera" on the wilderness map and not see
+the people
+who
+are at North of New
+Thera
+on the main map.
+Moving between the Wilderness Map and the Main Map
+--------------------------------------------------
+A "?" room on the wilderness map is a place where you can LEAVE WILDERNESS and
+return to the main map.
+Differences on the Map
+------------------------
+Things
+act a bit differently on the Wilderness Map:
+- If you drop items in the map room and wait more than a couple
+minutes
+to
+come back, the items will most likely not be there
+anymore
+.
+- Certain things simply do not work on the map. These include, for instance,
+weather
+and
+plants
+.
+Groves
+can be established safely there and will
+remain permanent.
+- Any area or
+continent
+-limited ranged
+abilities
+(ie almost all of them) will
+work differently. Instead of working within pre-
+defined
+areas, they have
+ranges. For instance, instead of working in the Western
+Ithmia
+(assuming
+you were standing there), it
+might
+have a range of 50-100 rooms away.
+-
+Explorer
+rank
+is unaffected by the wilderness map.
+- When you type SURVEY, you might notice an extra line or two telling you
+what approximate
+direction
+certain well-known places are from you. This is
+to
+assist
+you in case you get
+lost
+. Note, this is a low
+level
+skill
+in
+the
+survival
+skill. Type
+AB
+SURVIVAL to see if you have this
+command
+.
+Why do we have the Map?
+-----------------------
+This answer is quite simple: so that we can create a true
+sense
+of distance.
+There are literally millions of rooms on the overhead map. Creating that many
+rooms using traditional methods would both require a fairly ludicrous amount of
+memory, and an even more ludicrous amount of work. So this is a compromise.
+With it, we can have a huge
+world
+.
+The wilderness map does not mean that we will stop development of normal areas.
+What it does mean is that we won't spend time making big empty areas like the
+Dardanic
+Grasslands
+between other areas. So for instance, if we wanted to
+implement an area far north of even the
+Northreach
+forest, we would not have to
+create all the totally empty
+tundra
+areas in between. We would just make the
+'destination' area and attach it to the wilderness map in the appropriate spot.
+Perhaps you'd start your journey in your home
+city
+, enter the wilderness map,
+trek to the area you
+wish
+to
+adventure
+in, enter it, and adventure away.
+Where can I enter the Map?
+--------------------------
+Here is a partial list of places to enter and
+exit
+the wilderness Map:
+Village Square in New Thera
+Entrance to
+Tomacula
+Bridge to
+Delos
+Entrance to
+Shastaan
+Western entrance to
+Jaru
+Outside the entrance to
+Moghedu
+Partway along the
+Cyrene
+highway
+A few in the Northreach Forest
+A few in the Dardanic Grasslands
+Polyargos
+, by the
+ferryman
+Ulangi
+, by the ferryman
+Outside the entrance to
+Eleusis
+At the junction of the western, eastern, and northern
+ithmian
+forests
+Entrance to
+Dun
+Valley
+Outside of El'
+Jazira
+The
+Aalen
+forest
+Junction of the North Road and Road of Eternity
+(See also:
+HELP MAPS
+, HELP SPECIAL MAPS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

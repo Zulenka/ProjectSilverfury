@@ -1,0 +1,292 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+11.3 OFFERINGS AND SHRINES
+Offerings
+---------
+Offerings are the major way in which you as a
+devoted
+follower may gain your God essence. Many
+things
+that a
+Divinity
+might
+do cost He or She essence. In order to offer to your God, you must first find a location in which a
+shrine
+to that God has been erected.
+Once you have done that, you must choose what to offer. You may offer
+gold
+or dead things. Be warned that
+offering
+gold will automatically offer all the gold in your hands. Simply type OFFER <offering> and you will send your offering winging its way to your beloved patron,
+who
+will be notified of your offering.
+Should you have a lot of
+corpses
+to offer to your
+deity
+, you may offer them all at once with the OFFER [PLAYER|
+DENIZEN
+] CORPSES.
+Divine
+Essence
+-------------
+There are two types of essence. The first type is personal essence, and the second type is order essence.
+Personal essence is the essence granted to individual members of the order based  on their contributions. I.e. the more you offer or
+kill
+people as a
+member
+of the
+mark
+, the more essence you'll generate. Personal essence does not have an upper limit.
+Order essence is generated along with personal essence, but there's one major difference: order essence is capped. Offerings can never push an order passed 3000000 maximum essence. However, sovereignty can push you above this limit (see sovereignty below).
+Shrines
+-------
+As you wander about the land, you will undoubtedly encounter shrines to various
+Gods
+. These shrines have been erected by highly-ranked followers of Gods as testaments to the glory of their God or Goddess, and in order to provide more offering points for followers.
+Those who have attained high enough
+rank
+in an Order may ERECT SHRINE. This will take approximately ten
+seconds
+, during which you may not do
+anything
+else. It will also sap half your
+willpower
+if the shrine is being raised in
+territory
+owned by a
+city
+or an order.
+You can use the ORDER ESSENCE
+command
+for information about your current essence and how much your order has acquired in their primary pool.
+An area can have no more than
+6
+shrines raised in it in total. This is six shrines total, not per order.
+Each order can only have a maximum of 20 shrines raised at a
+time
+.
+This number raises by
+2
+for each area an order claims sovereignty over (see sovereignty below). The master shrine for the order does not contribute towards the number of shrines that an order has raised for the purposes of this limit.
+The more shrines that an order has raised, the more costly network-wide shrine powers shall be to initiate.
+Order members with the
+power
+to do so can DISMANTLE SHRINES to
+remove
+their own shrines for a small essence cost, should the need arise.
+Sovereignty
+-----------
+An order that has a 4/6 shrine majority in an area will
+claim
+sovereignty over that area. Sovereignty
+shows
+up on survey.
+Each area you claim sovereignty in increases the number of shrines your order can raise by 2. So if you have sovereignty in 4 areas, you can raise a total of 28 shrines rather than the standard 20.
+Every
+Achaean
+day
+, all those
+orders
+that
+hold
+sovereignty over an area shall gain essence directly for their order's essence reserves. This is the only way to push order essence reserves above 3000000.
+The max you can achieve through sovereignty is determined by how many shrines you have - for each shrine your order has raised, you can gain up to 100000 more essence above the
+base
+cap (so if you have 20 shrines, you can max out at 5000000 essence through sovereignty).
+Protecting Shrines
+------------------
+Once a shrine is erected and is a large size, it can be consecrated with the CONSECRATE command. Only members of the associated order can CONSECRATE a shrine to their God, and the action takes around a
+minute
+to complete.
+A consecrated shrine cannot be defiled until it has been desecrated.
+Restrictions
+------------
+If it is four steps from where you want to erect a shrine to where an existing shrine is, then you can't do it. If it is five or more steps, then you can. You may get away with erecting a shrine closer, sometimes, and you may not, depending on the power and
+influence
+of the existing shrine.
+Strengthening Shrines
+---------------------
+OFFER <offering> TO
+SANCTIFY
+Use this if you
+wish
+to
+help
+strengthen a shrine. The God's essence will not be affected.
+Order Powers and Miracles
+-------------------------
+As you progress in rank in your Order, you will gain the
+ability
+to use various powers.
+ORDER PRIVILEGES (or just ORDER PRIVS) will
+show
+you your order-related powers.
+Many of the Order powers are related to shrines. For these, you must be at a shrine, and use:
+BESEECH <your god> FOR <power>.
+Most of the shrine-related order powers have a range dependent on the size of the shrine you beseech at. If it is a
+dormant
+shrine, you won't be able to beseech at it. The ranges are:
+Dormant: None.
+Small  : Same room only.
+Medium : One room radius.
+Large  : Two room radius.
+Note that Worldburn is an exception, as it affects the influenced area of all of your Order's shrines, everywhere.
+What rank you gain each power is completely dependent on the God or Goddess that you have dedicated yourself to.
+Miracles are split into two categories lesser and greater miracles.
+Lesser miracles
+draw
+from your personal essence reserves, and greater miracles draw directly from the order's essence reserves.
+The various shrine powers are:
+SUCCOR (Lesser)
+- Shrine power. Heals order member
+mana
+.
+- Lasts approximately 10
+minutes
+.
+HEALING (Lesser)
+- Shrine power. Heals order member
+health
+.
+- Lasts approximately 10 minutes.
+WILLPOWER (Lesser)
+- Shrine power. Replenishes willpower of order members.
+- Lasts approximately 10 minutes.
+FAITHROOT (Lesser)
+- Shrine power. Gives
+mass
+while in shrine influence.
+- Lasts approximately 30 minutes.
+ENDURANCE
+(Lesser)
+- Shrine power. Replenishes endurance of order members.
+- Lasts approximately 10 minutes.
+SOULREND (Lesser)
+- Shrine power.
+Attacks
+order
+enemy
+mana.
+- Lasts approximately 10 minutes.
+CURES
+(Lesser)
+- Shrine power. Cures order member
+afflictions
+.
+- Lasts approximately 10 minutes.
+SHRINESIGHT (Lesser)
+- Shrine power. Shows
+status
+of all your Order's shrines.
+ERECT SHRINE
+- Erect a shrine to your God.
+- This is very expensive in essence for your God.
+PAROXYSM (Lesser)
+- Shrine power. Attacks the health of order
+enemies
+.
+- Lasts approximately 10 minutes.
+PILGRIMAGE (Lesser)
+- Shrine power. Travel to someone standing at one of your patrons shrines.
+- Has a minor delay upon activation.
+WORLDBURN (Greater)
+- Shrine power. Attacks the souls of all order enemies in all Order shrine influence.
+- Extremely powerful, and goes through
+grace
+.
+- This is quite expensive to your God in terms of essence.
+CRUSADE
+(Greater)
+- Shrine power. See
+HELP CRUSADE
+JUDGEMENT (Greater)
+- Shrine power. This power can only be enacted at a dormant shrine of a God and is an investable order power.
+- Beseeching your god for judgement at a shrine is fairly costly in essence and consecutive uses over the course of an Achaean
+month
+will scale the cost up for each use to
+unsustainable
+levels
+.
+DESECRATE (Greater)
+- See "
+Attacking
+Shrines", below.
+CONSECRATE (Greater)
+- See "Protecting Shrines", above.
+Attacking Shrines
+-----------------
+If the shrine you wish to
+defile
+is Consecrated, you will first need to DESECRATE the shrine.
+Desecration takes around one minute to complete during which time the initiator must be in the shrine's room.
+This is not a channelled action, so you may
+fight
+/
+cure
+/etc as necessary.
+If an order activates the WORLDBURN shrine power, all consecrations on said order's shrines will become dormant until the worldburn effect expires.
+Only one person may DEFILE a shrine at a time. There will be a short cooldown after each defile to prevent multiple people dropping a shrine very quickly.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

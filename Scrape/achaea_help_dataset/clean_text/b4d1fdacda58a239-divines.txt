@@ -1,0 +1,265 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+11 THE DEITIES OF ACHAEA
+Many are the
+immortals
+who
+exist at the will of
+Sarapis
+, the Supreme Creator.
+11.1     About the Gods
+The immortals.
+11.1.1   Celani
+Servants
+of the
+Gods
+.
+11.1.2   Talking to Gods
+High risk.
+11.2     Divine Orders
+What they are, what they do.
+11.3     Offerings
+Offering
+things
+to the Gods at holy
+shrines
+.
+11.3.1   Crusades
+Fight
+a holy
+war
+.
+11.4     Temples
+The
+Temples
+of the Gods.
+11.5     Ascension
+Ascending
+from mortality to
+Divinity
+.
+11.6     Divine Favours
+Earning the
+favour
+of the Gods.
+11.6.1   Divine Punishments Incurring the wrath of the Gods
+.
+THE
+PANTHEON
+OF
+ACHAEAN
+GODS
+11.7     Pantheon
+The rulers of
+Achaea
+.
+11.7.1   Aegis
+The God of War.
+11.7.3   Aurora
+The
+Lightbringer
+.
+11.7.4   Babel
+The God of Oblivion.
+11.7.5   Deucalion
+The Righteous
+Fire
+.
+11.7.6   Gaia
+Goddess of
+Nature
+.
+11.7.7   Lorielan
+The Jade Empress.
+11.7.9   Neraeos
+The God of the Sea.
+11.7.10  Ourania
+The Goddess of the
+Moon
+.
+11.7.11  Pandora
+The Wayward Heir.
+11.7.12  Phaestus
+The Smith.
+11.7.13  Prospero
+The God of Wealth.
+11.7.14  Sartan
+The Malevolent.
+11.7.15  Scarlatti
+The Great
+Bard
+.
+11.7.17  Twilight
+The God of Darkness.
+11.7.18  Valnurana
+The Goddess of
+Sleep
+and
+Dreams
+.
+11.7.19  Vastar
+The
+Skylord
+.
+11.7.20  Tlalaiad
+The
+Genesis
+.
+11.7.21  Haskor
+Patron of Heroes.
+DEPARTED AND FALLEN GODS
+11.8.1   Aeon
+The Lord of
+Time
+.
+11.8.2   Aeyr
+The God of Magic.
+11.8.3   Agatheis
+The Lord of the Elements.
+11.8.4   Apollyon
+The Suffering.
+11.8.31  Artemis
+The Great Wrath.
+11.8.5   Bal
+'met            The Worldreaver.
+11.8.6   Caspian
+The God of the
+Oceans
+.
+11.8.7   Demeter
+The Green Lady.
+11.8.8   Daedalus
+The
+Guardian
+of
+Balance
+.
+11.8.9   Eris
+The Goddess of Chaos.
+11.8.10  Eros
+The God of Love.
+11.8.11  Hermes
+The
+Messenger
+.
+11.8.12  Indrani
+The Demon Queen.
+11.8.13  Kastalia
+The Goddess of
+Lakes
+and
+Rivers
+.
+11.8.14  Keresis
+The Goddess of
+Vengeance
+.
+11.8.15  Khalas
+The Wanderer.
+11.8.30  Lupus
+The Wild God of the Beasts.
+11.8.16  Makali
+The Goddess of
+Destruction
+.
+11.8.17  Matsuhama
+The God of
+Combat
+.
+11.8.18  Maya
+The Great Mother.
+11.8.19  Melantha
+The Goddess of the
+Seasons
+.
+11.8.20  Miramar
+The Goddess of
+Justice
+.
+11.8.21  Mithraea
+The Goddess of the Sun.
+11.8.22  Oneiros
+The God of Peace.
+11.8.23  Pandemonium
+The God of Strife.
+11.8.24  Pentharian
+The God of
+Valour
+.
+11.8.25  Raclawice
+The Goddess of Rogues and Wanderers.
+11.8.26  Sarapis
+The Supreme Creator of Achaea.
+11.8.27  Selene
+The Goddess of Love and Beauty.
+11.8.28  Tarah
+The Goddess of
+Compassion
+.
+11.8.29  Thoth
+The God of
+Death
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

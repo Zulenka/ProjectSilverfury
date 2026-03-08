@@ -1,0 +1,127 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+11.6 DIVINE FAVOUR AND DISFAVOUR
+If you particularly please or anger a God, He or She may choose to grant you
+favour
+, or curse you with
+disfavour
+, both of which last a limited
+time
+.
+There are four
+levels
+of
+favours
+and
+disfavours
+. Each
+level
+provides certain
+advantages (or disadvantages) that combine cumulatively with all
+other
+current
+favours and disfavours, with exceptions as noted below.
+The
+command
+GODFEELINGS will
+show
+any current favours or disfavours.
+The four levels of favour (or disfavour), from least to most powerful, are:
+(DIS)FAVOUR, STRONG(DIS)FAVOUR, HIGH(DIS)FAVOUR, TRUE(DIS)FAVOUR
+(DIS)FAVOUR
+- Adds (or subtracts) a
+point
+of
+constitution
+.
+- Adds
+something
+to your appearance.
+STRONG(DIS)FAVOUR
+- Alters your
+skills
+, with the amount in each
+skill
+dependent on the God
+doing the favouring or disfavouring.
+- Gives an
+xp
+bonus or takes away some xp when it ends.
+HIGH(DIS)FAVOUR
+- You will no longer feel or get more
+hungry
+, or tired. If you are
+already hungry or tired, you will remain so until you do something
+to improve that. Or doubles the rate you get hungry or tired.
+- Adds a damage reducing
+shield
+, cutting damage (of all kinds, from all
+sources) done to you by about 15%, or makes you take about 15% more
+damage. (NOT CUMULATIVE WITH ANY OTHER FAVOURS)
+TRUE(DIS)FAVOUR
+- Adds (or deducts) one point to (or from) all
+stats
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

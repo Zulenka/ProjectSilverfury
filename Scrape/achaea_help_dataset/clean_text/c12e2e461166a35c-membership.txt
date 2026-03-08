@@ -1,0 +1,333 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.4.4 Iron Elite Memberships
+What is Iron
+Elite
+------------------
+Elite
+Memberships
+are an optional subscription you may
+buy
+to receive a monthly
+benefit across your characters. It provides a variety of advantages to
+help
+you
+develop your characters at an advanced rate, as well as allowing you to receive
+additional benefits from
+other
+promotions
+we may be
+running
+.
+NOTE: The Iron Elite
+Membership
+is exclusive to the Iron Realms game for which it is purchased (
+Achaea
+, in this case), and has no crossover with Aetolia, Imperian, Lusternia, or Starmourn.
+Advantages of Iron Elite
+------------------------
+- DAILY
+LESSONS
+Every
+character
+registered to your
+email
+address, will earn
+5
+lessons,
+everyday, upon login. You will earn these lessons the instant you login. This
+will
+net
+you 150 lessons per
+month
+which is about 25
+credits
+. If you have 10
+characters, that is the equivalent of 250 credits per month in lessons.
+-
+BOUND
+CREDITS
+Your account will earn 100 bound credits every month. These credits can be
+distributed across any of your registered characters! In addition, you will
+accumulate 5 more credits every month you are on the membership (up to 150
+total credits per month).
+- PERMANENT
+CREDIT
+BONUS
+You will have a permanent 10% bonus to all credit purchases while on the
+membership. In other words, members will have a permanent sale running. This
+bonus will stack with any other sale we
+run
+.
+-
+EXPERIENCE
+BONUS/DESTROYER BONUS
+Your characters will receive an experience bonus ranging from 5% - 25%
+(see below), to help you advance in
+levels
+at an accelerated rate.
+--- OR ---
+Your characters will receive a scaling bonus to
+denizen
+damage and
+critical
+hits (see below).
+Cumulative benefits
+-------------------
+Being a long-term Iron Elite
+member
+increases the monthly benefits, based on
+the length of your membership! Each consecutive month you renew, you gain an
+additional 5% added to your experience bonus, as well as 5 more credits to be
+used however you see fit.
+In your first month, you'll receive 100 credits, and a 5% experience bonus. In
+your second, 105 credits, and a 10% experience bonus, all the way up to your
+eleventh consecutive month, where you'll receive 150 credits, and a 25%
+experience bonus every month thereafter!
+If you do not want bonus
+XP
+, you can switch to the DESTROYER bonus! This
+conveys a scaling bonus to damage against
+denizens
+and to critical hits. At
+maximum benefit, this is equivalent to 1% critical rate and the damage of the AIM TO
+KILL
+traits
+.
+Both the
+trait
+and the membership bonus stack.
+MEMBERSHIP BONUS LIST         - to list your options.
+MEMBERSHIP BONUS <bonusname>  - to change your chosen membership bonus.
+Accessing the Credits
+---------------------
+Your membership credits are stored in a "pool" which can be accessed by any of
+your characters. To access the credits, simply
+log
+in the character you
+wish
+to
+access the credits on, and use CREDITS MEMBERSHIP TRANSFER <AMOUNT>, which will
+convert them to bound credits on that character.
+You can check CREDIT REPORT at any
+time
+to see how many credits you have
+available!
+If you do not want bound credits, you can check MEMBERSHIP
+WARES
+to access a
+shop
+listing of
+things
+you can buy with the credits in your membership pool
+MEMBERSHIP PURCHASE <ware> will let you purchase whatever you want from that list.
+Purchasing an Iron Elite Membership
+-----------------------------------
+Signing up is simple! Just head to https://www.achaea.com/credits and follow the instructions listed there.
+PLEASE NOTE: This is a recurring payment! As you sign up, you're agreeing to an
+automatic, scheduled payment via your preferred payment method (PayPal or
+Credit Card.)
+If you're purchasing your membership via credit card, please keep your receipt,
+as it contains order information that you'll need in order to cancel your
+subscription.
+You can also purchase
+3
+,
+6
+, and 12 month memberships.
+With a 3, 6, or 12 month membership your characters will receive most rewards
+up front.
+The rewards which are instantly advanced are the XP/DESTROYER bonus, and
+membership credits. Daily lessons are unchanged.
+----------------------
+For Example:
+If you purchase the 6 month membership you will immediately
+move
+to the 25% xp bonus and have 675 membership credits applied to your account (100, 105, 110, 115, 120, 125 credits).
+----------------------
+If your account already had a membership running, and was within the
+grace
+period
+when the new membership is purchased, it will pick up the rewards from your current threshold, and it will NOT start all over from the beginning.
+IMPORTANT: All memberships are recurring, and will automatically renew at the end of the 1, 3, 6, or 12 month period.
+Note: If you purchased a 3 month membership, the automatic renew will be for another 3 month period, the same for 6
+months
+, will renew for another 6 months, and so on for 12.
+Cancelling your Membership
+--------------------------
+You can cancel your Membership at any time! There are no obligations to keep
+this
+going
+any longer than your wish for it to continue.
+If you paid for your Iron Elite Membership via PayPal: Simply log on to your
+PayPal account, navigate to the "Preapproved Payments" page, and cancel your
+scheduled payment.
+If you paid with Credit Card:
+Head to www.achaea.com and log in to Achaea.com as your character
+Navigate to https://www.achaea.com/credits?action=cancel
+Click the "click here" link to cancel your subscription.
+Upon cancelling your Membership, you will have a grace period of 30
+days
+before
+the cumulative benefits of your membership expire.
+Upgrading Your Membership
+-------------------------
+To upgrade your existing membership from 1 type to another package:
+1. Cancel your current membership at:
+http://www.achaea.com/credits?action=cancel
+If your membership is via PayPal, you will have to visit your Paypal
+account and cancel it from there.
+2
+. Wait for your current membership to expire.
+You will get
+messages
+from the game when your membership expires and
+can view your membership
+status
+with the
+command
+CREDIT REPORT.
+3. When your current membership expires, you may sign back up at
+http://www.achaea.com/credits?page=membership
+Note: There is a 30
+day
+grace period on renewing your membership without
+losing
+your benefit levels.
+Changing
+the card associated with your Membership
+-------------------------------------------------
+To do this you will first need to cancel the existing Membership (see
+Cancelling your Membership above), and then wait for the Membership to expire.
+Once your Membership has expired (
+shows
+as
+inactive
+on CREDIT REPORT) you will
+enter the 30 day grace period, and can now repurchase your Iron Elite
+Membership via whatever method you wish.
+So long as the Membership is repurchased during this 30 day grace period, any bonuses previously accrued will be reinstated without loss.
+Subscription
+Renewal
+Failure
+----------------------------
+This commonly happens when there aren't enough funds in the account to cover a
+Membership payment and it is not the end of the
+world
+.
+Please do NOT repurchase the Membership, after a
+failed
+attempt
+the
+system
+will
+retry the transaction every 3 days up to a maximum of 3 failed
+attempts
+*.
+Repurchasing the Membership during this may lead to double billing.
+* If your membership payment fails three
+times
+in a single billing cycle, you
+will need to cancel the membership (see Cancelling Your Membership above) and
+then purchase anew.
+If you are unsure what to do or about any of this, please email
+support
+@achaea.com or file an
+issue
+in game with your
+questions
+via ISSUE
+ME
+<your question>. We will be happy to help!
+Protege and
+Mentor
+Bonuses
+--------------------------
+Mentors
+will not benefit from a protege being an Iron Elite member.
+Further questions or problems
+-----------------------------
+Feel free to contact us at any time by emailing support@achaea.com.
+Iron Elite and
+HELP SECONDS
+abuse
+---------------------------------
+Remember that we track characters if they are logged in at the same time from
+the same
+registration
+. So if you plan on switching all your
+friends
+to the same
+email addy, you will effectively be limiting them to never being able to play
+at the same time. Additionally, you will never be able to move them off the
+same registrations, which will give them the
+ability
+to change the registration
+info and effectively
+steal
+all your characters. Not to mention we will
+permanently block the accounts and characters of people found to be cheating.
+In short, do not try to abuse this, we will find out pretty quickly.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,137 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.68 Weaponmastery
+Masters of melee
+weapons
+,
+knights
+with the
+weaponmastery
+skill
+are a force to
+be reckoned with.
+Weaponmasters can select a
+specialisation
+based on the weapons they
+wish
+to
+use, these
+specialisations
+are as follows:
+Dual cutting
+------------
+Proficient in the use of two cutting weapons, knights with this specialisation
+use scimitars or battle axes to decimate their foes with damage and
+venoms
+.
+Key
+abilities
+: Duality, Lunge, Impale, and Disembowel.
+Dual blunt
+----------
+Master of
+destruction
+, these
+specialists
+obliterate an opponents limbs with
+flails and morningstars.
+Key abilities: Momentum, Whirl, Skullcrush, and Pulp.
+Two handed
+----------
+Wielding
+the largest weapons available, these warriors
+conquer
+their
+enemies
+with bastard swords and warhammers.
+Key abilities: Carve, Hew, Devastate, and Cleave.
+Sword and
+shield
+----------------
+Using their
+shields
+for both offence and
+defence
+, masters of the sword and
+shield specialisation are a foe to fear. They are also armed with longswords
+and broadswords.
+Key abilities: Ferocity, Drive, Strike, and Smash.
+Picking/
+Changing
+a specialisation
+=================================
+Picking and changing a specialisation is a simple
+task
+:
+SPECIALISE IN <specialisation>
+If you're already specialised, and wish to change, you can use the above
+command
+to change it. There is a fee of one hundred
+lessons
+to change a
+specialisation. Note that this fee applies whether or not you have embraced the
+class
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

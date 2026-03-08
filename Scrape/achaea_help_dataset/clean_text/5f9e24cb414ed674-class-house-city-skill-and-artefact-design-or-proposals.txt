@@ -1,0 +1,268 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.5.1 Class, House, City, Skill, and Artefact Design or Proposals
+You are probably
+reading
+this
+scroll
+because you have inquired about how you
+might
+be able to propose or create a new
+class
+,
+house
+,
+city
+,
+skill
+or
+artefact
+in
+Achaea
+. If so,
+read
+on!
+Warning
+-------
+We have received hundreds of submissions for new
+classes
+,
+houses
+,
+cities
+,
+skills
+, and
+artefacts
+. Some proposals were written up in great detail. Some
+were submitted quite some
+time
+ago and still have not been implemented. New
+classes, houses, cities, class skills, and artefacts are only one of the many
+things
+we do, all with limited time and manpower, so the precise scheduling of
+new things like this is difficult to determine.
+Our Response
+------------
+We make no commitment as to when we will review new class, house, city, skill,
+or artefact proposals. If you submit a plan or request, you will not get a
+response. We probably won't even
+say
+"thanks."
+How will you know if we're
+going
+to do
+anything
+with your beautiful new class,
+house, city, skill, or artefact
+design
+or proposal? You won't!
+Is the
+garden
+receptive to your suggestion? Sure, as receptive as we are to
+anybody's suggestion. That still doesn't mean we're making any commitments
+about scheduling or implementation.
+If we review it, and if we like it, and if we schedule it in, and if we don't
+change it too much from your original
+concept
+, and if we actually implement it,
+then you may recognise it when it appears in Achaea. Or maybe not.
+What to do: Class, House, City, or Skill
+----------------------------------------
+If you are still willing to pursue this course of action, then design your
+class, house, city, or skill carefully. Write down
+everything
+. Anticipate all
+possible objections. Answer those objections.
+Describe
+what the skill/class
+will do, and why. Describe
+abilities
+, when they will be received, how much
+eq
+,
+balance
+,
+mana
+,
+endurance
+, whatever they cost. What
+messages
+will be received,
+by whom, when the
+ability
+is used, when it creates an effect, when it wears
+off, etc? Explain why this is needed in Achaea, and what precise problem is it
+addressing/resolving.
+Who
+will be involved, or not?
+For a class or house, or city, describe why it is needed, who it will benefit,
+where it will
+go
+, etc. Again, anticipate all possible objections, then answer
+them. Explain why. Give
+history
+and
+background
+. Discuss anything and everything
+that might be important.
+There are literally hundreds, if not thousands, of
+questions
+to be asked and
+answered.
+Then submit your proposal via
+email
+to
+support
+@achaea.com. That's it. You're
+done.
+Special for Cities
+------------------
+Maps
+! Where the heck will it go? How did it get there? Where does it fit
+in the political balance of the
+world
+? How about in the spectrum of good
+vs. evil, chaos, etc? What products does it produce, if any? What Houses
+should live there, and why? The list also could go on much farther.
+What to do: Artefacts
+---------------------
+The differences between class, house, city, and skill proposal vs. artefact
+proposal are few. Class/house/city/skill proposals should cover a lot more
+ground, with much more detail. Artefact proposals can be a great deal shorter,
+though detail is still very important. Why is this artefact needed? How broad
+will be the artefact's appeal? The number of questions you might answer in a
+proposal can be significant as well.
+An Alternative
+--------------
+Some interesting suggestions are made on the
+Achaean
+forums
+(http://forums.achaea.com/) in the area called Golden Dais of Creation. Lots of
+people put their
+2
+cents in. Some of the best are developed and implemented
+fairly quickly!
+Drawing
+Back the Veil
+---------------------
+A lot goes on behind the scenes in Achaea, as any careful thinker will be able
+to guess. As of this
+writing
+, now 399 years after the fall of
+Seleucar
+(with
+minor updates in 455 AF), we have many
+bug
+reports awaiting repair, tens of
+thousands of 'ideas' and suggestions, multiple hundreds of artefact and skill
+proposals, and scores of house and class proposals. We have NO SHORTAGE of
+things to do!
+Ideas
+? We got plenty. Suggestions? Plenty. It would probably take a lifetime
+just to review all the ideas and suggestions and proposals in order to decide
+in what order to do them. That's before we even do them!
+Add in the features we already know we want to add, and
+other
+planned
+expansions
+(examples of recently added things - houses, autoclass,
+libraries
+,
+furniture) - add that all together, and you easily get multiple lifetimes of
+things to do.
+Now factor in the workload. Let's say you've done a fully-supported, very
+logical, complete class design. Hundreds of new messages
+supporting
+over a
+hundred new abilities in three very carefully balanced skills. Was it a lot of
+work to make that? You
+bet
+. Guess what? It takes FAR more time to make that
+nice plan happen than it did to design it and write it up. So when you write a
+plan and proposal, a complete one, keep that in mind: the work has only just
+barely begun!
+The range of proposals we get is quite humorous. One proposal "I've got a great
+idea
+- let's add a witches' class. Ask
+me
+if you need more great ideas." That
+was the whole
+thing
+.
+Now THAT is a candidate for the top of the list! (just kidding).
+A well-written, fully developed plan and proposal would easily be fifty
+typewritten pages. I know, I have one right here. Most are about three lines,
+and are going to get all the attention they so richly deserve.
+What Happens Next
+-----------------
+Please do not ask us if we received your submission, or when we will be
+reviewing your submission. Just wait. We will combine your requests with the
+hundreds of class/house/city/skill/artefact submissions and ideas, and our
+current development plans, and the tens of thousands of ideas and suggestions
+we've received over the years that we haven't gotten to yet. We will
+prioritise, and
+we will decide on a course of action based on available information.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

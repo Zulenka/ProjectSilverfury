@@ -1,0 +1,177 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.15 Group Riddles
+Group
+/Team
+riddles
+are a new format
+riddle
+for the
+Championship
+Games
+. These were introduced in the 902AF games, replacing the Championship
+Quiz
+!
+When the riddle is announced, a riddling team must be
+following
+the person
+who
+they
+wish
+to
+support
+in earning Championship points, and this Championship Contender (now referred to as "contender") will
+join
+the riddle!
+For Championship Contenders:
+----------------------------
+Contender! Your riddle team must be FOLLOWING (so that they all
+show
+in
+entourage
+) you when you join the riddle. This will create your riddle team. Team members cannot join late.
+- This will create a riddle team and a group
+chat
+(
+parties
+are appropriate for use as well).
+- Your riddle team must be a minimum of
+3
+people.
+- Everyone in the group will have access to the RIDDLE
+command
+for the team, but only the Contender may submit guesses.
+- You (the contender) will be the one who earns Championship points.
+- You will have access to
+RIDDLETALK
+in order to access any live hints given.
+- Your
+credit
+winnings (if any) will be unbound so that you can split them amongst your team if desired.
+- To best
+combat
+and protect against accusations of cheating, we ask that
+communication
+be contained within the
+party
+or riddle group. With this change in format, we will be taking these seriously. We know that
+Discord
+and
+other
+groups
+are prevalent, but if your team is accused of cheating and your riddling party chat in game is silent when investigated, you may well be disqualified. (Show your workings!)
+For
+Supporting
+Riddlers:
+------------------------
+You must be FOLLOWING (so that you show as in entourage) your Contender when they join the riddle. This will create the riddle team with all of you in it!
+- You will have access to the RIDDLE command to access the current clue and other information.
+- You will NOT be able to guess.
+- GT will offer a group chat, parties are acceptable here too (much like
+forays
+)!
+- Your contender will be the one who earns the Championship points.
+- You cannot
+quit
+the riddle if you are part of a team.
+- If you
+disconnect
+, your group will be preserved.
+- To best combat and protect against accusations of cheating, we ask that communication be contained within the party or riddle group. With this change in format, we will be taking these seriously. We know that Discord and other groups are prevalent, but if your team is accused of cheating and your riddling party chat in game is silent when investigated, you may well be disqualified. (Show your workings!)
+Commands
+:
+---------
+RIDDLE JOIN    Contender only when they have their team all in their entourage.
+RIDDLE         Everyone in the riddle,
+shows
+the clue, guess numbers, and any other information.
+RIDDLE GUESS   Contender only - make a guess.
+Some riddles may require you to be in a specific location or specific area when you make your guess.
+Watch the word count and make sure your answer matches it.
+RIDDLE QUIT    Contender only - disband your team and drop out of the riddle.
+You cannot rejoin the riddle once you quit.
+The RIDDLE GUESS command doesn't care about capitalisation,
+punctuation
+, or certain common small words such as a, an, the.  So these two guesses are the same:
+RIDDLE GUESS Nevaharr, Tezlari-tarin, and Matic
+RIDDLE GUESS nevaharr tezlaritarin matic
+Prizes:
+-------
+1st place wins 200
+credits
+and 7 Championship points.
+2nd place wins 175 credits and
+5
+Championship points.
+3rd place wins 150 credits and 4 Championship points.
+4th place wins 125 credits and 3 Championship points.
+5th place wins 100 credits and
+2
+Championship points.
+6th place wins 75 credits and 1 Championship points.
+See
+HELP RIDDLES
+for regular riddles.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

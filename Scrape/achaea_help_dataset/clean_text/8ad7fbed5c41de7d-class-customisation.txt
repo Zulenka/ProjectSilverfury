@@ -1,0 +1,143 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.13.3 Class Customisation
+(See also HELP CUSTOMISATION REQUESTS and
+HELP
+CUSTOMISATION
+GUIDELINES)
+Class
+Loyals
+------------
+Occultist
+entities may not be customised. Class-specific non-creatures such as summoned maces are not customisable.
+Subterfuge
+snakes,
+Discipline
+falcons,
+Valour
+eagles
+,
+Dominion
+hounds,
+Malignity
+hyenas,
+Grove
+golems, Angel, Baalzadeen, Waterweird, Crypt Golems, Aklan and Kindler Servitors can be customised.
+Class Loyals: Procedure
+-----------------------
+You can use 200
+bound
+or customisation
+credits
+to customise a class loyal via the customisation
+system
+(see
+HELP CUSTOMISATIONS
+and HELP CUSTOMISATION REQUESTS).
+For class loyals that are snakes, falcons, eagles, hounds, or hyenas, you can customise the
+denizen
+directly. Bear in mind that if you customise a class loyal that is not collared with a Collar of
+Lupus
+, any customisation will be
+lost
+when your class loyal dies. These class loyal
+customisations
+are also not retained through the
+quitting
+of the class, even if you regain the class again later.
+CUSTOMISATION NEW FOR <denizen#>
+For class loyals that are angels, baalzadeens, waterweirds, crypt golems, grove golems, aklan servitors, or kindler servitors, use the
+following
+in the customisation system to create a classloyal customisation:
+CUSTOMISATION NEW FOR <loyaltype> CLASSLOYAL
+Loyaltype is angel, baalzadeen, waterweird, cryptgolem, grovegolem, aklan, or kindler.
+Customisation of these does not require that the loyal be preserved in anyway, and if your angel, golem, weird, etc are killed, the customisation will be retained on resummon. This customisation will also persist through class change.
+Customisation of a class loyal must make
+sense
+for the class and any factionality associated with the class/loyal.
+Defiled, fallen, or despoiled angels, or angelic baalzadeens, and similar will not be permitted.
+Class
+Description
+- Viridian
+------------------------------
+For those with the
+Sylvan
+class, the viridian form description can now be customised.
+This costs 200 bound or customisation credits.
+CUSTOMISATION NEW FOR VIRIDIAN will create a customisation request.
+If you already have a
+custom
+viridian description, the new customisation will by default be populated by these existing values. You can then update these or change entirely.
+Armour
+Customisation
+-----------------------
+Armour may be customised via the in-game customisation system once it has been
+made non-
+decay
+and resetting (see HELP
+ARTEFACT
+ARMOUR).
+(See also HELP CUSTOMISATION REQUESTS and HELP CUSTOMISATION GUIDELINES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

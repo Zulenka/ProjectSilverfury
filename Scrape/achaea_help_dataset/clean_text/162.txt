@@ -1,0 +1,149 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+14.7 The Quest Log System
+[See also:
+HELP
+QUESTS
+]
+We have recently implemented a new
+system
+for quests in
+Achaea
+which will keep
+track of the quests you are working on.
+When you obtain a
+quest
+that is part of this system, you will see a brief
+message
+that a quest has been added to your
+log
+. Simply type QUEST LOG to view
+all of your quests! After you have completed a quest, you will receive another
+brief message that you have done so, and it will be removed from your log.
+* If you do not
+wish
+to receive the notification when you have
+received or completed a quest, simply
+CONFIG
+QUESTHINTS OFF.
+* Quests in
+newbie
+areas,
+cities
+, and some low-
+level
+areas (such as
+Actar
+and the Great Rock) require you to
+say
+or
+emote
+"yes" in
+order to accept a quest. Quests in most
+other
+areas do not necessarily
+require you to do
+anything
+to accept the quest.
+Please be aware that we are still adding many quests to the system at
+this
+time
+, so not all of them will be listed in your quest log right away.
+The
+commands
+you can use with this system are as follows:
+QUEST                        -
+Show
+a
+syntax
+reminder
+.
+QUEST LOG [<area>]           - Show your active quests. You can add the
+name
+of a particular area (for instance,
+QUEST LOG
+MINIA
+) to see only your active
+quests in that area.
+QUEST LOG HERE               - Show your active quests in the area you are
+currently in.
+QUEST LOG COMPLETED [<area>] - Show all of the quests you have completed.
+You can add the name of a particular area
+(for instance, QUEST LOG COMPLETED MINIA) to
+see only the quests you have completed in
+that area.
+QUEST LOG COMPLETED TODAY    - Show all of the quests you have completed
+today (real life
+day
+).
+QUEST <#> DETAILS            - Show the details of a specific quest.
+QUEST <#> ABANDON            - Abandon a specific quest. Do this if you don't
+want to do the quest after all, or if you
+need to start it over for some reason.
+The quest will only be removed from your
+active quest log; if you have finished the
+quest before, it will still be on your log of
+completed quests.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

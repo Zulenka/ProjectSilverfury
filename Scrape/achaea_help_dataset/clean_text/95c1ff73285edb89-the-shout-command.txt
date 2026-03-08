@@ -1,0 +1,185 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.4 THE SHOUT COMMAND
+When you
+SHOUT
+something
+, you
+project
+your
+voice
+across the land to any that
+can hear it. SHOUT <your message> is the
+syntax
+, and it is important to
+remember that generally
+speaking
+, only the
+Gods
+and some powerful adventurers
+will know
+who
+is
+shouting
+.. The
+other
+mortals will simply hear something like
+"A weak and feeble voice
+shouts
+, "Aaarrggh! The
+rats
+! They're everywhere!!" or,
+if once you become stronger, something like, "A powerful female voice shouts,
+"Aaaarrggghh! The
+dragons
+! They're everywhere!!"
+Generally speaking, if you want to
+speak
+to an individual adventurer, it's best
+to use
+tells
+rather than shouts. Further, to reduce unwanted
+spam
+from a
+potentially valuable
+channel
+, insulting other adventurers, or gloating over
+them, is prohibited on shouts.
+As you progress in
+levels
+, you'll find that your shouts change. Further, once
+you have joined the
+ranks
+of the
+dragon
+, your shouts will automatically include
+your
+name
+, so that all will know the
+power
+of your will.
+How to Shout
+------------
+1.
+Go
+find a Ram's Horn. There are a few of them scattered about the
+land, generally on cliffs or mountain tops, though there are exceptions.
+They're in the Western
+Vashnars
+, the Southern Vashnars, the
+Granite
+Hills, above
+Riparium
+, Nitre's balcony in the
+Mhojave
+, the
+Underworld
+,
+the
+Shrine
+of
+Ascension
+and more.
+2
+. Put 100
+gold
+in the Ram's Horn.
+Careful! Don't just 'put gold in horn' - you
+might
+put ALL your gold
+in, and the horn will gladly accept every last
+sovereign
+.
+3
+. Shout, once, in a Ram's Horn location, in the next two
+minutes
+.
+There are two exceptions to this:
+- Those who have attained the
+level
+"Dragon Lord" may shout from wherever they
+wish
+.
+- Those who have completed a Ram's Horn
+talisman
+, or purchased a Ram's Horn
+from the
+Shop
+of Wonders may shout from wherever they wish.
+Syntaxes:
+---------
+SHOUT <msg>
+- Shout out a
+message
+to those in the land.
+SCORE
+[FULL|ABOUT]
+- Check your SCORE to see what your shout currently looks
+like to other people.
+SHOUTSOFF
+- Stop listening to shouts.
+SHOUTSON
+- Begin listening to shouts again.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

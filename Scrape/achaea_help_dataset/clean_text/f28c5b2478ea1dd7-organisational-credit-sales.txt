@@ -1,0 +1,282 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.39 Organisational Credit Sales
+The
+Credit
+Sales
+system
+is a semi-automated system for
+cities
+,
+houses
+, and
+divine
+orders
+to
+run
+credit sales for the members of the organisation without
+requiring manual tracking or intervention.
+Credit sales are configured, by the mortal leader of an organisation, with a
+pool of
+credits
+available for sale, a default price per credit, and a default
+limit on how many
+bound
+or unbound credits each
+member
+can
+buy
+. This can be
+further refined with the
+definition
+of rules that can specify a different limit
+and price for bound or unbound credits based on
+permissions
+.
+Credit sales are intended to be transparent to the organisation as a whole and
+as such, all settings and rules will be visible to any member of the org.
+When a credit sale is opened or closed, there will be an
+announcement
+to all
+logged in members, as well as a
+message
+written to the organisation
+logs
+.
+The Pool
+--------
+The pool is an allocation of credits that will be available for sale to members
+of the organisation. If the organisation does not have enough credits to cover
+the pool, the sale will not be able to be opened. If for any reason the
+organisation ceases to have enough credits to cover the pool (or the remaining
+amount once open) the sale will close automatically. The sale will also end
+automatically if the pool of credits is consumed.
+There is a hard set limit that a pool must be at least 200 credits and no more
+than 50% of the current amount of credits that the organisation holds.
+Allocating credits to the pool does not
+remove
+them from the organisation until
+they are actually sold. If you
+withdraw
+credits from the organisation outside
+of the sale and there are not enough left to fund the pool or the amount
+remaining to be sold, the sale will automatically close.
+Rules
+-----
+Rules can be used to specify
+custom
+limits and prices based on permissions
+using the same permissions
+syntax
+as the
+library
+permission
+system (
+HELP
+PERMISSIONS).
+Rules are processed from the top down and the first match applies. If no
+matching rule is found, the default price and limit will be used. Rules can
+only be changed while the sale is in a closed state.
+To restrict people from
+buying
+any credits, simply add a rule for them with any
+non-zero price and a limit of 0.
+Purchasing bound or unbound credits adds up to the same total so having
+permission to purchase 10 bound or 10 unbound means you can buy 10 in total.
+There are two inherent rules that will always take precedence over any
+player-
+defined
+rules: you must be a member of the org
+running
+the sale and you
+must be averaging at least
+5
+hours
+per week of activity.
+It is important to remember when
+defining
+rules based on organisation
+rank
+that
+the permission is a check of *at least* the specified rank. This is where a
+leader needs to take care with the order of rules.
+e.g. RANK 5 OF MERCHANTS would match anyone in the Grand Merchant Collective
+who
+is
+House
+Rank 5 or higher.
+The Syntax
+----------
+CITY
+/HOUSE
+CREDITSALE
+PERMS
+CITY/HOUSE CREDITSALE
+SHOW
+CITY/HOUSE CREDITSALE BUY <how many> [BOUND]
+CITY/HOUSE CREDITSALE POOL <amount>
+CITY/HOUSE CREDITSALE PRICE <price>
+CITY/HOUSE CREDITSALE LIMIT <number>
+CITY/HOUSE CREDITSALE OPEN
+CITY/HOUSE CREDITSALE CLOSE
+CITY/HOUSE CREDITSALE RULE ADD
+PERM
+perm BOUNDPRICE price BOUNDLIMIT limit
+UNBOUNDPRICE price UNBOUNDLIMIT limit
+CITY/HOUSE CREDITSALE RULE SET <rule number> [PERM perm] [BOUNDPRICE price]
+[BOUNDLIMIT limit] [UNBOUNDPRICE price] [UNBOUNDLIMIT limit]
+CITY/HOUSE CREDITSALE RULE DEL[ETE] <rule number>
+CITY/HOUSE CREDITSALE RULE MOVEUP <rule number>
+CITY/HOUSE CREDITSALE RULE MOVEDOWN <rule number>
+Any members:
+- PERMS - Show how many credits you can purchase and at what price.
+- SHOW  - Show the current
+configuration
+including state.
+- BUY   - Buy credits from the sale according to the permissions
+Org Leaders:
+- POOL        - Specify how many credits are in the pool.
+- PRICE       - Specify the default per credit price.
+- LIMIT       - Specify the default per person limit.
+- OPEN        - Open the sale.
+- CLOSE       - Manually close the current sale.
+- RULE ADD    - Add a new rule to the sale configuration.
+- RULE SET    - Set a parameter on an existing rule.
+- RULE
+DELETE
+- Removes an existing rule.
+- RULE MOVEUP/MOVEDOWN -
+Move
+a rule either up or down the list by one place.
+Examples
+--------
+Hashan
+wants to run a city credit sale with 250 credits where
+citizens
+can buy
+10 credits at 5000
+gold
+for bound or 7500 gold for unbound. Members of the
+Hashanite Legion
+clan
+will have an extra allocation so that those in the
+'Corporals' position (
+6
+) will get 15 and those in the 'Captains' position (
+3
+)
+will get 20.
+CITY CREDITSALE POOL 250
+CITY CREDITSALE BOUNDPRICE 5000
+CITY CREDITSALE BOUNDLIMIT 10
+CITY CREDITSALE UNBOUNDPRICE 7500
+CITY CREDITSALE UNBOUNDLIMIT 10
+CITY CREDITSALE RULE ADD PERM POSITION 3 OF HL BOUNDPRICE 5000 BOUNDLIMIT 20
+UNBOUNDPRICE 7500 UNBOUNDLIMIT 20
+CITY CREDITSALE RULE ADD PERM POSITION 6 OF HL BOUNDPRICE 5000 BOUNDLIMIT 15
+UNBOUNDPRICE 7500 UNBOUNDLIMIT 15
+CITY CREDIT SALE OPEN
+Cyrene
+wants to run a city credit sale with 500 credits where citizens who are
+city rank
+2
+and above can buy 10 credits at 5000 gold for bound and 8000 gold
+for unbound. Those who are city rank 6 can buy 20 credits for half the price.
+City rank 1 members should not be allowed to purchase any credits.
+CITY CREDITSALE POOL 500
+CITY CREDITSALE BOUNDPRICE 5000
+CITY CREDITSALE BOUNDLIMIT 10
+CITY CREDITSALE UNBOUNDPRICE 8000
+CITY CREDITSALE UNBOUNDLIMIT 10
+CITY CREDITSALE RULE ADD PERM RANK 6 OF CYRENE BOUNDPRICE 2500 BOUNDLIMIT 20
+UNBOUNDPRICE 4000 UNBOUNDLIMIT 20
+CITY CREDITSALE RULE ADD PERM RANK 2 OF CYRENE BOUNDPRICE 5000 BOUNDLIMIT 10
+UNBOUNDPRICE 8000 UNBOUNDLIMIT 10
+CITY CREDITSALE RULE ADD PERM RANK 1 OF CYRENE BOUNDPRICE 5000 BOUNDLIMIT 0
+UNBOUNDPRICE 8000 UNBOUNDLIMIT 0
+CITY CREDIT SALE OPEN
+The CIJ want to run a house credit sale with 300 credits where members without
+a home city can purchase 10 bound or unbound credits at 5000 gold each. Members
+from
+Ashtan
+will have to pay 6000,
+Mhaldor
+will pay 7000, Cyrene will pay 8000,
+and Hashan will pay 9000. All city-based members can only buy bound credits.
+HOUSE CREDITSALE POOL 300
+HOUSE CREDITSALE BOUNDPRICE 5000
+HOUSE CREDITSALE BOUNDLIMIT 10
+HOUSE CREDITSALE UNBOUNDPRICE 5000
+HOUSE CREDITSALE UNBOUNDLIMIT 10
+HOUSE CREDITSALE RULE ADD PERM MEMBER OF HASHAN BOUNDPRICE 9000 BOUNDLIMIT 10
+UNBOUNDPRICE 9000 UNBOUNDLIMIT 0
+HOUSE CREDITSALE RULE ADD PERM MEMBER OF CYRENE BOUNDPRICE 8000 BOUNDLIMIT 10
+UNBOUNDPRICE 8000 UNBOUNDLIMIT 0
+HOUSE CREDITSALE RULE ADD PERM MEMBER OF MHALDOR BOUNDPRICE 7000 BOUNDLIMIT 10
+UNBOUNDPRICE 7000 UNBOUNDLIMIT 0
+HOUSE CREDITSALE RULE ADD PERM MEMBER OF ASHTAN BOUNDPRICE 6000 BOUNDLIMIT 10
+UNBOUNDPRICE 6000 UNBOUNDLIMIT 0
+HOUSE CREDITSALE OPEN
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

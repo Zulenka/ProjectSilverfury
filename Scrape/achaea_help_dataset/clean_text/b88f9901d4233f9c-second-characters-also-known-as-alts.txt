@@ -1,0 +1,304 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.3.1 Second Characters (also known as Alts)
+(See also
+HELP MULTIPLAYING
+, HELP CHARACTER SHARING, HELP CROSS CHARACTER, and
+HELP
+CREDIT
+TRANSFERS)
+Second characters/adventurers (also called "alts") are allowed, but a higher
+standard of behaviour and
+roleplaying
+is imposed upon those
+who
+have them.
+There is no limit to the number of adventurers (
+alts
+) you may create and play
+in
+Achaea
+as long as you observe the one basic rule regarding interaction
+between these alts: there cannot be any, EVER!
+While the
+base
+rule itself is simple,
+questions
+often arise regarding what
+qualifies as interaction. The short version is that no adventurer may ever help
+any
+other
+adventurer of yours in ANY WAY. This includes, but is by no means
+limited to:
+- having more than one adventurer logged in at a
+time
+(see HELP
+MULTIPLAYING
+)
+- transferring items or
+gold
+between your characters, even with an
+intermediary
+- "passing along" of information from one
+character
+to another
+-
+voting
+for, favouring, or recommending
+favours
+by one character
+for another
+-
+harassing
+an organisation that you dislike from one character
+with another
+- furthering the
+IC
+goals
+of one character on another
+- using multiple characters to further a specific IC or
+OOC
+goal
+as
+a player
+It is also important to note that knowingly aiding in any violations of this
+nature
+can be punishable. If your
+friend
+gives you a backpack full of gold and
+items and
+tells
+you to give it to his
+alt
+, you will be held accountable for
+doing so!
+If you're still unsure whether
+something
+you're considering is a violation,
+look
+over the
+following
+FAQ
+. If, after that, you still aren't sure, don't do
+it! This file is as detailed as practicable, but it is not exhaustive and we're
+sure you can come up with new violations we haven't seen yet.
+WHAT IF I'm done with a character and want my stuff on another?
+---------------------------------------------------------------
+Only via the
+retirement
+process (HELP RETIREMENT) can
+anything
+close to this be
+accomplished.
+Barring anything transferred via the retirement process, anything you have
+earned, bought, made, or in any other way acquired(*) on one character can
+never be given to another character of yours. You cannot
+mail
+it, you cannot
+drop it on one character and pick it up with another, you cannot give it to a
+friend and have him give it to your other character.
+(*) The only exception to this rule is described in HELP CREDIT TRANSFERS.
+WHAT IF I have alts in the same organisation?
+---------------------------------------------
+Be careful! Even actions that would normally seem reasonably
+roleplay
+-justified
+for one character can be
+seconds
+abuse when you have more than one character in
+the same organisation. Some of these are obvious: favouring your alt,
+appointing your alt to any position, voting for your alt in an
+election
+,
+disfavouring someone for insulting your alt, overseeing tests or
+tasks
+by your
+alt, etc. Some are less obvious: having more than one character
+vote
+for
+someone other than your character in an election, posting on an alt against
+your political opponent, switching characters because of a raid or
+event
+(*),
+etc.
+(*) See "WHAT IF I want to help, but I can't do it on this character?" below.
+WHAT IF I have alts in
+enemy
+organisations?
+-------------------------------------------
+Use caution! Again, there are many ways you may intentionally or inadvertently
+break the rules on second characters: spying on one organisation for another,
+keeping track of who is logged in for
+events
+or
+raids
+, enemying or unenemying
+your
+alternate
+, copying organisational information for your main organisation,
+sabotaging one organisation's
+defences
+to help the other, switching characters
+because of a raid or event(*), etc.
+Holding
+leadership positions on both sides of a conflict is not permitted, it is mostly impossible for any player to keep the information separate and not use one position to affect the other.
+(*) See "WHAT IF I want to help, but I can't do it on this character?" below.
+WHAT IF I want to help, but I can't do it on this character?
+------------------------------------------------------------
+Switching to a character who would be more useful in a raid or event, or
+because your friend needs
+X
+and your alt has X, is not a good plan! It means
+you're directly using knowledge from one character on another, and using your
+alternate to further the goals of your first character. If there is a raid and
+you are on one character, do not switch to another because he's better at raid
+defence
+; similarly, do not switch to another on the other side because you want
+to be on the
+raiding
+side. If you see an event
+going
+on that your alternate
+could help with or be the star of, do not
+log
+into that alt and
+show
+up at the
+ongoing event.
+WHAT IF I want my alt to use my
+ship
+/
+house
+/
+clan
+/
+shop
+?
+-----------------------------------------------------
+The same basic rule applies! One character cannot benefit from the actions or
+property of another. This means no ship or house
+permissions
+and no
+keys
+to
+shops
+, but it also means no
+buying
+from a shop owned or stocked by your
+alternate and no positions of
+power
+(induction, discharge, etc.) within a clan
+owned by your alternate.
+WHAT IF I want to annoy someone but not get in trouble?
+---------------------------------------------------------
+You can't! Achaea holds a
+policy
+of cross-character
+accountability
+. That means
+that you cannot create alternate characters then act as if what you do on one
+character can not have any administrative repercussions on your other
+characters. See HELP CROSS CHARACTER ACCOUNTABILITY for more information.
+WHAT IF I want to be my own parent/sibling/spouse?
+--------------------------------------------------
+Roleplaying a relationship with your own alternate character is at best
+ill-advised and at worst a
+shrubbing
+offence. Bloodlining or
+marrying
+your own
+alt is very clearly a violation of our
+policies
+, both on second characters and
+multiplaying (HELP MULTIPLAYING). Having a non-bloodlined parental or
+spousal/romantic relationship with your alt is also a violation, as it is
+interaction between your characters and provides some benefit, even if
+intangible, to one or both of your characters. Having two or more of your
+characters bloodlined by the same (not you) parents is permissible, so long as
+no other policies are broken, but not recommended for the same reason that
+having
+alternates
+in the same organisations is not recommended: you have much
+more potential to break the rules.
+Punishment
+----------
+The usual punishment for this is quite severe - loss of one or both adventurers
+or alts. Shrubbing or bans are also common.
+What if I've been
+shrubbed
+?
+---------------------------
+If you want to inquire into the circumstances of your shrubbing, you may send
+an
+email
+to
+lathis
+@achaea.com. Send it from the email address that you
+registered with.
+(See also
+HELP MULTIPLAYING
+, HELP CHARACTER SHARING, HELP CROSS CHARACTER, and
+HELP CREDIT TRANSFERS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

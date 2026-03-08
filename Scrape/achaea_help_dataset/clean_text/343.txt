@@ -1,0 +1,138 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.11 Word Scramble
+Word
+scramble
+is a game played most often by Ruairidh, the
+Herald
+of
+Riddlery. It is a simple game where the game master gives you a scrambled up
+word, and then you have to unscramble the word to
+score
+points.
+I. To start
+-----------
+First, find the game master! Before the game begins, there will be a quick
+reminder
+of the rules and
+scoring
+, as well as an indication of how many
+rounds the game will last. There is
+nothing
+to
+join
+- all you have to do is
+be there to participate!
+II
+. Playing
+-----------
+A round will begin with the game master stating the round number, followed
+shortly by the scrambled word. You then have ten
+seconds
+to figure out
+what the word is supposed to be unscrambled. Once you have guessed the word,
+send it in a
+TELL
+to the game master. It is very important that you
+spell
+the answer correctly on your first guess, you don't get another shot! It is
+also important that you do not
+say
+the answer out loud. This will usually
+get you disqualified or worse. You will be notified if your answer is
+correct. Otherwise you will receive silence, as the game master must sort
+through all of the answers received to determine
+who
+was correct.
+III. Scoring
+------------
+You receive 4 points for each second remaining until
+time
+is up. For
+instance, if you answer six and a half seconds after the scrambled word was
+given, that leaves three and a half seconds left, giving you 14 points. If
+you are the first person to provide the correct answer, you receive a 10
+point
+bonus!
+Obviously, if you are incorrect or
+fail
+to answer, you receive nothing for
+the round.
+At the end of the game, the total scores will be tallied, and the person
+with the highest score wins! In the
+event
+of a tie, there will be a one word
+playoff where the first to answer correctly wins.
+IV. Restrictions
+----------------
+Occasionally, a word scramble will be restricted to certain people or
+organisations. If this is the case, you will be informed by the game master
+before the game begins as to who is allowed to play. This is usually the
+case for
+challenges
+where one person or
+group
+plays against another.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

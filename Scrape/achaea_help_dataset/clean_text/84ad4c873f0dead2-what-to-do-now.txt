@@ -1,0 +1,427 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.3 What to do now
+(See also:
+HELP GOALS
+,
+HELP
+FORUMS
+)
+You're probably asking yourself at this
+point
+what to do now that you've
+read
+these
+scrolls
+and escaped the
+Pygmy
+dungeon. You may want some
+ideas
+:
+I.
+Achaea
+Orientation
+Tasks
+II
+.
+Lost
+and Don't Know Where to
+Go
+?
+III. Confused: Where to Find
+Other
+Help
+IV. Getting a
+Class
+V.
+Joining
+a
+House
+(optional)
+VI.
+Learning
+/
+Training
+(increasing your
+skills
+)
+VII.
+Adventures
+:
+Minia
+,
+Lodi
+, and
+Gheladan
+VIII.
+Combat
+IX. Healing
+X
+.
+Ratting
+and
+Butterflies
+XI.
+Clothing
+,
+Vials
+,
+Banks
+XII.
+Explore
+,
+Quest
+, Enjoy!
+XIII. You are NEVER alone
+XIV. And Now?
+I. Achaea Orientation Tasks
+---------------------------
+The Achaea Orientation Tasks are an optional
+system
+you can use as a
+guide
+in your first
+days
+, at your own pace. You will receive a small reward for completing each
+task
+. See
+HELP TASKS
+for more information.
+II. Lost?
+---------
+http://www.achaea.com/achaea_
+maps
+contains many helpful maps of Achaea.
+HELP MAPS
+- this will
+show
+you how to view a dynamic
+map
+of your present location and surroundings.
+HELP SPECIAL MAPS - these are text maps.
+If you're really and truly lost, type
+PORTALS
+to return to the
+Ring
+of Portals. You may do this an unlimited number of
+times
+at first, but as this
+power
+is only granted to new players, you will eventually
+lose
+it.(See HELP PORTALS).
+III. Confused?
+-------------
+Beyond this lovely
+scroll
+, many Achaeans eagerly await your
+questions
+on the
+newbie
+channel
+! Try NEWBIE <your message> to ask a
+question
+there.
+For example: NEWBIE Can anyone help
+me
+find
+Certimene
+? (or whatever else it is that you want to ask).
+You can also check for
+Romeo
+or
+Juliet
+, our official Newbie
+Guides
+(HELP GUIDES). Try
+QW
+,
+looking
+for
+names
+in yellow.
+(Also see Section XIII of this document for more helpful resources.)
+IV. Getting a Class
+--------------------
+The first and best
+thing
+to do would be to select a class, assuming that you haven't already! Your class determines the main skills are available to you, and may be thought of like a
+profession
+.
+To
+join
+a class, see
+HELP CERTIMENE
+.
+To help you decide, see
+HELP CLASSES
+, or
+HELP CLASS LIST
+.
+V. Joining a House (optional)
+------------------------------
+Houses
+are organisations in Achaea that bring together adventurers of common beliefs and
+goals
+. They are often tremendously helpful to
+newbies
+starting out, and are a fundamental part of Achaea's community.
+If you are a
+member
+of a
+city
+and you follow your TASKS, they will lead you to joining a House at their culmination!
+We encourage you to join a House! It is not required, but it can be _very_ beneficial. Many Achaeans find House
+membership
+one of the most enjoyable and important facets of their lives.
+HOUSE LIST -
+shows
+what Houses you
+might
+join.
+HELP HOUSE
+<housename> - gives more details on one house.
+See also HELP JOINING A HOUSE.
+VI. Learning/Training
+---------------------
+After joining a class, it's
+time
+to increase in your
+abilities
+by spending
+lessons
+to improve your skills.
+STAT
+- shows how many lessons you have to spend on learning.
+SKILLS - shows what skills you have now.
+AB
+<skillname> - shows what abilities you have in any given
+skill
+.
+AB <skill> <ab> - shows details about a particular
+ability
+in a skill.
+HELP LEARNING
+-
+describes
+more about how to
+learn
+, and where to find
+tutors
+.
+If you have joined a house, then you will have a
+group
+of people available to you to help you out with your questions and problems.
+To gain more
+credits
+to turn into lessons see HELP
+RENOWN
+!
+VII. Adventures in Minia, Lodi, and Gheladan
+--------------------------------
+The lands of Minia, Lodi, and Gheladan are set aside by the
+Gods
+for newbie adventurers only (
+levels
+1-20) - none else may enter. There are many
+quests
+for
+gold
+and/or
+experience
+, and various creatures such as
+pygmies
+,
+pixies
+,
+imps
+, wildcats, gnomes, sheep, and more to
+hunt
+.
+See HELP NEWBIE QUESTS,
+HELP MINIA
+,
+HELP LODI
+, and
+HELP GHELADAN
+.
+VIII. Combat
+-----------
+As a newbie, you cannot be involved in combat with other players until you are
+at least
+level
+11. However, all newbies should know about combat versus
+denizens
+(denizens are
+mobs
+/
+NPCs
+in
+Achaean
+terminology), as you can combat denizens at any time. See
+HELP NEWBIEATTACKS
+for basic information.
+IX. Healing
+-------------
+SLEEP
+- regains
+health
+.
+MED - regains
+mana
+.
+If you're in the middle of a
+fight
+,
+leave
+the room before you do either!
+Vials of health
+elixir
+, mana elixir, boar and
+moon
+tattoos
+for health and mana
+regeneration
+, and
+irid
+moss
+plants
+are some other common ways of regaining health more easily. See
+HELP HEAL
+or HELP HEALING YOURSELF.
+Achaea has a vast
+curing
+system built in. See HELP CURING SYSTEM and CURING ON for more information!
+X. Ratting and Butterflies
+----------------------------
+Catching
+rats
+for city
+rat
+catchers, and
+collecting
+butterflies for an eccentric old
+butterfly
+collector named
+Vellis
+, are two of the easiest ways for newbies to make gold. See
+HELP RATTING
+and
+HELP BUTTERFLIES
+.
+XI. Clothing, Vials, Banks
+-------------------------
+Once you have made some gold you may want to do a few
+things
+:
+-
+buy
+better clothing (HELP CLOTHING)
+- use a
+bank
+(HELP BANKS)
+- acquire some
+cures
+(
+HELP SEASONE
+,
+HELP HEAL
+, HELP
+HEALINGLIST
+)
+XII. Explore, Quest, Enjoy!
+--------------------------
+Now go! Explore, quest, and enjoy! Choose the path you prefer.
+We recommend you start with
+exploration
+to open up new quests and new opportunities. Greet the denizens you meet. Many times they have
+something
+they need that you can help them with (HELP QUESTS).
+Don't be afraid to ask for help from other adventurers or Gods, and _please_ read the HELP. Just type HELP to get an index of help scrolls available.
+XIII. You are NEVER alone!
+-------------------------
+Achaea is a huge, living
+world
+full of many adventurers. It is not just for one. For good or ill, you are all in this together, to help or to hinder, to separate from or to join together with.
+Find an experienced adventurer to
+mentor
+and
+teach
+you. It's a great way to learn. You can even have a formal mentor-protege relationship in the mentor system: see
+HELP MENTORS
+.
+One thing is both the blessing, and the curse of our crowded realms: all those other adventurers! They may get in your way, or you may get in theirs. You may help one and be backstabbed by another. Working together, or in opposition, our adventurers are the main ingredient that dictate what Achaea will become. Get involved! Help us all to create the greatest realms on earth - Achaea!
+XIV. And Now?
+--------------
+There is so much more to learn about Achaea, but this scroll is a good start!
+If you're not already overwhelmed with information, try HELP by itself and browse through. Remember, you can also browse or search the help scrolls at our
+website
+, http://www.achaea.com. Enjoy!
+(See also:
+HELP GOALS
+, HELP
+DISCORD
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

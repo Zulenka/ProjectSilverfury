@@ -1,0 +1,176 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.13.5 Perfume and Cologne Customisations
+New
+perfumes
+and colognes can be added to their respective cabinet/case
+via the
+customisation
+system
+!
+The
+perfume
+cabinet and cologne case can only contain 4 scent options,
+adding a new one will
+prompt
+a replacement of an existing.
+CUSTOMISATION NEW FOR <item#> [<type>]
+<item#> can be a perfume cabinet ID, cologne case ID, or silver whistle ID.
+Options for <type> are:
+PERFUME  - for adding a new scent to perfume cabinets and cologne cases.
+DELIVERY - for setting
+custom
+delivery
+messages
+for your silver whistle!
+See HELP MAIL CUSTOMISATION
+ITEM     - for when you want to customise a perfume cabinet, cologne case, or
+silver whistle item in
+description
+.
+To add a new perfume/cologne to your cabinet/case:
+CUSTOMISATION NEW FOR cabinetID PERFUME
+This will create a customisation with the
+following
+options:
+Appearance: <none set>
+Dropped: <none set>
+Examined: <none set>
+Wornappearance: <none set>
+Wornexamined: <none set>
+Worn_1p: <none set>
+Worn_3p: <none set>
+Removed_1p: <none set>
+Removed_3p: <none set>
+Smelled: <none set>
+Scent_1p_1: <none set>
+Scent_3p_1: <none set>
+Scent_1p_
+2
+: <none set>
+Scent_3p_2: <none set>
+Scent_1p_
+3
+: <none set>
+Scent_3p_3: <none set>
+You can set 1 - 3 scent messages, and each must have a first and third person
+version with the
+pronouns
+/references formatted as above.
+When your customisation request has been approved you will need to complete
+it as normal with CUSTOMISATION COMPLETE <#>.
+When you complete the customisation you will be prompted to choose which
+slot you want your new perfume/cologne to replace!
+FOR EXAMPLE:
+Please CUSTOMISATION COMPLETE 46 REPLACING <#>.
+Currently, the list is as follows:
+1: a bead of grass-scented perfume
+2: a bead of bacon-scented perfume
+3: a bead of lemon-scented perfume
+4: a bead of mango-scented perfume
+---------------------------------------------------------------------------
+Example Perfume Customisation Request
+Appearance: a bead of vanilla clove perfume
+Dropped: A tiny, clear bead holds a bubble of vanilla clove perfume.
+Examined: A tiny bead, smaller than a thumbnail, is made of some clear,
+gelatinous substance. Within the bead is a tiny bubble of perfume,
+enough for a single
+application
+. The bead emits the faint odour
+of vanilla and cloves.
+Wornappearance: a dab of vanilla clove perfume
+Wornexamined: A tiny bead, smaller than a thumbnail, is made of some clear,
+gelatinous substance. Within the bead is a tiny bubble of
+perfume, enough for a single application. The bead emits the
+faint odour of vanilla and cloves.
+Worn_1p: You squeeze $=(replica$), dabbing the rich fragrance behind each ear
+and at the hollow of your throat.
+Worn_3p: $+(
+name
+$) squeezes $=(replica$), dabbing the fragrance behind each
+ear and at the hollow of $=(his$) throat.
+Removed_1p: With a damp
+cloth
+, you
+remove
+all trace of $=(replica$) from your
+person.
+Removed_3p: With a damp cloth, $=(name$) removes all trace of $=(replica$)
+from $=(his$) person.
+Smelled: smells of vanilla and cloves.
+Scent_1p_1: An alluring fusion of vanilla and clove swirls around you,
+flavouring the air.
+Scent_3p_1: Alluring hints of vanilla and clove swirl around $=(name$),
+flavouring the air.
+Scent_1p_2: Tantalising the senses, sultry vanilla and exotic clove accents
+wrap around you.
+Scent_3p_2: Sultry vanilla and exotic clove accents wrap around $=(name$),
+tantalising the senses.
+Please take note of the pronoun references.
+$=(replica$) refers to the Appearance set upon the item.
+(See also HELP CUSTOMISATION REQUESTS and
+HELP
+CUSTOMISATION GUIDELINES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

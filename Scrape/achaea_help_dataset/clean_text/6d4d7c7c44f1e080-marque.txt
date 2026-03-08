@@ -1,0 +1,146 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.47.1 The Marque of Unquestioned Seaworthiness
+(See
+HELP SEAFARING
+,
+HELP
+SEAFARING
+SPECIALISTS
+)
+To gain access to
+training
+in the
+skill
+of Seafaring, and in its attendant
+specialisations
+, you must first obtain a Fully Attested
+Marque
+of Unquestioned
+Seaworthiness
+. A Marque may be obtained in one of two ways:
+1) Purchase from Captain
+Maelstrom
+in the Tasur'ke Shipyard.
+ASK him for his
+WARES
+. This will be a blank marque, requiring
+attestation
+.
+2
+) Commissioning of a
+ship
+. This will be a fully attested marque (see below).
+How to Get
+Attestations
+on your Marque
+--------------------------------------
+A new Marque gained by purchase is essentially blank, awaiting attestations of
+your visit to seven certain
+harbours
+:
+A desolate shoreline at
+Tenwat
+Prison
+Overlooking the
+harbour
+at
+Zanzibaar
+North end of the beach at
+Tapoa
+Island
+At the end of a pair of docks at Zaphar Isle
+A Sandy stretch of beach at Sea Lion Cove
+On the Mysian dock at
+Mysia
+Rusted Landing at
+Clockwork
+Island
+Once present at any of these locations, with Marque in hand, simply
+ATTEST
+. The
+harbours may be visited in any order. The seventh attestation will change your
+Marque into a Fully Attested Marque (of Unquestioned Seaworthiness) and will
+grant you immediate and irrevocable access to training in the skill of
+Seafaring and its related specialisations.
+A Marque from commissioning a ship
+----------------------------------
+When you commission a ship you are presented with a Marque that is full and
+complete. You need to do
+nothing
+farther to gain access to training in
+Seafaring.
+What if your Marque is complete, but you can't
+train
+in Seafaring?
+-----------------------------------------------------------------
+Give your Marque to Maelstrom. If he is satisfied that you have completed the
+Marque, he will provide you with the access you need to
+learn
+Seafaring.
+(See
+HELP SEAFARING
+, HELP SEAFARING SPECIALISTS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

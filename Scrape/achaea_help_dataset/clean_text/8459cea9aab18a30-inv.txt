@@ -1,0 +1,181 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.6 Inventory and Equipment
+(See also
+HELP SIGILS
+,
+HELP
+GOLD
+)
+Your
+inventory
+is what you are carrying or wearing or
+wielding
+-
+equipment
+of various sorts.
+Inventory - Info
+Inv
+-
+II
+-------------------------
+The word INVENTORY in
+Achaea
+is most commonly used to refer to the items and equipment that an adventurer or
+denizen
+is carrying, wielding, or wearing. There are two ways to see what is in your inventory.
+INVENTORY (or INV or
+EQ
+)   list your inventory.
+INFO INV [HELD|WORN|FULL]  a more detailed list, with numeric ids.
+II [HELD|WORN|FULL]        same as INFO INV.
+Held|Worn|Full
+--------------
+II or INFO INV, alone, will
+show
+you your inventory using item
+names
+and IDs. Any of the options (Held, Worn, or Full) will try to show even more information about what is in your inventory, such as
+time
+left till
+decay
+, or special effects or enchantments. The exact special information you'll see depends on various
+abilities
+; see
+AB
+VISION
+LISTS for details on these.
+Protecting Your Items
+---------------------
+There are quite a few ways that
+other
+adventurers can make you drop, or can
+steal
+items from your inventory. Putting a
+fist
+-shaped
+sigil
+on that item will ensure that your grip on it will be too tight to
+lose
+it with many methods.
+(see HELP
+SIGILS
+)
+Things
+Nearby
+-------------
+To see things in your immediate area, such as sitting on the ground in the same location, use:
+INFO HERE (or
+IH
+)          a list of items on the ground.
+INFO HERE <item>           to show only items of a particular type.
+ID Numbers
+----------
+Each item in Achaea has a separate and distinct number (as shown in II). Oftentimes you will have multiple items of a similar type, and you will want to be specific in referring to one. So, for instance, if you had
+5
+oaken
+vials
+filled with different kinds of liquids and you wanted to make sure you give the right one to your comrade, you
+might
+type GIVE VIAL1347 TO
+SARAPIS
+instead of just GIVE
+VIAL
+TO SARAPIS.
+More Details on Items
+---------------------
+To gain more information on an item, including what is inside the item, if
+anything
+, you may
+LOOK
+AT <item>
+PROBE
+<item>    (or P <item>)
+EXAMINE <item>  (or EX <item>)
+Other Ways to Manipulate Items
+------------------------------
+There are various ways of manipulating things including:
+GET|G <item> [from <a
+container
+item>]
+GIVE <item> TO <whomever>
+WIELD
+<item>
+UNWIELD
+<item>
+WEAR <item>
+REMOVE
+<item>
+Gold
+----
+Dealing with gold is a slightly different matter, as you will want to specify how much gold to get or give. To do this, you would, for instance,
+GIVE 100 GOLD TO SARAPIS
+If you don't have 100 gold, poor Sarapis will be broke and you'll be standing there
+looking
+silly.
+(See also
+HELP SIGILS
+, HELP GOLD)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

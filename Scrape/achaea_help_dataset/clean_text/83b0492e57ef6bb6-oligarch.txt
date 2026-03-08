@@ -1,0 +1,169 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.3.4 Oligarchy - a House Government Form
+(See also: HELP GOVERNMENT FORMS,
+HELP AUTOCRACY
+,
+HELP TRIUMVIRATE
+,
+HELP DICTATORSHIP
+,
+HELP CHALLENGE
+,
+HELP SUCCESSOR
+,
+HELP
+SUPPORT
+)
+In an
+Oligarchy
+, three leaders
+hold
+office until the end of a definite term
+(which could be quite long), or until the
+successor
+comes to
+power
+when either
+the
+Oligarch
+steps down or does not respond to a
+challenge
+by the designated
+successor.
+Few
+things
+limit the power of the Oligarch. Among these are:
+1) an oligarch may exercise no power at all until a successor is
+designated (except the power to
+designate
+a new successor).
+2
+) an oligarch's term may be long, but must still be finite.
+3
+) an oligarch must respond to all
+challenges
+by the successor. If
+an oligarch does not respond, or if the oligarch surrenders to
+the challenge, then the successor takes power (see
+HELP CHALLENGE
+and HELP SUCCESSOR).
+Each oligarch selects a successor separately from the
+other
+oligarchs
+,
+which means there should be three
+successors
+at all
+times
+.
+Limits on Return to Office
+--------------------------
+Once an oligarch leaves office, he may not contest for, nor hold the
+position again until at least six other people, not himself, hold it.
+Special Powers of the
+Ascendant
+-------------------------------
+One oligarch, the Ascendant, has expanded powers:
+- appointments of
+House
+Positions, and
+-
+selecting
+the
+Divine
+Patron
+The three oligarchs select one of their number to
+wield
+these additional powers
+via
+showing
+SUPPORT (see HELP SUPPORT). If two or three support one oligarch,
+then that oligarch becomes Ascendant. If only one
+supports
+any given oligarch,
+then that oligarch is not Ascendant. If a oligarch is Ascendant and then
+doesn't have support of at least two oligarchs, then that oligarch is no longer
+Ascendant.
+Oligarchs (not Ascendant) earn 200
+renown
+per
+hour
+while logged in, up to 400
+renown per
+day
+or until they hit cap (see HELP RENOWN).
+(See also: HELP GOVERNMENT FORMS,
+HELP AUTOCRACY
+,
+HELP TRIUMVIRATE
+,
+HELP DICTATORSHIP
+,
+HELP CHALLENGE
+,
+HELP SUCCESSOR
+, HELP SUPPORT)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,163 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.7 THE JESTER CLASS
+(See also:
+HELP PRANKS
+,
+HELP PUPPETRY
+,
+HELP TAROT
+,
+HELP
+8, HELP
+CLASS
+)
+The
+Jester
+class originated in modern
+Achaea
+when an anomalous timequake
+brought Silvestri Carnivalis, court jester to the
+House
+of the
+Seleucarian
+Empire six hundred years ago, into the present
+day
+. In the intervening years
+since the fall of the Seleucarian Empire and the modern day, the precious
+arts of a Jester had been
+lost
+, to Silvestri's dismay. Silvestri immediately
+founded the
+Jesters
+guild
+in order to restore these arts to the
+world
+, and
+thus the class of Jester was reborn in 299 A.F.
+Jesters are a rollicking lot, often silly and carefree. Some may choose to
+wander the
+highways
+putting on impromptu
+shows
+for passersby;
+others
+plan
+and carry out entire theatrical productions. They may be found as
+citizens
+of any
+city
+, or
+might
+choose to be cityless wanderers instead. They are
+devoted
+to amusement, high jinks, and humour. Not tied to any one ethos, one
+may encounter Jesters
+who
+worship the Lord of Evil as well as Jesters who
+travel the path of
+Light
+. Many Jesters prefer neutrality, as the ideal of
+fun transcends alignment.
+While many of their
+skills
+are intended for entertainment, a trained Jester
+is not to be underestimated on the battlefield. With bodies trained in
+acrobatics, their backflips and handsprings can, in a tight spot, do more
+than amuse. Jesters are famed for their
+ability
+to craft various tools of
+their
+trade
+as well, such as balloons that can lift people to the skies, a
+range of tricky bombs, jack-in-the-boxes concealing deadly surprises, and
+more. All this combined with their ability to fashion magical
+puppets
+to
+manipulate others to hilarious or lethal ends, a Jester skilled in
+combat
+can be a formidable opponent.
+The skills
+wielded
+by those of Jester class are
+Pranks
+,
+Puppetry
+, and
+Tarot
+. A
+fledgling
+in this class will possess Tarot and Pranks, gaining
+Puppetry upon
+embracing
+class.
+(See also:
+HELP PRANKS
+,
+HELP PUPPETRY
+,
+HELP TAROT
+, HELP 8, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

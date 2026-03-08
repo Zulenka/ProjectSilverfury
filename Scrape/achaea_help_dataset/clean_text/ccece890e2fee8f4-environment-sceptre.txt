@@ -1,0 +1,121 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.25 Environment Sceptre
+The lavishly bejewelled sceptre, also known as the Sceptre of Environments,
+is a unique
+artefact
+that begins as a simple trophy but can be embellished
+with further gemstones to confer numerous bonuses upon its owner when they
+stand within certain environments.
+SCEPTRE FORM <attuned gem> - When you are in possession of your first attuned
+gem, this will form your sceptre.
+The gem will be consumed and added to the gem
+repertoire for that gem's attuned
+environment
+.
+SCEPTRE UNATTUNE <gem>     - Gems for the sceptre are attuned by default to a
+specific environment:
+Desert
+, Beach, Forest, etc.
+This
+command
+will
+remove
+the attunement.
+SCEPTRE INSERT <gem> [env] - Insert a gem into your sceptre.
+This is irreversible.
+Attuned gems automatically add to their specified
+environmental repertoire and unlock powers at
+certain thresholds.
+If using an unattuned gem, the environment of your
+choice must be specified.
+The first gem for any environment must be attuned.
+Subsequent gems need not be.
+SCEPTRE INFO               - List what gems are inserted into your sceptre.
+The first
+power
+for any environment requires one attuned gem and confers a
+5
+%
+experience
+bonus when standing in rooms of that environment.
+The second power for any environment requires three gems total, conferring a
+1% bonus to
+critical
+hit chance while in that environment.
+The third and final power is achieved at six gems and confers a 5% damage bonus
+to
+denizens
+in that environment, and a 5% resistance to damage from denizens in
+that environment.
+- The sceptre itself cannot be traded in.
+- Individual gems can be traded in for
+2
+bound
+credits
+per gem.
+- The sceptre itself has no use or activation command, instead the appropriate bonus is always active for the environment you are in.
+- Only the sceptre's owner may take advantage of its benefits.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

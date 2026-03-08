@@ -1,0 +1,177 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2 Basic Commands
+2.1    New Players
+An overview for new Adventurers.
+2.2    Newbie stuff
+A bit about being a
+Newbie
+.
+2.2.2  Newbieattacks
+Attacking
+as a Newbie.
+2.2.3  Portals
+The
+PORTALS
+command
+.
+2.2.4  Quitting
+Quitting
+the game, a
+house
+,
+city
+, or
+other
+.
+2.2.5  Reject
+The different
+things
+this can do for you!
+2.2.6  Recall
+Recalling
+.
+2.2.7  Newbie Warnings
+Those helpful, or irritating, things.
+2.2.8  Renouncing
+Grace
+,
+Orders
+.
+2.3    What Now
+A few suggestions for after the
+Intro
+Tour
+!
+2.3.1  Questions
+The ones you all ask a lot.
+2.3.2  Goals
+Goals
+in
+Achaea
+.
+2.4    Movement
+How to
+move
+around in Achaea.
+2.4.1  Landmarks
+Moving
+automatically to well-known
+landmarks
+.
+2.5    Obstacles
+Obstacles
+that may impede your
+movement
+.
+2.6    Inventory
+Looking
+at things you are
+holding
+.
+2.7    Things
+How to handle things (get, put, drop, etc).
+2.7.1  Decay
+Bye
+bye baby.
+2.8    Looking
+Looking at your surroundings.
+2.8.1  Exits
+Seeing how to get outta here!
+2.9    Basecommands
+A list of some basic
+commands
+.
+2.9.1  Slit
+A painful way to get blood.
+2.10   Aliases
+About Achaea's internal
+alias
+system
+.
+2.11   Wholist
+Information on how to see
+who
+is in the realms.
+2.12   Reflexes
+Also
+Combinations
+and
+Keybindings
+and
+Aliases
+!
+2.13   Containers
+All about
+packs
+and
+containers
+!
+2.13.1 Pockets
+Pockets
+!
+2.14   Identifiers
+Convenient ways to interact with items.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

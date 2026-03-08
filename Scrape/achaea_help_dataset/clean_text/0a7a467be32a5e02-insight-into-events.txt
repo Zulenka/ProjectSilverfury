@@ -1,0 +1,123 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.19 Insight Into Events
+Insight
+is a
+system
+that allows us, the
+Garden
+as a whole, to easily convey information of an out-of -
+character
+nature
+about in-character
+events
+. We understand that in a role-playing game there can often be situations where you need certain information to play your character that can not easily be acquired in-character and insight is meant to address that by allowing us to have a sort of
+event
+guide
+for major events.
+Things
+to keep in mind:
+- Insight is OUT OF CHARACTER. That means that your character should not be verbatim quoting from it and much of it will be knowledge your character will not directly have. Generally we will try to not reveal any information that is meant to be puzzled out so as to keep this simple.
+- INSIGHT by itself allows you to see the current event's guide. Your Order can also have a section here but it will not
+show
+up unless your
+Divine
+chooses to add
+something
+. Order insight
+might
+be related to global events or it might just be something related to your Order.
+Deucalion
+might
+wish
+his Order to know that they're all currently burning from the inside out because he had an accident, for instance.
+- INSIGHT QCC lets you submit a
+Question
+, Comment, or Concern about the event (or your Order. You do not need to specify in the
+syntax
+, we'll handle
+who
+receives the information). These are
+OOC
+in nature but should still be respectful to the team behind the scenes. Do not use this
+command
+to rant or
+rage
+or you will find your
+ability
+to use it quickly taken away.
+- When it comes to QCC, also keep in mind that
+anything
+you require an answer for will ideally be answered by adding to the INSIGHT text itself. If your question is of a personal nature, then, or would generally not be answered by the global command, you should instead try something like an
+issue
+or e-
+mail
+.
+We hope that this system, overall, helps us
+communicate
+with you in a more fluid and easily -referenced manner for global events. We still expect you to find actual lore and figure out the  event itself in-character, and INSIGHT will only aim to give you context to aid your
+roleplay
+, not answers or information that could lead to metagaming.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

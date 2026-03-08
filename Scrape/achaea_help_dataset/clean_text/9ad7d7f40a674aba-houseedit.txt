@@ -1,0 +1,131 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.19 Househelp editing, creating, deleting
+(See also:
+HELP EDITOR
+,
+HELP
+6
+.28, and HELP 6.10)
+HOUSEEDIT
+, also known as "
+House
+help edit" is the
+ability
+for House Leaders and
+those in House positions invested with this
+power
+to create, change, and
+remove
+scrolls
+in their House help (
+HHELP
+) index. House help (HHELP) texts are very
+important to all members of a House and should be used to inform House members
+about whatever is needful for their success in the House.
+Creating a House Help (Hhelp)
+Scroll
+------------------------------------
+HOUSEHELP
+EDIT <newname>
+This will create a new scroll with the
+name
+you have designated and bring you
+automatically into the
+Achaean
+editor
+where you will write the new information
+in the blank fields. When you are done and have saved your work, there will be
+a new scroll listed in HHELP INDEX for those in the House to
+read
+.
+Editing
+an existing House help (HHELP) scroll
+---------------------------------------------
+HOUSEHELP EDIT <existingscroll>
+Editing an existing scroll is very similar to creating a new one. The only
+difference is in the name of the scroll you would use. For example, if a scroll
+titled HHELP
+PROMOTION
+already exists, when you enter the
+syntax
+HOUSEHELP EDIT
+PROMOTION, it will take you into the Achaean editor and allow you to update the
+pre-existing text with new information without needing to
+delete
+the scroll and
+start over.
+Deleting
+an existing House help (HHELP) scroll
+----------------------------------------------
+HOUSEHELP DELETE <existingscroll>
+Deleting a scroll will remove it completely from the HHELP INDEX. This can be
+used to remove out-dated scrolls. It should be noted that when deleting a
+scroll, any scrolls pertaining to the deleted scroll should be modified so
+members of the House don't search for a scroll that no longer exists.
+(See also:
+HELP EDITOR
+, HELP 6.28, and HELP 6.10)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

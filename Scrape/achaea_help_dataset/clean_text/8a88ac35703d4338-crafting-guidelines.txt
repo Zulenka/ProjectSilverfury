@@ -1,0 +1,236 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.3 CRAFTING GUIDELINES
+As a new crafter, Achaea's guidelines and standards can sometimes seem difficult to navigate. We recognise there's a lot of information to process, and it's for that reason we've created
+HELP
+<craft>
+DESIGN
+to cover the specifics of each
+crafting
+skill
+.
+This file is intended as a general purpose reference that applies to all
+skills
+, aiming to cover common mistakes and pitfalls as well as provide some detailed lists of restricted materials, frequently mixed-up words, and information on
+races
+and their use in crafting
+designs
+.
+COMMON MISTAKES AND GENERAL GUIDELINES
+--------------------------------------
+Probing your
+sketches
+will highlight common mistakes in your designs and give
+you an error count at the bottom.
+The
+PROOF
+command
+will highlight, count, and explain the errors.
+Red denotes
+something
+that is always wrong.
+Yellow highlighting is to double check that this is the correct use in this instance.
+Incorrect case for
+race
+names
+are also included and will highlight red.
+---------------------------------------
+1) A common misuse of words is compliment and complement. Complement means to complete or enhance. Compliment means to praise. This belt complements the dress better than that one. A belt compliments the wearer's waist.
+2
+) Another common misuse of words is that vs which. That - defines a variable. Which - defines a constant. The
+ring
+that has blue pearls. (a ring that can be identified by blue pearls) The ring, which has blue pearls. (all rings have blue pearls, so this one does too).
+3
+) Organisation names should be capitalised. "A
+tunic
+of a
+Runewarden
+novice lies here." You are not able to capitalise
+things
+in the appearance
+description
+. These will be set prior to the approval of the
+pattern
+by the Delosian Crafting Council.
+4) Race names should only be capitalised at the start of a sentence, except for the Tsol-related races (Tsol'teth, Tsol'aa, Tsol'dasi) and
+Vertani
+whose names are always capitalised. This covers all usage of the race, not only its actual
+name
+. Incorrect: A Xorani
+style
+suit made for a Xoran. Correct: A xorani style suit made for a xoran.
+5
+) When making lists of three or more items standard rules
+apply
+of using the Oxford
+comma
+. This means that correct usage is red, blue, and yellow.
+6
+) Initials and insignia are fine to put in your examined description.
+Emoticons
+and
+other
+forms of random symbols are not considered an insignia. (i.e. ^.^ ^-^ ;) etc.) Such symbols spoil a good description.
+7) It's means it is. Its is the possessive form of "it". THIS IS ALWAYS THE CASE.
+8) There are
+children
+in
+Achaea
+. Keep your designs tasteful. It is possible to be sexy and tasteful, without being disgusting.
+9) Peacock wing and body feathers are bland and unimpressive. It is their tail feathers that are impressive and usually multicoloured.
+10) Unicorns in Achaea are extinct. They are NOT permitted in any form to be used in crafting designs. This includes hair, skin,
+bone
+, horn, or any other permutation of unicorn.
+11) Allow your designs to
+speak
+for themselves. Branding and
+marketing
+should be done after creation, and not as part of the design. This essentially means that adding
+messages
+or brand names into designs is not appropriate. The sole exception is in labels for bottles created via vessel design that will eventually contain drinks.
+12)
+Beverages
+and vessels are standalone designs, they should not and cannot include
+drinking
+accessories such as straws or spoons.
+13) Lemonade is innately fizzy. If you are submitting a design for lemonade that is not fizzy (American style), this should be described as a diluted juice.
+14) Design
+descriptions
+should be written in formal English and not conversational style. Avoid using contractions such as "it's".
+15.
+Pumpkin
+-spice, and pumpkin
+pie
+spice do not exist in Achaea. These are a modern American invention; if you are designing beverages or foodstuffs that use them, please explicitly list the individual spices and not the amalgamated (and anachronistic) whole.
+16. All designs should be made from materials which can be sourced reliably and repeatably; particularly exotic, rare, unique, or one of a kind specimens are not suitable and will be rejected on those grounds.
+17. Sentient races are not ingredients or crafting
+commodities
+. The sole exception to this is for hair and feathers which can be given freely without harm to the original owner, specifically for use in wigs.
+FREQUENTLY MADE ERRORS
+----------------------
+Incorrect            Correct
+---------            -------
+Bejeweled            Bejewelled
+Center               Centre
+Color                Colour
+Cozy                 Cosy
+Fall                 Autumn
+Favor
+Favour
+Fries                Chips
+Frosting             Icing
+Gossamer (noun)      Spider silk
+Green
+gold
+Electrum
+Eggplant             Aubergine
+Honor
+Honour
+Jewelry
+Jewellery
+Jeweler              Jeweller
+Karat                Carat
+Luster               Lustre
+Matte                Matt
+Mold                 Mould
+Odor                 Odour
+Paneled              Panelled
+Recognize            Recognise
+Rivaling             Rivalling
+Spiraling            Spiralling
+Stylized             Stylised
+Symbolize            Symbolise
+Tantalize            Tantalise
+Traveler             Traveller
+Traveled             Travelled
+Zucchini             Courgette
+RESTRICTED MATERIALS
+--------------------
+A number of materials and themes in Achaea are closely related to the
+Gods
+, and aspects of Their realms cannot be freely used in crafting designs. In almost all cases, the below materials and references require the in-
+character
+approval of the God in
+question
+before they may be used:
+Material/Theme         God
+--------------         ---
+Bloodsteel
+Sartan
+Demon-skin/bone/etc    Sartan
+Moonstones
+Ourania
+Phoenix
+Aurora
+Red fog                Sartan
+Shadows
+Twilight
+Mithril
+Pantheon
+-wide
+Celestite
+Scarlatti
+This list is not entirely exhaustive, but covers the more commonly used materials and imagery.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,145 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.12 Delosian Eagles
+Delosian
+Eagles
+are earned through victory in ranked
+combat
+spars
+(see
+HELP ARENA
+and
+HELP COMBAT
+for an overview). Amassing enough of these through successive victories will allow you to purchase special
+wares
+from the Eagle's Perch!
+This
+shop
+is located off the
+arena
+spectator stands in
+Delos
+, and offers seven unique wares for sale:
+a brawny, sharp-tusked mastodon - 60 Eagles
+This legendary quality
+mount
+will serve you loyally until it dies and can be used to TRAMPLE your foes provided you have the
+ability
+. This mount can be collared!
+an oaken
+vial
+- 10 Eagles
+This vial contains a unique brand of warpaint which, when applied, adds a unique
+message
+to your
+description
+when
+others
+LOOK
+at you. This message differs based on your current combat
+ranking
+!
+a starmetal helm - 99 Eagles
+Wear this helm, and whenever you
+kill
+another player, the deathsight will be customised based on your combat ranking.
+a miniature stone statue - 40 Eagles
+DROP this statue in a location and for the next
+hour
+, it will report to you the
+name
+of any person entering or
+exiting
+. The statue is destroyed after this hour elapses, cannot be repositioned once dropped, and does not pierce phasing.
+a thirsty faced urn - 99 Eagles
+DROP this urn in a room that's magically flooded to drain the water. After fifteen
+seconds
+, the urn will then spit the water back out,
+flooding
+the location again. The user can SEAL URN to
+trigger
+this early and retrieve the urn.
+3
+minute
+cooldown.
+a token of Phileo - 3 Eagles
+RUB this token to consume it, and your next arena match will cost no
+gold
+.
+the blade of the Slayer - 150 Eagles
+For the true masters of combat, with this blade in your
+inventory
+, your
+killing
+blows have a chance to bypass the STARBURST
+defence
+. Only one of these blades can exist in the realm at once, and when another purchases one, any others are destroyed!
+NOTE: None of these items can be made non
+decaying
+or resetting with the exception of the mastodon mount.
+NOTE: None of these items can be resold in
+shops
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

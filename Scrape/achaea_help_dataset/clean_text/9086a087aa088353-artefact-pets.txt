@@ -1,0 +1,457 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.9 ARTEFACT PETS
+What is an
+artefact
+pet
+?
+------------------------
+An artefact pet is a
+custom
+denizen
+(restricted in MANY ways as to
+nature
+and type, see below) with special and unique powers and
+abilities
+that may be purchased for
+Bound
+Credits
+. (except: see GIFTS)
+Artefact
+pets
+are loyal to a particular adventurer. They are NOT meant to
+assist
+greatly in
+combat
+, though they are not useless either. See the PET
+COMMANDS
+section at the end of this
+help
+file.
+If you are purchasing credits for your pet, please do not do so until your pet has been approved.
+What isn't an artefact pet?
+---------------------------
+A mini pet is not an artefact pet. Some mini pets may be purchased for
+gold
+,
+others
+are obtained through
+other
+means. Please refer to
+HELP MINIPETS
+.
+A
+mount
+or
+steed
+is not an artefact pet, though some pets may be mountable. Even if you purchase a collar of
+Lupus
+(see HELP
+ARTEFACTS
+MISC), the mount is not an artefact pet. Most
+mounts
+may be purchased for gold at stables across
+Sapience
+. Please refer to
+HELP MOUNTS
+.
+Class
+loyals are not an artefact pet (such as a magi's water weird, a serpent's snake, a runewarden's falcon, a sentinel's woodland creature, or one of many entities found serving
+Occultists
+). These are available as special class abilities. Consult the various
+classes
+for more details. Artefact pets may not resemble class loyals either.
+Gifting a pet
+-------------
+As with other artefacts, it is possible that a pet may be given as a gift. In such a case, you MUST have unbound credits in order to pay for the pet. Gift pet requests should be sent via
+email
+to
+customisations
+@
+achaea
+.com, not submitted through the
+system
+below.
+Tradein
+-------
+Pets may not be transferred or traded in at all - no tradein value, no refunds, no exchanges. Be sure that you want any pet you purchase, because it will be yours, and nobody else's, for a very long
+time
+!
+Requesting a Pet
+----------------
+To request a pet, simply create a new
+customisation
+request!
+CUSTOMISATION NEW FOR ARTEFACT PET.
+Fill
+out the fields accordingly and decide which upgrades you want your pet to have. Fields and upgrade options are described below, alongside their costs.
+Please see
+HELP STYLE
+for more details and guidelines on
+describing
+your pet, and be sure to follow all the guidelines! This will
+speed
+up the process of approval. Double checking and triple checking is highly advised.
+If you are purchasing credits for your pet, please do not do so until your pet has been approved.
+Base
+Features - 500 credits
+---------------------------
+All pets include the
+following
+, these aspects are not changeable:
+- The pet itself (including fully custom
+descriptions
+and
+name
+).
+- Resetting to you so that it cannot get stolen or
+lost
+permanently.
+- Resets to you in the case of
+death
+.
+- The
+ability
+to order it to
+move
+about via
+tells
+.
+- The ability to order it to follow you.
+- The ability to order it to enter your
+inventory
+.
+- This costs 500 credits.
+CUSTOMISATION SET <#> <field> <text>
+-------------------------------------
+NAME:
+- All pets require "names", which are the noun(s) that the pet will
+go
+by.
+- This can, but does not have to include a proper noun (John for instance),
+as well as less specific type nouns like 'dog' or 'bear' that the pet can
+be referenced by.
+- These
+names
+should be separated by a
+comma
+, without spaces, and the
+proper noun should come first. That is, the actual name of the pet.
+- If the pet does have a proper noun, then the base noun for interaction
+must match that.
+- For example: Rocky, a sleek-feathered crow, MUST be "Rocky" on INFO HERE.
+- But a sleek-feathered crow can simply be crow.
+For example:
+- Good "names": Moxie,dog,goodgirl
+- Bad "names": bear, dog-beast , Kelso
+See
+HELP STYLE
+- Denizen Descriptions for guidance on Appearance, Dropped, Examined, Entry,
+Leave
+, and Death fields.
+There are a few common requests for pets that will be denied, including
+pets that are:
+- HUMANOID: Pets cannot be humanoid, or of a living sentient or near-sentient
+race
+, known or imagined. Thus no pet could be Tsol'aa or Tsol'teth, troll
+or Treekin. Not even a lich, centaur, or minotaur.
+- OF
+HISTORY
+OR LEGEND, or RELATED: Pets should also not try to make some
+sort of real or imagined connection with history or myth or some known
+unique being. Thus no pet should try to
+claim
+to be a direct descendant
+of the
+Spawn
+of the
+Unnamable
+Horror
+, or the Hydra that Jason battled,
+or whatever. Generic is the way to go!
+- OVERLY SILLY OR OTHERWISE UNSUITABLE TO OUR
+ROLEPLAYING
+ATMOSPHERE: At
+the discretion of the administration, your pet may be rejected if its
+descriptions or its behaviours are simply too silly or otherwise
+detrimental to the roleplaying atmosphere.
+- DIRECT COPIES FROM EXISTING
+DENIZENS
+: your pet should be unique and not
+aim to directly emulate an existing denizen in appearance. While you can
+certainly use them as inspiration, they should be distinctly your own.
+If you are purchasing credits for your pet, please do not do so until your pet has been approved.
+CUSTOMISATION ADD <#> <field>
+-----------------------------
+These are on/off selections you can add to your pet request.
+Female - No cost
+Designate
+your pet as a female instead of a male.
+Invincibility - 100 Bound Credits
+Your pet will not
+die
+.
+Note: Once purchased this can be toggled on and off via the PETS
+command
+.
+Please see the reporting option below for more details.
+Sentience - 200 Bound Credits
+Order your pet to
+speak
+and
+emote
+, pre-
+defined
+and custom
+emotes
+, with
+the exception of racial or other special emotes (see racial emotes addon
+below).
+Speech
+will be in
+Achaean
+only.
+Your pet will report
+anything
+spoken directly to it, or told to it.
+Your pet will report
+things
+given to it.
+Flight - 100 Bound Credits
+Your pet will be able to fly. We will only allow this for pets that have
+wings.
+Mountable - 100 Bound Credits
+Ride
+your pet like a pony!
+We will only allow this for pets that
+riding
+makes
+sense
+for. You could
+ride a giant beetle of course, but not a beetle of normal size.
+If your pet is mountable, you do not have to have riding
+skill
+in order
+to do this. You MAY have riding skill though, and you may use abilities
+in the skill while mounted on your pet.
+Amnesia - 400 Bound Credits
+Your pet will sometimes afflict your
+enemies
+in combat with amnesia.
+You may only get amnesia OR custom
+attack
+message
+, but not both.
+More about
+attacks
+: no other attacks are allowed for any pets, at any price.
+Only amnesia is allowed as an attack for pets.
+You may only purchase two amnesia pets per
+character
+.
+Mask Ability - 300 Bound Credits
+This is similar to the MASK ability. With it, you gain the ability to
+PETMASK or PETUNMASK.
+A masked pet does not appear in the room when someone LOOKs there, nor
+is it seen while entering or
+leaving
+.
+This does not mean that the pet is completely invisible, since someone
+looking
+directly at it will see it.
+If you are riding (mounted on) a masked pet, you are not masked.
+Masking affects
+nothing
+more than the pet itself, not the
+rider
+nor
+anybody else.
+No
+Auto
+Emotes - 100 Bound Credits
+This means that the pet will have absolutely no
+reaction
+to emotes from
+other players (unless of course you add some
+reactions
+as noted below).
+Reporting - 300 Bound Credits
+The following functions require the "invincibility" add-on to be
+inactive
+:
+Pets with this upgrade will report to their owner the entry and
+exit
+of
+players, alongside reporting the details of
+says
+heard in its location,
+alongside the default reporting that sentience offers.
+Pets with both Reporting and Invincibility upgrades will report fully
+when invincibility is disabled, and will report as if sentient above
+with invincibility enabled.
+NOTE: This option requires the sentience add-on. There are no
+substitutions, and the included reactions cannot be customised or
+purchased separately.
+Special Upgrades via email to pets@achaea.com
+-------------------------------------------------------
+These following upgrades may be requested via email at pets@achaea.com.
+Custom Attack Message - 300 Bound Credits
+Your pet's attack will have a custom appearance in the form we call an
+'oact'. Oacts may not change the damage type or amount.
+Multiple oacts may be combined to give the pet various attacks. Each added
+oact is also 300 Bound Credits.
+NOTE: you may only get amnesia OR custom attack message, but not both.
+Racial Emotes - 50 Bound Credits
+For pets
+who
+resemble
+races
+that have predefined racial emotes (such as
+rajamala or
+dragon
+), you may enable those racial emotes for 50 credits
+per race.
+So, for example, if your pet is a winged panther, the cost to enable both
+rajamala and atavian emotes would be 100 credits.
+Additions to pets that are already created must be requested via email to pets@achaea.com also.
+Reactions - via
+HELP DENIZEN REACTIONS
+--------------------------------------
+Reactions are added to artefact pets after their creation. For details on how to do so, please see
+HELP REACTIONS
+. Please note that reactions added to sentient artefact pets in this way will cost an additional 50 bound credits per reaction. Reactions not included within this system may be possible at additional cost.
+REACTION <mob> <id> SUBMIT - When you've completed your reaction.
+Once the reaction has been approved, you will be able to enable it for a fee of 50 Bound Credits. This fee only applies once per reaction, after which you may disable/reenable it freely.
+NB: EMOTE ACTIONS
+-----------------
+Emote actions use the standard emote
+syntax
+(emote looks at $person). This means that if you're looking to have different
+messages
+for first and third person, your emotes will need to double up on the $ symbol (see the last example given above).
+Moving
+forward we will NOT be fixing these by hand, you will have to pay to unlock your reaction and resubmit it for approval if you do not format your emotes appropriately.
+If you have an older pet that you want to change existing reactions on, please email customisations@achaea.com with your pet ID and request and the team will assist from there.
+Pet Commands
+------------
+In addition to the commands in
+HELP DENIZENS
+, the following
+apply
+to artefact pets.
+SAY
+<pet name>, FOLLOW
+ME
+- Makes your pet follow you.
+SAY CLIMB UP, <pet name>        - Makes your pet climb up into your inventory.
+TELL
+<pet name> GO <direction>  - Make your pet
+walk
+in a
+direction
+.
+(no direction
+abbreviations
+, please)
+TELL <pet name> COME HERE       - Teleports your pet into your inventory from
+anywhere.
+For Mountable Pets
+------------------
+MOUNT <pet>                     - Mount your pet.
+DISMOUNT <pet>                  - Dismount your pet.
+SPUR <pet> SKYWARDS             - Your pet flies to the skies with you on its
+back. (assuming your mountable pet can fly)
+For Sentient Pets
+------------------
+TELL <pet> EMOTE <xx>           - any pre-defined emote.
+TELL <pet> EMOTE EMOTE <xx>     - any free-form emote.
+TELL <pet> SAY <xx>             - pet will say whatever you want.
+Scrappers
+---------
+Please note that not all artefact pets will be able to become scrappers, suitability will be determined on a case by case basis and may be affected by any special functions your pet already performs.
+There are two possible upgrades for artefact pets to become scrappers, Basic and Premium scrapper upgrades.
+Basic - 250 credits
+- This scrapper will have 1 unique attack.
+- This scrapper will have
+3
+attacks from the generic genus pool.
+Premium - 500 credits
+- This scrapper will have 4 unique attacks.
+Making a basic or premium scrapper instantly
+level
+20 is possible for an additional cost of 250 credits.
+Stat
+gains at level up will be rolled
+automatically as normal, these will not be maxed. You will be able to use consumable treats to
+reroll
+the level 20 gains as per
+HELP SCRAPPERS
+.
+Prestige
+As finding multiples of your unique artefact pet is not possible for standard prestiging, artefact pet scrappers may have prestige purchased.
+- Bronze  150 credits
+- Silver  300 credits
+- Gold    600 credits
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,343 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.4 Player killing (PK or PvP)
+Because player-
+killing
+(
+PK
+) is a common aspect of
+Achaea
+, we offer the
+following
+guidelines to facilitate an
+environment
+where players can
+roleplay
+their characters as they
+wish
+, while keeping
+things
+fair and enjoyable for their opponents.
+The Guidelines
+--------------
+1. There must be a justifiable role-play reason for every
+attack
+and
+death
+.
+This does not mean you can attack
+other
+players repeatedly just for being a
+member
+of an opposing organisation. Neither can you justify your behaviour by
+claiming
+something
+like "my
+character
+is a psycho killer!" A player must have done something to you to warrant an attack.
+Note that this is not limited only to direct PK-related activity. It is perfectly valid roleplay reasoning to
+kill
+someone for insulting you, for provocative
+language
+in any medium (
+tells
+,
+messages
+,
+says
+,
+shouts
+,
+clans
+, etc), for
+attacking
+your
+ship
+, and so on.
+Those of you
+who
+go
+around regularly attacking players because they belong to an organisation you dislike or for other spurious reasons, will incur administrative punishment.
+If a situation arises where your reason(s) for attacking someone are called into
+question
+, you are expected to be able to explain why. If you can't remember why you were
+going
+to attack someone, you should probably just let the matter drop.
+2
+. Being an enlisted soldier of
+army
+rank
+3
+or above is sufficient reason for a hostile
+raiding
+party
+to attack you within your own
+city
+boundaries in pursuit of a sanction. Per
+HELP BOUNTIES
+, you may retaliate for these
+attacks
+but with some conditions outlined in that file.
+3. Being an enlisted soldier of any rank is sufficient reason for raiders to attack you during an ongoing sanctioned raid, provided you are within the city boundaries. You may not retaliate for these attacks (though your city may file a
+bounty
+for the raid).
+4. Being in a
+conquest
+zone (in the room there will be the line "The clash and clamour of battle
+ring
+out around you.") or a treacherous
+plane
+(see
+HELP
+PLANES
+) puts you at risk of being attacked by anyone, for any reason - or no reason at all. These locations are FREE PK and any
+combat
+that takes place therein has no spillover outside of them.
+5
+.
+Infamous
+status
+is sufficient reason for any member of the
+Quisalis
+or Ivory
+Mark
+, the
+Dauntless
+, or other infamous players to attack you at any
+time
+. See
+HELP INFAMY
+for further details.
+6
+. Characters marked as a "thief" on
+HONOURS
+will be considered OPEN PK to the game at large. This means that anyone can attack a marked "thief", and the thief can seek retaliation for these attacks. The thief cannot
+hire
+a mark for these attacks and must handle their retaliation themselves.
+7.
+Membership
+of the Quisalis or Ivory Mark, or the Dauntless, is sufficient reason to be attacked by any player at any time. Members of these organisations may pursue retaliation, but may not file
+contracts
+in order to seek retribution.
+8. Members of an Elemental Faction may attack anyone on their native plane that is not a member of that faction for any reason. They may also freely defend that plane's
+denizens
+or
+territory
+. This includes the Elemental
+Embassy
+, but not any areas upon the Elemental
+Fringes
+.
+9. Forest
+enemies
+being within the forest is not sufficient reason to attack them unless forest
+defences
+are active following exterminations.
+10. Being in possession of a
+relic
+(HELP
+RELICS
+) is sufficient reason for anyone to attack you at any time. Being killed for
+holding
+a relic permits the
+target
+to seek retribution personally, but they may not hire a mark to carry it out for them.
+11. Members of organisations that have formal
+ally
+status with another organisation are permitted to defend the territory of those organisations provided the target has been warned once on any prior occasion by any member of the
+defending
+organisation. Those who are attacked in this context are free to seek retaliation of their
+choosing
+.
+12. Defending other players in fights that are not your own, or likewise assisting other players with fights that are not your own such as
+bounties
+or contracts, is sufficient reason for the opposing player(s) to pursue retaliation against you at a later
+date
+, either personally or via the mark
+system
+.
+Announce
+news
+posts
+#5056 and #5278 have additional details on this subject.
+13. Members of
+cities
+,
+houses
+,
+orders
+, or high clans may defend their territory freely against enemies or attackers within the boundaries of those organisations. For cities, this extends to the defendable location immediately outside a city entrance. Attacking players who are in the adjacent area but not otherwise at your border will open you to later retaliation for doing so.
+14. Players who abuse organisation privileges and authority to
+steal
+from the organisation (org
+theft
+), are considered OPEN PK to all members of that organisation until the theft is considered resolved.
+15. The existence of
+totems
+and vines out in the
+world
+do not grant you a reason to kill someone. If they are being actively used against you or are being used by someone as provocation, these are reasons to seek retribution.
+16. When at sea anyone can be attacked for simply being at sea. If you are the captain of a ship that is sunk and you were not the aggressor (you did not
+fire
+the first shot), you can seek retribution for the
+sinking
+on land either by your own hands or by
+hiring
+a Mark. You cannot hire for deaths at sea, only ship sinking. If you are a
+crew
+member and you
+die
+at sea, that is the risk you took going to sea.
+You cannot resolve land conflicts via ship sinking. Someone sinking your ship repeatedly is not
+harassment
+, they do not need a reason, it is the risk of being at sea.
+17. Eleusians may defend
+reclamation
+networks in allied or otherwise defended territories. This includes formal allied territories, any territory owned via conquest, any forest during
+periods
+of extermination or fire, and for the sake of
+sanity
+, the Eastern
+Ithmia
+.
+18
+. Vines are only defendable by the vine holder if the vines are ACTIVELY aiding the vine holder in a current PK
+engagement
+, or the vines are placed in a territory that is naturally defendable for the vine holder (
+think
+grove
+, personal
+housing
+, etc.)
+Some notable exceptions:
+1.
+Mining
+: If your
+mines
+are being attacked by another player's
+legions
+, this does not open them to attack by you as the conflict involved is contained specifically to the legion system.
+2. It is not appropriate to counter-retaliate in a circular manner. Perpetuating an ongoing cycle of retribution is not allowed. Ongoing conflicts should be pursued via
+rivalry
+(see HELP
+RIVALS
+).
+What if someone has just killed
+me
+?
+-----------------------------------
+You should always strive to deal with conflict in an appropriate in-character manner. This may be simply killing the person yourself in
+vengeance
+, contracting a member of the Mark to assassinate them (see HELP CONTRACTS), pursuing political avenues of revenge, or other creative solutions.
+In most cases, you probably know why someone attacked and/or killed you. But when in doubt, ask.
+Retribution (i.e. enacting vengeance yourself or with the aid of a Quisalis/Ivory Mark) must be taken within a reasonable time frame. If a number of
+Achaean
+months
+have passed since an incident occurred, with no further indication that there is an ongoing conflict, it is likely that you have missed the
+window
+for taking action. E.g. You can't kill someone just for insulting your mother two years ago.
+The
+ISSUE
+system exists as a last resort when any and all in character methods of
+resolution
+have
+failed
+. It is not to be used for one-off deaths, nor for situations that you have involved yourself in deliberately. The administration should only be involved in scenarios where egregious rule breaking has occurred, and in almost every circumstance, one true-kill (a kill, a starburst, then a second kill to true death) is not considered egregious. PK related
+issues
+that
+ignore
+this will be immediately dismissed.
+Counting Cause
+----------------
+Cause counting is not conducive to a positive PK environment.
+We wish for engagements to be fluid things without people worrying they
+might
+have just given someone a reason to kill them multiple
+times
+based on a technicality: so one revenge kill per genuine engagement is all that is permitted.
+Note: we
+consider
+an engagement to be over when a non-trivial amount of time has elapsed. Going to
+Sunderlands
+,
+leaving
+for five-ten
+minutes
+then coming back is still the same
+fight
+for all practical purposes.
+Loyals
+------
+If your
+artefact
+pet
+has been commissioned without a distinct, identifiable, proper
+name
+, then you cannot
+claim
+retaliatory right-to-kill on anyone who slays it unknowingly.
+Pets
+like this are permitted for the sake of obscurity and roleplay, but you are opting in to the obscurity here and it is not reasonable for someone to know that a generic creature of your creation is a player loyal.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

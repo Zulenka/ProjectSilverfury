@@ -1,0 +1,264 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.36 Organisational Relations
+ORGANISATIONAL RELATIONS
+All
+cities
+,
+Houses
+, and
+Divine
+Orders
+may declare organisational relations towards each
+other
+, as well as towards
+denizen
+organisations. Some
+clans
+may also set relations with other organisations (see section on clans below).
+City
+- City Relations
+-----------------------
+Each city has a
+background
+hostility counter against every other city. When
+members of a city perform certain aggressive actions against another city, the
+counter rises. The exact number is not player-visible, a general
+idea
+can be
+had from ORG RELATIONS HOSTILE <city>.
+HOSTILE NO LONGER EQUALS
+WAR
+. See
+HELP WAR
+for details.
+The
+following
+actions generate hostility:
+-
+guard
+kills
+-
+tank
+detonations
+- sanctions gained
+-
+killing
+citizens
+inside a city
+-
+sinking
+org-owned
+ships
+The hostility
+metric
+slowly
+decays
+every
+Achaean
+month
+, and
+decay
+at an
+increased rate if there has been zero hostility by the city for three
+months
+.
+When the hostility from one city (let's call them city A) towards another city
+(let's call them city B) reaches a certain
+level
+, city A will automatically
+declare itself hostile to city B. In this instance the CITY SET RELATIONS
+command
+can no longer be used until the hostilities drop natively.
+When city A is declared hostile towards city B, be it through use of the
+CITY SET RELATIONS command or by acts of hostility, the following happens:
+- citizens of B get bonus
+xp
+on denizen kills in city A and its allied areas.
+- citizens of B can't get
+quests
+in A's allied areas.
+- citizens of B don't
+lose
+infamy
+when
+dying
+in A's allied areas.
+Conversely, if city A declares an alliance with city B, then:
+- citizens of A get higher xp loss if they
+die
+to a denizen loyal to city B.
+- citizens of A can't gain sanction for
+raiding
+city B.
+If cities A and B are mutually allied, then:
+- non-enemied citizens can call for
+help
+in either city.
+- non-enemied citizens get bonus xp for quests in the allied city and its areas.
+- non-enemied citizens can defend city without XP loss during
+raids
+(but they
+also count for tank/sanction kills.)
+HOSTILE NO LONGER EQUALS WAR. See
+HELP WAR
+for details.
+House
+- House / Order - Order Relations
+----------------------------------------
+If two adventurer organisations mutually declare a hostile stance to each
+other, they are considered at war (this is separate from the current city/city
+system
+).
+All members of two organisations at war with each other have a
+roleplay
+reason
+to freely
+attack
+each other at any
+time
+while this
+status
+remains in effect.
+Adventurer-Denizen Organisational Alliances
+---------------------------------------------
+If an adventurer organisation is mutually allied to a denizen organisation,
+members of the adventurer organisation may defend the
+denizens
+of the
+denizen organisation. See HELP DENIZEN ALLIANCES for more information.
+Adventurer-Adventurer Organisational Alliances
+------------------------------------------------
+If two adventurer (non city) organisations mutually declare a hostile stance
+to each other, they are considered at war. All members of two organisations
+at war with each other have a roleplay reason to freely attack each other.
+Experience
+gain and loss reduction between city soldiers, as described in
+HELP CITY SOLDIERS, only applies to city soldiers. They do not
+apply
+for
+members of other organisations at war, or for citizens of a city at war
+who
+are not enlisted.
+Clans and Organisational Alliances
+-----------------------------------
+Clans, by default, do not possess the
+ability
+to declare organisational
+relations. A
+clan
+must have proved in the
+eyes
+of the
+Garden
+that they can
+use this ability responsibly, and that they are an entirely
+IC
+organisation,
+before being granted this ability. If your clan is interested in gaining
+this ability, seek audience with a Divine friendly to your cause, if there
+is one. If such avenues have been attempted and exhausted, the clan leader
+may
+ISSUE
+with the request. Private or secret clans may not declare
+organisational relations.
+Syntax
+-------
+<org> SET RELATIONS <other org> <HOSTILE|ALLIED|NEUTRAL>.
+- For cities, Houses, Divine Orders, and clans, <org> is the type of
+organisation.
+Only a God may formally declare a Divine Order's stance towards
+another organisation.
+Setting hostile with this command has no
+bearing
+on natively earned
+hostility status for the purposes of city vs city war.
+Examples: CITY SET RELATIONS
+PETRA
+ALLIED
+ORG RELATIONS HOSTILE
+- View all organisations with declarations of hostile relations. If two
+(non city) orgs are mutually hostile, they are considered to be at war.
+ORG RELATIONS ALLIED
+- View all organisations with declarations of allied relations. If an
+adventurer organisation is mutually allied with a denizen organisation,
+the adventurers may defend the denizens.
+<CITY|HOUSE|ORDER|CLAN> RELATIONS
+- View current relations for your personal city, House, Order, or
+currently selected clan.
+Example: CITY RELATIONS
+<CITY|HOUSE|ORDER|CLAN> RELATIONS [
+shortname
+of city|shortname of House|
+name
+of Order's divine patron|
+alias
+of clan]
+- View current relations for a specific city, House, Order, or clan.
+Example: CITY RELATIONS
+ASHTAN
+ORDER RELATIONS
+VASTAR
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

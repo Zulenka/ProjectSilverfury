@@ -1,0 +1,533 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.13 Customisations
+(See also HELP GIFT CUSTOMISATIONS, HELP CUSTOMISATION GUIDELINES
+HELP CUSTOMISATION REQUESTS, HELP CLASS ITEM CUSTOMISATION,
+HELP ARTEFACTS
+,
+and
+HELP
+ARTEFACT
+TRADEINS
+)
+What is
+Customisation
+?
+----------------------
+A customisation is paid for with
+credits
+and may...
+- change the appearance of an item (
+description
+customisation),
+- affect whether the item
+decays
+(non-
+decay
+customisation),
+- return to its owner (reset customisation), or
+- add interactivity to an item (
+reaction
+customisation).
+How to Make a Customisation Request
+-----------------------------------
+Customising
+an item's appearance and making it non-
+decaying
+or resetting can
+all be done in-game. All the necessary
+commands
+can be viewed by entering
+CUSTOMISATION with no arguments. See HELP CUSTOMISATION REQUESTS for
+explanation.
+You may also send customisation inquiries or requests via
+email
+to
+customisations
+@
+achaea
+.com if they are beyond the scope of this
+system
+(e.g. gift customisations or reaction customisations).
+What Can Be Customised
+----------------------
+Almost all items may be customised.
+- A quarterstaff may be customised (see below for details).
+- A mage's staff may be customised (if made resetting/non-decay by an Omnicore).
+-
+Ship
+/
+seafaring
+equipment
+can be customised.
+- Crafted
+jewellery
+and
+clothing
+may be customised.
+-
+Alchemy
+robes may be customised.
+- Some
+class
+loyals may be customised.
+- Artefact
+armour
+may be customised.
+- Resetting loyals may be customised in description only.
+- A very few
+other
+denizens
+may be customised.
+-
+Artefacts
+may be customised in description or with
+reactions
+(they
+already reset and do not decay). This does not change the
+trade
+-in
+value of the artefact.
+What Cannot Be Customised
+-------------------------
+- Decaying armour cannot be customised. Armour can be made non-decay and
+resetting via the
+application
+of a Rondel. (See HELP ARTEFACT ARMOUR.)
+-
+Weapons
+, and forged items not specifically mentioned in this file may never
+be made NON-DECAY or, by extension, RESETTING.
+-
+Quest
+items may never be customised in any way.
+-
+Mounts
+or
+steeds
+may never be customised in any way but description, and
+they may only be customised in description if they are collared.
+-
+Vodun
+dolls and
+Puppetry
+puppets
+may not be customised in any way.
+- Any item which has been enchanted may not be customised in any way.
+- Daeggers, any
+occultist
+entity, or spiritual maces.
+- Most of the rare items and temporary artefacts obtained during Great
+Hunts
+or various promotional
+events
+may not be customised.
+-
+Blademaster
+or Two Arts swords may not be customised (you may augment them
+with a Blademaster's Band - see HELP ARTEFACTS OFFENSIVE).
+-
+Alchemist
+phials
+may not be customised in any way.
+-
+Depthswalker
+cloaks may not be customised in any way.
+- Furniture items. These can be preserved by the
+applying
+a specific
+housing
+upgrade to the location in which the furniture is placed.
+-
+Food
+and drink items, including vessels that have held drinks, not just those from the
+beverages
+tradeskill
+.
+Four Types of Customisation
+---------------------------
+DESCRIPTION   Change the way the item (or
+denizen
+in some cases) appears.
+- Furniture is ok for this.
+- Most items may have
+custom
+descriptions
+.
+- Artefacts may have custom descriptions.
+- Descriptions may not change the basic
+nature
+of the
+thing
+.
+(so a sword must remain a sword, and not an epee, e.g.)
+- See additional information below.
+NON-DECAY     Your item never decays (NOTE: this does NOT mean it can
+never be destroyed).
+- No forged items. No quest items.
+- No enchanted items.
+- Artefacts are already NON-DECAY.
+- A few items are already NON-DECAY.
+- Can be purchased without RESETTING.
+If purchased without resetting on an item that does not
+reset, please be aware that if you
+lose
+the item or it is
+stolen, the administration CANNOT help you regain the item,
+even though you paid to have it made non-decay. If you want
+to make sure that you cannot lose it, that is what the
+resetting customisation is for. All this customisation
+ensures is that the item will not decay!
+RESETTER      Item returns to your
+inventory
+on a regular basis.
+- Most items may be made to RESET to their owner.
+- Quest items may not be given a custom RESET.
+- Artefacts already RESET to their owner.
+- BENEFIT: the item won't stay stolen (it always comes back!)
+- BENEFIT: the item cannot be destroyed by
+mushroom
+or
+humgii
+.
+- BENEFIT: RESETTER _includes_ NON-DECAY. In fact, you can't
+buy
+RESETTER without also
+buying
+NON-DECAY.
+You can add RESETTER to
+something
+that is already NON-DECAY.
+Be aware that you can NOT enchant augmentations onto
+anything
+that is resetting.
+Some
+things
+may reset to a room that you own (such as a room in
+your
+subdivision
+house
+or ship
+cabin
+) instead of your inventory.
+If you
+wish
+to alter the reset location of an item that is
+already resetting, please email customisations@achaea.com with
+all the details. This will cost 10
+bound
+credits per item.
+RETAINMARK    Item will retain its initial
+mark
+of
+loyalty
+. If this option is
+omitted, the item will be converted to bear your mark.
+REACTION      Items that have already been customised to be resetting &
+non-decay (or artefacts) can be customised to have some
+custom responses. These responses are for
+RP
+purposes
+ONLY and can have no
+combat
+or utility applications.
+We will also turn down reactions that are overly grandiose,
+silly, or inexplicable within the context of Achaea. For
+example, if you request a
+crown
+that declares anyone
+who
+puts it on to be the Emperor of
+Delos
+, it will be rejected.
+For now, actions that are explicitly available for reactions
+include: PUSH, PULL, TURN,
+WIELD
+,
+UNWIELD
+, DROP, TOUCH,
+RING
+,
+SHAKE,
+LIGHT
+,
+SMOKE
+. So you could, for example, have a bell do a
+custom
+message
+in the room when rung. If you have something you
+want customised to react to an action not listed above, check to
+see if it is possible with customisations@achaea.com.
+Third-person
+messages
+or first-person messages to anyone other
+than the owner should be no longer than 4 lines in Achaea's
+default setting (which is 80 characters per line). Anything
+longer will need to be broken up using delayed messages with a
+few
+seconds
+in between. First-person messages to the owner may
+be as long as you like. Basically, if you want to
+spam
+yourself,
+feel free, but not other people!
+Costs
+-----
+Bound credits must be used to purchase customisations, including artefact
+customisations.
+ITEM DESCRIPTION               - 100 credits
+CREATURE DESCRIPTION           - 200 credits
+NON-DECAY                      - 100 credits
+RESETTER                       - 100 credits*
+REACTION                       -  50 credits**
+*  If something is already non-decay, resetting may be added separately
+for 100 credits.
+** Reactions cost a MINIMUM of 50 credits each, more depending on complexity
+and scope. See HELP ITEM REACTIONS for details.
+Payment
+-------
+Do not send or transfer credits! Payment will be taken directly when the
+customisation is complete.
+More About Custom Descriptions
+------------------------------
+Custom descriptions include the
+following
+three fields:
+APPEARANCE - seen when using
+INV
+,
+II
+, or
+IH
+.
+"a green blob" or "an open-faced sandwich"
+Do not capitalise; use little or no
+punctuation
+.
+No final punctuation - no . or ! or anything at the end.
+** Must not exceed 50 characters. **
+DROPPED    - seen when the item is on the floor. "A green blob lies
+here." "Someone has forgotten an open-faced sandwich here."
+Make this a sentence, with initial capital and final "."
+** Must not exceed 80 characters. **
+EXAMINED   - seen when
+looking
+at,
+showing
+off, or
+PROBE
+(ing) the item:
+"This green blob is a very fine green blob. It pulsates if
+you touch it, and glows if you rub it."
+Do not
+tell
+the viewer how to react, or impose actions
+on the viewer (e.g. "You gasp in surprise"). This is not
+good form. Remember to
+show
+, rather than tell.
+Multiple sentences allowed. Have fun with it!
+Creature customisations include three additional fields:
+ENTRY      - What is seen when the creature enters a room.
+(the way to specify the
+direction
+of entry or
+departure is to use $DIR. See example below.)
+** Must not exceed 80 characters. **
+LEAVE
+- What is seen when the creature leaves a room.
+(the way to specify the direction of entry or
+departure is to use $DIR. See example below.)
+** Must not exceed 80 characters. **
+DEATH
+- What is seen when the creature is dead on the ground.
+** Must not exceed 80 characters. **
+Example of an Item Description
+------------------------------
+APPEARANCE   - a
+bait
+bucket
+DROPPED      - A bait bucket sits here in its own puddle.
+EXAMINED     - Low and wide for stability, this wooden bait bucket is
+admirably adapted to its
+task
+. It has two carved handles with
+metal reinforcement along the top edge. The upper lip curves
+inwards, overhanging the centre in order to keep some of the
+more lively contents from seeking their freedom.
+Example of a Creature Description
+-----------------------------------
+APPEARANCE   - a woolly lamb
+DROPPED      - Shyly gazing at her surroundings is a woolly lamb.
+EXAMINED     - Soft, curly wool the colour of creamy milk comprises the fleece
+of this shy little lamb. Her large brown
+eyes
+are lidded with a
+fringe
+of soft white lashes, and she seems to be smiling beneath
+her pink nose. Long, almond-shaped ears stick out comically to
+the sides, perked forward to catch any sound. In contrast to her
+full, fluffy fleece, her legs are slender and smooth, tipped
+with hooves of soft grey.
+ENTRY        - Stepping timidly in from the $DIR is a woolly lamb.
+LEAVE        - A woolly lamb ducks her head and steps away to the $DIR.
+DEATH        - Bloodstained fleece
+marks
+the
+corpse
+of a little lamb.
+Additional Notes on Customising Certain Items
+---------------------------------------------
+Forged Items         Forged items may be customised in description. They may
+NOT be made NON-DECAY or RESETTING outside of the use of
+Rondels. If they are already non-decay, they can usually
+be made resetting. Armour can only be customised in
+description once it has been made non-decay and resetting.
+When they decay, the customisation will be gone and you
+will not get any credits back, nor will you get a discount
+if you customise a new item with the same description.
+Journals
+If you are the owner, a
+journal
+may be made resetting to
+you by visiting Mydoin in New
+Thera
+, rather than using the
+customisation process.
+Order Items          Order items are items given to order members by
+Gods
+to
+signify the recipient's
+membership
+in a
+Divine
+Order. They
+usually do not decay, and they may or may not already
+reset to you. Order items belong, ultimately, to the God
+who has bestowed it. If you wish to have an Order item
+customised, you must first seek the
+permission
+of the
+relevant God. Even if permission is obtained, be aware
+that the God may decide to change the item, or to
+remove
+it from your possession at any
+time
+, for any reason. You
+will not receive a refund of the credits used to customise
+the item if this happens. This also applies to the special
+mounts sometimes given by Gods to their order members.
+Quarterstaves        A quarterstaff with resetting will reset into your
+possession once per
+Achaean
+day
+. This will not be hastened
+or modified in any way if you
+PLANT
+the quarterstaff. It
+will return, but only on the schedule already noted.
+Customising the description of a quarterstaff will not
+change the description of other quarterstaves that you
+summon, only the customised one.
+Class Loyals         Please see HELP CLASS ITEM CUSTOMISATION for further
+details on this.
+Clothing/Jewellery   Most items of clothing and jewellery decay, though
+jewellers
+with sufficient
+skill
+can repair jewellery,
+extending life indefinitely. You may request all forms of
+customisation for jewellery or clothing.
+Please do not request a description customisation of
+clothing or jewellery that has previously been rejected as
+a
+pattern
+by the
+Crafting
+Guild
+. Customisation is not a
+means to circumvent the guild's standards.
+Clothing may NOT be customised to be a
+container
+(i.e.
+adding
+pockets
+).
+Furniture            Furniture can be customised in description, but it cannot
+be customised with reactions (such as sitting down on a
+chair).
+Vials
+All customisations may be made to vials. However, making
+a
+vial
+reset does not turn it into an artefact vial. It
+will have the same properties as before, such as the
+amount of sips.
+(See also HELP CUSTOMISATION GUIDELINES, HELP GIFT CUSTOMISATIONS,
+HELP CUSTOMISATION REQUESTS, HELP CLASS CUSTOMISATION,
+HELP ARTEFACTS
+,
+and HELP ARTEFACT TRADEINS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

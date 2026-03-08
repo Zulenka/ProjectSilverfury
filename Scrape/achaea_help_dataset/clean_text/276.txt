@@ -1,0 +1,188 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.99 Retiring your character
+You can permanently retire your
+character
+(s) in
+Achaea
+and receive
+credits
+to
+use on a NEW character. This character may be in Achaea or Aetolia. These credits will become available to use on any NEW character that is less than 30
+days
+old*.
+Retiring a character will make them permanently unplayable. We will NEVER
+reverse a retired character. Please do not ask. It will not happen.
+*** WARNING!
+READ
+THIS! ***
+- Retiring a character will permanently lock them. You will NO LONGER be able
+to access them. EVER!
+- Recipient characters must be LESS than 30 days old.
+- No one will reverse a
+retirement
+once it has been completed. Be sure you
+really want to retire your character, there's no
+going
+back.
+- Attempting to "sell" your characters is strictly forbidden. This will result
+in the forfeiture of both the retired character, any retirement credits, and
+any character
+who
+has accessed those credits.
+Prerequisites
+-------------
+1. Your character must have at least 1000cr in
+lessons
+, credits, and
+artefacts
+.
+2
+. Your character must be registered to a valid
+email
+address for confirmation
+emails
+.
+3
+. Your new character must be less than 30 days old.
+4. All characters must be registered to the SAME email address.
+How to Retire
+-------------
+1. Enter the
+command
+RETIRE CHARACTER. This will send a confirmation email to
+the address in your
+registration
+.
+2. Click on the link in the confirmation email. This link will be active for 48
+hours
+, after which the process will be considered invalid if the link is not
+utilised.
+3. Wait 24 hours.
+4.
+Log
+your character into Achaea and enter the command RETIRE CHARACTER CONFIRM. This will send another email to confirm.
+5
+. Click on the link in this second confirmation email.
+6
+. This will notify the administration that you are seeking to retire your
+character. This is not an automated
+system
+and each retirement will be
+manually reviewed and approved.
+7. If the
+admin
+approve the retirement, your character will be permanently
+locked and your credits will be available to any new character, less than 30
+days old, registered to the same email account. See below for the transfer
+commands
+.
+Commands
+--------
+RETIRE CHARACTER
+This will begin the retirement process and send an email to your registered
+address for confirmation.
+RETIRE CHARACTER CONFIRM
+This command will confirm that you desire to retire your character. It can
+only be used 24 hours after beginning your character's retirement process.
+It will also send an email to your registered address for confirmation.
+RETIRE VALUE
+This will display the amount of credits you will receive for retiring this
+character. Keep in mind, you will only receive a fraction of the
+credit
+value
+you have purchased on your retiring character. This is in the realm of about
+50% of current character
+skills
+, credits, and artefacts. This does not include
+credits, lessons, items purchased via
+auction
+, and artefacts received from
+the game for free (such as
+levelling
+up, login
+promotions
+, and
+other
+in-game
+happenings). No-brainer packages also do not count towards this total.
+RETIRE CREDITS
+The number of credits available to your registration account.
+RETIRE CREDITS TRANSFER <amount>
+Transfer the credits from your account to a new character that is less than 30
+days old on ANY Iron Realms game. You CANNOT transfer credits to a character
+that is more than 30 days old. No exceptions will be made.
+Character
+Selling
+-----------------
+We're repeating this section to reinforce this
+point
+: You cannot transfer
+credits to other people or characters that do not belong to you. If we suspect
+this, we will permanently
+shrub
+and ban any accounts involved. This program is
+for your personal use only.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

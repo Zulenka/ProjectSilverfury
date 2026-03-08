@@ -1,0 +1,120 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.11.5 Portable Trading Carts
+Assembled from a wooden box of parts,
+trading
+carts
+are a mercantile marvel that allows you to setup a small, portable
+shop
+!
+These wooden boxes of parts can be acquired from various
+promotions
+and from
+other
+adventurers
+who
+have a box to
+sell
+! Once assembled the carts cannot be sold to another person.
+The
+cart
+will last for seven
+Achaean
+months
+.
+Gold
+from purchased items will be sent directly to the cart owner.
+Items in a cart's
+wares
+do not
+decay
+. (If an item is supposed to decay, it will do so again once sold or when returned to owner's
+inventory
+upon decay of the cart.)
+When a cart's seven months are up, all unsold items are returned to the cart owner and the cart
+decays
+.
+Commands
+for everyone:
+CART WARES               - View the items for sale in the cart.
+CART
+PROBE
+<item>        - Probe an item in the cart.
+CART PURCHASE <item>     - Purchase an item from the cart.
+Commands for cart/box owners:
+CART ASSEMBLE *          - Assemble a box of parts into a cart.
+CART PRICE <item> <cost> - Price an item for sale.
+CART RETRIEVE <item>     -
+Remove
+an item from the cart.
+CART
+MOVE
+<dir>          - Move cart in a specific
+direction
+.
+* When you assemble the cart, it will be placed in the room with you, so you will want to make sure you do so in a location that will allow you to move it around. (Carts are not able to disembark
+ships
+, for instance.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

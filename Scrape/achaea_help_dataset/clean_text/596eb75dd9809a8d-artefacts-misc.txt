@@ -1,0 +1,485 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.6 Miscellaneous Artefacts
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+Prospero's Lesser
+Vault
+:                                      350 Credits
+Artefact
+power
+:
+rift
+_expand
+- This vault will double the capacity of your rift. Exceptions may
+apply
+!
+- Works when in inventory. Does not have to be
+wielded
+.
+- Will only work for owner.
+- Does not apply to liquids.
+- Only affects putting
+things
+in. You can always take things out, even if you don't have your vault at the moment, and the actual contents of the rift are unchanged, whether you have your vault or not.
+Prospero's Greater Vault:                                     500 Credits
+Artefact power: rift_expand
+- This vault will quadruple the capacity of your rift. Exceptions may apply!
+- See the Lesser Vault for more details.
+A Tippler's Tap:                                              300 Credits
+Artefact power: fluid_expansion
+- This vault will double the capacity of your liquid rift.
+- Works when in inventory. Does not have to be wielded.
+- Will only work for the owner.
+A Sot's Spigot:                                               400 Credits
+Artefact power: fluid_expansion
+- This vault will triple the capacity of your liquid rift.
+- Works when in inventory. Does not have to be wielded.
+- Will only work for the owner.
+A Phaestean Faucet:                                           500 Credits
+Artefact power: fluid_expansion
+- This vault will quadruple the capacity of your liquid rift.
+- Works when in inventory. Does not have to be wielded.
+- Will only work for the owner.
+A box of stasis:                                              750 Credits
+- This box will prevent the decay of items put inside it. Holds up to
+5
+items. Certain items will still decay regardless.
+An Eidolic ewer:                                              250 Credits
+- This ewer will serve as an extension of a
+city
+font
+.
+- TURN <ewer> <cityname> to set the ewer to a specific city.
+- TURN <ewer> to clear any city association for the ewer.
+-
+READ
+<ewer> to check its current association, if any.
+- PUT <lesser eidolon> IN <ewer> to
+empower
+the font.
+A gilded
+pike
+:                                                150 Credits
+- When piking one head at a
+time
+isn't enough.
+- Once planted, it will last for 5
+Achaean
+months
+, and will allow the owner to pike multiple heads on the one spike. Each additional head will add an Achaean
+month
+until the pike resets.
+An upright travelling trunk:                                  150 Credits
+Artefact power:
+outfit
+_expansion
+- Double your outfit capacity!
+- This dapper trunk can also be used to store your wearables and has a capacity of 100 items.
+A wyrmskin
+pack
+:                                              100 Credits
+- This pack can
+hold
+more items than a standard pack!
+- For sale in
+Moghedu
+, right next to the entrance, in a
+shop
+.
+An ornately carved ivory
+pipe
+:                                50 Credits
+- This pipe remains lit permanently.
+- For sale in Moghedu, right next to the entrance, in a shop.
+A long, elegant ebony pipe:                                   50 Credits
+- This pipe remains lit permanently.
+- For sale in Moghedu, right next to the entrance, in a shop.
+A polished marble pipe:                                       50 Credits
+- This pipe remains lit permanently.
+- For sale in Moghedu, right next to the entrance, in a shop.
+A
+quartz
+crystal
+vial
+:                                        40 Credits
+- This vial gives a 50% chance not to consume a sip of elixir or an
+application
+of
+salve
+or
+venom
+.
+- For sale in Moghedu, right next to the entrance, in a shop.
+- Available in
+diamond
+, ruby, sapphire, emerald, glass, quartz, amethyst, peridot, onyx, garnet, moonstone, and jade.
+A luxurious black top hat:                                    25 Credits
+- Luck of the
+draw
+, indeed!
+- This beautiful top hat has various interesting properties.
+- It is a
+container
+, and it holds 75 items: put what you want into it.
+- When you
+look
+in it, all you see is if it's empty or not.
+- When you try to take
+anything
+out (GET
+x
+FROM HAT) you will not know in advance what item you are getting. The hat does not create new (or destroy existing) things, nor does it change the things you put in.
+- If you put in ten things, and pull out ten things, you'll still have the same ten things exactly. You just won't know what order they'll come out.
+THINK
+OF THE POSSIBILITIES!
+A gilded coinbox:                                             900 Credits
+Artefact power:
+banking
+- Portable access to all your
+bankaccounts
+.
+- This artefact does not exempt you from
+bank
+fees.
+- You may specify which bank to use with
+DEPOSIT
+<amt>
+GOLD
+IN <bank>.
+A Tinkerer's kit:                                             800 Credits
+Artefact power: tinkering
+- Use the REPAIR/ENGRAVE/EMBROIDER
+commands
+without knowledge of the respective
+tradeskills
+.
+- Associated gold costs remain.
+An Explorer's Tome:                                           500 Credits
+- This tome will allow you to see how much of an area you have explored.
+-
+Syntax
+for use: READ <tome>.
+A shopper's guidebook:                                        350 Credits
+Artefact power: directory
+- Use the directory
+command
+from anywhere, for anywhere!
+- DIRECTORY <city> <item to find>
+A cask of Ironbeard's Finest:                                 150 Credits
+- This cask will make you considerably more
+drunk
+each time you take a swig from it.
+A focusing lens:                                              150 Credits
+Artefact power: lastlogin
+- Use LASTLOGIN <playername> on your mutual
+allies
+to see when they last logged in to
+Achaea
+!
+A
+phial
+of shimmering permanent
+ink
+:                          100 Credits
+- Make an existing
+tattoo
+permanent.
+- TRACE OVER <existing tattoo> ON <body part> WITH PERMANENT INK.
+- See
+HELP ARTEFACTTATTOOS
+A pair of ivory
+dice
+:                                         50 Credits
+- Great at
+parties
+!
+- ROLLDICE will allow you to roll the pair of dice, allowing you to
+run
+gambling
+rings, etc.
+- ROLLDICE <count> <sides> will allow you to roll up to 10 dice with anywhere from 4 to 100 sides each.
+A
+taper
+of eternity:                                          50 Credits
+- Provides an endless supply of sealing wax, as well as granting access to several exclusive colours.
+- See HELP 7.
+19
+for the colours available.
+A signet ring:                                                50 Credits
+- Allows you to sign
+letters
+with your personal coat of arms. (You have to have a coat of arms already.)
+- SEAL <letter> WITH <ring>
+- SIGN <letter> WITH <ring>
+A painter's palette:                                          450 Credits
+- Generates
+inks
+every Achaean month.
+A horn of plenty:                                             250 Credits
+- This horn will periodically
+fill
+with various
+food
+.
+- The horn will regularly produce up to six different kinds of food, including a turkey potpie,
+waybread
+, a smoked wheel of cheddar, and more.
+- If you purchase a horn of plenty, you can also
+email
+customisations
+@achaea.com regarding
+customising
+what sort of food it produces, at additional per-item
+credit
+cost of minimum 100 credits per item.
+An enormous vat shaped as a dragon's head:                    250 Credits
+- This vat will
+refill
+with dragon's tears.
+- 10 applications of the combustible substance will refill into the vat every Achaean
+day
+, up to a maximum of 50.
+A satin-wrapped box of chocolates:                            200 Credits
+- This box generates chocolates.
+-
+18
+types of chocolates are available, and sometimes more are added!
+A clay flowerpot:                                             200 Credits
+- This flower pot will generate flowers every Achaean month.
+- 33% chance of growing one random flower (out of 17 types) every Achaean day. The flowerpot holds
+6
+flowers, and will stop producing them when full, until you pick one.
+A
+drinking
+horn:                                              150 Credits
+- This horn will periodically fill with ale.
+- For additional credits (50-250+ depending on type of liquor), you can customise what kind of liquor is produced in the
+flagon
+every Achaean day. For example, if you want the horn to replenish with beer or
+mead
+instead of ale, you can request this
+customisation
+on your horn for 50 credits. You can request non-alcoholic liquids as well, such as apple juice or
+tea
+. Some liquids are not available, such as fairy nectar. You can also add more draughts per Achaean month for additional credits.
+- For exact price
+quotes
+and availability, please email customisations@achaea.com.
+A decorative brass cigar box:                                 100 Credits
+- This box will periodically fill with up to 5 cigars.
+- The box will produce one cigar per Achaean day and hold up to five at a time.
+A wyvernskin tabac pouch with a brass clasp:                  100 Credits
+- This pouch will periodically fill with tabac.
+- The pouch will produce one tabac per Achaean day and hold up to eight at a time.
+A collar of
+Lupus
+:                                            250 Credits
+- Attach this to your
+mount
+to make it reset to you.
+- ATTACH <collar> TO <mount> that is loyal to you, excluding chimeras and inflatable giraffes, but including falcons and snakes. Makes the mount reset to you approximately every 18
+hours
+. Can never be killed permanently. *NEW: May be used with some customised
+class
+loyals (see
+HELP CUSTOMISATION
+for more details).
+********************************************************************
+* NOTE: this particular artefact cannot be traded in at all.       *
+* NOTE: this artefact may be used exactly once and no longer       *
+* exists after it is used. It may not be removed or transferred,   *
+* nor may the now-resetting-to-you mount be traded or transferred  *
+* NOTE: This collar does not allow you to keep class loyals (such  *
+* as falcons and snakes) when
+quitting
+class. If, through some     *
+* error, your class loyal stays with you after quitting class,     *
+* please report this at once. The cost of the Collar will not be   *
+* refunded, nor will a new Collar be issued, so be careful!        *
+********************************************************************
+A silver whistle:                                             500 Credits
+- Allows you to REQUEST LETTERs and
+POST
+mail
+from anywhere.
+- Additionally, this item may be upgraded with a customised mail delivery
+message
+for an additional fee. Email customisations@achaea.com for further information.
+A lavishly gilded
+pet
+cage:                                   100 Credits
+- Display your
+pets
+!
+- DROP <cage> in any room and it will reset there. (Owner only)
+- PUSH <cage> to be able to pick it up. The cage will then reset to the owner's inventory once more. (Owner only)
+- The owner can TURN <cage> FOR <petID> and the pet will reset in the cage.
+- The owner can GET <pet> FROM <cage> and the pet will reset to their inventory again.
+- ANY player can take the pet from the cage, but it will reset back to the cage after an
+hour
+.
+A leadrope inlaid with silver:                                450 Credits
+- This leadrope will make it so that you do not
+lose
+your loyal
+denizen
+entourage
+when leaping or
+tumbling
+.
+A cage-bound parrot:                                          400 Credits
+- A master of mimicry, these birds will memorise any conversation they're privy to (up to an Achaean day in length.)
+- Being a somewhat small-brained creature, the parrot can only retain their memory of a conversation for
+2
+Achaean months.
+-
+TELL
+<parrot> TAKE NOTE - Start the Parrot's memorisation.
+- TELL <parrot> THAT'S ALL - Cease memorising a conversation.
+- TELL <parrot> REPEAT WHAT WAS SAID - Recite a conversation.
+- TELL <parrot> FASTER - Increase the
+speed
+of a recitation.
+- TELL <parrot> SLOWER - Decrease the speed of a recitation.
+- TELL <parrot> FORGET - Forget the memorised conversation.
+Prosperian Attractor:                                         200 Credits
+Artefact power: gold_attractor
+- Gold dropped from a denizen that you have killed goes directly to your inventory.
+A bag of
+sharing
+:                                             800 Credits
+- A pair of bags with a shared storage space.
+- Buy one with a
+friend
+and easily pass anything from cakes to
+weapons
+to each
+other
+. Hold up to five items.
+- To purchase this bag, visit the Miscellaneous Artefact Shop in Delos with your intended partner and BUY <bag> PAIRED WITH <person>.
+- Like with Earrings of Sinope, the bag has one owner,
+who
+can change the partner at any time for a 150 credit fee.
+A mechanical box:                                             25 Credits
+- Try your luck with this nifty device for a chance to
+win
+talisman
+pieces
+via SPIN DIAL <boxID>.
+- If you match all three symbols you'll earn a talisman
+piece
+from the associated set (Wonders,
+Death
+, or Blackwave).
+- If you only match two symbols, you'll get a quarter box (four quarter boxes = 1 whole box!).
+- If you match no symbols, you'll get a consolation prize.
+A supreme
+collections
+cache:                                  50 Credits
+- A cache that you can OPEN for a random
+minipet
+from any
+COLLECTION
+!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

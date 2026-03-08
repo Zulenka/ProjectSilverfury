@@ -1,0 +1,175 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.4 ENVIRONMENT
+This
+scroll
+is intended mainly for those
+who
+are not familiar with the
+basic way in which text
+MUDs
+work.
+Imagine a
+world
+, complete with
+continents
+, mountains,
+rivers
+,
+cities
+,
+deserts, forests, and so on. Then, imagine that world divided up into
+sections of varying size. These sections, called ROOMS, can be of any
+size, from a nook in a
+hall
+to a large section of a
+desert
+. Generally,
+indoor rooms will represent much less space than outdoor rooms but this
+rule, like most rules, has exceptions.
+Imagine yourself standing in a room that is a box canyon. To your west,
+you can
+walk
+back out of this dead-end of a canyon. Or, you spy a small
+animal trail heading up the side of a precarious, but barely traversable,
+mountain-side. You could then
+go
+either UP or WEST, simply by typing
+one of these
+commands
+. By typing
+LOOK
+you will see a
+description
+of the
+room you are in including
+exits
+. You will
+learn
+more about this sort of
+thing
+in later
+help
+scrolls
+.
+So then, rooms have exits leading to
+other
+rooms. Possible
+directions
+are
+north, northeast, east, southeast, south, southwest, west, northwest, up,
+down, in, and out. Now, there are also many items and
+DENIZENS
+(creatures
+or people controlled by the game) that you can interact with. To see if
+there are any in the room with you, type LOOK and
+read
+what is there. If
+you can use
+ansi
+colour, you can type ANSI ON. Then, items in a room
+will be a different colour from the description of the room.
+One important thing to understand about items and denizens (monsters and
+NPCs
+)
+is that they all have a unique identifying number. You may see this number by
+typing INFO HERE (or just
+IH
+) for
+things
+in a room with you, or INFO
+INV
+(or
+just
+II
+) to see things in your
+INVENTORY
+(see below). This number may be
+substituted for the
+name
+of the item or
+denizen
+if you
+wish
+to specify a
+particular
+vial
+, or a particular sword, for instance. Example: a shining steel
+sword#2034
+Finally, you should understand the
+concept
+of your inventory. This is
+basically what you are carrying on your person. Likely as not, you will
+end up with quite a
+collection
+if you play for any length of
+time
+. Typing
+INVENTORY (or just INV) will
+show
+you what you are
+holding
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

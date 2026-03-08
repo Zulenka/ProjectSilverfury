@@ -1,0 +1,235 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.21 Referring a Friend
+Refer a new player or invite an
+inactive
+player to return to
+Achaea
+and earn rewards as they play! When your
+friend
+hits certain milestones or benchmarks, you will both receive in-game rewards.
+Referral
+System
+Syntax
+:
+REFER LINK  			- Generate a unique link to refer players to the game.
+REFER REWARDS	 		- View your current reward
+status
+.
+REFER LIST 				- View a list of everyone you've referred to the game.
+REFER CONFIRM <name> 	- Confirm the
+name
+of the player
+who
+referred you. This cannot be changed once confirmed!
+REFERRAL RULES AND EXPECTATIONS
+--------------------------------
+There are two types of
+referrals
+:
+NEW PLAYER REFERRAL - Refer a new player to
+join
+the game.
+No self-referrals to
+alt
+accounts.
+The new player cannot have an existing account for the game.
+Players should not troll
+newbies
+to earn referral bonuses. This behavior will result in a permanent ban on referring.
+Referrer must be in good standing.
+Abuse may result in the revocation of rewards and
+penalties
+.
+RETURNING PLAYER REFERRAL - Invite an existing, but inactive player to return to the game.
+Only accounts with no active characters in the game qualify for a returnee incentive.
+Only one return invite per
+registration
+per real-life year.
+The referrer must be in good standing.
+Abuse may result in the revocation of rewards and penalties.
+HOW TO REFER SOMEONE
+--------------------
+There are two ways to refer someone to Achaea and be eligible for rewards:
+Type REFER LINK to get your personal link, then share it!
+New Players: When someone
+signs
+up using your personal link and confirms you as their referrer during their first
+character
+creation, you'll be confirmed as their referrer.
+Returners: When an eligible inactive player
+logs
+back in using your personal link, you'll automatically be confirmed as their referrer.
+New Player / Returner sets you as their Referrer in-game with: REFER <PLAYER>
+New Players: Only available in the first 25
+hours
+of playtime.
+Returners: Only available during your first login session after 90+
+days
+of
+inactivity
+.
+MILESTONES AND REWARDS
+------------------------
+Rewards are granted to both the referrer and the referee based on milestones specific to their referral type.
+Easier milestones will reward both you and your referral with Unbound
+Credits
+, while harder milestones will reward you both with Iron Forged Bonds, which can be redeemed at The Iron Works in
+Delos
+for exclusive rewards.
+New Player Referral Rewards
+For inviting a new player to the game, both the referrer and referee will receive as the new player reaches milestones in the game.
+Referred Player creates a character and enters the game:
+Reward:
+5
+credits
+Referral Player reaches
+Level
+30
+Reward: 15 credits
+Referral Player reaches Level 80
+Reward: 1 Iron Forged Bond
+Referral Player maxes out
+lessons
+in all three main
+Class
+Abilities
+Reward: 1 Iron Forged Bond
+Returning Player Referral Rewards
+For inviting an inactive player (someone who has not logged in for 90+ days) back to the game, both the referrer and returning player will receive rewards when the returner reaches cumulative playtime milestones across all of their characters in this game.
+Time
+Played:
+3
+hours
+Reward: 5 credits
+Time Played: 15 hours
+Reward: 15 credits
+Time Played: 30 hours
+Reward: 1 Iron Forged Bond
+IRONFORGED BONDS
+-----------------
+This currency can be spent in the Iron Works in Delos (v68716), near the
+artefact
+shops
+.
+Offerings
+include:
+- Vouchers which can be traded in for 100
+bound
+credits, 100
+housing
+credits, 250
+customisation
+credits, or 3 bound Mayan
+Crowns
+.
+- Statutes that grant the wearer unique deathsights on their kills.
+-
+Vials
+of warpaint.
+- Exclusive
+minipets
+(a lycopod and baby
+humgii
+).
+- Exclusive
+mounts
+(a flameforged nightmare and an iron carriage).
+- A
+figurehead
+of Aeolos.
+-
+Buckets
+to transform a
+ship
+into an iron-chained version of itself.
+Note: Rewards available may fluctuate and change over time.
+FAQ
+----
+What if my friend (new player) forgot to use my referral link when creating their character?
+They can REFER <yourname> before 25 hours of total playtime to confirm you as their referrer.
+Can I change my referrer?
+No. Once the New Player or Returning Player confirms their referrer, the
+selection
+is locked.
+Do milestone hours across multiple characters count for Returning Player invite milestones?
+Yes, they're cumulative for all characters on that player's registration for this game.
+Can I invite someone who still has an active character to return?
+No, they must be fully inactive, which means they have not logged in to any characters in the game for 90+ days.
+How often can I invite the same person to return to the game?
+Once every 12 real-life
+months
+, as long as they’ve been inactive for 90+ days.
+What if the Returning Player I referred logged in and forgot to use the REFER URL or click REFER <PLAYER> before
+logging
+back out?
+Your character will be considered "Active" and ineligible to be a returning referral. Make sure you complete this process correctly!
+Do Returning Player invite rewards differ from New Player referral rewards?
+Yes, they're set separately by the
+admins
+and outlined above. Referral
+Shop
+reward offerings are the same for all players, but are subject to change.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

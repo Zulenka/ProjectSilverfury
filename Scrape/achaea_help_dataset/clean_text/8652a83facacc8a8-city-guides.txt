@@ -1,0 +1,203 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.18 City Guides
+Each of Achaea's
+cities
+now has an in game "guide"
+system
+Ashtan
+- Thrall Tenders
+Cyrene
+- Mountaineers
+Eleusis
+- Verdant Emissaries
+Hashan
+- Court Marshals
+Mhaldor
+- Slave Drivers
+Targossas
+- Chaplains
+These
+guides
+are entirely in
+character
+roles designed to
+assist
+newbies
+from around
+level
+20-60 in finding their footing in your factions as they
+learn
+about
+Achaea
+and take their first steps.
+City
+Guides Should:
+Encourage city novices to meet one another,
+Encourage city novices to be in character and navigate the
+world
+in that format,
+Help
+city novices learn their way around their city,
+Help city novices to find their feet in the game once out of
+newbie
+lands,
+Help city novices to understand their faction,
+Assist with city
+tasks
+/city
+clan
+progress.
+This role mostly begins when a novice has levelled past 20.
+This role mostly ends when a novice has joined a
+House
+and gotten a
+mentor
+.
+The leader of a city can appoint up to ten people to this role!
+COMMANDS
+FOR THE CITY LEADER:
+-----------------------------
+CITY
+GUIDE
+APPOINT <person>  - Appoint someone to the role.
+CITY GUIDE DISMISS <person>  - Dismiss someone from the role
+CITY GUIDE LIST              - List your appointed city guides.
+COMMANDS FOR APPOINTED GUIDES:
+------------------------------
+CITY GUIDE AVAILABLE  - This places you on duty.
+CITY GUIDE UNAVAILABLE -
+Go
+off duty.
+- QQ'ing or relogging will also clear this
+status
+.
+CITY GUIDE TASKS <citizen>
+This allows a city guide to see another player's
+task
+list.
+CITY GUIDE TASK UNCOMPLETE <citizen> <task#>
+To assist returning players in
+learning
+their way around, city guides may uncomplete certain tasks for players in their city.
+Special tasks, and story-based progression tasks (visiting Beku, capturing Orgoraz,
+meeting
+with the companions, etc, cannot be uncompleted.
+Recompleting these tasks will not give repeat rewards.
+CITY GUIDE TASK COMPLETE <citizen> <task>
+This is live now while we are in the system, but will be used in the future task rework!
+Please do not use this to skip people through tasks, tasks are important and we will know!
+These chosen newbie helpers can earn up to 12 of their daily
+credits
+by being
+"on duty" at a rate of 300
+renown
+per
+hour
+.
+You can be on duty for as long as you like, but you will only earn renown
+for your first 4
+hours
+on duty each
+day
+.
+- Being on duty separates their
+names
+for easy recognition.
+- On duty city guide
+CWHO
+highlights all sub level 60 characters and
+characters under age 21.
+- On duty city guides can
+teach
+other
+members of their organisation any
+skills
+up to transcendent.
+Admin
+Note:
+-----------
+On duty city guides should be paying attention.
+You can be
+hunting
+,
+questing
+, or doing other
+things
+, you do not have to sit
+in one static location.
+On duty city guides
+who
+go
+afk
+, who
+ignore
+requests for assistance, or who
+otherwise abuse the position for other spurious means may find themselves
+banned from city guide status, mentorship, and worse.
+All interaction when "on duty" should be appropriate for Achaea's PG13
+environment
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

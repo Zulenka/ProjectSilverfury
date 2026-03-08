@@ -1,0 +1,351 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.10.2 Vessel Design
+See also
+HELP CRAFTING GUIDELINES
+Having gained the
+Beverages
+skill
+(see
+HELP
+Beverages for instructions on how to do so) and specialised in Vessels, you are now ready to start designing your
+drinking
+vessels!
+Below is a comprehensive
+guide
+from start to finish on how to
+design
+and eventually create a drinking vessel, including any and all relevant rules and guidelines to ensure your design matches Achaea's standard of
+writing
+and acceptable content.
+To quickly get a batch of vessels made:
+Use
+NDS
+LISTPUBLIC V to see all the vessel
+designs
+that you have access to.
+Select one you like, and use NDS P <design#> to examine it in further detail.
+Visit the
+denizen
+specified and REQUEST <nds ID#> [
+PASSCODE
+] FROM <denizen>
+If you do not have enough
+gold
+in your hands this will inform you of the gold cost.
+To design your own vessel, visit the Beverages cellar in
+Delos
+and purchase the vessel diagram that best matches the type of vessel you want to design.
+Then, DESIGN CREATE <diagram> to create your
+sketch
+in the
+system
+!
+Vessels Syntaxes
+-----------------
+REQUEST <nds ID#> [PASSCODE] FROM <denizen>
+- Have an appropriate denizen create vessels for you.
+- For more information on
+passcodes
+, see
+HELP NDS
+- This has a gold cost per vessel.
+- Jessie the glassblower in New
+Thera
+will make glass-based vessels.
+- Gazban the potter in El'
+Jazira
+will make clay-based vessels.
+- Palusta the stonemason in
+Xhaiden
+Dale will make stone-based vessels.
+- Tobe the woodcarver in Caer Witrin will make
+wood
+and
+bone
+-based vessels.
+- Rico the blacksmith in New Thera will make metal-based vessels.
+- Vanac the leatherworker in
+Bitterfork
+will make
+leather
+-based vessels.
+DESIGN CREATE <diagram>
+- Create a new sketch and
+apply
+the details of your chosen diagram to it.
+- This will assign the
+base
+name
+and type of the item. E.G "stein", or
+"snifter".
+- This will not consume your diagram.
+DESIGN <sketch> COPY <pattern>
+- Apply the details of your chosen
+pattern
+to an existing sketch.
+- This will assign the base name and type of the item. E.G "stein", or
+"snifter".
+- This will not consume your diagram.
+GENERAL NOTE: Vessels should not include straws, spoons, or
+other
+various drinking accessories. This is unfortunate, but because the vessel is a standalone item and cannot directly correlate to the drink that may eventually be inside it. Therefore, drinking accessories are inappropriate.
+DESIGN <sketch> APPEARANCE <description>
+- Sketch out the appearance
+description
+of your vessel.
+Note: Max of 50 characters.
+- The Appearance is the short description visible in
+WARES
+, in
+INV
+, and
+seen with
+IH
+.
+-
+Commas
+are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase
+letter
+and NOT end in a full stop.
+- This must feature the name of the canvas type as a main noun.
+- Examples are: 'a bone drinking horn' and 'a snifter of amber glass'.
+- This should not be a full sentence.
+- Do not include actions or
+reactions
+, simply what the item is.
+- Do not include the drink this will eventually contain.
+DESIGN <sketch> DROPPED <description>
+- The dropped description is what is seen via
+LOOK
+when your item is
+dropped in a location.
+- This must be ONE complete sentence that begins with a capital letter
+and ends with a full stop.
+Note: Max of 80 characters.
+-
+Describe
+just the item, not any drink, or possible player reactions or
+actions.
+- No superfluous
+punctuation
+(
+question
+marks
+, exclamations, etc.)
+- The main noun in the sentence must be the same as the compound type so
+that people know what to call it when they want to interact with it.
+-
+Things
+like "A wine glass stands upon a table here." is not acceptable. If
+it were dropped on the highway there would be no table to stand on.
+DESIGN <sketch> EXAMINED <description>
+- This is what people see when an item is examined/probed.
+- This should only describe the item, no subjective terms, reactions,
+opinions,
+emotions
+, or responses.
+- Do not describe a beverage inside the vessel.
+The INVESSEL portion of a beverage's design will append to the Examined
+of your vessel's description and will serve to describe any drink
+currently within.
+- Use at least two full sentences.
+- Must begin with a capital letter and end with a full stop.
+- This must feature the main noun of the item.
+- Do not try to format your
+descriptions
+in the
+editor
+. When using the
+editor put your entire description on line one. The editor will properly
+format it for you.
+- Do not "evoke" or
+tell
+the reader what
+sense
+/
+emotion
+/impression your
+design gives. ALWAYS
+SHOW
+DO NOT TELL.
+- Vessel crafters are not enchanters, magic is not permitted in crafted
+designs.
+- Designs should describe the item, not the onlooker, use of "you" and "your"
+is prohibited.
+- Single spacing only.
+- Do not use words that require accents or other non-English punctuation,
+these cannot be replicated in
+Achaea
+and will be treated as
+misspellings
+.
+E.G: Applique would require an acute
+accent
+over the e.
+- Feet, inches, yards, etc, no
+metric
+measurements.
+- Please use a GB English spellcheck and the Oxford
+comma
+. Achaea does not
+use American spelling.
+- There are
+children
+in Achaea, keep your designs tasteful.
+DESIGN <sketch> PRIVATE ON|OFF
+- At a cost of 1000gp you can hide your designs from
+others
+when they do
+NDS MATCH searches. This flag may be set on the sketch or after approval
+with the corresponding NDS
+command
+.
+DESIGN <sketch> HIDEMARK ON|OFF
+- At the cost of 1000gp you can hide the crafters
+mark
+. This means that
+when the crafted item is probed it will not show the line
+saying
+"It
+bears the distinctive mark of "".
+DESIGN <sketch> SUBMIT [URGENT]
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See
+HELP PROOFREADING
+for guidance
+- Submit your sketch for approval by the
+Crafting
+Council.
+- The cost to submit a design does scale based on the number of
+times
+it has had to be submitted,
+PROOF
+and check your work!
+Urgent:
+First submission 10000 gold, second submission 12000 gold, third submission 15000 gold, fourth submission 20000 gold, fifth submission (and cap) 30000 gold.
+Standard: 1000 -> 2000 -> 5000 -> 10000 -> 20000
+First submission 1000 gold, second submission 2000 gold, third submission 5000 gold, fourth submission 10000 gold, fifth submission (and cap) 20000 gold.
+- Must submit from the Beverages cellar in Delos (unless you possess the Crest of the Crafting Council.)
+- The addition of URGENT places a design in a high priority
+queue
+and costs an increased amount of gold.
+- You can have up to ten designs in the submission queue. This is total, across all
+tradeskills
+.
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See below and
+HELP PROOFREADING
+for assistance!
+DESIGN REQUEST <ID>
+- Use this command at the Beverages cellar when you have been notified (by
+message
+) that your design has been approved.
+- Have the gold required in your hands.
+PROOFREADING
+(see also HELP PROOFREADING)
+=========================================
+This section will be embellished in the future when common mistakes become
+apparent.
+ITEM TYPE
+- Make sure that the compound type used matches the main noun in all aspects
+of this design.
+APPEARANCE
+- Commas are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase letter and NOT end in a full stop.
+- This must feature the name of the item as a main noun.
+- This should not be a full sentence.
+- Do not include actions or reactions, simply what the item is.
+- Do not reference a drink.
+DROPPED
+- This must be ONE complete sentence that begins with a capital letter
+and ends with a full stop.
+- Describe just the item, not possible player reactions or actions.
+- The main noun in the sentence must be the same as the canvas name so
+that people know what to call it when they want to pick it up, without
+having to type 'info here.'
+- Do not reference a drink.
+EXAMINED
+- This should only describe the item, no subjective terms, reactions,
+opinions, emotions, or responses. SHOW DON'T TELL
+- Do not reference a drink.
+- Use at least two complete sentences, NO FRAGMENTS.
+- Do not "evoke".
+- All numbers must be written out in words. "one, two, three".
+- Feet, inches, yards, etc, no metric measurements.
+- Please use a GB English spellcheck, Achaea does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when
+writing a list, a comma should be used before the "and". E.G: a red,
+white, and blue scarf.
+- Single spacing always and only. Check for double spaces especially after
+full stops, and if you have copied text from another format.
+- Designs should describe the item, not the onlooker, use of "you" and "your"
+are prohibited.
+If you do not have a Beverages
+license
+, see HELP BEVERAGES!
+For a full and detailed listing of the entire NDS output, see
+HELP DESIGN
+(See also: HELP CRAFTING GUIDELINES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

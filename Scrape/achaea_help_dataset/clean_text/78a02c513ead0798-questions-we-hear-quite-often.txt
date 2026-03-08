@@ -1,0 +1,282 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.3.1 Questions we hear quite often
+These are
+questions
+we hear quite often on the
+NEWBIE
+channel
+. They relate to
+-  1 -
+who
+are
+Romeo
+and
+Juliet
+?
+-
+2
+- why do I
+lose
+things
+when I
+leave
+the realms?
+-
+3
+- how do I use my
+skills
+?
+-  4 - how do I see the
+gold
+in my
+pack
+?
+-
+5
+- how long does
+Myrrh
+last?
+-
+6
+- how do I
+quit
+/
+save
+/
+rent
+/leave the realms?
+-  7 - what is
+IC
+(or
+OOC
+)?
+-  8 - what is a
+shift
+/
+tabard
+/
+pike
+?
+-  9 - who do I
+sell
+my <whatever>
+corpses
+to?
+- 10 - why is someone's
+name
+a different colour?
+- 11 - what is a
+shrine
+and/or where can I find one?
+- 1 - Who are Romeo and Juliet?
+--------------------------------
+Romeo and Juliet are
+GUIDES
+(see
+HELP
+GUIDES). They are real, living beings who
+are there to help
+newbies
+in
+Achaea
+.
+- 2 - Why do I keep dropping things when I quit the realms?
+-----------------------------------------------------------
+Certain things like
+quest
+items, such as corpses,
+butterflies
+from your
+net
+and
+several odd items found lying around aren't meant to be kept. When you leave,
+they will fall out of your hands,
+packs
+, bags, or whatever so someone else can
+find and use them.
+Exceptions to this are
+herbs
+and gold. Herbs cannot be stored anywhere but in
+the
+RIFT
+(help rift) or in a
+pocketbelt
+and gold will drop out of your hands if
+not stored in a pack or
+other
+container
+if you
+die
+.
+- 3 - How do I use my skills?
+-----------------------------
+This is a
+question
+best asked of your
+class
+or
+House
+. There are so many
+different types of skills in the realms that it is best to just
+go
+straight to
+the source and ask the experts.
+- 4 - I put my gold in my pack, why can't I see it?
+---------------------------------------------------
+PROBE
+is a great way to
+look
+at or in things. You can use P for short. P PACK
+to see what is in it. This works for most
+containers
+, as does LOOK IN.
+- 5 - How long does the effect of Myrrh last?
+---------------------------------------------
+It will last until you leave the realms or you are killed. DEF will also
+show
+if you are under the effects of myrrh. Myrrh's effect is shown in DEF as "Your
+mind is
+racing
+with enhanced
+speed
+."
+- 6 - How do I quit (save/rent/leave)?
+--------------------------------------
+Saving
+is never needed, nor is
+renting
+. Just be sure that you
+REGISTER
+your
+character
+at some
+point
+. Then
+QQ
+or QUIT to keep your body safe while your soul
+adventures
+elsewhere.
+- 7 - Why does everyone
+tell
+me
+to stay IC or stop being OOC?
+-------------------------------------------------------------
+Please
+read
+HELP ROLEPLAYING
+and
+HELP INSANITY
+.
+- 8 - What is a shift? Or a Tabard? Or a Pike?
+----------------------------------------------
+Try
+HELP SHIFT
+, or
+HELP TABARD
+, or
+HELP PIKE
+. HELP <anything> almost always
+works, so if you're curious about
+something
+, try it!
+- 9 - Who do I sell my <whatever> corpses to?
+---------------------------------------------
+HELP NEWBIEQUESTS
+lists every kind of
+corpse
+and who
+buys
+them. Or, rather, it
+lists all the corpse types we're
+going
+to tell you all about. It is up to you
+to find places to sell the rest, or other things to do with your corpses if
+nobody buys them.
+- 10 - why is someone's name a different colour?
+------------------------------------------------
+Different colours represent different things. Most
+names
+have no special
+colour. These are your common mortals. Romeo and Juliet have coloured names to
+indicate that they are GUIDES (see HELP GUIDES).
+Celani
+and
+Immortals
+(HELP
+CELANI, HELP
+GODS
+) have different colours for their names as well.
+- 11 - what is a shrine and/or where can I find one?
+----------------------------------------------------
+A shrine is a special place to offer or give sacrifices to a particular God.
+See
+HELP SHRINES
+and
+HELP GODS
+. It's up to you to find
+shrines
+on your own.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

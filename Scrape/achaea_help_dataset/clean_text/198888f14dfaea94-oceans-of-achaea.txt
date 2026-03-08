@@ -1,0 +1,141 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+12.13.1 Oceans of Achaea
+The vast and unconquered
+oceans
+of
+Achaea
+cover most of the known
+world
+.
+There are four known oceans.
+The
+Eusian
+Ocean is to the east of
+Sapience
+. Many
+islands
+in the Eusian are
+friendly to
+intrepid
+sailors. Indeed, the Eusian Ocean is where the modern
+age of
+seafaring
+first began. Among the scattered isles are the ruins of
+once-powerful merfolk
+cities
+, while further still to the east lie the
+still-powerful triton empires, brooding and watching the land with
+disdainful
+eyes
+.
+The Eusian Ocean holds or borders the Lothian Reaches (by the Bay of Dardanos),
+the Cnidian Gates northeast of Tasur'ke, the eponymous Riparian Reaches, the
+Scyrian Reaches eastward of the Riparian Reaches, the Lemnian Sea off the
+southeast coast, and the Phocian Reaches farther eastward of there. The great
+Bay of Dardanos in the north/northeast of Sapience also borders on the Eusian
+Ocean.
+The tempestuous and tropical
+Notic
+Ocean is to the south of Sapience.
+Unpredictable storms and ferocious sea monsters are the
+traits
+of this
+ocean, while captains must also battle through strangely shifting chops. The
+Sea of Screamed Prayers lies to the south of the
+Vashnars
+, a terrible place
+typical of the Notic. Rumours abound of a long and jagged coast on the
+other
+side of this ocean, half-glimpsed in the few lulls in the eternal storms of
+this sea.
+The
+Sefyric
+Ocean is to the west of the mainland, and is truly vast and
+seemingly empty. Massive forests of seaweed break the monotony of this
+ocean, while the undersea is frantic with life. Far beyond this ocean,
+beyond storm and current and fell beasts from the deep, is rumoured to lie
+the legendary land of Kashar. The smaller Sapphire Sea is within this ocean,
+north of
+Ashtan
+, while the Sea of Terror lies between the isles of
+Mhaldor
+and
+Polyargos
+. Breathless Bay, a small bay northwest of the Sapphire
+Sea, is also nearby, with the Teeth of Borak rather farther north.
+The
+Borean
+Ocean is the frozen northern sea. Remote and isolated,
+reaching
+the Borean Ocean requires immense
+skill
+and patience. Once there,
+mysterious, long-forgotten places can be found to tempt the foolhardy
+explorer
+. The Borean is harsh and unforgiving, so sailors must be well
+prepared before venturing to its icy waters.
+The Caspiite Reaches border both the Borean and Eusian Oceans.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

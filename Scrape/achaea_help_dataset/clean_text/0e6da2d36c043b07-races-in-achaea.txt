@@ -1,0 +1,243 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.12 RACES IN ACHAEA
+(See also
+HELP REINCARNATION
+,
+HELP RACESTATS
+,
+HELP
+<racename>)
+When you are born into
+Achaea
+, you will be born as one of the mortal
+races
+:
+Dwarf, Fayad (
+Fae
+), Human, Mhun, Troll, Tsol'aa, Atavian, Horkval, Grook, Rajamala, Xoran,
+Siren (female only), Satyrs (male only), and Tash'la. You may gain information on the specific races with HELP <race>.
+Each
+race
+has four basic
+statistics
+and four optional
+specialisations
+.
+HELP <racename> will
+show
+you these.
+BASIC STATISTICS
+----------------
+Strength
+: related to the physical damage you can do.
+Dexterity
+: related to how well you dodge
+attacks
+(along with
+avoidance
+).
+Constitution
+: related to your maximum
+endurance
+and
+health
+/hit points.
+Intelligence
+: related to your maximum
+willpower
+and
+mana
+level
+, as well
+as how much damage your magical attacks do.
+RACE SPECIALISATIONS
+--------------------
+After
+reaching
+level 10, an adventurer has the option to
+embrace
+one of four
+racial archetypes, called specialisations, to further customise his or her
+character
+. Upon
+selecting
+a
+specialisation
+, you will receive an additional two
+points in one statistic at the cost of one
+point
+in another.
+See HELP <racename> and
+HELP SPECIALISATION
+for more on this.
+RACIAL
+TRAITS
+-------------
+Each race has a racial
+trait
+associated with it, giving some unique bonuses or
+abilities
+that are automatically available to all members of that race. You can
+view HELP <race name> to see information about a race's unique trait.
+REINCARNATION
+-------------
+If you find yourself unhappy with your race, you have available to you, once in
+your lifetime, a free reincarnation. While dead, you must journey to the
+Flame
+of
+Yggdrasil
+, and
+REINCARNATE
+INTO <race>. Doing so allows you to choose a new
+race. You must be dead to reincarnate.
+RACIAL TOLERANCE
+----------------
+In past
+times
+, the humans,
+who
+built most of modern civilization, refused entry
+into their society to the non-human races. In the
+time
+of Nicator the Empire
+and the Church both accepted all races. This tradition of racial tolerance has
+continued to the present.
+RACIAL
+HISTORY
+--------------
+The history of the specific races may be found in the
+Achaean
+Mythology
+and the
+History of the Mortal Races (on the
+website
+and in the help files in the
+History section). A minisummary of the origins of each race is below:
+Tsol'aa :
+Eldest
+of the mortal races; created by
+Sarapis
+.
+Dwarf   : Created by
+Phaestus
+, given souls by Sarapis.
+Human   : Product of the rape of the Aldar
+Maya
+by the
+Unnamable
+Horror
+.
+Troll   : Product of unions between human women and Gruul (captain of
+Prospero's mercenaries of Arn) and his Arcanian
+elite
+forces.
+Mhun    : Evolutionary off-shoot of Humans.
+Atavian : A race of Humans who long ago were granted wings by
+Vastar
+,
+allowing them to fly.
+Rajamala: Tiger-men that fought at
+Nishnatoba
+under the
+command
+of
+Agatheis
+.
+Horkval : An insectoid race that fought at Nishnatoba under
+Aegis
+.
+Grook   : An amphibious race of high intelligence.
+Xoran   : A lizard-like race. It's said that powerful Xorani can breathe
+fire
+.
+Siren   : A race of beautiful humanoids, Sirens are able to make males fall in
+love with them.
+Satyr   : Satyrs have the upper bodies of men and the legs of a powerful
+goat. Often jovial, Satyrs are fond of
+parties
+.
+Tash'la : A race of boar-like humanoids with
+crystalline
+features, originating
+from a far off
+plane
+.
+Fayad   : A race born from the union of Oberion, King of the
+Fairies
+and
+the Dryad Queen Titania
+If you are
+looking
+for members of your own race, RACEWHO (or just
+RWHO
+) will
+show you people online, who are visible to you, of your race.
+(See also
+HELP REINCARNATION
+,
+HELP RACESTATS
+, HELP <racename>)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

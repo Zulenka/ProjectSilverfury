@@ -1,0 +1,247 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.32 Infernal Artefacts
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+A Scimitar of Hawks:                                          200 Credits
+- Scimitar - Dual Cutting
+Spec
+- 56/168/236
+A Scimitar of Falcons:                                        400 Credits
+- Scimitar - Dual Cutting Spec - 60/173/240
+A Scimitar of
+Eagles
+:                                         800 Credits
+- Scimitar - Dual Cutting Spec - 64/180/245
+An Orcsplitter battleaxe:                                     200 Credits
+- Battleaxe - Dual Cutting Spec - 162/160/151
+A Stonereaver battleaxe:                                      400 Credits
+- Battleaxe - Dual Cutting Spec - 168/166/156
+A Logosian battleaxe:                                         800 Credits
+- Battleaxe - Dual Cutting Spec - 174/172/162
+A Mutilator flail:                                            200 Credits
+- Flail - Dual Blunt Spec - 140/168/168
+A Skullsplitter flail:                                        400 Credits
+- Flail - Dual Blunt Spec - 144/173/173
+A Braincrusher flail:                                         800 Credits
+- Flail - Dual Blunt Spec - 150/180/180
+A Barbarian's
+morningstar
+:                                    200 Credits
+- Morningstar - Dual Blunt Spec - 73/191/212
+A Berserker's morningstar:                                    400 Credits
+- Morningstar - Dual Blunt Spec - 77/195/218
+Matsuhama's morningstar:                                      800 Credits
+- Morningstar - Dual Blunt Spec - 85/200/225
+A Dawnrender bastard sword:                                   350 Credits
+- Bastard sword - Two Handed Spec - 204/165/136
+A Soulreaver bastard sword:                                   800 Credits
+- Bastard sword - Two Handed Spec - 213/173/143
+A Dreadblade bastard sword:                                   1600 Credits
+- Bastard sword - Two Handed Spec - 222/180/149
+A Stonesmith's Maul:                                          350 Credits
+- Warhammer - Two Handed Spec - 186/160/149
+A Worldforge Warhammer:                                       800 Credits
+- Warhammer - Two Handed Spec - 192/169/154
+A Hellforge Hammer:                                           1600 Credits
+- Warhammer - Two Handed Spec - 200/174/160
+A meteoric longsword:                                         350 Credits
+- Longsword - Sword and
+Shield
+Spec - 121/168/186
+A vorpal longsword:                                           800 Credits
+- Longsword - Sword and Shield Spec - 125/173/192
+A Logosian longsword:                                         1600 Credits
+- Longsword - Sword and Shield Spec - 130/180/200
+A mithril broadsword:                                         350 Credits
+- Broadsword - Sword and Shield Spec - 154/168/159
+A vorpal broadsword:                                          800 Credits
+- Broadsword - Sword and Shield Spec - 164/173/164
+A Logosian broadsword:                                        1600 Credits
+- Broadsword - Sword and Shield Spec - 172/180/170
+An insignia of mastery:                                       350 Credits
+Artefact
+power
+:
+weaponmastery
+_spec
+- Switch your Weaponmastery
+specialisation
+for free, every 24
+hours
+.
+A shining insignia of prowess:                                800 Credits
+Artefact power: weaponmastery_spec
+- Switch your Weaponmastery specialisation for free, every
+2
+hours.
+A peerless insignia of finesse:                               1200 Credits
+Artefact power: weaponmastery_spec
+- Switch your Weaponmastery specialisation for free, once per
+hour
+.
+An ox replica with rune-inscribed horns:                      500 Credits
+Artefact power: chivalric_
+rage
+- Grants an additional 10
+minutes
+of FURY per
+Achaean
+day
+.
+A wreath of lycopod vines:                                    250 Credits
+- Restores additional essence from VIVISECT and returns some
+willpower
+and
+endurance
+upon a successful instakill.
+A preserved hand:                                             200 Credits
+Artefact power: grasping_
+death
+- Increases the duration of gravehands in a location by roughly 50%.
+- This does not
+apply
+to hands summoned via soulspear.
+Weapon
+upgrades:
+Add these to your warrior artefact
+weapons
+with the ARTEFACT <weapon> ADD <upgrade>|boldwhite}
+command
+!
+ASP           - 750 Bound/Weapon credits
+You may add the Asp
+ability
+to almost any artefact edged weapon.
+The Asp ability causes the weapon to hit with a random
+venom
+each
+time
+, and 1/
+3
+of the time no specific venom
+message
+is given. If there are
+venoms
+on the weapon, the venoms will be delivered and the asp will not take effect. If there are no venoms, asp will take effect.
+For the purposes of adding Asp ability, knuckles do not count as edged weapons.
+The asp ability may be traded in at two-thirds value (500cr)
+CONSERVATION  - 300 Bound/Weapon credits
+Only for cutting weapons, this will have a 25% chance to return any venom used when you strike someone with the weapon to your
+rift
+(assuming you have room). 300 bound credits.
+DECAPITATION  - 300 Bound/Weapon credits
+Sometimes you really just want to decapitate someone with a warhammer while keeping their head intact. This impractical endeavour can now be achieved by a weapon with this upgrade.
+MITIGATION    - 500 Bound/Weapon credits
+This reduces the damage a weapon health deals to you when you tragically rebound off of someone's
+aura
+of
+rebounding
+by 25%. It doesn't reduce the limb damage, as this is often desirable. 500 credits.
+SPIKES        - 400 Bound/Weapon credits
+By attaching spikes to a blunt weapon, that weapon will now deal
+bleeding
+on all warrior specialisation
+attacks
+performed with it.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

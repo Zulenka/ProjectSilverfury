@@ -1,0 +1,195 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.1 THE ALCHEMIST CLASS
+(See also:
+HELP ALCHEMY
+,
+HELP PHYSIOLOGY
+,
+HELP FORMULATION
+,
+HELP
+8, HELP
+CLASS
+)
+Long ago, a cabal of
+Alchemists
+quietly practised their
+studies
+in ancient
+Seleucar
+, largely content to
+ignore
+and be ignored by the Empire. Operating
+within their
+hall
+, named the Cauda Pavonis, they profited from
+trading
+transmuted
+minerals
+and
+tonics
+to the
+elite
+who
+could afford them. Over
+time
+,
+however, these
+curatives
+were replaced by
+other
+more palatable and readily
+available
+remedies
+, and respect for the isolated order began to dwindle.
+Eventually, the leader of the cabal made the fateful choice to depart from the
+society that shunned them once and for all. Secretly the Alchemists used their
+combined talents to displace the Cauda Pavonis to a fold in the ether: the
+space between
+planes
+.
+In the late sixth century after the fall of the
+Seleucarian
+Empire, a great
+alchemical imbalance threatened our
+world
+. Forged by
+Phaestus
+and tainted by
+Twilight's hand, the planet Nurazar wreaked havoc across the lands, causing the
+cabal to resurface. With the help of Achaeans everywhere, the cabal was able to
+destroy Nurazar, restoring
+balance
+to the cosmos and revealing the
+Alchemist
+class.
+In the Year 802,
+Tlalaiad
+, the
+Genesis
+, unlocked the ancient Wellspring of
+Hashan
+, the culmination of a bargain made between the Court of Shadows and the Tsol'teth. Access to these latent energies granted the powers of
+Sublimation
+- an alternative alchemical field to
+Formulation
+, able to be taken up by those friendly to the Court.
+The
+skill
+of
+Alchemy
+focuses on the use of the ether and the alchemical
+energies reverberating through it.
+Physiology
+allows the Alchemist to inflict
+illness upon an opponent via manipulation of the four humours. Additionally, an
+Alchemist trained in Physiology may
+command
+a homunculus, a diminutive creature
+formed from his or her own flesh. With Formulation, the alchemist is able to amalgamate potent compounds.
+The
+skills
+wielded
+by those of Alchemist class are Alchemy, Physiology, and
+Formulation. A
+fledgling
+in this class will possess Alchemy and Physiology,
+gaining Formulation upon
+embracing
+class.
+Sublimation is an alternative field to Formulation, practised by those capable of
+drawing
+on Hashan's Wellspring reservoir of energy. Its arts are centred around manipulation of forces, alignment of energies, and the
+oft-misunderstood field of substantiation.
+**
+Training
+in the Alchemist class is not possible for members of
+cities
+that
+have chosen to accept the
+Sentinel
+,
+Druid
+, and
+Sylvan
+classes
+. Additionally,
+any Alchemist who quits a
+city
+after
+learning
+class skills will find him or
+herself at a severe disadvantage when it comes to using some
+abilities
+. **
+(See also:
+HELP ALCHEMY
+,
+HELP PHYSIOLOGY
+,
+HELP FORMULATION
+, HELP 8, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

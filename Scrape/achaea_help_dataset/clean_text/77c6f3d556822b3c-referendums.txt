@@ -1,0 +1,221 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.7 Elections, Referendums, and Politics
+An
+ELECTION
+in
+Achaea
+takes place when someone
+who
+does not
+hold
+a particular position (such as houselord or Archon) decides that he or she wants to
+challenge
+someone currently in that position (or to seek to
+fill
+a vacancy in that position). The person challenged must be in the same
+house
+or
+city
+(whichever is relevant) to the person doing the
+challenging
+. The
+command
+to challenge another player's position is CONTEST (
+syntax
+is listed below).
+The current city leader, who is also a
+member
+of the ruling council, is immune and may not be contested.
+In order to begin an election in a house or city, only one
+challenger
+is needed. Once an election ends, the victor is immune to the creation of new
+elections
+against them for a
+period
+of seven real-life
+days
+.
+A
+REFERENDUM
+differs from an election only in that it is not about a particular position of
+power
+.
+It should be noted that the command ELECTION (or ELECTIONS) may be substituted for REFERENDUM (or
+REFERENDUMS
+) where applicable. (In
+other
+words, in an election, use ELECTION and in a referendum use REFERENDUM). Also note than all
+times
+relating to elections are in
+Achaean
+time
+.
+WHO CAN CALL A REFERENDUM
+-------------------------
+A referendum is called by someone in power (be it a God, a Houselord or Secretary, or a member of the ruling council of a city) who defines what the referendum is about, how long it will last for, and what the choices in the referendum are. In the case of
+Orders
+, that would be the Patron or the
+Divine
+Assistant only.
+COMMANDS
+FOR EVERYBODY
+----------------------
+REFERENDUM LIST (or just REFERENDUMS)
+- Lists the current referendums or elections that are relevant to you.
+REFERENDUM <#> SUMMARY
+- See a summary of a particular referendum or election.
+REFERENDUM <#> CHOICES
+- See a list of the choices in a particular referendum or election.
+REFERENDUM <#>
+VOTE
+FOR <choice#/choice>
+- Vote in a referendum or election.
+- There are requirements that must be met in order to vote:
+City: You must have played at least 50
+hours
+, and be at least
+level
+30.
+House: You must be at least house
+rank
+5
+.
+Public: You must have played at least 100 hours.
+- You can change your vote before the election or referendum is over by simply
+voting
+again.
+- Using multiple
+alts
+in the same organisation to vote for the same person is considered a breach of
+HELP SECONDS
+. Please don't do it.
+REFERENDUM <#> ABSTAIN
+- Officially abstain from voting.
+- Abstention only counts if you meet normal voting requirements.
+REFERENDUM <#> RESULTS
+- See the results of a referendum or election.
+THREE WAYS TO CONTEST
+---------------------
+CONTEST <person> AS <position> OF <city or house name> [REASON]
+CONTEST VACANT AS <position> OF <city or house name>
+CONTEST <person> AS HEAD OF <clan> [REASON] (if the
+clan
+is democratic)
+The default reason for contesting is performance. Optionally you may specify performance, retiring, or
+dormant
+. This will change the text in the election
+message
+. This option only applies to the first person to contest creating the election.
+All
+contests
+cost the challenger 10,000
+gold
+.
+You must be at least house level 5 in your house to contest a houselord.
+Examples:
+CONTEST GRANDUE AS ARCHON OF
+ASHTAN
+RETIRING
+CONTEST HEMNIF AS HEAD OF COOLCLAN DORMANT
+CONTEST VACANT AS REGENT OF
+HASHAN
+In order to drop out of an election the syntax ELECTION <#>
+REMOVE
+CHOICE <choice> will be useful.
+COMMANDS FOR THOSE IN POWER
+---------------------------
+REFERENDUM CREATE FOR CITY|CLAN
+name
+|COUNCIL|HOUSE|ORDER|PUBLIC
+- Create a referendum.
+- For orders, only the Patron or Divine Assistant may create referenda.
+REFERENDUM <#>
+TITLE
+- Give a referendum a title.
+REFERENDUM <#>
+DESCRIPTION
+- Give a referendum a description.
+REFERENDUM <#> ADD <choice>
+- Add a voting option to a referendum.
+- Max length for a choice is 70 characters.
+REFERENDUM <#> REMOVE <choice>
+- Remove a voting option from a referendum.
+- Note that this does not
+move
+existing choices around, so if you have choices 1,
+2
+, and
+3
+, and remove 2, then you will now have choices 1 and 3 (no 2). And if you then add a new choice, it'll be choice 4.
+REFERENDUM <#> OPEN
+- Open the voting on a referendum.
+REFERENDUM <#> CLOSE
+- Close the voting early on a referendum
+REFERENDUM <#> CLOSE IN <x> <days/
+months
+/years>
+- Set the number of days, months, or years before the referendum will end. This is Achaean days, Achaean months, or Achaean years.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

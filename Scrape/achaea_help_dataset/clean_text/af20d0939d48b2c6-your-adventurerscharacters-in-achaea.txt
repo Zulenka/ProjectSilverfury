@@ -1,0 +1,177 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.3 Your Adventurer(s)/Character(s) in Achaea
+Your adventurer or
+character
+in
+Achaea
+are VERY important to us. With certain
+restrictions, you may create and play more than one.
+Please see:
+HELP MULTIPLAYING
+,
+HELP SECONDS
+, HELP CHARACTER SHARING,
+HELP CROSS CHARACTER,
+HELP AFK
+,
+HELP PK
+, and
+HELP AUTO
+.
+(summarized briefly below).
+HELP MULTIPLAYING
+-----------------
+Never have more than one of your adventurers playing at any
+time
+. This includes
+systems
+that allow
+others
+to pilot your character remotely.
+HELP SECONDS
+------------
+No adventurer of yours may ever
+help
+another adventurer of yours in any way. No
+transferring of
+equipment
+or
+gold
+, etc. The only exception is that if you
+purchase
+CREDITS
+with
+money
+, they can be transferred among your adventurers.
+HELP CROSS CHARACTER ACCOUNTABILITY
+-----------------------------------
+What you do on one character may affect your
+other
+characters from an
+administrative
+penalty
+standpoint. If you get warned for breaking a rule on one
+character, for example, then you
+log
+on to anther character and break the same
+rule, don't expect to get off with just another warning.
+HELP CHARACTER SHARING
+----------------------
+Do not share,
+sell
+, or transfer any adventurer at any time.
+HELP PK
+-------
+Playerkilling
+, or
+PK
+, is heavily restricted in Achaea, and especially so for
+newbies
+. Just don't get involved in PK until after your newbiehood.
+PUNISHMENTS
+-----------
+All of these are extremely serious. Most violations of these very important
+rules are punished by permanent
+deletion
+of all related adventurers, with no
+second chances.
+HELP INACTIVITY
+---------------
+If your adventurer is absent from Achaea, it may be removed for
+inactivity
+.
+Please refer to
+HELP INACTIVITY
+for more details. There are plenty of ways
+to reduce your risk.
+A FEW MORE
+THINGS
+NOT TO DO
+---------------------------
+Other very serious things include:
+-
+AFK
+(
+HELP AFK
+- being away from keyboard while playing)
+-
+AUTO
+(
+HELP AUTO
+-
+automating
+various activities)
+-
+HARASSMENT
+(
+HELP HARASSMENT
+- various forms of
+harassing
+behaviour)
+-
+CREDIT
+CARD FRAUD (don't do it!)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

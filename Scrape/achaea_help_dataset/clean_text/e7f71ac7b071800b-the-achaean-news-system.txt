@@ -1,0 +1,267 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.5 THE ACHAEAN NEWS SYSTEM
+Writing
+articles for
+other
+adventurers to
+read
+: the
+Achaean
+news
+system
+.
+New to the News System?
+-----------------------
+The news system is a valuable way for Achaeans to
+communicate
+with each
+other in non-real-
+time
+, by writing
+posts
+that
+others
+can read on their own
+time. If you are brand new to
+Achaea
+, you don't need to worry about the news
+too much at first, but you should certainly
+learn
+how to at least read the
+news. Most importantly, you should make it a habit to read the latest news
+in the
+Announce
+section for
+announcements
+from the administration, and the
+news sections of your
+city
+and
+House
+, if you belong to either.
+You can check your news
+status
+and read individual news posts from anywhere,
+but if you
+wish
+to write a news
+post
+, you must find a news room. Details
+follow below.
+News Sections
+-------------
+News is divided into sections:
+Name
+Who
+Can Read          Who Can Write
+Public      Everyone            Everyone
+Announce    Everyone
+Administrators
+Comments    Producers           Everyone
+Poetry      Everyone            Everyone
+Events
+Everyone            Administrators
+Leaders     Org Leaders         Org Leaders
+Cities
+,
+Houses
+,
+Orders
+, and
+Clans
+---------------------------------
+Members only may read and write in any of these sections which are named for the organisation (City name, House name,
+Clan
+name, etc).
+Reading
+the News
+----------------
+You can read news posts and check your news status from anywhere in Achaea.
+To check your news status, type
+NSTAT
+. This will
+show
+you
+something
+like
+this:
+Public:           Read
+2
+/17688 articles.
+Comments:         Read 0/596 articles.
+Announce:         Read 2489/2729 articles.
+Ashtan
+:           Read 0/5937 articles.
+Poetry:           Read 0/3395 articles.
+Events:           Read 0/266 articles.
+The above
+tells
+you that there are 2729 articles in the Announce news
+section, for example, and that your "last read" marker for that section is
+at post 2489. Your news marker for each section is simply set for the very
+last post you read in that section, whatever it was.
+If you type NSTAT CATCHUP, it will automatically set your "last read" marker
+for ALL the sections to the very last post in each section.
+Using NSTAT CATCHUP <section> will perform the above function but only for
+the news
+board
+you have specified.
+To read any existing post in a section where you have read access, type
+READNEWS
+<section> <post #>. For example, READNEWS PUBLIC 1.
+The
+READNEXT
+command
+(or
+RN
+) will cycle through all posts
+going
+forward from
+your "last read" markers. Try it out: type RN several
+times
+. (See
+HELP
+READNEXT for more information.)
+You can also read news posts from within a news room. Some prefer to do this
+if they have many news posts to read, for the peace and quiet.
+Writing a News Post
+-------------------
+In order to write a post, you must journey to a NEWS ROOM. These are
+scattered throughout the land in each major city, and a few other locations
+such as
+Delos
+. Once in one of these places, simply NEWS. Once in the NEWS
+system, enter HELP to get information on how to use the news. Please read
+the HELP before you enter the news writing
+editor
+!
+If you choose to write an article, you will enter the Achaean Composer. This
+tool allows you to write an article, skip around from line to line, replace
+lines,
+delete
+lines, and so on. Typing *help from within the Composer will give
+you help on how to use it. You can also read
+HELP EDITOR
+.
+Something to keep in mind while using the public, house, order, and city news
+sections is that these are strictly in-role sections. Repeated out-of-
+character
+(HELP
+OOC
+) articles may result in the termination of your writing privileges.
+Due to the high volume of posts on the Public newsboard, there is a cost
+associated with posting to that section: 5000gp. Posting anywhere else where
+you have posting access is free.
+Commands
+--------
+CONFIG
+NEWSIGNORE
+Configure
+your settings to
+ignore
+certain news sections.
+NSTAT
+Show you a summary of the news sections you can access.
+NSTAT CATCHUP
+Automatically bring your "last read" post in every news section in which
+you have news access to the last post.
+NEWS
+Enter the news system.
+READNEWS <section> <article #>
+Read a news article from outside the news system. The
+syntax
+is, for
+instance: READNEWS PUBLIC 1000.
+NSUM/NSUMMARY <section> <beginning article#>
+See a summary of a range of up to 20 articles, starting at whatever article
+you choose.
+RN
+Review all news sections to which you have access by reading the next unread post. (See HELP READNEXT)
+READPREVIOUS|READPREV|
+RP
+Read the previous article in a news section. (See HELP READNEXT)
+NLIST <section>
+Provides an at-a-glance view of the last 20 posts in the given sections, and their
+titles
+.
+NMARK
+Mark
+a news article to easily find it later.
+SEARCHNEWS <section> [field] [article #] <keyword>
+Search the body of posts for keywords.
+SEARCHNEWS ANNOUNCE
+TECTON
+- search all of announce for instances of
+Tecton.
+SEARCHNEWS ANNOUNCE 3560 TECTON - search announce 3560 and later for
+instances of Tecton.
+SEARCHNEWS PUBLIC A TECTON - search public news for posts authored by
+Tecton.
+SEARCHNEWS PUBLIC S ASHTAN - search public news for posts with Ashtan
+in the subject.
+SEARCHNEWS PUBLIC B SHEEP - search public news for posts with sheep
+in the body.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

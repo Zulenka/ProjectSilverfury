@@ -1,0 +1,257 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.14 Beardball
+A long-standing tradition among certain dwarven folk, this nail-biter of a sport pits participants against one another in a masterful display of
+skill
+,
+speed
+,
+dexterity
+, wit, and grit. Grab your snack of choice and
+join
+the crowd as players compete to spread their beardly
+influence
+throughout the land.
+History
+-------
+Though the formula has long since been perfected, the earliest batches of beardbrew were so potent and indiscriminate that in the
+event
+of spillage, the earth itself would sprout a beard that could put the finest of dwarves to shame.
+Thus, in the year 583AF, when a great earthquake led a shipment of beardbrew casks to shatter upon the earth and spill across a great length of
+Boldarihm
+, an enterprising young dwarf (
+who
+had, perhaps, spent a bit too much
+time
+in
+Merrywick
+drinking
+eggnog) leaned over, gathered a handful of the magical
+locks
+,
+looked
+to the starry sky overhead, and belted with all her
+might
+:
+"BEEEEEEEEARDBALLLLLLL FIIIIIIIIIGHT!"
+Her companions, while understandably stunned at first, rapidly joined in and made merry. And the rest, as they
+say
+, is history. Over the years, common rules developed, including how to keep
+score
+, and a few clever sneaks found ways to use their magical surroundings to their advantage. The dwarves of Boldarihm continue to brew keg after keg of the less than perfect brew to keep the beloved tradition alive, and though the elementals of old no longer man the commonly accessible corridors of the
+forges
+, they are known to conjure such creatures for special occasions.
+The Rules
+---------
+* Those who
+wish
+to participate should JOIN EVENT
+*
+BEARDBALL
+is an EVENT, subject to various EVENT
+COMMANDS
+, eg:
+- EVENT WHO
+- EVENT
+STATUS
+- EVENT SCORES
+* Beardbrew spills will create BEARDDRIFTs across the land
+- GATHER BEARDBALL to collect a beardball
+- You may only gather from each drift once
+*
+THROW
+<BEARDBALL|BEARD> AT <target>
+- Using a beardball, you can attach a beard to your
+target
+- You can only have one beard per person at a time
+- If you have a beard already, you will throw a length of beard instead
+- Beards thrown in this way will become your own, for
+scoring
+purposes
+- Attempting to throw a beardball takes
+balance
+, even if unsuccessful
+- Being hit by a beardball will take more balance, giving time to
+flee
+* Points will be awarded periodically
+-
+5
+points per person currently carrying one of your beards
+- Players hiding in ineligible locations will not gain points (see below)
+Beardsense
+----------
+Exposure to the potent brew will allow participants to BEARDSENSE, gaining some
+insight
+, such as:
+* The location of a handful of active bearddrifts they haven't gathered from
+* How many players carry their beards
+* How many beards they are carrying for
+other
+players
+* How many beardballs they currently carry
+The Elementals
+--------------
+From time to time, forgefire elementals will be conjured. These are an optional, and risky, element of the beardball game. A handful of elementals will appear within a certain location, and participants may find and TACKLE these elementals to cleanse themselves in the flames of the
+forge
+. This will
+remove
+every beard upon their person, and the player will score points for every length of beard removed in this way.
+BE WARNED: If you have not developed a beard of sufficient length to extinguish the flames and protect yourself, you will be reduced to
+ash
+. You will
+die
+, and will suffer any
+penalties
+typically associated with
+death
+.
+Combat
+Variant (Open
+PK
+)
+------------------------
+Standard beardball matches are not open to combat, and
+attacking
+other players is forbidden. In some circumstances, a combat variant of the game is hosted, with a set of accompanying rules changes.
+In this variant:
+* All players are open to being attacked by other players
+*
+Experience
+loss from player deaths is disabled
+* Players may not throw lengths of their own beard, only beardballs
+* When a player is slain:
+- All beardballs upon their person transfer to their killer
+- All beards upon other players wither away
+- Withered beards turn into beardballs, held by the former victim
+Scoring Eligibility
+-------------------
+As with other such
+worldgames
+, certain locations and tactics are off limits, to keep
+things
+fair and accessible for all players. Rather than
+losing
+all points, however, players will simply be ineligible for periodic
+point
+gains so long as they are any of the
+following
+:
+- Dead
+- Phased
+- Astralformed
+- Blackwinded
+- Spiritwalking
+- Dustformed
+- Mistralformed
+- Burrowed
+In addition, those in any of the following locations are ineligible for points:
+-
+Flying
+- In the
+trees
+- In the Skies
+- Not on the Prime Material
+Plane
+- Not on the
+continent
+of
+Sapience
+- In any
+city
+, or the
+sewers
+of any city
+- In any protected location, such as a temple or
+house
+estate
+- In the
+wilderness
+- In a
+subdivision
+- In a house
+- In a tent
+- In a stronghold
+- In a mine
+- In a maze
+- In a crypt
+- In a
+digsite
+- In a battlefield
+- On a
+ship
+- In a
+foray
+- In a stockroom
+- In a
+newbie
+area
+Trophies
+--------
+As is tradition, the winner of each beardball game will receive a trophy for their victory. In addition to
+looking
+spectacular, this trophy may convey other benefits, though the specifics are yours to discover. These trophies will
+decay
+, and cannot be preserved or customised in any way.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

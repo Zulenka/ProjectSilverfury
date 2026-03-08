@@ -1,0 +1,185 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.8 Riddles, Conundrums, Puzzles, and the like!
+RIDDLE
+JOIN
+(if one is active)
+Riddle Overview
+---------------
+I. What to do
+II
+.
+Commands
+III. Notes and examples
+IV. Rules and restrictions
+I. What to do
+-------------
+Riddles
+are a game played across
+Achaea
+. All may play.
+The main
+command
+is RIDDLE. Use it to see what's
+going
+on, including the
+current clue if a
+challenge
+is active. If a riddle is not active, then RIDDLE
+will
+tell
+you the winners of the previous
+event
+.
+If a riddle IS active, you must RIDDLE JOIN in order to be involved in the
+current riddle.
+The riddle's clue will lead you to two
+things
+:
+1 - an answer, and
+2
+- a place to guess it.
+Read
+the clue VERY carefully. Decide what the answer is. Sometimes the clue
+leads you to a place to get more information.
+Go
+there and get the information!
+Once you've decided on the answer, you should now determine WHERE you need to
+be to RIDDLE GUESS. The clue will lead you to the right place to be.
+Go to the proper place, then RIDDLE GUESS the answer to the riddle.
+Example: if you want to guess "red green blue" then you would
+RIDDLE GUESS red green blue
+You'll know if you got it right. Really, you will!
+II. Commands
+------------
+RIDDLE JOIN              -   Join the current riddle. Now you'll hear
+added clues and be able to use RIDDLE GUESS.
+RIDDLE                   -
+Shows
+the current clue, winners, how many
+times
+you've guessed, and
+other
+info.
+RIDDLE GUESS             -   Guess the answer to the riddle.
+RIDDLE
+HISTORY
+[n]       -   Shows previous riddles and winners.
+If 'n' is present, only
+show
+that riddle.
+RIDDLE
+QUIT
+-   Quit the current riddle.
+III. Notes and Examples
+-----------------------
+Make sure you wait till you're in the proper place before you guess!
+Watch the word count! Often, the clue will tell you how many words.
+RIDDLE GUESS - doesn't care about capitalisation,
+punctuation
+, or certain
+common small words such as a, an, the.  So these two guesses are the same:
+RIDDLE GUESS Nevaharr, Tezlari-tarin, and Matic
+RIDDLE GUESS nevaharr tezlaritarin matic
+RIDDLE HISTORY 12 - show the 12th riddle.
+RIDDLE HISTORY    - show all riddles in history.
+IV. Rules and Restrictions
+--------------------------
+Don't tell anybody the answer, or any part of it!
+Working as a team is discouraged, but allowed. We'd prefer you didn't, because
+it's very hard to stop
+sharing
+information once you've started.
+If you ARE working together as a team, and share information, just share
+INFORMATION, not answers. Example: if Jeff goes to
+Shallam
+to see what's for
+sale in a certain
+shop
+, and Jillian goes to
+Ashtan
+to see what's for sale in a
+certain shop, then each may tell each other what was found, and
+nothing
+more.
+Don't
+help
+with deductions. Don't give away locations.
+If it's a
+piece
+of information that is publicly available at all times to
+anybody, don't discuss it at all.
+For example, a recent riddle asked you to count how many
+artefacts
+honoured the
+original home valley of humanity. Finding out the
+name
+of the original home
+valley of humanity requires
+reading
+the histories. So about all you could tell
+someone would be "read the histories." The information is publicly available,
+and doesn't require special access of any kind.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

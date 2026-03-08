@@ -1,0 +1,352 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.27 Adventures
+While you have
+adventures
+each and every
+day
+,
+Achaea
+offers more than many have a chance to
+experience
+! With the adventures
+system
+, Phileo is rewarding people
+who
+complete his varied
+adventure
+tasks
+with
+renown
+which can be redeemed for a number of different rewards, even
+bound
+credits
+!
+Renown
+-------
+- Renown is rewarded for completing
+quests
+and adventures, by taking on leadership roles within your organisations, and by being a
+City
+Guide
+!
+- Your current amount can be seen on your
+SCORE
+RESOURCES and with the RENOWN
+command
+.
+- You can earn up to 2000 renown per day.
+- Your daily earned renown resets at
+Serenade
+, but your total will stack up!
+- Renown cannot be transferred or traded, and cannot be dropped.
+Renown
+Shop
+------------
+RENOWN SHOP
+WARES
+- to see available wares (listed in detail below)
+RENOWN SHOP <number>      - to see a
+ware
+RENOWN SHOP
+BUY
+<number>  - to buy
+RENOWN SHOP
+HISTORY
+- to see your last 30 purchases
+10 bound credits              - 1000 renown
+20 bound credits              - 2000 renown
+A worn whetstone              - 1200 renown
+- Nullifies the
+lesson
+cost of
+learning
+a
+weapon
+proficiency
+.
+A shimmering crystal clover   - 8000 renown
+- PULLing a leaf from this rare little
+plant
+will grant a
+critical
+hit bonus for 24
+hours
+.
+A Lucrescent Nut              - 2000 renown
+- When eaten, this will set all of the
+skills
+for your current
+class
+to transcendent for
+2
+hours.
+- These
+tradein
+for 2 bound credits each.
+- These
+decay
+.
+A miniature wooden horse      - 1200 renown
+- BREATHE on this horse and it will serve as a SINGLE USE raido rune for you!
+-
+Runewardens
+may even place one of these if they already have a raido present somewhere in the land.
+-
+SAY
+RIDE
+HOME once it's placed, and you'll be teleported straight to its location!
+A bottle of fairy dust        - 1500 renown
+-
+THROW
+this dust to gain a prismatic barrier.
+- You may also throw it over someone else THROW FAIRYDUST OVER <person> to give another person a prismatic barrier.
+-
+Throwing
+dust in this way requires both
+balance
+and
+equilibrium
+, but consumes neither.
+- Each bottle has enough for three barriers.
+A ball of
+Seftonium
+- 1500 renown
+- When eaten, this will reset any class switch cooldown.
+1
+hour
+double
+xp
+- 750 renown
+- Begins as soon as this is redeemed.
+A Translucent Mask            - 4000 renown
+- WEARing this mask will cause
+guards
+and
+other
+organisation-owned
+denizens
+to
+ignore
+you for five
+minutes
+.
+- This effect fails if you perform any hostile actions of any kind.
+- Each mask possesses
+3
+charges
+.
+An amber ampoule              - 1500 renown
+- SHAKE AMPOULE <minipetID> on a blank and bantam
+goblin
+minipet
+to utilise!
+- This will cause the goblinoid to take on various
+traits
+of the
+race
+.
+- TURN to change which race it will feature.
+Hunter
+Elixir
+1 sip           - 1000 renown
+-
+vial
+containing 12 hours of +1
+constitution
+Epicurus Elixir 1 sip         - 1000 renown
+- vial containing 12 hours of +1
+intelligence
+Pixie
+Elixir 1 sip            - 1000 renown
+- vial containing 12 hours of +1
+dexterity
+Ogre Elixir 1 sip             - 1000 renown
+- vial containing 12 hours of +1
+strength
+Lucky Elixir (1 sip)          - 1000 renown
+- vial containing 12 hours of critical hit bonus
+Life Elixir (1 sip)           - 1000 renown
+- vial containing 12 hours of increased XP gain
+A handful of glittering
+mud
+- 10000 renown
+- A consumable item that can be applied to many resetting items to give them a special,
+Seleucarian
+themed
+description
+!
+- The item must be resetting to you, loyal to you, and in your
+inventory
+.
+- Currently viable items are: Rings, bracelets, boots, belts, pendants,
+armour
+(not
+morphing
+), wings,
+shields
+, and earrings. If you have a resetting item that can be interacted with by any of these terms, then the mud will alter its description!
+-
+PROBE
+<mudID> <
+RING
+/BRACELET/BOOTS/BELT/ARMOUR/WINGS/
+SHIELD
+/EARRING/PENDANT> to see what they will turn into!
+- PUSH <mudID> <itemID> to change the description (this will consume the mud.)
+All items from the shop decay in a fairly short
+time
+and cannot be preserved in stockrooms and similar.
+Adventures
+----------
+- Adventures are a variety of activities and
+challenges
+that are part of daily playtime in Achaea! Completing these will earn you renown.
+- Adventures automatically complete and reward you with renown as you do the
+task
+listed!
+Commands
+are:
+ADVENTURE LIST [
+seafaring
+|conflict|
+exploration
+|
+hunting
+]
+List the adventures, as you complete an adventure it will be removed from the list.
+ADVENTURE THEME
+Show
+the current theme for a sweet double renown adventure.
+Quests
+------
+- Renown (up to the cap) will be awarded based on completion of
+quest
+system quests.
+- Each quest completed will only count once for renown per person, per day.
+-
+Questing
+is not considered part of any adventure theme.
+- Questing in excessively low
+level
+areas will not reward higher level players, AREAS is a good guide of whether or not an area will be appropriate for you.
+- Quests completed in areas that are suitable for
+levels
+90 and above will reward renown for all.
+Adventure Themes
+----------------
+- There are currently four adventure themes: Conflict, Seafaring, Hunting, and Exploration.
+- Adventures are offered in a cyclical system, with the theme
+changing
+every four Serenades.
+- While a theme is active, the first completion of an adventure on theme will reward with double renown!
+Organisation Leadership
+-----------------------
+- City and
+House
+Leaders (the actual leader, not the council) will earn 200 renown per hour while logged in, up to 800 renown per day or until they hit cap.
+- City and House Councils, Order Heads, and High
+Clan
+leaders will earn 200 renown per hour while logged in, up to 400 renown per day or until they hit cap.
+- City
+Ministers
+and Heads of
+Newcomers
+will earn 100 renown per hour while logged in, up to 400 renown per day or until they hit cap.
+- Soldiers AR3+ and Newcomer
+aides
+in
+Houses
+will earn 100 renown per hour logged in up to 300 renown per day or until they hit cap.
+Important Note: No matter how many hats you wear in your orgs, only one of these will tick for you, it will always be the most rewarding. These passive renown gains will also not tick up if you are on duty as a City Guide.
+City
+Guides
+-----------
+These chosen
+newbie
+helpers can earn up to 1200 of their daily renown by being "on duty" at a rate of 300 renown per hour.
+See HELP CITY GUIDES for full details!
+Commands
+---------
+ADVENTURE LIST [seafaring|conflict|exploration|hunting]
+List the adventures available to you.
+As you complete an adventure it will be removed from the list.
+ADVENTURE THEME
+Show the current theme for a sweet double renown adventure.
+SCORE RESOURCES
+See how much renown you have earned.
+RENOWN
+See how much renown you have earned.
+RENOWN SHOP WARES
+See the available wares.
+RENOWN SHOP <number>
+See a ware's specifics.
+RENOWN SHOP BUY <number>
+Buy
+something
+from the renown shop!
+RENOWN SHOP HISTORY
+List your last 30 purchases.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

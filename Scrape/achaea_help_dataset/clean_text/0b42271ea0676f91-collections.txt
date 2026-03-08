@@ -1,0 +1,124 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.29 Collections
+Certain items in
+Achaea
+fit within the
+Collections
+system
+. These currently
+include
+minipets
+and battle figurines.
+Battle Figurines
+------------------
+Should you manage to collect an entire set of figurines (all Battle figurines
+will eventually fall into one of the collections), you
+might
+be rewarded with a
+special, prize figurine!
+Minipets
+------------------
+By
+collecting
+creatures and potted
+plants
+of a wide and myriad variety, you can
+climb in the
+rankings
+of hoarders and zoologists and may even earn yourself an
+honours
+line.
+Talismans
+------------------
+Certain special
+talisman
+sets are collectable (
+Death
+at this
+time
+). Completing
+these may earn special items!
+Collecting- How To
+------------------
+COLLECTIONS LIST [ALL]                  - Will list all of the available
+collections.
+COLLECTION
+ADD <collectionname> <item>* - Add an item that you possess to a
+collection.
+- The item must belong to you (I.E is
+loyal to you)
+COLLECTION
+SHOW
+<collectionname>        - List the details of a specific
+collection.
+RANKINGS COLLECTIONS                    - See where you fall amidst the
+collectors of Achaea!
+* Adding an item to the collection merely associates it with that listing, it
+will not affect the
+status
+of the creature or figurine in your possession. Once
+added, an item may not be removed from a collection.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

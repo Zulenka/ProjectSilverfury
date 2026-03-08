@@ -1,0 +1,314 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.15 Credibility and Roleplaying Points
+Our intent with
+credibility
+is to encourage Achaeans to be
+IC
+in public
+venues, out and about in the
+world
+, with
+other
+players (
+who
+have not consented
+to be
+OOC
+with you), and in organisation
+communications
+.
+We want In
+Character
+to be the default for everyone, and we want someone who
+logs
+into
+Achaea
+seeking in character interaction to not be met with OOC as a
+default.
+Credibility is measured in
+Roleplaying
+points. We may refer to roleplaying or
+RP
+points elsewhere, in which case it is always a reference to credibility.
+Using
+HONOURS
+on an adventurer will
+show
+you, among other
+things
+, credibility.
+This information is found directly under
+ranking
+, and may
+say
+something
+like,
+"He is an acceptable character," or, "She is a refreshingly
+credible
+character."
+If you
+lose
+credibility, regaining it is a matter of simply being
+consistently in-role and in character and avoiding ooc (out of character).
+Credibility is regenerated at 1
+point
+per
+6
+hours
+while logged in, or 1 point
+per
+18
+hours if not. See also
+HELP INSANITY
+and
+HELP ROLEPLAYING
+.
+If you lose credibility, you will receive a
+message
+that
+tells
+you why and how
+many points you have
+lost
+.
+Credibility docking takes away certain gameplay privileges. What these
+privileges are depend on how egregiously you have broken the "in character
+contract" and
+disturbed
+the setting for those around you and how often you
+have done it.
+For 99% of cases the
+following
+can be expected:
+-------------------------------------------------
+Your first credibility ding will be a warning.
+A second within 30
+days
+will be a
+5
+point adjustment.
+A third within 30 days (of the previous) will be a 10 point adjustment.
+And beyond.
+Particularly egregious breaches may deviate from this, and repeated wilful
+ruination of Achaea's
+environment
+for players and the team alike may result
+in
+shrubbing
+.
+The consequences of credibility loss are as follows:
+------------------------------------------------------
+1% less
+xp
+gain for each
+rolepoint
+missing
+1% more xp loss for each rolepoint missing
+5% less
+renown
+cap (1 cr/100 renown) for each rolepoint missing.
+Sub 95
+rolepoints
+Cannot accept proteges
+Removal/ban from
+city
+guide
+appointment
+Disables
+custom
+item interaction
+emotes
+(put/drop similar)
+Custom EMOTEs limited to 80 characters
+No
+poses
+No
+THINK
+Sub 90 rolepoints
+No
+shouting
+No yells
+No custom emotes
+Sub 85 rolepoints
+No
+market
+channel
+No
+description
+setting
+No access to org-flagged
+clans
+Sub 80 rolepoints
+No
+newbie
+channel access
+No renown gain at all
+Sub 75 rolepoints
+No arenatell
+No
+housetell
+No citytell
+No ordertell
+Some OOC (out of character) things that
+might
+reduce your Credibility
+---------------------------------------------------------------------
+- OOC
+shouts
+- OOC
+news
+posts
+- OOC use of
+channels
+- NEWBIE*, MARKET,
+HT
+/
+HNT
+/
+HTS
+/
+CT
+/OT/IC Clans, etc.
+- Taking on or granting silly
+titles
+.
+- Using real world references: if it doesn't exist in Achaea, it's OOC.
+That means music
+groups
+, pop songs, movies, television
+shows
+,
+books
+,
+authors, companies, political
+parties
+, countries, and
+anything
+else
+that is meaningful outside Achaea but not really meaningful inside.
+- Silly or clearly-not-
+warcry
+warcries
+.
+- Acting without regard for the
+history
+of your character.
+(*) Necessity means that OOC discussion is permitted on the Newbie, to
+enable the answering and asking of
+questions
+our new players might have. So
+long as the conversation is pertinent to Achaea one need not be worried.
+UUC
+clan
+is another venue that loosely permits some OOC discussion.
+Examples
+--------
+You can lose credibility if, in shouts, yells, posts, market, newbie,
+house
+,
+order, city,
+class
+, oakstone, clan (if not an explicitly ooc clan),
+speech
+in
+front of any
+denizen
+or in front of any adventurer that doesn't want to
+go
+ooc,
+or any other public channel or venue, you:
+- use the word(s)
+lag
+or
+lagbeast
+(or similar).
+- mention a
+web
+site.
+- mention another
+mud
+or other online game.
+- mention
+ISSUES
+.
+There are many more things that will result in loss of credibility. These are
+just examples, mainly aimed at those too stubborn to listen when we
+tell
+them
+not to go OOC!
+Addendum
+--------
+Reduction in credibility may occur as a punishment for violation of
+language
+rules. See
+HELP LANGUAGERULES
+.
+(see
+HELP INSANITY
+and
+HELP
+ROLEPLAYING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

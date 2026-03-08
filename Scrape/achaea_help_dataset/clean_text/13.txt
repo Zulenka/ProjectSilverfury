@@ -1,0 +1,300 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4 YOUR CHARACTER
+4.1     Show
+Show
+almost
+anything
+about your
+character
+.
+4.1.1   Score
+Look
+at information about your character.
+4.2     Penalties
+How your character has been penalised.
+4.3     Defences
+See a list of
+defences
+affecting you.
+4.3.1   Life Enhancing Aura Great stuff
+. All of
+grace
+.
+4.4     Learning
+Learning
+your
+skills
+.
+4.4.1   Lessons
+How to gain more
+lessons
+to
+learn
+with.
+4.4.2   Skill System
+How the Skills
+system
+works.
+4.4.3   Skill Ranks
+The named
+ranks
+for Skills.
+4.4.4   Miniskills
+Miniskills
+and how they relate to skills.
+4.4.5   Traits
+Pick and choose your advantages.
+4.5     Teaching
+Teaching
+skills to
+others
+.
+4.5.1   Tutors and Teachers Who to learn from
+.
+4.6     Equilibrium
+Mental
+equilibrium
+and physical
+balance
+.
+4.6.1   Queueing
+Queueing
+your next actions.
+4.7     Titles
+How to get a
+prefix
+or
+suffix
+to your
+name
+.
+4.8     Marriage
+Here comes the bride.
+4.9     Children
+Nine
+months
+later: what have we here?
+4.10    Your Description
+Personalizing your
+description
+.
+4.11    Config
+Various
+configuration
+options and settings.
+4.11.1  Prompt
+Changing
+your
+prompt
+to display more info.
+4.11.2  PageLength
+Page Length affects the MORE
+command
+.
+4.11.3  Newsignore
+CONFIG
+NEWSIGNORE
+- options, how to use it.
+4.12    Races
+The mortal
+races
+of
+Achaea
+.
+4.12.1  Vertani
+The
+Vertani
+Culture
+: a Compendium.
+4.12.2  Reincarnation
+A new
+race
+, a new life.
+4.12.3  Race Specialisation Archetype
+? Stereotype? You decide.
+4.12.4  Race Stats
+A quick reference of racial
+stats
+.
+4.13    Language
+The
+languages
+that exist in Achaea.
+4.13.1  Language Learning
+Learning
+Achaean
+languages.
+4.13.2  Language Teachers
+A few
+denizens
+to ease your struggles.
+4.13.3  Language Fluency
+Names
+of fluency
+levels
+.
+4.13.4  Language List
+List of languages, learnable and not.
+4.13.5  Middle Achaean
+A brief survey of usage for Middle Achaean.
+4.13.6  Pronunciation
+Some sample Achaean words pronounced properly.
+4.13.7  Not Achaean
+Words that are common, and commonly wrong.
+4.13.8  Provincial Achaean
+What it is. Or not.
+4.14    Skills
+The
+skill
+sets that you have.
+4.14.1  Skillsets
+They ain't skills!
+4.15    Rolepoints
+A system of rewarding
+roleplay
+.
+4.16    Honours
+View public information about another.
+4.16.1  Consider
+The
+consider
+command.
+4.17    Might
+Comparative
+Might
+(in CONSIDER and
+HONOURS
+).
+4.18    History
+Compose
+a
+background
+and personal
+history
+.
+4.19    Exploration
+The
+Fellowship
+of
+Explorers
+.
+4.20    Stats
+Understanding character
+statistics
+.
+4.21    Names
+Good names in Achaea.
+4.21.1  Namegen
+The
+NAMEGEN
+command.
+4.22    Namechange
+The rules for changing your character's name.
+4.23    Rent
+Save
+or
+Rent
+, and
+inactivity
+in Achaea.
+4.24    Looting
+Looting
+corpses
+.
+4.25    Joining
+The
+things
+you can
+join
+!
+4.25.1  Joining a City
+Government, Economics, and
+Politics
+in One!
+4.25.2  Joining a House
+Houses
+- the powers behind the throne(s).
+4.25.3  Joining a Clan
+Orgs by the people, for the people.
+4.26    Licenses
+Crafters,
+Bookies
+, and
+Heralds
+, oh my!
+4.27    Adventures
+Complete
+adventures
+for
+renown
+and rewards!
+4.28    Your Kill Messages
+The
+KILLMESSAGE
+command!
+4.99    Retirement
+Retiring your character.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

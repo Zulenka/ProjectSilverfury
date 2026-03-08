@@ -1,0 +1,229 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.2 Saying things and Talking to others
+(See also:
+HELP EMOTIONS
+,
+HELP EMOTING
+,
+HELP EMOTIONLIST
+,
+HELP
+EXPRESSIVENESS
+)
+The various topics covered in here are:
+-
+SAY
+(', "),
+-
+Talking
+without Say (
+SCREAM
+,
+MUTTER
+,
+CHANT
+,
+SING
+,
+WHINE
+, and
+SNARL
+),
+-
+Languages
+,
+- Ask and
+Exclaim
+(?? and !!),
+- Talking to someone in particular (SAY TO),
+- Using SAYN
+-
+Language
+Rules
+Saying
+, ', and "
+----------------
+SAY - it's the main way people
+talk
+to
+other
+Achaeans in the same room. Just
+type SAY followed by
+anything
+, and you'll say it.
+If
+Aeyr
+types SAY Hi there! then everybody nearby will see:
+Aeyr
+says
+, "Hi there!"
+Both ' and " work just like SAY. There are other
+Achaean
+ways to talk that
+don't use SAY (such as WHINE), too; plus you can SAY
+something
+to one person;
+and you can use
+emoticons
+- keep
+reading
+to see how.
+Talking Without Say
+-------------------
+There are other ways to talk, like say, but different too. They are SCREAM,
+MUTTER, CHANT, SING, WHINE, WHISPER, and SNARL. Each one does something a
+little different. Try them and see.
+Saying and Language
+-------------------
+What you say is always spoken in one language or another. Most
+things
+you say
+will probably be in the language ACHAEAN, but there are many other
+possibilities. See
+HELP LANGUAGE
+, HELP THATS NOT ACHAEAN, and HELP MIDDLE
+ACHAEAN for some more
+ideas
+.
+Ask and Exclaim
+---------------
+ASK and EXCLAIM are variations on SAY which you get by using special
+punctuation
+. To EXCLAIM, use two exclamation
+marks
+(!!). To ASK, use two
+question
+marks (??).
+SAY Don't you see,
+Achaea
+is the greatest??
+SAY Achaea IS the greatest, and I am the greatest Achaean!!
+This is different than the ASK
+command
+. ASK <denizen>
+WARES
+is a special case
+where you use ASK to find out what a wandering merchant has for sale.
+Talking to Someone in Particular
+--------------------------------
+You can SAY something to someone (adventurer or
+denizen
+) this way:
+SAY TO AEYR How could Achaea exist without you?
+SCREAM AT AEYR How could Achaea exist without you?
+This works for most of the forms (SCREAM, MUTTER, etc).
+Talking to Someone Seated Near You
+-----------------------------------
+If you and a
+friend
+are seated together on a bench, as an example, you can use the command SAY TO SEATED. This will allow you to converse with those also seated nearby, while those still standing in the room will not hear your conversation.
+SAY TO SEATED Are you enjoying your
+tea
+?
+Using SAYN
+----------
+You can use SAYN if you want to start a sentence with 'TO' but don't want to direct your say at someone
+who
+may or may not be online. Note that this also works with SINGN.
+SAYN To be or not to be
+Talking in a Specific Language
+------------------------------
+You can use SAY to
+speak
+in your racial language this way:
+SAY *TSOL'AA speak to someone in tsol'aa.
+SAY *DEEPLY *TROLL to use expressiveness in your racial language.
+See
+HELP EXPRESSIVENESS
+for more info about altering how you say things.
+See
+HELP LANGUAGES
+for more info about racial languages.
+Punctuation
+-----------
+You don't have to end your SAY (or WHINE, or whatever) with punctuation, but
+you can. Use a . or a ? or a ! if you like.
+Watch What You Say
+------------------
+Achaea is full of many people from all parts of the
+world
+and all age
+groups
+,
+including very young people. Please be careful with what you say. To
+read
+more
+about our restrictions in this area, please see
+HELP LANGUAGE RULES
+.
+(See also:
+HELP EMOTIONS
+,
+HELP EMOTING
+,
+HELP EMOTIONLIST
+, HELP EXPRESSIVENESS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

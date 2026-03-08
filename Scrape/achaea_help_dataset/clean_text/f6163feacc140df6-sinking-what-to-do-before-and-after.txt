@@ -1,0 +1,210 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.16 Sinking - What to do Before and After
+Sinking
+can happen quickly (in
+combat
+), or slowly (via unrepaired
+decay
+, over
+time
+). Many
+things
+change when a
+ship
+sinks!
+What Happens
+------------
+Any adventurer on
+board
+will
+die
+a horrible
+death
+.
+Some, maybe even most, of your
+crew
+dies. That will cost you in
+lost
+morale and
+experience
+.
+The ship's strongbox may be emptied, the contents of the larder and the cargo
+hold
+may be lost.
+Ship's
+equipment
+will remain, such as the Cartographer's
+Desk
+,
+Beacon
+of
+Iocolas
+,
+Bait
+Tank
+, or any ship's
+weapons
+.
+How to Prepare
+--------------
+For adventurers: carry a Token of Charybdis. Use it BEFORE the ship goes down.
+For your crew: make sure you have a nice full token store for your crew. You
+can add to it by purchases at some
+harbours
+. All tokens will be tried, and
+all of them will work! Each token used will
+save
+a
+shipmate
+, crewmate, or
+swashbuckler
+who
+will then be available to continue
+service
+should you ever
+salvage
+your ship. Make sure you have enough for the entire crew.
+HARBOUR
+PROVISIONS will
+tell
+you if a given harbour sells crew tokens. To
+buy
+,
+HARBOUR PURCHASE <#> TOKENS PROVISIONS FOR <shipnumber>
+For your ship you may
+wish
+to
+hire
+a
+shipfitter
+to acquire a buoy for your
+ship. This item will
+assist
+in the retrieval of any cargo.
+What to do Afterward
+--------------------
+The owner is able to
+go
+to any of the manmade harbours and do HARBOUR SALVAGE
+<ship>. You will then have to pay a fee for the salvage job. The cost is
+determined by how far out to sea your ship is from that harbour. Once you have
+paid the harbour master to retrieve your ship you will just have to wait for
+them to recover your lost vessel from the bottom of the ocean, which could take
+several
+days
+to achieve.
+Running
+your own salvage operations requires the ship's crew to consist of a deckhand with salvageops. The ship also must be outfitted with a salvage crane. As long as you have all of these requirements proceed to the location of the ship wreck which can be located by scanning the depths. Once located, lower your anchor above the sunken ship. Then proceed with the salvage operation.
+Go
+refill
+your ship's larder, cargo hold, and token store as soon as possible!
+Upon sinking with a buoy, you will be able to retrieve all of your cargo from your ship if you return to the location where your ship went down and SHIP BUOY ACTIVATE <buoy>.
+This can only be done by the owner of the sunken ship, or someone with
+Command
+rank
+5
+. The entire cargo of the sunken ship will be transferred to the deck in a cargo box.
+When the previously sunken ship and a ship with its cargo box on deck are in the same harbour, SHIP CARGOBOX TRANSFER to return the cargo to its owner.
+SHIP BUOY LOCATE will give a buoy's ID, an approximate
+direction
+and distance, how many
+months
+remain on it, and which wreck it
+marks
+.
+This can be done by anyone who has captain
+permissions
+on the sunk ship at any time. When a buoy has less than
+2
+months remaining before it
+decays
+, anyone can locate it for dredging purposes.
+Dry Docks and Harbour Damage
+----------------------------
+Ships
+in
+drydock
+will be impervious to all harm, will not have any cost
+over time (either in
+gold
+or in stores), and will not count towards the number
+of available berths in a harbour. Any hired hands aboard will
+lose
+a very small
+amount of experience every
+Achaean
+day
+for as long as the ship remains
+drydocked.
+Ships can be drydocked in a manmade harbour by the ship's owner, or will be automatically placed there by the harbourmaster after two years of continuous docking at the harbour. HARBOUR DRYDOCK while in a harbour will list the related
+commands
+. This is NOT available in natural harbours.
+This same two year span affects the
+building
+damage taken by a ship left at harbour. Resetting this damage/
+drydocking
+timer will require either docking at a different harbour, or spending one third of an Achaean day at sea before re-docking at the same harbour.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

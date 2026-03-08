@@ -1,0 +1,144 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.11 POCKETBELTS
+There are currently two types of
+pocketbelts
+in the realms. One is modified
+for the carrying of
+vials
+. Which type of
+pocketbelt
+you have should be apparent
+when examining the item in
+question
+.
+Standard Pocketbelts
+--------------------
+Using pocketbelts, you may store a variety of
+plants
+and
+commodities
+in a safe
+and orderly manner. A pocketbelt may
+hold
+6
+types of items, and a maximum of
+250 of each of those types.
+To use a pocketbelt, first purchase one (or more) and then use the
+following
+:
+INB [<amount>|ALL] <item>
+This will find a
+pocket
+containing the given type of item (or an
+empty one if there is none) and place them in the pocket for
+safe-keeping. If no amount is specified, it will use the first
+item found (if a
+grouping
+item, then the entire
+group
+).
+OUTB [<amount>|ALL] <item>
+This will take a number of the items out of a pocket of one of your
+pocketbelts (only if you've put some there to begin with). If no amount
+is specified, the default is take out only a single item.
+Also of note is that pocketbelts do not work exactly like the
+rift
+does.
+With a rift you can do for instance outr all
+ink
+. With a pocketbelt you
+must OUTB exactly what the item is. Doing OUTB INK will not work, instead
+use OUTB RED INK.
+BELTLIST
+-or-
+BL
+Take a quick
+inventory
+of all your currently held pocketbelts.
+You can also specify precisely which belt you would like to use by doing:
+INB [<amount>|ALL] <item> INTO <pocketbelt>
+-or-
+OUTB [<amount>|ALL] <item> FROM <pocketbelt>
+It should be noted that pocketbelts do
+decay
+with
+time
+along with all their
+contents. See
+HELP RIFT
+for a better storage option.
+Modified Pocketbelts
+--------------------
+Sold by Tinker Drucker, these pocketbelts have been modified to allow the wearer
+to carry vials and pocketflasks, while still keeping them close at hand. You may
+freely SIP from a modified pocketbelt's contents, and interact with it as you
+would with any
+other
+container
+. Unlike standard pocketbelts, the contents of the
+modified pocketbelt do not decay with the belt, instead returning to your
+inventory.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

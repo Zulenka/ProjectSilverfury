@@ -1,0 +1,217 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.16 GUIDES
+(See
+HELP NAMES
+,
+HELP
+NEWBIE
+QUESTS
+)
+Guides
+exist solely to help
+newbies
+, having been created before
+time
+was
+counted (
+HONOURS
+ROMEO
+, HONOURS
+JULIET
+) for that purpose alone.
+The guides are Romeo and Juliet. These are not good
+names
+for regular
+adventurers (see
+HELP NAMES
+for why) - but Romeo and Juliet are
+anything
+but
+regular - they are VERY special adventurers indeed. Their purpose is to be
+available to our newbies and to help answer their
+questions
+. So we have chosen
+rather more easily recognisable names for them.
+If you have enabled
+ANSI
+(see HELP ANSI) and you enter
+QW
+(for a "Quick Who"
+list), then the GUIDES will
+show
+up in a different colour (probably bright
+yellow).
+If you are a newbie, feel free to call on them for help whenever you need to,
+either by
+speaking
+on the newbie
+channel
+or by asking them directly via
+tell
+.
+How to contact the Guides
+-------------------------
+* Use Newbie! Just type NEWBIE I'm
+looking
+at Fergil - am I in
+Lodi
+?
+(Or NEWBIE <whatever-you-want-to-ask>)
+*
+Talk
+to Romeo or Juliet directly and privately via
+tells
+. For example:
+TELL ROMEO Could you direct
+me
+to Lodi please? (or TELL JULIET ... ).
+Things
+the Guides can do for you
+--------------------------------
+* Help you select a new
+name
+proper for
+Achaea
+(see HELP
+NAMECHANGE
+).
+* Give you
+ideas
+about how to play in Achaea.
+* Give you hints about a few of the quests in
+Minia
+or Lodi.
+Things the Guides should NOT do for you
+---------------------------------------
+* Help you understand your
+class
+skills
+or
+abilities
+. Please ask
+others
+in
+your class, or members of your
+city
+or
+House
+for help with this.
+* Solve quests for you (except for those mentioned in HELP NEWBIE QUESTS).
+Sharing
+information about quests is strongly discouraged (see HELP QUESTS).
+* Contact
+immortals
+for you. Guides are not messengers, or liaisons with
+the
+Gods
+. Please do not ask them to contact
+other
+immortals for you.
+If you need to contact an
+immortal
+, use
+ISSUE
+ME.
+If you are not a newbie, this is especially important. Do not ask for
+help finding someone to make your wedding official. Romeo and Juliet have
+been instructed to
+ignore
+all such requests. ISSUE ME and make your
+request there.
+But But! You Really NEED To KNOW
+Something
+------------------------------------------
+You keep asking a
+Guide
+(Romeo or Juliet) a
+question
+, and that blasted
+person never gives you a straight answer. Now what do you do?
+That's probably because the question you are asking is
+ooc
+- out of
+character
+(see HELP OOC). In that case, you should probably either try to find out by
+private means, meaning tells or
+messages
+with others
+who
+are clearly willing to
+be out of character with you, or you should avail yourself of our excellent
+HELP
+system
+, for which there is help on almost
+everything
+- both figuratively
+and literally! Yes, it's all there.
+Failing
+in all that, as a last resort, you could always use the
+ISSUE system to make an inquiry. That would probably be in the
+form of ISSUE ME (your question here).
+(See
+HELP NAMES
+, HELP NEWBIE QUESTS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

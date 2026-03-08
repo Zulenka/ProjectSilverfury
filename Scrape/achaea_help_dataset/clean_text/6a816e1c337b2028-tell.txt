@@ -1,0 +1,172 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.3 THE TELL & THINK COMMANDS
+(See also:
+CONFIG
+NAMETELLS
+, CONFIG
+ALLOWTELLS
+,
+EXPRESSIVENESS
+)
+Tells
+are a way to privately
+communicate
+with
+other
+online adventurers. To
+speak
+to someone in this manner, the
+syntax
+is:
+TELL
+<adventurer> <whatever>
+For instance:
+tell gawain Why don't Dwarven women shave more often? They really could use it.
+TELL <adventurer> *<language> <message>
+- This will send a single tell in the specified
+language
+as long as you are
+able to speak it.
+REPLY <message>
+- This will send a tell to the last person that sent you a tell.
+RETELL/RT <message>
+- This will send a tell to the last person you sent a tell to.
+Abbreviations
+OK
+----------------
+You may
+abbreviate
+tells by simply typing all or part of the adventurer's
+name
+,
+followed by what you
+wish
+to tell them, assuming you have used CONFIG NAMETELLS
+ON. For instance:
+gawa Why don't dwarven women shave more often? They really could use it.
+Or, if you don't have CONFIG NAMETELLS ON, then you can abbreviate this way:
+tell gawa Why don't dwarven men bathe more often? They really could use it.
+Abbreviations Could Mean Trouble
+--------------------------------
+What if you tried TELL CAIN Hello, but CAINE got the tell? Whoops! This can
+happen, since abbreviations are possible, as noted above. There is a solution!
+See the next section.
+Forcing an exact match
+----------------------
+As a final option, if you use TELL <name> <message>, you may specify that the
+name must match exactly, and that you are absolutely not abbreviating.
+To do so - TELL <name>. <message>
+For example:
+tell
+maya
+. This will
+go
+to Maya, but not Mayapple, no matter what!
+Get it? Good!
+Don't wish to receive tells at all? Type TELLSOFF. TELLSON to turn them back
+on.
+Altering How Your Tells Sound
+-----------------------------
+See
+HELP EXPRESSIVENESS
+to find out how you can use either
+emoticons
+or
+free-form
+adverbs
+to change how your tells sound to other people.
+Tell
+History
+------------
+You can check the history of tells that you have sent and received using the
+TELLS
+command
+.  This will list a brief list of the last fifty tells. You
+should use SHOWTELL (#) to see the full
+message
+of a specific tell.
+You can search the TELLS history with TELLS <parameter>
+You can also reverse the list by using TELLS R[EVERSE].
+And search the reversed tells list with TELLS R <parameter>!
+(See also: CONFIG NAMETELLS and CONFIG ALLOWTELLS)
+Thinking
+--------
+Semi related to telepathic
+communication
+is the
+THINK
+command.
+THINK <thoughts> and those
+who
+have a lock upon your mind, those who bear
+the helm of
+telepathy
+in your location, and those of a
+Divine
+disposition
+will be able to hear your thoughts.
+You think in your racial language.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,139 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.2.3 The PORTALS command
+(See
+HELP
+LANDMARKS
+)
+This is a
+command
+available only to
+newbies
+. By typing
+PORTALS
+, you will be
+transported to a special place by the benevolence of the
+Gods
+. This is also
+sometimes called a '
+Godly
+Rescue
+.' This special place cannot be reached by
+walking
+or
+flying
+or tunneling, and is unreachable for players
+level
+21 or
+over, or players that have used up their PORTALS. Type
+STAT
+. You'll see
+A) you are allowed to use the PORTALS command
+(which means you still have unlimited PORTALS), or
+B) You have (some number of) 'Godly Rescues' left.
+During your first 10
+levels
+of life in
+Achaea
+, you have unlimited use of
+the PORTALS command. Starting at level 11, you are permitted 20 more uses
+of the command. Starting at level 21, you will no longer have access to
+the PORTALS command, even if you didn't use up your previous allotment.
+*NOTE*
+Going
+to level 12 and dropping to 10 does not restore unlimited portals,
+nor does dropping below level 21 restore
+portal
+uses.
+Once you have risen past level 10 to level 11, you will never more have
+unlimited portals, even if you return to or below level 10.
+MOVING
+WITHOUT PORTALS
+----------------------
+IN
+MINIA
+: Find the
+dragon
+Auma
+(NE from the archway to Minia) and
+say
+,
+"Take
+me
+to
+Lodi
+please." or "Take me to
+Gheladan
+please."
+IN LODI: Find the dragon
+Poraeus
+at the entrance to Lodi and say,
+"Take me to Minia please." or "Take me to Gheladan please."
+IN GHELADAN: Find the dragon
+Lasuna
+at the entrance to Gheladan and say, "Take
+me to Minia please." or "Take me to Lodi please."
+(See HELP LANDMARKS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

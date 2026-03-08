@@ -1,0 +1,136 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.3.1 QUIZZES
+A
+Quiz
+is a formal
+event
+that involves a Grand
+Inquisitor
+asking
+questions
+of
+all those present, and awarding points to those
+who
+answer correctly. When a
+quiz is initiated, all in the land will receive a
+message
+, and typing
+JOIN
+QUIZ
+will take you to the Inquisition Chamber, where
+quizzes
+take place.
+Once there, the Grand Inquisitor will add you to the quiz. Typing QUIZSTATUS
+will
+show
+you the
+other
+quiz participants and how many points each participant
+has.
+Before asking a
+question
+, the Inquisitor will set a
+point
+value for that
+question. If you get the answer correct, this is how many points you will
+receive. Once the Inquisitor asks the question, he will generally set a timer
+going
+. When the timer runs out, no more answers may be given. In order to
+answer, type AN <your answer>. If you forget what the question was, typing
+WHATQ will show you.
+A few quick notes on answering questions. Firstly, never
+say
+the answer aloud.
+If you do so, you will be removed from the quiz! Secondly, spelling and
+punctuation
+matter, capitalisation does not. So if the answer to a question was
+"tsol'aa", TSOL'AA and tsol'aa would be fine, tsolaa and tsola'a would not.
+Thirdly, the number of words in the answer will usually be given in the
+question. Fourthly, if there is a question that requires a list in the answer,
+do not use
+commas
+and stick to the order requested. These can occasionally
+change from quiz to quiz, but the Inquisitor will generally
+go
+over them
+beforehand.
+When the timer has
+run
+out, the Inquisitor will
+look
+at the answers and
+determine who is right and who is wrong, awarding the appropriate amount of
+points to those who are correct. Once the timer is up, you may type ANSWERS to
+see what
+others
+have answered.
+Summary:
+JOIN QUIZ           : Sends you to the Inquisition Chamber.
+AN/ANSWER <answer>  : Gives an answer to a question.
+WHATQ/WHATQUESTION  : See what the current question is.
+ANSWERS             : See a list of the answers that people have given.
+QUIZSTATUS          : See a list of competitors and their scores.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

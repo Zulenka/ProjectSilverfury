@@ -1,0 +1,195 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.7 Seafaring Talisman
+The "Seafaring"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Trading
+between players (pieces only)
+- Completing
+Voyages
+!
+The
+Seafaring
+set contains the following talismans:
+---------------------------------------------------
+An empty
+smoke
+flare                     - TALISMAN INFO
+SMOKEFLARE
+- Load this flare up with red
+ink
+and
+LIGHT
+FLARE to send a plume of red
+smoke up on the
+seas
+.
+A frosted pail of pitch                  - TALISMAN INFO
+FROSTPAIL
+- Usable once every 24
+hours
+, this pail will transform the
+description
+of
+one of your ship's rooms to take on an icy aspect.
+A neatly-appointed pail of pitch         - TALISMAN INFO
+NEATPAIL
+- Usable once every 24 hours, this pail will transform the description of
+one of your ship's rooms to take on an meticulously clean aspect.
+An overgrown pail of pitch               - TALISMAN INFO
+SEAWEEDPAIL
+- Usable once every 24 hours, this pail will transform the description of
+one of your ship's rooms to take on an seaweed-covered aspect.
+A scintillating pair of cascading wings  - TALISMAN INFO
+ISLANDWINGS
+- These wings are enchanted to take you to a special clouds room with
+exits
+to Shala Khulia,
+Polyargos
+,
+Mysia
+,
+Ulangi
+,
+Minos
+,
+Eirenwaar
+,
+Tasur'ke, and shipwrecks in the Tears of
+Sarapis
+.
+A Shipwright's union
+chit
+- TALISMAN INFO
+SHIPCHIT
+- This chit completely covers the cost of your next
+shipfitting
+upgrade/creation.
+- The chit is consumed on use.
+A polished green bottle                  - TALISMAN INFO
+GLASSBOTTLE
+- Place a
+seamonster
+trophy inside this bottle and it will be transformed
+into a themed item with
+descriptions
+and
+reactions
+befitting the
+seamonster the trophy came from.
+A cargo crate of clovers                 - TALISMAN INFO
+CLOVERBOX
+- DROP this crate while on the quarterdeck of your
+ship
+to increase the
+rate at which your
+denizen
+crew
+gains
+experience
+for 24 hours.
+An etched and lacquered plaque           - TALISMAN INFO
+XPPLAQUE
+- DROP this plaque on the quarterdeck of your ship to increase the
+experience rewards from
+seamonsters
+for adventurers.
+A figurine of Captain
+Maelstrom
+- TALISMAN INFO MAELSTROM
+- Battle all
+challengers
+with the salty Captain Maelstrom battle figurine.
+A stylised ocean
+map
+- TALISMAN INFO
+MONSTERMAP
+-
+READing
+this map will give you a heading and approximate distance to
+the nearest zone in which seamonsters have been sighted. This item
+will
+decay
+in 10
+Achaean
+months
+after being assembled.
+Note: The crossbow of coconut lumber has been removed from this set and is
+no longer available.
+Any remaining pieces should
+tradein
+for 50
+bound
+cr.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

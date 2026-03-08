@@ -1,0 +1,155 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.23.2 Placing furniture
+(See
+HELP
+FURNISHING
+)
+** warning: this is not about how to put furniture in a room, or locate it somewhere, or drop it. To drop furniture into a location, please refer to
+HELP FURNISHING
+.
+Some limited
+combinations
+of furniture
+pieces
+may be placed near each
+other
+to make more pleasing arrangements. Just PLACE your item near some other item, or near
+NOTHING
+, and you're off and
+running
+!
+Who
+may place
+-------------
+For personal furniture, in a private home, the owner only may place.
+For organisational furniture -
+-
+houses
+:
+house
+leader only.
+-
+cities
+: officeholders.
+-
+orders
+: those who have privilege to erect
+shrines
+.
+Commands
+--------
+PLACE <furnitureitem> NEAR <otherfurnitureitem>
+PLACE <furnitureitem> NEAR NOTHING
+Details
+-------
+You may place as many items as you want near a single other item. So A and B and C and D can all be placed near Z.
+To clear a
+placement
+, just PLACE item NEAR NOTHING.
+Meanings
+--------
+Only some combinations are currently
+defined
+, as listed below. For example, when you place a table near a tapestry, it will appear to be 'sitting beneath' that tapestry. Or when a table is placed near a rug, then it will appear to be 'sitting upon' that rug.
+Placing
+appears as           Near
+--------------  -------------------  --------------
+ottoman         sitting in front of  chair
+ottoman         sitting in front of  couch
+ottoman         sitting before       throne
+bench           sitting behind
+desk
+chair           sitting behind       desk
+stool           sitting behind       desk
+rocker          sitting behind       desk
+bench           sitting close by     couch
+chair           sitting close by     couch
+rocker          sitting close by     couch
+stool           sitting close by     couch
+table           sitting near         couch
+bench           sitting beneath      tapestry
+chair           sitting beneath      tapestry
+rocker          sitting beneath      tapestry
+stool           sitting beneath      tapestry
+table           sitting beneath      tapestry
+throne          sitting beneath      tapestry
+sheets          spread out on        **non-material
+blanket         spread out on        **non-material
+runner
+spread out on        **non-material
+basket          sitting beside       armoire
+basket          sitting beside       cabinet
+basket          sitting beside       couch
+basket          sitting beside       chest
+basket          sitting beside       desk
+basket          sitting beside       dresser
+basket          sitting beside       table
+**non-material  sitting upon         rug
+(** non-material means
+anything
+but rug/sheets/blanket/tapestry/runner)
+(See HELP FURNISHING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

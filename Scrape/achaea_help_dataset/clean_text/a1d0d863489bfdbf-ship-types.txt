@@ -1,0 +1,159 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.9 Ship Types
+(See also:
+HELP COMPASS
+,
+HELP CREW
+,
+HELP SAILING
+, HELP SHIP COMMAND,
+HELP SHIP REPAIR,
+HELP SHIPS
+)
+Three types of
+ships
+are currently available to adventurers:
+1. The Thalassian Seastrider can be commissioned through Captain
+Maelstrom
+in a hidden port in Tasur'ke.
+The cost of a Thalassian seastrider is:
+1,250,000
+gold
+sovereigns
+, 200 pitch, 400 shipwood, 400 shipiron,
+300 shiplines, and 300 shipcloth.
+2
+. The Windcutter is a smaller, nimbler
+ship
+able to turn more
+quickly than the Seastrider. This ship has less deck space and a
+smaller room for
+cabin
+expansions
+, and a bit less
+speed
+running
+before the
+wind
+.
+For its disadvantages the Windcutter is available for:
+625,000 gold sovereigns, 100 pitch, 200 shipwood, 200 shipiron,
+150 shiplines, 150 shipcloth.
+To commission one of these you should seek out Shipwright Hawkins
+in the Eastern Shore.
+3
+. The
+War
+Galley is a large ship in all respects that can accommodate
+far greater amounts of
+weaponry
+, has a higher top speed, and
+catches more wind in its
+sails
+.
+Bring him 2,500,000 gold, 400 pitch, 800 shipwood, 800 shipiron,
+600 shiplines, 600 shipcloth and Scurvy Jim at the Port of
+Mysia
+will deliver a ship much stronger than the
+other
+available types.
+Note:
+Commodity
+costs are optional and may be offset by paying extra gold at the
+harbour
+in
+question
+.
+Thalassian
+War Galley  Seastrider   Windcutter
+Size                Large       Medium       Small
+Crew
+Barebones        4            2            1
+Crew Low              8
+5
+2
+Crew Basic           32           20            8
+Crew Normal*         44           30           12
+Crew Large**         56           40           16
+Crew Huge***         70           60           24
+Weapons
+Limits
+6
+(any)      3 (any)      1 (must be Arcanian Arm)
+*   = measurable increase in the rate at which the crew operates.
+**  = substantial increase in the rate at which the crew operates.
+*** = maximum increase in the rate at which the crew operates.
+(See also:
+HELP COMPASS
+,
+HELP CREW
+,
+HELP SAILING
+, HELP SHIP COMMAND,
+HELP SHIP REPAIR,
+HELP SHIPS
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

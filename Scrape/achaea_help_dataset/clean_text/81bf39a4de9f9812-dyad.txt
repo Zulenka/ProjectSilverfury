@@ -1,0 +1,147 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.14 Voting and DYAD
+I. How to
+vote
+on Topmudsites.
+II
+. Why vote?
+III. Reminding yourself to vote.
+IV. Making it easy to vote from your phone (iOS or
+Android
+)
+V.
+Voting
+on Mudconnector's top list
+I. How to vote
+---------------
+1. In your browser
+go
+to http://www.
+achaea
+.com/vote
+2
+. Click on the 'Click Here To Enter' box. If you don't click on that box, the vote won't count, even if Achaea thanks you for voting. (We have no way to
+tell
+if you click the box.)
+* You can vote every 12
+hours
+. To be sure you're getting two
+votes
+counted a
+day
+, it's ideally best to vote about every 8 hours.
+* If you have multiple people in your household voting be aware that duplicate votes from the same wifi network don't count.
+* However, note that voting via cell signal and a wi-fi network separately will both count, which is one way of dealing with the above.
+* Same with votes from different wifi networks. Each wifi network can be used to vote twice per day.
+* It's one vote per 12 hours per network/cell signal, not per game. In
+other
+words, Topmudsites won't let you vote from the same network for different
+games
+with 12 hours. It'll just
+ignore
+the votes after the first one.
+II. Why vote?
+-------
+Voting for Achaea on Topmudsites.com and, to a lesser extent, other voting sites helps us get more exposure and therefore more new players, which we all want.
+In case you're wondering about
+DYAD
+- we use the term "DYAD" for "Do
+Your
+Achaean
+Duty" as a way to
+say
+"please, go vote for Achaea."
+III. Reminding yourself to vote
+-------------------------------
+CONFIG
+VOTING ON.
+This will cause you to be notified when you're connected to Achaea from a network that hasn't had a vote to any of the Iron Realms games from it in the last 12 hours. Just go to achaea.com/vote and vote when it reminds you please!
+You may type VOTED in case you voted and it didn't
+register
+for some reason. Or
+to disable the
+reminder
+altogether, type CONFIG VOTING OFF.
+IV. Making it easy to vote from your phone
+------------------------------------------
+iPhone:
+* Go to achaea.com/vote with your browser.
+* Click the 'share' button (the little square with an
+arrow
+pointing up).
+* Select 'Add to Home Screen' from the bottom row of options.
+Android:
+* Go to achaea.com/vote with your browser.
+* Click on the three little dots/hamburger menu in the upper right.
+* Select 'Add to Home Screen'
+Now when you want to vote, just tap that icon on your home screen, then tap the "Vote for this site and enter" square. Boom, you just voted with two taps!
+Remember that your phone can be used to vote twice a day from any wifi network and your cell signal.
+V. Voting on Mudconnector's top list
+------------------------------------
+There's also another list you can vote for us on that's not nearly as useful, but doesn't hurt either. This is the Mudconnector top list, and you can vote for us here:
+http://achaea.com/tmcvote
+Note that in order to vote for TMC, you have to create an account and be logged in to vote. You can see why it's not as useful of a voting list, though once you create an account it's simple enough.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,353 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.11 Races Talismans
+The "Races"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The
+Races
+set contains the following talismans:
+-----------------------------------------------
+A dwarven
+lodestone
+- TALISMAN INFO LODESTONE
+- Purchasable in
+Delos
+for 300
+bound
+credits
+.
+- DROPping this lodestone in a mine you own will cause all miners in that mine to have increased
+experience
+gain.
+- This does not
+apply
+to soldiers, only to miners.
+- A mine can only have one lodestone in it at a
+time
+and said lodestone will be returned to the owner once that mine collapses.
+- Themed for dwarves.
+A shamanistic
+rattle
+- TALISMAN INFO RATTLE
+- Purchasable in Delos for 400 bound credits.
+- This rattle gives one a limited amount of
+control
+over the
+weather
+.
+- Simply by SHAKEing RATTLE, a random weather effect will take place.
+- These range from rainstorms, to conjured snowstorms, to the very rare (and best avoided) lightning strikes.
+- Themed after the atavian
+race
+.
+A collapsible
+catapult
+- TALISMAN INFO CATAPULT
+- Purchasable in Delos for 900 bound credits.
+- These marvels of siege
+weaponry
+were popularly used by the legendary Mercenaries of Arn.
+- SETUP CATAPULT will set this
+weapon
+up in a room.
+- Then anyone may ENTER CATAPULT to climb into the basket, at which
+point
+the owner may
+FIRE
+CATAPULT <direction>, launching that person in the given
+direction
+.
+- Where they come down is completely random (and is sure to be unpleasant for your wayward volunteer), but it is based on the area of the direction you fire in.
+-
+Think
+of the possibilities!
+- If you've ever struggled to infiltrate
+enemy
+cities
+, you can now do it in
+style
+.
+- This talisman is themed for the troll race.
+A blood daubed
+cloth
+of whispers   - TALISMAN INFO
+WHISPERCLOTH
+- This item is not available in the Delosian talisman shop.
+- When wearing this cloth, the next time you slay an adventurer there will be absolutely no deathsight.
+- This cloth is only good for one use an
+hour
+.
+- Themed for the rajamala race.
+A demolition sphere                - TALISMAN INFO
+DEMOLITIONSPHERE
+- Purchasable in Delos for 800 bound credits.
+- ACTIVATE SPHERE to destroy all ice, stone, and lightwalls in a location.
+- These spheres have five
+charges
+and
+regenerate
+one charge per hour.
+- Note: this is not per
+Achaean
+day
+, the timer starts from when you ACTIVATE the sphere.
+- Themed for the mhun race.
+A
+piece
+of horkval
+chitin
+- TALISMAN INFO CHITIN
+- Purchasable in Delos for 500 bound credits.
+- This fragment of chitin will allow you to tap into a hivemind, granting the
+ability
+to siphon your
+endurance
+to another adventurer.
+- HIVE SIPHON <amount> TO <person>.
+- If the person you are siphoning to also has the talisman, there is no loss of endurance in the transfer.
+- If they do not, there is a 25% loss of endurance in the transfer.
+- Naturally, themed for the horkval race.
+A flattened
+frogskin
+- TALISMAN INFO FROGSKIN
+- Purchasable in Delos for 1200 bound credits.
+- This somewhat odd collectable allows one to FORM BUBBLE when underwater.
+- This will create a bubble around that person, granting the racial
+regeneration
+that grooks enjoy.
+- For as long as the bubble is present, it will also act as if you are in a water body for the purposes of said regeneration.
+- However, if your
+health
+dips below half, the bubble will burst, and you will need to return to an underwater location to re-establish it.
+- Themed for the grook race.
+A pernicious pair of Dala'myrr claws - TALISMAN INFO
+DALAMYRRCLAWS
+- This item is not available in the Delosian talisman shop.
+- These deadly claws function similarly to wolverine claws in that they grant the ability to
+burrow
+.
+- However, they have different tunnelling
+messages
+, and upon burrowing below and above, rubble will be created in the entry and
+exit
+rooms, blocking a random exit.
+- Themed for the xoran race.
+Bottled siren song                 - TALISMAN INFO
+SIRENSONG
+- Purchasable in Delos for 700 bound credits.
+- OPEN BOTTLE and all in your current location will cease to
+consider
+you a personal enemy.
+- Additionally, they will be unable to re-enemy you for a short time.
+- OPENing comes with a cooldown.
+- Themed for the siren race.
+Crystalline
+panpipes
+- TALISMAN INFO PANPIPES
+- Purchasable in Delos for 600 bound credits.
+- These mysterious panpipes allow one to PLAY PANPIPES <dream>.
+- All in your location will then see that dream when they next
+sleep
+, in place of the first dream they would normally see.
+- In addition, hearing these panpipes conveys a sleep style effect, stripping
+insomnia
+if present and inducing sleep if it is not.
+- Themed for the satyr race.
+An arachnid's
+eye
+- TALISMAN INFO
+ARACHNIDEYE
+- Purchasable in Delos for 300 bound credits.
+- The spider
+mounts
+of the ancient Tsol warriors were ferocious in battle.
+- FEED <eye> TO <mount> and you can imbue a
+mount
+with a fragment of said potency.
+- A mount that has been fed an eye will gain the ability to TRAMPLE <target>, a targeted single person
+attack
+that shall break two random limbs on a
+target
+and deal some damage.
+- This does not require the target to be prone like standard trample, but does require you to possess the TRAMPLE ability in
+Riding
+to utilise.
+- Note: this item is consumed on use.
+- Themed for the Tsol races.
+A figurine of the suffering
+Maya
+- TALISMAN INFO
+MAYAFIGURINE
+- Purchasable in Delos for 2500 bound credits.
+- This figurine of the mother of humanity conveys the ability to store the damage from
+world
+-shattering or
+plane
+-razing
+critical
+hits, allowing you to transfer that damage over to the next target you strike (providing you do so swiftly).
+- Note: this will not allow you to transfer the damage if you
+attempt
+to strike an uncrittable
+denizen
+with said transfer prepared.
+- Themed for the human race.
+A tincture of Soulbleed -
+- Purchasable in Delos for 1500 bound credits.
+- Themed for the
+undead
+race, DRINK from this tincture and for the next five
+minutes
+,
+denizens
+of the
+Underworld
+or
+Azdun
+will
+ignore
+you in much the same way as a translucent mask.
+- Carries a one hour cooldown.
+An armoured brace of the Kelstaad -
+- Purchasable in Delos for 450 bound credits.
+- Themed for the tash'la race, when you
+tumble
+into a room, someone in that room will be knocked prone if they are not already.
+- Does not fire in rooms with retardation.
+An iridescent rose
+- Purchasable in Delos for 500 bound credits.
+- Themed for the fayad race, you may
+WISH
+FOR KNOWLEDGE in a forest room and
+learn
+the number of living and dead players in
+Annwyn
+.
+A jagged black rock
+- Purchasable in Delos for 2000 bound credits.
+- Themed for the Tsol'teth race, simply SIPHON <corpse> using a player
+corpse
+and gain their racial
+traits
+for thirty minutes or until you next
+die
+, whichever is sooner.
+- This carries a cooldown of one hour and does not work on restricted races (those which cannot be created as a new
+character
+).
+A double headed coin
+- This item is not available in the Delosian talisman shop.
+- Themed for the Aldar, this is the reward for completing the entire Races talisman set.
+- FLIP this coin at a target and for the next 35
+seconds
+, they will consider all members of their race to be an enemy.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the races set you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is
+2
+/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

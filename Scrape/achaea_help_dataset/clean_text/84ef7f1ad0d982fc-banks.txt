@@ -1,0 +1,201 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.15 BANKING AND BANKS
+Keeping your valuable golden
+sovereigns
+in your hands is not always the wisest
+course of action. While
+leaving
+the realms will not cause you to
+lose
+the
+gold
+in your hands (see
+HELP
+GOLD), there are
+other
+ways in which gold may be
+lost
+.
+Certain
+abilities
+possessed by adventurers may force you to hand over gold, and
+dying
+will cause you to drop it as well. Keeping your gold in a backpack is
+certainly safer, but for true safety, the place to keep your gold is in a
+bank
+.
+You may also donate
+credits
+to a
+city
+or
+House
+at a bank.
+In order to use a bank, you must first find a branch of a bank.
+Banks
+can be
+found in each of the major
+cities
+:
+Ashtan
+,
+Hashan
+,
+Cyrene
+,
+Mhaldor
+,
+Targossas
+,
+and
+Eleusis
+. You can also find a bank in the southeast of the
+island
+of
+Delos
+.
+Once there, you may
+DEPOSIT
+<however many golden sovereigns>, provided you are
+holding
+that many in your hands.
+WITHDRAW
+<amount of gold> will withdraw gold
+from your account. For other options, check the
+Commands
+section below.
+To provide an optional reason on deposits and transfers, you must be working
+with an amount greater than 1000 gold sovereigns otherwise the clerk will not
+make any such
+log
+recording (though the transfer/deposit will still be made).
+Fees
+----
+Banks will exact a 0.
+5
+% (
+2
+% for Delos) withdrawal fee every
+time
+you withdraw
+or transfer gold. The fee will always be at least 1 gold.
+Multiple Accounts
+-----------------
+If you have wealth rivaling
+Prospero
+, you may have spread your accounts among
+various banks.
+BANKACCOUNTS
+will
+show
+you a listing of your various accounts,
+as well as how much gold you have in them. These are all separate accounts, and
+have
+nothing
+to do with each other.
+Personal
+Banking
+Commands
+-------------------------
+BANKACCOUNTS
+Displays the current amounts you have deposited in the various banks.
+BANK TRANSFER <amount> GOLD TO <person> <bank>
+Stand in the bank where your gold is.
+Moves
+money
+between your two
+accounts. E.g. BANK TRANSFER 1000 GOLD TO ELENTARI HASHAN.
+BANK TRANSFER <amount> GOLD <organisation> <bank>
+Stand in the bank where your gold is. Moves money between the two
+accounts. E.g. BANK TRANSFER 1000 GOLD CIJ ASHTAN.
+DEPOSIT <amount> GOLD
+Deposits the amount specified into your bank account.
+DEPOSIT <amount> GOLD TO person
+Deposits the amount into someone else's bank account.
+DEPOSIT <amount> GOLD|CREDITS <organisation> <optional reason>
+Deposits the amount of gold into the account of the
+city/house/order/
+clan
+etc.
+WITHDRAW <amount>
+Withdraws the amount of gold specified from your account.
+Minus the 0.5% withdrawal fee.
+WITHDRAW <amount> <organisation> <position> [reason]
+Withdraws the amount of gold specified from the account of the
+house/order/clan etc minus the 0.5% withdrawal fee.
+BANKFEES <amount>
+Gives an approximate amount for the fee associated with
+withdrawing the specified amount from your bank account.
+NOTE: This is an approximate only.
+Banks are located in all of the adventurer-
+run
+cities, and in Delos.
+For City Coffers please
+speak
+to your
+Treasurer
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

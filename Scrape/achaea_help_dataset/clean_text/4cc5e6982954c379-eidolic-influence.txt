@@ -1,0 +1,149 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.8.1 Eidolic Influence
+With the findings of Tatynne and O'ising now at large, the
+cities
+of
+Achaea
+can separate the
+spirit
+from their
+Guardian
+Eidolons and send this spirit forth into the
+world
+to
+claim
+territory
+and spread their ethos across the land!
+Most territory
+claiming
+will be a hostile act, but claiming areas that are allied to your
+city
+is considered a protection rather than a hostile incursion. Claimed territories can be challenged and conquered by
+other
+cities with an adjacent claim, or by
+liberation
+forces with a raid
+tank
+.
+Expect areas to change when they are occupied! Occupation will be evident in every room and the little girl in
+Jaru
+may not be very concerned about her
+lost
+kitten if
+Mhaldor
+has her village in thrall!
+Conquest
+, protection, and liberation will all generate the spirit resource, this can be spent by the city leader on a whole variety of rewards and bonuses (some rewards will be gated by the number of areas conquered) for your city! City leaders can also create political
+DOCTRINES
+in order to earn bonus spirit!
+The first step to conquering or protecting an area is summoning the spirit of the city guardian.
+Summoning the spirit then also sets your Eidolic Phase, which is a re-occuring
+time
+span (default
+2
+OOC
+hours
+, but minorly configurable in the city's
+doctrine
+-
+HELP
+DOCTRINE) that begins when a city guardian spirit is summoned. This will be telegraphed to all of Achaea at the moment of spirit summoning.
+Spiritual phases flip by 12 hours each real-life
+day
+. So if your phase is 0
+GMT
+on Monday, on Tuesday it will be 12 PM, then back to 0 GMT on Wednesday.
+During this phase, the city can direct the guardian spirit to claim an adjacent area.
+The Eidolic phase can be changed by RELINQUISHing any controlled territory and releasing your spirit guardian, by
+losing
+all held territories and having your spirit guardian banished, or by using CITY SPIRIT CORPOREALISE.
+This phase only determines your conquest activity; it does not affect the conquest
+challenges
+of
+others
+!
+CITY SPIRIT CORPOREALISE
+- This resets your phase and banishes your guardian, but you keep your territory.
+- This costs half of your current spirit reserves to use.
+- This has a 24-
+hour
+windup, the same as RELINQUISH, during which time you will be unable to request a
+beacon
+.
+- Using this
+command
+means that the spirit of your Guardian will need to be resummoned from scratch if you
+wish
+to venture forth again.
+CITY SPIRIT RELINQUISH
+- This will cost all of your accumulated spirit.
+- At your next Eidolic Phase your spirit will return to its corporeal form and all conquered areas will be relinquished.
+- This command can only be executed by the City Leader in the
+War
+room.
+- Using this command means that the spirit of your Guardian will need to be resummoned from scratch if you wish to venture forth again.
+If you regret your decision to relinquish/corporealise your Guardian's Spirit and it has not yet completed, you can use CITY SPIRIT CORPOREALISE/RELINQUISH CANCEL to change your mind. You cannot use this command if the process has already completed.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

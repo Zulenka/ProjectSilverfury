@@ -1,0 +1,162 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.2 Dates and the date command - Achaean and other-worldly
+(See also
+HELP CALENDAR
+,
+HELP
+REMINDERS
+)
+DATE
+----
+To see the current date in
+Achaea
+, simply type DATE. The result will
+show
+the
+day
+of the
+month
+,
+Achaean
+month, and year after the fall of the
+Seleucarian
+empire.
+This date
+command
+also
+shows
+you the date in 'your
+world
+.'
+CONVERTING - REAL-WORLD to ACHAEAN
+----------------------------------
+Let's
+say
+you have a real-world date in mind and you want to know what Achaean
+date that will be. This can be very useful for staying in
+character
+(
+IC
+) in
+public
+posts
+and the like. Type:
+DATE
+3
+/22/2004
+18
+(Which means please convert March 22, 2004 at 18:00 (
+6
+pm) to Achaean.)
+The general rule is to include the month, day, and year, followed by the
+hour
+of the day, with 0 being at midnight, and 23 being just before midnight of the
+next day.
+The date must be as follows:  mm/dd/yyyy hh
+mm    - is the numeric month, such as 1 or 10. Must be 1 through 12.
+dd    - is the day of the month, from 1 to 31, depending on the month.
+yyyy  - is the year, all four characters, 1991 - 2039.
+NOTE: this conversion is not perfect, as Achaean
+days
+are not precisely one
+real-life hour long. The error may be small, but may be compounded for
+dates
+far from the current date. Be careful to treat this conversion as a reasonable
+approximation only.
+CONVERTING - ACHAEAN to REAL-WORLD
+----------------------------------
+Let's say you have an Achaean date in mind and you want to know what Real world
+date that will be. This can be very useful when someone is staying in character
+(IC) in public posts and the like, but you'd like to know for sure when that
+is. Type:
+DATE
+2
+Ero 358
+(Which means please convert the 2nd of Ero, year 358, to real world.)
+The general rule is to enter the day of the month,
+name
+of the month (either
+the first three
+letters
+, or the whole name of the month), and the year.
+The date must be as follows:  dd mmm yyy
+dd   - is the day of the month, from 1 to 25.
+mmm  - is the name of the month, full name, or first three letters.
+(Sarapin or Sar, Daedalan or Dae, Glacian or Gla, etc.)
+yyy  - is the year since the fall of
+Seleucar
+, 1 through 999 only.
+NOTE: this conversion is not perfect, as Achaean days are not precisely one
+real-life hour long. The error may be small, but may be compounded for dates
+far from the current date. Be careful to treat this conversion as a reasonable
+approximation only.
+These conversions all use
+GMT
+and are not affected by any configured timezone.
+(See also HELP
+CALENDAR
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

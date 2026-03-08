@@ -1,0 +1,236 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+16.26.3 Foragers
+Foragers
+are a
+system
+by which you can dispatch a
+group
+to passively gather
+fibre or
+wood
+commodities
+from a given location (providing there are
+commodities in that area to gather, of course).
+Your foragers will be in competition with
+other
+adventurers'
+parties
+and
+depending on your (and their) approach it is quite possible for violence to
+break out.
+Basic
+commands
+=================
+FORAGERS COMMISSION [1-
+5
+]
+When standing in a viable location you may commission foragers to build your
+party
+. You may have up to five foragers at a
+time
+.
+Should you
+lose
+foragers at any time, this
+command
+can purchase more to make
+the party 5 again.
+Foragers commissioned are always at
+level
+1.
+Tsol'aa foragers can be commissioned in the
+Aalen
+by a redwood stump.
+Theran collectors can be commissioned in New
+Thera
+, before the woodcutter's
+cottage.
+Goblin
+pillagers can be commissioned when approaching a small village, just
+north of the
+Dakhota
+hills.
+FORAGERS
+STATUS
+-
+Show
+the various status of your foragers, including their type, current
+level, current
+health
+, attitude, and whether they are deployed in a
+given area.
+FORAGERS SCOUT BRIEF/THOROUGH
+- Brief scouting costs 100
+gold
+and will give you a rough
+idea
+of how many
+commodities are in said area.
+- Thorough scouting will
+tell
+you how many bands are already scouring an
+area but will cost 1000 gold.
+FORAGERS SEND <attitude> <area>
+- Dispatch your foragers to an area.
+- This will have a gold cost, 100 * level per
+forager
+.
+FORAGERS
+RECALL
+<area>
+- It will take three
+hours
+for them to return, during which time they will
+not gather any commodities or seek out battles (though
+others
+may still
+seek them out).
+- You cannot call back a group of foragers in the first four hours of
+their expedition.
+Areas
+======
+Foragers for now are confined to mainland
+Achaea
+and the northern section
+of the
+continent
+.
+Fibre is foraged in grassy areas and can be collected in the summer or autumn.
+Wood is found in wooded areas (jungles, forests, etc) and can be foraged in
+autumn and winter
+months
+.
+Dispatching a
+foraging
+party
+=============================
+When you send off a foraging party they will be gone for around an
+Achaean
+month
+(24 real life hours).
+During this time they will gather available commodities every real life
+hour
+.
+However, your band may also encounter hostile foragers from other players
+(or initiate hostilities: see attitudes below).
+If your foragers slay another forager, the forager that landed the
+killing
+blow shall gain
+experience
+, and once sufficient experience is acquired that
+forager will level up, increasing both their health and damage capabilities.
+Foragers experience is also acquired on successful return from foraging
+in
+season
+and this increases with commodities returned.
+If a
+member
+of your foraging band is killed whilst foraging, you can commission
+another and dispatch them to build your band back up to five.
+When a foraging band returns all of the commodities they gathered will be
+placed in your most optimal warehouse (in terms of how much it will cost you).
+If you do not have a warehouse, the commodities are placed in your
+rift
+, or in
+your
+inventory
+if there is not sufficient space.
+The Three Foraging Attitudes
+=============================
+Peaceful
+--------
+Peaceful foraging bands will neither defend themselves or initiate hostilities.
+They do however gather the most efficiently of any attitude.
+Aggressive
+----------
+Aggressive foraging parties will initiate hostilities with other foraging
+bands, and if wiping out that band in its entirety
+loot
+the commodities they
+have already gathered.
+They are however the least efficient at
+gathering
+commodities innately.
+Aggressive bands will not
+attack
+bands belonging to your home
+city
+, or your
+mutual
+allies
+.
+Diplomatic
+----------
+Diplomatic foraging bands do not initiate hostilities, but will defend
+themselves against hostile
+attacks
+.
+Diplomatic bands have a chance to avoid conflict through negotiations and
+gather commodities slightly better than aggressive bands.
+Goblin pillagers have a bonus towards aggressive foraging methods.
+Tsol'aa foragers have a bonus towards peaceful foraging methods.
+Theran collectors have a bonus towards diplomatic foraging methods.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

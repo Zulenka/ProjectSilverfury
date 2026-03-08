@@ -1,0 +1,324 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6 SPECIFICS OF ACHAEA
+6.1     Invisibility
+Read
+about
+invisibility
+and how to deal with it.
+6.2     Flying
+Soar above the land.
+6.3     Trees
+Climb into the treetops.
+6.4     Groups
+How to form
+groups
+with
+other
+adventurers.
+6.5     Allies
+How to declare someone an official
+ally
+of yours.
+6.6     Enemies
+How to brand someone an official
+enemy
+of yours.
+6.7     Elections
+Starting and
+voting
+in
+elections
+and
+referendums
+.
+6.8     Shops
+The
+commands
+to deal with
+shops
+.
+6.8.1   Selling
+How to
+sell
+things
+, since shops don't
+buy
+!
+6.8.2   Loans and Trades Getting
+(and
+LOSING
+) things other ways.
+6.8.3   Selling Persons
+Don't do it!
+6.8.4   Selling Vials
+Selling
+vials
+to
+Rufio
+.
+6.8.5   Refill Tuns
+Tuns
+that can be used in shops to sell
+refills
+.
+6.8.6   Trade
+Trading
+items between adventurers.
+6.8.7   Pouring
+Pouring
+and
+filling
+containers
+and the
+rift
+.
+6.9     Reading
+Reading
+things like
+books
+,
+scrolls
+, and
+journals
+.
+6.10    Writing
+Writing
+on various things.
+6.10.1  Editor
+The
+Achaean
+editor
+system
+.
+6.11    Shopkeeping
+Owning a
+shop
+and the commands to
+go
+with it.
+6.11.1  Shop Policies
+Discounts, markups, and refusing
+service
+.
+6.11.2  Shop Bins
+Dividing your
+wares
+and controlling
+who
+sees them.
+6.11.3  Shop Signs
+Creating and using unique
+signs
+for your shops.
+6.11.4  Warehouse
+/
+Leases
+City
+based, bulk resource storage.
+6.11.5  Trading Carts
+Portable shop fronts for the merchant on the go!
+6.12    Drinking
+Hoist your
+flagon
+and
+throw
+back a draught of ale.
+6.13    Mentors
+What they are, why you
+might
+need one.
+6.13.1  For Mentors
+Mentoring
+younger adventurers.
+6.14    Grace
+Gaining and
+rejecting
+the
+grace
+of the
+Gods
+.
+6.15    Banking
+Depositing and withdrawing
+gold
+from
+banks
+.
+6.16    Guides
+Characters who exist to
+help
+newbies
+.
+6.16.1  Romeo
+The
+famous
+Guide
+.
+6.16.2  Juliet
+The famous Guide.
+6.16.3  Becoming a Guide General info when applying for Guide
+.
+6.18    Libraries
+Protect and disseminate written treasures!
+6.18.1  Journals
+Journals and
+Manuscripts
+to record your
+adventures
+.
+6.19    Weather
+Achaea's
+weather
+system.
+6.20    Levels
+Levels
+of
+experience
+.
+6.20.1  Circles
+Round things.
+6.21    Permissions
+Read about Achaea's system of
+permissions
+.
+6.23    Bardic contests
+Contests
+of art and literature.
+6.25    Map
+Walk
+around an
+ansi
+-graphical
+map
+of
+Achaea
+!
+6.26    Commshops
+NPC
+-
+run
+shops selling raw materials of the land.
+6.26.1  Commmarket
+A way to buy and sell
+commodities
+from/to other
+players.
+6.26.2  Tanneries
+Producing
+Leather
+!
+6.27    Logs
+Organisational
+logs
+.
+6.28    Orghelp
+Adventurer-written help files for
+cities
+and
+houses
+.
+6.29    Writs
+Retaliation rights for organisations.
+6.30    Digging
+Buried treasure ahoy, mate.
+6.31    Theatre
+You've always wanted to direct haven't you?
+6.32    Fishing
+Teach
+those tasty, scaly bastards a
+lesson
+!
+6.33    Friends
+Keep your
+friends
+close,
+6.34    Rivals
+But your
+rivals
+, even closer!
+6.35    Wilderness Map
+The
+wilderness
+, land and sea, of Achaea.
+6.36    Org Relations
+Org-to-org relations.
+6.37    Org Charges
+Organisational
+Charges
+System
+6.38    Org Crimes
+Organisational
+Crimes
+System
+6.38.1  City Bounties
+Bounties
+for slaying
+enemies
+6.39    Org Creditsales
+Organisational
+Credit
+Sales
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,104 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.19 WEATHER
+Weather
+in
+Achaea
+is a simple, and intuitive affair. The only weather-related
+command
+to know about is FORECAST, which will
+tell
+you about the temperature,
+the
+wind
+, and generally about the weather conditions. You will _usually_ find
+that all the weather in one area is the same. For instance, all of the western
+ithmia
+would have the same weather. Unfortunately, this does mean that when
+moving
+from one area to another, you could immediately be in a new type of
+weather.
+As you spend
+time
+in Achaea, you will encounter a number of possible
+weather-related effects. These include, but are not limited to, the inability
+to squint or glance in heavy snow, rain, or fog, finding your conversations
+drowned out in high
+winds
+, being blown about while you are
+flying
+in high
+winds, being blown out of the
+trees
+in high winds,
+losing
+health
+due to hail, and so on. Even a rare strike of lightning
+might
+cross your path, pray it doesn't strike you!
+It's important to remember that windchill is a factor in Achaea too. It may be
+about 25 degrees F, but if the wind is blowing strongly, the effective
+temperature as far as you are concerned is much lower.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

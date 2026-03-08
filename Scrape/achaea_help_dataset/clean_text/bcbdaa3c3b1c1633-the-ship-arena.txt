@@ -1,0 +1,125 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.19 The Ship Arena
+(See
+HELP SHIPS
+, HELP SHIP WEAPONS, and
+everything
+else in
+HELP
+23!)
+Ship
+Arena
+is a special place where
+ships
+can enter
+combat
+with perfect
+confidence! No matter
+who
+is sunk or harmed, excepting possibly
+crew
+(!), in the
+end, all is as it was, and you return to
+Achaea
+unscathed.
+While on a ship you are a captain of and in
+harbour
+, you may
+SHIPARENA
+COMMISSION while
+holding
+10000
+gold
+in your hands to commission an
+event
+.
+Once an arena event has been commissioned, you may
+issue
+these
+commands
+:
+SHIPARENA INIT  - initialise an event to be started later
+SHIPARENA START - starts an initialised shiparena event
+SHIPARENA END   - ends an event that has been initialised or started
+Commands available to all players:
+SHIPARENA
+JOIN
+- join a shiparena event (enter while on your ship)
+SHIPARENA
+QUIT
+- quit a shiparena event
+SHIPARENA WHO   - see which ships are currently in the ship arena
+Everything else is as it is in Achaea proper: load,
+fire
+,
+board
+, and enter
+combat as you will, excepting that ammunition is not used up, deaths are not
+costly, and sinkings are automatically salvaged.
+Should your ship be sunk during a battle in the arena, you will be returned
+to the mainland proper.
+When an arena match ends, you will be returned to the ship you joined with - provided you are alive.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

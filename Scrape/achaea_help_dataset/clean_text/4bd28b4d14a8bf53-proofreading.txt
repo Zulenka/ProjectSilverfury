@@ -1,0 +1,185 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.13.8 Proofreading
+This is mostly for crafters, but also useful for anyone
+writing
+custom
+descriptions
+!
+It is vitally important that crafters proofread their work, or better, work with
+others
+to do so before submitting. The
+design
+approvals team cannot be a basic grammar and spellchecker for everyone with a
+crafting
+license
+and it leads to long
+queue
+times
+and high submission fees.
+We have a few resources for you to
+help
+make sure your writing is up to scratch!
+First of all, you, the community!
+Join
+the UUC
+clan
+and ask for
+feedback
+on your
+designs
+!
+Second, we have the
+PROOF
+command
+and highlighting
+system
+!
+- Once written, view your
+sketch
+and take note of any highlighted words
+- Yellow highlights are contextual errors that may be wrong in certain circumstances, but not all.
+- Red highlights are always wrong.
+- Use the PROOF command when your design has highlights to check and see what these reasons are.
+Third, the HELP SYSTEM!
+See the
+proofreading
+guide
+below in this helpfile, plus
+HELP CRAFTING GUIDELINES
+, HELP <craft> DESIGN for craft specific guidance, HELP CRAFTING PUNCTUATION, HELP CUSTOMISATION GUIDELINES, and
+HELP STYLE
+for general writing!
+Other
+useful helpfiles will be
+HELP PUNCTUATION
+, HELP WEIGHTS AND MEASURES, HELP THAT'S NOT
+ACHAEAN
+, and HELP PROVINCIAL ACHAEAN.
+PROOFREADING
+=============
+ITEM TYPE
+- Make sure that the type/sketch used matches the main noun in all aspects of the design.
+APPEARANCE
+-
+Commas
+are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase
+letter
+and NOT end in a full stop. (Capitals are permitted in the
+titles
+of artwork and branding in
+beverages
+.)
+- This must feature the
+name
+of the item as a main noun.
+- This should not be a full sentence.
+- Do not include actions or
+reactions
+, simply what the item is.
+DROPPED
+- This must be ONE complete sentence that begins with a capital letter and ends with a full stop.
+-
+Describe
+just the item, not possible player reactions or actions.
+- The main noun in the sentence must be the same as the
+pattern
+name so that people know what to call it when they want to pick it up, without having to type 'info here.'
+-
+Things
+like "A cloak is hanging from a peg here." is not acceptable. If it were dropped on the highway there is no peg to hang from.
+- "lays" is never appropriate in DROPPED, this is a transient action, you want "LIES".
+- "a pair of ..." is a singular item (a pair), conjugate appropriately.
+EXAMINED
+- This should only describe the item, no subjective terms, reactions, opinions,
+emotions
+, or responses.
+- Use at least two complete sentences, NO FRAGMENTS.
+- Designs must be suitable for a medieval-ish
+environment
+.
+- Do not "evoke".
+- Use appropriate materials.
+- All numbers must be written out in words. "one, two, three".
+- Feet, inches, yards, etc, no
+metric
+measurements.
+- Please use a GB English spellcheck,
+Achaea
+does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when writing a list, a
+comma
+should be used before the "and". E.G: a red, white, and blue scarf.
+- Single spacing always and only. Check for double spaces especially after full stops, and if you have copied text from another format.
+- Designs should describe the item, not the wearer, use of "you" and "your" are prohibited.
+- When
+describing
+items with obviously
+OOC
+regional
+names
+or terms, please describe the item rather than using the regional term.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

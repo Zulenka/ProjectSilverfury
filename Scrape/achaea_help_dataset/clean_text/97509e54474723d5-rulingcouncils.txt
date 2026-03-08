@@ -1,0 +1,210 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.2 RULING COUNCIL
+The ruling council of a
+city
+-state is comprised of either five or seven members.
+In most cases, these members are elected by the populace via the methods
+described in
+HELP ELECTIONS
+.
+HELP
+<city> will
+show
+you
+who
+the members of the
+ruling council are. In
+cities
+with a strictly theocratic government, council
+members are appointed by the
+divine
+patron(s).
+While the perceived responsibilities of a ruling council may vary in the
+eyes
+of each
+citizen
+, it can safely be said that the ruling council must take
+credit
+, or blame, for what happens to their city. While the
+power
+to actually
+affect most city-related
+things
+lies in the hands of the
+Ministers
+and their
+aides
+, it is the ruling council who chooses the leader and appoints Ministers.
+If Ministers or the leader are doing a poor job, that would be the concern of
+the ruling council.
+Members of the Ruling Council earn 200
+renown
+per
+hour
+while logged in, up to
+400 renown per
+day
+or until they hit cap (see HELP RENOWN).
+As a
+member
+of a ruling council, you may use the
+following
+commands
+:
+CITY
+FINANCE
+SUMMARY [<year>]
+- Summary of all city
+ministries
+gold
+movement
+.
+CITY FINANCE REPORT <ministry> [<year>]
+- Line by line expenditures and income for a particular ministry.
+CITY FINANCE REPORT
+CREDITS
+[<year>]
+- Line by line expenditures and income for credit movement.
+CITY REPORTS <ministry> <year>
+- The detailed report for any ministry for the given year.
+CITY
+CLAN
+LIST
+- View the
+clans
+that are owned by your city.
+CITY
+ENEMY
+/UNENEMY <person> <reason>
+- Brand someone an official enemy of your city.
+CITY
+ALLY
+/UNALLY <person>
+- Add/
+Remove
+someone as a city ally.
+CITIZEN <person>
+- Make someone a citizen of your city.
+CITY ECONSTATUS
+- See some basic economic info on your city.
+CITYDISFAVOUR <person>
+- Grant your city
+disfavour
+to a person.
+CITYFAVOUR <person>
+- Grant your city
+favour
+to a person.
+CITY MUTE/UNMUTE
+- The
+syntax
+is: CITY MUTE <infidel> <TEMP|INDEFINITE> <reason>. TEMP will
+mute for an hour then wear off. INDEFINITE will mute until someone does
+CITY UNMUTE on the muted person. The reason will be recorded in the city
+logs
+. This is on a
+trial
+basis only. Cities abusing this power to mute
+left and right will find they no longer have access to it.
+FUNDS <ministry>
+- See the funds
+level
+for a selected ministry. Must be in
+the Council Room for this. Will not work on the Stewardship.
+READREVLOG/REVLOG
+- Same as READLOG in
+HELP CITYCOMMANDS
+, but
+shows
+you logs for
+ingoing and outgoing revenue.
+READMILLOG/MILLOG
+- Same as READLOG in
+HELP CITYCOMMANDS
+, but shows you logs for
+ingoing and outgoing military revenue.
+SUPPORT
+<person>
+-
+Throw
+your support behind a member of the ruling council
+for leadership of the city.
+UNCITIZEN <person>
+- Kick someone out of your city.
+WARSTATUS
+- See the military
+status
+for your city.
+Open
+Referendums
+(see HELP REFERENDUMS)
+Please also see
+HELP IMPROVEMENTS
+for more commands and responsibilities
+relating to City
+Improvements
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,219 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.11 MESSAGING
+Every adventurer in
+Achaea
+can send and receive
+messages
+. These are not quite
+like
+letters
+, which you must purchase, write on, and have delivered for a fee.
+They are not quite like
+tells
+, which require that the
+other
+person be active in
+the realms.
+Quick Summary
+-------------
+MSG
+[WRITE [TO]] <who> <message>     - send a
+message
+.
+MSG COUNT                            - tells you how many messages you have.
+MSG
+DELETE
+#                         - delete message by number.
+MSG DELETE
+DECAYS
+[CONFIRM]          -
+decay
+,
+favour
+end,
+grace
+end,
+rune fading,
+indemnification
+,
+clan
+head,
+empowerment
+fade,
+&
+credit
+sale sys
+msgs
+.
+MSG DELETE RANGE first TO last       - delete range of messages.
+MSG EMPTY <folder>                   - delete all messages in folder.
+MSG FOLDER CREATE <folder>           - create a new folder.
+MSG FOLDER LIST                      - list your folders.
+MSG FOLDER DELETE <folder> [CONFIRM] - delete existing folder.
+- WARNING - does delete preserved too.
+MSG FORWARD # [TO] <who>             - forward a message to someone else.
+MSG FOLDER
+RENAME
+<folder> [TO] <name>  - rename existing folder.
+MSG FOLDER
+PRESERVE
+<folder>         - preserve all msgs in folder.
+MSG FOLDER UNPRESERVE <folder>       - unpreserve all msgs in folder.
+MSG LAST                             - tells you what your last message is.
+MSG LIST [*|<folder>] [start] [FULL] - list msgs (in folder, *=anywhere).
+MSG LIST PRESERVE[D]  [start] [FULL] - list msgs (in folder, *=anywhere).
+MSG LIST UNREAD [start] [FULL]       - list unread msgs.
+MSG
+MOVE
+# [TO] <folder>             - move a message to a folder.
+MSG MOVE FROM <sender> [TO] <folder> - move a message to a folder.
+MSG PRESERVE[D] [LIST] [#]           - list, count, or add preserved msgs.
+- (preserved msgs will not decay).
+MSG
+READ
+#                           - read a message by number.
+MSG AGAIN|NEXT|PREV[IOUS]            - read again, next, or prev. msg.
+MSG RENUMBER                         - renumber all your messages from 1.
+MSG REPLY <message>                  - reply to last read message.
+MSG SEARCH <terms>                   - search all messages.
+MSG SEARCH FROM <person> [start]     - find all messages from person.
+MSG SUMMARY                          - list folders and message counts.
+MSG UNPRESERVE #                     - unpreserve a msgs.
+CMSG <folder>                        - Same as MSG EMPTY folder.
+DELMSG ALL                           - delete all messages, bar folders.
+DM|DELMSG [#]                        - delete last read message, or by #.
+MSGS|MESSAGES                        - same as MSG LIST.
+RL
+- same as MSG PREVIOUS.
+RM
+|READMSG                           - same as MSG NEXT.
+RM 0|-1                              - same as MSG AGAIN, MSG PREVIOUS.
+Also:
+MSG DUMP AS <who>                    - more detailed than summary.
+** most
+commands
+may have an AS <person> added to the end.
+- dump, list, read, search, summary.
+Reading
+:  MSG READ #
+RL           (reads the msg before the one you just read)
+MSG READPREV (same)
+MSG
+READNEXT
+(reads the msg after the one you just read)
+MSG READAGAIN (re-reads the msg you just read)
+Sending:  MSG <to> <yourmessage>, or MSG WRITE [TO] <to> <yourmessage>
+Examples: MSG
+Maya
+Greetings, O Mother!
+MSG WRITE TO Maya Greetings, O Mother!
+Deleting
+: MSG DELETE #, or DM #, or DM (deletes the last msg you read).
+CMSG <folder> (deletes all messages in a folder. Irreversible!)
+Examples: DM 4 (deletes message 4)
+CMSG inbox (deletes all messages in your inbox)
+Folders:  MSG FOLDER LIST (to see a summary by folders) or MSG SUMMARY.
+Searching: MSG SEARCH
+book
+(find all messages with the word 'book' in them).
+Sent Folder
+-----------
+Everyone has a permanent sent folder where copies of your sent msgs
+go
+. You can interact with it as with other folders, such as MSG LIST SENT, but you can't rename the folder or delete it.
+Preserving
+----------
+Messages over a certain age (currently about 85
+Achaean
+months
+) that
+are not PRESERVED will decay naturally over
+time
+and go away.
+You can preserve up to 1,000 messages (as of this
+writing
+).
+We'd be happy if you were to preserve far fewer!
+Preserved messages are protected from most forms of
+deletion
+,
+even by yourself, except MSG FOLDER DELETE (that wipes out
+all messages in a folder, preserved or not).
+To be on the safe side, only preserve what you need to, and
+don't just go deleting
+everything
+in the hope that maybe
+the preserved ones will survive! Preserving is for keeping
+a few really important messages around.
+Related Commands
+----------------
+CONFIG
+RETURNMESSAGE <message>
+- This allows you to set an answering message that adventurers will see
+whenever they send you a message.
+If you receive a message while you are not active in the realms, you will be
+notified when you next return.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

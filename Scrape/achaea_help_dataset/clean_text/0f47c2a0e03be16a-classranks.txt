@@ -1,0 +1,129 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.95 Class ranks - fledgling, journeyman/woman, full member
+(See also
+HELP CLASS
+, HELP SKILL RANKS,
+HELP
+EMBRACE
+)
+Each
+member
+of a
+class
+is at one of three stages, or
+ranks
+. These are
+Fledgling
+,
+Journeyman
+, and Full Member.
+Fledgling
+When you first
+join
+a class, you will be a fledgling. You'll have only
+2
+of
+the
+3
+skills
+in the class and will not be able to
+learn
+them above the
+level
+of Skilled. This is about the middle
+rank
+in skills. See
+HELP SKILL
+RANKS for more detail.
+Journeyman
+When you
+reach
+level 20, you'll automatically be counted a Journeyman, and
+will be able to learn your class skills up to Fabled. Fabled is the tenth
+skill
+rank out of twelve (see HELP SKILL RANKS).
+Full member
+Once you reach level 50, you'll be counted as a full member of your class.
+As a full member you will have access to all three class skills with no
+restriction on skill rank.
+If you do EMBRACE CLASS then you'll gain three benefits:
+1) You'll be a full member of your class.
+2) You'll gain your third class skill.
+3) All limits on your
+learning
+will be removed, which means you
+will be able to
+study
+to the highest skill rank: Transcendent.
+This only applies while you are at or above the required level. If you reach
+that
+point
+and then fall beneath it, you will not be able to EMBRACE CLASS
+until you regain the minimum level to embrace class.
+(See also
+HELP CLASS
+, HELP SKILL RANKS, HELP EMBRACE)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

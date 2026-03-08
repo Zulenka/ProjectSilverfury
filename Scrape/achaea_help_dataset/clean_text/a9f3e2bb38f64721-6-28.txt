@@ -1,0 +1,285 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.28 ORGANISATIONAL HELP FILES.
+Extensive as the
+Achaean
+system
+of
+help
+scrolls
+clearly is, some organisations insist on creating their own special additions. We accomodate these:
+cities
+,
+Houses
+,
+clans
+, and
+Orders
+. When you see *HELP below, substitute the proper term depending on the organisation in
+question
+. To wit:
+cities:   CITYHELP or
+CHELP
+clans:
+CLANHELP
+or
+CLHELP
+Houses:
+HOUSEHELP
+or
+HHELP
+Orders:
+ORDERHELP
+or
+OHELP
+Commands
+For Any Org
+Member
+---------------------------
+*HELP <scroll>                    -
+Shows
+you a particular help
+scroll
+.
+*HELP INDEX [limits]              - Shows an index/list of help scrolls.
+Commands for Privileged Org Members
+-----------------------------------
+*
+HELP DELETE
+<scroll>               - Deletes the help scroll with that
+name
+.
+*HELP EDIT <scroll>                 - Creates or changes a help scroll(*).
+*
+HELP RENAME
+(old name) (new name)  -
+Rename
+an existing help scroll.
+*HELP SETPERMS <scroll> <perms>     - Sets new
+perms
+(**) on the scroll.
+*HELP SHOWPERMS <scroll>            - Shows current perms(**) on the scroll.
+*HELP SETPERMS|SHOWPERMS            - Special index listing with perms (***).
+*HELP CATEGORY ADD <cat>            - Create a new category for helpfiles.
+*HELP CATEGORIES                    - List your helpfile categories.
+*HELP CATEGORY RENAME <name> <new>  - Rename a helpfile category.
+*HELP CATEGORY <helpfile> <cat>     - Assign a helpfile to a category.
+*HELP CATEGORY <helpfile> NONE      -
+Remove
+a helpfile from a category.
+Examples
+--------
+CLANHELP pricelist
+HHELP
+DELETE
+directions
+CITYHELP SETPERMS
+comms
+trade
+Limits
+------
+With the *HELP INDEX
+command
+, you may limit what you see, or just see all the scrolls visible to you.
+Specify limits as follows:
+CITYHELP INDEX
+3
++
+- Only
+city
+scrolls that are for
+rank
+3 or over.
+HOUSEHELP INDEX
+5
+-
+- Only
+house
+scrolls for
+ranks
+5 or under.
+CITYHELP INDEX
+DEFENCE
+- Only city scrolls for Ministry of Defence, and only if you are in that Ministry.
+OHELP INDEX
+- All order scrolls visible to you, for any rank to or below yours.
+HHELP INDEX P2
+- Only the officeholder or
+aide
+to position
+2
+.
+HHELP INDEX PN
+- Only the
+newcomerhead
+or aide to same.
+(*)
+Who
+can edit/delete/setperms/showperms?
+-------------------------------------------
+Any organisational patron, or:
+Cities:   Ruling council and any
+Minister
+can edit/delete.
+Clans:
+Clan
+head and those the clanhead allows can edit.
+Houses:   House Leaders and those with house authority to edit/delete.
+Orders:   Patron and those granted the
+power
+to edit/delete.
+(**)
+Permissions
+----------------
+Permissions are the way to restrict access to a help scroll.
+The
+following
+are valid permissions:
+leader        - only org leader may see (Overseer, Houselord, Clan leader etc.)
+ambassador
+- only
+ministers
+or
+aides
+in these
+ministries
+may see.
+defence       - only ministers or aides in these ministries may see.
+interior
+- only ministers or aides in these ministries may see.
+treasurer
+- only ministers or aides in these ministries may see.
+culture
+- only ministers or aides in these ministries may see.
+0             - unrestricted. Anybody may see.
+1             - only those of rank 1 or higher may see.
+2             - only those of rank 2 or higher may see.
+...           (to as high a rank as the organisation
+supports
+)
+PN            House Newcomerhead (or aide)
+P1 (..P5)     Position 1..5 (clan/house, officeholder or aide)
+P6 (..P10)    Position
+6
+..10 in a clan.
+(***) Special Permissions Listing
+---------------------------------
+0 means "anybody can see".
+1 means org rank 1 and above only can see.
+2 means org rank 2 and above only can see.
+(and so forth up to the max rank for your org.
+M1 means ambassador ministry only can see.
+M2 is culture ministry.
+M3 is interior ministry.
+M4 is defence ministry.
+M5 is
+finance
+ministry.
+PN is House Newcomerhead or aide.
+P1 is position 1, officeholder or aide, clan or house.
+P2 is position 2, officeholder or aide, clan or house.
+...
+P5 is position 5, officeholder or aide, clan or house.
+P6 is position 6, clan.
+...
+P10 is position 10, clan.
+*As always, any rank above (i.e. lower P-number) the set position
+level
+will be able to access as well.
+Command Links
+-------------
+In addition to your normal text, it is possible to specify a command links that will appear for players using
+MXP
+, for easier redirection to
+skills
+,
+ability
+files, or
+other
+help files. This is done as follows:
+[[Text|HELP TEXT]]
+The above would appear as "Text" in your helpfile, and would open HELP TEXT whenever a reader clicked on the text. If you want to use brackets in your helpfiles without creating links, simply preempt any double brackets with a backslash, i.e. "\[[".
+An example of what you mind write into a help scroll
+might
+be:
+The most useful way to avoid being robbed is with [[SELFISHNESS|
+AB
+SURVIVAL
+SELFISHNESS]]!
+Currently, these links will work for SKILLS,
+ABILITIES
+, HELP, CHELP, HHELP, OHELP, and CLHELP. We have done what we can to ensure command links cannot be used to manipulate other players. If you find a way to do so, please report it via the
+BUG
+command immediately.
+Accessibility
+-------------
+As a general rule, any extraneous
+decoration
+made with text is
+going
+to be horrible for our
+screenreader
+users. ASCII is a common problem, but this also includes text made up of characters to create larger shapes, borders, and decorative linebreaks. Please don't "decorate" your organisational help scrolls.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

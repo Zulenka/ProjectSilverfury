@@ -1,0 +1,125 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.3.1 Resigning - city leadership, city ruling council, armies
+(See
+HELP ELECTIONS
+,
+HELP
+10.1, HELP 10.
+2
+, HELP 10.
+3
+)
+Resign
+is used to
+quit
+certain
+city
+positions:
+RESIGN AS SOLDIER OF CITY            -
+leave
+your city's military.
+RESIGN AS <pos'n> OF CITY [CONFIRM]  - quit city leadership or city
+council.
+RESIGN AS <pos'n> OF
+HOUSE
+[CONFIRM] - quit house leadership.
+Examples
+--------
+To resign as the leader of
+Eleusis
+: RESIGN AS SPEAKER OF CITY
+To resign from the ruling council of
+Cyrene
+: RESIGN AS SENATOR OF CITY.
+To resign from your House leadership: RESIGN AS LEADER OF HOUSE.
+Limitations
+-----------
+If you are the city leader, you may not resign your ruling council
+post
+until
+AFTER you have
+resigned
+as the city leader. You must first resign your position
+as the city leader, then you may keep your ruling council post, or else resign
+it as well.
+House leaders may resign even if
+ascendant
+. The ascendant position will remain
+vacant if vacated by your
+resignation
+. If you are not the ascendant, but your
+resignation means the current ascendant has insufficient
+support
+, then the
+position of ascendant will also be vacated.
+If you have a
+successor
+when you resign, then the successor should take your
+place.
+(See
+HELP ELECTIONS
+, HELP 10.1, HELP 10.2, HELP 10.3)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

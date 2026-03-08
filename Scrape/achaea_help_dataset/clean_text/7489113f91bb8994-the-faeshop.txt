@@ -1,0 +1,215 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.25 The FaeShop
+The
+Faeshop
+has a number of
+artefacts
+on offer, some of which are sold only in the Faeshop and
+others
+that are specially customised versions of existing artefacts themed for the
+Fae
+!
+Shining teardrops are the currency used to purchase artefacts from the FAESHOP!
+You can access the Faeshop with the
+following
+commands
+:
+FAESHOP LIST
+FAESHOP
+SHOW
+<item id>
+FAESHOP
+BUY
+<item id> [FOR <person>]
+FAESHOP GIVE <number of tears> TO <person>
+FAESHOP
+TRADEIN
+<number of tears to tradein for credits>
+Artefacts for sale in the Faeshop include:
+An amulet of the
+Unsidhe
+:                                     160 Tears
+- Equivalent to a buckawns amulet.
+- Lets you avoid the
+web
+tattoo
+attack
+from players.
+- This also makes you immune to web bombs that are thrown (not those that detonate in your hands).
+A
+Sidhe
+diadem:                                               200 Tears
+- Equivalent to an Aldar diadem.
+- This diadem speeds up your
+equilibrium
+regain by about 15%.
+A coral staff of
+Illusions
+:                                   100 Tears
+- Equivalent to a staff of
+illusion
+.
+- This staff gives you the
+ability
+to CONJURE ILLUSIONs.
+- The maximum illusion length using the staff is 500 characters. This also increases the maximum length for any
+class
+abilities
+that allow you to CONJURE ILLUSION.
+- You may specify one newline
+character
+in your illusion with the character sequence
+- Requires
+balance
+and costs 1 second of equilibrium.
+- Just having the staff is enough: it is not needful to
+wield
+it.
+A magnificent kelpie:                                         10 Tears
+- Equivalent to a legendary
+steed
+.
+- Much like their kin in
+Annwyn
+, this kelpie will change
+description
+and behaviour with nightfall.
+A satyri cornucopia:                                          50 Tears
+- Equivalent to a horn of plenty.
+- This horn will periodically
+fill
+with various
+food
+from the Unsidhe and Sidhe kitchens.
+A hollowed length of selkie
+bone
+:
+3
+Tears
+- BLOW <blowgun> AT <target> to
+apply
+a random effect similar to Seasone's miscellaneous flasks.
+- This item is consumed on use!
+A jagged fae sword:                                           100 Tears
+- When a player is beheaded by this sword (via
+WEAPONRY
+BEHEAD), the newly severed head will
+speak
+, reporting all that the initial owner
+says
+for 15
+minutes
+or until the head's owner meets another
+death
+.
+A tear-stained
+cauldron
+:                                      200 Tears
+-
+WISH
+FOR <damage type> to gain resistance to that type and lower resistance to
+other
+damage types.
+- 10% bonus to the one you choose, -
+5
+% to all the rest.
+- Can switch at any
+time
+for a small balance cost.
+- No cooldown.
+- Persists until death or
+logout
+.
+A black fang:                                                 20 Tears
+- With this fang in your
+inventory
+,
+wishing
+yourself out of Annwyn becomes a much more exciting (and dangerous) affair.
+- Simply place it in a
+container
+if you want safer passage.
+A smoked glass sundial:                                       180 Tears
+- Grants a
+critical
+hits and
+XP
+bonus against the Unsidhe during the
+day
+and against Sidhe during the night.
+- Approximately 5% bonus to both.
+A silvery spark:                                              100 Tears
+- Detonating a
+tank
+imbued with this
+power
+will create a vortex that periodically pulls people in from adjacent rooms, similar to BECKON
+style
+abilities.
+- See
+HELP SPARKTANKS
+on how to use this power.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

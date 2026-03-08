@@ -1,0 +1,106 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.2.4 UPCOMING
+UPCOMING
+is a quick and easy reference for upcoming
+events
+. The administration and
+organisational leaders can add events with their
+time
+and further information
+in the
+following
+manner:
+UPCOMING
+- View a list of upcoming events
+UPCOMING INFO <event>
+- Get further details of an
+event
+UPCOMING NEW <org> <name>
+- Create a new event
+UPCOMING <#> SET INFO
+- Add additional information to an event
+UPCOMING <#> SET
+NAME
+<name>
+- Change the event's name
+UPCOMING <#> SET TIME <yyyy/mm/dd hh:mm:ss>
+- Set the time the event occurs at
+UPCOMING <#> PUBLISH
+- Publish the event for people to see
+UPCOMING <#> FINISH
+-
+Remove
+the event from the listing
+Discussing UPCOMING listings in the context of the 'upcoming calendar' or 'upcoming events' is completely fine.
+However, please be aware that some
+admin
+-posted listings may be innately
+OOC
+in
+nature
+- while these may occasionally be marked with an [OOC] tag for ease of reference, some will not.
+Discretion is advised here: avoid fortune telling where possible (i.e a coming story event chapter is likely posted for OOC convenience), and err on the side of caution if you're unsure.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

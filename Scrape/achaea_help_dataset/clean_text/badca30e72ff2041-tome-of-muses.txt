@@ -1,0 +1,233 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.22 Tome Of Muses
+Tomes of the
+Muses
+are obtained either via giftbags or purchased with
+mementoes
+from the tinker in
+Petra
+. When first acquired, it may appear unremarkable, but possesses the potential for great powers once pages have been inserted within!
+Details on the pages and the tome's full array of powers are outlined below:
+A resplendent page of enchanted vellum
+- These pages can be ADDed to a tome of the Muses to unlock its potent and
+numerous effects! (This is permanent and irreversible).
+A page of
+aged
+vellum
+- These aged pages can be ADDed to a tome of the Muses to unlock its potent
+and numerous effects. Unlike the resplendent pages, these aged versions
+can be obtained by completing
+forays
+and
+decay
+after fifteen real
+days
+.
+A tome of the Muses
+- ADDing pages to the tome unlocks a new stage of
+power
+.
+- Each page ADDed also unlocks a new
+piece
+of information on the Muses
+-
+READ
+TOME to read this information.
+- TURN TOME to
+move
+to the next page, up to your maximum pages
+- The tome of the Muses offers the
+following
+powers:
+1. This first page placed into the tome preserves it,
+binding
+the
+tome to you and making it non-decay and resetting.
+2
+. Start gaining Inspiration on an hourly basis (this powers a
+number of the later effects)
+PERFORM RECITATION to see how much inspiration you have gained.
+3
+. Create a glamour from the public list with
+PERFORM GLAMOUR <public glamour name>(150 Inspiration)
+4. PERFORM REHEARSAL and you will gain a significant amount of
+inspiration. This may only be performed once every 24
+Achaean
+days.
+5
+. PERFORM WINDWHIRL <Item> <Direction> AT <Target> to send the
+item
+flying
+up to two rooms away at a hapless
+target
+.
+(30 Inspiration)
+6
+. PERFORM RESOLUTE and take
+resolutions
+regardless of the
+time
+of
+month
+or year. (Only once per performance, 1000 inspiration)
+7. PERFORM CHRONICLE to snapshot your current location and
+everybody in it, allowing you to
+recall
+the memory at any
+point
+you like with PERFORM CHRONICLE RECALL. (80 Inspiration)
+8. Laughter is the best medicine; once per 8
+hours
+, LAUGH
+restores some of your
+willpower
+and
+endurance
+. Each person in the
+room
+who
+uses this
+ability
+to
+join
+in within 5
+seconds
+of the last
+laugh will increase the amount restored!
+9. The glamours created from page 3 can be made to stay in a room
+in exchange for a shorter decay time.
+PERFORM GLAMOUR <glamour name> PERSIST.
+10. PERFORM LILT and exchange all of your current
+rage
+for a
+small
+heal
+, caps at 20% of max
+health
+at 100 rage.
+This requires at least 50%
+battlerage
+. (50 Inspiration)
+11. Extend your range to six rooms when enacting the windwhirl:
+PERFORM WINDWHIRL <item> <direction> AT <target>.
+12. TOUCH TOME to get a clue to a location of historical
+importance. When the location is discovered, standing in
+it will allow you to PERFORM VISTA once a
+day
+to gain a
+significant amount of inspiration.
+13. PERFORM MOCKERY <target> and force everyone and
+thing
+following the target of your rapier sharp critique to
+unfollow them. (200 Inspiration)
+14. PERFORM
+SKETCH
+<tattoo> ON <bodypart> of <adventurer|ME>,
+granting the ability to
+ink
+a
+tattoo
+twice as fast as normal.
+(100 Inspiration)
+15. Gain a bonus to PERFORM REHEARSAL, cutting the cooldown in half.
+16. PERFORM OBITUARY in order to recall the current location and
+name
+of the last person that killed you. (50 Inspiration)
+17. PERFORM
+COMPOSITION
+and spend Inspiration to
+shield
+everyone in your location. (250 Inspiration)
+18
+. PERFORM PRODUCTION to give 200 inspiration to everyone who
+CLAPs or APPLAUDs, and 200 to you if you BOW. There is a 12hr
+cooldown on benefiting from this.
+19
+. PERFORM SACRIFICE <ally> <direction>! Invoke the
+muse
+of
+tragedy and switch places with a mutual
+ally
+in line of
+sight (and visible) on your next damage taken. A
+monolith
+sigil
+in your ally's location will prevent the
+attempt
+.
+(250 Inspiration)
+20. In the direst of circumstances you may need to perform this
+song of battle, spurring all in your location (except for
+yourself) to recover
+balance
+and
+equilibrium
+faster for a short
+time, be they
+friend
+or foe. PERFORM BATTLESONG.
+(400 Inspiration)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

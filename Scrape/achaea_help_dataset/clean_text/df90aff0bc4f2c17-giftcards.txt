@@ -1,0 +1,159 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.32 Giftcards
+Giftcards
+are a promotional item available occasionally from www.
+achaea
+.com/
+credits
+!
+GIFTCARD
+SEND [ANON] <giftcard type> <person> <message>:
+Send a giftcard to someone (or yourself!)
+If you choose to send it anonymously, your identity will be concealed.
+You can send to yourself with your
+name
+or
+me
+/self.
+GIFTCARD
+READ
+[ALL [VERBOSE]|<number>]:
+Read a giftcard!
+If you include no arguments, it reads the first giftcard in your
+inventory
+.
+If you specify all, it reads all giftcards and gives you a summary of
+everything
+you received.
+If you read ALL VERBOSE, it
+shows
+you what each card is giving as well as the summary (this
+might
+get spammy if you have a lot of giftcards!).
+You can read a specific giftcard by number if you want to do that for some reason!
+GIFTCARD
+STATUS
+:
+Shows you how many giftcards you have available to send and how many you have to read!
+GIFTCARD OPTIONS:
+Shows you the types of giftcards available for you to send.
+Not all will be available to everyone, each org has their own special
+design
+for instance.
+Options affect the
+style
+of the giftcard and the delivery manner!
+On
+reading
+a giftcard you receive:
+- One of the major prizes.
+- One of the consumeable prizes.
+- A bonus. If you are missing one of the giftcard bonuses, you will get that with a 12
+hour
+duration. If you have all the bonuses, you'll get a random extension of 1-
+3
+hours
+on an existing bonus.
+- If the card was not sent to you by yourself, the sender also gets a random bonus under the same rules.
+Major items:
+- Card sleeves.
+-
+Talisman
+caches.
+-
+Collection
+caches.
+- Bronze, silver,
+gold
+, and platinum giftboxes.
+- A concoctorial strand.
+Consumeables:
+- Grey and clouded bottle (Consumeable beckon)
+- Ledolian
+surcoat
+(Consumeable +
+armour
+/resistances)
+- Amber ampoule           (Consumeable
+goblin
+minipet
+racial
+traits
+)
+- Carved wooden horse     (Consumeable Raido)
+- Bottle of fairy dust    (consumeable prismatic barrier)
+See HELP PROMO ITEMS for more information on these
+Bonuses:
+- 10%
+xp
+bonus.
+- 30%
+battlerage
+generation bonus. This does stack with the mineral one, though there is diminishing returns (together they push you to a 140% bonus).
+- A
+critical
+hits bonus.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,161 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.3.5 Sojourn
+What is
+Sojourn
+?
+----------------
+Sojourn is a game devised by the Tsol'teth, intended to test their
+children
+on
+matters of strategy and decision making.
+Players take on the role of either Shallamese or Ashtani pilgrims, travelling
+across
+Sapience
+from their home to
+Seleucar
+.
+Beginning with modest supplies, few
+horses
+, and a healthy
+party
+of companions,
+numerous decisions and choices will be presented along the way: these will
+invariably
+help
+, hinder, or otherwise affect progress, and points are scored as
+the game unfolds.
+As
+time
+passes through the making of choices, supplies will be consumed.
+Maintaining adequate provisions is essential to success: Sojourn CAN be
+lost
+.
+How do I play?
+--------------
+Simply travel to the Balan'ukia fortress in the Underrealm, locate the Sojourn
+board
+, and SOJOURN START. From there, a new game is initiated and all should
+unfold quite clearly and intuitively.
+Is there a time limit?
+----------------------
+In short: no. A game of Sojourn lasts as long as is necessary for it to be
+completed. You can safely step away from the board,
+leave
+the realms, or
+ignore
+the game for a decade: when you return, all progress will be remembered.
+Year 802
+Games
+--------------
+From Sarapin 1st 802 until 25th Ero 802, all
+who
+have been sampled by the
+Tsol'teth are free to play Sojourn without limits. Scores will not be tracked
+throughout this
+practice
+period
+.
+From 1st Valnuary 802, competitors may play up to three Sojourn games: the
+highest
+scoring
+of these three games determines the final
+score
+for
+Championship
+Point
+purposes.
+During these official
+attempts
+, you CANNOT use SOJOURN START to
+quit
+the game and start over. You must see each one through.
+Commands
+--------
+SOJOURN
+SOJOURN START <city>     - Begins a game of Sojourn, as either
+Shallam
+or
+Ashtan
+.
+- This may also be used to
+resign
+your current game
+and start anew.
+SOJOURN SCORE            - Displays your Sojourn score.
+SOJOURN
+STATUS
+- Displays useful information on your party, and any
+relevant supplies or provisions you may have.
+SOJOURN
+SHOW
+- Repeats the current choices available to you.
+SOJOURN SELECT <choice#> - Make a choice from the options presented to continue.
+SOJOURN
+MAP
+-
+Shows
+your current position on the journey.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

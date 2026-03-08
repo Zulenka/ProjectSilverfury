@@ -1,0 +1,439 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.24 House of Wonders
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+All items purchased in the
+House
+of Wonders with Mayan
+Crowns
+are resetting and non-decay. They also have no
+trade
+-in
+credit
+value and cannot be refunded.
+The House of Wonders can be found among the rest of the artefact shops in Delos.
+Gifting items from the House of Wonders
+-----------------------------------------------
+To purchase an item as a gift for another
+character
+, use this
+syntax
+: BUY <item> AS GIFT FOR <person> [
+MAIL
+]. If you include 'MAIL' at the end, it will be delivered via the
+postal
+service
+.
+A miniature display
+arena
+:
+3
+Mayan Crowns
+- Place this display arena in your home and stash up to 25 of your battle figurines inside.
+From
+time
+to time the appearance of this arena
+might
+shift
+to display a different notable location.
+PLACE <arena>   - Owner only, in a location that you own
+PUT <battle figurine> IN <arena>   - Owner only
+TAKE <battle figurine> FROM <arena>   - Owner only
+LOOK
+<arena>   - For everyone
+LOOK <arena> <item id|item keyword|position> - For everyone
+I.E:
+LOOK ARENA 12345 will
+show
+item #12345.
+LOOK ARENA
+IRONBEARD
+will show the Ironbeard figurine's
+description
+(if one is placed within.)
+LOOK ARENA
+5
+will show the 5th item.
+GET <arena>   - Owner only, retrieve your display arena
+Note: Battle figurines will not
+fight
+in this arena.
+A sturdy display case:
+2
+Mayan Crowns
+- Place this display case in your home and put up to 25 of your treasures inside for all to admire.
+PLACE <case>   - Owner only, in a location that you own.
+PUT <item> IN <case>   - Owner only.
+TAKE <item> FROM <case>   - Owner only.
+LOOK <case>   - For everyone.
+LOOK <case> <item id|item keyword|position>   - For everyone.
+GET <case>   - Owners, retrieve your display case.
+A banded chest:                                               3 Mayan Crowns
+- This chest holds up to 50 items, and is open/closeable by its owner only.
+Putting/getting items from this chest can only be done when the item is in a
+housing
+room.
+This item can only be dropped in housing rooms.
+Once dropped PUSH CHEST to secure it in place.
+This item can be unsecured with PULL CHEST, then take the chest and drop it elsewhere as desired.
+A brass doorbell:                                             2 Mayan Crowns
+- Visitors can RING DOORBELL, announcing their presence to all on the property!
+ATTACH DOORBELL on a
+plot
+you own (the room with the in
+exit
+).
+An abode's emblem:
+6
+Mayan Crowns
+- Travel quickly to and from your
+subdivision
+plot with this emblem.
+ATTUNE <emblem>   - When standing at a subdivision plot you own.
+- This can be done once every 24
+hours
+.
+ACTIVATE <emblem> - When in the
+city
+whose subdivision contains your attuned
+location, this will take you to the attuned plot.
+- When at attuned plot, this will take you to the
+subdivision's entrance.
+- Requires full health and almost full
+mana
+.
+A pirate's eyepatch:                                          2 Mayan Crowns
+- Giving this eyepatch to a
+shipmate
+will give them a more swashbuckling outlook on life.
+Usable once per
+Achaean
+month
+.
+A personal mailbox:                                           5 Mayan Crowns
+- PLACE MAILBOX at the entrance to your home (in or out of subdivision) and have your mail deposited here ready for your
+collection
+!
+GET MAILBOX to retrieve your mailbox in case you want to
+move
+it.
+Only the mailbox's owner can take
+letters
+from this box.
+A featureless mannequin:                                      2 Mayan Crowns
+- Display the very best of your fashionable or functional work upon this featureless mannequin.
+PUT <
+clothing
+/
+jewellery
+item> IN MANNEQUIN      - Owner only.
+TAKE <clothing/jewellery item> FROM MANNEQUIN   - Owner only.
+A plump, incandescent pillow:                                 5 Mayan Crowns
+- Dropping this luxurious pillow in your bedroom will expand its capacity, and allow a third person to occupy the
+bed
+.
+Only one pillow may be in a bed at any time, and only the owner of the pillow and the bedroom has
+permission
+to drop it.
+A
+plinth
+of
+Seleucarian
+marble:                               1 Mayan Crowns
+- This plinth displays 1 item in your home.
+The item is placeable/takeable by the plinth's owner only.
+This item can only be dropped in housing rooms.
+Once dropped PUSH PLINTH to secure it in place.
+This item can be unsecured with PULL PLINTH, then take the plinth and drop it elsewhere as desired.
+An oak hitching
+post
+:                                         3 Mayan Crowns
+- Hitch your creatures to this hitching post and they will return to that location upon reset!
+DROP POST places it in housing location. (Owner only)
+PULL POST retrieves the post and returns all
+pets
+to their owner. (Owner only)
+PUSH POST <petID/mountID> tethers a
+pet
+,
+mount
+, or
+minipet
+. (Owner only)
+PULL POST <petID> to untether a pet and make it reset back into your inventory!
+A wooden
+weapon
+rack:                                         2 Mayan Crowns
+- Place this weapon rack in your home and store your
+weaponry
+for display upon its hooks.
+Maximum capacity is 25.
+PLACE <rack>                - Owner only, in a location that you own.
+PUT <weapon> IN <rack>      - Owner only.
+TAKE <weapon> FROM <rack>   - Owner only.
+LOOK <rack>                 - For everyone.
+LOOK <rack> <item id|item keyword|position> - For everyone.
+GET <rack>                  - Owners, retrieve your display rack.
+A voluptuous clay
+effigy
+:                                     2 Mayan Crowns
+- Transforms your
+ship
+crew
+into entirely new creatures, and works on swashbucklers,
+shipmates
+, cooks, chefs, and
+cabin
+boys.
+Goblinoid - Members of the
+goblin
+race
+Voluptuous - Sultry
+seafaring
+wenches
+Handsome - Sun-kissed dreamboats
+Drop on the deck of your ship to activate, and your crew will be transformed in the midnight
+hour
+. The effect will last until replaced with a different effigy or the crew dies.
+These are consumed upon use.
+A jar of ectoplasm:                                           5 Mayan Crowns
+- Dropping this jar inside a house will release a ghost!
+DROP this jar in a house and a ghost will be released from within. This new house guest will haunt the property in a variety of different ways and even interact with a number of
+other
+items present in the home!
+An
+Orb
+of Minor Confinement:                                  15 Mayan Crowns
+- This orb offers a number of security features for a home.
+DROP this item in a house you own.
+The owner of the orb and house can GET ORB# provided that it is deactivated.
+ACTIVATE/DEACTIVATE orb to block track and flight in and out of your whole property.
+With this active you can still pierce the veil out of the home.
+Airlord lightning will not be able to pierce the orb's protection.
+Traverse, the Yuthka
+Legenddeck
+card, and falcons will not be able to pass through the barrier.
+A small icebox:                                               4 Mayan Crowns
+- When placed in a home, this icebox halves the decay time of
+food
+or drink stored inside.
+A gilded invitation:                                          10 Mayan Crowns
+- Extend an invitation to all mutual
+allies
+to visit your home!
+Stand in your home and POST INVITATION to send an invitation to all mutual allies currently in the realms!
+The invited have 30
+seconds
+to ACCEPT INVITATION and must be in same area as property to accept.
+If they accept they will be transported to your location!
+This item cannot be used during a sanctioned raid.
+This item will not function for allies that are enemied to the city if your home is in a city.
+This item respects
+monolith
+sigils
+on the accepting party's end but not the sender.
+This has a 5
+minute
+cooldown.
+An unassuming
+bucket
+of colourful rocks:                      2 Mayan Crowns
+- Turn this bucket of rocks into a pond to decorate your home!
+With the bucket of rocks in your inventory, head to an outdoors room in your home that does not already have a pond and CONSTRUCT POND!
+This pond cannot be fished from.
+An elaborate gargoyle knocker:                                5 Mayan Crowns
+- Use this knocker to set a
+password
+for a door in your house.
+DROP this gargoyle in a house that you own.
+Owner of house/gargoyle can PUSH GARGOYLE <direction> <password> to set/change a password on a door
+direction
+.
+When someone
+says
+the password in the room with the gargoyle the door will open.
+THIS WILL SUPERCEDE ANY
+PERMISSIONS
+SET.
+<direction> should be a full word: northeast, west, down, out.
+<password> can only be one word.
+A gargoyle can only handle one door and password.
+There must be a door in the direction.
+A
+wishing
+well:                                               1 Mayan Crowns
+- Place this well in your home and drop a coin in. Maybe your
+wish
+will come true!
+A grandiose
+pipe
+organ:                                       2 Mayan Crowns
+- Decorate your home with this functional pipe organ.
+DROP this instrument in your home.
+Only the owner can GET it again.
+PUSH <organ> to play one of four different songs!
+A
+diamond
+horseshoe:                                          30 Mayan Crowns
+- Ward against intruders with this security-enhancing horseshoe.
+Drop this item in your house and when TOUCHED all existing rooms will have full security upgrades applied to them.
+This includes:
+-
+eye
+sigil
+- no prism
+- monolith sigil
+-
+key
+sigil
+TOUCH the horseshoe at any time to reapply the effects to the entire house (should you be
+building
+.)
+A weathered clapboard doghouse:                               2 Mayan Crowns
+- This doghouse is the perfect home for a canine companion.
+DROP this doghouse in your home to place it.
+TOUCH <house> FOR <PetID#> to put a dog minipet inside. This will make the minipet reset to the
+container
+and unlocks a variety of ambient
+messages
+.
+GET <PetID#> FROM <house> to retrieve your minipet.
+GET <house> to retrieve the doghouse, but only if it's empty!
+These can only
+hold
+one minipet at a time.
+An oak-framed glass terrarium:                                2 Mayan Crowns
+- This terrarium is ideal for lizards, frogs, and toads.
+DROP this terrarium in your home to place it.
+TOUCH <terrarium> FOR <PetID#> to put a lizard, frog, or toad minipet inside. This will make the minipet reset to the container and unlocks a variety of ambient messages.
+GET <PetID#> FROM <terrarium> to retrieve your minipet.
+GET <terrarium> to retrieve the terrarium, but only if it's empty!
+These can only hold one minipet at a time.
+A plush cat's tower:                                          2 Mayan Crowns
+- Keep your feline companion entertained with this cat's tower.
+DROP this tower in your home to place it.
+TOUCH <tower> FOR <PetID#> to put a cat minipet inside. This will make the minipet reset to the container and unlocks a variety of ambient messages.
+GET <PetID#> FROM <tower> to retrieve your minipet.
+GET <tower> to retrieve the tower, but only if it's empty!
+These can only hold one minipet at a time.
+A rabbit hutch:                                               2 Mayan Crowns
+- This hutch will make your rabbit companion feel right at home in your home.
+DROP this hutch in your home to place it.
+TOUCH <hutch> FOR <PetID#> to put a rabbit minipet inside. This will make the minipet reset to the container and unlocks a variety of ambient messages.
+GET <PetID#> FROM <hutch> to retrieve your minipet.
+GET <hutch> to retrieve the hutch, but only if it's empty!
+These can only hold one minipet at a time.
+A bird perch:                                                 2 Mayan Crowns
+- A perfect perch for the discerning avian.
+DROP this perch in your home to place it.
+TOUCH <perch> FOR <PetID#> to put a bird minipet on it. This will make the minipet reset to the container and unlocks a variety of ambient messages.
+The dropped description will also show the pet that is perched!
+GET <PetID#> FROM <perch> to retrieve your minipet.
+GET <perch> to retrieve the perch, but only if it's empty!
+These can only hold one minipet at a time.
+Regular
+Shop
+of Wonders items can be found in HELP SHOP OF WONDERS
+Discontinued stock can be found in HELP DISCONTINUED SHOP OF WONDERS
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

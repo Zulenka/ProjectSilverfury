@@ -1,0 +1,148 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.7.5.1 The Championship Games
+(See also: HELP QUINQUAGENARY CELEBRATIONS,
+HELP
+YEAR200
+, HELP NICATOR'S CROSSING)
+The main
+event
+during our
+quinquagenary
+celebrations, the
+Championship
+Games
+, gives adventurers the chance to prove themselves with tests of knowledge, and
+skill
+. Five
+events
+comprise the games:
+Race
+Around The
+World
+, a
+group
+riddle
+, an
+XP
+contest, and the
+Twins
+combat
+tournament, and the World Games Extravaganza.
+The games have previously included:
+tumble
+races
+, a
+foozle
+, a
+quiz
+, a
+sojourn
+contest.
+1st place in an event wins 200
+credits
+and 7 Championship points
+2nd place in an event wins 175 credits and
+5
+Championship points
+3rd place in an event wins 150 credits and 4 Championship points
+4th place in an event wins 125 credits and
+3
+Championship points
+5th place in an event wins 100 credits and
+2
+Championship points
+6th place in an event wins  75 credits and 1 Championship points
+At the close of the games, a single
+champion
+emerges and is declared the Champion. The Champion is gifted with the Staff of Nicator, a legendary
+artefact
+wielded
+by some of the most celebrated figures in
+history
+. The Champion also earns the right to the
+title
+"Lord/Lady of the Crossing," and is granted honorary stewardship over the Keep at Nicator's Crossing upon
+Meropis
+. The winner also earns 2000 credits.
+Previous winners of the Championship Games are:
+Year 200: Isildur
+Year 300: Shakti Devi
+Year 350: Roncli Op'Shae
+Year 400: Reiye Wildfang
+Year 450: Jaizsur Ta'sa
+Year 500: Rangor Corten
+Year 550: Penwize Baker
+Year 600: Sothantos de l'Evanoir
+Year 650: Jhui Ta'sa
+Year 700: Jarrod Dracrotalus
+Year 750: Tesha
+al
+Ashtad
+Year 802: Farrah Roualt
+Year 852: Crixos
+Year 902: Imyrr Invictus
+Year 957: Veldrin Crescent
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

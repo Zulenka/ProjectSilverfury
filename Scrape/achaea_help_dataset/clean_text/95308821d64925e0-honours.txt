@@ -1,0 +1,136 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.16 Showing info about another person in the realms: HONOURS
+The main way to see information about someone else is via
+HONOURS
+. With very
+few exceptions, if the information isn't in HONOURS, then there's no
+generally-available way of getting it.
+Commands
+:
+HONOURS adventurer
+HONOURS BRIEF adventurer
+HONOURS B adventurer
+HONOURS FULL adventurer
+HONOURS F adventurer
+VIEW HONOURS adventurer
+HONOURS DEEDS adventurer
+HONOURS D adventurer
+Use HONOURS (same as
+HONOURSB
+) to see some
+publically
+available information.
+HONOURSF
+shows
+somewhat more information. Example HONOURS FULL Isildur:
+Isildur, the Iceman (male Rajamala).
+He is 305 years old, having been born on the 20th of Daedalan, 157 years
+after the fall of the
+Seleucarian
+Empire.
+He is unranked in
+Achaea
+.
+He is an extremely
+credible
+character
+.
+He is not known for acts of
+infamy
+.
+He is a Satrap in
+Shallam
+.
+He is considered to be approximately 85% of your
+might
+.
+He is an Itinerant in the
+Fellowship
+of
+Explorers
+.
+He is the
+clan
+head of the clan called 'The Devout.'
+He is a
+mentor
+and able to take on proteges.
+His
+warcry
+: 'Tis merely a fleshwound'
+He was the first mortal since the fall of the Seleucarian Empire to
+wield
+the staff of Nicator,
+winning
+it by triumph in the Year 200
+events
+.
+The final line or lines relating to public honours gained, such as Isildur's
+wielding
+of the Staff of Nicator, will not be displayed in HONOURS or HONOURSB.
+The use of HONOURS DEEDS or HONOURS D will give you only the lines of their
+achievements.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,152 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.32 Gear Trading
+Trading
+gear
+between adventurers uses a unique interface in order to facilitate the exchange of
+pieces
+. When engaging in a
+trade
+proposal, you will enter negotiation with the
+other
+party
+and be prompted on how to proceed.
+This does not follow typical
+Achaea
+item exchanges as gear does not behave like typical items.
+Interacting with Trade Negotiations:
+GEAR TRADE BEGIN <trader>
+- Initiate a trade request with someone.
+GEAR TRADE RESUME <trader>
+- Resume a paused trade.
+GEAR TRADE LIST
+- Inspect any incomplete trade negotiations.
+GEAR TRADE REVIEW <number|name>
+- Review the details of a pending trade.
+GEAR TRADE ABORT <number|name>
+- Abort a pending trade.
+Specific trading
+Commands
+:
+ADD <amount> <
+GOLD
+|CREDITS>
+- Add gold or
+credits
+to the trade.
+ADD <gear1> [gear2] [gear...n]
+- Add gear to the trade.
+OFFER <TRANSFORMATION|RESTORATION>
+- If you are able to transform or restore gear (via
+augmentation
+and
+armoursmithing
+respectively), offer your services.
+HELP
+- View trading commands
+PROBE
+<gear ID>
+- See details about gear being offered.
+REMOVE
+<amount> <GOLD|CREDITS>
+- Remove gold or credits from the trade.
+REMOVE <gear1> [gear2] [gear..n]
+- Remove gear from the trade.
+RESTART
+- Restart your proposal.
+REVIEW
+- See the current trade proposal.
+SEAL
+- Seal your trade offer.
+QUIT
+-
+Leave
+this trade for now.
+CONCLUDE
+- Conclude your trade and request confirmation from your partner.
+A Note on
+Restoration
+and Transformation
+----------------------------------------
+Armoursmiths and those skilled with Augmentation will be able to offer their services in a gear trade to restore and transform gear. This costs the owner an amount of arcane ephemera (obtained via gear scrapping, see
+HELP
+GEAR).
+Restoration will restore your
+piece
+up to its maximum original
+decay
+time
+, while Transformation will
+attempt
+to
+reroll
+a piece's effect into another from those available within its set and slot.
+In cases where the same affix is rolled as the original, the magnitude will still be generated fresh.
+A piece of gear may only be adjusted (restored or transformed) up to three
+times
+, and both restoring and transforming count towards this limit.
+For example: If I restore a piece twice, I can only restore it a third time, or transform it once before it will no longer be possible to adjust any further.
+Note: trinkets cannot be transformed.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,172 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.15 THE RUNEWARDEN CLASS
+(See also:
+HELP RUNELORE
+,
+HELP DISCIPLINE
+,
+HELP WEAPONMASTERY
+,
+HELP
+8, HELP
+CLASS
+)
+The class of
+Runewardens
+first originated in the
+city
+of
+Cyrene
+, deep within
+the snow-clad mountains of the Southern
+Vashnars
+. Though founded within the
+Heart of the Vashnars (now the Gate of Oceanus), the
+skills
+of the class are not inherently
+bound
+to
+any one ethos. A
+Runewarden
+warrior is usually welcome in any city as long
+as he or she is willing to live by that city's laws.
+Armed in shimmering
+armour
+and
+wielding
+blades inscribed with arcane
+runes
+,
+the Runewardens are the epitome of
+discipline
+and
+honour
+in
+combat
+.
+Protection and
+preservation
+is their
+motto
+, and they are selfless in
+whatever cause they represent. Fittingly, they possess the knowledge of
+crafting
+totems
+and sketching runes upon them, and the totems are often
+implanted in
+cities
+and
+other
+properties as protection against
+enemies
+, the
+runes upon the totems
+attacking
+enemies on sight. Their
+studies
+of the magic
+inherent in representational forms also has given them the knowledge to
+sketch
+runes not only on totems and
+weapons
+but upon themselves,
+others
+, and
+on the ground, each rune possessing a different
+power
+.
+Their totems can also be
+wielded
+for use in combat, but Runewardens
+generally eschew this use in
+favour
+of their beloved blades. Strengthened
+with runes and usually dripping with coated
+venoms
+, the flashing dual blades
+of a Runewarden are a magnificent sight in full combat. Discipline and
+honour are the watchwords of a Runewarden, and the
+movement
+of their
+formations on the battlefield can be a dazzling sight indeed.
+The skills of a Runewarden are
+Runelore
+, Discipline, and
+Weaponmastery
+. A
+fledgling
+Runewarden gains Runelore and Weaponmastery, while Discipline is
+gained upon
+embracing
+class.
+(See also:
+HELP RUNELORE
+,
+HELP DISCIPLINE
+,
+HELP WEAPONMASTERY
+, HELP 8, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

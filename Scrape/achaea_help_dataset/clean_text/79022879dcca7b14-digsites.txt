@@ -1,0 +1,173 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.25 Relics
+NOTE: After the Age of Black
+Woe
+(SEE
+EVENTS
+756),
+relics
+are functionally non-existent in
+Achaea
+. This
+help
+file remains accessible for historical knowledge only.
+The Protean Relics are a
+collection
+of very ancient and powerful items created
+by
+Proteus
+during the
+days
+of the Chaos Wars. He reportedly locked them away in
+the Reliquary of Proteus, to be guarded by Kaphlos, the son of the Aldar
+Dekalb.
+For millenia, the location of the Reliquary was kept a secret, until the
+incursion of the Dala'myrr during the
+attack
+of Bal'met, the Worldreaver. The
+rapid burrowing of the enormous Dala'myrr, magically-aided, caused tears in the
+ether that were discovered first by Maklak during the Reckoning of the
+Conclave
+, and then by Yudhishthira as he was searching for the source of
+Maklak's
+power
+.
+These ether tears were then discovered by adventurers initially working under
+the
+direction
+of Yudhishthira, and then by the
+world
+at large. Located in
+unstable
+Digsites
+, adventurers tunneled through them, enduring occasional
+deadly collapses, and found their way to individual Chambers in the Reliquary
+that
+hold
+the Relics.
+The currently known Relics are:
+Earthshaker
+A giant hammer that can smash the ground and knock everyone in it and
+surrounding rooms down.
+Lifegiver
+A
+ring
+that functions like an additional starburst
+tattoo
+.
+The Rageblade
+A longsword that grows faster as the wielder's
+health
+decreases.
+Relic
+Commands
+--------------
+RELICS
+STATUS
+will
+show
+you where the known Relics are.
+RELIC YIELD <relic> will give up a relic that is being held.
+Relic Behavior
+--------------
+Relics are powerful but also somewhat unpredictable. They tend to be very
+difficult to hold onto for any length of
+time
+if you're
+going
+to actually use
+them. Ways that a Relic
+might
+leave
+your possession or the spot where you left
+it:
+* If you're killed, your Relic will drop and possibly re-appear elsewhere.
+* If you're killed by an adventurer, that adventurer gets your Relics.
+* A Relic left on the ground for any length of time will cause the Relic to
+re-appear somewhere else.
+* Relics taken on
+ships
+may frequently disappear.
+* Some Relics may occasionally disappear into an inaccessible part of the
+Reliquary for a time, returning to the world eventually.
+It's also important to note that Relics -cannot- be given away. The only way to
+lose
+a Relic is via one of the above methods. You can't give them away,
+throw
+them away, drop them, etc. If you absolutely do not want the item, you may use
+RELIC YIELD to send it back to the Reliquary.
+Relics and
+PK
+-------------
+Without exception, those
+holding
+a Relic or
+who
+were holding a Relic when first attacked, puts them at risk of being attacked by anyone, for any reason - or no reason at all.
+Relic holders who are attacked/killed may retaliate for this, but may not
+hire
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

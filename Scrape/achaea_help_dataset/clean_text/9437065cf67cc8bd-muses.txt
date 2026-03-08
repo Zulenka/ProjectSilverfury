@@ -1,0 +1,350 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.11 AN INTRODUCTION TO MUDS
+This brief introduction is intended for those
+who
+are unfamiliar with
+MUDs
+,
+which are also called:
+-
+MUD
+-
+Multi
+-User Dungeon, or Multi-User Dimension.
+-
+MUG
+- Multi-User Game.
+-
+MOO
+- MUD,
+Object
+Oriented.
+- MU*    - Any of these
+other
+things
+.
+-
+MMOG
+- Massively
+Multiplayer
+Online Game.
+-
+MUCK
+- Multi-User
+Chat
+Kingdom.
+-
+MUSE
+- Multi-User Shared
+Experience
+.
+-
+MUVE
+- Multi-User Virtual
+Environment
+.
+-
+MUSH
+- Multi-User Shared Hallucination.
+-
+ORPG
+- Online Role Playing Game.
+-
+MURPE
+- Multi-User Role Playing Environment.
+-
+MMORPG
+- Massively Multiplayer Online Role Playing Game.
+(there are a few
+others
+, such as MAZE, MARE,
+MUX
+, and probably some we've
+missed, but that should be enough to get you
+going
+).
+If you have played one of these before, it's unlikely you'll need to
+read
+below.
+Starting: Your Adventurer
+-------------------------
+So you've created an adventurer in
+Achaea
+! Great start! You've also finished
+the '
+Escape
+from Miba', which is our introductory
+tour
+.
+What is your adventurer? For the purposes of the
+Achaean
+realms, it is you.
+Your adventurer can
+walk
+, fly,
+look
+at things,
+learn
+things,
+talk
+to people,
+make
+friends
+or
+enemies
+,
+join
+or
+leave
+organisations such as
+cities
+or Great
+Houses
+or
+Divine
+Orders
+, and almost
+anything
+else you can imagine doing.
+What do we know about your adventurer? How do we
+describe
+him, or her?
+SCORE
+,
+SKILLS
+, and
+STAT
+go
+a long way to answer this,
+showing
+:
+-
+statistics
+such as
+strength
+,
+intelligence
+,
+constitution
+,
+dexterity
+,
+health
+,
+endurance
+,
+willpower
+, and
+mana
+(magical
+power
+).
+- tiredness,
+hunger
+.
+- age.
+- how many
+lessons
+are available to increase skills.
+- (and a great deal more).
+Interaction
+-----------
+Achaea is not a solo
+adventure
+. You are far from alone!
+Whatever you do, you'll be doing it with hundreds and even thousands of other
+adventurers (other players), plus what we call
+denizens
+, which are
+computer-controlled beings. Talk to them, ask them things, find out about
+quests
+. Return a
+lost
+animal to its owner; end an evil monster's reign of
+terror over a fearful township; re-unite lost loved ones; find rare treasures
+for wealthy collectors: the possibilities are endless!
+Setting
+-------
+Achaea is a fantasy environment that combines elements of classical Greece and
+Rome, medieval Europe, ancient Persia, and other early empires.
+Growth: MUDS are About Increasing and
+Learning
+-----------------------------------------------
+Your adventurer will grow and gain new
+abilities
+as your knowledge and
+experience in the land increases.
+Study
+in various skills to increase what you
+can do and how well you can do it.
+Location
+--------
+You are standing in what is called a "room" or "location". You will always be
+in a room/location in Achaea, one of thousands (actually, there are well over
+twenty thousand locations, plus the
+wilderness
+).
+A location could be field, a section of
+desert
+, a part of a
+city
+street, or
+just a room in a
+house
+. Locations are usually connected to each other by
+directions
+(e.g. north, northeast, up, down, in and out). Sometimes, special
+sorts of things
+connect
+remote locations, such as
+portals
+.
+To "see" your current location, use LOOK, or just L. This will
+show
+you several
+things:
+- a
+name
+(a phrase like "At the centre of Dockhand Square"),
+- a detailed
+description
+of the room,
+- what is there: a
+thing
+(sword, box, etc.), an animal, people, etc.
+Too Much Detail!
+----------------
+Sometimes you may not want to read the full description of your location, but
+still want to see
+everything
+else in it. Just do QL (quick look).
+Moving
+------
+You can
+move
+around easily enough by simply giving the
+direction
+you want to
+go. For instance, NORTHEAST or NE to go northeast. As you rise in power, you
+may be able to move around in other ways, including
+flying
+, burrowing,
+riding
+mounts
+, or creating portals to faraway places, travelling in an instant.
+Confusion
+---------
+MUDs can be confusing at first. There's a lot going on!
+People (both adventurers and denizens) are
+walking
+around, coughing, burping,
+whatever. You may hear yelling or
+shouting
+and tons of just plain
+talking
+. You
+will hear noises. Information is whirring past, and it's not clear what is
+important, and what can be safely ignored.
+That's ok. We can
+help
+. Many others in Achaea can help you if you'll just ask.
+Try doing this:
+NEWBIE
+I'm not sure what to do now. Could someone advise
+me
+privately?
+Many are willing to take
+time
+out to advise the newest members of Achaea.
+Who's Out There?
+----------------
+Do WHO (to see what adventurers are in the realms). Pick someone:
+TELL
+jacko I'm new here. Could you help me figure a few things out?
+HELP
+----
+Or you can go straight to HELP. We have an extensive help
+system
+with thousands
+of entries. HELP alone will give you plenty of
+ideas
+. HELP 1 is all about
+getting going, and HELP
+2
+has basic
+commands
+.
+Fun
+---
+This can be a heck of a lot of fun. Try out interesting things. Greet everybody
+you meet. Listen and learn. You may want to become a great fighter, or a mighty
+mage, or an experienced diplomat. Perhaps political leadership is more to your
+liking. Like real life, the options are close to endless. It's up to you to
+decide and to have fun.
+We
+wish
+you all the best.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

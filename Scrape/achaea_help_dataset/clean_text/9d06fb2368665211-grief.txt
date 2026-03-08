@@ -1,0 +1,386 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.14 Griefing
+I. What is 'griefing'?
+Griefing
+: meaning, "to cause grief" and, in the parlance of
+multiplayer
+online
+games
+, behaviour which
+falls
+outside the normal accepted boundaries of in-game
+behaviour.
+Achaea
+is a game of epic conflict and players should expect to open themselves
+up to
+attack
+when taking part. However, conflict should always grow out of
+roleplay
+and, most importantly, it should be fun! Players should always strive
+to
+win
+and
+lose
+with equal
+grace
+. Just as players on the
+losing
+side of a
+conflict should avoid frivolous
+issuing
+which tries to punish anyone
+who
+takes
+part in conflict, at least as importantly, players on the
+winning
+side should
+have restraint and understand that knowing when to stop "winning" is
+critical
+.
+A well-played
+character
+must endure trials and suffer inconveniences or worse.
+However, the
+key
+is that these trials and misfortunes should be meaningful
+consequences of the player's choices for his or her character, whether those
+choices be
+joining
+an organisation aligned in a certain manner,
+choosing
+to
+betray his home
+city
+, insulting a God, exploring a dangerous area, et cetera.
+Not simply crossing the path of a
+griefer
+who sees a chance to
+grief
+.
+Some players love to
+fight
+: this is good. Those players are welcome to find
+other
+players just like them and
+hack
+at each other until the end of
+time
+, but
+many players do not want to fight for no reason. It's not because they're not
+as willing to risk their character's lives. It's not because they're cowards.
+It's not because they don't enjoy
+combat
+. It's because
+fighting
+, in and of
+itself, is not meaningful to them. They may enjoy it on its own some of the
+time, but it isn't the be-all and end-all of their
+Achaean
+experience
+. However,
+it can be immensely meaningful and enjoyable to them when there is a reason to
+engage
+in it, win or lose.
+No one owes it to another player to fight them, simply because that player
+wants them to.
+Griefers
+do not add to conflict, they detract from it by
+discouraging occasional combatants from participating. Combat with a griefer is
+empty, meaningless, contributes
+nothing
+, and wastes much.
+II
+. Am I a griefer?
+Regulating "griefing" is sometimes seen as a very subjective exercise. Most
+people
+think
+they "know it when they see it", but find it difficult to
+define
+exactly what it constitutes. Although context is important and every situation
+is different, there are a number of factors which make up Achaean "griefing".
+Although isolated and individual breaches of the rules below may not be serious
+enough to warrant the attention of the administration, they should be adhered
+to in the interests of creating the best possible playing
+environment
+for all
+of us. Repeated breaches or breaches of several rules at once will clearly
+constitute griefing and will open you up to administrative punishment, up to
+and including
+shrubbing
+.
+1. Lack of roleplay justification for
+attacks
+: This is the most important
+factor. Note "My character is a psychopath" or other similar formulations are
+not an appropriate in-character motivation. It is a flimsy excuse for selfish
+gameplay which harms the experience of other players.
+If you want to take part in conflict,
+join
+organisations that encourage it.
+Fight Evil on the side of the
+Light
+! Battle pernicious Order as a Chaotic
+warrior! Although a well-played rogue may develop sound roleplay reasons for
+active conflict, this is generally much harder to achieve than for those
+adventurers who are taking part in one of the main axes of conflict in the
+game.
+2
+.
+Failure
+to accept you have
+lost
+(when losing is an option): All adventurers
+are attached to their characters and sometimes this leads to difficulties in
+accepting that all characters "lose" sometimes. Not even the most fearsome
+warrior or the most cunning politician wins every battle. If you are taking
+part in a conflict with
+defined
+win/lose
+goals
+, e.g. if you are seeking to
+maintain a
+shrine
+against defilers, if you are trying to maintain
+membership
+of
+the Ivory
+Mark
+, if you are trying to
+hold
+the
+island
+of Shala-Khulia then the
+administration will not protect you if you cannot accept that this conflict
+might
+end with you losing. Do not
+issue
+! Do not complain to people or the
+administration about griefing! Let the shrine fall with good grace. Depart the
+Ivory Mark stoically. If you're a thief, stop
+stealing
+!
+As a corollary to this, driving people away from a faction altogether is not a
+viable
+goal
+. You should not take the position that you will attack until a
+person leaves their city or abandons their ideals. Achaea should be full of
+wars that never end, with all sides well represented. If conflict is conducted
+with the goal of the complete eradication of the opposing side, then conflict
+will end quickly with all combat-capable players on the same side. As a
+character you may (and should!) want
+Mhaldor
+to be driven in to the sea or
+Targossas
+to be wiped out of existence but as a player you should not.
+3
+. Failure to stop "winning": It's nice to win. Usually
+roleplaying
+a win will
+be more fun than roleplaying a loss, that's human
+nature
+. When you do win
+though, remember that it was the people who were playing the other side that
+made it possible for you to have fun in the first place. You want them to come
+back fighting next week or next
+month
+, so do your best to make it fun for them
+too. Don't grind their faces into the dust. Retreat triumphantly - have a
+victory
+party
+- toast your prowess on the battlefield.
+4. Repeated use of the same
+event
+to justify multiple attacks: So someone
+insulted you. You want to punish them for it - that's fine. What is not fine is
+using that single event to attack repeatedly over and over again. Not just to
+one
+death
+but two, four. Persuading your
+friends
+to jump them. Stopping them
+bashing
+. Be proportionate - the administration will recognise when your
+"roleplay" is just an excuse to grief.
+5
+.
+Attacking
+people significantly below your might/
+skill
+: Unless a
+newbie
+is
+really asking for it, it's classless to attack them and likely to discourage
+them from taking part in conflict in the future. Similarly, if you repeatedly
+take "offence" because of the actions of weaker players and attack them, the
+administration will recognise that as another excuse for griefing. Conflict is
+at its best when it is evenly matched. If as a high
+level
+, multiple artefacted,
+omni-trans experienced warrior you spend a lot of your time
+killing
+younger
+low-levelled players, then you are probably griefing.
+6
+.
+Kill
+squads: Team fighting is fun and an important part of Achaea but just
+as powerful players repeatedly
+targeting
+weak players is a sign of griefing, so
+is constantly taking your
+group
+of six or eight and targeting single players.
+Once might be fine if someone is truly deserving (or avoids the consequences of
+their actions by
+running
+from a single attacker), but it is griefing to
+repeatedly
+target
+single players for triggered insta-kills or other inescapable
+group slayings.
+7. Kill rooms/unavoidable deaths: Although the administration constantly tries
+to keep combat balanced, there will always be cheap and easy ways to kill.
+Long-range summons into locked
+houses
+or city
+guards
+being a good example. If
+someone did not initiate a fight - if they are not currently
+raiding
+your city
+or trying to damage your interests, then these forms of attack are generally
+discouraged, particularly the use of what are known as "kill rooms", locked
+player-owned rooms set up to be inescapable and used to summon other players.
+Regular or repeated use of these set-ups is griefing.
+8.
+Fishing
+: If you are constantly fishing for reasons to attack people,
+or constantly trying to provoke
+others
+to fight you when they have no reason to
+do so other than your provocation, then yes, you are a griefer, or at the very
+least, you are exhibiting griefer-like
+traits
+. Perhaps you try to 'game' the
+rules by
+following
+someone around, sending him
+tells
+, and
+looking
+for the
+smallest excuse or chance to attack him. You are griefing.
+III. When is griefing permitted in Achaea?
+Never.
+IV. What do I do if someone is griefing
+me
+?
+First,
+consider
+if they are truly griefing you or if you simply feel that way
+in the heat of the moment. They may have a valid in-character reason for
+attacking you, but you may just be too flustered or angry to consider it.
+Take some time to assess the situation with a cool head. Remember that
+sometimes your character "loses" and this is part of roleplay - in fact, some
+of the best and most enjoyable forms of roleplay can come out of a situation
+where your character "lost" a battle or suffered some negative consequence.
+Next, we advise that you
+speak
+to player leaders. If the griefer belongs to a
+House
+or city, speak to the leaders of those organisations and present your
+case. The leading players of Achaea frown strongly upon griefing and possess
+resources at their disposal to curb such behaviour. If the griefer does not
+belong to any organisation with authority over him or her, then speak to your
+own House or city leaders, if you have them. The leaders will also, if
+appropriate, be able to alert
+OOC
+administration to the griefer in
+question
+.
+While we advocate first attempting to deal with problems with other players
+in-character whenever possible (see
+HELP
+IC
+RESOLUTION
+), we recognise that
+griefing is fundamentally not in-character. If someone is attacking you or
+constantly baiting you with no IC reason, you can also report them to the
+administration via the issue
+system
+(see HELP
+ISSUES
+) and we will investigate.
+(See also:
+HELP RP
+,
+HELP ACHAEA
+, HELP IC RESOLUTION,
+HELP HONOUR
+, HELP
+PK
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

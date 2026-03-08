@@ -1,0 +1,190 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.11.1 Price Policies: Tool of The Licensed Master Shopkeeper
+(See also
+HELP BINS
+,
+HELP SHOPKEEPING
+, and
+HELP
+SHOP
+SIGNS
+)
+The Licensed Master
+Shopkeeper
+-
+LMS
+for short, has a number of very powerful
+commands
+at his disposal in pursuit of
+shopkeeping
+excellence and the profit that may bring!
+Becoming A Licensed Master Shopkeeper
+-------------------------------------
+Seek the Crafters Union offices in
+Delos
+. There you will find a
+Shopkeepers
+office, and a placard directing you to
+BUY
+SHOPKEEPER
+LICENSE
+and how much it costs. If you have to ask how much, you can't afford it!
+Master Shopkeepers Only: Shop Signs
+-----------------------------------
+Licensed master shopkeepers, and no one else, may purchase shop signs. Shop signs may only be purchased in
+shops
+owned by master shopkeepers. If you are standing in your shop and do not yet have one, you will be notified that you can make the purchase, and the cost of it. (See HELP SHOP SIGNS)
+The Commands In Brief
+---------------------
+PRICE
+POLICY
+LIST
+PRICE POLICY ADD
+PRICE POLICY
+REMOVE
+Where And When
+--------------
+Go
+to your stockroom. There you may
+issue
+these PRICE POLICY commands.
+Discounts such as -20% or -
+5
+% reduce prices, and may not go past -90%.  Markups such as +5% or +111% increase prices, and may not go past +200%.  The special value "0" or "refuse" is reserved for refusal of
+service
+: you simply will not
+sell
+to that person or
+group
+.
+The effect of price
+policies
+is instantaneous. All markups and discounts are expressed as numbers (+5, -12, whatever) and represent an increase or reduction in price from what you set on each item.
+Your customers will notice a slight change in the way they are treated if they are the beneficiaries of a discount, or if they are suffering a markup. The results of a "refusal of service" should be quite obvious to all.
+Price policies do not expire. You must remove them explicitly.
+Combining
+And Conflicting Policies
+----------------------------------
+Shop policies do not combine in any way, so they must be chosen with care. For example, if someone is a
+member
+of a
+city
+and a
+house
+, both of whom get some sort of discount, only one of those will
+apply
+. At this
+point
+, it is difficult to
+tell
+which one will apply, though almost certainly the one that
+shows
+up first on the price policy list. The same is true for conflicting policies, such as a discount and a markup.
+Refusals of service override all, and are always applied first, before markups or discounts.
+PRICE POLICY LIST
+-----------------
+Shows all policies in force at this shop.
+PRICE POLICY ADD PERSON|GROUP <who> <mod>
+-----------------------------------------
+Adds a new price policy. Examples:
+PRICE POLICY ADD PERSON JACK +20
+PRICE POLICY ADD GROUP
+MHALDOR
+-30
+PRICE POLICY ADD PERSON JARIK REFUSE
+PRICE POLICY ADD GROUP
+ENEMIES
+REFUSE
+The <mod> entry is the amount of discount (-xx) or markup (+xx). If the <mod> entry is 0 or the word "refuse" then this is a blanket refusal of service.
+Groups
+are
+cities
+,
+houses
+,
+orders
+, and
+clans
+.
+* enemies are any official
+enemy
+of the city in which the shop exists, plus personal enemies of the person
+who
+owns the shop, plus org enemies of the House, City, or Order of the shop owner, plus org enemies of Oakstone if the shop owner is a member of those.
+SYNTAX
+REVIEW
+-------------
+PRICE POLICY ADD|REMOVE|LIST PERSON|GROUP <who> <mod>
+where <who> is the person or group, and mod is the
+price mod (+xx to increase by xx percent,
+-xx to discount by xx percent, and
+0 to refuse service altogether.)
+(See also
+HELP BINS
+,
+HELP SHOPKEEPING
+, and HELP SHOP SIGNS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

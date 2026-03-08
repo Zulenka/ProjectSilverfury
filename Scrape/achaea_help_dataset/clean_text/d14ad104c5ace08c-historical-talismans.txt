@@ -1,0 +1,248 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.3 Historical Talismans
+The "Historical"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the
+pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The Historical set contains the following talismans:
+-----------------------------------------------------
+a Golden
+Window
+- TALISMAN INFO WINDOW
+- Purchasable in
+Delos
+for 100
+bound
+credits
+.
+- When you OPEN WINDOW a scene from Achaea's
+history
+will be projected into
+the room.
+a
+Mantle
+of Himalia          - TALISMAN INFO MANTLE
+- Purchasable in Delos for 100 bound credits.
+- The owner can PLACE MANTLE ON
+FIGUREHEAD
+while standing in the room with
+the mounted figurehead.
+- It will use up the mantle and will make the figurehead non-
+decay
+and
+resetting.
+a scintillating
+icicle
+- TALISMAN INFO ICICLE
+- Purchasable in Delos for 100 bound credits.
+- This icicle can be shattered on the ground, freezing it.
+- It will reset to you in one
+Achaean
+day
+.
+- SMASH ICICLE ON GROUND.
+an ormyrr skull
+helmet
+- TALISMAN INFO HELMET
+- Purchasable in Delos for 100 bound credits.
+- The skull of a dead ormyrr, made into a helmet. Very chic.
+a Mirrored
+Disc
+- TALISMAN INFO DISC
+- Purchasable in Delos for 800 bound credits.
+- This interesting trinket will create a frozen, properly coloured image of a
+room, an adventurer, a
+denizen
+, or a a
+thing
+.
+- It requires an elemental ice to function, which will be used up.
+- Simply
+POINT
+DISC AT ROOM|<player>|<denizen>|<thing> [EXCLUDE
+ME
+].
+- By including the EXCLUDE ME when pointed at the room you're in, you, the
+image creator, will be left out of the image.
+a
+Votive
+of Rememberance     - TALISMAN INFO VOTIVE
+- Purchasable in Delos for 160 bound credits.
+- In the
+Siroccian
+Mountains lies the Memorial to the Fallen
+Gods
+, honouring
+those
+deities
+who
+perished in the
+war
+against Bal'met, the Worldreaver.
+- By
+lighting
+this votive (
+LIGHT
+VOTIVE) in the room dedicated to the memory
+of a particular God, you will store a bit of the memory of that God in your
+votive.
+- Simply drop the votive in a room, and it will begin casting scenes of the
+Gods whose memories are stored within the votive.
+- To clear the memories of the Gods out of your votive, LIGHT VOTIVE in the
+room with the ever-burning
+flame
+in the memorial.
+a Shar'ilian
+Whisperstone
+- TALISMAN INFO WHISPERSTONE
+- Purchasable in Delos for 1200 bound credits.
+- The
+magi
+of the famed and now
+lost
+islands
+of Shar'ilian produced these
+whisperstones long ago.
+- By doing TOUCH STONE TO GROUND the owner of the stone will hear all
+talking
+in the room as if he or she was there.
+- This can be done about once per Achaean day, and the effect lasts a similar
+length of
+time
+.
+a clouded glass
+lily
+- TALISMAN INFO LILY
+- Purchasable in Delos for 300 bound credits.
+- By dropping the lily - inspired by the lilies used in the Landmarking that
+ended several hundred years ago, you will get a short-term boost or
+hindrance to
+critical
+hit severity.
+- Getting a boost is more likely than being hindered.
+a downy ozhera chick         - TALISMAN INFO OZHERA
+- Purchasable in Delos for 50 bound credits.
+- This is a mini-
+pet
+!
+a polka-dotted turtle        - TALISMAN INFO TURTLE
+- Purchasable in Delos for 50 bound credits.
+- This is a mini-pet!
+a black-tailed mongoose      - TALISMAN INFO MONGOOSE
+- Purchasable in Delos for 50 bound credits.
+- This is a mini-pet!
+a tough-
+looking
+hellcat      - TALISMAN INFO HELLCAT
+- Purchasable in Delos for 50 bound credits.
+- This is a mini-pet!
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the historical set you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is
+2
+/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

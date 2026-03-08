@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<ScriptPackage>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Dragon</name>
+			<packageName></packageName>
+			<script></script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>DragonCore</name>
+				<packageName></packageName>
+				<script>-- =========================================================
+-- Dragon_Core.lua (STATIC)
+-- - Config, state, venomMap, helpers, overrides
+-- - Tracks:
+--     * Bite cooldown (via your bite trigger calling dragon.noteBite)
+--     * Prone (fast local cache set by your prone/stand triggers)
+--     * Shield via TTracker (swaps rend -&gt; tailsmash)
+-- - Builds and sends the attack command (buildAttackCmd / attack)
+-- - Integrates with zgui.combatState ready-edge to auto-bite prone targets
+-- - Internal send wrapper NEVER queues; it only send(cmd)
+--
+-- ATTACK FLOW:
+--   dragon.attack()
+--     -&gt; calls dragon.autoPick(t)  [lives in Dragon_Dynamic.lua]
+--          returns curseAff, rendAff
+--     -&gt; checks TTracker for shield
+--     -&gt; if hard def up: dragoncurse + tailsmash + breathgust
+--     -&gt; if clear:       dragoncurse + rend + breathgust
+-- =========================================================
+
+dragon = dragon or {}
+
+-- ----------------------------
+-- CONFIG (defaults) (merge-safe)
+-- ----------------------------
+dragon.cfg = dragon.cfg or {
+  limbDefault = dragon.cfg and dragon.cfg.limbDefault or "left leg",
+  autoEnabled = (dragon.cfg and dragon.cfg.autoEnabled ~= nil) and dragon.cfg.autoEnabled or true,
+  debug       = (dragon.cfg and dragon.cfg.debug) or false,
+
+  recentWindowSec       = tonumber(dragon.cfg and dragon.cfg.recentWindowSec) or 8,
+  impaCooldownSec       = tonumber(dragon.cfg and dragon.cfg.impaCooldownSec) or 8,
+  sensAlignCooldownSec  = tonumber(dragon.cfg and dragon.cfg.sensAlignCooldownSec) or 10,
+  biteCooldownSec       = tonumber(dragon.cfg and dragon.cfg.biteCooldownSec) or 3,
+}
+
+dragon.cfg.limbDefault = "left leg"
+
+-- ----------------------------
+-- FALLBACKS (affliction names)
+-- ----------------------------
+dragon.fallback = dragon.fallback or {}
+dragon.fallback.curseAff = tostring(dragon.fallback.curseAff or ""):lower()
+dragon.fallback.rendAff  = tostring(dragon.fallback.rendAff  or ""):lower()
+
+if dragon.fallback.curseAff == "" or dragon.fallback.curseAff == "nil" then
+  dragon.fallback.curseAff = "impatience"
+end
+if dragon.fallback.rendAff == "" or dragon.fallback.rendAff == "nil" then
+  dragon.fallback.rendAff = "sensitivity"
+end
+
+-- ----------------------------
+-- ONE-SHOT OVERRIDE STATE
+-- ----------------------------
+dragon.next = dragon.next or { aff1 = nil, aff2 = nil, limb = nil }
+
+-- ----------------------------
+-- STATE (cooldowns + tracking) (merge-safe)
+-- ----------------------------
+dragon.state = dragon.state or {
+  impaLockoutUntil       = 0,
+  sensAlignLockoutUntil  = 0,
+  lastPrefararAt         = 0,
+  lastBiteAt             = {},
+}
+
+dragon.state.prone = dragon.state.prone or {}
+
+-- ----------------------------
+-- VENOM MAP (AFF -&gt; VENOM KEYWORD)
+-- ----------------------------
+dragon.venomMap = dragon.venomMap or {
+  sensitivity = "prefarar",
+  paralysis   = "curare",
+  slickness   = "gecko",
+  anorexia    = "slike",
+  asthma      = "kalmia",
+  impatience  = nil,
+}
+
+-- ----------------------------
+-- Valid limbs
+-- ----------------------------
+dragon.validLimbs = dragon.validLimbs or {
+  ["left leg"]  = true,
+  ["right leg"] = true,
+  ["left arm"]  = true,
+  ["right arm"] = true,
+  ["torso"]     = true,
+  ["head"]      = true,
+}
+
+-- =========================================================
+-- Helpers
+-- =========================================================
+local function trim(s)
+  s = tostring(s or "")
+  return (s:gsub("^%s+",""):gsub("%s+$",""))
+end
+
+local function lname(s) return trim(s):lower() end
+
+local function dlog(msg)
+  if dragon.cfg and dragon.cfg.debug then
+    cecho(("\n&lt;grey&gt;[DR] %s\n"):format(tostring(msg)))
+  end
+end
+
+local function now()
+  if type(getEpoch) == "function" then return getEpoch() end
+  return os.time()
+end
+
+local function meNameLower()
+  local n = gmcp and gmcp.Char and gmcp.Char.Status and gmcp.Char.Status.name
+  return tostring(n or ""):lower()
+end
+
+local function getTarget()
+  if Targets and type(Targets.getCombatTargetForCmd) == "function" then
+    local t = Targets.getCombatTargetForCmd()
+    t = trim(t)
+    if t ~= "" then return t end
+  end
+  return nil
+end
+
+-- =========================================================
+-- TTRACKER HARD DEF HELPERS
+-- Reads TTracker.state[target].shield only.
+-- No dependency on bm.
+-- =========================================================
+local function _ttrackerState(t)
+  if not (TTracker and type(TTracker.state) == "table") then return nil end
+  local tl = tostring(t or ""):lower()
+  local st = TTracker.state[t] or TTracker.state[tl]
+  if type(st) == "table" then return st end
+  -- case-insensitive fallback
+  for k, v in pairs(TTracker.state) do
+    if type(k) == "string" and k:lower() == tl and type(v) == "table" then
+      return v
+    end
+  end
+  return nil
+end
+
+local function _targetHasShield(t)
+  local st = _ttrackerState(trim(t))
+  return type(st) == "table" and st.shield == true
+end
+
+-- =========================================================
+-- Prone tracking
+-- =========================================================
+function dragon.setProne(name, isProne)
+  name = trim(name)
+  if name == "" then return end
+  dragon.state.prone[lname(name)] = (isProne == true)
+  dlog(("prone[%s]=%s"):format(name, tostring(isProne == true)))
+end
+
+function dragon.isProne(name)
+  name = trim(name)
+  if name == "" then return false end
+  return dragon.state.prone[lname(name)] == true
+end
+
+-- =========================================================
+-- AFF TRACKER ADAPTER (READ-ONLY)
+-- =========================================================
+local function affScore(aff)
+  aff = tostring(aff or ""):lower()
+  if aff == "" then return 0 end
+  if affstrack and type(affstrack.score) == "table" then
+    return tonumber(affstrack.score[aff]) or 0
+  end
+  return 0
+end
+
+local function affAtLeast(aff, n)
+  n = tonumber(n) or 1
+  return affScore(aff) &gt;= n
+end
+
+local function rendVenomForAff(aff)
+  aff = tostring(aff or ""):lower()
+  if aff == "" or aff == "nil" then return nil end
+  return dragon.venomMap and dragon.venomMap[aff] or nil
+end
+
+-- =========================================================
+-- SEND WRAPPER (NO QUEUEING)
+-- =========================================================
+local function sendCmd(cmd)
+  cmd = trim(cmd)
+  if cmd == "" then return end
+  send(cmd)
+end
+
+-- =========================================================
+-- Bite cooldown tracking
+-- =========================================================
+function dragon.noteBite(attacker, victim)
+  attacker = tostring(attacker or ""):lower()
+  victim   = tostring(victim or ""):lower()
+  if victim == "" then return end
+  if attacker ~= "" and attacker ~= meNameLower() then return end
+  dragon.state.lastBiteAt = dragon.state.lastBiteAt or {}
+  dragon.state.lastBiteAt[victim] = now()
+end
+
+function dragon.canBiteTarget(victim)
+  victim = tostring(victim or ""):lower()
+  if victim == "" then return false end
+  dragon.state.lastBiteAt = dragon.state.lastBiteAt or {}
+  local last = tonumber(dragon.state.lastBiteAt[victim]) or 0
+  return (now() - last) &gt;= (dragon.cfg.biteCooldownSec or 3)
+end
+
+-- =========================================================
+-- One-shot override
+-- overrideNext(curseAff, rendAff [, limb])
+-- rendAff is an AFFLICTION name — mapped via venomMap at build-time
+-- =========================================================
+function dragon.overrideNext(aff1, aff2, limb)
+  aff1 = tostring(aff1 or ""):lower()
+  aff2 = tostring(aff2 or ""):lower()
+  limb = tostring(limb or ""):lower()
+
+  if aff1 == "" or aff2 == "" or aff1 == "nil" or aff2 == "nil" then
+    cecho("\n&lt;red&gt;[DR] overrideNext requires TWO afflictions: overrideNext(curseAff, rendAff[, limb])\n")
+    return
+  end
+
+  if not rendVenomForAff(aff2) then
+    cecho("\n&lt;red&gt;[DR] overrideNext: rend aff '"..aff2.."' has no venomMap entry.\n")
+  end
+
+  dragon.next.aff1 = aff1
+  dragon.next.aff2 = aff2
+  dragon.next.limb = (limb ~= "" and limb) or nil
+
+  cecho(("\n&lt;yellow&gt;[DR] Next override: &lt;white&gt;%s&lt;yellow&gt; + &lt;white&gt;%s&lt;yellow&gt;%s\n")
+    :format(aff1, aff2, dragon.next.limb and (" (limb "..dragon.next.limb..")") or ""))
+end
+
+function dragon.clearOverride()
+  dragon.next.aff1, dragon.next.aff2, dragon.next.limb = nil, nil, nil
+  cecho("\n&lt;yellow&gt;[DR] Next attack override cleared.\n")
+end
+
+-- =========================================================
+-- Public helper accessors for Dragon_Dynamic.lua
+-- =========================================================
+dragon._core = dragon._core or {}
+dragon._core.dlog = dlog
+dragon._core.now  = now
+
+function dragon._getTarget()           return getTarget() end
+function dragon._affAtLeast(a, n)      return affAtLeast(a, n) end
+function dragon._rendVenomForAff(a)    return rendVenomForAff(a) end
+function dragon._sendCmd(cmd)          return sendCmd(cmd) end
+
+-- =========================================================
+-- Toggles
+-- =========================================================
+function dragon.autoToggle()
+  dragon.cfg.autoEnabled = not dragon.cfg.autoEnabled
+  cecho("\n&lt;yellow&gt;[DR] autoEnabled = &lt;white&gt;"..tostring(dragon.cfg.autoEnabled).."\n")
+end
+
+function dragon.debugToggle()
+  dragon.cfg.debug = not dragon.cfg.debug
+  cecho("\n&lt;yellow&gt;[DR] debug = &lt;white&gt;"..tostring(dragon.cfg.debug).."\n")
+end
+
+-- =========================================================
+-- BUILD ATTACK COMMAND
+-- Calls dragon.autoPick(t) from Dragon_Dynamic.lua to get
+-- curseAff + rendAff, then builds the queue command.
+-- Checks TTracker for shield -&gt; swaps rend for tailsmash.
+-- =========================================================
+function dragon.buildAttackCmd()
+  local t = getTarget()
+  if not t or t == "" then
+    dlog("No combat target.")
+    return nil
+  end
+
+  local curseAff, rendAff, limb
+
+  -- One-shot override takes priority
+  if dragon.next and dragon.next.aff1 and dragon.next.aff2 then
+    curseAff = dragon.next.aff1
+    rendAff  = dragon.next.aff2
+    limb     = dragon.next.limb
+    dlog(("override: curse=%s rend=%s%s")
+      :format(curseAff, rendAff, limb and (" limb="..limb) or ""))
+    dragon.next.aff1, dragon.next.aff2, dragon.next.limb = nil, nil, nil
+  else
+    -- Delegate aff selection entirely to Dynamic
+    if type(dragon.autoPick) ~= "function" then
+      cecho("\n&lt;red&gt;[DR] dragon.autoPick not found — is Dragon_Dynamic.lua loaded?\n")
+      return nil
+    end
+    curseAff, rendAff, limb = dragon.autoPick(t)
+  end
+
+  curseAff = tostring(curseAff or ""):lower()
+  rendAff  = tostring(rendAff  or ""):lower()
+
+  if curseAff == "" or curseAff == "nil" then
+    curseAff = tostring(dragon.cfg.defaultCurseAff or dragon.fallback.curseAff or "impatience")
+  end
+  if rendAff == "" or rendAff == "nil" then
+    rendAff = tostring(dragon.cfg.defaultRendAff or dragon.fallback.rendAff or "sensitivity")
+  end
+
+  limb = tostring(limb or dragon.cfg.limbDefault or "left leg"):lower()
+  if not (dragon.validLimbs and dragon.validLimbs[limb]) then
+    cecho("\n&lt;red&gt;[DR] Invalid limb: '"..limb.."'.\n")
+    return nil
+  end
+
+  local venom = rendVenomForAff(rendAff)
+  if not venom then
+    cecho("\n&lt;red&gt;[DR] REND blocked: no venomMap entry for '"..rendAff.."'.\n")
+    return nil
+  end
+
+  -- Shield check: magical shield -&gt; tailsmash instead of rend
+  local hardDef = _targetHasShield(t)
+
+  local c1  = ("dragoncurse %s %s 1"):format(t, curseAff)
+  local c2  = hardDef and ("tailsmash %s"):format(t)
+               or ("rend %s %s %s"):format(t, limb, venom)
+  local c3  = ("breathgust %s"):format(t)
+  local sep = tostring(dragon.cfg.cmdSep or "|")
+  local line = table.concat({c1, c2, c3}, sep)
+
+  if dragon.cfg.debug then
+    local tag = hardDef and "&lt;red&gt;[HARDDEF]&lt;/red&gt; " or ""
+    cecho(("\n&lt;cyan&gt;[DR BUILD]&lt;/cyan&gt; %s%s\n"):format(tag, line))
+  end
+
+  return ("queue insert !t!w!pub 2 %s"):format(line)
+end
+
+-- =========================================================
+-- ATTACK (send the built command)
+-- =========================================================
+function dragon.attack()
+  local cmd = trim(tostring(dragon.buildAttackCmd() or ""))
+  if cmd ~= "" then
+    send(cmd)
+  end
+  return false
+end
+
+-- =========================================================
+-- PRONE BITE (default; Dragon_Dynamic.lua may override)
+-- =========================================================
+dragon.proneAttackCmd = dragon.proneAttackCmd or function(t)
+  return "queue insert !t!w!pub 1 bite " .. tostring(t)
+end
+
+-- =========================================================
+-- COMBATSTATE INTEGRATION (AUTO BITE ON PRONE)
+-- =========================================================
+local function _readyNow()
+  if type(zguiHaveBal) == "function" then
+    local mode = zgui and zgui.combatState and zgui.combatState.readyMode or "bal"
+    if mode == "baleq" then
+      return (type(zguiHaveBalEq) == "function" and zguiHaveBalEq()) or false
+    end
+    return zguiHaveBal()
+  end
+  local v = gmcp and gmcp.Char and gmcp.Char.Vitals
+  if not v then return false end
+  local bal = tostring(v.bal or v.balance or "") == "1"
+  local eq  = tostring(v.eq  or v.equilibrium or "") == "1"
+  local mode = zgui and zgui.combatState and zgui.combatState.readyMode or "bal"
+  if mode == "baleq" then return (bal and eq) end
+  return bal
+end
+
+if zgui and zgui.combatState and type(zgui.combatState.registerReadyHandler) == "function" then
+  zgui.combatState.registerReadyHandler("dragon_prone", function()
+    if not (zgui and zgui.autoQueue and zgui.autoQueue.enabled) then return end
+
+    local cls = gmcp and gmcp.Char and gmcp.Char.Status and gmcp.Char.Status.class
+    if not (cls and cls:find("Dragon", 1, true)) then return end
+
+    if not (dragon and dragon.cfg and dragon.cfg.autoEnabled) then return end
+
+    local t = nil
+    if type(zguiGetCombatTarget) == "function" then
+      t = zguiGetCombatTarget()
+    else
+      t = getTarget()
+    end
+    t = trim(t or "")
+    if t == "" then return end
+
+    if not _readyNow() then return end
+    if not dragon.isProne(t) then return end
+    if dragon.canBiteTarget and not dragon.canBiteTarget(t) then return end
+
+    local cmd = nil
+    if type(dragon.proneAttackCmd) == "function" then
+      cmd = dragon.proneAttackCmd(t)
+    end
+    cmd = trim(cmd or "")
+    if cmd == "" then return end
+
+    send(cmd)
+    dragon.setProne(t, false)
+  end)
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>DragonDynamic</name>
+				<packageName></packageName>
+				<script>-- =========================================================
+-- Dragon_Dynamic.lua (DYNAMIC)
+-- - Decides WHAT to curse and rend each attack
+-- - Exposes dragon.autoPick(target) -&gt; curseAff, rendAff
+-- - Manages cursePrio / rendPrio lists
+-- - Tracks deafness/calamine (influences aff selection only)
+-- - NO command building, NO TTracker, NO sending
+--
+-- Called by Dragon_Core.lua:
+--   curseAff, rendAff, limb = dragon.autoPick(target)
+--
+-- PRIORITY CONTROL:
+--   dragon.setCursePrio("impatience","paralysis","anorexia",...)
+--   dragon.setRendPrio("curare","prefarar","gecko",...)  &lt;- venom OR aff names
+--   dragon.showPrio()
+-- =========================================================
+
+dragon = dragon or {}
+if not dragon._core then
+  cecho("\n&lt;red&gt;[DR] Dragon_Core.lua must load before Dragon_Dynamic.lua\n")
+  return
+end
+
+local dlog = dragon._core.dlog
+local now  = dragon._core.now
+
+dragon.cfg   = dragon.cfg   or {}
+dragon.state = dragon.state or {}
+dragon.next  = dragon.next  or { aff1=nil, aff2=nil, limb=nil }
+
+dragon.cfg.autoEnabled     = (dragon.cfg.autoEnabled ~= nil) and dragon.cfg.autoEnabled or true
+dragon.cfg.defaultCurseAff = tostring(dragon.cfg.defaultCurseAff or (dragon.fallback and dragon.fallback.curseAff) or "impatience"):lower()
+dragon.cfg.defaultRendAff  = tostring(dragon.cfg.defaultRendAff  or (dragon.fallback and dragon.fallback.rendAff)  or "sensitivity"):lower()
+
+-- venomMap lives in Core; reference it read-only here
+dragon.venomMap = dragon.venomMap or {}
+
+-- =========================================================
+-- PRIORITY LISTS
+-- cursePrio : affliction names, in order, for dragoncurse
+-- rendPrio  : affliction names, in order, for rend
+-- =========================================================
+dragon.cursePrio = dragon.cursePrio or {
+  "impatience",
+  "paralysis",
+  "asthma",
+  "slickness",
+  "anorexia",
+  "sensitivity",
+}
+
+dragon.rendPrio = dragon.rendPrio or {
+  "paralysis",
+  "asthma",
+  "clumsiness",
+  "sensitivity",
+  "slickness",
+  "anorexia",
+  "stupidity",
+}
+
+-- =========================================================
+-- Reverse-lookup: venom keyword -&gt; affliction name
+-- =========================================================
+local function affForVenom(venom)
+  venom = tostring(venom or ""):lower()
+  if venom == "" then return nil end
+  for aff, v in pairs(dragon.venomMap) do
+    if tostring(v or ""):lower() == venom then return aff end
+  end
+  return nil
+end
+
+-- =========================================================
+-- PRIORITY SETTERS
+-- =========================================================
+
+-- dragon.setCursePrio("impatience", "paralysis", ...)
+function dragon.setCursePrio(...)
+  local args = {...}
+  if #args == 1 and type(args[1]) == "table" then args = args[1] end
+
+  local newPrio = {}
+  for _, v in ipairs(args) do
+    local aff = tostring(v or ""):lower():gsub("^%s+",""):gsub("%s+$","")
+    if aff ~= "" then table.insert(newPrio, aff) end
+  end
+
+  if #newPrio == 0 then
+    cecho("\n&lt;red&gt;[DR] setCursePrio: no valid afflictions given.\n")
+    return
+  end
+
+  dragon.cursePrio = newPrio
+  cecho("\n&lt;yellow&gt;[DR] cursePrio: &lt;white&gt;" .. table.concat(newPrio, " &gt; ") .. "\n")
+end
+
+-- dragon.setRendPrio("curare", "prefarar", ...)  &lt;- venom OR aff names both work
+function dragon.setRendPrio(...)
+  local args = {...}
+  if #args == 1 and type(args[1]) == "table" then args = args[1] end
+
+  local newPrio = {}
+  for _, v in ipairs(args) do
+    local raw = tostring(v or ""):lower():gsub("^%s+",""):gsub("%s+$","")
+    if raw ~= "" then
+      local aff = nil
+      if dragon.venomMap[raw] ~= nil then
+        aff = raw  -- it's already an aff name
+      else
+        aff = affForVenom(raw)  -- it's a venom keyword
+      end
+
+      if aff then
+        table.insert(newPrio, aff)
+      else
+        cecho("\n&lt;red&gt;[DR] setRendPrio: '&lt;white&gt;"..raw.."&lt;red&gt;' unknown. Skipped.\n")
+      end
+    end
+  end
+
+  if #newPrio == 0 then
+    cecho("\n&lt;red&gt;[DR] setRendPrio: no valid entries given.\n")
+    return
+  end
+
+  dragon.rendPrio = newPrio
+
+  local parts = {}
+  for _, aff in ipairs(newPrio) do
+    local vn = dragon.venomMap[aff]
+    table.insert(parts, vn and (aff.."("..vn..")") or aff)
+  end
+  cecho("\n&lt;yellow&gt;[DR] rendPrio: &lt;white&gt;" .. table.concat(parts, " &gt; ") .. "\n")
+end
+
+-- dragon.showPrio()
+function dragon.showPrio()
+  local cp = {}
+  for i, aff in ipairs(dragon.cursePrio or {}) do
+    table.insert(cp, i..":"..aff)
+  end
+  local rp = {}
+  for i, aff in ipairs(dragon.rendPrio or {}) do
+    local vn = (dragon.venomMap and dragon.venomMap[aff]) or "?"
+    table.insert(rp, ("%d:%s(%s)"):format(i, aff, vn))
+  end
+  cecho("\n&lt;yellow&gt;[DR] &lt;white&gt;Curse prio:&lt;yellow&gt; " .. (#cp &gt; 0 and table.concat(cp, " &gt; ") or "(empty)") .. "\n")
+  cecho(  "&lt;yellow&gt;[DR] &lt;white&gt;Rend  prio:&lt;yellow&gt; " .. (#rp &gt; 0 and table.concat(rp, " &gt; ") or "(empty)") .. "\n")
+end
+
+-- =========================================================
+-- DEAFNESS / CALAMINE TRACKING
+-- Only affects aff selection (skips sensitivity when deaf).
+-- =========================================================
+dragon.state.deaf           = dragon.state.deaf           or {}
+dragon.state.lastCalamineAt = dragon.state.lastCalamineAt or {}
+
+local function _tkey(t) return tostring(t or ""):lower() end
+
+function dragon.markTargetAteCalamine(who)
+  who = _tkey(who)
+  if who == "" then return end
+  dragon.state.deaf[who] = true
+  dragon.state.lastCalamineAt[who] = now()
+  dlog(("deaf: %s ate calamine -&gt; deaf=true"):format(who))
+end
+
+local function _isDeaf(t)
+  return dragon.state.deaf[_tkey(t)] == true
+end
+
+local function _setDeaf(t, val, why)
+  t = _tkey(t)
+  if t == "" then return end
+  dragon.state.deaf[t] = (val == true)
+  dlog(("deaf: %s -&gt; %s (%s)"):format(t, tostring(val == true), tostring(why or "")))
+end
+
+-- =========================================================
+-- AUTO PICK
+-- Returns curseAff, rendAff (affliction names) for Core to use.
+-- Does NOT build commands. Does NOT check TTracker.
+-- =========================================================
+function dragon.autoPick(target)
+  if not (dragon.cfg and dragon.cfg.autoEnabled) then
+    return nil, nil, nil
+  end
+
+  -- What does the target already have?
+  local has = {}
+  for _, aff in ipairs(dragon.cursePrio or {}) do
+    has[aff] = dragon._affAtLeast(aff, 100)
+  end
+  for _, aff in ipairs(dragon.rendPrio or {}) do
+    has[aff] = dragon._affAtLeast(aff, 100)
+  end
+
+  -- Best rend aff: first in rendPrio that target lacks
+  -- Skip sensitivity if target is deaf
+  local rendAff = nil
+  for _, aff in ipairs(dragon.rendPrio or {}) do
+    if not has[aff] then
+      if aff == "sensitivity" and _isDeaf(target) then
+        dlog("autoPick: skipping sensitivity (target deaf)")
+      else
+        rendAff = aff
+        break
+      end
+    end
+  end
+
+  -- Best curse aff: first in cursePrio that target lacks, not same as rendAff
+  local curseAff = nil
+  for _, aff in ipairs(dragon.cursePrio or {}) do
+    if aff ~= rendAff and not has[aff] then
+      curseAff = aff
+      break
+    end
+  end
+
+  -- Clear deaf flag if we're pushing sensitivity anyway
+  local tkey = _tkey(target)
+  if curseAff == "sensitivity" or rendAff == "sensitivity" then
+    if _isDeaf(tkey) then
+      _setDeaf(tkey, false, "sensitivity step -&gt; clear deaf")
+    end
+  end
+
+  dlog(("autoPick: curse=%s rend=%s"):format(tostring(curseAff), tostring(rendAff)))
+
+  return curseAff, rendAff, nil
+end
+
+-- =========================================================
+-- PRONE BITE QUEUE POLICY (override Core default)
+-- =========================================================
+dragon.proneAttackCmd = function(t)
+  return "queue insert !t!w!pub 1 bite " .. tostring(t)
+end</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+	</ScriptPackage>
+</MudletPackage>

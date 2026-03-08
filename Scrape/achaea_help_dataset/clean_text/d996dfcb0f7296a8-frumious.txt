@@ -1,0 +1,206 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.2 HUNT THE FRUMIOUS BANDERSNATCH GAME
+COMMANDS
+--------
+JOIN
+EVENT
+- you'll receive your
+banderbow
+WIELD
+BANDERBOW          - ready to
+go
+!
+BANDERSHOOT <direction>  - if a
+bandersnatch
+is precisely one location
+away in that
+direction
+, you'll
+kill
+one! Rush
+over and get that valuable
+corpse
+.
+SCORING
+-------
+Each bandersnatch corpse in your possession is worth points.
+Each
+tumtum
+fruit in your possession is worth points as well.
+Half-eaten tumtum fruit (which fall out of deceased
+bandersnatchi
+) are
+worth double points!
+STORY
+-----
+Hunt
+frumious
+bandersnatchi with your bright beautiful blungey banderbow!
+Find the tasty twisty twirly tumtum fruit, either on the ground or in
+the corpse of your latest kill.
+Yes, this is the game of hunt the frumious bandersnatch!
+At the start of each game, which is played across all of the prime
+material
+plane
+of
+sapience
+, a number of fast-
+moving
+frumious bandersnatchi
+will appear throughout the lands. A banderbow will also appear in the
+trembling hands of able-bodied Achaeans
+who
+choose to JOIN EVENT.
+Wield the bow, and 'bandershoot <direction>' - if there is a frumious
+bandersnatch in the next location in that direction, then you've bagged
+yourself this very fast moving, very elusive creature.
+Run
+to grab the
+corpse and the glory!
+The bandersnatchi must have
+something
+to
+eat
+, and that's where the tumtum
+fruits come in. Many fruits will appear to feed and comfort the flaming
+frumious bandersnatchi. If you get there first, you could grab a few
+yourself, and some game points with them. On the
+other
+hand, if you
+wait until a bandersnatch has grabbed a fruit and then shoot him, you
+will find that the precious half-eaten fruit are worth DOUBLE points!
+Score
+is based on the number of tumtum fruit and bandersnatchi
+corpses
+in your
+inventory
+(not in other
+containers
+). Fruit and corpses drop if
+you
+die
+or
+leave
+the game. Fruit with more sides are more valuable.
+Fruit that is half eaten is worth double.
+To check your score, and the top scores of all contestants at any
+time
+,
+simply type EVENT SCORES.
+THEFT
+FORBIDDEN
+---------------
+THEFT is forbidden at all
+times
+during a Bandersnatch hunt,
+PK
+or no-PK, if
+the victim OR thief have joined the event.
+DEATH
+DURING THE EVENT
+----------------------
+This is a standard EVENT which may be flagged FREE-PK. If it is, then players
+who die during the game will
+lose
+no
+experience
+, and players who kill other
+players will gain none (see exceptions below). Players may
+attack
+each other
+freely without further
+roleplay
+reason, and without consequences after the
+game. Theft is forbidden, and will result in stiff
+penalties
+if encountered.
+LIMITS and RESTRICTIONS
+-----------------------
+Tumtum fruit and bandersnatch corpses will not travel with you if you go in the
+trees
+, indoors, off the prime material plane,
+flying
+, or if you happen to be
+graced, phased, blackwinded, or in astral form. They will also not survive
+being placed into any other
+container
+, excepting that they are often found,
+half eaten, in the corpses of bandersnatchi.
+Tumtum Fruit and Bandersnatchi will be in outdoor rooms on the main
+continent
+of Sapience. They will not appear in the trees or flying, or on other
+planes
+,
+arenas
+,
+subdivisions
+,
+wilderness
+, or
+newbie
+areas. They will disappear when
+entering indoor rooms, as well as organisational property.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,237 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.13 MENTORS
+(See also:
+HELP
+FOR
+MENTORS
+)
+The
+mentoring
+system
+in
+Achaea
+is a system that is designed to ensure a
+friendly reception into Achaea by
+newbies
+. When an older adventurer (
+who
+must
+have at least 300 full
+Achaean
+days
+of playing
+time
+, and be at least
+level
+50)
+offers to become your
+mentor
+, you may AGREE if you
+wish
+to become their
+protege, or do
+nothing
+to politely refuse.
+AGREE with care. If you belong to a
+House
+or plan to
+join
+one, be sure to check
+with the House first as they may wish to assign an appropriate mentor for you.
+Don't let anyone coerce you into becoming your mentor! It is a decision you should undertake with care.
+Requirements to gain a mentor/become someone's protege:
+------------------------------------------------
+- You must have less than 50
+hours
+of time in Achaea for mentorship to
+confer full benefits.
+- You may switch mentors at any time, but if you switch after 50 hours of
+play, the full benefits (see below) will not
+apply
+.
+- You may not already have a Mentor.
+Advantages for having a mentor
+------------------------------
+- Proteges can
+learn
+in batches of 20
+lessons
+from their mentors instead
+of the normal 15 from any
+other
+teacher
+.
+- Both Mentor and protege gain a boost to
+experience
+gained when they are
+hunting
+together. (Note that if you chose your mentor after 50 hours of
+play or switched after 50 hours, this bonus does not apply.)
+- Proteges can use
+WALK
+TO MENTOR to make their way to their mentor's
+location. The same distance rules apply to this as all other
+landmarks
+.
+See
+HELP LANDMARKS
+for more on those limitations.
+If you wish to get rid of your current mentor, simply type
+RENOUNCE
+MENTOR
+<reason for doing so> and it shall be done.
+In return for taking on the responsibilities of a mentor, the mentor has a
+chance to profit, if you become a more serious adventurer. These
+responsibilities are essentially those of answering any
+questions
+you
+might
+have, and helping you to help yourself. For instance, while a mentor might give
+you a bit of
+gold
+and some basic
+equipment
+, generally they would rather help
+you to get the gold yourself, so that you can
+equip
+yourself.
+A mentor should, unless urgently busy (for instance, involved in a
+fight
+with
+another adventurer), take the time to patiently answer your questions about
+Achaea, and should be willing to take you to areas of the game that you need to
+get to, and generally be a source of advice for you. Remember: a mentor is
+supposed to generally put themself second, and you, the protege, first.
+We take the position of mentor seriously, and if your mentor is not performing
+their duties, then you should report them to a God.
+Once you have reached level 50 and have played for at least three hundred full
+Achaean days, you may take on proteges. The
+scroll
+HELP FOR MENTORS will
+tell
+you more.
+Before you take on proteges,
+consider
+the
+following
+.
+A protege is someone who you are charged to help on a regular basis. Simply
+helping a
+newbie
+now and then is not sufficient. If you just wish to help a
+newbie occasionally, by all means, do so! But, given that proteges can take up
+a lot of time, it's probably best not to overextend yourself. Remember, the
+honour
+and joy that comes in aiding the young and knowing that you played a
+crucial and perhaps even pivotal role in the life of a young adventurer that
+may perhaps, one
+day
+change the course of Achaean
+history
+!  If you wish to
+mentor - do it. You are informed when new mortals arrive in Achaea for the
+first time and graduate - seek them out and help them if this is what you truly
+wish - otherwise, you may need to re-examine your motives for the truth is this
+-- There are far too many mentors in Achaea who are not taking seriously the
+great honour that has been bestowed upon them. Their motives lay in the gifts
+that the Great Mother so generously offered those who would sacrifice of
+themselves so. The reward for mentorship lies not in such vague and amorphous
+things
+as "lessons" and "credits" but in a relationship built and a young mind
+moulded to be the best it can be.
+Ask yourself these questions before becoming a mentor:
+1) Are you dedicated to
+sharing
+your knowledge of this realm with the young
+and inexperienced for the sake of their enlightenment with no thought of
+ulterior motive?
+2
+) Do you have the heart of a
+servant
+and will you loyally commit yourself to
+the honour and responsibility that comes in taking on a protege?
+3
+) Have you already sought out the young and done your best to serve them so
+that the desire spoken of by your lips is already reflected in your life
+and actions?
+4) Do you have a strong working knowledge of those
+quests
+and opportunities
+for advancement that the young are provided with in these lands?
+Particularly, do you know
+Minia
+and
+Lodi
+inside and out?
+5
+) Are you aware of how to recognise and approach those who have freshly and
+naively arrived in Achaea?
+If you can answer all these questions with, "Yes," then congratulations, you
+have my blessing.
+Go
+and be that which you desire.
+(See also: HELP FOR MENTORS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

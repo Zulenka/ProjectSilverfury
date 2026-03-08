@@ -1,0 +1,218 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+14.3 Rats and Ratting
+(See also
+HELP
+NEWBIE
+QUESTS
+)
+Ratting
+is the activity of
+hunting
+and slaying the
+rats
+that infest the major
+urban
+cities
+and
+sewer
+systems
+of
+Achaea
+. In every one of these cities (all
+city
+-states listed in
+HELP CITIES
+but
+Eleusis
+), there exists a
+denizen
+who
+has been commissioned by the city to pay those who help rid the city of its
+vermin
+. Simply slay the rats you find, then
+SELL
+their
+corpses
+to this
+rat
+buyer
+.
+Rat
+buyers
+----------
+Ashtan
+Ratman
+Northwest part of the city, near the docks.
+Hashan
+Liirup
+In Hashan's Old Quarter.
+Cyrene
+Jorj
+Near the entrance to Cyrene's courthouse.
+Mhaldor
+Maric
+Pestilent Way, in the north of the city.
+Targossas
+Hakhim
+Entrance to the Medina.
+You can
+reach
+nearly all of these directly via an
+exit
+from the
+portals
+, if you
+are a newbie and can use the portals.
+These
+denizens
+can also be reached by using the
+landmark
+system
+(see HELP
+LANDMARKS
+).
+Syntax
+------
+RATS                   Enter this
+command
+to see rats. Enter again to
+stop seeing them.
+SELL RATS TO <name>    Sells all your rats to the rat person in order
+to get your reward. You must be in the same room
+as the rat person.
+Because there are so many rats wandering about the cities and because seeing
+them enter and exit can become annoying, the command RATS will toggle on and
+off your
+ability
+to notice rats. Generally, you will want to turn this off
+while you are not out ratting.
+When you see a rat dart out of its hiding spot, by all means, slay it before it
+can
+run
+away. Once a certain number of rats have been slain in a location, no
+more rats will appear there until a new
+Achaean
+day
+. Generally, you'll find
+that a sewer location contains more rats than a normal city street.
+I Can't Find Any Rats
+---------------------
+As noted above, rats only appear in cities and
+sewers
+. Beyond that, only a few
+rats may be killed in any particular place before they get wise and won't
+return until the next Achaean day. The sewers are more populous, but also much
+more dangerous, and most of our younger players will not have the specialised
+skill
+required to enter them in any
+event
+(see HELP SEWERS).
+Rat
+Stats
+---------
+There are five types of city rats. Ranging from most common to least
+common (which also corresponds to least valuable to most valuable, as
+well as weakest to strongest), they are:
+Rat Type      What The Rat Buyer Will Pay
+---------     ---------------------------
+baby rat          7
+gold
+sovereigns
+young rat        14 gold sovereigns
+rat              21 gold sovereigns
+old rat          28 gold sovereigns
+black rat        35 gold sovereigns
+A Word of Warning
+-----------------
+Be careful! When you are of a very low
+level
+, it is recommended that you
+stick to baby rat and young rats. Bigger rats have the potential to do
+lethal damage to you. Remember, when you are in a room with multiple rats,
+you can type INFO HERE (or simply
+IH
+) to see the specific #s of the rats in
+the room and
+target
+the specific rat you want for
+attack
+.
+For example, you
+might
+see:
+rat70550            a black rat
+rat148947           a baby rat
+In this case, you would want to be sure to attack rat148947. If you simply
+type KICK RAT, you would attack the first rat in the list, the black rat.
+Rat Exceptions
+--------------
+Rat
+pets
+are not affected by the above, though you are free to try
+killing
+them anyhow.
+(See also HELP NEWBIE QUESTS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

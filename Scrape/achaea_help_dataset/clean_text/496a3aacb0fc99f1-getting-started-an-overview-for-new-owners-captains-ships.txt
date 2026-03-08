@@ -1,0 +1,234 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.2 Getting Started - an Overview for New Owners/Captains/Ships!
+So you've just taken possession of your new
+ship
+and you're not sure how to get
+started. Let's have a
+look
+at a few
+things
+to deal with right away.
+First
+-----
+BOARD
+your ship and then do SHIP. Lots of stuff you could do there. Try it out
+soon! You should decide to
+read
+everything
+in
+HELP
+23. You're already at HELP
+23.
+2
+, so you're off to a good start. That's a lot of
+reading
+right away though,
+so this is your overview.
+Check out SHIP INFO, SHIP
+CREW
+, SHIP STORES CHECK, and SHIP STRONGBOX CHECK.
+This gives you a pretty good look at how the ship is doing, and what's on it.
+Second
+------
+Get some crew. Barebones crew will be 1 for a Windcutter or 2 for a Seastrider.
+Get a few extra. You never know when they
+might
+come in handy!
+Hire
+them at
+your local
+harbour
+, by HARBOUR CREW FORHIRE and then HARBOUR CREW HIRE 2
+CREWMATE FOR yourshipnumber.
+While you're at it, you should probably just bite the
+ballista
+and hire some
+shipmates
+. They do repairs without your having to pay the harbour to do it.
+Ship hull and
+sails
+decay
+just by
+sailing
+around, or over
+time
+, so repair and
+maintenance are a constant need. See HELP SHIP REPAIR for more on that if you
+like.
+3
+would be enough for a 'Cutter, 8 for a 'Strider. Might be you could get
+away with fewer!
+Third
+-----
+Stock up on a few important things, like provisions, token stores, a Token of
+Charybdis for yourself and possibly likely passengers, and some
+gold
+for
+docking fees.
+Provisions are at the local harbour (HARBOUR PROVISIONS; HARBOUR PURCHASE
+[count] type PROVISIONS FOR ship (counts for
+food
+provisions, and token stores
+as well) so you can feed your crew.
+The crew is paid from your ship's strongbox, so be sure to set your crew's
+wages as you
+wish
+, and put a bunch of gold in the strongbox so they'll get paid
+and not get grumpy about missing payroll.
+Fourth
+------
+Set up your SHIPRETURN HERE, and PERFORM
+SEAPRAYER
+RITUAL to be able to get
+back to your ship. See
+HELP SEAFARING
+for a bit of info on the one, or HELP
+SHIP
+DEATH
+on the
+other
+.
+Fifth
+-----
+Equipment
+: contact a
+shipfitter
+(see HELP
+SHIPFITTING
+) and get a ship's axe
+for sure (useful in
+defending
+against grapples and tethers), and get a lead
+line (for taking soundings to see the depths around you, especially for
+telling whether
+fishing
+or
+diving
+will be fruitful.
+Other equipment is listed in HELP SHIP EQ. The
+Beacon
+might be useful if you
+think
+you might forget where you left your ship. A
+bait
+tank
+could be fun if
+you're planning to
+fish
+much. A cartographer's
+desk
+is really useful and cheap.
+If you get one, get some
+maps
+from
+others
+, or
+buy
+blanks and make your own (or
+both)!
+Sixth
+-----
+Remember that you do want to dock IN
+harbours
+when you
+sail
+around. It slows
+decay immensely. You also can't be boarded, or attacked, in harbours.
+Seventh
+-------
+Fishing on the deep sea requires a different pole. Buy before fishing!
+Deepsea diving is dangerous, often lethal. Bring pear. While in the diving bell
+going
+down, you'll hear a number of bells ringing which is an indication of the
+relative risk and potential reward of the diving area you just entered. More
+bells for more danger and more possible payout. Watch yourself! Some of the
+tuna are particularly dangerous. And if you raise the bell without being in it,
+that's the watery death for you.
+There's a chance of getting a huge payout as well, maybe even several hundred
+thousand gold, but it's quite the long shot. You could spend weeks or even
+months
+getting
+nothing
+but 1 or 2 or 3 bell dives with only a few hundred gold.
+The long term average payout is about 1000 gold per dive. Them's the breaks!
+Eighth
+------
+Other things you may find helpful betimes:
+- CLIMB MAST (if you have Watch
+specialisation
+) to see farther.
+- SHIPSCAN to look around you right now.
+- SHIPWARNING to keep continuously alert for any
+movement
+nearby.
+- JINK to prepare for quick
+moves
+(only lasts till you change course).
+- SHIP ANTICIPATE to track one other ship minutely.
+- SHIP DISEMBARK WITH HELP [
+direction
+] [SWIM] In case you find yourself marooned aboard!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

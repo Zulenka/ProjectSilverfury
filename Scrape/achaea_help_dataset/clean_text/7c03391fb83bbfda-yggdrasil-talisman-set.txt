@@ -1,0 +1,257 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.9 Yggdrasil Talisman Set
+The "Yggdrasil"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the
+pieces are currently available)
+- From
+questing
+on
+Yggdrasil
+.
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The Yggdrasil set contains the following talismans:
+-----------------------------------------------
+A
+dreadpilar
+figurine             - TALISMAN INFO DREADPILAR
+- This item is not available in the Delosian talisman shop.
+- This figurine of the deadly dreadpilar can be used to battle your foes.
+A
+squargon
+.                       - TALISMAN INFO SQUARGON
+- This item is not available in the Delosian talisman shop.
+- This Squargon of Yggdrasil may be ridden into battle as a trusty
+mount
+.
+A young
+valdblom
+.                 - TALISMAN INFO VALDBLOM
+- This item is not available in the Delosian talisman shop.
+- These petals are a weaker form of the fabled kvkir
+plant
+that can be
+found upon Yggdrasil.
+- This talisman is consumed on use and has between
+2
+and 4 uses
+(varying by completion).
+- The bonuses granted last for one
+achaean
+day
+.
+- PULL <item> to make use of one of the petals.
+- The bonuses do not stack with actual kvkir, as this is an inferior strain.
+A wax tablet of petrified
+wood
+.   - TALISMAN INFO
+YGGDRASILTABLET
+- Purchaseable in
+Delos
+for 150
+bound
+credits
+.
+- Designed by the scribes of the
+Ioje
+compound, this tablet can be twinned
+with another to share written information!
+- PUSH <yourtabletID> PAIR WITH <othertabletID> to create a link.
+- WRITE TABLET SHAKE TABLET and the words written on yours will appear on
+the twinned tablet!
+A Tash'la earthshaping tome.      - TALISMAN INFO
+EARTHSHAPINGTOME
+- Purchaseable in Delos for 300 bound credits.
+- Possession of this tome grants access to five unique
+forging
+descriptors
+for the regions available via Yggdrasil.
+An aureate sighting
+nexus
+.        - TALISMAN INFO
+NEXUSCUBE
+- Purchaseable in Delos for 400 bound credits.(nexuscube)
+- GAZE upon this
+cube
+and witness the heavens of the various
+planes
+(different for each
+plane
+you're on).
+A glittering
+fire
+crystal.        - TALISMAN INFO
+FIRECRYSTAL
+- Purchaseable in Delos for 400 bound credits.
+- This fire crystal will halve the
+time
+it takes when travelling between
+the planes of Yggdrasil via
+EMBRACE
+FLAME
+.
+A mote of
+planar
+flame.           - TALISMAN INFO
+PLANARMOTE
+- Purchaseable in Delos for 1100 bound credits.
+-
+THROW
+MOTE INTO FLAME at one of the flames upon Yggdrasil, and the next
+- time you EMBRACE
+DEATH
+you will
+resurrect
+at that flame instead of your
+- normal location.
+A length of golden snake skin.    - TALISMAN INFO
+GOLDENSNAKESKIN
+- Purchaseable in Delos for 1300 bound credits.(goldensnakeskin)
+- With this length of enchanted snakeskin, you may SHED PURSUERS in order
+to have all
+denizens
+tracking you abandon their
+task
+.
+A petrified branch of Yggdrasil.  - TALISMAN INFO
+YGGDRASILBRANCH
+- Purchaseable in Delos for 1600 bound credits.
+- You may TIE <
+bait
+type> TO LINE then
+FISH
+FOR
+RATS
+and be whisked away
+to the location that bait links up with.
+- Baits are obtained through performing various
+quests
+upon the various
+planes available via Yggdrasil.
+- You may
+probe
+the line to see what baits you have available.
+A town crier's bell.              - TALISMAN INFO
+CRIERSBELL
+- Purchaseable in Delos for 2000 bound credits.
+-
+RING
+BELL AT <target> and any magical
+shields
+they possess will be
+shattered.
+- If they lack a
+shield
+but possess a prismatic barrier, this barrier
+will be shattered instead.
+- You may also TOLL BELL AT <target> to begin the process of sending your
+foe to the
+Halls
+of Ugrach.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the death item you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is 2/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

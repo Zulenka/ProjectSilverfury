@@ -1,0 +1,179 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.9 Elemental Lords
+Elemental Lords are the
+elite
+of the Elemental
+Planes
+, granted great
+power
+by
+their connection to their respective element. Giving up the constraints of
+mortal flesh and
+bone
+to become living manifestations of primordial power, their
+limits are unknown. In the 759th year after the fall of the
+Seleucarian
+Empire,
+the adventurers of
+Achaea
+were deemed worthy to
+walk
+upon the Elemental Planes
+and upon said planes may, with sufficient investigation and dedication, uncover
+the means by which it is possible to transcend their natural forms and obtain
+this great
+boon
+.
+If you have proven your worth and obtained access to an Elemental Lord form, the
+following
+commands
+are available to you:
+PREVAIL           - Assume your primal form.
+FORSAKE <element> - Return to your mundane form.
+An Air Lord's
+base
+statistics
+are:
+Strength
+: 15
+Dexterity
+: 17
+Constitution
+: 14
+Intelligence
+: 16
+They:
+- Have a
+level
+2
+resistance to magic damage.
+- Have a level
+3
+resistance to asphyxiation damage.
+- Have a level 2 resistance to electric damage.
+- Gain a 10% bonus to
+balance
+and
+equilibrium
+when
+flying
+.
+- Will never be blown about by the
+wind
+.
+- Will
+speak
+clearly regardless of how powerfully the wind blows.
+-
+Wield
+the DURESS
+skill
+.
+A
+Fire
+Lord's base statistics are:
+Strength    : 14    Dexterity   : 14
+Constitution: 17    Intelligence:
+18
+They:
+- Have a level 2 resistance to magic damage.
+- Have a level 1 resistance to cutting damage.
+- Have a level 3 resistance to fire damage.
+- Have a slightly reduced
+mana
+cost when clotting.
+- Gain
+health
+from periodic ablaze damage rather than
+lose
+it.
+- Wield the IGNITION skill.
+An Earth Lord's base statistics are:
+Strength    : 16    Dexterity   : 12
+Constitution:
+19
+Intelligence: 16
+They:
+- Have a level 2 resistance to magic damage.
+- Have a level 1 resistance to cutting damage.
+- Have a level 1 resistance to blunt damage.
+- Have a level 3 poison resistance.
+- Have a chance not to consume a mineral when
+eating
+.
+- Wield the SCULPTING skill.
+A Water Lord's base statistics are:
+Strength    : 16    Dexterity   : 15
+Constitution: 17    Intelligence: 17
+They:
+- Have a level 2 resistance to magic damage.
+- Have a level 2 resistance to blunt damage.
+- Have a level 3 resistance to cold damage.
+- Will never be moved by the pull of water currents.
+- Can walk on water.
+- Can breathe underwater.
+- Wield the PERVASION skill.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

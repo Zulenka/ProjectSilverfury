@@ -1,0 +1,205 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.10 Achaea's alias system, including targets and variables
+What is an
+Alias
+?
+-----------------
+An alias is a way to set up a shorthand:
+something
+you type that stands for
+something else. If you are always typing
+CREDITS
+FOR SALE, for example,
+wouldn't it be easier to just type CFS? Yes, of course it would.
+Here's how to do this:       SETALIAS cfs credits for sale
+Every
+time
+you type cfs,
+Achaea
+will substitute CREDITS FOR SALE and
+issue
+that
+command
+for you.
+Let's
+say
+you try this:      SETALIAS sayhi say Hi everyone!
+Now when you enter:          sayhi
+Everyone will see you say:   Hi everyone!
+What if you wanted to assign multiple
+commands
+to an alias? Easy! Just separate
+the commands with the /
+character
+.
+For instance:                setalias
+bye
+say goodbye/wave
+Now when you enter:          bye
+Everyone will see you:       Say goodbye, and then instantly wave.
+Combat
+Targetting
+-----------------
+The
+SETTARGET
+command will set your sights on a particular
+target
+. You can
+then use this information in your
+aliases
+.
+Setting your target also allows you to use many
+abilities
+without having to
+specify what to
+attack
+. For instance, you may use SETTARGET
+RAT
+, then entering
+KICK on its own will automatically
+attempt
+to kick a rat.
+Let's say you want to use ml for maul. Here's how to accomplish this:
+Set up the main alias:      SETALIAS ml maul &tar
+Then
+define
+the target:     SETTARGET rat
+Or change the target:       SETTARGET
+hyena
+Or clear your target:       SETTARGET NONE
+Every time you want to maul something else, just use a new SETTARGET to change
+the value of your target 'tar.'
+Note that whenever you hit something new, we'll automatically change the target
+for you, so that you can just keep hitting it without specifying the target.
+However, if you want to, for instance, have your target set generically as
+'orc' you should use settarget, as otherwise hitting something will set your
+target as the specific orc you hit, rather than any orc.
+Of course, you can embed these
+targets
+in multiple-command aliases too.
+Targets can be adventurers as well as
+denizens
+.
+Limits on Aliases
+-----------------
+DON'T make alias
+names
+longer than 12 characters.
+DON'T put spaces in alias names, though you can put numbers.
+Problems with Aliases
+---------------------
+Many problems can come from badly done aliases. If you find that a command just
+stops working for you, check your
+aliaslist
+(
+AL
+). Maybe you set up 'eat' or
+'smoke' as an alias, then later tried to use the regular command and it got all
+messed up.
+Advanced Aliases
+----------------
+There is one more
+thing
+about aliases that could be useful.
+For setup, try this:         SETALIAS s2 say to
+To use it, type this:        s2
+juliet
+Salutations, honoured Juliet!
+Which means you'll do this:  say to juliet Salutations, honoured Juliet!
+In
+other
+words, you can use your alias as part of a longer commmand, because
+everything
+after the alias (in this case 's2') remains part of your command.
+Aliases also
+support
+the use of arguments being inserted into the alias. To do
+so, simply use the %1, %
+2
+, etc.
+For setup, try this:         SETALIAS awesome say hey %1, %2 is awesome!
+To use it, type this:        awesome {
+Sarapis
+} {
+Tecton
+}
+Which means you'll do this:  say hey Sarapis, Tecton is awesome!
+%0 may also optionally be used to match everything outside of the braces ({}).
+Commands
+--------
+ALIAS LIST                               : Lists your aliases.
+AL                                       : same as ALIAS LIST.
+SETALIAS <alias name> <result>           : Makes a new alias.
+/                                        : The character to separate commands
+in an alias.
+ALIAS CLEAR <alias name>                 : Clears an alias.
+ALIAS ENABLE <alias name>                : Enable a disabled alias.
+ALIAS DISABLE <alias name>               : Disable an enabled alias.
+SETTARGET <text>                         : Set the "tar" variable. Use NONE to
+clear
+ST
+: Same as SETTARGET.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

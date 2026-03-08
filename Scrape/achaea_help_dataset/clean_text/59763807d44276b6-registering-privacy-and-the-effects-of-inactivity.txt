@@ -1,0 +1,280 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.2 REGISTERING, PRIVACY, and the effects of INACTIVITY
+(To
+register
+your
+character
+, type REGISTER)
+I. Why We Ask You to Register
+(a) Problems
+(b) Automated
+Password
+Reset
+(c) Easy Changes!
+II
+. Confirming your
+Registration
+(a) Problems with Registration Confirmation
+III. Multiple Characters
+IV. Registration Problems
+V. About
+Registering
+and
+Inactivity
+VI.
+Dormant
+Adventurers,
+Vacations
+, and Inactivity
+VII.
+Credit
+Purchases and Inactivity
+I. Why We Ask You to Register
+-----------------------------
+Registration helps us and it helps you. Registration helps us by giving us an
+idea
+of the demographics of our player
+base
+. Registration helps you by giving
+you:
+- a way to keep your account safe (see (a) below),
+- an automated way to reset your password (see (b) below), and
+- an easy way to manage your multiple accounts (see (c) below).
+PRIVACY
+: We respect, and will protect, your privacy. We will not
+sell
+,
+loan
+, or
+share your registration information. You can
+read
+more about our privacy
+policy
+at www.
+ironrealms
+.com/privacy.
+(a) Problems and Keeping Your Account Safe
+------------------------------------------
+Registration information is the primary method we use for verifying your
+identity in case there are any problems with your account. If you
+lose
+your
+password, or believe your account has been
+hacked
+, we will ask you for the
+name
+, birthdate, and
+email
+that you registered with. Obviously forged or
+falsified information will be of little value in such cases, for you or us. If
+there are any
+other
+irregularities with your account, accurate registration
+information is the best possible safeguard for you.
+(b) Automated Password Reset
+----------------------------
+Additionally, with proper registration information it is possible to reset your
+own password by visiting http://www.
+achaea
+.com/game/recover and follow the
+directions
+presented there.
+(c) Easy Changes!
+-----------------
+If your registration information changes (change of email address, legal name
+change, relocation to a different country), you can simply REGISTER again.
+Please keep your registration information current!
+We appreciate you coming to play, and hope you enjoy the realms of Achaea. Be
+assured that your registration is safe and easy and beneficial to all
+concerned.
+II. Confirming your Registration
+--------------------------------
+Once you have completed your registration an email will be sent to the address
+you supplied. In order to finalise your registration you will have to click on
+the URL provided in the email, or cut and paste it into your browser. This
+process allows us to verify that you are the owner of the email address.
+(a) Problems With Registration Confirmation - some report that they are not
+receiving our registration confirmation email. A few
+things
+you can try:
+- your email
+service
+may be treating our email as junk/
+spam
+email.
+To rectify this, you may
+wish
+to check your junk or spam email folder to
+to see if our email (from
+support
+@achaea.com) is there.
+- Another possibility would be to add our email address: support@achaea.com,
+to your address
+book
+, which should make sure that your email service does
+not treat
+emails
+from there as junk.
+III. Multiple Characters
+------------------------
+If you have more than one character, registering is even easier. Once you give
+your email address you will be prompted to verify ownership of the email using
+the confirmation process detailed above. When completed, all of your characters
+will share the same registration details. This means, when you update your
+registration on one character, all of your characters will automatically be
+updated at the same
+time
+.
+IV. Registration Problems
+-------------------------
+Some have problems with registration, usually because their telnet/
+mud
+client
+doesn't handle symbols as expected. This is most often true with the "@" sign
+in email addresses. We've had some
+experience
+with this sort of problem and can
+provide the
+following
+examples of how to put in the following generic email
+address -
+me
+@myemail.com.
+Client          How to put in an email address
+---------       ------------------------------
+zMUD
+me~@myemail.com
+GoSClient       me\@myemail.com
+Other
+clients
+(e.g. GMud, MUSHClient,
+Portal
+GT, Savitar) work without
+problems. Just enter the email address normally.
+V. About Registering and Inactivity
+-----------------------------------
+Adventurers may be erased after a
+period
+of inactivity which varies from a few
+days
+to a few
+months
+. The more play time you have, the longer we wait before
+counting you as
+inactive
+and removing your character.
+Hours
+Played |  Days before
+deletion
+-------------------------------------
+< 1       |         30
+< 10      |         90
+< 30      |        360
+< 100     |        720
+If you've played over 100 hours, or have ever purchased
+credits
+or
+lessons
+,
+your character will not be deleted for inactivity.
+We'll send you an email to your registered email address 7 days before your
+character is scheduled for deletion, so you'll have time to
+log
+in and make
+sure your character is safe.
+VI. Dormant Adventurers and Vacations/
+Holidays
+----------------------------------------------
+We're sorry but there is no provision for making an adventurer dormant, or any
+way to protect your adventurer from removal due to inactivity excepting to
+connect
+from time to time, except for the next section. If you must be away for
+an extended period, due to being on military duty,
+holiday
+/
+vacation
+, extended
+travel, or the like, there is little else you can do besides visit every now
+and then, even if only for a few
+seconds
+- or else take advantage of the
+protections noted in VII below.
+VII.
+OOC
+Purchases
+------------------
+Because of accounting recordkeeping and reporting regulations, adventurer
+accounts will not be erased if any purchases have ever been made for that
+account from Iron Realms, Inc. This includes
+web
+site purchases or
+mailing
+payment, but does not include purchasing credits from other adventurers
+directly or via the credit
+market
+. Another side-effect of making OOC purchases
+in this way is that your adventurer may not be suicided or erased.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

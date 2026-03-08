@@ -1,0 +1,132 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.4.4 TREASURER
+The
+Treasurer
+is responsible for maintaining the operating budgets of the
+city
+, including all of the
+Ministries
+. The Treasurer also takes receipt of some major revenue sources, such as
+banks
+.
+It is imperative that the Treasurer be someone of unquestioned
+loyalty
+, for otherwise, the financial
+health
+of your city will be in doubt.
+The Treasurer does not have
+aides
+.
+The
+commands
+associated with the Ministry of
+Finance
+are:
+CITY FINANCE SUMMARY [<year>]
+- Summary of all city ministries
+gold
+movement
+.
+CITY FINANCE REPORT <ministry> [<year>]
+- Line by line expenditures and income for a particular ministry.
+CITY FINANCE REPORT
+CREDITS
+[<year>]
+- Line by line expenditures and income for
+credit
+movement.
+CITY ECONSTATUS
+- See some basic info about your city's economic
+status
+.
+ALLOCATE <amount> TO <ministry>
+- Transfers funds from the city coffers to a ministry. Must be done from the Council Room.
+ALLOCATE <-amount> FROM <ministry>
+- Transfers funds from a ministry back to the city coffers. Must be done from the Council Room.
+FUNDS
+TREASURY
+/ FUNDS COFFERS
+-
+Shows
+you how much is in the city coffers. This must be done from the Council Room.
+FUNDS <ministry>
+- See the funds that each ministry possesses. This must be done from the Council Room.
+READREVLOG/REVLOG
+- Works the same as READLOG in
+HELP CITYCOMMANDS
+, except that it is a a
+log
+of ingoing and outgoing city revenue. This must be done from the Council Room.
+WRITEREVLOG
+- Append
+something
+to an organisation's revlog (if you have
+permission
+).
+APPROPRIATE
+BANK
+- Take the withdrawal fees from your city's bank and transfer them into the coffers. Must be done from the Council Room.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

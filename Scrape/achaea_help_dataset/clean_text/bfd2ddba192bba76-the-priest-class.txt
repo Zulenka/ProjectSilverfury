@@ -1,0 +1,158 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.12 THE PRIEST CLASS
+(See also:
+HELP SPIRITUALITY
+,
+HELP DEVOTION
+,
+HELP ZEAL
+,
+HELP
+8, HELP
+CLASS
+)
+Priests
+are one of the most ancient
+classes
+in
+Achaea
+, and unlike many
+others
+,
+history
+has preserved their founding. Millennia ago, mourning her
+death
+and
+celebrating her long life, Imithia performed the Rite of Passing for Pasiphae,
+a daughter of Sinope and Callisto, and in doing so founded the Church of Achaea,
+which also birthed two guilds, the
+Templars
+and Priests.
+Today, Priests find their true home in
+Targossas
+, the Dawnspear, empowered by
+service
+to Lord
+Deucalion
+and Lady
+Aurora
+. A
+member
+of the
+Priest
+class is
+someone greatly concerned with the righteous advancement of Creation and ever
+seeks to
+shine
+a
+light
+on truth, no matter the depth of shadow that would keep
+it concealed.
+In battle, a Priest wields a great mace she summons to inflict damage, break
+limbs, and more. But the real
+power
+of the Priest is the close relationship
+with her
+guardian
+angel. Through this perpetual companion practitioners of
+Spirituality
+gain great power. Her angel can burn her
+enemies
+, trace their
+movements, or even tear out their very souls.
+If this wasn't enough to instill respect for the class, the Priest also wields
+Zeal
+, the scriptures of Good recited and empowered by the song of the Phoenix,
+a powerful set of blessings and
+boons
+allowing the priest to stride forth on
+the battlefield, feared in her own right.
+The
+skills
+a Priest gets are Spirituality,
+Devotion
+, and Zeal. A
+fledgling
+will
+gain Spirituality and Devotion, gaining Zeal upon
+embracing
+class.
+** BE WARNED: if a Priest strays from the path of the Bloodsworn
+Gods
+, they
+will find themselves excommunicated and
+lose
+the
+ability
+to use Devotion.
+(See also:
+HELP SPIRITUALITY
+,
+HELP DEVOTION
+,
+HELP ZEAL
+, HELP 8, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

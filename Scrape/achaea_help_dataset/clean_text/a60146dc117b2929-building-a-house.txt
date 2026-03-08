@@ -1,0 +1,307 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+20.3 Building a House
+(See also: HELP HOUSING SUMMARY for an overview,
+HELP HOUSING UPGRADES
+,
+HELP PERMISSIONS
+, and
+HELP
+DEVELOPMENT)
+Houses
+and Rooms: No Sale or Transfer
+-------------------------------------
+Houses may not be sold, transferred, or traded in, although the individual
+rooms may be destroyed and some value may be recaptured in that way.
+Destroying the rooms and
+doors
+of a
+house
+returns approximately half
+credit
+.
+Plots
+may not be sold if they have houses on them.
+In the
+Delos
+Property Office - Individuals
+------------------------------------------
+BUY
+ROOM - 200
+wood
+and 100 stone
+comms
+.
+- Purchases a single room credit. It takes 10 room
+credits
+to buy a room.
+It also takes but a single room credit to buy a door for your house.
+BUY ROOM AS GIFT FOR <person>
+- Purchase a room credit for someone else.
+Look
+at you! So nice.
+In the Delos Property Office - Organisations (Houses,
+Cities
+, and
+Orders
+)
+-------------------------------------------------------------------------
+Org-owned houses may be created only in
+ship
+cabins
+at this
+time
+.
+BUY ROOM FOR <org> - 200 wood, 100 stone comms.
+- Purchases a room credit. It takes 10 room credits to build a new room and
+1 room credit to buy a door.
+- Orgs may possess no more than 5000 room credits at any one time.
+While anywhere
+--------------
+PLOTS OWNED
+-
+Shows
+you a list of plots you own.
+While in a
+subdivision
+in a
+city
+--------------------------------
+PLOTS
+- Shows you a list of all plots for sale in that subdivision. It provides
+the coordinates for a
+plot
+, the price, and the seller. Note that if the
+seller is listed merely as '-' then the seller is the city that owns the
+subdivision.
+PLOT INFO
+- Shows you how much the plot is
+going
+for, and
+who
+the seller is. If it is
+unowned, it means it is a virgin plot, being sold by the city.
+PLOT BUY
+- Purchase the plot for yourself.
+- The price is variable, depending on what the city has set it as.
+PLOT PRICE <price in gold>
+- PLOT PRICE (1 to 1 billion
+gold
+) to offer your plot for sale.
+- PLOT PRICE 0 to no longer offer your plot for sale.
+- Must be standing on the plot.
+PLOT TRANSFER <person>
+- Transfers ownership of your plot to someone else.
+- Must be standing on the plot.
+HOUSING
+CREATE
+- Creates a house from your location, leading 'in'. The house will have
+one room, and will be owned by you.
+- You must have 10 room credits to do this.
+- You will be told what the number of your house is.
+- An 'in'
+exit
+will be created to the first room of your house. That exit
+may not be destroyed.
+- While your house is owned by you, the subdivision is under the
+jurisdiction of the city it is in. Be aware that the city may regulate
+access to the subdivision, and therefore, your house.
+- Org-owned houses may be created only in ship cabins at this time.
+HOUSING CREATE FOR org
+- Creates a house from your location, leading 'in'. The house will have
+one room, and will be owned by the org, of which you must be the
+Divine
+Patron or the mortal leader or Order head.
+- It costs 10 room credits to do this.
+- You will be told what the number of the house is.
+- An 'in' exit will be created to the first room of the house. That exit
+may not be destroyed.
+- Org-owned houses may be created only in ship cabins at this time, with the
+exception of
+clan
+housing.
+Out of Subdivision Houses
+-------------------------
+Building
+costs related to housing (rooms and doors) in out of subdivision
+houses cost twice as much, per room as in-subdivision houses. Upgrades cost
+the same as in subdivision houses.
+Ships' Cabins
+-------------
+All costs related to housing (rooms, upgrades, etc) in ships' cabins are
+doubled, this is per room or upgrade.
+The limit to the number of rooms that may be added in a ship's
+cabin
+, relates
+to the size of the ship, 1 to 1. So a ship of size
+2
+, such as a Windcutter,
+can have a 2-room cabin expansion. A ship of size
+5
+, such as a Seastrider,
+can have a 5-room cabin expansion.
+Manipulating your house
+-----------------------
+HOUSING LIST
+- Lists your houses, as well as how many room credits you have.
+HOUSING CREATE ROOM <direction>
+- Creates a room in the house you're standing in, to the
+direction
+you
+specify.
+- Costs 10 room credits.
+HOUSING ROOM LIST <house #>
+- Lists the rooms in a house.
+HOUSING SET HOUSE
+TITLE
+<title>
+- Sets the title of the house you're standing in.
+- Costs 10,000 gold.
+- Limit of 55 characters.
+HOUSING SET ROOM TITLE <title>
+- Sets room title for room you are in.
+- Costs 10,000 gold.
+- Limit of 55 characters.
+- You may not set room
+titles
+that make it appear as if you are somewhere
+you are not, such as "North of New Thera". There will be
+penalties
+if
+you do.
+HOUSING EDIT ROOM DESC/
+DESCRIPTION
+- Sends you into
+editor
+to edit the description of this room.
+- Costs 10,000 gold.
+HOUSING DESTROY ROOM <direction>
+- Destroys a room to the <direction>.
+- You will get 5 room credits in return.
+- You cannot destroy a room such that any
+other
+rooms would be cut
+off from the rest of the
+world
+.
+- You cannot destroy a room that has any doors in it.
+-
+Everything
+in a room that you destroy will be destroyed along with the
+room.
+- IF YOU HAVE FURNITURE in the room, it will be destroyed too.
+So if you want to relocate furniture, do it BEFORE you destroy it!
+HOUSING CREATE EXIT <direction> <other room in house>
+- Create an exit within a house.
+- Costs 1,000 gold.
+- Use HOUSING ROOM LIST <house> to see a list of rooms in that house.
+HOUSING DESTROY EXIT <direction>
+- Destroys an exit. It will not let you strand rooms such that they're
+cut off from the rest of the world.
+- No cost.
+HOUSING HIDE EXIT <direction>
+- Hides an exit. The SECRETS
+command
+will give a chance of seeing it.
+- Costs 50,000 gold.
+- When an exit is destroyed, no refund is given, so do not use this
+willy-nilly.
+HOUSING REVEAL EXIT <direction>
+- Reveals an exit.
+- Reveals a previously hidden exit.
+- This does not give one a refund of the hide price.
+HOUSING CREATE DOOR <direction>
+- Creates a door.
+- Requires one room credit.
+HOUSING DESTROY DOOR <direction>
+- Destroys a door.
+- This gives you back one room credit.
+HOUSING SET DOOR
+PERMS
+/
+PERMISSIONS
+<dir> <permission>
+- Sets permissions on who can open the door.
+- If no permissions are set, anyone will be able to open the door.
+- See
+HELP PERMISSIONS
+for more information on permissions.
+- No cost.
+HOUSING LIST DOOR PERMS/PERMISSIONS <dir>
+- List the permissions on a door.
+HOUSING
+REMOVE
+DOOR PERMS/PERMISSIONS <dir> <
+permission
+string>
+- Removes a specific door permission.
+HOUSING CLEAR DOOR PERMS/PERMISSIONS <dir>
+- Clears a door's permissions.
+(See also: HELP HOUSING SUMMARY for an overview,
+HELP HOUSING UPGRADES
+,
+HELP PERMISSIONS
+, and HELP DEVELOPMENT)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

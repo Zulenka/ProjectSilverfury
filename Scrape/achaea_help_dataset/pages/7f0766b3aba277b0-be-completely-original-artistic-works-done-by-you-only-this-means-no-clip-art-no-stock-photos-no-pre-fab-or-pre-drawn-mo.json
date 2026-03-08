@@ -1,0 +1,14 @@
+{
+  "page_id": "7f0766b3aba277b0-be-completely-original-artistic-works-done-by-you-only-this-means-no-clip-art-no-stock-photos-no-pre-fab-or-pre-drawn-mo",
+  "url": "https://www.achaea.com/game-help/?what=-+be+completely+original+artistic+works%2C+done+by+you+only.+this+means+no+clip+art%2C+no+stock+photos%2C+no+pre-fab+or+pre-drawn+models%2C+3d+or+otherwise.+if+you+didn%27t+make+it+from+scratch%2C+you+don%27t+use+it+in+your+art%21",
+  "what": "- be completely original artistic works, done by you only. this means no clip art, no stock photos, no pre-fab or pre-drawn models, 3d or otherwise. if you didn't make it from scratch, you don't use it in your art!",
+  "title": "unknown",
+  "section_number": null,
+  "discovered_from": "topic-guess:d993c1a174f02c61-artisanal-contest",
+  "command_candidates": [],
+  "topic_candidates": [
+    "145",
+    "unknown"
+  ],
+  "text": "Fatal error\n:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 228759184 bytes) in\n/var/www/achaea/wp/wp-content/plugins/ironrealms/helpview.php\non line\n145"
+}

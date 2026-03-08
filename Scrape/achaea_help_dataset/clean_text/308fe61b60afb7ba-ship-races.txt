@@ -1,0 +1,284 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.4 SHIP RACES
+More detail to come soon. For now, the main
+thing
+to do is
+SHIPRACE
+.
+Yes, just SHIPRACE, all by itself.
+Ship
+Races
+are open to any captain or ship owner
+who
+, when on
+board
+,
+does SHIPRACE
+JOIN
+.
+At that
+point
+, the captain or owner may use SHIPRACE
+BEARINGS
+to get
+the bearings to the starting point of the
+race
+.
+Bearings
+tell
+you the
+direction
+. When
+sailing
+, you'll see the actual
+markers for the legs of the race quite clearly in open ocean as
+'s' for starting, 'f' for finishing, and
+letters
+'a' through 'z'
+(the s will
+look
+different from the starting point) scattered across
+the
+seas
+.
+SHIPRACE WHO will
+show
+who is involved.
+SHIPRACE
+STATUS
+will show how competitors are doing in the race.
+CONFIG
+SHIPRACE ON may be used by anybody to listen to race notices.
+Ship Race Symbols
+-----------------
+The starting line is one or more plus (+)
+signs
+.
+The finishing line is one or more minus (-) signs.
+Individual legs are marked by one or more small letters, starting with a and
+moving
+up towards z, in alphabetical order. The first leg would be marked a,
+the second b, and so forth.
+Ships
+competing in the race should look different than
+other
+ships.
+Moving Ahead Through the Race
+-----------------------------
+When a race has been initialised, SHIPRACE JOIN and CONFIG SHIPRACE ON.
+If you don't already know where the starting line is, use SHIPRACE BEARINGS to
+get the direction you must travel in order to encounter the starting line.
+The starting line will be a line of red crosses (+) on a white
+background
+.
+Then
+move
+your ship towards, but not yet ONTO, any of the starting line
+locations to ready yourself for the start of the race. You can move in any
+direction, in any manner. You can row,
+sail
+, drift, or whatever. You can be
+moving north, south, east, west, or any other of the 16 mariner's
+compass
+points.
+Once the ship race has STARTED, move your ship onto any one of the starting
+line locations. Once you have entered a starting line location, you have begun
+the race. You will be notified that you have started. So will everybody else
+who is listening in on the SHIPRACE
+channel
+.
+Watch out! You must -enter- a starting line location (after the ship race has
+been started) in order to start the race. Sitting there on the starting line as
+the race starts means
+nothing
+.
+You do not have to traverse the entire length of the starting line! You
+merely have to pass through it at any of its points, by entering at any point
+then moving off it.
+Moving Along
+------------
+Use SHIPRACE BEARINGS again to find the direction to the first leg (marked 'a'
+on the
+map
+). Finishing each leg is the same as starting - move to any leg
+marker for the leg you are working on. You can move in any direction, and by
+any means.
+You will be notified when you have completed the leg. So will everybody else
+that is listening in on the SHIPRACE channel. Once you have passed through
+any of the leg markers, you have completed that leg and should move on to
+the next.
+Winning
+the Race
+----------------
+Move onto any location that is part of the finish line (marked with '-',
+red
+dashes
+on a green background). You will be notified of your finish, as
+will everybody else who is listening in on the SHIPRACE channel.
+DO NOT
+quit
+the race yet. Please wait until everybody else has finished.
+Seeing How You're Doing
+-----------------------
+SHIPRACE STATUS will give a fairly accurate report on the positions and
+progress of competitors.
+Time
+is, of course, given in the only time reckoning
+that makes any
+sense
+-
+Achaean
+time.
+The Courses
+-----------
+Course 1:
+6
+legs, starts and ends southeast of Tasur'ke. General flow is
+southwest between
+Ulangi
+and the mainland, around Ulangi, and back.
+Course
+2
+: 12 legs, starts and ends north of
+Clockwork
+Isle. General flow is
+southeast around Clockwork, southwest to pass between
+Mysia
+and Ulangi, around
+Zanzibaar
+, wiggle around a bit more, and back!
+Course
+3
+: 14 legs, starts and ends south of
+Aalen
+. General flow is eastward,
+winding through an open chop area with sharp turns and short straights.
+Course 4: 8 legs, starts and ends north of
+Polyargos
+. General flow is
+anti-clockwise around
+Tapoa
+and Shala-Khulia.
+Course
+5
+: 25 legs, starts near the Eastern Shore and ends near Tasur'ke. A test
+of
+endurance
+, moving clockwise around the entire
+continent
+of
+Sapience
+.
+Course 6: 4 legs, starts and ends in the Sapphire sea. A short beginner course
+with anti-clockwise
+movement
+.
+Course 7: 17 legs starts southwest of Polyargos and ends at a small
+island
+southwest of Zaphar Isle. Sailing eastward, anti-clockwise around Shala-Khulia,
+winding through open chops in the Sea of Screamed Prayers, then generally
+southeastward to the finish.
+Course 8: 4 legs, starts and ends near the
+Ilyrean
+Tundra
+. A short course
+winding through a small section of the northern chops.
+Course 9: 10 legs, starts and ends west of Rageteeth Beach in
+Meropis
+. Two
+clockwise laps in a
+circle
+, with some tight navigation through choppy waters.
+Course 10: 12 legs, starts and ends near the island of
+Karbaz
+. Zig-zagging
+through the frigid chops northwest of Sapience.
+Course 11: 9 legs, beginning near the northern tip of Meropis and runs through
+the Bay of
+Nilakantha
+to circle a
+desert
+island, ending just north of
+Orilla
+.
+Course 12: 7 legs, starts in the cold waters near the
+Valho
+Coast, rounds the
+isle of
+Minos
+,
+winds
+through the chops in a generally southward manner, and
+ends near Tasur'ke.
+Course 13: 3 legs. Beginning at Zaphar Isle, ships must take the most direct
+route toward the village of Orilla upon Meropis. This is a long first leg, and
+the first checkpoint will be reached near the
+harbour
+. The course then turns
+northward and proceeds to the isle of Tapoa, where ships will round its western
+coast before heading to the race's finish line, which lies in view of the
+eastern Tuari coast.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

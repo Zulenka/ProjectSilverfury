@@ -1,0 +1,143 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.13.7 Customisation Guidelines
+(See also HELP GIFT CUSTOMISATIONS, HELP CUSTOMISATION REQUESTS,
+HELP CLASS ITEM CUSTOMISATION,
+HELP ARTEFACTS
+, and
+HELP
+ARTEFACT
+TRADEINS
+)
+Whilst every effort is made to accommodate even the most imaginative of
+customisations
+, there are certain limits and restrictions that cannot be
+overlooked.
+Base
+Words
+-----------
+The base word is that which appears in INFO
+INV
+or INFO HERE. Though the general
+appearance of an item/creature may be altered, its base word cannot. A 'falcon'
+must remain a 'falcon', a 'rose' must remain a 'rose', a 'ribbon' must remain
+a 'ribbon', and so forth.
+There is only one exception to this rule, and that is if you are making the base
+word more simple whilst retaining the
+nature
+of the item. For example, a
+'shortsword' could become a 'sword' or a 'darkbow' could become a 'bow'.
+Materials
+----------
+The
+following
+materials are not permitted:
+- Shadows/Darkness
+Though the Tsol'teth have gifted
+Depthswalkers
+with some understanding and
+manipulation over shadow, they are not masters. The knowledge is stolen,
+and so there is no 'base' understanding that would allow for the creation
+of, as an example, a shadow longsword or a
+shield
+of darkness. Items such
+as these would require intervention from
+Twilight
+or the Tsol'teth.
+-
+Clockwork
+This includes any mechanism akin to clockwork, such as gears and cogs.
+General Themes
+---------------
+The following item/creature themes are not permitted:
+- Historicity
+An item cannot be linked to a prominent moment in
+history
+. This means that
+it cannot have been forged by the
+skill
+of the Tsol'teth, nor forged in
+the dragonfire of Sycaerunax, nor broken away from the boughs of
+Yggdrasil
+. Similarly, items may not link back to sources of great
+power
+.
+- Player Resemblance
+A
+customisation
+may not bear the resemblance of either yourself or
+another adventurer.
+HELP CRAFTING GUIDELINES
+can also serve as a
+guide
+reference for
+writing
+and
+suitability.
+(See also HELP GIFT CUSTOMISATIONS, HELP CUSTOMISATION REQUESTS,
+HELP CLASS ITEM CUSTOMISATION,
+HELP ARTEFACTS
+, and HELP ARTEFACT TRADEINS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,188 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.1.4 BALANCE OF POWER
+Balance
+of
+Power
+is an
+event
+in which you take on the persona of one of
+history's Legends. These Legends may be from
+Achaea
+, from earth's
+history
+, or
+from one of earth's myths. When a Balance of Power is announced, you will be
+able to become one of the
+following
+Legends. The
+syntax
+is:
+JOIN
+BOP
+<arena>.
+You will be automatically assigned an unused Legend that you will play during
+the event.
+The Legends are:
+SAHART, Founder of
+Shallam
+SERVELAN de Vermiis, the Orator
+Blademaster
+MATIC Ridley           King SOLOMON, the Wise
+GLANOS, Founder of
+Ashtan
+Lord NICATOR, the Chosen One
+CALLISTO, the Father               Aleister CROWLEY, the Beast
+LEONARDO da Vinci, the
+Artist
+Sir LANCELOT du Lac, the Warrior
+Madame BLAVATSKY, the Mystic       ORPHEUS, the Musician
+SINOPE, the Mother                 King CHARLEMAGNE, the Conqueror
+PLATO, the Philosopher             PARACELSUS, the Healer
+BABA Yaga, the Witch               King LA'RAMHIS, of the Tsol'aa
+JOAN d'Arc, the Martyr             PASIPHAE, the Beloved
+Upon becoming a Legend, you will be deposited into the
+Matsuhama
+Arena
+, in
+Delos
+. Once the Balance of Power has been started, you must try to slay the
+other
+Legends, to become the last one standing. The
+abilities
+you will have are
+as follows:
+HEAL
+- Syntax: HEAL
+- Heals some
+health
+.
+MEDITATE
+- Syntax: MEDITATE
+- Heals
+mana
+.
+FLAME
+BOW
+- Syntax: SHOOT <adventurer> <direction>
+- Inflicts damage.
+WEB
+TATTOO
+- TOUCH WEB <target>
+- Webs someone. Unlike normal web tattoo, it does use mana.
+-
+WRITHE
+to unweb yourself.
+SHIELD
+TATTOO
+- TOUCH SHIELD
+- Puts up a magical shield around you. Uses mana, unlike normally.
+HAMMER TATTOO
+- TOUCH HAMMER <target>
+- Destroys someone's magical shield. Uses mana, unlike normally.
+LIGHTNING WAND
+-
+POINT
+WAND <target>
+- Does more damage than the flame bow.
+In addition, you will find that you have the
+skills
+of
+Vision
+and
+Survival
+to
+do with as you please.
+Note that in Balance of Power, almost every action aside from
+moving
+and
+writhing
+will cost
+something
+. You will
+lose
+a second of
+equilibrium
+for trying
+to
+target
+someone with your lightning wand or flame bow whom you can't hit.
+Using them successfully takes mana and equilibrium. Even the
+tattoos
+use up
+mana. Essentially, the
+idea
+is that you have to much more carefully manage your
+health and mana than in normal
+combat
+, because while you're healing your mana
+or health, that's all you can do. You can't drink
+vials
+of health or mana
+elixir
+to heal while also
+attacking
+, or while also putting up a magical shield.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

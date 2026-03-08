@@ -1,0 +1,243 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.2 Death Talismans
+The "Death"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the
+pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The
+Death
+set contains the following talismans:
+-----------------------------------------------
+A sycophantic shoulder cape         - TALISMAN INFO
+DEATHCAPE
+- Purchasable in
+Delos
+for 1500
+bound
+credits
+.
+- While wearing this cape,
+killing
+a
+denizen
+confers a bonus to your
+total maximum
+health
+.
+- This increases up to 150% of standard maximum.
+- The cape's
+power
+depletes to normal
+levels
+if some
+time
+passes without
+killing a denizen.
+- It does not function against loyal entities or
+denizens
+of any kind.
+Death's Call                        - TALISMAN INFO
+DEATHSCALL
+- Purchasable in Delos for 1850 bound credits.
+- When this bugle is BLOWn, all non-boss denizens in your current area
+will be revived.
+- This is only functional if those denizens typically revive in that
+same area.
+- The Death's Call may only be used every
+2
+hours
+.
+- An area can only be revived once every 2 hours, should multiple
+talismans be invoked.
+A soulfire
+crucible
+- TALISMAN INFO CRUCIBLE
+- Purchasable in Delos for 1000 bound credits.
+- This crucible may be lit in a room, and shall then damage all present
+whenever deathsight occurs within the area the crucible is placed.
+- This has a 1
+hour
+cooldown.
+A lichen-mottled
+gravestone
+- TALISMAN INFO GRAVESTONE
+- Purchasable in Delos for 900 bound credits.
+- You may
+PLANT
+this gravestone in a location and you shall
+resurrect
+in that spot after EMBRACEing death.
+- Be warned, anyone may DESPOIL your gravestone, rendering it
+inactive
+until rePLANTed.
+- This gravestone will only function if you
+die
+upon the
+continent
+of
+Sapience
+.
+A candle of cessation               - TALISMAN INFO
+DEATHCANDLE
+- Purchasable in Delos for 450 bound credits.
+- With this candle in your possession,
+CONSIDER
+a denizen to determine
+how long they have been alive.
+A vulture's talon                   - TALISMAN INFO
+VULTURETALON
+- Purchasable in Delos for 350 bound credits.
+- SCRATCH MYSELF WITH TALON to obtain the
+caloric
+defence
+.
+- This does not consume
+balance
+; however, it has a
+5
+-
+minute
+cooldown.
+A spiralled loop of mortal coil     - TALISMAN INFO
+MORTALCOIL
+- Purchasable in Delos for 250 bound credits.
+- BREAK this coil and you shall die shortly after.
+- This has a 30 minute cooldown.
+A cowled
+practice
+dummy             - TALISMAN INFO
+DEATHDUMMY
+- Purchasable in Delos for 50 bound credits.
+- This dummy operates like a standard practice dummy, but deadlier.
+- It has a chance to occasionally
+kill
+the user.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the death item you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL CRUCIBLE and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is 2/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Collection
+Bonus!
+-----------------
+The Death talisman set forms the "Death" collection!
+See
+COLLECTIONS
+SHOW
+DEATH and
+HELP COLLECTIONS
+for specifics.
+When you acquire an item in the Death Talisman set just:
+COLLECTION ADD DEATH <item> to add it to your collection.
+A bonus item is awarded for
+collecting
+all of the talismans in this set!
+A deadfall scythe
+- CULL your foes with this terrifying
+weapon
+in hand and send them
+to Ugrach.
+- This is functionally identical to behead, except in the
+Underworld
+where it is faster.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

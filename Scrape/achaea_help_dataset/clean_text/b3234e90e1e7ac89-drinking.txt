@@ -1,0 +1,116 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.12 DRINKING
+Consuming
+alcohol
+in
+Achaea
+can be, much like in real life, either a
+pleasurable or a rather detrimental
+experience
+. Many Achaeans enjoy celebrating
+a particularly stunning victory with a flute of champagne, or perhaps just
+knocking back a few
+flagons
+of ale with the lads. A few brave souls even take
+pleasure in doing shots of tequila or whiskey, though what enjoyment can be
+found in that is beyond this humble writer.
+It must be pointed out that the effects of
+drinking
+alcohol range from simple
+slurred
+speech
+to serious alcohol poisoning and
+death
+. When you type
+SCORE
+VITALS, will
+show
+you your
+level
+of sobriety.
+The amount that a given quantity of alcohol will affect you is determined by
+your tolerance. Tolerance is based on two
+things
+: your adventurer level and how
+much you drink on a regular basis. Among non-drinkers, the adventurer with the
+higher level will have the higher tolerance, but a low-level adventurer could
+easily out-drink a high-level adventurer if the low-level adventurer is a
+regular drinker.
+To increase your tolerance, you need to get fairly
+drunk
+(however, drinking to
+the
+point
+of vomiting is not necessary) on a regular basis. Every real-
+time
+day
+, your tolerance goes down by a certain amount, but each day that you get
+fairly drunk, your tolerance will
+go
+up by more than that until you
+reach
+a maximum level of tolerance gained for the day.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

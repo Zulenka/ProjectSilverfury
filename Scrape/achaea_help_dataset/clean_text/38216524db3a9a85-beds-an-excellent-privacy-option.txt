@@ -1,0 +1,228 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.23.3 Beds - an excellent privacy option
+(See also:
+HELP
+FURNITURE)
+Beds
+are, at present, the only furniture items that cost
+credits
+. They are
+expensive for very good reason. Beds include the best
+privacy
+available in
+Achaea
+at a cost of 475 credits. Compare with a privacy room option. A privacy
+room option currently costs 80 room credits. The security and privacy of a
+bed
+is far superior. It is without parallel in
+Sapience
+.
+Beds may only be purchased for
+placement
+in
+housing
+.
+First, you must either be yourself, or
+hire
+the services of, a highly-trained
+practitioner of the
+Furnishing
+tradeskill
+. This
+skill
+will allow the furniture
+item itself to be created, with all the options of Furnishing available (see
+HELP FURNISHING
+for more details about this process). The bed must be PLACED
+into an existing room in a private home in order to be used. After that, the
+owner of the home may UPGRADE BED <bed> to commence the process, ensuring they
+have the requisite 475
+Bound
+Credit
+cost. When that has been done, the bed will
+be present in and visible from the room in which it is dropped. The bed itself
+may be entered and is, in fact, a separate room unto itself (in addition to
+being visible in the room where it was originally dropped).
+When you have successfully acquired, placed, and upgraded a bed, you will have
+new options available to you for entering and
+leaving
+the bed.
+ENTER BED - puts you in the bed (or takes you out if you're already in).
+LEAVE
+BED - takes you out of the bed (or puts you in if you are out).
+Limited Capacity
+----------------
+Beds have a limited capacity of precisely two adventurers.
+In the Bed
+----------
+Beds create a private room representing the bed itself. That new place, in the
+bed, is as close to perfectly private as
+anything
+in Achaea. Here are the
+things
+that are blocked by being in a bed/bedroom:
+-
+ct
+- cht   -
+cwho
+- prism   - beckon   - adduction
+-
+ht
+-
+clt
+-
+hwho
+-
+sense
+- farsee   - brazier
+-
+pt
+-
+hnt
+- oakt   -
+shout
+- listen   - eavesdrop
+- ot   -
+hts
+- owho   -
+tells
+-
+market
+- mountkick
+-
+who
+-
+pwho
+- users   -
+newbie
+- pilgrimage
+- yank  -
+rwho
+- yells   -
+window
+- tracking
+- scry   - clwho
+Sonicportal,
+grove
+portal
+, and portal wands do not function into beds/bedrooms.
+Puppetry
+and
+vodun
+powers
+command
+,
+inventory
+, listen, spy, summon, and
+travel do not function into beds/bedrooms. Various powers such as mind sense,
+throw
+, travel, glance, sapience, and mindreading also do not function if the
+target
+is in a bed/bedroom. Wormholes cannot be created in bedrooms.
+Beds,
+Combat
+, and Safety vs. Privacy
+------------------------------------
+Beds are not
+saferooms
+: they are private rooms. Beds do not grant
+immunity
+from
+all long-distance
+attacks
+. Kai choke is not stopped by beds or being in a
+bedroom. Puppetry/vodun
+abilities
+that are attacks are mostly effective into
+bedrooms.
+Beds and Perfection
+-------------------
+We have heard that beds are not perfect: that they do not provide absolute,
+100% privacy. This is true. Nowhere here, nor elsewhere, do we
+claim
+that beds
+provide complete, 100%, absolute privacy. The precise, exact and (as close as
+we can
+tell
+) complete list of what beds do for you is given above. They do
+nothing
+beyond what is listed. Let no assumptions be made!
+Beds and
+Tradeins
+-----------------
+Beds are listed in HELP ARTEFACT TRADEINS under those things that cannot be
+traded in. That's because beds cannot be traded in.
+Beds and Relocation
+-------------------
+Relocation of beds is possible with the RELOCATE BED command!
+Simply find the ID of your bed, visit the room you
+wish
+to
+move
+the bed TO,
+then RELOCATE BED <id>. This will cost 250 Bound Credits.
+(See also: HELP FURNISHING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

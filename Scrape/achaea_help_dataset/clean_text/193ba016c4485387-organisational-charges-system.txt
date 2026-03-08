@@ -1,0 +1,188 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.37 Organisational Charges System
+The org
+charges
+system
+is used to charge a person with a crime against your
+organisation. This feature is available to
+cities
+,
+houses
+,
+orders
+and
+high
+clans
+.
+When charging a player, you can specify either a predefined crime (See
+HELP
+CRIMES
+) or specify a
+custom
+charge
+name
+.*  Once a charge is laid, you can edit
+the fine, term, and
+date
+. You can also add notes to the
+log
+of a charge.
+Currently only members of an organisation
+who
+can
+enemy
+/unenemy people can
+create, edit, or drop charges but any
+member
+of the organisation can view the
+list of active charges. Only the leader or patron of an organisation can drop
+charges with a fine of SPECIAL or a term of PERMANENT.  When unenemying a
+person, all charges are automatically dropped and because of this,
+enemies
+charged with a PERMANENT term or SPECIAL fine can only be unenemied by the
+organisation leader or patron.
+The reason for enemying and unenemying is logged in the charge
+history
+for the
+enemy.
+The history of
+inactive
+charges will be retained for a
+period
+of 200
+IC
+years
+at which
+time
+they will be removed.
+Syntax
+:
+<org> CHARGE <person> WITH <charge>
+e.g. <org> CHARGE Tenebrus WITH Petty
+Theft
+<org> CHARGE MULTIPLE <person> <count> <charge>
+lay multiple instances of the same crime against a person at once.
+<org> CHARGE HISTORY <person>
+Show
+the charges history of the enemy.
+<org> CHARGE LIST [person]
+Show the list of current charges for the org and optional person.
+<org> CHARGES SUMMARY <person>
+Show a breakdown of how many of each charge have been laid against
+the specified person.
+<org> CHARGE <charge number> HISTORY
+Show the history of only the specified charge.
+<org> CHARGE <charge id> FINE <amount>
+Set a numerical fine amount in golden
+sovereigns
+or SPECIAL. Special
+reparations can be listed in the Notes.**
+<org> CHARGE <charge id> TERM <amount>
+Minimum term of enemy
+status
+in
+Achaean
+years or
+PERM
+[ANENT]**
+<org> CHARGE <charge id> NOTES <text>
+Any additional comments that are relevant to enemying.
+<org> CHARGE <charge id> DATE <date of crime>
+Not required, but can be used to backdate a charge against a person.
+Can not be used to future date a charge. Date must be in the format of
+'dd mmm yyy' or '10 Ero 598'
+<org> CHARGE <charge id> DROP <reason>
+Ability
+to drop a charge with a logged reason.
+<org> CHARGE SEARCH <PERM[ANENT]|SPECIAL|BOTH|TYPE> [Charge type]
+Ability to search for charges that have a term of permanent, a fine
+of special, both, or any charges of a specific type.
+NOTE:
+HOUSE
+CHARGE SEARCH TYPE The will find any charges that start
+with 'The' like 'Theft' or 'Theocratic misguidance'.
+<org> CHARGE DROPALL <person> <reason>
+Ability to drop all charges at once with a logged reason.
+In the above, <org> can be HOUSE,
+CITY
+, ORDER, OAKSTONE, or
+CLAN
+.
+As this is an IC system,
+language
+and
+insanity
+rules
+apply
+.
+* Charges may only contain
+letters
+or numbers and can not be more than 30
+characters in length.
+** If you charge someone with a crime that has a SPECIAL fine or a PERMANENT
+term, only the leader or patron of the organisation can drop this charge.
+(See HELP CRIMES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,748 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.15 Shop of Wonders
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+All items purchased in the
+Shop
+of Wonders with Mayan
+Crowns
+are resetting and
+non-decay. They also have no
+trade
+-in
+credit
+value and cannot be refunded.
+Items purchased with
+GOLD
+in the Shop of Wonders are NOT resetting nor
+non-decay.
+The Shop of Wonders can be found among the rest of the artefact shops in Delos.
+Gifting items from the Shop of Wonders
+--------------------------------------
+To purchase an item as a gift for another
+character
+, use this
+syntax
+: BUY
+<item> AS GIFT FOR <person> [
+MAIL
+]. If you include 'MAIL' at the end, it will
+be delivered via the
+postal
+service
+.
+An album of
+preservation
+:
+6
+Mayan Crowns
+- Have a slew of images from the Obsidian
+disc
+that you'd like to keep forever? Well now you can, this album will eternally
+preserve
+images kept within it! Simply PUT your photos in the album and they'll be safe from the ravages of
+time
+.
+Holds up to five frozen images.
+A pitted ankh:
+5
+Mayan Crowns
+- One can never be too careful with one's identity. This mysterious artefact will prevent anyone from being able to chameleon the owner when worn.
+A badge of returning:                                         5 Mayan Crowns
+- Attaching this to any collared
+mount
+or artefact
+pet
+will reduce the reset time by 50%. (The item is destroyed upon use.)
+A massive
+war
+beetle:                                         5 Mayan Crowns
+- This legendary
+steed
+is innately collared and will return to its owner after
+death
+.
+A pair of Landstrider's boots:
+2
+Mayan Crowns
+- Allow for faster transit across all
+wilderness
+environments that impede
+movement
+.
+Golden cologne bottle:                                        2 Mayan Crowns
+- This fragrance bottle will allow the owner to SPRAY a
+letter
+, imbuing it with the scent in the bottle.
+- Cologne is a fragrance of citrus, bergamot, sandalwood, and exotic spices.
+- SPRAY <bottle> ON <letter>
+Ruby
+perfume
+bottle:                                          2 Mayan Crowns
+- This fragrance bottle will allow the owner to SPRAY a letter, imbuing it with the scent in the bottle.
+- The perfume is a fragrance of vanilla musk, jacaranda, and jasmine.
+- SPRAY <bottle> ON <letter>
+A scrying bowl:                                               6 Mayan Crowns
+- SCRY FOR <person> while you have this bowl to see not only that person's specific location, but the area he or she is in as well.
+A small wooden polling box:                                   4 Mayan Crowns
+- Poll your
+friends
+,
+vote
+for your
+enemies
+, this informal and portable polling box allows you to gauge opinion without the hassles of organisational ties.
+See POLLBOX for all
+commands
+.
+A portable vanity cabinet:                                    4 Mayan Crowns
+- This cabinet
+fills
+with up to four beads of perfume a
+day
+Four different types of perfume are possible.
+This cabinet and the
+perfumes
+it produces can be customised!
+The limit of four perfumes always remains, but existing perfumes can be switched out for new ones.
+See HELP PERFUME CUSTOMISATION for all information regarding
+customising
+this item!
+A really nice
+cake
+:                                           1 Mayan Crowns
+- Celebratory cakes that can be set down and SLICE CAKE to carve off a
+piece
+. Each cake has 8 slices and is automatically refilled once per
+Achaean
+day (
+RL
+hour
+).
+Options for cakes are: Wedding, chocolate, frosted lemon, sponge, and birthday.
+A
+leather
+carry case:                                         4 Mayan Crowns
+- Fills with four beads of cologne a day.
+- See HELP COLOGNE CUSTOMISATION for all information regarding customising this item!
+A chain of black iron:                                        5 Mayan Crowns
+- Wearing one of these chains will increase the amount of karma that the owner recovers. This effect applies to the karma obtained from
+studying
+a karmic item.
+A bloodsteel chain:                                           5 Mayan Crowns
+- Wearing one of these chains will increase the amount of life essence that the owner recovers. This effect applies to the daily
+recovery
+of life essence (assuming you're in the realms).
+A chain of burnished gold:                                    5 Mayan Crowns
+- Wearing one of these chains will increase the amount of
+devotion
+that the owner recovers. This effect applies to the daily recovery of devotion (assuming you're in the realms).
+A miniature enchanted stone
+circle
+:                           5 Mayan Crowns
+- DROP CIRCLE and SKIP AROUND CIRCLE for an on demand trip to
+Annwyn
+! Skipping is restricted to the owner only, but they can be followed. Will not work if: not on the
+Sapience
+continent
+, on a
+ship
+, not on the prime
+plane
+.
+A clasp of vocal intensity:                                   6 Mayan Crowns
+- Imbued with
+power
+over the
+wind
+itself, preventing the owner's
+voice
+from being drowned out in blustery conditions.
+A bamboo coracle:
+3
+Mayan Crowns
+- Drop this boat in a river and PUSH it, and you'll begin to
+sail
+downstream.
+Note that you can keep PUSHing it once you're off to increase the
+speed
+.
+We cannot be held responsible for any harm this may or may not cause.
+A crest of the
+Crafting
+Council:                              6 Mayan Crowns
+- Possession of this official token allows its owner to
+DESIGN
+SUBMIT, DESIGN VIEW, DESIGN LIST, and pickup an approved design from anywhere in the
+world
+!
+A
+humgii
+-shaped deconstructor:                                7 Mayan Crowns
+- This mechanical marvel will deconstruct your crafted items (
+clothing
+,
+jewellery
+, and
+food
+) and get approximately half of the
+commodities
+returned to you. Just DECONSTRUCT <item>!
+Disc of Transformation:                                       1 Mayan Crowns
+- Tired of your old stationery kit? Simply place this disc into your old kit to transform it into the the mahogany stationery kit. This item is consumed upon use.
+A drop of Yen-Sorte's blood:                                  7 Mayan Crowns
+- Ingesting this gruesome keepsake of the great battle master will grant the owner
+base
+-
+level
+mastery of all current publicly available
+weapon
+proficiencies
+. This item is consumed upon use.
+Glazed runic
+vial
+:                                            1 Mayan Crowns
+- Sipping these
+elixirs
+will grant a bonus to the consumer for 12 Achaean
+days
+(12
+hours
+) - each vial contains 5 sips.
+Elixir of life enhancement - bonus
+experience
+Elixir of the lucky -
+critical
+hit bonus.
+Elixir of the ogre -
+strength
+bonus.
+Elixir of the
+pixie
+-
+dexterity
+bonus.
+Elixir of the hunter -
+constitution
+bonus.
+Elixir of Epicurus -
+intelligence
+bonus.
+*NOTE: You are purchasing the elixir within the vial. Once the elixir has been consumed the vial will decay as normal.
+A sleek heron feather:                                        1 Mayan Crowns
+- These function as a single use version of the eagle's wings artefact. CARESS <feather> to activate.
+- Sold as a
+pack
+of 5.
+A shiny firecracker:                                          2 Mayan Crowns
+- A firecracker with a new and unique explosion
+pattern
+. This will reset to the owner in three
+minutes
+after use.
+A
+stardust
+flask:                                             10 Mayan Crowns
+- SHAKE FLASK will give the user the starburst
+defence
+.
+Can be activated once every three achaean days.
+No need for an open
+tattoo
+slot.
+A stone flowerpot:                                            5 Mayan Crowns
+- A new twist on an old favourite, this flowerpot will grow a
+selection
+of 10 beautiful (and different from the standard pot) flowers every Achaean
+month
+! The best
+thing
+about this new pot is that it is customisable!
+Want new flowers in it? Only one type of flower? Not a problem! (Contact
+customisations
+@
+achaea
+.com for more information on modifications.)
+A crafter's folder:                                           2 Mayan Crowns
+- Allows the preservation of up to 50 crafting
+designs
+from decay.
+Preserved designs may not be given away, disowned, or unpreserved.
+You may own as many Folders or Portfolios as you like, increasing your capacity without limit.
+A lesser viewing glass:                                       3 Mayan Crowns
+- GAZE INTO GLASS <person> will
+show
+you the current
+description
+of an adventurer
+who
+is currently visible and scryable.
+A greater viewing glass:                                      6 Mayan Crowns
+- Same as the lesser viewing glass, but it will also let you see what the adventurer is wearing as well! Also respects artefacts such as the
+Orb
+of Suppression.
+A chrono gyre:                                                6 Mayan Crowns
+- Ensure that an artefact you own will last an entire day before resetting back to you.
+This can only be used by its owner on an artefact that you own.
+WAVE <gyre> OVER <item>
+A golden honeycomb:                                           9 Mayan Crowns
+- DROP this in your
+grove
+, and you will be able to HARVEST from your hive twice as often as normal.
+A brass
+bait
+hook:                                            3 Mayan Crowns
+- This hook will return the
+fishing
+bait to the owner's inventory in the
+event
+of the line snapping.
+An Aeonic hourglass:                                          2 Mayan Crowns
+- With this treasure in hand, STOP SAND will hide your age and
+date
+of birth from your
+HONOURS
+and START SAND will let it show.
+A jar of silt:                                                7 Mayan Crowns
+- SHAKE JAR AT
+HARBOUR
+to attune this jar. Any tokens of Charybdis (including bronze) that you use afterwards will
+deposit
+you at your chosen harbour!
+Shaking has a 24 hour cooldown.
+Simply shake the jar at another harbour to change the
+designation
+(provided it is off cooldown).
+This will only work for mainland Sapience and
+Meropis
+harbours
+.
+A leather
+falconry
+jess:                                      4 Mayan Crowns
+- This stylish thong of leather can be used to accessorise any glove or gauntlet to accommodate your feathered friends. Included in this is resetting and non-decay, and the jess is destroyed upon use. To use, ATTACH TO your choice of handwear.
+A stationery kit:                                             1 Mayan Crowns
+- This will generate up to five
+letters
+that are embossed with your
+name
+and
+title
+.
+The current stationery kit on sale is onyx!
+A grisly carving
+knife
+:                                       6 Mayan Crowns
+- This gruesome tool is perfect for fine slicing actions. This knife will allow you to SLICE EAR FROM <DECAPITATED HEAD> to create a keepsake of your
+kill
+.
+A
+leash
+of spun gold:                                         3 Mayan Crowns
+- Allows the owner to LEASH <minipet>. Gives the wielder enter/
+exit
+/
+LOOK
+description based on the
+minipet
+, and lasts for one hour or until the minipet is picked up.
+A maritime ledger:                                            5 Mayan Crowns
+- This hardy leather ledger will keep track of the current ship
+trading
+deals at the different ports around Achaea. Simply
+READing
+it will display the desired cargo and rewards for that month.
+A matrimonial licence:                                        3 Mayan Crowns
+- Alter the way your
+marriage
+status
+is displayed to the world with this licence!
+MARRIAGELINE LIST            - View the options!
+MARRIAGELINE SELECT <line #> - Select the line you
+wish
+to use.
+SIGN <licence>               - Once you have selected your line.
+- This consumes the licence.
+- You must already be married.
+This will only change the way your marriage line appears and does not affect your spouse.
+A mound of glistening snow:                                   2 Mayan Crowns
+- Drop this mound of snow in the room and you'll find you can arm yourself with up to 12 snowballs. Syntax: PACK
+SNOWBALL
+.
+A crude gut cord necklace:                                    5 Mayan Crowns
+- Simply THREAD <a shrunken head or removed ear> ONTO <necklace> and you'll have a lasting memory of your conquests.
+- Heads threaded onto this necklace will last 30
+months
+from the time they are added, as opposed to their standard decay time.
+A golden quill nib:                                           8 Mayan Crowns
+- Empowered by an ancient
+Seleucarian
+enchantment
+, this item has a 50% chance to copy the current
+tarot
+inscription to another blank card in your inventory.
+A wooden
+ocarina
+:                                             4 Mayan Crowns
+- These instruments are attuned to a particular
+environment
+, and when played, will summon a small wild creature from that biome to follow the summoner for one hour. Should you
+lose
+your companion, just play the ocarina once more to summon it back to you.
+Caves (Underground) - a furry mole.
+Forests - a tiny chipmunk.
+Breakers (Beach) - a hermit crab.
+Deserts - a frill-necked lizard.
+Plains (Grassland) - a deer mouse.
+Swamps - a green frog.
+Jungles - a multicoloured gecko.
+Gardens - a small swallow.
+An enchanted pebble:                                          7 Mayan Crowns
+- Possession of this artefact allows the owner to make use of the continental
+portals
+between the Sea Lion Cove harbour (Sapience) and Rageteeth Beach (Meropis)!
+A shimmering tetracontakaidigonal prism:                      7 Mayan Crowns
+- Squint around corners! For example: SQUINT SOUTH WEST.
+Note: only allows squinting around one corner, SQUINT WEST SOUTH WEST will not work
+A blood-soaked record:                                        5 Mayan Crowns
+- Keep track of the date, victim, and nature of up to 50 adventurer kills!
+- RECORD KILL          - Use this
+command
+within 1
+minute
+of landing a
+killing
+blow on another adventurer to record the
+details of the kill.
+- RECORD VIEW          - An overview of your grisly achievements.
+- RECORD VIEW <page>   -
+Read
+further details about a kill.
+- RECORD WRITE <page>  - Add a comment along-side the grisly trophy.
+- RECORD ERASE         - Wash your ledger clean of all kills and comments.
+A sheaf of ornate letters:                                    4 Mayan Crowns
+- This updates any existing stationery kit to produce letters that can be folded into origami shapes. Place the letter inside the kit to
+apply
+this functionality, which will apply to all new letters generated after the sheaf is used.
+- TURN <letter> <shape> will fold the letter into one of the
+following
+:
+Pegasus, crane,
+butterfly
+, goldfish, dolphin, angel, demon, snake, falcon,
+mouse, lemming, chimera, fox,
+dragon
+, rose, flower, willow, dragonfly,
+frog,
+moon
+, star, sun, tree, duck, horse, heart, wolf, dirk, sword,
+shield
+, swan, ship, leaf, fan,
+fish
+, whale, shark, octopus, kraken,
+stag, or phoenix.
+- The recipient will need to TURN the letter to unfold and read it.
+A
+diamond
+-tipped shovel:                                      2 Mayan Crowns
+- This unbreakable shovel will cut the time of
+DIGging
+by 50%. This item will confer no benefits during a treasure
+hunt
+event.
+An ethereal shroud:                                           1 Mayan Crowns
+- The ethereal shroud functions like a Veil of the Sphinx artefact! Once worn, these shrouds will begin to rapidly decay, lasting two Achaean days from their first wearing.
+This does not stack with the Veil of the Sphinx
+A
+sigil
+of suppression:                                       3 Mayan Crowns
+- When ATTACHed to an artefact, it will hide it from view (similar to the Orb of Suppression.) If you own an Orb of Suppression, the sigil will work to reveal the item from behind the obscuring effects of the Orb. This sigil can be DETACHed from the artefact at any time.
+A vicarious sigil:                                            8 Mayan Crowns
+- ATTACH <sigil> TO <earring/linked bag> to a paired artefact (providing you
+hold
+the master) and once per year you can change the ownership of the partnered item without charge.
+- CHANGE PARTNER <itemID> TO <new partner>
+- This currently works for Earrings of Sinope and the Box of
+Sharing
+.
+- Once attached, this sigil cannot be removed from an item.
+A golden slingshot:                                           5 Mayan Crowns
+- Allows the owner to SLINGSHOT lit firecrackers into the air, allowing any in the area to see the explosion.
+A bar of pumice
+soap
+:                                         2 Mayan Crowns
+- This scented block will ensure that any odorous ailments are quickly removed. Simply have the soap on your person when you SCRUB. You still need to be in water to use this soap.
+An ornate titantic statue:                                    1 Mayan Crowns
+- Designed by Lord Watchman Dracrotalus of
+Mhaldor
+, this statue was the
+winning
+entry for the Adryn Keep
+Festival
+design contest in 694 AF.
+A crafter's folder strap:                                     1 Mayan Crowns
+- Expands the capacity of a crafter's folder or
+portfolio
+by 25 designs.
+ATTACH <strap> TO <folder|portfolio> to use, at which
+point
+the strap is consumed. For adventurers with multiple crafter's folders or portfolios you may CONSOLIDATE FOLDERS <
+target
+folder or portfolio> to make a single item with the consolidated capacity.
+A briny tally:                                                3 Mayan Crowns
+- READ <tally> <shipID> - See the average level of
+seamonsters
+killed by a vessel.
+SCATTER PAGES   - When aboard a ship you own to reset the ship's
+seamonster
+record.
+- This permanently consumes the tally item.
+A cleverly packed, deconstructed tent:                        6 Mayan Crowns
+- - ASSEMBLE TENT in an outdoors location (wilderness,
+subdivision
+,
+cities
+,
+House
+estates,
+temples
+, and
+ships
+do not count).
+- ENTER TENT and enjoy increased
+willpower
+and
+endurance
+regeneration
+whilst within.
+- Anyone can enter your tent, they afford no protection from
+attack
+or location
+abilities
+.
+- DISASSEMBLE TENT when you are done using it!
+- Tents will not reset while assembled, you must disassemble them first.
+- Tents cannot be customised.
+A bronze token of Charybdis:                                  5 Mayan Crowns
+- This imbued token will either halve the time required for a SHIPRETURN or
+remove
+the willpower and endurance cost from SHIP
+RESCUE
+ME
+once per Achaean day.
+A Veil of the Libertine:                                      2 Mayan Crowns
+- We all make mistakes after a few too many darkbrews! Use this fashionable item to hide any past transgressions to the sanctity of marriage from your HONOURS. WEAR VEIL will hide your indiscretions from the
+eyes
+of
+others
+.
+An obfuscated crystal vial:                                   3 Mayan Crowns
+- This vial will
+refill
+sips of whatever curative fluid it contains every Achaean day. Should the vial be empty, a random fluid will seep in!
+A
+hunting
+wasp:                                               6 Mayan Crowns
+- - This ruthless insect shall pursue that person for two minutes, reporting upon their location whenever they try to
+move
+away from it.
+- PUSH <WASP> <TARGET> while in the same area with your target.
+- If you send it out to find someone in an area and they are not there, it goes on cooldown for two minutes.
+- If it successfully finds someone, it goes on cooldown for one hour.
+A figurine of a horkval
+bard
+:                                 2 Mayan Crowns
+- Continue the civic pride with these
+city
+-themed battle figurines! As an additional perk, Mhaldor as the winning city of the
+festivities
+was able to nominate Taraus and immortalise her likeness in their city's figurine!
+A luminous vellum sheet:                                      3 Mayan Crowns
+- Encode your missives upon this piece of vellum and only allow your most trusted friends to read! (TOUCH VELLUM for details on how to use it)
+A covered cup of
+dice
+:                                        3 Mayan Crowns
+- Set your target to any day and month, today's date, or even your birthday and then shake this cup to try your luck! (READ CUP for details on how to use it)
+A petite ceramic urn:                                         10 Mayan Crowns
+- These urns contain the spirits of champion's
+steeds
+from across the lands. This item will be transformed into a city-specific description when purchased by a
+member
+of a city.
+- RUB URN and it will summon one of twelve spectral
+mounts
+for 24 hours at a time. In addition to having a limited mount, each of the steeds can be ORDERed to
+GO
+HOME to carry their
+rider
+across the lands to their home.
+- Mount possibilities are as follows:
+Animal                    Home
+-------------------------------------
+A giant spectral owl
+Actar
+A phantom grizzly bear
+Bitterfork
+A hulking phantom spider
+Darkenwood
+A mighty ghost basilisk
+Aalen
+Forest
+A phantom ankheg
+Azdun
+Forest
+A ghost mule
+Moghedu
+A phantom sea turtle
+Shastaan
+A phantom jaguar          New Hope
+A phantom donkey          Delos
+A mammoth apparition      The Frozen
+Tundra
+A spectral gorilla
+Dun
+Valley
+A phantom harp seal       Sea Lion Cove
+City Warpaints:                                               1 Mayan Crowns
+- Show your city pride with these
+custom
+city warpaints! Each contains (and
+refills
+with) 10 applications of civic warpaint!
+- APPLY <vial> NAME [TO <person>]: Paint the city name on your forehead (
+ASHTAN
+etc.)
+- APPLY <vial> INITIALS [TO <person>]: Paint the city letter on your cheeks (M for Mhaldor etc.)
+- APPLY <vial> ARMS [TO <person>]: Paint the city's coat of arms on your face (A rampant stag for
+Eleusis
+etc.)
+A pair of thundersticks:                                      1 Mayan Crowns
+- SHAKE these thundersticks to provide accompanying hype to any and all occasions, no matter how subtle or sombre someone else thinks they should be!
+A statute of acknowledgement:                                 2 Mayan Crowns
+- WEAR this statute and a city-themed deathsight shall occur whenever you slay another adventurer.
+A Dwarven
+drinking
+horn:                                      8 Mayan Crowns
+- DRINK HORN and enjoy 30
+seconds
+of being absolutely smashed, but you won't
+trigger
+totems
+or
+runes
+! This drinking has a 25 minute cooldown.
+A stark Mhaldorus costume:                                    2 Mayan Crowns
+- This enchanted costume transforms your very appearance to resemble the hero (or
+horror
+) that you have chosen to don!
+A most excellent swami costume:                               2 Mayan Crowns
+- This enchanted costume transforms your very appearance to resemble the hero (or horror) that you have chosen to don!
+A magnificent phoenix costume:                                2 Mayan Crowns
+- This enchanted costume transforms your very appearance to resemble the hero (or horror) that you have chosen to don!
+A great white wolf costume:                                   2 Mayan Crowns
+- This enchanted costume transforms your very appearance to resemble the hero (or horror) that you have chosen to don!
+Housing
+-related Wonders items can be found in HELP HOUSE OF WONDERS
+Discontinued stock can be found in HELP DISCONTINUED SHOP OF WONDERS
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

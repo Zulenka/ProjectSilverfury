@@ -1,0 +1,197 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.3 A LIST OF EXPERIENCE LEVEL NAMES
+The
+following
+is a list of
+experience
+level
+names
+, from weakest to strongest.
+Level
+Name
+-----  ----
+1  Neophyte
+2
+Bold
+3
+Bright
+4  Trustworthy
+5
+Achaean
+6
+Novice
+7  Innocuous
+8  Harmless
+9  Apprehensive
+10  Simple
+11  Mundane
+12  Steady
+13  Stout
+14  Resolute
+15  Stalwart
+16  Audacious
+17  Strong
+18
+Spirited
+19
+Vital
+20  Daring
+21  Vibrant
+22  Robust
+23  Notable
+24  Effervescent
+25  Significant
+26  Remarkable
+27
+Vanguard
+28  Exceptional
+29  Gallant
+30  Courageous
+31  Distinguished
+32
+Intrepid
+33
+Dauntless
+34  Unflinching
+35  Dynamic
+36  Prominent
+37  Prestigious
+38  Superior
+39  Radiant
+40  Grand
+41  Salient
+42
+Heroic
+43  Golden
+44  Valiant
+45  Marvellous
+46  Luminary
+47  Shining
+48  Scintillating
+49  Eminent
+50
+Paragon
+51  Mighty
+52  Brilliant
+53  Majestic
+54  Dazzling
+55  Idolised
+56  Epic
+57
+Ascendant
+58  Exalted
+59  Illustrious
+60  Glorious
+61  Impregnable
+62  Canonised
+63  Indomitable
+64  Supreme
+65  Enshrined
+66  Lionised
+67  Legendary
+68  Invincible
+69  Stellar
+70  Plenary
+71  Deified
+72  Celestial
+73
+Empyreal
+74  Unearthly
+75  Almighty
+76  Archmortal
+77  Paramortal
+78  Transmortal
+79  Metamortal
+80  Logosian
+81  5th
+Circle
+of Celestial
+Power
+82  4th Circle of Celestial Power
+83  3rd Circle of Celestial Power
+84  2nd Circle of Celestial Power
+85  1st Circle of Celestial Power
+86  5th
+Rank
+of the Infinite
+87  4th Rank of the Infinite
+88  3rd Rank of the Infinite
+89  2nd Rank of the Infinite
+90  1st Rank of the Infinite
+91  5th Order of the Hyperphysical
+92  4th Order of the Hyperphysical
+93  3rd Order of the Hyperphysical
+94  2nd Order of the Hyperphysical
+95  1st Order of the Hyperphysical
+96  Master of
+Sapience
+97  First Among the Hosts
+98  Lord of Creation
+99  Greater
+Dragon
+100  The Dragon Lord
+101+ You'll just have to get there.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,238 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.4.3 THE MINISTRY OF THE INTERIOR
+The Ministry of the
+Interior
+is responsible for the urban
+health
+of the
+city
+, this involves managing the city
+shops
+, the city
+subdivision
+, and
+commodity
+trading
+.
+CITY
+FINANCE
+REPORT INTERIOR [<year>]
+- The detailed report for this ministry for the given year.
+CITY REPORTS INTERIOR [<year>]
+- Non-financial general report for this ministry.
+Subdivision development
+commands
+can be found in
+HELP SUBDIVISIONS
+PLOT
+RECLAIM HERE
+- Allows the Development
+minister
+to reclaim a plot. This will only work on unimproved
+parcels
+(those without player
+housing
+).
+- If the owner is not a city
+enemy
+, he or she will be refunded the current cost of a subdivision plot from the Development ministry's coffers.
+- If the owner is retired, this will cost the city 5000
+gold
+. No gold is transferred to the retired player.
+The commands associated with city shops are:
+CITY SHOPS
+- Lists the adventurer-owned shops in your city.
+CITY
+SHOP
+INFO <shop name>
+-
+Shows
+further info on a shop.
+CITY ASSESS <shopname> <shop value in gold>
+- Place a value on the shop, for the purposes of property tax.
+CITY TAXRATE SHOPS <rate, in percent>
+- This is the annual rate at which shops will be taxed. Each shop will owe, after the new year, (taxrate/100*assessed shop value). Since shops cost the city 5000 gold each year, it behoves the city to tax them to make up for this. If a shop has been closed for 12 continuous
+Achaean
+months
+, then it will cease to be taxed, and cease to cost the city
+anything
+.
+CITY FORGIVE SHOP TAXES <shop> <optional amount>
+- This
+command
+can be used to forgive the taxes on a shop. If you do not specify an amount, then all the outstanding taxes on the shop will be forgiven.
+CITY CLOSE SHOP <shop>
+-
+Orders
+the
+guards
+to stop commerce in a shop.
+CITY OPEN SHOP <shop>
+- Orders the guards to re-open commerce in a shop.
+CITY LOCK DOOR <direction>
+- Magically
+locks
+a door. No
+keys
+will work on it.
+- This command is useful for
+subdivisions
+also.
+CITY UNLOCK DOOR <direction>
+- Removes a magical lock from a door.
+- This command is useful for subdivisions also.
+CITY
+TITLE
+SHOP/STOCKROOM <shop> <title>
+- Lets you edit the title of a shop. Costs the city 1000 gold.
+- Stockroom
+names
+MUST have the word 'stockroom' in it, and otherwise make
+sense
+as a stockroom
+name
+. "Not a stockroom" is not acceptable. Be responsible.
+CITY EDIT SHOP/STOCKROOM <shop>
+- Lets you edit the
+description
+of a shop. Costs the city 10000 gold.
+CITY OWNER SHOP <shop> <new owner>
+- Transfers ownership of a shop to a new person.
+CITY ECONSTATUS
+- See information on your city's economy.
+The Ministry of the Interior is responsible for obtaining
+commodities
+for use by the city government and for facilitating the transfer of those commodities to the
+Ministries
+that will use them.
+The Ministry has three tools it may use to obtain and transfer commodities around the various city needs:
+1. Setting the price at which the city will purchase and
+sell
+commodities to the public.
+2
+. Setting the price at which
+other
+Ministries may purchase commodities internally, as well as a reserve amount, so that the city doesn't completely
+run
+out of commodities.
+3
+. Maintaining 'reserves' of commodities for use by the city proper. Keeping a number of commodities this way will be very important for many city administration
+tasks
+.
+The commands associated with city commodities are:
+CITY
+COMMS
+CITY COMM SUMMARY
+- Shows a summary table of the current commodity
+status
+of your city.
+CITY COMM DRAINS
+- Shows a summary of the commodity usage and projection of supply duration.
+CITY COMM SET MIN <comm> <amount>
+- Sets the reserve amount for a particular commodity. Reserved commodities are not available for purchase.
+CITY COMM SET INTERN <comm> <amount>
+- Sets the price which other Ministries will pay for a particular commodity.
+CITY COMM
+BUY
+<comm> FOR <amount>
+- Sets the price which the city's commodity-purchasing
+NPC
+will pay for commodities.
+CITY COMM SET AVAILABLE <comm> <amount>
+- Sets the available amount of a commodity to be sold.
+CITY COMM SELL <comm> FOR <amount>
+- Sets the public sell price. People can then buy any available stock at this price per unit.
+FUNDS INTERIOR
+- See how much
+money
+your Ministry has. This must be done from the Council Room.
+TRADE
+FUNDS
+- Shows you how much gold the Ministry has, as well as how many of each commodity can be bought (based on availability, the current internal purchase price, and the Interior Ministry's current gold stores).
+- You never need to actually purchase the commodities, it is an automatic process and is done for you when you execute a command that requires them.
+CITY ECONSTATUS
+- See information on your city's economic status.
+WITHDRAW
+<amount> <commodity>
+- From the council room, withdraw commodities from the reserve.
+- This command is limited to the City Leader and Minister only.
+DEPOSIT
+<amount> <commodity>
+- From the council room, deposit commodities into the reserve.
+(See also
+HELP TRADING
+,
+HELP SELLING
+,
+HELP SUBDIVISIONS
+,
+HELP COMMODITIES
+,
+HELP IMPROVEMENTS
+, and
+HELP
+SHOPS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

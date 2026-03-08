@@ -1,0 +1,215 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+11.2 Divine Orders
+(See also:
+HELP GODS
+,
+HELP OFFERINGS
+,
+HELP
+SHRINES
+)
+The most important and special way in which a mortal may interact with a God
+is by pledging his or her life to the God. This is done by
+joining
+the God's
+Divine
+Order. An
+honour
+not to be taken lightly, this is accomplished by
+speaking
+with the relevant God and establishing a rapport with him or her
+first. Eventually you may feel that you are worthy of
+following
+this God, and
+ask for acceptance into his or her Order. On the
+other
+hand, the God may first
+decide that you would make a good addition to his or her Order, and invite you
+in. You are, of course, free to refuse, but understand that
+everything
+in life
+has consequences, be they trivial or large.
+What Is A Divine Order?
+-----------------------
+Orders
+are
+groups
+of adventurers of
+Achaea
+who
+have formally declared their
+worship of, and dedication to, a particular
+Deity
+. Most, but by no means all
+Immortals
+of Achaea have Divine Orders.
+HELP GODS
+lists the
+Gods
+whose Orders
+you may
+wish
+to
+learn
+more about. Also make sure to check HELP <godname> for
+additional information about individual Gods.
+Finding and Joining an Order
+----------------------------
+There is no single manner of finding or joining a Divine Order. Perhaps you
+simply need to seek out a
+member
+of the Order and ask. Some
+Divines
+require
+that you diligently seek a special place, such as a temple or Holy
+Grove
+. There
+may be
+quests
+or trials to undertake.
+What's Good About
+Membership
+?
+-----------------------------
+Many find membership in a God's Order to be one of the most important parts of
+their
+experience
+in Achaea. Membership gives a
+sense
+of belonging, and a sense
+of being watched over by a Deity who is sympathetic to you, and whose
+involvement may prove vital to success in the realms.
+Leaving
+A Divine Order
+----------------------
+Membership in a Divine Order is not an irrevocable decision. You can
+RENOUNCE
+PATRON to
+leave
+a Divine Order, though you should
+consider
+this decision
+carefully before making it.
+Ranks
+-----
+A Divine Order may have as many as ten ranks, in addition to the position of
+Order Head. Your God grants or withholds
+promotion
+based solely on whatever
+criteria He or She may choose. It is considered extremely rude to ask for a
+promotion. Each Order
+rank
+carries with it its own special powers, from viewing
+a list of the
+enemies
+of your Order to calling down the wrath of the Gods upon
+them. ORDER PRIVILEGES (or just ORDER PRIVS) will
+show
+you your order-related
+commands
+. See
+HELP SHRINES
+for more on this.
+Champions
+-----------
+Gods may opt to
+designate
+a member of Their order as the order's
+Champion
+. This will be noted on that person's
+HONOURS
+output. As Champion, they will be able to
+challenge
+other Champions provided there is a state of
+ire
+to at least the fourth grade (See HELP
+CRUSADES
+):
+WITNESS
+ME
+AGAINST <opposing champion>
+Champions will also find that they are a lightning rod for a patron's wrath and consequently contribute more greatly to ire on both ends.
+Lay Membership
+--------------
+Orders have the option to use lay membership to formally
+mark
+adventurers who
+are pursuing that particular Order. This
+designation
+does not come with a
+communication
+channel
+or newsboard; most Orders have
+clans
+for this purpose.
+You may RENOUNCE LAY MEMBERSHIP if you no longer wish to be considered a lay
+member.
+(See also:
+HELP GODS
+,
+HELP OFFERINGS
+, HELP SHRINES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

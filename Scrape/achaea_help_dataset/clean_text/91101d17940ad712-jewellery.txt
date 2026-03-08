@@ -1,0 +1,177 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.5 JEWELLERY
+(See also:
+HELP DESIGN
+, HELP JEWELLERY DESIGN, and
+HELP
+CRAFTING
+GUIDELINES)
+As most
+jewellers
+will be happy to
+tell
+you,
+jewellery
+is one of the noblest of
+the practical crafts. With it, one may take beautiful raw materials and create
+items of surpassing beauty. Warriors have fought and died over the product of a
+master jeweller.
+By gaining the
+tradeskill
+of Jewellery, you will be able to create your own unique styles of jewellery, engrave existing jewellery, and even pierce
+people's bodies for them.
+In order to gain Jewellery, you must purchase a permit from the
+Jewellers Union Headquarters in
+Delos
+.
+You must be over
+level
+10 to access the jewellery tradeskill.
+BUY
+JEWELLERY PERMIT
+- Use this
+command
+at "The Jewellers Union Headquarters" in Delos.
+- This will cost 200
+credits
+.
+- If you have a bronze
+trade
+seal, please
+READNEWS
+ANNOUNCE
+4247
+- Once purchased, this permit will
+show
+up on
+SCORE
+LICENSES
+.
+- This will never expire and cannot be traded in.
+GAINING THE JEWELLERY
+SKILL
+- Make sure you have Bought your Jeweller's Permit as per above!
+- Make sure you have a tradeskill slot empty
+-
+TRADESKILLS
+will show your tradeskill slots
+- SCORE LICENSES will show how many slots you have in full.
+- Visit Amarisse, Secretary of the Crafting Council.
+- ASK AMARISSE GAIN JEWELLERY.
+Once you are a licensed jeweller, you will have basic
+ability
+in the Jewellery
+tradeskill.
+Abilities
+Gained
+-----------------
+At Novice:       The ability to craft jewellery from existing
+schematics
+.
+At Adept:        The ability to create new schematics.
+At Fabled:       The ability to do
+piercings
+.
+At Mythical:     The ability to repair jewellery.
+At Transcendent: The ability to engrave jewellery.
+For Portrait
+Locket
+Inserts
+============================
+Jewellers can make portrait lockets from the portrait locket
+schematic
+, these
+special items combine with portrait locket inserts painted by
+artists
+to
+create a proper portrait locket!
+(This is the new portrait locket schematic, and is not compatible with older
+lockets)
+PUT INSERT IN LOCKET
+This will add the portrait's
+description
+to the locket.
+This will consume the insert.
+This is not reversible.
+OPEN LOCKET
+This will show your portrait description on
+PROBE
+/EXAMINE.
+CLOSE LOCKET
+This will hide the portrait's description on PROBE/EXAMINE.
+If you are in possession of a mithril jeweller's loupe, you may CRAFT any item
+in your personal
+NDS
+list without needing the Jewellery tradeskill.
+These do not have a
+tradein
+value.
+Please
+read
+HELP DESIGN
+, HELP JEWELLERY DESIGN, and
+HELP CRAFTING GUIDELINES
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,189 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.11 The WHO list and various WHO commands
+We have many
+commands
+that let you see
+who
+else is in
+Achaea
+, including
+special lists for
+heralds
+,
+jewellers
+, cooks, and
+tailors
+(crafters!):
+WHO        -
+Shows
+everyone that is on the same
+plane
+and visible to you.
+If you have
+ANSI
+on (
+HELP
+ANSI) then some will be in colour:
+*
+Guides
+(HELP GUIDES) will be yellow,
+*
+Celani
+(HELP CELANI) will be
+light
+blue,
+*
+Admins
+(HELP ADMINS) will be bold white, and
+*
+Gods
+(HELP GODS)   will be green.
+WHO B      - Shows everyone that is on the same plane and visible to you
+without
+titles
+.
+BW
+/
+QW
+- An abbreviated version of the full WHO list.
+QW <match> - Shows only
+names
+that begin the same. For example,
+QW RO will
+show
+Rocktamer and Rory, but not
+Aeyr
+.
+QW <city>  - Show online members of a
+city
+. You may use ROGUE to see
+all adventurers who are not
+citizens
+of a city.
+QWC        - Coloured version of QW, with adventurers names highlighted
+in their city's colours.
+Ashtan
+- Purple
+Cyrene
+- Teal
+Eleusis
+- Bright green
+Hashan
+- Dark yellow
+Mhaldor
+- Red
+Targossas
+- Bright white
+Rogue      - Grey
+CWHO
+- city who - Same as WHO, but only for members of your city.
+CLASSWHO
+- Same as WHO, but only for members of your
+class
+.
+CLWHO      - Shows members of your current
+clan
+.
+CRAFTERWHO
+- Shows people with a specified
+tradeskill
+.
+HWHO
+-
+house
+who - same as WHO, but only for house members.
+- HWHO T will show everyone with titles.
+MARKWHO
+- Like BW/QW, but only for members of the Ivory and
+Quisalis
+Marks
+NWHO       - Shows all the
+newbies
+below
+level
+30 within the realms.
+OWHO       - Order Who - Same as WHO, but only for members of your Order.
+PWHO
+-
+Party
+Who see
+HELP PARTIES
+.
+RWHO
+- Same as the
+others
+, but only for those of your
+race
+.
+SPARWHO
+- Shows who is
+looking
+for a
+sparring
+opponent.
+TRADEWHO   - Shows people with a specified tradeskill.
+WHO HERE   - Shows who is in the same location with you.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

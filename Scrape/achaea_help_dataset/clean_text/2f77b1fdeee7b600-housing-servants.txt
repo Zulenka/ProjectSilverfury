@@ -1,0 +1,206 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+20.6 Housing Servants
+(See also:
+HELP HOUSING
+, HELP HOUSING SUMMARY,
+HELP
+REACTIONS
+)
+Once you've built your
+house
+just the way you want it, with all of its rooms
+and
+doors
+and secret dungeons, it's
+time
+to populate it with some
+denizens
+. You
+can populate your house with a variety of denizens, and even customise the way
+those denizens will react to the
+events
+going
+on in your house.
+Types of
+Servants
+-----------------
+The basic types of servants that you can
+hire
+for your house are: butler, maid,
+cleaner, steward, cook, waiter,
+servant
+, worker, and page.
+HOUSING
+HIRE <servant type>
+- Hires a servant. All servants wander aimlessly through your house.
+- Servants cost 75,000
+gold
+to hire, but they do not charge any upkeep.
+HOUSING
+FIRE
+<servant>
+- Fire a servant that you no longer want to wander your house.
+- There are no gold refunds when firing servants.
+Servants cannot
+leave
+your house under any circumstances. They are also very
+weak, and will not be very helpful in
+defending
+your house if you are attacked.
+Customising
+Your Servants
+-------------------------
+You can customise the looks of your servants. The first time you customise a
+servant after it has been hired will be free. After that, you must pay 75,000
+gold to make any changes to the servant.
+To note, servants must follow the guidelines set out in
+HELP CUSTOMISATION
+and
+HELP STYLE
+. In particular, be aware that
+descriptions
+must not change the basic
+nature
+of the servant: a steward must remain a steward, and a cook must remain
+a
+cook.
+When customising a house servant, you must first decide upon all of the changes
+that you will make. These are stored on the
+denizen
+, but will not take effect
+until you explicitly
+apply
+those changes to the denizen. This allows you to
+change all of the aspects of the denizen as you like for your first free
+customisation
+.
+If you fire a servant that has had its free customisation set, you will not be
+able to set the free customisation on a new servant. Your house can only
+effectively have as many free servant
+customisations
+as its maximum number of
+servants.
+HOUSING CUSTOMISATION SET <denizen> APPEARANCE <text>
+- Sets what you see when you INFO HERE in a room, and also what the denizen
+looks like when it takes action.
+HOUSING CUSTOMISATION SET <denizen> DROPPED <text>
+- Sets the denizen's
+description
+that you see when you
+LOOK
+or GLANCE in a
+room.
+HOUSING CUSTOMISATION SET <denizen> EXAMINED <text>
+- Sets the denizens's description that you see when you
+PROBE
+it.
+HOUSING CUSTOMISATION SET <denizen> ENTER <text>
+- Sets the denizen's
+message
+that is displayed to the room it enters when it
+moves
+.
+- Use the special variable $dir to automatically expand the
+direction
+from
+which the denizen is
+moving
+.
+HOUSING CUSTOMISATION SET <denizen> LEAVE <text>
+- Sets the denizen's message that is displayed to the room it is
+leaving
+when it moves.
+- Use the special variable $dir to automatically expand the direction in
+which the denizen is moving.
+HOUSING CUSTOMISATION SET <denizen>
+DEATH
+<text>
+- Sets the description that will be shown in the room when the denizen is
+dead.
+- Don't worry, like most
+other
+denizens, your house servants will come back
+to life in your house after a short time.
+HOUSING CUSTOMISATION SET <denizen> GENDER MALE|FEMALE
+- Sets the gender of your servant.
+HOUSING CUSTOMISATION SET <denizen> WANDERER ON|OFF
+- Sets whether your servant will wander your house or stay in the room.
+HOUSING CUSTOMISATION APPLY <denizen>
+- Apply the full set of changes that you've been working on to the denizen.
+- This action will be free if your denizen has not been modified from the
+base
+appearance it has when it is hired, otherwise it will cost 75,000
+gold.
+HOUSING LIST SERVANTS
+- See a list of the servants you have hired for your house, as well as
+their current locations.
+You can also customise some of the actions that your denizens can take in
+reaction
+to certain events around them. See
+HELP REACTIONS
+for more
+information.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

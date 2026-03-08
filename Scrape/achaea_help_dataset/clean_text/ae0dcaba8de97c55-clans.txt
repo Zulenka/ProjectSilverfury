@@ -1,0 +1,222 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+21.1 CLANS
+(See also: HELP CLAN COMMANDS, HELP CLAN LEADER,
+HELP
+CLAN
+LIST)
+What are
+clans
+?
+---------------
+Clans are adventurer-created and adventurer-
+run
+organisations. A clan could be:
+- a Noble
+House
+with various
+titles
+- a
+chess
+club with annual dues
+- a
+death
+cult
+- a
+group
+of performers
+- a
+family
+Clans are highly customisable. Use your imagination when forming them! See the
+current list of all clans in HELP CLAN LIST.
+Basic clan information
+----------------------
+Anyone may
+join
+a clan, and you may be in up to ten clans. This number may be
+increased by purchasing CLAN SLOTS (see HELP 21.4 ADDING CLAN SLOTS). A clan is
+led by one individual
+who
+is the undisputed leader of the clan. He cannot be
+replaced unless he chooses to be.
+In order to form a clan, you must
+go
+to Clan Headquarters in
+Delos
+, and have
+500,000
+gold
+in your
+inventory
+. You must know what you
+wish
+to call your clan
+(you can change it later), as well as know what you wish to nickname your clan.
+See the next section for more details.
+In
+Character
+and Out Of Character Clans
+---------------------------------------
+All clans are by default in character.
+A clan designed to be out of character must be made private by the clan leader.
+This does not necessarily mean that all private clans are out of character.
+All non-private clans are considered to be in character.
+Organisations cannot own out of character clans. Organisations are in character
+entities and subsequently all involved aspects are in character.
+Family clans are considered to always be in character.
+Forming a clan
+---------------
+FORM CLAN NAMED <name1> | <alias>
+- The first
+name
+can be up to 50 characters long and can be multiple words.
+- The second name can be only 1 word and no longer than 15 characters. It's
+more like an
+alias
+, so that, for instance, instead of typing
+CLANHELP
+THE
+DIAMANTE FAMILY, adventurers can just do CLANHELP DIAMANTE (if that's what
+the founder called the clan alias).
+- You must separate the clan name and alias with the | character.
+- You must have 500,000 gold in your inventory, and be standing in Clan
+Headquarters, on the isle of Delos. The 500,000 gold will be taken as
+the fee for clan formation.
+- Upon forming the clan, you will automatically be the clan head.
+Transferring a clan
+-------------------
+Clans may be transferred as the owner of the clan sees fit.  The clan newsboard
+comes along with it, with all of its existing
+posts
+. An
+immortal
+or
+admin
+will
+not clear the
+board
+for you either, so please don't ask. It's part of the price
+of getting a second-hand clan!
+Family clans
+------------
+A family clan is a way to formally recognise your family's place in the
+world
+.
+They come with a host of new options to help bring these prestigious lineages
+into the limelight. Family clans can:
+* Allow members to take on a pre-configured family name as their
+suffix
+. A
+member
+of the clan can use FAMILY
+TITLE
+to take on the surname of the family.
+This will replace any existing suffix.
+* Have assignable progenitors, allowing clans to recognise the founders of the
+family line.
+* Become listed on FAMILY LIST.
+* Have a special version of CLANHELP.
+Before you rush out and set this option on your clan, there are a few
+things
+to
+keep in mind:
+Once set as a family clan:
+* The clan can not be renamed.
+* The clan will be democratic.
+* Can not be dissolved.
+* Can not be reverted to a regular clan.
+Once configured:
+* The family name can not be changed.
+* The family surname can not be changed.
+Ok, so you've
+read
+and understand the limitations, here's how you convert your
+clan into a family clan (as a clan leader):
+* CLAN SET FAMILY <family name>
+This will cost 500,000 gold. The family name does not necessarily have to be
+the same as the clan name, but it should reflect the family's name. So the
+Aristata clan may do "CLAN SET FAMILY Aristata".
+* CLAN SET SUFFIX <surname>
+Configure
+the surname for the family. All adventurers in the clan can use
+FAMILY TITLE to set this as their suffix. Once set, this can not be changed.
+* CLAN SET PROGENITOR <name>
+Configure up to two progenitors for your family line. Once set, this can not
+be changed. Progenitors either have to:
+* Be in the clan.
+* Have the house surname in their title.
+** Note **
+The administration, at their sole discretion, may
+remove
+the family
+designation
+from a clan. In circumstances such as these, refunds will not be offered.
+Please do not use this
+system
+to be a pest, pain, or to "snipe" family
+names
+from already-established clans.
+(See also: HELP CLAN COMMANDS, HELP CLAN LEADER, HELP CLAN LIST)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

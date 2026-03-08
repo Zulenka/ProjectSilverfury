@@ -1,0 +1,314 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.5 BUGS, IDEAS, AND TYPOS
+There will be
+times
+when you want to
+speak
+to the administration to:
+- report a
+bug
+(an error in the game),  (
+command
+: BUG)
+- report a
+typo
+in the game,            (command: TYPO)
+- to ask a specific
+question
+,           (command:
+ISSUE
+)
+- or to give them an
+idea
+for the game. (command: IDEA)
+Bugs
+----
+If you know what aspect of the game the bug report applies to, you can submit a specific bug type to:
+- report a problem with a
+help
+file,             (command:
+HELPBUG
+)
+- or to report a bug involving the
+Nexus
+client
+. (command:
+CLIENTBUG
+)
+- or to report a bug with the VOYAGE
+system
+(command: VOYAGEBUG)
+- or to report a bug with the
+Championship
+games
+(command: CHAMPBUG)
+Otherwise, use BUG.
+Please give as much detail as possible.
+Tell
+us when, and how it happened. Tell us what happened before. Tell us if
+anything
+changed recently. The more detail you give, the better chance we have of finding and fixing your problem. Make sure that you report exactly and ONLY one bug each
+time
+you file a bug.
+Bug Don't
+---------
+- Try to avoid 'um' and 'er' and 'I don't know if this is a bug but' -
+they don't help any, and we've already got so much to
+read
+. Have mercy!
+- Don't just
+quote
+something
+without comment, like "THe blarg walks in."
+Tell us that the "H" shouldn't be capitalised, or that there is no such
+thing
+as a blarg, or whatever you
+think
+the problem is.
+- Don't tell us to fix it ASAP, or whatever. We promise we'll get to it
+as fast as we can, taking into account all the bugs already reported.
+- Don't tell us that something doesn't make
+sense
+, or isn't logical, or
+is a bug. We know that you think that. You're reporting a bug, right?
+-
+Logs
+providing examples of the bug in question can be helpful, but if
+you are submitting a
+log
+, please include a
+description
+of the problem
+displayed in the log. Do not submit a log without context.
+Bug Do
+------
+- Give lots of detail, if relevant.
+- Stick to the facts. Tell us what you know, not how you feel about it.
+- If there is a specific place where this bug happened,
+go
+there when
+you issue the bug command.
+- If the bug didn't happen just a few moments before you are reporting
+it, then tell us when it was. We use
+GMT
+.
+Bug Abuse
+---------
+If it sounds too good to be true, it probably is! If you have found a way to
+generate huge amounts of
+gold
+or
+experience
+by entering a single command over
+and over, or if you are able to instantly
+kill
+people twice your
+level
+with
+one punch, then you have probably encountered a bug. Please err on the side
+of caution and report possible bugs, and refrain from exploiting the ones
+that have not yet been fixed. See
+HELP HONOUR
+.
+Typos
+-----
+The command is TYPO <the typo you have seen>. This can be anything where there
+is a misspelling or misused word. We really do want to hear about this sort of
+thing, so don't be shy! Please include in your report what the error is and
+where you saw it. If it is in an item or
+denizen
+please tell us that and
+include the item##### if you can. This makes finding and correcting these typos
+much faster and easier.
+Note: If your "typo" report is about an inaccurate help file, or any
+other
+problem involving help files, please
+consider
+reporting it via HELPBUG instead!
+If your TYPO is related to incorrect information in an
+AB
+file, you can earn
+renown
+getting these fixed! See below!
+AB Typos
+--------
+Using the
+ABADMIN
+system, characters level 80+
+who
+are considered active in
+Achaea
+(org
+credit
+sales and
+election
+voting
+activity threshold) can file a proposed fix to an AB file.
+If/when your proposed fix is approved, 200 renown is awarded to your
+character
+, this is cached and awarded at the start of the next
+day
+(just after
+Serenade
+.)
+ABADMIN
+SHOW
+<
+ability
+name
+|ability id>
+- this lists an AB by either ID# or name
+- name can show multiples which can be used to confirm the ID #
+ABADMIN LIST [
+skill
+]
+- allows the player to list all currently existing AB's
+- optionally filtered by skill
+- only one proposal per AB can be submitted at a time
+ABADMIN PROPOSE <ability id> <
+ABFILE
+|SYNTAX> [new
+Syntax
+]
+- creates a new proposal based on the ab ID specified if either for abfile (automatically opens
+editor
+) or syntax (mandatory new syntax has to be provided)
+ABADMIN
+DELETE
+[proposal id]
+- delete a proposal that you have made
+ABADMIN SET <proposition id> <value>
+- update an existing proposal you have made.
+ABADMIN PROPOSED [proposal id]
+- lists all currently active proposals, if an ID is provided it
+shows
+the details of that proposal
+ABADMIN COMMENT <proposal id> <comment>
+-
+register
+a comment on the specified proposal.
+- this is not an anonymous comment.
+- do not comment agree/disagree/upvote/personal insults/etc, only informative/additive comments.
+- abuse of comment will result in administratve action. Be mindful of any
+IGNORE
+you are under the effect of.
+Ideas
+-----
+The command is IDEA [NEW] <your idea here>.
+Submit your idea, in as great a detail as you
+wish
+, and then wait.
+Who knows? You may see your idea affect the game. Many have.
+IDEA [NEW] <text>   - Submit your idea.
+IDEA LIST           - List all ideas submitted.
+IDEA SHOW <id>      - Show full details on a submitted idea.
+IDEA DELETE <id>    - Delete your idea.
+IDEA
+SUPPORT
+<id>   -
+Voice
+your support for an idea.
+IDEA CENSURE <id>   - Voice your discontent with an idea.
+CONFIG
+IDEAS <ON|OFF> -
+Announcement
+channel
+of submitted ideas.
+Please be aware that IDEAS are
+OOC
+, and the system is anonymous for a reason. If players believe your idea has merit then it
+might
+survive! Do not approach players for idea support.
+Viewing bugs and typos
+----------------------
+LISTBUGS - This will give you a basic list of all the bugs that you have
+logged that are still in the system.
+BUGSUM - This will give you a tabular summary of the bugs you have
+logged that are still in the system.
+BUGAPPEND <id> <text> - This will let you append any extra information
+requested to the bug record.
+BUGDEL <id> <10 char reason> - This will delete a bug that you have filed.
+SHOWBUG <id> - This will let you
+look
+at your bug <id> and will show the
+current
+status
+, categorisation of it, any text you have added and, if
+applicable, the text sent when it was fixed.
+*NOTE* You are not able to see any bugs that you did not log yourself.
+"Hang on, I logged this bug two weeks ago and no one has updated it yet. What
+gives?" - We'd like to keep a little mystery 'behind the curtain' so to speak.
+Most
+things
+that we append to your bug will not be visible in your view. Rest
+assured, all bugs get worked on and yours will get fixed as soon as we can.
+"What happened to my bug? It was in the list yesterday but now it is gone." -
+When bugs are fixed, they are routinely removed from the system. This means
+they will disappear from your view once this happens.
+(See also HELP
+ISSUES
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

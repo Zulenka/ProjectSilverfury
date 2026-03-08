@@ -1,0 +1,272 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.4.5 THE MINISTRY OF CULTURE
+The Ministry of Cultural Affairs is responsible for
+holding
+events
+within the
+city
+, and generally keeping the morale of the
+citizens
+high. Those holding this office are encouraged to come up with innovative, fun events for citizens. If they are successful, we may
+support
+them with
+custom
+code.
+Aside from unsupported events, this Ministry is responsible for any
+Arenas
+that the city owns.
+The
+commands
+associated with the Ministry of Cultural Affairs are as follows.
+CITY
+FINANCE
+REPORT
+CULTURE
+[<year>]
+- The detailed report for this ministry for the given year.
+CITY REPORTS CULTURE [<year>]
+- Non-financial general report for this ministry.
+FUNDS CULTURE
+-
+Shows
+the funds available to the Ministry of Culture
+CITYWITHDRAW CULTURE <amount> <reason>
+- This must be performed by the city leader.
+Note that these commands will only work on an
+Arena
+owned by your city.
+ARENA
+SHOW
+<arena>
+- Lets you see information about an Arena. For instance: ARENA SHOW
+HASHAN
+would show Hashan's Arena, assuming it had one.
+- NOW includes a list of those ALLOWED, even before the INIT has occurred.
+- See the end of this
+help
+scroll
+for an example SHOW.
+ARENA SET <arena> FEE <fee> [optional: PER
+LEVEL
+]
+- With this, you set the fee that your Arena will charge people. If you do not include the words 'per level' at the end, the fee you set will be a flat fee that will
+apply
+equally to everybody. If you include 'per level' then the fee you have will be multiplied by the adventurer's level.
+- You will end up netting 1/
+3
+of the total fees the adventurers pay, as the winner gets
+2
+/3 of the fees paid, at least in the case of Duels.
+ARENA SET <arena> TTD YES|NO
+- allows duels "to the Death" or forbids them.
+ARENA SETUP <arena> ALLOW <organisation / adventurer>
+- By default, your Arena will be able to be used by anyone in the case of the various events. Doing this will limit the next
+event
+to whichever organisations (
+cities
+,
+orders
+,
+clans
+,
+houses
+) you specify. You may also specify individuals. You can allow as many organisations and individuals as you like.
+- In order to select an Order, use the
+name
+of the God.
+ARENA SETUP <arena> DISALLOW <organisation / adventurer>
+- If you've already set someone or some organisation as allowed, this will reverse it.
+ARENA SETUP <arena> EXCLUDE <organisation / adventurer>
+- This
+command
+will explicitly exclude the specified organisation members or the specific individual from
+joining
+the event. You cannot exclude and allow the same organisation/adventurer at once.
+*NOTE* THIS OVERRIDES THE ALLOW OPTION. If someone is a
+member
+of an org that is excluded but is also a member of a different org that is allowed, they will be excluded.
+ARENA SETUP <arena> INCLUDE <organisation / adventurer>
+- If you've already set someone or some organisation as excluded, this will reverse it.
+ARENA SETUP <arena> MAXLEVEL <maximum level>
+- Only those whose level is equal to or under the maximum level will be able to participate in the next event.
+ARENA SETUP <arena> MINLEVEL <minimum level>
+- Only those whose level is equal to or greather than the minimum level will be able to participate in the next event.
+ARENA SETUP <arena> NODRAGONFORM <ON/OFF>
+- Only allow those in lesser form.
+ARENA SETUP <arena> DELAY <2-
+5
+minutes>
+- By default, your Arena event will start automatically in 5
+minutes
+.
+- With this setting you can change it to be 2 to 5 minutes.
+ARENA SETUP <arena> DURATION <15-60 minutes>
+- By default, the game will have a duration of 15 minutes.
+- With this setting you can set it from 15 to 60 minutes.
+ARENA SETUP <arena> RANDOMTEAMS [ON|OFF]
+- Force random
+teams
+during team arena events.
+ARENA RESET <arena>
+- Resets an arena. Kicks everybody in it out and clears off any event.
+ARENA
+WITHDRAW
+<arena> <amount>
+- Withdraw
+gold
+from an Arena.
+ARENA
+DEPOSIT
+<arena> <amount>
+- Deposit gold in the operating account of an Arena.
+INIT <event> <arena>
+- Initialises an event in an Arena. You will want to do any SETUP commands on the Arena first.
+Example: INIT
+FREEFORALL
+DELOS
+. All adventurers
+who
+can participate in the event will see a
+message
+offering
+them the chance to
+join
+.
+- Possible events are, providing your Arena is
+equipped
+with them: freeforall, baitgame,
+freezetag
+, Rampagei,
+koth
+,
+totf
+.
+- INITing an event will withdraw 3000 gold from the arena's coffers.
+START <event> <arena>
+- Begins an event. Example START BAITGAME DELOS.
+END <event> <arena>
+- Prematurely end an event. This is marginally better to use than ARENA RESET if an event is already started.
+Below is an example of what ARENA SHOW displays, and what each field in it indicates.
+--[Arena #1]------------------------------------------------------------------
+Name:     delos                      Basename:  arena
+Fullname: The
+Matsuhama
+Arena
+Staging:  ARENA_STAGE                Spectator: SPECTATOR
+Gold:     5721139                    Owner:     none
+Lifetime: 12074460                   Fee:       5 (per level)
+Delay:     5 min
+Total Events Held:
+Duels: 43361  FFAs: 3047  Freezes: 219  Baits: 160
+Rampages
+: 145
+Events and Mods:
+Duel
+FFA
+Freezetag  Baitgame
+Rampage
+Game: Free-for-all
+Properties:
+Max level: 85  Min level: 40
+Players:
+Sarapis
+Mausolus
+------------------------------------------------------------------------------
+Name
+- Indicates what name you have to refer to the Arena by.
+Basename
+- Not relevant for mortals.
+Fullname
+- The proper name of the Arena.
+Staging/Spectator
+- The god
+names
+for the rooms that are the Staging and Spectator for the Arena. Not very useful for a mortal but there for the sake of completeness.
+Gold
+- The amount of gold currently in the Arena's account.
+Owner
+- The owner of the Arena.
+Lifetime
+- Lifetime earnings from that Arena.
+Fee
+- The fee to use the Arena. It will specify whether it is a per level fee or a flat fee.
+Total Events Held
+- Keeps track of the total number of events of each type that have been held in that Arena.
+Events and Mods (Modifications):
+- What events that Arena is able to
+run
+, and what modifications, if any, it possesses.
+Allowed Participants and
+Groups
+:
+- If you have used ALLOW, these persons or groups will be shown here.
+Game
+- The current event.
+Properties
+- Various properties particular to that event.
+Players
+- The adventurers currently in that event.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

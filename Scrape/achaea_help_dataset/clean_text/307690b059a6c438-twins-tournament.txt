@@ -1,0 +1,193 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.7.5.1 Twins Tournament
+These are the rules for the
+Championship
+Games
+Twins
+tournament!
+When it comes
+time
+for the
+event
+, you'll be directed to someone to
+register
+with. At this time one
+member
+of your team should inform said person of both members participation. Both people -must- be logged on at this time: if you are not both present, you will not be permitted to register. The tournament is double elimination and seeding will be randomised.
+This is a test of individual and team
+skill
+, as such, we do not allow the
+following
+items to be used in the contest:
+-
+Avatar
+.
+-
+Relics
+.
+-
+Mining
+mineral bonuses.
+- Atlatl
+talismans
+.
+- Soulspears.
+- Truenames not gained within the match itself.
+-
+Shadowmancy
+shadows not gained within the match itself.
+-
+Artefacts
+that do not belong to you.
+-
+Pariah
+rituals.
+- Any
+defences
+from a
+class
+that neither of your team is -actively- playing. This includes
+runes
+.
+-
+Divine
+favours
+of any kind: we will
+remove
+these if you have them when you
+show
+up to register, so don't worry about not being allowed to participate if you still have one when it comes time.
+- You may not bring special
+quest
+bonuses into the
+arena
+.
+THE RULES:
+- You may swap between lesser and
+dragon
+/elemental forms at will while in the arena. You may not change lesserform class while in the arena.
+-
+Teams
+may use any arena they
+wish
+for their bout, providing both teams agree. If no agreement can be reached (or no arena is accessible to both
+parties
+), they should use the
+Delos
+arena.
+- When two teams enter the arena, the
+fight
+has started. THERE IS NO
+GRACE
+PERIOD
+! We will not rerun if one team wasn't ready.
+- Though unfortunate, we will not rerun bouts due to
+client
+disconnections or similar.
+- If you're not sure if
+something
+is allowed, ask the tournament
+runner
+privately in advance. If it isn't and your opponents contest it and the event runner agrees, we reserve the right to rerun the fight based on our judgement.
+- You may pre-raise vibrations (excluding
+cataclysm
+), rites, and harmonics outside the arena.
+- You may pre-summon class-based loyals outside the arena.
+- You may not pre-miriad outside the arena. Miriading in the arena is fine.
+- No pre-generated kai or
+shin
+when outside the arena. If you're
+going
+to do this, it must be once the fight has started.
+- Lifestones are permitted as normal.
+- Lucrescent nuts are permitted.
+- You may not receive
+help
+from anyone outside the arena in any form, indirectly or otherwise. Not even if you are starving to
+death
+and would have won the fight honest otherwise.
+- You may change class between bouts.
+Good luck! Crush each other's
+dreams
+! Don't hit your teammate!
+Cure
+heartseed!
+Championship points and
+credits
+will be awarded to the top six finishers:
+1st wins 200 credits and 7 Championship points
+2nd wins 175 credits and
+5
+Championship points!
+3rd wins 150 credits and 4 Championship points!
+4th wins 125 credits and
+3
+Championship points!
+5th wins 100 credits and
+2
+Championship points!
+6th wins 75 credits and 1 Championship points!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,200 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13.4 WEAPONS
+(See also:
+HELP WEAPONRY
+,
+HELP
+THROWING
+)
+Weapons
+in
+Achaea
+may be crucially important or not-so-important, depending on
+your
+class
+. For instance, those of the
+monk
+class
+fight
+primarily with their
+hands and the
+power
+of their minds, and a
+weapon
+in their hands only inhibits
+the power of their martial arts
+skills
+. A
+Paladin
+, on the
+other
+hand, depends
+on his trusty longswords, and to be without them is to be rendered
+significantly less powerful. Having said this, all
+classes
+may benefit from
+occasional use of a weapon. What follows is a discussion of weapons in Achaea,
+and how they work.
+Bows and archery are specifically omitted here, though they are also a strong
+part of
+combat
+in Achaea. Both the
+Chivalry
+and
+Subterfuge
+skills include
+abilities
+related to Archery (
+HELP CHIVALRY
+, HELP SUBTERFUGE).
+Using Weapons
+-------------
+Using a weapon in a basic fashion is easy. Simply
+PROBE
+the weapon to get a
+list of
+commands
+that may be used with it,
+wield
+it, and then use one of the
+weapon's commands. For instance, if it is a sword, JAB <whatever> will work.
+In order to wield a weapon, simply type WIELD <weapon>. If you want to wield it
+in a specific hand, do WIELD RIGHT/LEFT <weapon>.
+UNWIELD
+<weapon> will unwield
+it.
+Weapon
+Statistics
+-----------------
+All non-missile weapons in Achaea possess three common factors that distinguish
+how well they work in combat. These are DAMAGE,
+SPEED
+, and TO-HIT. Bows are
+covered in the individual class-specific
+ability
+help
+scrolls
+.
+The higher the damage number, the more damage you will do. The higher the speed
+number, the faster you will be at using the weapon and the higher the to-hit
+number, the more easily you will hit your opponents.
+You may discover the statistics of a weapon once you have gained the
+WEAPONPROBE ability in
+Weaponry
+. This ability is fairly low in the
+skill
+, so if
+you intend to use weapons, it may be worth getting this ability as soon as
+possible.
+Now, these are not the only factors that affect how effective you are with a
+weapon. The other factors are covered in the
+HELP WEAPONRY
+scroll
+.
+Weapon Types
+------------
+Below is a list of some of Achaea's non-missile / non-archery weapons.
+One-handed weapons (which may be used with a
+shield
+) are indicated with (1h).
+Two-handed weapons are marked (2h). All do cutting physical damage
+unless otherwise specified:
+Longsword    : The standard sword. (1h)
+Broadsword   : Cousin to the longsword. (1h)
+Shortsword   : A smaller, quicker version of the large swords. (1h)
+Scimitar     : A curving sword favoured by those in the east. (1h)
+Bastard Sword: A long, straight sword. (2h)
+Rapier       : More accurate, but less damage than a longsword. (1h)
+Battleaxe    : A battleaxe. (1h)
+Handaxe      : A weapon designed to be thrown. (1h)
+Club         : The weapon of the very poor. (blunt damage) (1h)
+Quarterstaff : A longer club, slower, but sharpenable. (blunt damage) (2h)
+Dagger       : A small hand weapon. Some may be throwing weapons. (1h)
+Dirk         : A long dagger used to stab with. Fairly fast. (1h)
+Flail        : Similar
+stats
+to a longsword. (blunt damage) (1h)
+Mace         : Much like a flail. (blunt damage) (1h)
+Javelin      : Strongest of the thrown weapons, it is quite slow. (1h)
+Halberd
+: A
+polearm
+with high damage. (2h)
+Morning Star : Faster than a flail, but with less damage. (1h)
+(blunt physical damage)
+Spear        : A cheap but effective weapon. (1h)
+Warhammer    : A massive two-handed hammer. Slow, with good damage. (2h)
+(blunt damage)
+Trident      : Faster than a longsword, with slightly less damage. (1h)
+Whip         : A stylish weapon that is fairly quick. (1h)
+Bardiche     : A polearm, similar to the halberd. (2h)
+Lance        : A long pole for
+jousting
+. (1h)
+(See also:
+HELP WEAPONRY
+, HELP THROWING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

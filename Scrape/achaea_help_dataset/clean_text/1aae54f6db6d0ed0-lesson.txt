@@ -1,0 +1,132 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.4.1 Lessons
+(See also:
+HELP LEARNING
+,
+HELP
+LEVELS
+)
+Lessons
+are the currency of
+learning
+in
+Achaea
+. In order to raise or improve
+your
+skills
+, you must spend lessons learning them.
+Gaining lessons can be done in these ways:
+1)
+Reaching
+a new
+experience
+level
+.
+Every
+time
+you gain a level, you will gain
+5
+lessons.
+Conversely, if you
+lose
+that level, you will lose 5 lessons.
+Simply gain the level back to get the lessons back.
+2
+) Obtaining
+Bound
+Credits
+and then converting them to lessons.
+See
+HELP CREDITS
+for information on obtaining Bound Credits. Once you
+have any Bound Credits, you can type CREDITS CONVERT # TO LESSONS and
+you will receive
+6
+lessons for each Bound
+Credit
+.
+3
+) Bonus lessons. You will be gifted with 2.5 bonus lessons for every Credit
+you choose to convert to a Bound Credit, for the first 1000 Credits you
+thus convert, totalling a possible 2500 bonus lessons. See
+HELP CREDITS
+.
+Clarification: you receive these bonus lessons at the time you convert
+Credits to Bound Credits, NOT at the time you convert Bound Credits into
+lessons!
+4) ** NEW** The No-Brainer
+Lesson
+Packages. These get you 1000 lessons for $10,
+and are bought from the
+website
+- http://www.achaea.com/credits
+Note that this lesson package may only be purchased for any particular
+character
+twice.
+(See also:
+HELP LEARNING
+, HELP LEVELS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

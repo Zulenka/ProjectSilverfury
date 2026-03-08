@@ -1,0 +1,240 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+5.14 RANKINGS
+(see also:
+HELP COMBAT RANKINGS
+,
+HELP ARTISANAL
+,
+HELP BARDIC
+,
+HELP FISHING
+,
+HELP EXPLORERS
+,
+HELP RIDDLE
+,
+HELP
+EXPERIENCE
+)
+Achaea
+has many
+rankings
+:
+ART            -
+Artisanal
+rankings.
+BARD
+-
+Bardic
+rankings.
+BATTLERS       - The best battle figurine commanders.
+COMBAT
+-
+Arena
+combat rankings.
+CONTRACTS
+-
+Who
+has completed the most
+Mark
+contracts.
+ENDOWERS       - Top donators to
+dragon
+hoards.
+EXPERIENCE     - Experience rankings.
+EXPLORERS
+-
+Explorer
+rankings.
+FISHING
+- Who caught the best
+fish
+.
+FORAYS
+- The
+intrepid
+adventurers.
+FORAYLEADERS   - The most intrepid of them all.
+HONOURS
+- Who has the most honours lines?
+KDR            - The best
+kill
+:
+death
+ratio.
+MINING
+- The greatest of miners.
+PKDEATHS       - Struck down more than any
+other
+.
+PKS            - Who has killed the most adventurers?
+QUESTS
+- Who has completed the most quests.
+RIDDLE
+- Who's got the highest scores in
+Riddles
+.
+XPEVENT
+-
+XP
+event
+rankings.
+MINING         - The top miners.
+MARK           - The premier killers for
+hire
+.
+RESOLUTIONS
+- The resolute and masters of
+mementoes
+.
+SEAMONSTERS
+- Which vessels have slain the most.
+COLLECTIONS
+- Who has collected the most
+minipets
+.
+SCRAPPERWINS   - Who has won the most scrapper battles.
+SCRAPPERLOSSES - Who has
+lost
+the most scrapper battles.
+Artisanal and Bardic Rankings
+-----------------------------
+Points of Bardic or Artisanal Distinction may be gained in our regular
+Artisanal and Bardic competitions. In addition to the glory of rankings of this
+kind, prizes are also granted with the awards, to the tune of hundreds or even
+thousands of
+credits
+every
+time
+the awards are given.
+Combat Rankings
+---------------
+Beat your foes in the arena in ranked duels! See
+HELP COMBAT RANKING
+and HELP
+ARENA for more details.
+Experience Rankings
+-------------------
+Your
+rank
+is solely a function of your experience
+level
+. The RANKINGS
+EXPERIENCE
+command
+allows you to list the rankings of other adventurers in the
+Realms, and to see what a particular adventurer is ranked, you may type HONOURS
+<adventurer>.  Your own
+ranking
+will
+show
+when you type
+SCORE
+.
+The reason you do not see the level
+name
+for people over level 80 (Logosian) is
+that the
+names
+are longer, and do not display well on the rankings output.
+Seamonster
+Rankings
+-------------------
+Based upon the number of seamonsters killed, the monster-
+hunting
+fleet of
+Achaean
+ships
+are listed with the number of monsters slain, the average level of the seamonsters, and W/S/G to denote the type of
+ship
+.
+Other Rankings
+--------------
+For the other rankings, see the relevant help
+scroll
+referred to below:
+(see also:
+HELP COMBAT RANKINGS
+,
+HELP ARTISANAL
+,
+HELP BARDIC
+,
+HELP FISHING
+,
+HELP FORAYS
+,
+HELP EXPLORERS
+,
+HELP RIDDLE
+,
+HELP EXPERIENCE
+,
+HELP MINING
+, HELP
+SCRAPPERS
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,217 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2 Games Played Across the Realms
+Many
+games
+are played outside the
+arenas
+of
+Sapience
+, generally using the
+entire Prime Material
+Plane
+as a playing area.
+Bandersnatch
+Hunt
+-
+HELP BANDERSNATCH
+Capture The Flag (
+CTF
+)          -
+HELP CTF
+Egghunt
+-
+HELP EGGHUNT
+Foozle
+-
+HELP FOOZLE
+Tumblerace
+-
+HELP TUMBLERACE
+XP
+Event
+-
+HELP XPEVENT
+See these
+help
+sections for more details.
+Information about a
+Worldgame
+/Event
+-----------------------------------
+EVENT
+STATUS
+will
+tell
+you what's
+going
+on now, or what's planned.
+EVENT
+WHO
+will tell you who has joined.
+EVENT SCORES will tell you the current
+scoring
+.
+Joining
+a Game
+--------------
+Simply
+JOIN
+<eventname> or, in some cases, JOIN EVENT.
+JOIN CTF
+JOIN TUMBLERACE
+JOIN
+XPEVENT
+JOIN EVENT works the same as, or in place of:
+- JOIN BANDERSNATCH,
+- JOIN EGGHUNT, and
+- JOIN FOOZLE.
+Arena
+events
+have their own special way to join which you will be told when the
+event begins. See also
+HELP JOINING
+.
+Leaving
+a Game
+--------------
+LEAVE
+<Game> or
+QUIT
+<game>
+General information on events /
+world
+games
+-------------------------------------------
+World games include egghunt, foozle, and bandersnatch. They share a common
+system
+for
+defining
+the game in terms of
+- who can compete (individuals,
+city
+vs city, gender vs gender, etc)
+- game duration
+- is free
+pk
+allowed or not
+- is major
+movement
+allowed or not (
+portals
+, pilgrimage, pierce veil, etc)
+- is
+sharing
+of
+score
+items allowed or not
+- is it handicapped or not
+Handicapping explained
+----------------------
+World games are often set up for organisational conflict (city vs city, order
+vs order,
+house
+vs. house, etc). These competitions
+favour
+the larger
+organisations.
+Handicapped events aim to
+level
+the playing field between organisations of
+differing sizes.
+The method is simple.
+Think
+of it as computing an AVERAGE score for all
+potential competitors involved on a team, instead of a TOTAL score. Or, if you
+prefer, think of it as computing the total score of all competitors on a team,
+and then dividing that by how many team members, WHETHER THEY JOINED THE
+WORLDGAME OR NOT, were in the realms during the course of the game.
+Thus, a team with 1 competitor, and with only 1 person in realms during the
+entire worldgame: if that competitor has a score of 100: that team will have an
+_average_ score of 100 per adventurer. In this rare case, the score for that
+team would be 100.
+A team with
+2
+competitors, and,
+say
+,
+3
+total members in realms (1 of which did
+not enter the competition): if one scored 170 and the
+other
+scored 100, then
+the combined score would be 270, then divide by the 3 total members in realms
+for a final _average_ score of 90. In this case, the first team would be
+victorious in handicapped scoring.
+The system is a little more detailed than that. What actually happens is that
+the total number of
+minutes
+in realm by each team
+member
+, whether joined in the
+worldgame or not, is added up. Call that "team minutes." Now take the total of
+all scores on a team, and divide by "team minutes." This gives the final,
+handicapped score.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

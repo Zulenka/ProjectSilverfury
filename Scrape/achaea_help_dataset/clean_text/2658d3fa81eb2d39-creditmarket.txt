@@ -1,0 +1,187 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.4.2 SELLING/BUYING CREDITS FOR GOLD
+Often people need to
+buy
+credits
+from
+other
+adventurers (or
+sell
+them) for
+in-game
+gold
+. This can be accomplished using the
+command
+:
+TRANSFER <x> CREDITS TO <person> FOR <x> GOLD
+(See
+HELP CREDITS
+for more information.) However, often it is inconvenient to
+arrange a
+meeting
+with the other
+party
+or you'd rather just see exactly who's
+offering
+credits for the best price. The "
+credit
+market" allows an adventurer
+to easily see the current price for credits and automatically buy them for the
+lowest
+going
+rate. You can also set aside some of your own credits for sale at
+any price you choose, even while you're away from the realm. To use the credit
+market
+, use the
+following
+commands
+:
+CREDIT[S] - lists all the command options below.
+CREDIT[S] REPORT
+See a summary of your credits. I.e. how many you're
+selling
+, and how
+many you have left.
+CREDIT[S] FOR SALE
+Display the main
+board
+listing how many credits are available to be
+purchased and at what price. Should be noted that the average sale price
+is the average at which they have been purchased at not the average of
+the credits for sale currently.
+CREDIT[S] ALL OFFERS
+If you really must see all offers, including the ridiculous ones for
+100
+times
+the going rate, do this!
+CREDIT[S] BUY <number> AT <max gold per credit>
+You cannot do this if you have credits up for sale.
+This will
+attempt
+to buy the specified number of credits, as normal
+credits, while not spending more than a given amount on each. So, for
+example, if you do not
+wish
+to spend more than 3000 gold per credit
+but would like to buy up to 10, you could do: CREDITS BUY 10 AT 3000.
+If there are any for sale for less than that number, it will buy those
+first. NOTE: You must have the gold for purchases in your
+inventory
+(not in a
+pack
+) and if you
+run
+out of gold, you'll only purchase as many
+as you can afford. Also, when
+buying
+credits, it will skip any that you
+may have for sale (it'd be awfully silly to buy them from yourself
+wouldn't it?).
+CREDIT[S] SELL <number> AT <gold per credit>
+Put some credits up for sale. The credits put into the market this way
+cannot be used for other
+things
+. To cancel an offer to sale (and recover
+the credits for use elsewhere, use CREDITS SELL NONE). You can only
+have one batch of credits for sale at a
+time
+, if you change the price,
+it will nullify your previous sale offer and create a new one at the
+new price.
+Listing credits for sale will incur a gold cost, 10% of the total list
+price up front. This cost is waived for the first 50 credits sold each
+day
+(resetting at
+Serenade
+.)
+As an additional security measure if you are a
+citizen
+of any
+city
+and
+have a bankaccount setup in your home city then the gold from credit
+sales will automatically be deposited to your account. If you would
+like to specify checking a different city for your
+bank
+account you can
+with
+CONFIG
+CREDITPROCEEDS <city>. If you specify NONE or HOME for a
+city, it will default back to the city you are a citizen of.
+If you are not a citizen or do not have a bankaccount in your home
+city (or your
+custom
+city from above if specified) then all proceeds
+from sales will
+go
+directly into your inventory.
+CREDIT[S] SELL NONE
+This will
+remove
+your offer to sell and make available any remaining
+credits you have from the sale.
+Any gold spent in upfront cost to list credits will not be refunded.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

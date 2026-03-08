@@ -1,0 +1,156 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.4.4 LOTTERIES
+In order to participate in an
+Achaean
+lottery
+, type
+LOTTERIES
+to see what
+lotteries you can enter.
+If there is one available, you can LOTTERY INFO <lottery #> to get more
+information, including the prizes, the ways to
+buy
+and the ticket costs.
+There can be three different types of ways to buy tickets:
+1. You can buy tickets from the person
+who
+is
+running
+the lottery.
+2
+. If the
+runner
+has decided to allow it, you can buy tickets at the Lottery
+Office in
+Delos
+.
+3
+. And finally, if the runner has enabled it, tickets can be bought at a
+ticket box, the location specified in LOTTERY INFO <lottery #>.
+The
+syntax
+for
+buying
+tickets is BUY TICKET IN <lottery #>. To buy more than
+one ticket, you can do BUY <amount> TICKETS IN <lottery #>. You want to buy
+tickets for someone else? Just do BUY TICKET IN <lottery #> FOR <person>.
+The Lottery Office can be found in Delos, next to the Crafters Union.
+When the lottery is over, the
+winning
+tickets are drawn by the lottery runner.
+Gold
+prizes will have to be claimed with the runner or at the Lottery
+Office in Delos.
+In case the lottery had alternative prizes (i.e. non gold), these will have
+to be claimed at the lottery runner personally.
+Commands
+:
+LOTTERIES
+List all lotteries you can participate in.
+BUY TICKET IN <lottery#>
+Buys
+a ticket in the specified lottery number for yourself. If you want to
+buy a ticket for a
+friend
+, append FOR <friend's name>. Your friend will be
+notified of your generosity. Some lotteries may be restricted to let you buy
+tickets for yourself only.
+BUY <amount> TICKETS IN <lottery#>
+Buy more than one ticket. Please note, some lotteries may have a maximum
+amount of tickets per person.
+LOTTERY INFO <lottery #>
+Get information on a lottery. This will also
+show
+your ticket numbers.
+LOTTERY
+CLAIM
+<ticket #>
+Use this to claim gold prizes only. This can be done at the Lottery Office
+in Delos or from the lottery runner. Obviously you will have to have the
+winning ticket.
+LOTTERY <#>
+TARGET
+ADD <org>
+Use this to target your lottery towards a specific organisation.
+This will automatically exclude everyone except those added.
+LOTTERY <#> EXCLUDE ADD <org>
+Use this to exclude members of an organisation from purchasing tickets.
+Exclusion to an org will overrule
+membership
+in a target org.
+e.g. LOTTERY 1 TARGET ADD
+ASHTAN
+LOTTERY 1 EXCLUDE ADD
+SAVANTS
+These settings will mean that all
+citizens
+of Ashtan who aren't members of the
+Savants of the Wheel will be eligible to purchase tickets or have tickets
+purchased for them.
+(See also:
+HELP
+RUNNING LOTTERIES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

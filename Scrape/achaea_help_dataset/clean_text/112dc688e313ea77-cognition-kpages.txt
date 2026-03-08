@@ -1,0 +1,176 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.30.5 Cognition Kpages
+In
+Achaea
+, knowledge pages (
+kpages
+) are like special notes that can
+help
+your
+denizen
+or
+pet
+remember important information using the
+cognition
+system
+. Here's a simple
+guide
+to understanding and using kpages:
+What Are Kpages For?
+--------------------
+Kpages are mini-information pages that your
+character
+can use to give
+denizens
+more knowledge. They're handy for
+things
+like:
+-
+Learning
+About
+History
+: You can create a
+kpage
+to remember specific
+events
+in the game's history.
+-
+City
+Knowledge: Keep track of general information about the various
+cities
+in the game.
+- Spreading Rumors: Record rumors you want your denizen to share with
+others
+.
+- Character or Creature Info: Store details about
+other
+characters or creatures in the game
+world
+.
+Creating Kpages
+---------------
+Let's
+say
+your
+house
+butler is named Bob. Here's how you can create kpages for Bob:
+- Create a Kpage for Bob: Start by creating a kpage named "Bob."
+- Add Basic House Info: Put basic details about your house so the
+AI
+knows any specific things Bob should know.
+- Create a Cities Kpage: Make another kpage called "Cities" and add any general city info you want Bob to know.
+- Create an
+Ashtan
+Kpage: Make another kpage called "Ashtan" and add any specific Ashtan-related info.
+- Nest the Ashtan Kpage: Nest the "Ashtan" kpage to the "Cities" kpage
+- Assign the Kpage: Use the assign
+command
+to set the "Bob" and the "Cities" kpages to Bob. The "Ashtan" kpage is automatically added as well, as it is nested to "Cities".
+Using Keywords for Efficiency
+-----------------------------
+To
+save
+chars and make kpages more efficient, you may set keywords for your kpages. This way, the kpage is only sent to the AI when those keywords are mentioned by players. For instance, if you set the keyword "Ashtan" for the Ashtan kpage, it will only come up when someone mentions "Ashtan."
+Sharing
+Kpages
+--------------
+You can assign kpages to multiple characters or creatures and even nest them under different kpages. You can grant access to your kpages to other players to use. This allows you to maintain one main kpage and share its content with various characters or
+groups
+of players.
+Global Kpages
+-------------
+You will notice there are several kpages that are available to everyone. These are maintained by the
+admin
+and will be periodically updated with new information. You are able to use these on your denizens as needed.
+Cognition Kpage
+Syntax
+------------------------------------------------------------------------------
+CREATE <name>               Create a new knowledge page.
+DELETE
+<id>                 Delete a knowledge page.
+RENAME
+<id> <name>          Rename a knowledge page.
+EDIT <id>                   Edit a page.
+ASSIGN <id> <target>        Assign a page to a creature.
+UNASSIGN <target>
+Remove
+a page from a creature.
+UNASSIGN <id> ALL           Remove a page from all creatures.
+LIST                        List your pages.
+<id>
+Show
+information about a page.
+NEST <id> <parent>          Attach a page to another.
+DENEST <id> [ALL]           Unattach a page from another, or all pages.
+GRANT <id> TO <player>      Grant access to a page.
+REVOKE <id> FROM <player>   Revoke access to a page.
+KEYWORD <id> ADD <x>        Add a keyword.
+KEYWORD <id> REMOVE <x>     Remove a keyword.
+KEYWORD <id> CLEAR          Remove all keywords.
+Also See:
+HELP COGNITION
+, HELP COGNITION PERSONALITY, HELP COGNITION RULES, HELP COGNITION FAQ, HELP AI ETHICS
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

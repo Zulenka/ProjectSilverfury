@@ -1,0 +1,283 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.14 City Destruction
+Large-scale warfare between Achaea's
+city
+-states is one of the more common areas of conflict. To facilitate this, we have a
+system
+devoted
+to the
+ability
+to infiltrate and destroy sections of an
+enemy
+city.
+Preparation
+-----------
+(Related
+commands
+: CITY TANKS, PLACE
+TANK
+, IMBUE TANK)
+Before
+going
+raiding
+or to
+war
+, it is best to be stocked with
+weapons
+. Each city has the ability to capture an elemental spark, contain it within a strong metal tank, and cultivate it into a powerful creature - when used in battle, they will unleash a fiery conflagration capable of destroying dozens of locations in the enemy city. To begin a successful
+attack
+, then, your city should have at least one tank prepared with an elemental of full
+strength
+.
+Preparing these weapons is an involved process, requiring the careful monitoring and care by the citizenry over the course of four to five
+Achaean
+months
+(4 -
+5
+RL
+days
+). To
+assist
+you, each city has a designated
+denizen
+to
+guide
+you along the way. We refer to these as "spark keepers" here; their
+names
+are:
+Ashtan
+:    Oquaythe
+Cyrene
+:    Alcine
+Eleusis
+:   Cwincan
+Hashan
+:    Ildronabad
+Mhaldor
+:   Jirken
+Targossas
+: Enran
+To begin the process of preparing your elemental
+weapon
+, you must obtain a tank in which to contain it. Tanks can be crafted by adventurers with the appropriate ability in the
+Armoursmithing
+skill
+. Once an empty tank is in hand, head to the city's designated location (at or near the spark keeper) and PLACE TANK.
+Assuming there is room for the empty tank (a maximum of five tanks may be stored at any one
+time
+), it will be added to the city's supplies and be ready for
+filling
+and tending. Next,
+speak
+with the spark keeper and follow his or her
+directions
+to capture a spark. Be warned, it can be a very dangerous undertaking!
+The
+Defence
+Minister
+and their
+aides
+can check the
+status
+of the city's tanks with the CITY TANKS
+command
+.
+Sanctioned
+Raids
+----------------
+A sanctioned raid will commence automatically after a certain number of in-city*
+citizen
+deaths within a specified timeframe. Once underway, all
+experience
+loss (defenders) and gain (attackers and defenders) will be suspended within the limits of the city being raided.
+* During wartime out of city deaths will also count towards sanction gaining.
+Raiders may also use SANCTION RAID to immediately declare a sanctioned raid without the
+death
+requirement if the
+font
+is EMPOWERED WITH WEAKEN before a sanction has taken place.
+During a sanctioned raid, attackers will have the ability to bring forth their tools of war and potentially lay waste to large areas of the city, filling the rooms with rubble and rendering
+shops
+,
+banks
+,
+post
+offices, and barracks inoperable until they are repaired.
+By default, a raid will be active for one Achaean
+day
+(one RL
+hour
+), but many factors can cause this duration to lengthen or shorten:
+- If less than two soldiers from the
+attacking
+city are within the enemy city, the timer will decrement twice as fast.
+- For every soldier death that takes place inside the city, the duration will be extended, allowing for lengthy back and forth battles between defenders and attackers.
+While a sanctioned raid is ongoing, all enlisted soldiers of the
+defending
+city are open to attack from the offending
+party
+. This applies whether or not they have actively engaged in
+combat
+, but only applies while within the city itself and cannot be pursued outside the walls.
+City
+Destruction
+----------------
+(Related commands: ACTIVATE TANK, DETONATE TANK)
+Once a sanctioned raid is underway, the attacking city can activate their tanks in any location within the enemy city. This will
+remove
+the tank from the tank room in your home city and place the tank on the ground, where it cannot be picked up. Once placed, it will
+draw
+upon the hostile energy in the area, gaining
+power
+from the death of each citizen or
+ally
+in the defending city.*
+* During wartime out of city deaths will also count towards tank
+charges
+.
+You cannot ACTIVATE a tank in a location that has a
+guard
+presence.
+The amount of energy gained by the activated tank depends on some factors:
+- The soldier's
+rank
+in the city
+army
+compared to his or her killer (more energy is gained if you slay someone of higher rank than you).
+- How frequently the soldier has been slain during this sanctioned raid (
+killing
+someone many
+times
+has a diminishing energy gain).
+- If the soldier is the leader of the city army (the Minister of Defence is a VERY lucrative
+target
+).
+- The hostile energy given off by the raiding soldiers results is absorbed as a very small gain over time.
+When the tank has reached sufficient power, the aggressors may DETONATE the TANK. The elemental creature contained within will burst forth and release its accumulated energy. Depending on the power
+level
+of the tank, one or more rooms will be obliterated.
+Below is a reference as to the destructive potential of the tanks:
+- a glowing tank:   The current room is destroyed.
+- a red-hot tank:   The current room and all adjacent rooms are destroyed.
+- a white-hot tank: The current room and all rooms in line-of-sight are destroyed.
+A tank fuelled solely by the hostile energy of the raiding city will never be higher than level one (e.g. if all your soldiers do is enter a city, activate the tank, and wait, only one room can be destroyed by that tank).
+Should any defending city soldiers be present in the room, they will prevent the detonation of the tank.
+Defending against raiders
+-------------------------
+(Related commands: DISARM TANK, CAPTURE TANK)
+Defenders
+who
+successfully overcome the attacking force may remove an enemy tank in one of two ways:
+DISARM TANK - this will destroy the tank, granting experience to all defending soldiers in the room.
+CAPTURE TANK - this will capture the fully prepared tank and return it to the city stores. From here it can be used by the defenders. This option will only be available if the city has room for the new tank.
+You cannot capture a tank in a location with an active guard presence.
+Additionally, defenders can use the powers of their city's font to assist in repelling the raiders. See
+HELP FONTS
+for more information on these.
+DISARMING or CAPTURING a tank will end a sanctioned raid, provided no
+other
+tanks are currently active in the city. This means if you disarm a tank and a raid doesn't end, there is another one still active.
+When a sanction ends in the above way, 50% of the cost of the WEAKEN font power is restored to the font, and the font deactivates.
+Retaliation raids
+-----------------
+(Related commands: RETALIATE RAID, ACTIVATE TANK)
+If another city ACTIVATES a tank in your city, you have one Achaean
+month
+(approximately 25
+hours
+) during which a
+ranking
+member
+of your city may enter the attacking city and RETALIATE RAID.
+This starts a timer (between
+3
+and 5
+minutes
+) after which a sanctioned raid will begin.
+Tanks placed in these raids do not generate a right of retaliation: i.e. they cannot be eternally looped.
+For the purposes of this, a ranking member is the Defence Minister, the City Ruler, or a Defence Ministry
+Aide
+. During the retaliation initiation
+window
+, the attacking city may not obtain sanction in any other way, be it via player deaths or the font becoming empowered.
+Tanks also charge slower in retaliation raids (both passively and via kills) than in standard raids.
+Retaliation raids cannot be declared during war time.
+Repairing the damage
+--------------------
+(Related commands: CITY SET AUTOREPAIR ON|OFF)
+Locations destroyed by this system will have repairs commenced at the next
+Orphean
+Serenade
+, and will continue for three Achaean months (three RL days).
+The Minister of the
+Interior
+has the ability to disable the automatic repair of destroyed locations with the CITY SET AUTOREPAIR OFF command.
+Repair of a city room comes at a cost of 20,000
+gold
+sovereigns
+, which is deducted from the Interior ministry.
+During wartime destroyed locations cannot be repaired.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

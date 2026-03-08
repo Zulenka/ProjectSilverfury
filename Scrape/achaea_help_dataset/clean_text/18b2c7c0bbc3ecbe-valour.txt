@@ -1,0 +1,113 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.90 VALOUR
+Valour
+is a
+skill
+that may be thought of as having three distinct parts.
+The first part involves the bond shared with a golden eagle, a lifelong
+companion that shall aid you in all manner of endeavours.
+To bond your eagle,
+go
+to the
+island
+of Anost within
+Targossas
+and
+EAGLE REQUEST.
+The second part of Valour is archery. By gaining the
+abilities
+to assess
+wind
+direction
+and
+speed
+and use different kinds of bows (longbows, crossbows,
+darkbows) you may
+attack
+from afar, or shoot at a cowardly opponent
+who
+has
+fled from you.
+The third and final part of Valour involves an assortment of aggressive
+abilities ranging from howling a Battlecry, to Engaging your unlucky
+opponent, to boosting your prowess with Fury.
+In addition you may use EAGLE SANCTUARY <eagle#> to send the eagle of
+another
+Paladin
+to safety.
+- The eagle's bonded must not be logged in.
+- You must be of the same
+house
+or
+city
+as the eagle's bonded.
+- You must be of a higher
+rank
+than the bonder in said organisation.
+- You must have uninterrupted concentration for a short
+period
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

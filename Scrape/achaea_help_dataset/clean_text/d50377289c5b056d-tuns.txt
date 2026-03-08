@@ -1,0 +1,160 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.8.5 Refill Tuns
+Tuns
+are a storage item that can be placed in the stockroom of a
+shop
+that
+will allow players to purchase the contents as
+fills
+for their
+vials
+.
+Purchasing and
+placement
+------------------------
+Tuns can be purchased by a Licensed Master
+Shopkeeper
+from Fronck by typing:
+REQUEST
+TUN
+DESIGNATION
+The current fee for this is 200,000
+gold
+sovereigns
+The
+LMS
+should then take the designator and drop it in the stockroom they
+wish
+the tun to be installed in (you can use the term DESIGNATOR or TUNDESIGNATOR to
+accomplish this). Take care with your choice, as once placed, a tun can only be
+picked by the person
+who
+originally purchased it from Fronck. To drop a
+designator, you must have the
+ability
+to price
+things
+in that shop.
+There is no limit on how many tuns you may own, with the exception of how much
+space you have available in your stockroom.
+Filling
+-------
+A tun can be filled with any mixable
+venom
+or
+remedy
+, straight from a pot,
+alembic, or
+vial
+, by standing in the same room and doing:
+POUR
+[# of sips] <
+container
+|fluid> INTO <tun>
+A tun can provide one
+refill
+for every 200 sips it contains. If there are less
+sips than this available in the tun, it will
+show
+as having no
+refills
+available
+until you add more. A full tun will
+hold
+enough to refill 100 vials.
+20,000 sips or 100 refills fills a tun.
+You can only
+fill
+a tun if you have the ability to price items in the shop.
+Pricing
+and Shop
+Policies
+-------------------------
+If you have
+permission
+to price things in the shop, you will then be able to
+PRICE <tun> <price>
+to set the cost in gold sovereigns per refill.  Shop policies also
+apply
+to
+the use of tuns. If you have a discount or are refused
+service
+in a shop
+normally, this will include the use of the tuns in a shop.
+Refilling
+from a tun
+--------------------
+To purchase a refill from a tun, with the requisite gold in hand, you just:
+FILL <container|rift> WITH <tun>
+IMPORTANT NOTES
+---------------
+Any work to be done with the tuns should be able to be completed by anyone who
+has permission to price things in your shop. This means that even though only
+the owner can pick a tun up, anyone with
+permissions
+to your shop can both fill
+and empty all the tuns in your stockroom.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

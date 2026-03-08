@@ -1,0 +1,169 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.9 CUSTOMER SERVICE
+(See also:
+HELP
+ISSUES
+)
+To obtain customer
+service
+in
+Achaea
+use the
+ISSUE
+command
+.
+SHOUTing
+for help is not the way! Use ISSUE when
+other
+avenues of
+resolution
+for your difficulties have
+failed
+or are impossible, or when you need
+the aid of one of our
+administrators
+for
+something
+like arranging a
+wedding.
+The administration will then work to solve your problem as promptly
+as possible. Please make sure you put in as much detail as possible,
+because oftentimes the
+administrator
+is unable to
+speak
+with you
+directly (perhaps because of being in a different
+time
+zone).
+If someone files an ISSUE regarding you then you will be given the chance
+to reply and give your explanation of the issue using REPLYISSUE.
+Note that when replying to an issue, you are
+talking
+to the
+administrators, not to the person
+who
+filed the issue originally.
+ATTITUDEs, ISSUEs, and REPLYISSUEs
+----------------------------------
+Think
+of an ISSUE as your plea for help from a magistrate or judge.
+Don't
+talk
+to the other
+party
+in your issue, or reply, talk to the
+administrator (that is, the judge). Do not use inappropriate
+language
+.
+Be respectful. Stick to the
+point
+.
+Anything
+else will harm your chances,
+and may result in dismissal of the ISSUE or even punishment for you.
+SERIOUS SITUATIONS ONLY PLEASE
+------------------------------
+Please file issues for serious situations, not frivolous, and make sure
+to include substantial details.  Examples of bad issues:
+"I had to
+walk
+farther because of a wall of ice" is not serious.
+"I was killed by Bob" has no useful details.
+Someone (generally an Administrator) will deal with your issue as soon
+as time permits, allowing for resolution of issues filed before yours.
+HAVE YOU TRIED
+IC
+RESOLUTION?
+-----------------------------
+In
+Character
+(IC) resolution is generally preferrable to ISSUES. If
+you can find a way to resolve your situations via IC steps, that would
+be the best for all concerned. If not, ISSUES are always there. Once
+you file an ISSUE, no other alternative remains, so we hope you'll
+always
+consider
+ISSUES a last resort.
+DETAILS DETAILS!
+----------------
+Please provide all the details you can remember.
+Times
+,
+dates
+, places,
+what went before, what happened after. Who was there, what was said,
+anything at all that
+might
+relate. An issue of five words is probably
+going
+to be rejected as hopelessly inadequate. Do your best to
+tell
+us
+EVERYTHING
+in advance, so we can be of the most possible help.
+(See also: HELP ISSUES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

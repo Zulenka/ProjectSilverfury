@@ -1,0 +1,159 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.13 Illusions, PK, Scams, and the like
+(See also
+HELP
+SCAMS
+)
+Don't believe
+everything
+you see!
+Many in
+Achaea
+are able to create
+Illusions
+. These illusions can be extremely
+convincing, appearing precisely as though they were
+something
+else entirely.
+Some of these illusions may even mimic the colouration of
+other
+things
+in the
+realms, such as
+shouts
+or
+tells
+.
+LIMITS and RESTRICTIONS
+-----------------------
+Several sorts of illusions are forbidden:
+- illusions that appear to be from or about any
+immortal
+, staff, or
+admin
+of
+Achaea.
+- illusions that appear to be game-wide
+announcements
+.
+- illusions of
+credit
+transfers (more at HELP SCAMS).
+- illusions falsely portraying the actions of an unaffiliated person. This
+includes illusions of
+attacks
+or
+theft
+by random adventurers.
+-
+OOC
+system
+messages
+(like
+queue
+or
+curing
+system messages.)
+No
+illusion
+should be able to use bold white, which is colour 15 if you refer
+to
+CONFIG
+COLOUR.
+ACCEPTABLE USE
+--------------
+Illusions may freely mimic pretty much
+anything
+else, including giving or
+receiving
+gold
+, tells, receiving or removing
+afflictions
+or
+defences
+, etc.
+Illusions may be adapted to mimic the colouration of someone's Lethals
+configuration
+by prepending the illusion with LETHAL or LETHALS
+This is case-sensitive and this will work for all illusion
+skills
+and the
+staff of illusions. This will not be possible for area-wide (or any further-
+reaching
+) illusions that may be possible with a Shar'ilian lightspire.
+Please note: if you cast an illusion on someone so they appear to have been
+attacked, you should be aware that they may take an appropriate
+IC
+response to
+that, such as
+attacking
+you in turn or
+hiring
+a
+mark
+. Your actions began the conflict!
+(See also HELP SCAMS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,133 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.1 FOOZLING CONTEST
+COMMANDS
+--------
+JOIN
+EVENT
+FOOZLE
+FOOZLE <item>
+FOOZLE SUBMIT               FOOZLE PASS           FOOZLE PEEK <who>
+OBJECT
+------
+The
+point
+of this contest is to collect as many points as possible by using
+your Foozle box to "foozle" various items. Everyone
+who
+joins this event will
+be given a foozlebox when the event is begun, and by probing it (or just typing
+FOOZLE), you will be given a list of
+5
+different
+things
+you must find.
+SCORING
+-------
+Each item has a different point value based on its rarity and how difficult it
+is to find. You must locate one of these items and then FOOZLE <item> to record
+that you've found it. Once you've found at least one item in your current set
+of items, you may submit the card and receive the points for the items you've
+found.
+If you manage to fully complete the card by finding all the items on it, you
+get double the points when submitting. Once you submit the card, a new one will
+instantly appear, with new items to be found.
+PASSING
+-------
+If you find yourself with a set of items that you are unable to find at least
+one of, you have the option to "pass" the card and get another. You can only do
+this once every 5
+minutes
+though.
+NOTES
+-----
+NOTE 1:
+Stealing
+from players during the event is not allowed,
+if either the victim, the attacker, or both, have joined
+the game.
+NOTE
+2
+: (For people who have joined the event only, and only if
+the option is set) One option of a foozle, like any
+event, is that your
+artefact
+wings, Universe
+Tarot
+,
+worm holes, and certain
+other
+forms of speedy
+movement
+will
+not work while playing in this event.
+NOTE
+3
+: This game may or may not be FREE-
+PK
+. Please check EVENT
+STATUS
+to confirm this.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

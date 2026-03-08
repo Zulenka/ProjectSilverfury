@@ -1,0 +1,265 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.12 Contender's Talismans
+The "Contender's"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the
+pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The Contender's set contains the following talismans:
+-----------------------------------------------------
+A funereal bouquet                 - TALISMAN INFO
+CONTENDERSBOUQUET
+- Purchasable in
+Delos
+for 250
+bound
+credits
+.
+- With this emblem of mourning in your
+inventory
+, whenever you
+die
+and
+leave
+behind a body, the
+corpse
+will be covered in flowers themed to
+your
+city
+.
+A porcelain piglet
+bank
+- TALISMAN INFO
+CONTENDERSPIG
+- Purchasable in Delos for 50 bound credits.
+- This trinket starts as a mere piglet and grows into a fully fledged
+piggy bank as it is filled with
+gold
+!
+- To encourage
+saving
+, gold cannot be removed once put in (and is entirely
+safe from
+theft
+).
+- SMASH the
+piggybank
+to destroy it permanently and retrieve your savings.
+- SHAKE it to see how much is inside.
+An adventurer's
+journal
+- TALISMAN INFO
+CONTENDERSJOURNAL
+- Purchasable in Delos for 700 bound credits.
+-
+READ
+this journal and
+learn
+the details of a
+quest
+you have never before
+completed!
+- It will change once per
+Achaean
+month
+, and will never
+show
+newbie
+or
+Elemental
+Planes
+quests
+.
+An odious jug of chum              - TALISMAN INFO
+CONTENDERSJUG
+- Purchasable in Delos for 200 bound credits.
+- CHUM JUG when in an appropriate location for deep sea
+fishing
+, and your
+strike chance shall be increased for thirty
+minutes
+.
+A featureless battle figurine      - TALISMAN INFO
+CONTENDERSFIGURINE
+- Purchasable in Delos for 400 bound credits.
+- TURN <figurine> <player> and this battle figurine will change to resemble
+the player and
+fight
+according to their
+abilities
+!
+- This can be done once every 15 minutes.
+A prismatic stud                   - TALISMAN INFO
+CONTENDERSSTUD
+- Purchasable in Delos for 1250 bound credits.
+- Once per Achaean
+day
+, your prism
+tattoo
+will lock on to the
+target
+of a
+contract
+or a
+bounty
+, following them even if they
+move
+from the initial
+location.
+- If the target changes area or you move, the prism
+attempt
+will still be
+cancelled.
+A crimson
+ribbon
+bar               - TALISMAN INFO
+CONTENDERSRIBBON
+- Purchasable in Delos for 1500 bound credits.
+- With this bar in possession, whenever you
+score
+a player
+kill
+, you begin
+to accrue a kill streak!
+- After five successive kills, you will be fully healed in
+mana
+.
+- After ten successive kills, you will be fully healed in both
+health
+and
+mana.
+- After fifteen successive kills, your
+afflictions
+will be cured entirely,
+and your health and mana pools will be restored to max.
+- After twenty successive kills, in addition to a full refresh of health,
+mana, and afflictions, your health will be temporarily doubled until
+lost
+through damage.
+- This does NOT function while Mayology is active.
+- If you die, the streak is reset to zero.
+- Upon
+reaching
+twenty kills, or after fifteen minutes without kills
+elapses, the streak is reset to zero.
+A bronze-handled magnifying glass  - TALISMAN INFO
+CONTENDERSGLASS
+- Purchasable in Delos for 400 bound credits.
+-
+CONSIDER
+will now
+tell
+you if the
+denizen
+in
+question
+has any resistances.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the historical set you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is
+2
+/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

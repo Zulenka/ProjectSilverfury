@@ -1,0 +1,144 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.7 Things in Achaea and how to handle them
+You will frequently want to deal with items and with
+denizens
+(
+Mobs
+/
+NPCs
+) in
+Achaea
+. The most important
+commands
+, all covered below, are: INFO HERE,
+LOOK
+/EXAMINE, GET, DROP,
+PROBE
+, GIVE, PUT, and
+THROW
+.
+INFO HERE <thing>   (
+IH
+for short)
+-----------------
+This
+command
+will
+show
+you a list of what items are in the room, along with
+their numbers. Whenever you interact with an item or a
+denizen
+, you can either
+refer to it by
+name
+, such as 'orc', or by number, such as '173', or by a
+combination
+of both, such as 'orc173'. Also INFO HERE <thing>.
+LOOK/EXAMINE <thing>
+--------------------
+This will show you a
+description
+of whatever
+thing
+you name.
+GET <howmany> <thing>
+GET <howmany> <thing> FROM <container>
+--------------------------------------
+This will pick
+things
+up from off the ground. You cannot pick up most living
+things. In order to get an item that is in another item, such as a backpack,
+you would type GET <howmany> <thing> FROM <container>. If you
+wish
+to get one
+of an item, omit the <howmany>.
+DROP <howmany> <thing>
+----------------------
+Drop
+anything
+you are
+holding
+onto the ground. If you wish to only drop one of
+something
+, you may omit <howmany>.
+PROBE <thing>    (or P <thing> for short)
+-------------
+This command will show you a variety of information about an item or denizen,
+along with its description and whatever it is holding, if anything.
+GIVE <howmany> <thing> TO <whomever>
+-----------------------------------
+Give an item or items to someone (adventurer or denizen). To give one item,
+omit the <howmany>.
+PUT <howmany> <thing> IN <container>
+------------------------------------
+This allows you to put items inside another item that is capable of holding
+items, such as a backpack. To put one item, omit the <howmany>.
+THROW <thing>
+-------------
+This is a little more complicated. See:
+HELP THROWING
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

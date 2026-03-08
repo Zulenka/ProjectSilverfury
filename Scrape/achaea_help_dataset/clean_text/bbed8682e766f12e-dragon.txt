@@ -1,0 +1,196 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.6 DRAGONS
+Of the many
+goals
+towards which the teeming adventurers of
+Achaea
+aspire, one of the most difficult to achieve is the
+status
+of Greater
+Dragon
+. From riches to political
+power
+, from religious
+influence
+to
+combat
+mastery - attaining
+Dragonhood
+is still seen as a glorious and nigh-unattainable prize by
+comparison
+.
+Since the
+day
+that Aringar became the first mortal in memory to be gifted with the soul of a Dragon by Ashaxei, the White Dragon of Han-Tolneth, many have aspired to this lofty
+goal
+.
+The Greater
+Dragons
+are not animalistic, ravenous monsters that prey upon unwary travellers; those are lesser dragons. As you know, if you've
+read
+Achaea's
+Mythology
+, the Greater Dragons bore the Aldar forces to
+rescue
+the
+Gods
+from
+destruction
+at
+Nishnatoba
+. They are a noble and extremely powerful
+race
+of beings
+who
+dwell on their own
+plane
+of existence, created for them at the end of the Chaos Wars, called the Parthren Gare.
+Upon
+reaching
+level
+99, you are presented with the opportunity to choose to become one of six types of Greater Dragon: red, black, silver,
+gold
+, blue, or green. To begin the transformation, simply head to the crater in the centre of the
+Mhojave
+desert
+, and
+LIGHT
+the
+beacon
+for your desired Dragon colour. It should be noted that there are no particular alignments or personality
+traits
+associated with the different kinds of Greater Dragon. That sort of simplicity is only found in the lesser dragons.
+The differences between the colours is that each has a different breath
+weapon
+, each has a different
+battlerage
+set, and each has its own dragon lair (see
+HELP
+LAIRS
+).
+When you transform into a Greater Dragon you will gain access to the
+skills
+of the Dragons and the ancient Aldar magic. When you give up your lesserform you will
+lose
+access to all three of your
+class
+skills in
+favour
+of
+Dragoncraft
+.
+Remember that if you ever fall below level 99, the
+spirit
+of the Dragon will be
+lost
+to you until you
+reach
+level 99 once again.
+A Dragon's
+base
+statistics
+are:
+Strength
+:
+18
+Dexterity
+: 14
+Constitution
+: 20
+Intelligence
+: 18
+Dragons:
+- Have a racial
+language
+, Dragon.
+- Have the
+ability
+to
+DRAGONFORM
+.
+- Have the ability to fly.
+- Have level
+2
+resistance to cutting damage.
+- Have level 2 resistance to blunt damage.
+- Have level 2 resistance to magic damage.
+- Have level
+3
+resistance to psychic damage.
+- Have level 3 resistance to
+fire
+.
+- Have level 3 resistance to cold.
+- Have level 1 resistance to poison.
+- Have level 1 resistance to asphyxiation.
+- Have level 1 resistance to electricity.
+- Can
+shout
+from anywhere at level 100.
+- Do not have to wear
+armour
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

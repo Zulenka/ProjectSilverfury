@@ -1,0 +1,158 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.13.5 Middle (Archaic) Achaean
+For those hardy few trying to
+speak
+Middle (Archaic)
+Achaean
+properly: please
+stop. Most of you have it horribly wrong!
+Throwing
+in thee and ye and the
+occasional 'eth' at the end of verbs just doesn't cut it.
+Now, if you're serious, here are a few tips.
+WORDS ABOUT PEOPLE
+------------------
+Thou  - you, one person, subject of sentence.
+e.g. Thou art a fool.
+Thee  - you, one person,
+object
+of sentence.
+e.g. I
+throw
+a rotten vegetable at thee.
+Thy   - your, one person.
+e.g. Thy face bringeth new meaning to the term 'pox.'
+Thine - 'thy', before a vowel.
+e.g. Thine
+abilities
+are below my scorn.
+Ye    - you, plural.
+e.g. Varlets, I despise the excrescences ye call
+speech
+.
+Your  - your, plural.
+e.g. Your odour surpasseth that of a
+pack
+of sweating yaks.
+ACTION WORDS
+------------
+Let's pick an action word completely at random and use it:
+I
+kill
+.        /  We kill.      ** NOT I killeth.
+Thou killest.  /  Ye kill.      ** NOT Thou killeth.
+He killeth.    /  They kill.
+OTHER
+FUN WORDS
+---------------
+aye           - yes             nay           - no
+anon          - soon            adjure        - warn
+hither        - here            thither       - there
+kine          - cows            coney         - rabbit
+doughty       - fearless        poltroon      - coward
+pusillanimous - cowardly        miscreant     - evildoer
+knave         - unprincipled    fain          - gladly
+prithee       - 'please...?'    doom          - judgement
+withal        - in addition     woot          - knows
+veritable     - true; real      forsooth      - indeed; truly
+assay         - to try          an            - if
+certes        - surely          pray          - please
+mayhap        - maybe/perhaps   methinks      - it seems to
+me
+drat!         - may god rot it  wherefore     - why
+verily        - truly; really   repair (to)   -
+go
+to
+craven        - coward
+boon
+-
+favour
+, blessing
+thilke        - the same        for the nonce - for the moment
+vouchsafe     - grant/bestow    fie           - (a curse on someone)
+avaunt        - let's go!       hight         - named/called
+enow          - enough          lest          - or else
+deign         - condescend ("Wouldst deign to accompany me?")
+yon           - that (as in, 'yon tome that lieth upon the pedestal')
+USEFUL FOR INSULTING
+--------------------
+sirrah           - contemptuous for 'sir'   varlet  - rascal, knave
+mountebank       - trickster                coxcomb - conceited
+popinjay         - vain, blabby person      poltroon- coward
+slubberdegullion - wretch
+PRACTICE
+TIME
+-------------
+Sirrah! I insult thee yet and anon. Let thy kine wither and thine insolence be
+revealed as is meet for such a miscreant. To thy kin, varlets and popinjays
+all: I
+pronounce
+doom most hideous upon ye. Come hither and I shall prove upon
+your bodies the verity of my claims. Your poltroonery is but the beginning of
+the
+infamy
+which shall be made known withal.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

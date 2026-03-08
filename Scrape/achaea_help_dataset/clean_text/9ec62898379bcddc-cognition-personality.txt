@@ -1,0 +1,139 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.30.4 Cognition Personality
+Personality pages are used with the
+cognition
+system
+(
+HELP
+COGNITION).
+PPages
+are used to help the
+AI
+response system to determine how a player
+pet
+will respond when
+emotes
+and
+other
+forms of
+communication
+are directed at it.
+You can be as simple or as complicated as you like with Personality Pages, though the more text you include, the larger the
+prompt
+, and the more chars you will use every
+time
+it is triggered. However, it is still likely that your
+PPage
+for a
+denizen
+will be a fraction of the size of the invisible instructions we have to send with each prompt. You'll want to experiment to find the sweet spot for what you want out of your cognitive denizen, but you should use this to
+define
+the general personality of your denizen.
+For example, you could have
+something
+as simple as:
+"Bobo is a happy and playful unicorn."
+Or something more complex, such as:
+"Bobo is a happy and playful unicorn. Bobo hates ducks, loves
+meeting
+new people, and is wild about both stinky cheese and brightly-colored balls. Bobo has a slight limp in his front left leg, and sometimes exhibits fear of wide open spaces. When Bobo is tired, he can be kind of grumpy, and when Bobo the unicorn is
+hungry
+he gets very grumpy."
+You can get much more complicated than that if you
+wish
+- it's up to you!
+NOTE1: You will find it helpful to use the
+name
+and/or short
+description
+of the denizen instead of using
+pronouns
+like you probably would normally. Sometimes the AI gets confused as to
+who
+a pronoun is referring to.
+NOTE2: At this stage, cognition will not make the denizen
+talk
+, so don't waste personality space
+describing
+voice
+, dialect, etc.
+Just remember that
+anything
+you want your pet to know needs to be in the Personality Page. It has no memory of previous interactions unless you enable context. You can enable context on your denizen to have it remember the previous interaction with the
+command
+COGNITION CONTEXT <target> ON|OFF, however we have experienced limited success with this in our testing.
+COGNITION PERSONALITY SET <target> [desc]
+Set the personality of a creature.
+COGNITION PERSONALITY
+SHOW
+<target>
+View the set personality of a creature.
+COGNITION CONTEXT <target> ON|OFF
+Enable or disable a limited context for a creature (uses extra chars!).
+Also See:
+HELP COGNITION
+, HELP COGNITION RULES, HELP COGNITION FAQ, HELP AI ETHICS
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

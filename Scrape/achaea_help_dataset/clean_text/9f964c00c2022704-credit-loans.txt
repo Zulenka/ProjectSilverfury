@@ -1,0 +1,121 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.4.5 Credit Loans
+(See also:
+HELP
+CREDIT
+TRANSFER)
+The
+loans
+system
+allows for formalised loans between a player and another player, or an organisation.
+Organisations cannot currently
+loan
+to one another -the person being given the loan must be a player. If you owe people a loan, you cannot retire until you repay that loan.
+To begin working on a loan agreement:
+LOAN
+COMPOSE
+FOR <person taking out the loan>
+Once you have started
+composing
+an agreement, you must set various attributes of that agreement:
+LOAN
+PARTY
+<loaning party>: this can either be yourself or a
+city
+or
+house
+. Only city and house leaders may currently
+issue
+loans on behalf of their organisation.
+LOAN AMOUNT <amount> <currency>: current supported currencies are
+credits
+. We may expand this to
+other
+currencies later if people find the system useful.
+Once these fields are set, you must:
+LOAN OFFER
+The loan will then enter a pending state during which
+time
+the offer can be accepted by the targeted party with LOAN ACCEPT <loan number>.
+So, for a full example:
+Makarios
+wishes
+to offer a loan of 500 credits to Ictinus. Makarios would enter:
+LOAN COMPOSE FOR ICTINUS
+LOAN PARTY MAKARIOS
+LOAN AMOUNT 500 CREDITS
+LOAN OFFER
+Ictinus would then get a
+message
+about the loan and would do:
+LOAN LIST (to find the number of the pending loan, let's
+say
+it is #1)
+LOAN ACCEPT 1
+Now hopefully Ictinus will use:
+LOAN REPAY <loan number> <number to repay> to repay Makarios loan.
+Loan repayments can be in any amount up to the full amount, it does not need to be done all at the same time.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

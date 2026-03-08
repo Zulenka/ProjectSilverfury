@@ -1,0 +1,230 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.11.1 The prompt
+The normal
+prompt
+is simply a
+dash
+. If you'd like your prompt to display more
+information, type
+CONFIG
+PROMPT
+STATS
+(for
+other
+options, see below). Your
+prompt will then display your
+health
+and
+mana
+, along with certain information
+about your current state.
+"e" you have
+equilibrium
+.    "x" you have
+balance
+.
+"b" you are blind.           "k" you have ingested a
+kola
+nut.
+"d" you are deaf.            "c" you have a magical cloak up.
+Standard settings are CONFIG PROMPT STATS, ALL,
+CUSTOM
+, or OFF.
+More CONFIG PROMPT options:  (H: health, M: mana, E:
+endurance
+, W: will, R:
+rage
+)
+HM, HME, HMEW, HMW, HE, HEW, HW, HMR, HMER, etc etc.
+ALL   - same as HMEWR
+STATS - same as HM
+OFF   - minimal prompt
+Additionally there is the option to get a text or numeric display of your
+stats.
+CONFIG PROMPT <text/numeric>
+----------------------------
+The numeric option is the default view giving an exact
+read
+-out of your
+health/mana/endurance/
+willpower
+.
+Numeric: 1073h, 3073m, 15688e, 15688w ex-
+Text:    H:Full, M:Low, E:High, W:High ex-
+The text format will give you a readout such as full or
+dying
+depending on how
+close to max you are.
+Health would be:
+Full    = 100%
+Healthy > 75%
+Wounded > 50%
+Maimed > 25%
+Dying > 0%
+Dead
+Other Stats follow the same percentage though goes with Full, High, Medium,
+Low, Very Low, and None.
+CONFIG PROMPT CUSTOM
+--------------------
+Prompts
+can be customised to your own particular tastes with CONFIG PROMPT
+CUSTOM, allowing you to specify what you want to see and how you want to see
+it. To insert a relevant source of information, please see the table below.
+Text   - Displayed as entered
+*h     - Current health
+*H     - Maximum health
+*%h    - Health as a percentage
+*1     - Health change since last prompt.
+*m     - Current mana
+*M     - Maximum mana
+*%m    - Mana as a percentage
+*
+2
+- Mana change since last prompt.
+*e     - Current endurance
+*E     - Maximum endurance
+*%e    - Endurance as a percentage
+*
+3
+- Endurance change since last prompt.
+*w     - Current willpower
+*W     - Maximum willpower
+*%w    - Willpower as a percentage
+*4     - Willpower change since last prompt.
+*d     - Prompt
+defences
+(kola, deaf, phased, etc.)
+*b     - Balance and equilibrium
+*c     -
+Class
+-specific balances (
+voice
+, limb, etc.)
+*r     - Class-specific resources (kai,
+shin
+, essence, etc.)
+*k     -
+Knight
+-specific resources (momentum, ferocity, etc)
+*a     - Current
+morph
+(if appropriate)
+*i     - Indoors/outdoors
+*v     - Current elevation
+*s     - Server
+time
+(In
+GMT
+)
+*t     - the
+name
+of your
+target
+(using
+settarget
+or the last
+thing
+you hit)
+*T     - the % health your target (see *t above)
+*R     - Current Rage
+*
+x
+-
+Experience
+Rank
+You can also individually colour each element with the
+following
+codes (see
+COLOURS)
+#r/#R     - Red     (1/9)
+#g/#G     - Green   (2/10)
+#y/#Y     - Yellow  (3/11)
+#b/#B     - Blue    (4/12)
+#m/#M     - Magenta (
+5
+/13)
+#c/#C     - Cyan    (
+6
+/14)
+#w/#W     - White   (7/15)
+#d        - Grey    (8)
+So some examples:
+CONFIG PROMPT CUSTOM [H: *h][M: *m]>
+- Would
+show
+[H: 3000][M: 3000]>
+CONFIG PROMPT CUSTOM *hh, *mm, *ee, *ww *b*d
+- Would show 3000h, 3000m, 3000e, 3000w ex-
+If you want to get artsy, you can even so
+something
+like:
+CONFIG PROMPT CUSTOM #C@#Y*s:#G<-#wHealth: *h #G-><-#wMana: *m#G->#W<--*b*c-->
+- Would show @12:34:56.00:<-Health: 3000 -><-Mana: 3000-><--ex-->-
+@ would be in Cyan (#C)
+The time (*s) would be in Yellow (#Y)
+<-  and -> would be in Green (#G)
+<-- and --> and the balances (*b and *c) would be in white (#W)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

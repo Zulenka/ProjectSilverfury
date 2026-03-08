@@ -1,0 +1,198 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+21.2 BASIC CLAN COMMANDS
+Clan
+commands
+for all members
+---------------
+CLAN LIST
+- Lists the
+clans
+you are in and what positions in those clans you
+hold
+.
+This will also list your "current" clan. Nearly all of the commands will
+work automatically on your current clan.
+CLAN MOVEUP #|
+name
+CLAN MOVEDOWN #|name
+-
+Move
+given clan up or down to a smaller or larger number in your list.
+So CLAN MOVEUP
+3
+would move the clan at 3 to
+2
+(and put 2 at 3).
+CLAN SWITCH <clan number or clan alias>
+- When you list your clans, you will see that each is given a number.
+Because nearly all of the below commands will work automatically on your
+current clan, and because you can belong to multiple clans, there must be
+a way to switch which clan the commands work on. This is it.
+- You do not have to use the clan switch
+command
+to use most of the clan
+commands on a clan different from your current clan. Instead, you may
+simply make the second word of the command the clan
+alias
+or clan number.
+For instance,
+say
+your current clan is clan #1, and you
+wish
+to see what
+clan members are in clan #2. You could either do:
+CLAN SWITCH 2
+CLAN MEMBERS
+or
+CLAN 2 MEMBERS (ie see the clan members for clan #2)
+CLAN
+WHO
+| CLWHO | CLANWHO
+-
+Shows
+what clan members are online.
+- In a secret clan, only the clan head may use this.
+CLAN MEMBERS
+- Shows all active clan members. Does not work in secret clans except for
+the clan head.
+CLAN MEMBERS
+DORMANT
+- Shows all dormant clan members. Does not work in secret clans except for
+the clan head.
+CLANTELL
+| CLTELL |
+CLT
+- Clan
+tell
+. In a secret clan, unless you are the clan head, you will just
+see "someone" instead of the person doing the clantell's name.
+- You can also do CLT(clannumber) to
+speak
+on a specific clan # in your
+clan list. For example, CLT5 Hi guys.
+- As an alternative to CLT(number) CLAN (
+shortname
+) TELL also will work.
+CLTON
+/OFF
+- Turn clan
+channel
+on or off.
+CLAN AUTOPAY DUES
+- Sets you up to
+auto
+-pay your dues to your clan every new year.  Will
+search through your
+bank
+accounts and transfer the
+money
+from the first
+one it finds to your clan account.
+CLAN
+HELP
+<help commands>
+- Interact with the list of clan-specific help files. See
+HELP ORGHELP
+for more information.
+CLAN <clan name or alias> DONATE <#> ROOM
+CREDITS
+- Donate room credits to a clan.
+Clan-related commands for everyone
+----------------------------------
+BUY
+CLANSLOT
+PERMIT
+- Increases your maximum clan count above 10 at a cost of 25 credits.
+DEPOSIT
+<x> <clan name or alias>
+- Deposits <x> amount of money in the clan bank account at that bank.
+HELP CLANLIST
+- List all non-private and non-secret clans, as well as the clan head.
+CLANHELP
+<clan name or alias>
+- Get information on a clan. How much information you get will depend
+on a number of factors, such as whether the clan is private, whether the
+clan is secret, and whether you are a clan
+member
+.
+Clan
+news
+:
+- Each clan will have a newsboard.
+NSTAT
+will list it using the clan alias.
+- In a secret clan, the postings will be anonymous.
+QUIT
+<clan name or alias>
+- Quits your clan.
+CLAN DUES
+- See if you owe any clan dues.
+CLAN PAY DUES
+Pay your clan dues. Must have money in hand.
+(See also: HELP
+CLANLEADER
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

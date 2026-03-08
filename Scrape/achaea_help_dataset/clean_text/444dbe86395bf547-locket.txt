@@ -1,0 +1,206 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.33 Portrait Locket
+Portrait lockets are formed from bloodstained shards of enamel. They are unique
+artefacts
+which can be upgraded with additional shards to feature a variety of different effects and powers.
+When you get your first shard, you can SLICE PALM WITH <shard> to create a
+locket
+. This locket, and the portrait inside, will be linked to you, bestowing a variety of special powers. Additional powers will unlock as you obtain additional shards, then FUSE <shard> INTO <locket>, upgrading the portrait and the powers.
+There is a cost to these powers though: The locket must be fuelled by your very being. Once every 24
+RL
+hours
+, you can CARESS <locket> to imbue it with your blood. The varying
+skills
+will use a portion (or all) of the stored blood
+power
+.
+The locket has 20
+levels
+of power:
+Level
+1:  Creation of the locket.
+Level
+2
+:  The locket no longer
+decays
+.
+Level
+3
+:  SOLICIT LOCKET FOR IMMORTALITY
+Death
+is suspended for
+5
+seconds
+after you
+die
+(** See note below **)
+(100% power usage.)
+Level 4:  The locket now resets to you.
+Level 5:  SPIN LOCKET - changes the appearance of your locket to one
+of 7 different themed versions. Usable once per
+day
+.
+Level
+6
+:  Immortality now lasts 10 seconds.
+Level 7:  SOLICIT LOCKET FOR REST -
+Draw
+your fatigue into your
+portrait, refreshing your tiredness. (33% power usage)
+Level 8:  SOLICIT LOCKET FOR SATIATION -
+Trade
+satiation with your
+portrait, quenching your
+hunger
+. (33% power usage)
+Level 9:  Immortality now lasts for 15 seconds.
+Level 10: SOLICIT LOCKET FOR SOBRIETY - Cleanse yourself of all
+alcoholic effects. (Does not work in
+drinking
+contests
+.)
+(33% power usage)
+Level 11: Caressing the locket now has a lower cost.
+Level 12: Immortality now lasts 20 seconds.
+Level 13: SOLICIT LOCKET FOR
+ENDURANCE
+- Gain 5% of your maximum
+endurance. (50% power usage)
+Level 14: SOLICIT LOCKET FOR
+WILLPOWER
+- Gain 5% of your maximum
+willpower. (50% power usage)
+Level 15: Immortality now lasts 25 seconds.
+Level 16: SOLICIT LOCKET FOR
+RAGE
+- Store/retrieve your rage in your
+portrait. (33% power usage)
+Level 17: SOLICIT LOCKET FOR
+TATTOOS
+- Freeze your tattoos on your
+portrait, preventing automatic fading for an
+hour
+.
+(33% power usage)
+Level
+18
+: Immortality now lasts 30 seconds.
+Level
+19
+: Soliciting your locket for willpower or endurance now imbues
+you with 10% of your maximum
+stat
+.
+Level 20: Immortality will no longer
+kill
+you, should you
+reach
+your
+full
+health
+and
+mana
+before immortality fades.
+** Note **
+It's not true "immortality", more of a slight postponement of the inevitable.
+Here's what happens with the immortality power active:
+1. You receive a non-instakill
+attack
+that brings you to 0 health.
+2. The
+ability
+fires, giving you and people in the room a
+message
+that it
+fires.
+3. Your health is set to a very low level, any
+afflictions
+and effects on
+your person remain.
+4. You continue the
+fight
+as normal until either:
+a) Receive an attack that brings you to 0 health again.
+b) You get instakilled.
+c) The immortality power fails.
+d) You
+heal
+up to full health/mana (with a level 20 locket only).
+* Being killed in the
+immortal
+timeframe will kill the victim normally.
+* Immortality will bypass any SOULCAGE (
+Necromancy
+) or TRANSMOGRIFY
+(
+Occultism
+)
+defences
+that you have when it activates.
+* Immortality will not work in the
+arena
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,156 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.5.1 Minerals
+(See HELP HEALING LIST, HELP HEALING YOURSELF,
+HELP CURES
+, and HELP CURE LIST.)
+Minerals
+abound in
+Achaea
+.
+Learning
+their properties should be a high
+priority for all adventurers.
+By the proper use of alchemical minerals you may:
+-
+remove
+or
+heal
+numerous
+afflictions
+.
+- erect
+defences
+that prevent certain afflictions.
+- create
+salves
+and
+elixirs
+, using the
+Remedies
+skill
+(
+HELP
+REMEDIES).
+Store minerals in the
+rift
+(HELP RIFT).
+Minerals may be eaten or smoked, in addition to their use as ingredients for practitioners of the skill of Remedies.
+The minerals listed below are those that can be extracted and created via the
+Transmutation
+skill and can be either used in and of themselves, or combined with
+other
+elements into elixirs and salves for beneficial effects. For a list of the rarer minerals found via
+mining
+, please refer to HELP RARE MINERALS.
+Short
+name
+Description
+----------  ---------------------
+Antimony
+an antimony flake
+Argentum
+an argentum flake
+Arsenic
+an arsenic pellet
+Aurum
+an aurum flake
+Azurite
+an azurite mote
+Bisemutum
+a bisemutum chip
+Calamine
+a calamine crystal
+Calcite      a calcite mote
+Cinnabar
+a pinch of ground cinnabar
+Cuprum
+a cuprum flake
+Dolomite
+a dolomite grain
+Ferrum
+a ferrum flake
+Gypsum
+a gypsum crystal
+Magnesium
+a magnesium chip
+Malachite
+a pinch of ground malachite
+Plumbum
+a plumbum flake
+Potash
+a potash crystal
+Quartz
+a quartz grain
+Quicksilver
+a quicksilver droplet
+Realgar
+a pinch of realgar
+Stannum
+a stannum flake
+(See HELP HEALING LIST, HELP HEALING YOURSELF,
+HELP CURES
+, and HELP CURE LIST.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

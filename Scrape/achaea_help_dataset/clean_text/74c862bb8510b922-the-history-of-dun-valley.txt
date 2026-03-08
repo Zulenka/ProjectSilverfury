@@ -1,0 +1,586 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+16.11 THE HISTORY OF DUN VALLEY
+This tale begins on the first
+day
+of a new year: the 1st of Sarapin in the year
+258 AF, in the redwood
+Aalen
+forest, ancestral home of the Tsol'aa. Two
+Druids
+,
+Istavan and Cev were roaming the forest, when they were shocked to find most of
+the Tsol'aa missing. Two
+guards
+were hanging, dead, from
+trees
+, and King
+La'ramhis had been skewered by his own ripped-out sternum. Stuck onto the end
+of the sternum was a note from someone named 'Kroul',
+claiming
+authorship of
+this act of brutality. They also discovered that the forest has been set afire,
+and was burning quickly. Quickly, Istavan and Cev summoned
+help
+. Many
+responded, and Kazin Frostpaw organised the Druids,
+Magi
+, and
+others
+to put out
+the forest fires.
+Once the chaos of the fires and the initial commotion over the missing Tsol'aa
+subsided, a thorough
+inventory
+of the Tsol'aa population was taken. It was
+discovered that Prince Tu'eras and many of the Tsol'aa were missing, Kaanan the
+Outcast was also missing, and Queen Celaabi was wandering the forest, sobbing
+at the ruins of her home and the
+death
+of her husband.
+Upon being questioned, it became clear that the distraught Queen had been
+raped, and that because of the
+smoke
+from the forest fires, she could see
+nothing
+of her attackers,
+save
+that some of them were very large. She
+apparently felt that her life was over and that she was dishonoured beyond
+tolerance. She would not
+leave
+the forest, despite the obvious danger that her
+attackers
+might
+return to finish the job they had began.
+Though the Queen shunned any contact with men and anyone not Tsol'aa, she did
+respond to the tender ministrations of Cynne Ravenwind, the daughter of the
+Tsol'aa huntress, Selaana. Cynne convinced Queen Celaabi to make her temporary
+home in Cynne's
+grove
+in the Aalen, where she would be guarded and safer than
+anywhere else in the Aalen.
+Soon after this, Tu'eras alerted the
+world
+to the fact that he had led many of
+his people to safety. Vowing revenge on whoever Kroul was, he also solicited
+the help of all those sympathetic to the plight of his people. In response,
+Vexlore, a rogue
+Paladin
+, wrote an article condemning, in no uncertain terms,
+what he perceived as the cowardly actions of Tu'eras. He felt that if the
+Tsol'aa would not immediately
+go
+out and
+fight
+, they were cowardly. Vexlore
+also affirmed his respect for the attackers of the Tsol'aa. As it was not long
+before the
+allies
+of the Tsol'aa begin to rally around them, their hiding spot
+in the Western
+Ithmia
+forest was soon discovered. Travelling there, Vexlore was
+slain by those he condemned.
+Because the Tsol'aa's hiding spot was no longer secret, Maran La'Saen, the
+Sultan of
+Shallam
+, offered them solace in Shallam, but as the Tsol'aa did not
+wish
+to be surrounded by those they do not know, they chose to stay in the
+Western Ithmia. At this
+point
+, there were many theories about
+who
+was
+responsible for this, with mutterings of the return of the Black Wave being one
+of the most popular.
+It was not long after this that some rather inquisitive orcs began appearing in
+the
+cities
+of
+Sapience
+. They seemed to like to
+look
+around,
+chat
+with the
+citizens
+, and were generally quite amiable, particularly for orcs. Eventually
+though, all of them seemed to
+show
+a particular interest in the people who
+bought dead
+rats
+(the
+Ratman
+,
+Hakhim
+, and
+Liirup
+), and an even stronger
+interest in seeing large crystals such as the Master Crystals of the
+Warlocks
+,
+Sorcerers
+, and the Magi. While nearly everyone refused to show these orcs the
+Master Crystals, Dalamar was willing to take one to the Warlock's Master
+Crystal, to the great delight of the orc scout he
+showed
+it to.
+As people questioned the orc scouts, the orcs occasionally let
+slip
+word of
+their Master, but then immediately denied having one. As orcs are not possessed
+of great wit, it was inevitable that those of greater wit would trick
+information out of them, but just as the orcs seemed on the verge of revealing
+information of substance about their mission, a deadly grey fog would envelop
+them and they would turn to dust.
+Unfortunately, as it was becoming obvious that there was a threat to the land,
+the Great Mhunna, leader of the Mhun in
+Moghedu
+, decided to close the Great
+Gate of Moghedu against the threat. This had the effect of cutting off most of
+the silver
+trade
+, the implications of which were dire: cessation of
+sigil
+production by the magi guilds.
+A few
+days
+later, Phainein Bambi was roaming the Black Forest when she
+discovered an orc soldier setting fires in the forest. Subsequently, the orc
+starts the
+Aureliana
+forest on
+fire
+too. Unfortunately for the forest-lovers of
+Sapience, it was quite a windy day, and the fires soon spread to envelop nearly
+the entire
+Savannah
+, imperilling the Tomaculans and their livestock. As he was
+walking
+along the highway, Darktalon Tiercel discovered the guilty orc, and
+began to
+question
+it but before he got too far, Tarlin Vor'dkan charged in and
+began to
+attack
+the orc, who fled the battle and escaped.
+Because of the rash of fires, and the threat of more, Cynne Ravenwind organised
+the cities to regularly patrol the various sections of the land. Assigned to
+Ashtan
+were: The Savannah, the
+Mhojave
+, the
+Dakhota
+hills,
+Azdun
+, El'
+Jazira
+,
+Thera
+, and
+Tomacula
+. Shallam was assigned:
+Shastaan
+,
+Jaru
+,
+Delos
+, the
+Siroccians
+, the
+Shamtota
+Hills, and the
+Pash
+Valley.
+Hashan
+was assigned
+Tasur'ke,
+the Northern and Western
+Ithmian
+forests, and the environs of Belladona's keep.
+Oakstone itself pledged to watch all the forests, the
+Vashnars
+, and the
+Mannaseh
+swamp.
+It was around this
+time
+that Kroul, revealed to be an Ogre High
+Priest
+contacted Vexlore, and offered to
+assist
+Vexlore in achieving his
+vow
+of
+revenge against the Tsol'aa. Vexlore quickly turned it around and began
+demanding
+money
+from Kroul for his assistance. As Kroul wanted to attack the
+Tsol'aa only as a distraction anyway, he was quick to promise Vexlore whatever
+he asked for, as Kroul had no intention of ever paying him anyway. An agreement
+had been struck for Kroul to
+loan
+Vexlore some ogre
+knights
+, and to assassinate
+some of the Tsol'aa in advance, to make
+things
+easier for Vexlore.
+Unfortunately, Vexlore immediately bragged to his Order mates about being
+chosen to help Kroul, and Kroul's
+assassination
+team of orc
+assassins
+, ogre
+knights, and ogre huntresses was intercepted near the Tsol'aa hiding spot.
+Engaging in battle with Santos, Cynne Ravenwind, Grandmaster Sunrise,
+Grandmaster Rejlii, Orina Lighthawk-Foehammer, Oswald Snowmantle (of
+Northgrove), Fuu Ta'sa-Le'Murzen, Thaipan Silverwisp, and Scavenger Nusiki,
+they were decimated. During the fury of battle however, one orc
+assassin
+managed to slip through, and slay some of the Tsol'aa. Luckily, before he could
+slay the Prince, he was put out of his misery by Silverwisp. Kroul, furious at
+Vexlore's inability to keep his mouth shut, ordered a hit on Vexlore, who was
+quickly tracked down and slain.
+During the chaos in the Western Ithmia, which was designed by Kroul simply to
+provide a distraction, strike
+teams
+of ogres and orcs snuck into Ashtan,
+Shallam, and Hashan to kidnap the important
+rat
+-
+buyers
+: The Ratman, Hakhim, and
+Liirup. Hashan nearly organised quickly enough to prevent the kidnapping of
+Liirup, but missed by a hair. After these rash actions, Tu'eras accepts
+sanctuary for his people in the palace in Shallam.
+During patrols of the land, Myrkul discovers that the rat buyers are being
+sequestered in a hut in the Mannaseh swamp. After backup arrives the rescuers
+are ambushed by Kroul's forces, hid deeper in the swamp. The rescuers prove
+victorious, despite heavy losses, and are able to return the rat buyers to
+their respective cities (to the great relief of many).
+Unfortunately for the cities, Kroul had once again out-witted them, and was
+using the kidnapping of the rat buyers as merely another distraction towards
+his real
+goal
+: the taking of the Master Crystals. During the battle in the
+Mannaseh, strike forces had once again entered Ashtan, and taken the Warlocks'
+Master Crystal that had been so handily showed to them by Dalamar. Once they
+had that, it was easy to use it to locate the Sorcerers' and the Magi, and they
+quickly moved their forces to break into those guilds, and
+steal
+their
+crystals. Though they were opposed at each
+guild
+, none of the
+defending
+forces
+were organised enough to stop the ogres and orcs.
+Kroul gloated about his victory. He seemed unable to resist trumpeting his
+strategic triumphs. And then came a surprise none had been expecting. While a
+group
+of people were gathered North of Thera to discuss the happenings, out of
+nowhere, vibrations began appearing,
+stealing
+people's
+equilibrium
+, slowing
+their passage through time, inflicting plague after plague, dragging
+flying
+Druids and Magi from the skies, and causing small heart
+attacks
+in all those
+nearby. Most puzzling of all was that the vibrations seemed to have been sent
+by someone known as Zh'risia, the Dark Lord. The vibrations were eventually
+destroyed, but this highlighted the danger that the combined missing Master
+Crystals potentially posed to the land.
+Now, it is during this time that an interesting side-story begins to develop.
+Because of the crisis, the guildmasters of the
+Paladins
+and
+Infernal
+Knights,
+Aldair d'Vast and Raajin Lucoster, have decided that their guilds should
+cooperate in the common
+defence
+of the land. To facilitate inter-guild
+cooperation, they exchanged guild officers: The Paladins got
+Blademaster
+,
+Khejian, Deven, and Karkus, while the
+Infernals
+got Cyre Elseth, Shenna
+Weltsdown, and Tarlin Vor'dkan.
+As each guild was considering the officers of the
+other
+to be as members, both
+knightly guilds felt obligated to protect the officers on loan as if they were
+guild mates. This
+policy
+, however, was not without its opponents, particularly
+in Ashtan, home of the Infernal's Iron Citadel. Some, including Mordyval
+Danarrii, an Archon of Ashtan, felt that it was outrageous to be protecting the
+sworn
+enemies
+of Ashtan, regardless of reason. He warned Raajin that the loaned
+officers would be attacked if they set foot in Ashtan.
+Raajin, of course, entered Ashtan with Cyre and Shenna in tow. Mordyval
+immediately travelled to their location, and attacked Cyre. Raajin then slew
+Mordyval, causing the Archon to cast him from the
+city
+, and brand him traitor.
+The Master of the Iron Citadel, son of the founder of the guild, had been
+run
+out of his home city. Shallam accepted Raajin's temporary presence, though not
+all were happy with this state of affairs. Still, Maran La'Saen supported the
+action, and few could resist the Sultan's
+influence
+.
+Because many felt that a large-scale invasion was imminent, Shallam proposed
+that the Church erect tactically located
+shrines
+to assist in the defence of
+the land. Many non-Shallamese were outraged by this, as shrines have,
+historically, been a matter of great contention and striving, and, indeed,
+war
+itself. The wisdom and potential usefulness of the shrines could not be denied,
+though, so it was proposed that the Church be allowed to erect tactical shrines
+provided they destroy them after the crisis was over.
+The Church responded that it did not seem fair that they would have to work to
+erect shrines for the common benefit only to have to destroy that work
+afterwards. Raajin felt that this was eminently reasonable, so he offered to
+help
+sanctify
+the shrines to golden in return for the Church's assistance in
+dismantling them later. This was truly unheard of. The Infernals had been among
+the loudest and hardest-working opponents of shrines.
+Sartan
+, the Lord of Evil and Patron of the Infernal Knights took notice of
+Raajin's doings, and was furious at Raajin's behaviour. Withdrawing his
+Patronage of the Iron Citadel, he demanded that the Infernal Knights
+vote
+out
+their Guildmaster in order to regain his Patronage. Raajin's former city mates,
+if not
+friends
+, then began to attack him, perhaps glad at the chance to strike
+at the stiff-backed Guildmaster. The first to
+reach
+and slay him were Khalid,
+an
+Occultist
+, and Lakissa Storm, a Kharon. Soon, Raajin's Shallamese allies
+were defending him against their enemies in Ashtan.
+Not long after this, the results of some diplomatic work by Yeshua ben
+Choshech, a Paladin, and Rivalyn, a Magi, paid off, in that the Mhunna was
+persuaded that by ensuring the steady flow of silver to Rurin the Crafter who
+could then
+sell
+it via his network of
+shops
+, the war effort would be
+strengthened due to the resultant production of
+sigils
+, and the Mhun themselves
+would be safer.
+There was now a
+period
+of general quiet for nearly two
+months
+, broken only by
+an attack by a single, apparently crazed, but very powerful, warmage, who,
+after exacting a heavy toll, was finally slain by Grand Father Tranquility. But
+finally,
+Druid
+scouts soaring in Eagle
+morph
+discovered that increasing number
+of orc and ogre regiments were massing in the Vashnars. The forces of Sapience
+began to
+mass
+themselves in the Vashnars, with some waiting in reserve for the
+now nearly-inevitable attack on their homelands.
+When the attack came, it came swiftly, and it came in force. There were ogre
+warlords directing ogre knights, orc assassins with their poisons, ogre
+warmages with their powerful magical arsenals, and orc warriors. The first to
+bear the brunt of the attack were Rivalyn, Archidal Saer'rac, Profanus Magus,
+and Warloc Merre, who quickly called for backup. Jack Moonflair, arriving
+quickly, was the first to fall to the ogre-led forces.
+Mass chaos ensued.
+It wasn't long before ogre-led forces pushed past the
+Vashnar
+foothills to
+travel towards the population centres of the
+continent
+.
+Meeting
+weak
+resistance, they slaughtered all they came across, until they entered the
+cities to
+loot
+and burn. But though many citizens of Sapience fell, they
+exacted a steep toll on Kroul's forces. Kroul's confidence begins to waver. His
+bravado only increases, of course, but it is clear that the free cities are
+pushing the Ogre forces back into the previously-hidden valley from which they
+emerged.
+Directly after this came a revelation. A heretofore unknown Ogre, Vukub
+Ysin'zhu, announced as the Baron of
+Dun
+Valley, trumpeted his fury to the
+world. He
+tells
+that he took possession of the Dun fortress and its surrounding
+villages of
+Thalagor
+and
+Garnok
+by slaying is former evil Tsol'teth master.
+Unbeknownst to him, the Tsol'teth had an apprentice, one Zh'risia, who hid,
+increasing his
+power
+, and exerting his influence over Kroul. It seemed that all
+along it was Zh'risia who was directing the invasion, manipulating Kroul.
+Invading the Dun Valley, the citizens of Sapience found the fortress, only to
+find that apparently Zh'risia has locked its great gates, keeping them out, and
+Kroul, Vukub, and the other ogres in. Vukub
+orders
+the ogre forces to retreat,
+and they do, albeit with some skirmishes on the way.
+Exploring the extensive wild lands of the Dun, Firefox the Druid then
+discovered a
+cave
+behind a waterfall, in which hid Kaanan, the Outcast of the
+Tsol'aa, missing since the invasion, and thought to be working in alliance with
+Kroul and Zh'risia. With scorn, Kaanan confirmed his role before
+attacking
+what
+was then a group with Firefox. Armelia, Jerle Minara, and Scavenger Nusiki
+battled Kaanan, and Scavenger slew him.
+Finding that Kaanan was guarding the
+key
+to the fortress, word was spread, and
+an incredible force was assembled for the attack. It is likely that it was the
+largest force seen in
+Achaea
+for over 250 years, since the final
+destruction
+of
+Imperial
+Seleucar
+by the Sapience League.
+Invading the Dun Fortress, Kroul and Vukub are quickly located. Kroul began to
+simper and beg for his life, while Vexlore asked Vukub to assist them in
+finding and bringing Zh'risia to
+justice
+. Vukub agreed, and the
+hunt
+is on.
+Though the fortress is large, and Zh'risia was well-hidden, Aldair d'Vast,
+leading Silverlock Moonflair, Provos Weltsdown and Kerish Toreiil, eventually
+found the foul Tsol'teth. As they fled for their lives, they summoned
+reinforcements, and soon the backbone of Sapience was allied for the attack.
+Though some fell to Zh'risia's black magic, the force proved to be too
+overwhelming even for one who was nearly a Tsol'teth Master, and he breathed
+his last, slain by Dirgmal Relkatha, an Occultist.
+Kroul, seeing that it would not be long before they came for him, fled and hid
+in a rude hut in Thalagor. Deciding that Kroul must not be allowed to hide
+behind the manipulations of Zh'risia.
+Groups
+of vigilantes set out to bring the
+Ogre High Priest to justice. A group of Dalamar, Lavender, Santos, Blademaster
+Khejian, and Cynne Ravenwind eventually located the tainted High Priest, and
+attacked him with the fury of the righteous. Fittingly, Cynne Ravenwind,
+protector of she who Kroul himself raped, avenged her Queen by personally
+slaying Kroul.
+And so the threat to Sapience was ended. There was, of course, some mop-up work
+to be done, as not all ogres and orcs obeyed Vukub's orders to
+withdraw
+, and
+continued to maraud across the land. In the main though, the 8 months of
+uncertainty and tension were over, and there only remained the funeral of King
+La'ramhis and the crowning of Prince Tu'eras.
+In a
+moving
+ceremony that
+Sarapis
+Himself personally participated in, the elder
+Tsol'aa, Thaa'lis, gave the funeral address, after a number of Sapience
+citizens spoke, and asked the
+Logos
+to
+bury
+the great king of the Tsol'aa.
+At the conclusion of this sad
+event
+was the crowning of Tu'eras. Though the
+only king most of the Tsol'aa have known is dead, Tu'eras already a mature man,
+promises to be a wise, strong leader. The respect his leadership garnered in
+the aftermath of the devastating attack on the Aalen has won him many
+supporters
+, and he rules with the loving consent of his people.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

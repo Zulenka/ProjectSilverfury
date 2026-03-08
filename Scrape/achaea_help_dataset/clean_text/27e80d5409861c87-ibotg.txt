@@ -1,0 +1,151 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.5 IBOTG / IBOG - the Irregular Battle of the Genders
+This is a worldwide game of
+EGGHUNT
+(see
+HELP
+EGGHUNT) with
+SHARING
+and NOPK
+options. In it, the contestants share their
+eggs
+in order to demonstrate their
+gender's
+abilities
+in planning and coordination or, in later
+days
+, participate
+in a 'noshare' variety of Egghunt (in which case
+selling
+eggs or aiding the
+other
+team is impossible).
+Selling eggs, or aiding the team of the opposite gender during the
+IBOG
+will be
+met with extremely harsh treatment. Don't do it!
+The
+dates
+of the earliest such
+events
+are
+lost
+in the mists of antiquity, but
+was around year 348. An accurate
+date
+was first recorded for the ninth
+event
+,
+as noted below:
+date         victors  record
+score
+I  ??                 m  1:0  (m)
+II
+??                 f  1:1  tie
+III  ??                 f
+2
+:1  (f)
+IV  ??                 m  2:2  tie
+V  ??                 f
+3
+:2  (f)
+VI  ??                 f  4:2  (f)
+VII  ??                 f
+5
+:2  (f)
+VIII  ??                 m  5:3  (f)
+IX   2 Chronos, 358    m  5:4  (f)
+X
+21 Glacian, 358    m  5:5  tie  1085/1014
+XI  10 Lupar, 359      f
+6
+:5  (f)  1133/930
+XII   6 Scarlatan, 360  m  6:6  tie   575/211
+XIII  20 Miraman, 362    m  7:6  (m)   983/978
+XIV
+19
+Valnuary, 365   m  8:6  (m)  1184/754
+XV   2 Aeguary, 376    m  9:6  (m)  1562/940
+XVI  21 Chronos, 377    m 10:6  (m)  1878/882
+XVII   6 Mayan, 380      m 11:6  (m)  2050/1181
+XVIII  20 Glacian, 391    m 12:6  (m)  2189/117
+XIX  24 Chronos, 400    m 13:6  (m)  2834/1543
+XX   6 Glacian, 417    m 14:6  (m)  4223/4010
+XXI   3 Mayan, 436      f 14:7  (m)  1473/646
+XXII  13 Glacian, 489    f 14:8  (m)  1738/1567
+XXIII  23 Phaestian, 496  m 15:8  (m)  2022/1086
+XXIV   6 Chronos, 503    f 15:9  (m)  2251/1060
+XXV  19 Valnuary, 505   m 16:9  (m)  1477/1458
+XXVI  13 Glacian, 512    f 16:10 (m)  1956/1026
+XXVII   4 Daedalan 517    m 17:10 (m)  1840/1699
+XXVIII  21 Ero, 539        m
+18
+:10 (m)   958/940
+XXIX   1 Miraman, 547    m 19:10 (m)  2619/2141
+XXX  24 Mayan, 564      f 19:11 (m)  7328/5440
+XXXI  20 Sarapin, 606    f 19:12 (m)  2826/1522
+XXXII  12 Sarapin, 703    f 19:13 (m)  1486/1482
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

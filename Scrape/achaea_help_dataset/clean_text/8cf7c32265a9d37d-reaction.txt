@@ -1,0 +1,321 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.13.4 Denizen Reactions
+Denizen
+reactions
+are very basic scripts that offer you the
+ability
+to customise the way your
+servants
+and
+pets
+react to the
+world
+around you. You can make it so that they will greet your loved ones, spit on your
+enemies
+, and fawn over you on
+command
+.
+How Do Reactions Work?
+----------------------
+Reactions consist of a
+trigger
+, an action, and an optional condition. Whenever the denizen detects the initiation of the trigger, the denizen will perform the action. If the
+reaction
+has a condition attached to it, the denizen will only perform the action if the trigger is initiated with the condition met.
+What Are
+Triggers
+?
+------------------
+Triggers are
+events
+in
+Achaea
+that your
+mob
+might
+observe. Some examples of triggers are: hearing
+something
+in the room, seeing somebody enter the room, or being attacked. The full list of triggers that you can detect in your denizen reactions will be listed in the command summaries below.
+Triggers can also have parameters associated with them. These parameters allow you to fine-tune the situations in which your denizen will react to a trigger.
+Parameters are contextually linked to certain triggers and will behave different across different trigger types. The list of trigger parameters that you can use will be listed in the command summaries below.
+What Are Actions?
+-----------------
+Actions are
+things
+that the denizen can do. Some examples of actions are:
+saying
+something,
+attacking
+someone, or performing an
+emote
+.
+The full list of actions that
+denizens
+can take in reactions will be listed in the command summaries below.
+What Are Conditions?
+--------------------
+Conditions are options that can be applied universally to any trigger. They are similar to trigger parameters, but work the same for all triggers, whereas parameters can work differently for different triggers. Each reaction can only have one condition. Examples of conditions are: reacting only when a personal
+enemy
+performs an action, or reacting only when a
+member
+of an organisation performs an action. The list of reaction conditions will be listed in the command summaries below.
+Please note that org-specific conditions will only
+fire
+if you also belong to the specified organisation. If you initially do belong to the specified org and later
+leave
+, the reaction will no longer fire and will need to be remade.
+What Denizens Can Use Reactions?
+--------------------------------
+Reactions can be set on your personal
+house
+servants. You can bring your house to life with an exciting array of denizens
+who
+will react to any people who might enter your house.
+Read
+HELP HOUSING SERVANTS
+for more information about
+hiring
+and
+customising
+the servants in your house.
+Reactions can be set on your pets (pets proper, not
+minipets
+or
+mounts
+). Read
+HELP PETS
+for more information on making and requesting a
+pet
+!
+How Do I Set Reactions?
+-----------------------
+First, you must acquire a denizen reaction slot. You can purchase slots for 20,000
+gold
+. Once you have a slot, you then assign a mob and reaction to that slot. You will be able to freely make modifications to that reaction for a 24-
+hour
+period
+. After 24
+hours
+, the reaction will become locked and you will not be able to make any further modifications to it.
+You can unlock a reaction slot for
+5
+,000 gold, which will then give you another 24-hour period during which you can make any modifications you want to the reaction.
+Syntax
+------
+REACTION SUMMARY
+- See a list of the
+mobs
+on which you have set denizen reactions.
+- This also
+shows
+you your number of free denizen reaction slots.
+REACTION PURCHASE <n>
+- Purchase some reaction slots. Costs 20,000 gold each.
+REACTION <mob> LIST
+- See the list of reactions assigned to a specific mob.
+REACTION <mob> <id>
+SHOW
+- See the detailed information about a specific reaction.
+REACTION <mob> ADD <trigger>
+- Adds a new reaction to one of your loyal denizens.
+- You will be able to freely modify the new reaction for 24 hours before it will become locked.
+- Denizens can react to the
+following
+triggers:
+- Being attacked (ATTACKED)
+- Hearing something said in the room (
+SAY
+)
+- Being told something (
+TELL
+)
+- Being given something (GIVE)
+- Seeing someone enter the room (ENTER)
+- Seeing someone leave the room (LEAVE)
+- Being targetted by an emote (EMOTED)
+- Witnessing an emote made in the room (EMOTE_SEEN)
+REACTION <mob> <id> TRIGGER <trigger> [<parameters>]
+- Modify the triggering action of one of the denizens's existing reactions.
+- Parameters allow you trigger the reaction based on more specific instances of the trigger.
+- Parameters are context-specific to certain triggers:
+- Adding a phrase or word as a parameter to a "say" or "tell" trigger will cause the reaction to only fire if the phrase appears in the text that the denizen hears.
+- Adding a phrase or word as a parameter to an "emote" or "emote_seen" trigger will cause the reaction to only fire if the word or phrase matches the emote the mob has seen.
+- Adding an item or list of items as a parameter to a "give" trigger will cause the reaction to only fire if the item being given matches any of the items in the list. Using numeric entries as parameters will ensure that the reaction will only fire on those specific items.
+REACTION <mob> <id> CONDITION <condition>
+- Add a qualifying condition to one of the denizens's existing reactions.
+- Denizens can act based on the following conditions:
+- Members of a specific organisation (MEMBER OF <org>)
+- Members of a specific organisation above or below a certain
+rank
+(MEMBER OF ORG RANK <n>)
+- Enemies of an organisation (ORGENEMY OF <org>)
+- Enemies of the denizen's master (ENEMY)
+-
+Allies
+of the denizen's master (
+ALLY
+)
+- Is a specific person (IS <NAME>)
+- Denizen owner (OWNER)
+REACTION <mob> <id> CHANCE <chance>
+- Gives the denizen a random chance to react to the trigger.
+- By default, denizen triggers always activate.
+- Chance can be between 1 and 100.
+REACTION <mob> <id> ACTION <action>
+- Sets the action that a denizen will take when the trigger is matched.
+- Valid actions:
+- Say something in the room (SAY)
+- Send a tell to someone in the game (TELL)
+- Emote something in the room (EMOTE)
+- Drop an item that has been given to the denizen (this action can only be used in response to the "give" trigger) (DROP)
+- Return an item that has been given to the denizen (this action can only be used in response to the "give" trigger) (RETURN)
+-
+Attack
+the person who has triggered the reaction. (ATTACK)
+- You can use the following variables in actions to create personalised responses.
+- $(who) - The person who performed the trigger
+- $(he), $(him), $(his), $(He), $(Him), $(His) -
+Pronouns
+set according to the gender of the person who performed the trigger.
+- $(text) - The text that was said or
+emotes
+.
+- $(item) - The
+description
+of an item that was returned to the giver.
+REACTION <mob> <id> SUBMIT
+- This is for
+artefact
+pets, their reactions must be submitted for approval before they can be enabled.
+REACTION <mob> <id> ENABLE
+- Enable a denizen reaction.
+- THIS COSTS 50
+BOUND
+CREDITS
+FOR ARTEFACT PETS.
+- This will make the reaction permanent and you will be unable to make any further modifications to the reaction.
+- If you
+wish
+to make changes to any reactions, you will have to
+remove
+the reaction from the mob and create a new one with the new changes.
+REACTION <mob> <id> DISABLE
+- Prevent a reaction from being triggered.
+REACTION <mob> <id> UNLOCK
+- Costs 5,000 gold.
+- Unlocks the reaction and allows you to freely make any modifications
+you want to it for 24 hours.
+Examples:
+Create a reaction on a
+servant
+that makes her mob greet people who enter the room:
+REACTION <denizen> ADD ENTER
+REACTION <denizen> <id> ACTION greet $(who)
+REACTION <denizen> <id> ENABLE
+Create a reaction on a servant that makes the denizen respond whenever it hears the word "Tecton":
+REACTION <denizen> ADD SAY
+REACTION <denizen> <id> TRIGGER say
+tecton
+REACTION <denizen> <id> ACTION say He's quite the impressive Terraformer, isn't he?
+REACTION <denizen> <id> ENABLE
+Create a reaction on a pet that makes the denizen attack whenever an enemy of
+Ashtan
+enters the room:
+REACTION <denizen> ADD ENTER
+REACTION <denizen> <id> CONDITION orgenemy of ashtan
+REACTION <denizen> <id> ACTION attack $(who)
+REACTION <denizen> <id> SUBMIT
+- wait for approval -
+REACTION <denizen> <id> ENABLE
+Create a reaction on a pet that sends a tell to the owner every
+time
+it is given an item:
+REACTION <denizen> ADD GIVE
+REACTION <denizen> <id> ACTION tell tecton $(who) just gave
+me
+a present!
+REACTION <denizen> <id> SUBMIT
+- wait for approval -
+REACTION <denizen> <id> ENABLE
+Create a reaction on a pet that
+custom
+emotes at people who greet it:
+REACTION <denizen> ADD EMOTE
+REACTION <denizen> <id> TRIGGER EMOTE pet
+REACTION <denizen> <id> ACTION EMOTE (
+Looking
+up curiously at $$(who)), greets $$(who)_him with a hearty hello!
+REACTION <denizen> <id> SUBMIT
+- wait for approval -
+REACTION <denizen> <id> ENABLE
+NB: EMOTE ACTIONS
+-----------------
+Emote actions use the standard emote syntax (emote looks at $person). This means that if you're looking to have different
+messages
+for first and third person, your emotes will need to double up on the $ symbol (see the last example given above).
+Moving
+forward we will NOT be fixing these by hand, you will have to pay to unlock your reaction and resubmit it for approval if you do not format your emotes appropriately.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

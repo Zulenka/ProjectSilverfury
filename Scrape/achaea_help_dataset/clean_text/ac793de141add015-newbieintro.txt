@@ -1,0 +1,200 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.15 New Adventurer Introduction
+Once upon a
+time
+, all
+newcomers
+to
+Achaea
+participated in an
+adventure
+known
+as the
+Trial
+of
+Rebirth
+. This linear introduction has now been replaced by a
+two-part adventure known as
+Escape
+from
+Miba
+& the Cultist's Conspiracy!
+I.
+Commands
+you can use any time in the introductory adventure.
+II
+. Helpful information.
+III. Frequently Asked
+Questions
+I. COMMANDS YOU CAN USE ANYTIME IN THE ADVENTURE
+------------------------------------------------
+HINT            - Repeat the hint for your current stage.
+NEWBIEON        - If you need
+help
+from a live person, you can turn the
+newbie
+channel
+on with NEWBIEON then ask for help.
+NEWBIE <text>   - Once you've turned the newbie channel on, you can
+speak
+over it with the NEWBIE
+command
+. For example:
+newbie Help, I'm horribly
+lost
+!
+QW
+- See a list of
+who
+is in the realms: Quick Who
+TELL
+JULIET
+<text>
+TELL
+ROMEO
+<text>  - If you see a yellow
+name
+"Juliet" or "Romeo" in the QW
+list, that means an official newbie
+Guide
+is online. You
+can speak with them if you need to using TELL.
+ANSIOFF         - Turn
+ansi
+colour off. Because many clues for how to proceed
+use colour, this is NOT recommended!
+ANSION          - See in glorious ansi colour again!
+QQ
+/
+QUIT
+- Goodbye!
+STOP            - After you type QQ or QUIT, there is a short delay before
+your
+character
+is disconnected. If you enter STOP during
+this time, the quit process will be interrupted.
+II. HELPFUL INFORMATION
+-----------------------
+In "Escape from Miba" you will
+learn
+the basic commands you'll need to begin
+your
+adventures
+in Achaea, such as how to
+move
+around, how to get information
+about items and people, how to manipulate items (put, get, et cetera), and more.
+Hints are given at every stage where you need to input a command to
+continue. Sometimes, you'll see a TIP instead, when some helpful information
+is given that you do NOT need to act on.
+There are several computer-controlled
+guides
+you will meet in the Trial.
+When they speak to you, keywords for commands they are trying to
+teach
+you
+will be highlighted in white, whereas the rest of their text will be blue.
+If you do not have ansi colour on, you may not benefit from this.
+"Escape from Miba" introduces you to Achaea via a guided, interactive,
+story-
+tour
+. Because it is an introductory
+tutorial
+, it is linear and simple.
+You are given clear instructions on where to
+go
+, and what to do, every step
+of the way.
+Don't be fooled - this is not what the rest of Achaea is like! Achaea after
+the tutorial is EXTREMELY freeform and complex! So much so, in fact, that it
+can be bewildering if you enter it right away without knowing the basic
+commands. Once you complete the tutorial, you will have an incredible array of
+choices you can make, steps you can take,
+goals
+you can set,
+things
+you can
+do. The tutorial will give you a starting
+point
+, a frame of reference, and a
+basic toolset to begin your adventures.
+Enjoy, and welcome to Achaea!
+III. F.A.Q.
+-----------
+Q. If I quit in the
+pygmy
+dungeons, what happens when I return? Do I need to
+save
+?
+A. Your progress will be saved automatically. You will return at the point
+you left! But try to return within 24
+hours
+- you need to complete the
+tutorial to
+register
+your character, and unregistered characters are often
+purged.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

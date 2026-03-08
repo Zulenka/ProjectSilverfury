@@ -1,0 +1,163 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.13.1 Language Learning
+(see HELP LANGUAGE TEACHERS, HELP LANGUAGE FLUENCY, and
+HELP
+LANGUAGE
+LIST)
+To
+learn
+new
+languages
+requires:
+1)
+gold
+sovereigns
+2
+) language
+learning
+lessons
+3
+) a language
+teacher
+4)
+time
+Language learning related
+commands
+----------------------------------
+LEARN languagename FROM denizenteacher
+SCORE
+LANGUAGE (to see how many lessons you have available)
+SPEAK
+(to see what languages you can speak)
+SPEAK languagename (to start
+speaking
+in that language)
+LANGUAGE (to see what language you are currently speaking)
+Language learning sessions: gold costs
+--------------------------------------
+Learning a new language costs 1,000 gold sovereigns per
+lesson
+for the first
+twenty six sessions that you learn, which would take you to full fluency in
+one language. The gold cost for this would be 26,000.
+After that, every twenty six sessions cost three
+times
+as much as the previous.
+So your second 'set' of twenty six sessions will cost 3,000 gold sovereigns per
+session. Your third, 9,000.
+NOTE: The gold and language lesson cost is extracted at the VERY END of any
+learning session. Don't put your
+money
+away! Have it available as the lesson
+ends.
+Language learning sessions: session costs
+-----------------------------------------
+Each language session costs one lesson, no matter how many languages you have
+learnt.
+Language learning sessions: time costs
+--------------------------------------
+Beyond the time during the sessions, which is not too terribly long, there is
+also the wait between sessions, which may only be taken once each
+Achaean
+month
+.
+Language lessons
+-----------------
+Newly-arrived adventurers, at
+18
+years of age, gain nine language lessons.
+Each Achaean year, all adventurers gain an additional three language lessons.
+To
+tell
+how many language learning lessons you currently possess, check
+SCORE LANGUAGES.
+Language learning for languages you already know
+------------------------------------------------
+You may know a language due to your
+race
+, such as if you're a Xorani you will
+speak Xorani! You can STILL
+study
+Xorani - and then you will never
+lose
+the
+language even if you change race.
+Language learning lessons:
+buying
+,
+trading
+, converting, etc.
+-------------------------------------------------------------
+You can't do it. Lessons may only be gained by
+ageing
+.
+Period
+. They can't be
+given, traded, bought, sold, loaned, converted, traded in, gambled, or
+anything
+else.
+(see HELP LANGUAGE TEACHERS, HELP LANGUAGE FLUENCY, and HELP LANGUAGE LIST)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

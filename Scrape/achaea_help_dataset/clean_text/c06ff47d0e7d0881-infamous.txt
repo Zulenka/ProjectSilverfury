@@ -1,0 +1,243 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+5.20 INFAMY
+(See also:
+HELP
+INFAMY
+LOSS)
+Often
+times
+, certain people
+engage
+in wide-spread acts of Infamy, such as
+involving themselves in
+combat
+with a range of people, defiling
+shrines
+, or
+slaying
+city
+guards
+. Although these are all legal acts (assuming you have an
+IC
+reason for the
+PK
+-related actions), someone
+who
+engages in them regularly
+is, in our opinion, granting implicit consent to be attacked by
+others
+. Infamy
+is the measure of this implicit consent.
+As you commit certain acts, you will gain Infamy. As you gain more Infamy, you
+will approach the
+ranks
+of the
+Infamous
+. Once you are Infamous, you are fair
+game to all
+other
+Infamous people as well as all members of the
+Marks
+and
+members of The
+Dauntless
+. But, don't worry, your Infamy will slowly
+decay
+when
+you're online and you will eventually
+lose
+your Infamous
+status
+unless you
+continue to engage in acts of Infamy.
+*** Infamous people are -only- open PK to members of the
+Mark
+, Dauntless,  and other Infamous people. ***
+Infamous people may not take out
+contracts
+on those who are eligible to
+kill
+them, however they are free to seek retribution in person should they deem it appropriate (under standard PK guidelines).
+Infamous people who are attacked by those who are not eligible to kill them are free to take out a
+contract
+or file an
+issue
+should the situation warrant administrative intervention under standard PK guidelines.
+Specifics
+---------
+There are multiple ways to gain Infamy:
+1. Using offensive
+abilities
+against other adventurers.
+- Everytime you use an offensive
+ability
+against another adventurer, whether
+you "started" the
+fight
+or not, you gain Infamy. However, you can only
+gain Infamy from
+fighting
+with a single individual once per 24
+hours
+.
+So, if you have a bloodfeud against someone, you can feel free to fight
+that person frequently without worrying about
+reaching
+Infamous status.
+The reason is that your Infamy will decay fast enough to
+balance
+what
+you'd get from fighting one or two people.
+- Infamy is not gained from offensive acts in the
+Arenas
+or during
+events
+with
+xp
+loss off.
+- You will gain Infamy more slowly when committing PK-related acts against
+other adventurers while in your home or an allied city.
+- You will gain Infamy faster when active in an
+enemy
+city.
+2
+. Defiling shrines.
+- You will gain some Infamy for every 'session' of defiling a particular
+shrine
+. A session ends when you haven't defiled that shrine for 20
+seconds
+. So, if you are continually defiling a particular shrine,
+you'll be in the same 'session' and will only gain Infamy once.
+3
+.
+Killing
+city guards or other creatures loyal to a city.
+- You will gain Infamy for every one of these you slay.
+4.
+Theft
+.
+- You will gain Infamy -every-
+time
+you force or try to force someone to
+give, drop, put, or
+throw
+something
+.
+- Be warned that thieving is the fastest way to gain Infamy, and that you
+will quickly become Infamous if you are a thief.
+- There is essentially no limit to the Infamy you can gain through
+theft.
+5
+. Resurrecting the Infamous.
+6
+.
+Attacking
+nature
+/Evil.
+- Exterminating/Vivifying a room.
+There are multiple ways to lose Infamy:
+1. Over time, either present in the realms (faster) or not (slower).
+2.
+Death
+to adventurers, or to city guards.
+* You can see someone's general Infamy
+level
+in his
+honours
+. Individuals
+either don't have much Infamy, are getting close to being Infamous, or
+are Infamous. There is no way to see exact numbers, or how long you
+will be Infamous for. For the truly infamous, several
+levels
+of
+identification have been added - solidly infamous, inveterately infamous,
+entrenched infamous, staggeringly infamous, and near-permanent infamous.
+** Infamy
+decays
+continuously - in realms or not (though faster in realms).
+INDEMNIFICATION
+---------------
+You may
+indemnify
+someone for half an
+hour
+using the syntaxes below. What this
+means is that for half an hour, if that person
+attacks
+you, he or she will not
+gain Infamy for doing so. This is useful for setting up duels and the like.
+INDEMNIFY <person>  (or
+IDM
+<person>)
+Indemnifies someone for half an
+Achaean
+day
+. He will gain no Infamy
+for attacking you during that time.
+INDEMNIFY LIST      (or IDM LIST)
+List the people you have currently indemnified.
+(See also: HELP INFAMY LOSS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

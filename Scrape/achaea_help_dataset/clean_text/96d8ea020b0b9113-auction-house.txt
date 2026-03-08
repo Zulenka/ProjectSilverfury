@@ -1,0 +1,174 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.13 AUCTION HOUSE
+You can visit the
+auction
+house
+in
+Delos
+for two types of
+auctions
+.
+The first is your standard auction: you put up an item for sale with a
+buyout
+and possible minimum bid, it will stay there for fifty
+Achaean
+days
+or until someone
+buys
+it out, and when the timer runs out it will be awarded to the highest bidder and you will get your much deserved payment.
+Here are the
+commands
+:
+AUCTIONHOUSE
+STATUS
+- view your active auctions.
+AUCTIONHOUSE
+WARES
+[optional currency to
+filter
+on]
+- view available auctions.
+AUCTIONHOUSE INFO <auction ID>    - view imformation about an active auction.
+AUCTIONHOUSE BUYOUT <auction>     - buyout an active auction.
+AUCTIONHOUSE
+SELL
+<item> BUYOUT <buyout [START <optional minimum bid>]
+- put an item up for auction.
+AUCTIONHOUSE BID ON <auction> FOR <your bid>
+- place your bid on an auction.
+CONFIG
+AUCTIONHOUSEALERTS ON|OFF  - Be notified when a new listing is made
+The second type of auction is a live auction, and there can only ever be one of these at a
+time
+. To get started, visit the auctionhouse in Delos and purchase a licence. Then you'll be able to setup your auction in various ways described below.
+The basic process is
+something
+like this:
+LIVEAUCTION
+BUY
+LICENCE         - buy your basic live auction licence for 50000
+gold
+.
+Optionally, LIVEAUCTION BUY ANONLICENCE - buy a licence to
+run
+anonymous auctions for 500000 gold.
+LIVEAUCTION SETUP <item>        - specify the item you want to auction off. This can be done while another liveauction is in progress, its entirely
+preparation
+.
+LIVEAUCTION SET <property> <value> - set something about your planned auction. Current properties are:
+STARTPRICE <amount> <currency>  - the minimum bid.
+STARTTIME <time in minutes>     - how long before the auction should kick off after starting.
+ANONYMITY <ON|OFF>              - set an auction to be anonymous if you have the licence for it.
+GAVEL <ON|OFF>                  - if the gavel is set, you may pay an additional fee when kicking off your auction to inform all in the land a new live auction is beginning. This fee is currently 10000 gold
+sovereigns
+.
+Once your auction is ready and no
+other
+live auction is
+running
+:
+LIVEAUCTION START - the gavel will be sounded if relevant, and all people in the auctionhouse will be alerted a new auction is started. If your auction is anonymous, you will now be escorted to a private Auctioneer's room where you may direct the proceedings from.
+Auctioneers have access to some special commands once an auction has begun:
+LIVEAUCTION
+SAY
+<message>  - say something to all present in the auctionhouse.
+LIVEAUCTION PRESENT        -
+show
+off the item that is being auctioned.
+LIVEAUCTION SOLD           - advance the auction one phase. For example,
+going
+once, going twice, etc.
+Would-be bidders have some of their own commands. For anonymous auctions specifically, in the phase before bidding has started but the auction is beginning, a bidder may:
+LIVEAUCTION
+REGISTER
+- this will
+move
+you to a private booth from where you may bid. You do not need to be in a booth to bid in an anonymous auction, but if you're not you probably won't stay anonymous for long!
+LIVEAUCTION CURRENTBID     - see the current bid.
+LIVEAUCTION BID <amount>   - place your bid, place your bid!
+Some additional
+things
+to note:
+- Gold will be drawn from your
+bank
+if you do not have the funds on you, and returned there if you have
+credit
+proceeds configured.
+- You may auction off
+talisman
+pieces
+. To do so, specify them in the format <talisman
+piece
+shortname> <level> <source> in place of your normal item.
+- When a live auction ends, all items will be moved out of booths along with players.
+- If you use private booths as a method of avoiding
+pk
+, you will
+lose
+access to them.
+HELP HONOUR
+is in effect here.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

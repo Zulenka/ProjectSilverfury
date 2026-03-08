@@ -1,0 +1,263 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.4.7 Auctions!
+Get a shot at some of the most valuable and rare items in the
+history
+of
+Achaea
+. How, you ask? In an
+auction
+!
+First,
+look
+at the
+auctions
+currently available with AUCTIONS;
+Second, decide on one that looks interesting;
+Third, make sure you have the
+bound
+credits
+, or the
+gold
+in hand;
+Fourth, find a place you can bid; and
+Fifth, make a bid!
+How to Look at Auctions
+-----------------------
+AUCTIONS lists all auctions you can bid on.
+AUCTION INFO auctionnumber (
+say
+, AUCTION INFO
+3
+) will
+tell
+you more
+about that one auction.
+Places You Can Bid
+------------------
+You may place bids in the
+Delos
+Lottery
+offices, the Central
+Market
+of
+Ashtan
+, Centre Crossing in
+Cyrene
+, Central
+Hall
+in the Great Oak in
+Eleusis
+,
+The Crossroads in
+Hashan
+, Stygian Crossroads in
+Mhaldor
+, or
+Fish
+Street in
+Targossas
+.
+How You Can Bid
+---------------
+BID howmany ON auctionnumber. It's quite simple really. For example:
+BID 10000 ON 1
+You'll be told what happened, such as:
+- Your bid is rejected for being too low. You're not
+winning
+yet.
+- Your bid pushed up the current maximum. You're not winning yet.
+- Your bid was high enough. You're winning!
+Your Bid Is a Limit, Which Ain't Exactly a Bid
+-----------------------------------------------
+Let's say the previous high bid was 1000, and you bid 10000. When
+you bid 10000 you are
+saying
+"I'll bid the minimum needed to beat
+whatever the
+other
+guy's bid is, and no more than 10000). Say that
+the person
+who
+was winning had bid 5000 as the highest he'd
+go
+, but
+nobody else pushed him up beyond 1000, so the 'high bid' that you
+see is 1000, even though his limit is 5000. So now you bid 10000,
+and you will definitely get the winning bid. Here's what happens:
+- the 'high bid' on the item becomes the next bid beyond whatever
+the last person's limit was. His limit was 5000, and you have
+to beat that, so your bid to beat that is 5500. The visible
+'high bid' is now 5500.
+- 10000 disappears from your hands. It's safe. Don't worry!
+- But you bid 10000! Right. That's your limit. You'll go up to
+10000 if you have to. But you don't have to, so you'll stay
+at 5500.
+- What if someone else bids, say, 6000? Great, now the high
+bid is 6500, and you're still ahead, because your limit was
+higher still.
+- What if someone else bids 11000? The 'high bid' that everybody
+sees will be 10500. The other person will be ahead. And your
+money
+will be placed in your
+bank
+(or your credits will be back
+to you, if the auction is in credits).
+Increasing Your Bid
+-------------------
+If you have the winning bid at the moment, you can increase your limit this
+way:
+BID INCREASE <amount> on <auction>
+If your bid had been 10000, and you BID INCREASE 1000 on 1, then your bid is
+now 11000. You can't decrease or
+withdraw
+your bid. Pay careful attention so
+that you don't accidentally bid more than you wished to bid! We will not
+change your bid for you if this happens. The amount you are increasing is
+ADDED to your previous bid; it does not replace it. Thus, if you have a bid
+of 100, and you BID INCREASE by 150, your new bid is 250, NOT 150.
+Escrow
+------
+The
+idea
+here is that in
+credit
+auctions (only), you may not want to
+buy
+the
+credits just to be able to bid on
+something
+you aren't sure of winning. OK, we
+can work with that. We will let you count the
+trade
+-in value of your current
+artefacts
+as 'escrow credits' which you can also use to bid with. Just
+AUCTION ESCROW BUILD
+and your escrow limit will be set up. To check credits for bidding:
+AUCTION CREDITS
+which will report on bound credits, and escrow credits.
+Note: Escrow credits aren't real credits! They just
+help
+you bid on
+things
+without having all the bound credits on hand ahead of
+time
+. If you
+win
+the
+auction, you will be expected to buy credits, or trade in artefacts, or do
+something to raise your bound credits
+level
+to high enough to resolve the
+auction. In fact, that's what you do:
+AUCTION auctionnumber RESOLVE
+And if you have enough bound credits, then the auction ends, you pay your
+credits, and you get the prize. Done!
+What Happens at the End of the Auction
+--------------------------------------
+Somebody wins. Hopefully you! Either the credits or gold will be taken away,
+and the item/
+artefact
+/special-prize will be awarded. If you need to get more
+credits, then it'll all wait till you RESOLVE the auction (see above).
+Then if there were any unused bid monies, you'll get 'em back then too. That's
+for when, say, you bid 10000 gold, 10000 gold is removed from your possession,
+and then when all is over, you won with a winning bid of 6000 gold. You'll win
+all right, and you'll get back the leftover 4000 gold.
+As an additional security measure if you are a
+citizen
+of any
+city
+and have a
+bankaccount setup in your home city then the gold from
+lost
+auctions will
+automatically be deposited to your account.
+If you are not a citizen or do not have a bankaccount in your home city then
+all refunded gold will go directly into your
+inventory
+.
+General Notes
+-------------
+Bids CANNOT be retracted. You bid, you're stuck. If you're outbid, then and
+only then do you get your gold/credits/whatever back. PAY CAREFUL ATTENTION
+TO YOUR BID
+SYNTAX
+. If you enter the wrong amount, you are still responsible
+for that.
+When an auction appears, everyone in the realms is notified.
+Items won in credit auctions are NOT transferrable to anyone else. Bound
+credits are used for credit auctions, so whatever you win is bound to your
+character
+forever. Artefacts won in gold auctions are similarly
+non-transferrable. Any other items won in gold auctions where you would need
+divine
+intervention to transfer it to someone else should be assumed as
+non-transferrable unless otherwise noted in the auction
+description
+.
+Items purchased via auction do not have a trade-in value.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

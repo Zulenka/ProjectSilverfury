@@ -1,0 +1,153 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+14.1 Quests and Questing
+(See HELP NEWBIE QUESTS,
+HELP
+QUEST
+LOG
+)
+In
+Achaea
+we have many types of
+quests
+, nearly all of which involve
+denizens
+(a.k.a.
+mobs
+or
+NPCs
+).
+Quests may be simple (locating and delivering an item) or quite complex (with
+many steps, puzzles, etc., that
+might
+take
+days
+or weeks to complete). They are
+numerous and may be found all over the
+world
+.
+The most basic quests, such as those found in adventurer
+cities
+and
+newbie
+areas, are simple to discover and relatively easy to complete. Simply GREET the
+denizens you meet, or
+say
+something
+such as "have any quests for
+me
+?" and you
+will often be offered a quest. When you accept (by answering in the
+affirmative, whether a spoken word or an
+emote
+), it will be added to your quest
+log (see HELP QUEST LOG). Do as you have been instructed, and you will gain a
+reward in the form of
+experience
+and/or
+gold
+!
+As you progress in Achaea, quests may become more difficult to discover. You
+will need to
+look
+for clues in what denizens have to say, and even carry on
+conversations with them before they will offer you a quest. Many denizens have
+multiple
+things
+to say, so
+greeting
+them multiple
+times
+may be useful.
+Other
+clues might be found in
+journals
+or
+books
+or other writings that you can
+READ
+. Read
+everything
+carefully: the appearance of each room you enter, the
+descriptions
+of the denizens you meet, and the written texts in books or
+journals you may happen across in your
+adventures
+.
+If part of a quest involves giving an item to an
+denizen
+, you have but to give
+the item to it, and the denizen will then respond in a manner it deems
+appropriate. Occasionally, of course, this may not be quite the manner you
+hoped for, but this might simply be the result of the denizen being a bit
+grouchy today.
+Limitations on Quests
+---------------------
+Quest information can be shared freely between individuals provided that they do so via word of mouth. It is not permitted to compile volumes of quest information and solutions into help files, journals,
+news
+posts
+, or other "compendiums".
+(See HELP NEWBIE QUESTS, HELP QUEST LOG)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

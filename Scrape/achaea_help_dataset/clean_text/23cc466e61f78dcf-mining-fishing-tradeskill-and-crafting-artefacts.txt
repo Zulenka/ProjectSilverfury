@@ -1,0 +1,330 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.7 Mining, Fishing, Tradeskill, and Crafting Artefacts
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+A miniature mine
+cart
+:                                        400 Credits
+Artefact
+power
+: batch_refine
+- Raise the number of
+commodities
+you can batch refine at once to 1000.
+A prospector's guidebook:                                     200 Credits
+Artefact power: mine_capacity
+- Increase your mine ownership capacity by 1
+A prospector's almanac:                                       350 Credits
+Artefact power: mine_capacity
+- Increase your mine ownership capacity by
+2
+A trader's reference:                                         200 Credits
+Artefact power:
+commodity
+_
+market
+- Access the commodities market from anywhere.
+- This includes both
+buying
+and
+selling
+.
+A portable paired ourobori:                                   800 Credits
+- PLACE <ourobori> to set it up in a room for an
+hour
+and use as normal.
+A Medallion of Enchantments:                                  300 Credits
+Artefact power: batch_enchantments
+- This will allow you to batch up to
+5
+conjuration
+creations.
+- The
+syntax
+is: BEGIN CREATION OF <1-5> <enchantment>
+- Enchantments that use the syntax BEGIN
+ENCHANTMENT
+OF... cannot be batched.
+Gloves of
+Harvesting
+:                                         300 Credits
+Artefact power: faster_harvest
+- Harvest more
+plants
+with a reduced
+balance
+cost.
+- This item affects
+gathering
+plant
+-based ingredients in the Gathering
+skill
+.
+A
+gold
+-inlaid mill:                                           300 Credits
+- This mill speeds up the milling of
+inks
+and allows you to mill in batches of 10 at a
+time
+.
+Gloves of Extraction:                                         300 Credits
+Artefact power: faster_extract
+- Extract more
+minerals
+at a reduced balance cost.
+A mighty butcher's cleaver:                                   300 Credits
+- Halve the balance on butchering
+corpses
+and increase your returns.
+- Extra ingredient effect does not
+apply
+to gathering meat.
+A furnisher's awl:                                            300 Credits
+Artefact power: sampling
+- Increase the number of
+furnishing
+material samples gathered from around the land.
+A bronze cowbell:                                             300 Credits
+Artefact power: increased_milk
+- Increase your chance of gathering milk over
+eggs
+when GATHERing from farms in the
+wilderness
+.
+A Loki's Tear amulet:                                         250 Credits
+Artefact power:
+venom
+_yield
+- This amulet allows toxicologists to produce 100% more venom.
+- Must be worn to take effect.
+A portable anvil:                                             250 Credits
+- Grants the owner the
+ability
+to PLACE ANVIL, dropping a functional
+forge
+in the room for one
+achaean
+day
+.
+A platinum prybar:                                            150 Credits
+Artefact power: skilled_disassemble
+- Retain more commodities when DISASSEMBLING furniture.
+- For those
+who
+are not transcendent in Furnishing, you will recover commodities as if you were transcendent.
+- For those already fully skilled in Furnishing, there will be no loss of commodities.
+A portable tattooist's easel:                                 300 Credits
+Artefact power: batch_
+tattoos
+- This easel allows up to five
+tattoo
+stencils to be inked at once.
+A portable buffet table:                                      300 Credits
+- This portable table applies the stasis effect to any
+food
+or drink placed inside.
+- When it is DROPped by its owner, it will remain there, unable to be moved by anyone
+save
+its owner, for an Achaean day.
+A
+leather
+-bound tome of culinary delights:                    150 Credits
+- Store
+cooking
+recipes in this tome.
+- See TRADEBOOK for syntaxes
+A leather-bound tome of tailored splendour:                   150 Credits
+- Store
+tailoring
+patterns
+in this tome.
+- See TRADEBOOK for syntaxes
+A leather-bound tome of
+schematic
+wonders:                    150 Credits
+- Store
+jewellery
+schematics
+in this tome.
+- See TRADEBOOK for syntaxes
+A platinum lure:                                              250 Credits
+Artefact power:
+fishing
+_lure
+- Grants a 4% bonus to strike chance when fishing.
+A golden spatula:                                             300 Credits
+Artefact power: batch_ingredients
+- This spatula grants you the ability to REFINE multiple ingredients at once.
+- REFINE FOR <#> <ingredient>
+A furnishing mallet:                                          400 Credits
+Artefact power: furniture_repair
+- Extend the life of a
+piece
+of furniture. (Once per day.)
+- It can only be used once a day on any type of furniture.
+- This does not incur any gold or commodity costs.
+- Syntax: REPAIR FURNITURE <item to repair>
+A leather-bound tome of furnishing excellence:                150 Credits
+- Store furnishing patterns in this tome.
+- See TRADEBOOK for syntaxes
+A wire-bound cork:                                            200 Credits
+- PLUG CORK IN <keg/
+barrel
+/cask> to transform a standard furnishing keg/barrel/cask into a non
+decaying
+and resetting version, and also expand its capacity to 200 sips
+An instructional drinks menu:                                 350 Credits
+Artefact power:
+beverages
+_
+spec
+- This menu allows you to UNSPECIALISE in Beverages
+specialisation
+for no
+lesson
+cost once per 24
+hours
+(beverages_spec)
+A sailor's crate:                                             200 Credits
+Artefact power: shipcomm_expansion
+- Increases your
+rift
+capacity for
+ship
+commodities by 500 (shipcomm_expansion(1))
+A captain's crate:                                            400 Credits
+Artefact power: shipcomm_expansion
+- Increases your rift capacity for ship commodities by 1000 (shipcomm_expansion(2))
+A smuggler's crate:                                           600 Credits
+Artefact power: shipcomm_expansion
+- Increases your rift capacity for ship commodities by 1500 (shipcomm_expansion(
+3
+))
+An artist's beret:                                            400 Credits
+Artefact power:
+artistry
+_
+channels
+- Reduces the
+channel
+time for artistry EMBELLISH from 3
+seconds
+to 2 seconds intervals (artistry_channels)
+A leather-bound
+book
+of basic artistry techniques:            300 Credits
+Artefact power: artistry_sessions
+- Increases daily gain of artistry sessions by 1 (artistry_sessions(1))
+A leather-bound book of intermediate artistry techniques:     500 Credits
+Artefact power: artistry_sessions
+- Increases daily gain of artistry sessions by 2 (artistry_sessions(2))
+A leather-bound book of advanced artistry techniques:         700 Credits
+Artefact power: artistry_sessions
+- Increases daily gain of artistry sessions by 3 (artistry_sessions(3))
+A leather-bound tome of quaffable quenchers:                  150 Credits
+- Store beverages diagrams in this tome. See TRADEBOOK for syntaxes.
+A leather-bound tome of artistic aspirations:                 150 Credits
+- Store artistry drafts in this tome. See TRADEBOOK for syntaxes.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

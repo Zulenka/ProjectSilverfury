@@ -1,0 +1,163 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.16 The SHAMAN CLASS
+(See also:
+HELP CURSES
+,
+HELP VODUN
+,
+HELP SPIRITLORE
+,
+HELP
+8, HELP
+CLASS
+)
+The enigmatic ritualists called Shamans hail from the wintry northernlands of
+Hashan
+. The class was born in 288 A.F. of the modern age, when Firefox Sly
+opened the
+guild
+of Shamans to the
+world
+.
+Drawing
+their
+strength
+from the
+darker side of mysticism, the class of Shamans is not inherently aligned with
+any ethos. However, they tend to
+draw
+those
+who
+embrace
+the secrets of the
+shadows more readily than the
+light
+. Hence, their
+membership
+is mostly
+contained within their historical home of Hashan with a few residing in
+Ashtan
+and
+Mhaldor
+, but rarely in
+Cyrene
+,
+Eleusis
+, or
+Targossas
+.
+Fiercely spiritual and reclusive, Shamans
+practice
+the art of
+Curses
+, through
+which they can hex their opponents with a number of debilitating
+afflictions
+.
+They are formidable foes even from afar, for they can craft
+Vodun
+dolls and
+manipulate
+others
+, breaking limbs, causing
+bleeding
+, paralysing, even leech
+experience
+from a distance. A
+Shaman
+is a slippery opponent in
+combat
+, and once
+one has gained a full likeness of you, extremely difficult to overcome.
+Forsaking their ties to the earthen magics, Shamans embrace the
+power
+of
+Spiritlore
+, allowing them to seek out and
+bind
+long-
+lost
+spirits into their
+body. These spirits grant a multitude of new powers, as well as augment their
+existing
+abilities
+in Vodun and Curses.
+The
+skills
+of a Shaman are Vodun, Curses, and Spiritlore. A
+fledgling
+Shaman
+gains Spiritlore and Curses, while Vodun is gained upon
+embracing
+class.
+(See also:
+HELP CURSES
+,
+HELP VODUN
+,
+HELP SPIRITLORE
+, HELP 8, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

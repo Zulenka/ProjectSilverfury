@@ -1,0 +1,146 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.2.1 CHOOSING A HOUSE
+(See
+HELP
+8 for more information on
+Houses
+.)
+A
+House
+is a
+group
+of people
+who
+will
+control
+many aspects of your life in
+Achaea
+for a long
+time
+. If you can't get along with them, then
+think
+very
+carefully about
+joining
+.
+Selecting
+a House
+ranks
+among the most important choices you'll make throughout
+all of your
+days
+in Achaea. Make it wisely. Get to know the
+other
+members of
+this House, at least by reputation. Ask around. Become familiar with the
+classes
+(
+HELP CLASSES
+, HELP
+CLASSLIST
+) and the Houses of Achaea (
+HELP HOUSES
+,
+HELP HOUSESYSTEM
+, HOUSE LIST). If you make the right decision, you'll have a
+much better life in our realms.
+A great way to see a bit more about the people who
+run
+a particular House, and
+to see what it actually takes to rise in
+rank
+in that group -
+HELP NEWCOMERS
+<house>. This is a document written by the leadership of each House and can
+reveal a great deal about how they think, and how hard (or easy) it is to get
+ahead in the House. And of course, you will want to view the House Charter and
+the list of accepted classes in
+HELP HOUSE
+<house shortname>.
+Beyond that, meet the members.
+Talk
+to them. Ask about them. See what sort of
+reputation they have.
+Look
+for their
+names
+in the
+Achaean
+combat
+rankings
+. See
+if they are helpful and responsive, or reclusive and self-centred.
+Houses are a great way to get ahead in Achaea. While you can gain
+class
+skills
+without joining a House, you will not be able to benefit from the wealth of
+knowledge about the class skills and the ways of the land that a House can
+offer, not to mention the individual House
+culture
+, community, friendships, and
+political clout.
+(See HELP 8 for more information on Houses.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

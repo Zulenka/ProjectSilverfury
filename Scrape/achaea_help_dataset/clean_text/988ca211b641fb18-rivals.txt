@@ -1,0 +1,193 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.34 Rivals
+What are
+rivals
+?
+----------------
+The rivals
+system
+in
+Achaea
+allows you to mutually recognise
+others
+as your
+rivals. Unlike
+enemies
+(see
+HELP
+ENEMIES), the rivals system is based on mutual
+agreement. That is, you can request to be formally recognised as a 'rival' by
+anyone you like (with some exceptions), but the
+rival
+status
+will not be formal
+until he or she recognises you as a rival in return. None of the implications
+of mutually recognised
+rivalry
+will be in effect until then.
+You can only mutually recognise 20 people maximum as your rivals.
+You must be
+level
+30 or over to enter into a formal rivalry with another.
+What are the implications of rivalry?
+-------------------------------------
+Please do not simply enter into a rivalry with anyone until you've
+read
+and
+understood the
+following
+! With anyone you have entered into a formal rivalry,
+you:
+- Can
+attack
+each
+other
+at will for as long as the rivalry lasts. Neither
+party
+can
+issue
+the other for
+PK
+reasons. It basically means that you two have
+officially agreed to brawl it out, for as long as the rivalry lasts. Once the
+rivalry ends, so too do ALL pre-existing
+roleplay
+reasons for
+attacking
+one
+another. If the rivalry ends in the middle of a
+fight
+, the fight can continue
+until one party escapes or dies, at which
+time
+the rivalry conflict is
+considered complete.
+- Do not gain
+infamy
+when attacking each other, as if you had both indemnified
+each other (see HELP INFAMY).
+As far as other
+parties
+not involved in the rivalry are concerned:  They do not
+have any roleplay reasons to intervene in the conflict.
+Adding and removing rivals
+--------------------------
+If Jim wants to add Sally as a rival, Jim uses the
+command
+: RIVAL SALLY. Sally
+will get a
+message
+about Jim's request, and she can also check for pending
+rivalry requests with the command RIVALS REQUESTS (or just RIVALS R). To accept
+Jim's request, Sally can simply type RIVAL JIM, and the rivalry becomes
+official.
+Using the
+syntax
+above results in a rivalry that lasts an indefinite amount of
+time. To enter into a time-limited rivalry, the person initiating the rivalry
+request would type RIVAL <hated wretch of a person> FOR <x>
+DAYS
+, where DAYS is
+in
+OOC
+time. This time would begin counting down after the person receiving
+the rivalry request accepts it, NOT at the time the request is initiated.
+If at any
+point
+, either rival decides to nullify the rivalry, he or she can
+request it by typing RIVAL
+REMOVE
+<rival>. For example, if Jim changes his mind
+about being a rival of Sally, he can RIVAL REMOVE SALLY. However, this does not
+mean that the rivalry is removed. Entering into a mutual rivalry is serious
+business, and you cannot just decide to cancel it anytime you please. For the
+rivalry to be fully nullified, one of two
+things
+needs to happen: your rival
+must also RIVAL REMOVE you from his or her end, or a full
+Achaean
+month
+(25
+RL
+hours
+) from the time you initiated the rivalry removal must pass, whichever
+happens sooner. Of course, if you were in a time-limited rivalry where the
+rivalry was scheduled to end sooner than 25 RL hours, it would still end at
+that scheduled time.
+Syntax
+------
+RIVALS - see with whom you have mutually acknowledged rivalry.
+RIVALS R(EQUESTS) - see outstanding requests for
+rivalries
+from or to you.
+RIVAL <person> - request or confirm mutual rivalry with another.
+RIVAL <person> FOR <amount> DAYS - same as above, but time limited.
+RIVAL REMOVE <person> -
+withdraw
+the request for/initiate the end of/end a
+rivalry.
+RIVALRIES <person> - see whom others have declared formal rivalries.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

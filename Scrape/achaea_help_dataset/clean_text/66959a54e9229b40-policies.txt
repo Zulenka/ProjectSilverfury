@@ -1,0 +1,192 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15 POLICIES
+15.1    Policysummary
+Summary of Achaea's
+policies
+.
+15.1.1  Terms of Service
+Achaea's terms of
+service
+.
+15.2    Underage
+What we expect in the way of maturity.
+15.3    Your Adventurer
+Rules related to transfers,
+sharing
+, etc.
+15.3.1  Seconds
+The rules of second adventurers.
+15.3.2  Multiplaying
+The rules for
+multiplaying
+.
+15.3.3  Adventurersharing Sharing adventurers is strictly forbidden
+.
+15.3.4  Cross Character
+Cross
+character
+accountability
+.
+15.3.5  Deletion
+Deletion
+of
+inactive
+characters.
+15.4    Playerkilling
+Guidelines for
+killing
+other
+players.
+15.4.1  Thievery
+Stealing
+from other players.
+15.4.2  Scams
+Protecting your
+gold
+and your adventurer.
+15.4.3  Denizen Alliances Defense of denizens by organisations
+.
+15.4.4  Fences
+All about Jaguar
+fences
+.
+15.5    Honour
+Guidelines for acceptable behavior.
+15.6    Roleplaying
+Read
+about
+roleplaying
+in
+Achaea
+.
+15.6.1  Insanity
+Subtle malady of the mortal mind.
+15.6.2  RPWHO
+A way to seek out roleplaying opportunities.
+15.7    Spamming
+Rules pertaining to
+spamming
+.
+15.7.1  Advertising
+IC
+and
+OOC
+advertising
+.
+15.8    Triggers
+Triggers
+,
+automation
+, and
+AUTO
+ANYTHING
+.
+15.9    Harassment
+Just
+say
+no!
+15.10   AFK
+Don't do it.
+15.11   Languagerules
+Don't offend people with obnoxious
+language
+.
+15.11.1 Discriminatory Language
+An explanation of this.
+15.12   Issues
+Filing
+ISSUES
+to get customer service.
+15.12.1 IC Resolution
+A sneaky but important part of ISSUES.
+15.12.2 Filing an issue
+Once IC
+resolution
+is tried you can
+ISSUE
+.
+15.13   Illusions
+Illusions
+and restrictions on them.
+15.14   Griefing
+What is
+griefing
+?
+15.15   OOC Combat Comms
+Communication
+between
+systems
+.
+15.16   Undeath
+You're now
+undead
+, oh no!
+15.17   Admin Penalties
+What to expect,
+admin
+penalties
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,269 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.10 Planes Talismans
+The "Planes"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the
+pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The
+Planes
+set contains the following talismans:
+-----------------------------------------------
+A mirror of
+Fae
+perception          - TALISMAN INFO FAEMIRROR
+- Purchasable in
+Delos
+for 700
+bound
+credits
+.
+- This item is related to the
+plane
+of
+Annwyn
+.
+- Possessing this mirror will allow you to perceive how many
+other
+individuals stand alongside someone
+who
+you scry via the farsee
+ability
+.
+A pageless
+book
+- TALISMAN INFO HOLLOWBOOK
+- Purchasable in Delos for 500 bound credits.
+- This item is related to the plane of Avinaar.
+- A memory of desolation and devastation, opening this book in a location that has been destroyed by a hostile
+tank
+detonation in the last
+Achaean
+month
+will reveal the identities of those who participated to you.
+A cowculating carving               - TALISMAN INFO COWCULATOR
+- Purchasable in Delos for 150 bound credits.
+- This item is related to the plane of
+Bopalopia
+.
+- You may COWCULATE <calculation> and your bovine
+pocket
+aid will make sure the rarest of equations are well done.
+A celestial coronet                 - TALISMAN INFO
+CELESTIALCORONET
+- Purchasable in Delos for 1000 bound credits.
+- This item is related to the plane of Celestia.
+- When worn, if one of your followers
+falls
+in battle against a
+denizen
+, this coronet will allow you to take their place and
+die
+in their stead.
+A jagged claw                       - TALISMAN INFO CHAOSCLAW
+- Purchasable in Delos for 1200 bound credits.
+- This item is related to the plane of Chaos.
+- Pointing this at a mutual
+ally
+will
+bind
+you to them in their
+quest
+for
+dominion
+.
+- All of their
+enemies
+will also become your enemies (in addition to any you have personally configured)
+- The only ally you will have during this
+time
+is the one you have bound yourself to.
+- This effect lasts ten
+minutes
+.
+A massive iron gateway              - TALISMAN INFO GOLEMGATEWAY
+- Purchasable in Delos for 350 bound credits.
+- This item is related to the Ether, the space between planes.
+- Open this gateway within a (personal)
+house
+you own and an alchemical golem will come forth as one of your
+servants
+.
+- One per house.
+A crystal sword                     - TALISMAN INFO
+CRYSTALSWORD
+- Purchasable in Delos for 2500 bound credits.
+- This item is related to the plane of Inferno.
+- SUNDER
+HARMONY
+to disrupt harmonics and vibrations in a location.
+- You will be considered an ally to said vibrations if relevant and not an
+enemy
+: this lasts three minutes and comes with a 30
+minute
+cooldown, and is tied to the location in which you initiate it.
+- This does not affect the retardation vibration.
+- Additionally, this sword functions as a
+level
+3
+bastard sword.
+An icon statuette                   - TALISMAN INFO
+ICONSTATUETTE
+- Purchasable in Delos for 1200 bound credits.
+- This item is related to the plane of Memory.
+- Crafted in the
+style
+of the icons of old, this statuette will offer you a
+boon
+to one of your
+base
+statistics
+so long as you
+hold
+it.
+- This boon
+shifts
+periodically (once per
+day
+)
+- This will not function alongside level 3
+stat
+artefacts
+but will stack with artefacts up to the equivalent of level 3 boost.
+A sacrificial kris                  - TALISMAN INFO KRIS
+- This item is not available in the Delosian talisman shop.
+- This item is related to the plane of
+Nishnatoba
+.
+-
+Wield
+this sacrificial blade and OFFER up any denizen
+corpse
+to your favourite
+Divine
+when you are not in front of a
+shrine
+.
+- You can ATTUNE it in the presence of any Deity's
+shrines
+once per Achaean month.
+- Any shrine in the same room will take precedence for
+offerings
+.
+- Can not be used to
+sanctify
+or
+defile
+.
+A jar of withered brains            - TALISMAN INFO BRAINJAR
+- Purchasable in Delos for 600 bound credits.
+- This item is related to the plane of
+Underworld
+.
+- OPENing this jar will drive you to madness, subjecting you to the effects of
+insanity
+for two minutes.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the historical set you can TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND BIND IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is
+2
+/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

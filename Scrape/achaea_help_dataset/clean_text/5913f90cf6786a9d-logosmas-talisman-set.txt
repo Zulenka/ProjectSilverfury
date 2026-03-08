@@ -1,0 +1,180 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.17 Logosmas Talisman Set
+The "Logosmas"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+. This will always be announced via the relevant
+news
+when the pieces are currently available.
+-
+Trading
+between players (pieces only)
+The
+Logosmas
+set contains the following talismans:
+---------------------------------------------------
+A reuseable
+snowball
+- TALISMAN INFO SNOWBALL
+- Priced at 50
+credits
+- This snowball will return to you when thrown no matter how many
+times
+you hurl it at your hapless
+friends
+or foes.
+A steaming kettle of
+halfnog
+- TALISMAN INFO HALFNOG
+- Priced at 150 credits
+- This kettle of halfnog shall
+refill
+with a brew to make even the most avid drinker
+lose
+their sobriety!
+A popcorn garland                   - TALISMAN INFO
+POPCORNGARLAND
+- Priced at 300 credits
+- HANG this garland in a room with
+trees
+or similar and
+attempts
+to swing up will be blocked by the garland.
+- Each
+attempt
+pops off some popcorn and once none is left the garland will disperse for an
+hour
+.
+- This will block around three to five attempts on average.
+Some sticky
+taffy
+- TALISMAN INFO TAFFY
+- Priced at 450 credits
+- Drop this taffy in a location and the next person (including you!) to
+walk
+in will have it stick to their feet.
+- This reduces any celerity bonuses they may have by two rooms and lasts 30
+seconds
+.
+- It will reset to you an hour after being activated.
+A
+snowglobe
+of the Iron Alehouse    - TALISMAN INFO SNOWGLOBE
+- Priced at 600 credits
+- During winter
+afflictions
+conveyed through your
+battlerage
+have a chance to last an additional second while you possess this globe.
+A red and
+gold
+scarf                - TALISMAN INFO
+LOGOSMASSCARF
+- Priced at 900 credits
+- This talisman conveys a minor reduction to the chance you will be disrupted when afflicted with the shivering affliction.
+A bulging sack of snowflakes        - TALISMAN INFO
+SNOWSACK
+- Priced at 1200 credits
+- OPEN this sack in a
+direction
+and it will raise icewalls in line of sight for up to five rooms.
+- Can only be used once every five
+minutes
+and only against bidirectional
+exits
+.
+A garnished Logosmas
+gifttag
+- TALISMAN INFO GIFTTAG
+- Priced at 1600 credits
+- ATTACH GIFTTAG TO <target> and so long as they remain outdoors, in good
+health
+, and on the
+Sapience
+mainland they will be hoisted away ten seconds later to one of a random set of locations.
+- Any form of
+entanglement
+will block this process from completing, and room hinders
+apply
+their effects as normal.
+- This tag can be used once every thirty minutes and there is a five
+minute
+cooldown on a room when a tag is used.
+- In addition, someone may
+REJECT
+GIFT if there is someone else in their location and they do so before the half way
+mark
+of the timer, and the tag will leap to a random person in the room!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

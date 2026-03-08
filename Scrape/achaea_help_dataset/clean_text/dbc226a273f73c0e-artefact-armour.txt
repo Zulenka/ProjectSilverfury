@@ -1,0 +1,260 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.5 Artefact Armour
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+What Are Embrasures, Paragons, And Rondels?
+-------------------------------------------
+Embrasures are indentations made in a suit of
+armour
+that can
+hold
+Paragons.
+Paragons are artefacts that can be inserted into an empty embrasure, they have various special effects and bonuses.
+Rondels are armour
+pieces
+that are used with a suit of armour that has one embrasure already added. These will make the armour non-decay, resetting, customisable (via
+CUSTOMISATION
+) and will expand the embrasure count (up to a maximum of three embrasures).
+How To Make Artefact Armour
+---------------------------
+Take your suit of
+decaying
+, normal armour to a Legendary Armoursmith, ask them to add an EMBRASURE to it (EMBRASURE <armour>). This will cost you
+commodities
+(use
+FORGINGCOMMS
+EMBRASURE <armour type> to see how many) and give your armour one embrasure. Then purchase a Rondel from the artefact armour
+shop
+in Delos and EXPAND <armourID> EMBRASURE WITH <rondelID>.
+If you have added a gilded rondel to your armour and
+wish
+to upgrade to a sun and starburst rondel, please use ARTEFACT <armourID> UPGRADE to achieve this!
+A gilded rondel:                                              350 Credits
+- Armour becomes:
+2
+embrasures, non-decay, resetting, and customisable.
+A sun and starburst rondel:                                   850 Credits
+- Armour becomes:
+3
+embrasures, non-decay, resetting, and customisable.
+A torpous
+paragon
+:                                            300 Credits
+- Double
+endurance
+and
+willpower
+regeneration
+during
+sleep
+and meditation.
+A fuscous paragon:                                            500 Credits
+- Bonus resistance vs blunt type damage. (Approx
+5
+%)
+A vinaceous paragon:                                          500 Credits
+- Bonus resistance vs cutting type damage. (Approx 5%)
+A viridescent paragon:                                        500 Credits
+- Bonus resistance vs poison type damage. (Approx 7%)
+A piceous paragon:                                            500 Credits
+- Bonus resistance vs asphyxiation type damage. (Approx 7%)
+A citreous paragon:                                           450 Credits
+- Bonus resistance vs magic type damage. (Approx 7%)
+An aurous paragon:                                            400 Credits
+- Bonus resistance vs psychic type damage. (Approx 7%)
+A cyaneous paragon:                                           400 Credits
+- Bonus resistance vs cold type damage. (Approx 7%)
+An oleaginous paragon:                                        400 Credits
+- Bonus resistance vs
+fire
+type damage. (Approx 7%)
+A caliginous paragon:                                         400 Credits
+- Bonus resistance vs electricity type damage. (Approx 7%)
+A nacreous tetrahedral paragon:                               800 Credits
+-
+Morphing
+armour, 1
+hour
+cooldown.
+- Simply MORPHARMOUR <armour> INTO <type>!
+A nacreous octahedral paragon:                                1200 Credits
+- Morphing armour, 20
+minute
+cooldown.
+- Simply MORPHARMOUR <armour> INTO <type>!
+A nacreous deltahedral paragon:                               1900 Credits
+- Morphing armour, 10 minute cooldown.
+- Simply MORPHARMOUR <armour> INTO <type>!
+A cupreous paragon:                                           250 Credits
+-
+Container
+! Your armour can hold up to 20 items.
+An aeneaous paragon:                                          1000 Credits
+-
+Shield
+of Absorption effect!
+A niveous paragon:                                            700 Credits
+- 5% of incoming damage from
+denizens
+will be returned to you as endurance.
+A luteous dodecahedron paragon:                               400 Credits
+- This paragon is a
+level
+two version of the cupreous paragon. Stasis is applied to the container effect.
+A serendipitous paragon:                                      400 Credits
+- 5% of incoming damage from denizens will be returned to you as willpower.
+A resonate metalliferous paragon:                             750 Credits
+- A paragon that offers a shifting bonus resistance (7.5%).
+An auspicious icosagon paragon:                               1000 Credits
+- This paragon has a 20% chance to increase your
+critical
+hits (lower than
+World
+Shattering) by one level.
+A crucious paragon:                                           1000 Credits
+- On a per-crit basis this paragon will either boost your crit multiplier or will cause a critical
+failure
+and deal no damage. This paragon also offers a new higher level of critical hit.
+A rufescent paragon:                                          400 Credits
+- This paragon gives you a damage boost versus the last person
+who
+killed you.
+A prismatic paragon:                                          900 Credits
+- This paragon automatically creates a prismatic barrier when the owner takes damage from a
+denizen
+that places the owner under 25% health.
+A paragon u-notch pry tool:                                   250 Credits
+- This pryall has unlimited uses and will never decay!
+A euphonious paragon:                                         500 Credits
+- Discuss with denizens to find out where they return to and how often.
+Command
+Summary:
+----------------
+For Legendary Armoursmiths:
+- FORGINGCOMMS EMBRASURE <armour type>
+How many and which commodities are needed to add an embrasure to an armourtype.
+- EMBRASURE <armourID>
+Add 1st embrasure to a suit of armour.
+For Weaponsmiths:
+- FORGINGCOMMS PRY
+How many and which commodities are needed to
+forge
+a pry.
+- FORGE FOR PRY
+Forge a pry.
+For Everyone:
+- INSERT <paragonID> INTO <armourID> [EMBRASURE 1-3]
+Insert a paragon into an empty embrasure.
+- EXPAND <armourID> EMBRASURE WITH <rondelID>
+Expand your armour's number of embrasures with a rondel.
+Up to a maximum of 3 embrasures.
+- PRY <armourID> EMBRASURE <1-3>
+Pry a paragon from an embrasure.
+Pry is consumed on use.
+You cannot pry a paragon that is on cooldown.
+- PRYALL <armourID>
+With a pryall, pry all paragons from an armour's embrasures at once.
+Pryall is consumed on use.
+You cannot pry a paragon that is on cooldown.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,503 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.10.1 Beverage Design
+Having gained the
+Beverages
+skill
+and chosen one or more
+specialisations
+see
+HELP BEVERAGES
+for instructions on how to do so), you are now ready
+to start designing drinks!
+Below is a comprehensive
+guide
+from start to finish on how to
+design
+and
+eventually create a beverage-related item, including any and all relevant
+rules and guidelines to ensure your design matches Achaea's standard of
+writing
+and acceptable content.
+To quickly get started making a drink, you will need to find a design!
+Use
+NDS
+LISTPUBLIC B to see all beverage
+designs
+available to you.
+Select one you like, and use NDS P <design#> to examine it in further detail.
+From there you will be able to determine which
+specialisation
+the beverage
+falls
+under, what
+command
+you will need to make the beverage, and which ingredients
+are required.
+Ingredients will be taken directly from your
+rift
+if not in your hands.
+So long as you are in possession of enough to cover the design requirements, you may:
+PRESS <nds id#> INTO <storage
+container
+/vessel>
+- You will need to have a press in your
+inventory
+before you can PRESS.
+STEEP <nds id#> INTO <storage container/vessel>
+- You will need to have a kettle in your inventory before you can STEEP.
+MIX <nds id#> INTO <storage container/vessel>
+- You will need to have a shaker in your inventory before you can MIX.
+DISTILL <nds id#> INTO <
+ageing
+container/vessel>
+- You will need to have a still in your inventory before you can DISTILL.
+FERMENT <nds id#> INTO <ageing container/vessel>
+- You will need to have a carboy in your inventory before you can FERMENT.
+- Beverages that need to be
+aged
+will need to be placed in barrels, casks,
+or kegs in a cellar (see
+HELP
+HOUSING
+UPGRADES).
+- All beverages can be placed into barrels, casks, or kegs for storage.
+- Barrels, casks, and kegs will need to be made by a furnisher.
+- If a beverage is best aged, then distilling or fermenting it into a
+vessel for direct
+drinking
+will result in poor product.
+All non
+barrel
+/cask/keg
+equipment
+can be purchased at "a cool cellar" in
+Delos
+.
+To design your own beverages, first create your
+sketch
+:
+(To design your own vessels see HELP VESSEL DESIGN.)
+DESIGN CREATE LIQUID
+Create a new beverage liquid sketch!
+Beverage Syntaxes
+------------------
+PRESS <nds id#> [
+PASSCODE
+] INTO <vessel>
+STEEP <nds id#> [PASSCODE] INTO <vessel>
+MIX <nds id#> [PASSCODE] INTO <vessel>
+DISTILL <nds id#> [PASSCODE] INTO <ageing container/vessel>
+FERMENT <nds id#> [PASSCODE] INTO <ageing container/vessel>
+- You will need empty vessels in your inventory or at your location.
+- Provided you have the appropriate specialisation and ingredients in the
+rift, make a beverage.
+- This will alter the vessel's Examined
+description
+to be the INVESSEL of
+the beverage.
+- Ageing
+containers
+must already be present in the housing cellar before they
+can be used to age beverages
+PROBE
+<barrel|keg|cask>
+- FOR DRINKS THAT ARE BEING AGED
+- See if/when your aged beverage is ready for drinking.
+- A drink will remain at the ideal drinking stage for one in-game year
+before it
+moves
+into being past its prime stage.
+DRAW
+<liquidshortname> FROM <keg/barrel/cask> INTO <vessel>
+- Draw a beverage that was being aged or stored into a vessel for drinking!
+Beverage design has no
+pattern
+or
+schematic
+to use, the entire design is
+created by you!
+DESIGN <sketch> FLUID <fluid type>
+- This sets the
+base
+liquid for the sketch and can only be one of the
+following
+options:
+absinthe(D)        eggnog(M)         whiskey(D)
+ale(F)             gin(D)            rum(D)
+beer(F)            grog(F)           vodka(D)
+bourbon(D)         juice(P)          brandy(D)
+buttermilk(M)
+kawhe
+(S)
+tea
+(S)
+cider(F)           lager(F)          toddy(M)
+cocktail(M)        liqueur(D)        vermouth(D)
+cognac(D)
+mead
+(F)           port(F)
+cordial(P)         milkshake(M)      porter(F)
+darkbrew(F)        tequila(D)        stout(F)
+wine(F)
+(D) = Distilled, (F) = Fermented, (M) = Mixed, (P) = Pressed, (S) = Steeped.
+NOTE 1: Beverages should not include straws, spoons, or
+other
+various drinking
+accessories. This is unfortunate, but because the beverage is a standalone
+drink/liquid, it cannot refer to the vessel it may eventually be poured into.
+NOTE
+2
+: Punch as a drink is a mixture of artificial, processed fruit flavours.
+It is not a mix of real fruit juices. "Punch" in designs that use juice or any
+natural ingredient should always be a "cocktail" or a "juice" mix with juice
+as the base fluid.
+NOTE
+3
+:
+Pumpkin
+-spice, and pumpkin
+pie
+spice do not exist in
+Achaea
+. These are
+a modern American invention; if you are designing beverages or foodstuffs that
+use them, please explicitly list the individual spices and not the amalgamated
+(and anachronistic) whole.
+NOTE 4: The
+names
+of the
+Gods
+are not appropriate for use in beverage
+titles
+unless explicitly commissioned by one of Them.
+DESIGN <sketch> GENERIC <text>
+- The Generic description is appended to the Appearance of a vessel to
+quickly convey what is inside.
+- 25 characters maximum.
+- For example "apple juice"
+- This must use the fluid type as the main noun.
+- This should not be a full sentence.
+- This should begin with a lower-case
+letter
+and not end in a full stop.
+DESIGN <sketch> INVESSEL <text>
+- This
+describes
+the beverage when within a vessel.
+- This will append the INVESSEL of the beverage to the vessel's
+PROBED/EXAMINED.
+- 250 characters maximum.
+- For example DESIGN <sketch> INVESSEL The fine pulp created by pressing
+mists golden apple juice with a cloudy haze.
+- The main noun here must match the fluid type.
+- This should be at least one full sentence.
+- This should begin with a capital letter and end with a full stop.
+- Do not include actions or
+reactions
+, simply what the item is.
+- Designs must be suitable for someone working in a medieval-ish
+environment
+.
+- Do not "evoke" or
+tell
+the reader what
+sense
+/
+emotion
+/impression your
+recipe gives.
+- Crafters are not enchanters; magic is not permitted in crafted designs.
+- Designs should
+describe
+the item, not the onlooker or consumer, use of
+"you" and "your" is prohibited.
+- All numbers must be written out in words. "one, two, three," etc.
+- Single spacing only.
+- Do not use words that require accents or other non-English
+punctuation
+,
+these cannot be replicated in Achaea and will be treated as
+misspellings
+.
+E.G: Puree, Sautee are common examples that would require an acute
+accent
+over the e.
+- Please use a GB English spellcheck and the Oxford
+comma
+. Achaea does not
+use American spelling.
+- Do not write
+messages
+into designs.
+- Keep your designs tasteful (not necessarily tasty).
+DESIGN <sketch> FIRSTDRUNKIDEAL <text>
+- This is the
+message
+people will see when they drink this beverage.
+- For aged beverages, this is the description at the ideal consumption
+time
+.
+- There is a maximum of 240 characters, which the
+system
+will limit you to.
+- Keep these reasonable, without forcing actions upon the drinker that
+go
+beyond the explicit drinking of the item.
+- Do not force subjective reactions upon the drinker.
+- $vessel can be used to refer to the appearance of the vessel being
+drunk
+from.
+DESIGN <sketch> THIRDDRUNKIDEAL <text>
+- This is the message people will see when someone drinks this beverage.
+- For aged beverages, this is the description at the ideal consumption time.
+- There is a maximum of 240 characters, which the system will limit you to.
+- Keep these reasonable, without forcing actions upon the drinker that go
+beyond the explicit drinking of the item.
+- Do not force subjective reactions upon the drinker.
+- $vessel can be used to refer to the appearance of the vessel being drunk
+from.
+- Use the following in place of names and
+pronouns
+: $drinker, $drinker_his,
+$drinker_him, $drinker_he.
+- Adding a plus (e.g. $+drinker) will capitalise the word.
+- $+drinker takes a sip of apple juice. $+drinker_he then tips back $vessel
+to chug down the rest.
+- Do include some version of the 'appearance' description. Otherwise
+onlookers will see only "Amunet drinks from the glass." They will not know
+exactly what she has drunk.
+DESIGN <sketch> TASTE <text>
+- This sets the text the taster sees if the liquid is of perfect age or does
+not need ageing.
+- 120 characters maximum.
+- This automatically prepends the appearance of the vessel.
+- This must end in a full stop.
+- ALWAYS PROBE THE SKETCH AFTER SETTING THIS.
+DESIGN <sketch> NOSE <text>
+- This is what your beverage smells like.
+- For aged beverages, this is the description at the ideal consumption time.
+- You can use the SMELL command to inspect a beverage before drinking it.
+- When designing this aspect of a beverage, please note that the 'appearance'
+of the item will automatically be prepended to the beginning of the text.
+- You will see the full sentence when you probe your sketch.
+- ALWAYS PROBE THE SKETCH AFTER SETTING THIS.
+- This must end with a full stop.
+DESIGN <sketch> INGREDIENTS ADD|
+REMOVE
+<#> <ingredient>
+- Add ingredients to your beverage design.
+- This is optional.
+DESIGN <sketch> PRIVATE ON|OFF
+- At a cost of 1000gp you can hide your designs from
+others
+when they do
+NDS MATCH searches. This flag may be set on the sketch or after approval
+with the corresponding NDS command.
+DESIGN <sketch> AGED <YES|NO>
+- Does this beverage need to be aged?
+- This will only be permitted for beverage designs that make sense.
+IF YOU SET AGED ON A DESIGN YOU WILL ALSO NEED TO SET THE FOLLOWING FIELDS
+==============================================================================
+DESIGN <sketch> FIRSTDRUNKYOUNG <text>
+- ONLY SET IF YOUR BEVERAGE NEEDS TO BE AGED
+- This is the message people will see when they drink this beverage before
+it is ready.
+- There is a maximum of 240 characters, which the system will limit you to.
+- Keep these reasonable, without forcing actions upon the drinker that go
+beyond the explicit drinking of the item.
+- Do not force subjective reactions upon the drinker.
+- $vessel can be used to refer to the appearance of the vessel being drunk
+from.
+DESIGN <sketch> THIRDDRUNKYOUNG <text>
+- ONLY SET IF YOUR BEVERAGE NEEDS TO BE AGED
+- This is the message people will see when someone drinks this beverage
+before it is ready.
+- There is a maximum of 240 characters, which the system will limit you to.
+- Keep these reasonable, without forcing actions upon the drinker that go
+beyond the explicit drinking of the item.
+- Do not force subjective reactions upon the drinker.
+- $vessel can be used to refer to the appearance of the vessel being drunk
+from.
+- Use the following in place of names and pronouns: $drinker, $drinker_his,
+$drinker_him, $drinker_he.
+- Adding a plus (e.g. $+drinker) will capitalise the word.
+- $+drinker takes a sip of apple juice. $+drinker_he then tips back $vessel
+to chug down the rest.
+- Do include some version of the 'appearance' description. Otherwise
+onlookers will see only "Amunet drinks from the glass." They will not know
+exactly what she has drunk.
+DESIGN <sketch> FIRSTDRUNKAGED <text>
+- ONLY SET IF YOUR BEVERAGE NEEDS TO BE AGED
+- This is the message people will see when they drink this beverage past its
+prime.
+- There is a maximum of 240 characters, which the system will limit you to.
+- Keep these reasonable, without forcing actions upon the drinker that go
+beyond the explicit drinking of the item.
+- Do not force subjective reactions upon the drinker.
+- $vessel can be used to refer to the appearance of the vessel being drunk
+from.
+DESIGN <sketch> THIRDDRUNKAGED <text>
+- ONLY SET IF YOUR BEVERAGE NEEDS TO BE AGED
+- This is the message people will see when someone drinks this beverage past
+its prime.
+- There is a maximum of 240 characters, which the system will limit you to.
+- Keep these reasonable, without forcing actions upon the drinker that go
+beyond the explicit drinking of the item.
+- Do not force subjective reactions upon the drinker.
+- $vessel can be used to refer to the appearance of the vessel being drunk
+from.
+- Use the following in place of names and pronouns: $drinker, $drinker_his,
+$drinker_him, $drinker_he.
+- Adding a plus (e.g. $+drinker) will capitalise the word.
+- $+drinker takes a sip of apple juice. $+drinker_he then tips back $vessel to
+chug down the rest.
+- Do include some version of the 'appearance' description. Otherwise
+onlookers will see only "Amunet drinks from the glass." They will not know
+exactly what she has drunk.
+DESIGN <sketch> YOUNGTASTE <text>
+- ONLY SET IF YOUR BEVERAGE NEEDS TO BE AGED
+- This sets the text the taster sees if the beverage needed to be aged, but
+has not been aged for long enough.
+- 120 characters maximum.
+- This automatically prepends the appearance of the vessel.
+- This must end in a full stop.
+- ALWAYS PROBE THE SKETCH AFTER SETTING THIS.
+DESIGN <sketch> OLDTASTE <text>
+- ONLY SET IF YOUR BEVERAGE NEEDS TO BE AGED
+- This sets the text the taster sees if the beverage needed to be aged and
+has been aged for too long.
+- 120 characters maximum.
+- This automatically prepends the appearance of the vessel.
+- This must end in a full stop.
+- ALWAYS PROBE THE SKETCH AFTER SETTING THIS.
+DESIGN <sketch> YOUNGNOSE <text>
+- ONLY SET IF YOUR BEVERAGE NEEDS TO BE AGED
+- This is what your beverage smells like if it has not been aged for long
+enough.
+- You can use the SMELL command to inspect a beverage before drinking it.
+- When designing this aspect of a beverage, please note that the 'appearance'
+of the item will automatically be prepended to the beginning of the text.
+- You will see the full sentence when you probe your sketch.
+- ALWAYS PROBE THE SKETCH AFTER SETTING THIS.
+- This must end with a full stop.
+DESIGN <sketch> OLDNOSE <text>
+- ONLY SET IF YOUR BEVERAGE NEEDS TO BE AGED
+- This is what your beverage smells like if it has been aged for too long.
+- You can use the SMELL command to inspect a beverage before drinking it.
+- When designing this aspect of a beverage, please note that the 'appearance'
+of the item will automatically be prepended to the beginning of the text.
+- You will see the full sentence when you probe your sketch.
+- ALWAYS PROBE THE SKETCH AFTER SETTING THIS.
+- This must end with a full stop.
+===============================================================================
+DESIGN <sketch> SUBMIT [URGENT]
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See
+HELP PROOFREADING
+for
+guidance
+- Submit your sketch for approval by the
+Crafting
+Council.
+- The cost to submit a design does scale based on the number of
+times
+it has
+had to be submitted,
+PROOF
+and check your work!
+Urgent:
+First submission 10000
+gold
+, second submission 12000 gold, third
+submission 15000 gold, fourth submission 20000 gold, fifth submission
+and cap) 30000 gold.
+Standard: 1000 -> 2000 -> 5000 -> 10000 -> 20000
+First submission 1000 gold, second submission 2000 gold, third submission
+5000 gold, fourth submission 10000 gold, fifth submission (and cap) 20000
+gold.
+- Must submit from the Cool Cellar in Delos (unless you possess the Crest of the
+Crafting Council)
+- The addition of URGENT places a design in a high-priority
+queue
+and costs an
+increased amount of gold.
+- You can have up to ten designs in the submission queue. This is total, across
+all
+tradeskills
+.
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See
+HELP PROOFREADING
+for assistance!
+DESIGN REQUEST <pattern>
+- Use this command at the Beverages Cellar when you have been notified (by message) that
+your pattern has been approved.
+- Have the gold required in your hands.
+See also
+HELP BEVERAGES
+,
+HELP PROOFREADING
+, HELP VESSEL DESIGN, and
+HELP CRAFTING GUIDELINES
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

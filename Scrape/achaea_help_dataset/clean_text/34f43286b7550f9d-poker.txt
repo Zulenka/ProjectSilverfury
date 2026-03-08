@@ -1,0 +1,224 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.4.8 POKER
+To play
+poker
+in
+Achaea
+, find a table (there are two in the Ace of Spades
+Casino in New
+Thera
+), and then simply
+buy
+in (POKER BUYIN FOR <amount>) when
+there isn't an active game. At least two players and no more than six are
+required to play.
+There are two different types of poker:
+Draw
+Poker and
+Lost
+Luck
+Hold
+'Em (or
+simply "Hold 'Em"). To find out which sort of game the table is playing,
+amongst
+other
+details, use POKER VIEW TABLE. This will
+show
+you what type of
+game is being played, the minimum and maximum buy-in amounts, and the minimum
+bet
+amount. If a game is presently in progress at the table, this will also
+tell
+you the
+status
+of the game and
+who
+is currently playing.
+On your turn, you have a number of options (which can all be referenced by
+using the POKER
+command
+with no arguments):
+POKER CALL                    To call is to match a bet or match a raise.
+POKER CHECK                   Checking is the equivalent of
+betting
+zero. If
+a subsequent player
+bets
+in the same round,
+you will still be able to bet/raise/call.
+POKER RAISE TO|BY <amount>    Raise the current max bet by or to a given
+amount.
+POKER FOLD                    Give up on this hand. You will not
+win
+any of
+the pot/sidepots.
+POKER ALLIN                   If you do not have enough funds in your stack
+to call a bet/raise, you can
+go
+"all in." If
+you win the hand, you are only eligible to win
+as much of the pot as your allin bet covered.
+Any remainder in the pot goes to the second
+highest hand, then the third highest, and so
+on, depending who went all in.
+POKER DISCARD <cards>|NONE    For draw poker only. You may specify up to five
+cards to discard, based on the order in which
+they are displayed in your hand. For example,
+to discard the first, second, and fourth cards
+in your hand, use POKER DISCARD 1
+2
+4.
+PLAYING DRAW POKER
+------------------
+All players automatically contribute 10% of the minimum bet amount to the pot
+(this is the "ante"). In addition, two starting bets will be made: the big
+blind pays the minimum bet amount, and the small blind pays half the
+minimum bet amount. The big and small blinds are rotated throughout the game.
+Each player is then dealt five cards, followed by a round of betting. Next,
+players may choose to discard any, all, or none of their cards and are dealt
+replacements. There is one more betting round, followed by the showdown. The
+winner is determined by the best hand possible from the five cards each player
+individually holds.
+PLAYING LOST LUCK HOLD 'EM
+--------------------------
+All players automatically contribute 10% of the minimum bet amount to the pot
+(this is the "ante"). In addition, two starting bets will be made: the big
+blind pays the minimum bet amount, and the small blind pays half the
+minimum bet amount. The big and small blinds are rotated throughout the game.
+Each player is dealt two cards, followed by a round of betting. Then, three
+community cards are dealt to the table (this is referred to as "the flop"),
+followed by another round of betting. Next, a fourth community card is dealt
+(this is referred to as "the turn"), followed by another round of betting. A
+fifth community card is dealt (this is referred to as "the river"), followed by
+a final round of betting, and then the showdown. The winner is determined by
+the best five card hand each player can form from any
+combination
+of their own
+two cards and the five community cards on the table.
+In the case of matching hands, the pot will be shared equally amongst the
+winners. If there is a remainder (e.g.
+sharing
+50
+gold
+between
+3
+people), it is
+paid to the dealer.
+THE HANDS
+---------
+In order of highest to lowest, the hands
+rank
+as follows:
+Royal Flush           A, K, Q, J, 10 of the same suit.
+Straight Flush        Five consecutive cards of the same suit.
+Four of a Kind        Four cards of the same rank.
+Full
+House
+Three of a Kind and a pair.
+Flush                 Five non-consecutive cards of the same suit.
+Straight              Five consecutive cards of any suit.
+Three of a Kind       Three cards of the same rank.
+Two Pair              Two pairs of cards of the same rank.
+One Pair              Two cards of the same rank.
+OTHER
+COMMANDS
+--------------
+At any
+time
+during the game, you may also use the
+following
+commands:
+POKER VIEW HAND               Show the cards currently in your hand.
+POKER VIEW TABLE              Show the current state of the table and
+any cards on it.
+POKER VIEW POT                Show the current value of the pot and what
+the current max bet is.
+POKER VIEW STACK              Show how much you bought in for and how
+much you have left.
+POKER SHOWCARDS ON|OFF        Choose whether to display the picture
+of the card as well as the
+name
+. You will need
+to set this each time you buy-in to a table.
+POKER
+LEAVE
+TABLE             Collect your remaining stack and leave the
+table. If you leave the table after the ante
+and before the hand is finished, you forfeit
+any ante or bets you have made.
+MISCELLANEOUS NOTES
+-------------------
+There is no
+scoring
+value applied to the suit of the cards (i.e. hearts are no
+different to diamonds).
+Aces can count for either low or high.
+There are no jokers or other "wild" cards.
+As with
+blackjack
+, poker is implemented so that counting cards will be of no
+use to you.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

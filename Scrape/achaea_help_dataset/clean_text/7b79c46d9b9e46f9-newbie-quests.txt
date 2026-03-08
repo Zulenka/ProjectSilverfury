@@ -1,0 +1,250 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+14.2 Newbie Quests
+(see
+HELP QUESTS
+, HELP QUEST LOG,
+HELP LODI
+,
+HELP MINIA
+,
+HELP GHELADAN
+,
+HELP RATTING
+, and
+HELP
+BUTTERFLIES
+)
+Hello, new adventurer! Wondering how to get started in
+Achaea
+with
+* increasing in
+experience
+, and
+* gaining
+gold
+?
+Read
+on!
+Quests
+are the
+key
+. With quests you can gain experience, gold, and sometimes
+items of great
+power
+. Some have risen to the eightieth
+level
+of experience, or
+higher, by
+questing
+ALONE!
+Quests are generally for you to figure out, alone, on your own, without help of
+any kind. Quests are puzzles and stories and situations, deliveries and
+lost
+and found and any number of
+things
+you can do for which there is a reward. See
+HELP QUESTS
+for more information.
+To get you started in Achaea, we have provided a list of
+denizens
+that you
+can
+talk
+to in
+Minia
+,
+Lodi
+, and
+Gheladan
+, all of whom have one or more quests
+for you to help them with. Simply GREET the
+denizen
+or
+say
+something
+like,
+"Hello, do you have a
+quest
+for
+me
+?" or "I'm
+looking
+for work."
+You will then be offered the opportunity to accept the quest and prompted to
+say "Yes" or "No." Some
+emotes
+such as "sure" and "okay" will also work to
+accept a quest. Sometimes you will have to do something, like pick up an item,
+to accept a quest. If you have quest hints enabled (
+CONFIG
+QUESTHINTS ON)
+you will see a
+prompt
+that
+tells
+you what to do to accept the quest.
+When you have accepted a quest, it will be added to your quest
+log
+! Just
+type QUEST LOG to see a list of all the quests you have accepted.
+Denizens to talk to in the Land of Minia (see HELP MINIA)
+---------------------------------------------------------
+* the
+Pixie
+Queen
+* a pixie schoolteacher
+* a tiny, red-haired pixie girl
+* the
+Kobold
+King
+* the Kobold King's consort
+* a kobold foreman
+* a haggard-looking kobold
+* the
+Imp
+Lord
+* Akar, the Squirrel
+Trainer
+* the
+pygmy
+priest
+, Rimba
+* Boga, the chieftain's wife
+* Asheara, the pygmy seamstress
+* Pepu, the pygmy cook
+Denizens to talk to in the Valley of Lodi (see HELP LODI)
+---------------------------------------------------------
+* Breit, a lazy farmerboy
+* Arane, the wife of Shais
+* Blaan, the hermit troll
+* Braan, the troll
+* Dorven, the fat foreman of the mine
+* a mad-looking Tsol'aa named Blenone
+* Sleff, a scrawny miner
+* the miner, Kortine
+* Mayor Durnun
+* Chief Constable Beck
+* Chief Coordinator Dren
+* Fergil the goose rancher
+* Sinoi, the Weaver
+* Bencur the Innkeeper
+* Scylina, Queen of the Wildcats
+Denizens to talk to in
+Mount
+Gheladan (see HELP GHELADAN)
+---------------------------------------------------------
+* Lorel, a tanner
+* Eskele, a butcher
+* Ealeo, the village hunter
+* Rothyll, an old farmer
+* Iruia, a baker
+* Giunda, a crazy old widow
+* Welhan, the village elder
+* Narl, a
+Murinae
+scavenger
+* Raktai, the Murinae Chieftain
+* Eny, a timid Murinae
+* Ferrua, a Murinae gatherer
+* Niluint,
+guardian
+of the Hornet Queen
+* Sisufe, the head worker bee
+* Evoisa, the chief hornet labourer
+* Intieme, the Queen Bee's
+guard
+More Quests
+-----------
+Two
+other
+common ways for new adventurers to gain gold or experience are
+ratting
+(see HELP RATTING) and catching butterflies (see HELP BUTTERFLIES).
+There are many quests to encounter outside the
+newbie
+areas of Minia, Lodi, and
+Gheladan. These quests, however, do not necessarily require you to say "yes" or
+"no" to accept, and they may not
+show
+up in your quest log. Some of them are
+simply designed to be secret quests that you must discover;
+others
+just have
+not yet been added to the current
+system
+.
+(see
+HELP QUESTS
+, HELP QUEST LOG,
+HELP LODI
+,
+HELP MINIA
+,
+HELP GHELADAN
+,
+HELP RATTING
+, and HELP BUTTERFLIES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

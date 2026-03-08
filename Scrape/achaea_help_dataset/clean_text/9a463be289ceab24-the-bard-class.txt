@@ -1,0 +1,152 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.3 THE BARD CLASS
+(See also:
+HELP BLADEDANCE
+,
+HELP COMPOSITION
+,
+HELP SAGAS
+,
+HELP WOE
+,
+HELP
+CLASS
+)
+Rising from humble origin through tutelage at the feet of the Elder God
+Scarlatti
+, the Bards of
+Achaea
+have long carved themselves into the living memory of
+Sapience
+as masters of song and
+movement
+.
+Yet their music was lacking. Yet their movement was inhibited. Limited by the confines of their art, they could not fell the great threats of the
+world
+. Their vivid voices could
+move
+a mortal heart, but could never touch a beast's soul. Their sublime harmonics heralded music's irrepressible
+might
+, but they had no meaning.
+They had no tale to
+tell
+.
+.
+..
+...
+But no longer.
+Refined by the gift of the Great
+Bard
+in the year 949 AF, the talents of Sapience's Bards were transformed from swashbuckling skalds into keepers of legacy.
+Wielding
+the lethal art of the
+Bladedance
+and its corresponding bladesong, with rapier in hand it is the Bard
+who
+composes great works to bolster
+ally
+and devastate foe. And in their chronicling of
+history
+is the most grandiose of all their arts: the
+Saga
+.
+Famous
+and pivotal tales that shaped Sapience in the Modern Age, the history of the new era is foundation to all the Great Bard believed mortality capable of achieving.
+But in the mountain
+city
+of
+Cyrene
+stands an edict most different. Bards of lowland
+cities
+recite
+Sagas
+of the land. Those of Cyrene are
+bound
+to but one, singular epic: the life and legend of Black Pazuzu, Prince of
+Woe
+. Spanning the length and breadth of the fell demon's existence from beginning to end, it was Cyrene who shouldered the burden of Achaea's most ancient evil. And in so doing they alone may tell the tale of his terrible sin.
+A Bard's
+skills
+include Bladedance,
+Composition
+, and Sagas. A
+fledgling
+Bard possesses Bladedance and Composition, and gains Sagas upon
+embracing
+class.
+Woe is an alternative iteration of the Sagas
+skill
+and is exclusive to Cyrene.
+(See also:
+HELP BLADEDANCE
+,
+HELP COMPOSITION
+,
+HELP SAGAS
+,
+HELP WOE
+, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

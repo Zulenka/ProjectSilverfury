@@ -1,0 +1,111 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.30.1 AI Ethics
+Statement on
+AI
+Ethics
+regarding Cognitive AI
+We understand that some people may have an
+issue
+with generative AI, whether that's because of some alleged ethical violations with what data was used to
+train
+them, or simply objecting to AI doing what may be considered rightful human work by some.
+Regarding the human work aspect,
+nothing
+about our cognitive AI takes jobs away from anyone. It's not possible for a human to craft AI responses quickly enough to be even remotely feasible, and while people can possess
+denizens
+in the game and have them give human-written responses, these take
+time
+and aren't scalable. The cost to staff a
+system
+24/7 that had people ready to respond asap to
+anything
+that
+triggers
+a cognitive
+denizen
+would be so high that the system would never get used. It would also, aside from being very expensive, be -much- slower in terms of response time.
+The only way cognitive denizens are possible is with AI - they don't replace humans creators in any way, but they do augment the
+experience
+for human players.
+Regarding the
+training
+of AI models, while this isn't the place for a nuanced discussion of AI ethics, we recognize there's a range of valid and principled viewpoints people have here. Our
+point
+of view is evolving as AI technology evolves, but right now we find that the benefits of experimenting with this new technology are worth it while the legal
+status
+of using the data they are trained on is litigated and potentially regulated. We'll be watching those developments closely, and will, of course, follow American law there. We built this system in such a way as to relatively easily accommodate, at least in theory, switching to
+other
+AI
+systems
+, so if we
+learn
+that the way a particular AI model was trained is now illegal, or that a new AI model that performs at least as well has less controversy over its training data, we'll switch to a new one.
+Matt Mihaly
+CEO, Iron Realms Entertainment
+Also See:
+HELP COGNITION
+, HELP COGNITION PERSONALITY, HELP COGNITION RULES, HELP COGNITION FAQ
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

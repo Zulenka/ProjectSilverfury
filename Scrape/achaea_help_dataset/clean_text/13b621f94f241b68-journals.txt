@@ -1,0 +1,198 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.18.1 Journals, Manuscripts, Books, and Parchment Scrolls
+(See also:
+HELP EDITOR
+,
+HELP
+LIBRARY
+)
+Personal
+journals
+,
+manuscripts
+,
+books
+, and
+parchment
+scrolls
+are
+book
+-like
+things
+in which you may record whatever you like. They may be purchased at many
+shops
+throughout the land, such as the Lucretian Athenaeum in New
+Thera
+.
+Journals are designed for you to record your journeys in the land, keep notes
+in,
+compose
+poetry, and generally write whatever you please. A
+journal
+has 50
+pages, each of which can
+hold
+a limited (though still fairly large) amount of
+text. A journal may only be written in by the owner of it, though it may be
+read
+by anyone.
+Books also have 50 pages, which may be written upon by anyone.
+Other
+than that, books are functionally identical to journals.
+Manuscripts also have 50 pages and fulfill a similar function, but have this
+added feature: anybody may write in a
+manuscript
+. It is also possible for the
+leaders of organisations to
+claim
+a manuscript so that only members of that org
+may edit the manuscript.
+Scrolls have a single page and can be written upon by anyone.
+Syntax
+:
+TITLE
+<document> <title>
+Give your journal/manuscript/
+scroll
+/book a title.
+CLAIM MANUSCRIPT <manuscript#> FOR <org name>
+City
+council members,
+House
+leaders, OR10s in
+divine
+orders
+, and heads of
+clans
+can claim a manuscript as property of your organisation. You must have
+the manuscript in your
+inventory
+to claim it. Once claimed, only members of
+that org may edit the manuscript.
+BOOKMARK <document> PAGE <#>
+Place the journal's, book's or manuscript's bookmark (not parchment, which
+has only 1 page anyway) on whatever page you
+wish
+. Doing so will cause
+the READ and WRITE
+commands
+to operate on that page, if no specific page
+number is specified.
+READ <document> PAGE <#>
+Read page <#> in the journal, manuscript, book, or parchment. If you omit
+the PAGE  <#>, then it will read the page that the bookmark is on.
+WRITE <document> PAGE <#>
+Write page <#> in journal, manuscript, book, or parchment. If you omit
+the PAGE <#>, then it will write the page that the bookmark is on. See
+HELP EDITOR
+for details about
+editing
+and
+saving
+your document.
+WRITE <document> PAGE <#> IN <language>
+Write in a document in a specific
+language
+. See
+HELP EDITOR
+for details about
+editing and saving your document.
+APPEND <journal> [PAGE <page>] [IN <language>] <text>
+Write in the document without entering the
+editor
+.
+TRANSLATE
+<document> TO <language>
+Translate a document from one language to another that you know.
+CONFIG
+JOURNALDATE ON|OFF
+Will enable or disable the automatic insertion of the current
+date
+at the top
+of your journal page. (Journals only)
+REQUEST SEAL OF <document>
+Make the journal, manuscript, book, or scroll permanently unchangeable.
+This can only be done by Mydoin, the bookseller, at the library in New Thera.
+BOOKLIST
+List the various journals and books in your inventory (this is part of the
+LISTS
+ability
+in the
+Vision
+skill
+).
+PASTE <LETTER> INTO <JOURNAL/MANUSCRIPT> [PAGE <NUMBER>]
+Paste a
+letter
+you are
+holding
+into your journal/manuscript. (See
+HELP LETTERS
+for more information on this.)
+(See also:
+HELP EDITOR
+, HELP LIBRARY)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

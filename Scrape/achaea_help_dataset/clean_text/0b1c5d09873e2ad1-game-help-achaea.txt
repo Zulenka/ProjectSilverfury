@@ -1,0 +1,126 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.27 LOGS
+Logs
+are records. In this case, they record various organisational activities.
+These include:
+City
+,
+House
+, Order, and
+Clan
+logs. The
+syntax
+for
+reading
+these general organisational logs is:
+READLOG <organisation name> [line to begin at] [how many
+days
+back]
+(The last two fields are optional.)
+Example syntax:
+READLOG
+VALNURANA
+This would
+read
+today's
+log
+for the Order of Valnurana.
+READLOG
+CYRENE
+0
+3
+This would read Cyrene's log of 3 days ago, starting at the beginning of it.
+READLOG
+DRUIDS
+50
+2
+This would read the Druids' log of 2 days ago, starting at line 50.
+Not everyone in an organisation has the
+power
+to read the logs in that
+organisation, but the breakdown of
+who
+can and cannot is detailed in the
+various
+help
+sections on
+Clans
+,
+Orders
+,
+Houses
+, and
+Cities
+.
+Some members of an organisation have the
+ability
+to write in the logs using
+WRITELOG <organisation> <message>.
+It is also possible to view the log of a
+ship
+, if you happen to have the
+privileges. To do so, SHIPLOG <ship>.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

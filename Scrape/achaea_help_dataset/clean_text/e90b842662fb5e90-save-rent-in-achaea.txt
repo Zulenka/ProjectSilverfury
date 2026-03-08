@@ -1,0 +1,189 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.23 Save / Rent in Achaea
+(see
+HELP RAMPAGE
+to see how to
+leave
+a
+rampage
+event
+)
+(See also
+HELP REGISTER
+,
+HELP INACTIVITY
+, and
+HELP
+QUIT
+)
+How to leave
+Achaea
+:
+GOOD:  Type
+QQ
+(or QUIT). Best to be registered (see HELP
+REGISTER
+).
+BAD:   Close your
+client
+or browser without QQ or QUIT.
+Read
+on to see why.
+In Achaea, you never need to
+rent
+or
+save
+in order to leave the game. Simply
+type QQ or QUIT and, after a brief delay, your soul will be kept safe until
+your return. You can abort the QQ or QUIT any
+time
+during the brief delay by
+typing STOP. Also if you take any damage during this time you will also stop
+your
+exit
+. You may benefit from
+registering
+, and we would certainly appreciate
+it if you were to register. Please see
+HELP REGISTER
+and the notes below about
+inactivity
+.
+QQ/
+Quitting
+the right way
+-------------------------
+-
+Gold
+should be in your
+pack
+or some
+other
+container
+.
+-
+Plants
+/
+herbs
+should be in the
+rift
+(HELP RIFT). If they aren't, they will
+fall to the ground as you leave the realms.
+-
+Quest
+items, including
+corpses
+, will fall to the ground no matter what.
+The WRONG Way
+-------------
+If you just close your browser
+window
+, or
+disconnect
+from Achaea (or the window
+of whatever
+mud
+client you happen to be using) then your
+character
+will still
+be playing the game (but without benefit of your loving attention). You may
+begin to get
+hungry
+. Someone may
+steal
+your possessions. You may be killed
+without ever
+embracing
+death
+. Risky business! That's why just closing
+your client is a bad
+idea
+. Always do QQ or QUIT and wait for a few
+seconds
+until Achaea
+says
+all is well and disconnects you.
+About Registering and Inactivity
+--------------------------------
+Characters may be erased after a
+period
+of inactivity which varies from a few
+days
+to a few
+months
+. The more play time you have, the longer we wait before
+counting you as
+inactive
+and removing your character.
+Unregistered characters are erased after only a single
+day
+of inactivity.
+(See also
+HELP REGISTER
+,
+HELP INACTIVITY
+, and HELP QUIT)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

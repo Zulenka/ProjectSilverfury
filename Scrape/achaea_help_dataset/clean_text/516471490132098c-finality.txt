@@ -1,0 +1,224 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.15 Blackwave Talismans
+The "Blackwave"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+. This will always be announced via the relevant
+news
+when the
+pieces are currently available.
+-
+Trading
+between players (pieces only)
+The Blackwave set contains the following talismans:
+---------------------------------------------------
+A
+taper
+of eternity                 - TALISMAN INFO TAPER
+- Priced at 50
+credits
+- Seal your
+letters
+with different coloured wax.
+A
+ring
+of
+finality
+- TALISMAN INFO FINALITYRING
+- Priced at 50 credits
+- This is a signet ring
+artefact
+themed for the Black Wave.
+A grievous keyring                  - TALISMAN INFO
+GRIEVOUSKEYRING
+- Priced at 100 credits
+- A serpentine keyring themed for the Black Wave, including a
+custom
+reaction
+for when you place
+keys
+on it.
+A subjectioner's spigot             - TALISMAN INFO
+BLACKSPIGOT
+- Priced at 400 credits
+- Expands your liquid
+rift
+capacity by three
+times
+the normal amount.
+Sunless Hope                        - TALISMAN INFO
+SUNLESSHOPE
+- Priced at 600 credits
+- A prismatic ring themed for the Black Wave.
+Vakha's Bribe                       - TALISMAN INFO
+BLACKCIRCLET
+- Priced at 850 credits
+- A circlet of determination themed for the Black Wave.
+An experimenter's grimoire          - TALISMAN INFO
+BLACKGRIMOIRE
+- Priced at 2000 credits
+- A grimoire of hasty adaptation themed for the Black Wave.
+Pedigree's
+Jewel
+- TALISMAN INFO JEWEL
+- Priced at 1000 credits
+- A gem of
+transmutation
+themed for the Black Wave.
+A blank and bantam
+goblin
+- TALISMAN INFO GOBLIN
+- Priced at 100 credits
+- A goblin created as a template for future modification.
+- This is used in conjunction with the smoked glass flask/amber ampoule.
+- Details for these can be found in HELP PROMO ITEMS.
+Revelation's
+guise
+- TALISMAN INFO GUISE
+- Priced at 1200 credits
+- This guise functions as a deathmask artefact (with a different deathsight, of course).
+- Second, during the night (while being worn) it will gain charge. This charge may be expended by BREATHE MIASMA.
+- Doing so will cause everyone in the location to deliver a final strike when slain, causing damage to everyone else in the location.
+- Note that this shall not
+trigger
+itself--if player1 kills player2 with the retributive strike, player2 shall not deliver a retributive strike of their own. That way lies madness!
+- However, for each strike that happens in a room, the next one is increased in
+power
+.
+Think
+of the possibilities!
+A
+canopic
+jar                       - TALISMAN INFO CANOPIC
+- Priced at 1000 credits
+- This jar allows one to store their current
+defences
+within to
+recall
+them at a later
+time
+.
+- CLASP this jar to store your current defences for your current
+class
+.
+- OPEN JAR at any time to restore those defences.
+- Note that the defences are stored on a class by class (or classless!) basis.
+- Some defences are excluded (
+anything
+with a cooldown, windup, or
+other
+form of cost), and if you discover a way that this will
+help
+you in
+combat
+expect that to be changed.
+- Clasping is an aggressive act, so you'll be unable to store defences such as
+rebounding
+/
+shield
+/reflections, etc.
+- OPENing the jar also requires you have full
+health
+and
+mana
+and carries a
+5
+minute
+cooldown. This cooldown is per person not per jar.
+An apperception stone               - TALISMAN INFO
+APPERCEPTIONSTONE
+- Priced at 1000 credits
+- GAZE INTO <stone> FOR <person> to
+look
+into a person's room as if you were standing directly alongside them.
+- Note that a shimmering
+orb
+present on the ground will utterly thwart your efforts, as the obscuring powers are beyond even this artefact.
+- Gazing takes 4
+seconds
+of (modifiable)
+equilibrium
+.
+Suremekh'neina                      - TALISMAN INFO SUREMEKH'NEINA
+- Priced at 2000
+- This legendary
+mantle
+conveys both a
+level
+3
+health and mana
+regeneration
+bonus.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

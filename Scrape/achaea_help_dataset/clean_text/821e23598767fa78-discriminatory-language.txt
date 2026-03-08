@@ -1,0 +1,187 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.11.1 Discriminatory Language
+As this has serious repercussions for your characters, we're
+going
+to explain
+what this is and means in
+Achaea
+.
+Achaea is a game on the internet, and the standards for behaviour across the
+internet, bolstered by the anonymity of the medium, have afforded a great
+leeway for people to be graceless, and for people to insult one another without
+care. Commonly we see it, even in our community, where people
+sink
+to being
+unkind without care for the fact that we are
+talking
+to
+other
+people. The lack
+of face-to-face interaction allows many Achaeans to feel as if they can
+say
+whatever they
+wish
+without consequence.
+The internet has somewhat normalised terrible behaviour towards other people.
+It facilitates division, it encourages kneejerk
+reactions
+with minimal
+engagement
+, it enables us to often and easily be our worst selves, and with
+a VPN
+who
+even cares about the subsequent ban? It is even easier to roll our
+eyes
+at "woke" or "snowflake"
+culture
+(loath as I am to use these terms, we
+hear them used to
+describe
+the
+admin
+team semi-often), and employ some
+colourful discriminatory
+language
+or meme to deride and dismiss those who
+are trying to inject a modicum of humanity back into our
+social
+interactions.
+Discriminatory language is
+defined
+by using aspects of a person that they have
+no choice in (I.E gender,
+race
+, disability, sexual orientation) to insult,
+denigrate, or use as the punchline to a joke. The common themes found in
+discriminatory language are often disadvantaged, overlooked, or persecuted
+groups
+- considered to be easy
+targets
+.
+EXAMPLE: If you recently killed someone and they are crying about it, they
+are not being "a woman". This is discriminatory (misogyny) as you are using
+women as the punchline for your quip and implying that women are lesser.
+EXAMPLE: If you are trying to explain
+something
+to a
+newbie
+and they are not
+getting it, they are not being "a retard". Again, this is discriminatory
+(ableism).
+EXAMPLE: Conversely, calling someone a "
+piece
+of shit" or "an idiot" is not
+discriminatory, these are simply descriptive of someone's actions and
+behaviours and does not invoke a protected
+group
+of people in order to create
+an insult. Just because you do not like something does not automatically make
+it discriminatory content.
+We do understand that for many this is going to be a
+learning
+process (for us
+as well!) Often we don't even realise the words we use in daily conversation.
+With that in mind we approach all accusations with the benefit of the doubt;
+we will warn first before any punishment is doled out.
+If you continue to be the lowest common denominator after a warning, then we
+will
+consider
+your
+slips
+wilful and administrative punishment will be levied.
+No one is going to
+lose
+access to their
+character
+for a simple foot-in-mouth
+moment and often an apology will quell any report, but we will inform you
+when you are inappropriate so that you can do better.
+With that said, the team is not perfect and we do not
+monitor
+everything
+entered into Achaea in a live setting. We do however keep good records and
+we can
+look
+back to verify and ascertain context and content when we are
+made aware of problem behaviour. If you believe someone is using
+discriminatory language, or worse, hatespeech, please file an
+issue
+.
+HELP LANGUAGE RULES
+is clear, discriminatory language is not welcome in
+Achaea, and those who cannot play Achaea without expressing themselves in
+this way are also not welcome.
+We would like to add one caveat: the above is all
+OOC
+. In character
+prejudice and discrimination when handled appropriately is acceptable.
+This is easily distinguished and our tolerance for people who cannot
+distinguish between the two situations is extremely low.
+Related
+Reading
+:
+HELP LANGUAGE RULES
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

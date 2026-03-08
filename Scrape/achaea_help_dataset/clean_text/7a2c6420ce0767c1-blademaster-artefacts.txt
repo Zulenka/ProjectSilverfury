@@ -1,0 +1,157 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.29 Blademaster Artefacts
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+A Blademaster's band of
+fire
+:                                 350 Credits
+- This band may be ATTACHed to a Blademaster's sword, increasing the
+speed
+and damage of
+attacks
+by
+5
+%.
+- This also makes the
+weapon
+reset to its owner.
+- This may be DETACHed.
+A Blademaster's band of lightning:                            800 Credits
+- This band may be ATTACHedto a Blademaster's sword, increasing the speed and damage of attacks by 10%.
+- This also makes the weapon reset to its owner.
+- This may be DETACHed.
+A Blademaster's band of ice:                                  1600 Credits
+- This band may be ATTACHED to a Blademaster's sword, increasing the speed and damage of attacks by 15%.
+- This also makes the weapon reset to its owner.
+- This may be DETACHed.
+An irreverent's
+guard
+chain:                                  150 Credits
+- Attach this to your
+Blademaster
+sword and you can give it to another person.
+- ATTACH <chain> TO <sword>.
+- This will allow the sword to then be banded as usual if desired.
+- This does not add resetting or non-decay.
+- This cannot be used to
+steal
+another's sword, this can only be used by the sword's current owner.
+- This cannot be used on an already banded sword.
+Bracers of the Phoenix:                                       250 Credits
+Artefact
+power
+:
+shin
+_drain
+- These bracers will slow the rate at which a Blademaster's shin energy
+decays
+.
+An ethereal lightning eagle feather cuff:                     500 Credits
+Artefact power: enhanced_shin
+- Increase the chance of ANNIHILATE
+throwing
+someone from the room. Increase the length of HAMSTRING duration by 5
+seconds
+(when applied via THUNDERSTORM).
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

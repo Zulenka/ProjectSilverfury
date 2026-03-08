@@ -1,0 +1,113 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.17 BODY PIERCING
+Though many find
+piercing
+a distasteful and barbaric
+practice
+, many
+others
+find
+that
+piercings
+enhance one's personal beauty or even one's
+aura
+of menace.
+In order to get
+pierced
+, you must find a Jeweller of at least Fabled
+skill
+. The
+jeweller may then, assuming he has a piercing needle: PIERCE <person> <body
+part>
+You cannot pierce yourself - it takes two for this!
+Note that piercings are irreversible, though if you are not wearing any
+jewellery
+in a piercing there will be no way to
+tell
+that that body part is
+pierced, beyond use of the PIERCINGS
+command
+. Body parts that may be pierced
+are:
+a) left/right eyebrow
+b) left/right nostril
+c) septum (the part of the nose between your nostrils)
+d) upper/lower lip
+e) tongue
+f) labret (between bottom lip and chin)
+g) left/right ear (up to five piercings allowed in each ear)
+h) left/right nipple
+i) navel
+Once you have a piercing, find a
+piece
+of jewellery intended for piercings,
+such as an earring, a stud, a bar, or a hoop, and WEAR <jewellery> <body part>.
+You can see what's pierced, and what's IN the piercings, using the command
+PIERCINGS. If a particular part is not pierced, it will not be displayed in the
+listing.
+See also
+HELP JEWELLERY
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

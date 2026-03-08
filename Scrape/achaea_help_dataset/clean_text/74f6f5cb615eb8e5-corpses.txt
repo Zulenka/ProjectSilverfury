@@ -1,0 +1,159 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.24 Looting Corpses
+(See also HELP DENIZEN RETURN,
+HELP QUESTS
+,
+HELP OFFERINGS
+,
+HELP SHRINES
+,
+HELP
+GODS
+)
+Looting
+or searching
+corpses
+for
+gold
+or items is never needed.
+Gold and
+Loot
+-------------
+If you
+kill
+a
+denizen
+(
+mobile
+/
+npc
+), its
+corpse
+will automatically be placed in
+your possession. When it dies, any possessions or gold fall from its corpse
+onto the ground. Pick it up or not as you choose. There is
+nothing
+you have to
+do, or can do, to "loot" a now-dead
+enemy
+.
+How Long do Corpses Last?
+-------------------------
+You don't have forever to do
+something
+with those corpses. They'll
+decay
+on you
+fairly quickly. You have anywhere from a quarter of an
+Achaean
+day
+and up.
+There's really no way to be certain, so if you intend to find a corpse
+buyer
+,
+better hurry!
+Selling
+Corpses
+---------------
+Many corpses, especially those in the areas of
+Minia
+and
+Lodi
+, may be sold to
+certain interested
+buyers
+. Finding those buyers is a sort of
+quest
+which can be
+quite rewarding!
+Most corpses have no interested buyers, in which case you may then use them as
+offerings
+at a
+shrine
+to whatever
+Divinity
+you
+wish
+.  These offerings help the
+Divinity in mysterious ways unfathomable to mere mortals. It can never hurt to
+have one of the Gods of
+Achaea
+happy with you, and it may help a great deal!
+Adventurer Corpses
+------------------
+Adventurer corpses are not handled in the same way. If you do manage to kill
+another adventurer, neither gold nor possessions are involved. The adventurer
+leaves a corpse that may be offered up to the
+Divine
+.
+(see also HELP DENIZEN RETURN,
+HELP QUESTS
+,
+HELP OFFERINGS
+,
+HELP SHRINES
+, HELP GODS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

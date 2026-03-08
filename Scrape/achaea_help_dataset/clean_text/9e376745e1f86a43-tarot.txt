@@ -1,0 +1,92 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.5 TAROT
+Tarot
+is the occult
+skill
+of inscribing magical cards with various
+inks
+in order to create a powerful image. Each of the major arcana of
+the Tarot deck is represented here. To use the skill, you must first
+find some blank tarot cards. Then, you may INSCRIBE <blank card> WITH
+<image>. You must have the
+ability
+in order to use it. Inscribing
+takes intense concentration, so you must cease most activities while
+doing this.
+Once you have a card, you FLING <card type> at <target>/ground. Some cards
+require you to fling the card at a
+target
+, some at the ground.
+Tarot cards are usually stored in a deck. You can use IND/OUTD <card>
+to put cards in and take cards out of your deck. For example: OUTD MAGICIAN
+will find a deck with that type and take one out (if you have one). See
+AB
+TAROT CARDPACKS for the full
+syntax
+. To see a listing of all the
+cards in all your decks, you may use DECKLIST (or DL for short) or
+CARDLIST <deck#> for all the cards in just one deck.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

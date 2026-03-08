@@ -1,0 +1,182 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.1.11 Arena Jousting
+(See also:
+HELP ARENAS
+,
+HELP
+RIDING
+)
+Those whose
+skill
+level
+in riding is high enough to grant them the
+ability
+to
+JOUST
+are now able to compete in a formal
+arena
+contest!
+Overview of a Joust
+-------------------
+To get started, simply travel to the staging grounds of an arena with
+jousting
+enabled, such as the
+Matsuhama
+Arena in
+Delos
+, and
+challenge
+your opponent to a
+joust (see
+syntax
+below).
+Once you have entered the arena, an attendant will ask you to hand over your
+lances. You will then be outfitted for the joust and directed to take your
+place. Once you lower your lance to signal your readiness, the round begins!
+During the charge, you will have three windows of opportunity to affect the
+outcome. At each stage, you may spur your
+steed
+to
+go
+faster, take better aim
+with your lance, brace yourself for impact, or turn slightly to avoid a direct
+blow. These actions will affect the outcome differently, so choose your
+strategy wisely.
+Other
+factors that contribute to the outcome are the to-hit
+and damage attributes of your lance, as well as the level of your
+mount
+(whether it can be ridden as a
+light
+horse,
+war
+horse, legendary steed, and
+so on).
+The moment of truth comes when you and your opponent meet at full
+speed
+!
+Hopefully you will land a direct blow with your lance, unseating your opponent
+and tossing him or her to the ground. Points will be awarded to each
+contestant based on their performance.
+The next round begins when you again lower your lance, and repeats depending on
+the number of rounds in the match. When the joust concludes, a winner is
+declared based on accumulated points, and you
+exit
+the arena!
+A few specific rules to keep in mind:
+- Points are awarded thusly: 1
+point
+for a glancing blow,
+2
+points for a
+broken lance,
+3
+points for unseating the opponent.
+- If one opponent fails to lower his or her lance at the beginning
+of a round, that round is forfeited and 1 point awarded to the opponent.
+- If both opponents
+fail
+to lower their lances at the beginning of a round,
+the match concludes early.
+- If either opponent breaks all of his or her lances, the match concludes
+early.
+Jousting
+Commands
+-----------------
+CHALLENGE <opponent> TO JOUST
+Begin a standard joust! All the regular requirements for arena
+combat
+apply
+; in addition, you must be mounted, and you must have 3 lances in
+your
+inventory
+(not in a backpack or other
+container
+).
+CHALLENGE <opponent> TO JOUST <
+PRACTICE
+|TOURNAMENT>
+Two variations on the standard joust: a practice joust is 3 rounds,
+tournament is 7 rounds. A practice joust requires only 2 lances in
+your inventory to begin.
+GIVE <lance> TO ATTENDANT
+Specify a lance to give the attendant. If you do not give lances to
+the attendant in a timely manner, they will be automatically selected
+from your inventory.
+LOWER LANCE
+Signal your readiness to joust.
+AIM
+Increase the chances of
+striking
+your opponent.
+TURN
+Decrease the chances of your opponent striking you.
+SPUR
+Increase the chances of unseating your opponent if you land a direct strike.
+BRACE
+Decrease the chances that your opponent will unseat you if a direct strike
+is landed.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,190 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+24.2.1 Assaulting a mine or stronghold
+Assaulting a mine or stronghold
+-------------------------------
+You can use your
+army
+(see
+HELP LEGIONS
+for more information) to
+assault
+a mine
+or stronghold.
+LEGION ASSAULT MINE|STRONGHOLD WITH <ARMY <army name>|SQUADS <squad1> [squad2] [...]>
+- As you can see, you can either assign squads to an army and
+attack
+with that
+army, or choose individual squads to attack with. It makes no difference
+which way you do it so do whatever feels most convenient for you.
+- You must do this from the room the mine or stronghold is in.
+Once you
+issue
+the order to begin the assault, your troops will enter the
+enemy
+mine/stronghold and battle whatever they find there. They will continue
+fighting
+until they're either all dead or they
+kill
+all the enemy soldier
+squads in the mine/stronghold, at which
+point
+you've taken it for yourself.
+Squad type strengths/weaknesses
+----------------------------------
+Every type of soldier squad - infantry,
+assassin
+, wizard, heavy, archer - is
+very strong against one
+other
+type of squad and strong against one type.
+Heavies
+- Very strong vs. infantry
+- Strong vs.
+assassins
+Infantry
+- Very strong vs. assassins
+- Strong vs. wizards
+Archers
+- Very strong vs. heavies
+- Strong vs. infantry
+Assassins
+- Very strong vs. wizards
+- Strong vs. archers
+Wizards
+- Very strong vs. archers
+- Strong vs. heavies
+Squad Battles
+----------------
+When a squad or
+group
+of squads enters a room in a mine/stronghold with enemy
+soldier squad(s) the order of battle works like this:
+1. The
+defending
+squads (the ones owned by the mine/stronghold owner) pick
+their
+targets
+by
+choosing
+squads they are strongest against. (Defending
+units always attack first.)
+2
+. Every individual
+member
+of a squad gets an attack.
+3
+. Each squad member gets a chance to kill an opposing squad member. The
+chance of doing so is (
+Attacking
+Squad
+Level
+) / (Attacking Squad Level +
+Defending Squad Level). So if the attacking squad is level 10 and the
+target
+squad is level
+5
+, there's a 66.
+6
+% chance that each member of the
+attacking squad will kill a member of the target squad. However, this
+number is then also modified by the squad type and its
+strength
+relationship to the other. If the squad doing the attacking is very
+strong against the target squad, it gets a bonus equal to 20% of the
+result of the above formula. The bonus is 10% for being merely strong
+against the target.
+4. After the mine/stronghold owner's squads attack, it's
+time
+for the
+aggressor squads to attack. They
+run
+the same formula, but they attack as
+if their level is one less than it is. Keep in mind this means that level 1
+soldier squads are completely useless for assaulting with.
+5. The battle will take a little bit of time, and then either your forces will
+have been wiped out, or you'll be the new owner of the mine/stronghold.
+6. If you're the loser, you will be informed how many rooms your soldiers made
+it through before being wiped out.
+7. If you're the winner and attacked a mine or stronghold, it's now yours and
+any
+comms
+that were in storage are yours to
+claim
+. You should now quickly
+deploy
+mining
+squads if it's a mine, else the mine will collapse.
+8. If you're the loser, you'll be informed via persistent
+message
+and, in the
+case of a mine, each mining squad will
+lose
+1-3 miners from it due to
+defection - nobody likes to work for a boss
+who
+can't protect them.
+The squads that still have members left in them will return to your Legion.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

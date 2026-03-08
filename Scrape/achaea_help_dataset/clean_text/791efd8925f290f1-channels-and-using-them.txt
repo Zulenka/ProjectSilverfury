@@ -1,0 +1,246 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.7 Channels and using them
+(See also:
+HELP CHANNELHISTORY
+,
+HELP
+EXPRESSIVENESS
+)
+A
+channel
+is way to
+communicate
+with a
+group
+-
+houses
+,
+clans
+,
+cities
+,
+orders
+,
+newbies
+, and even yelling and
+shouting
+. For all
+channels
+except _SOME_
+clan
+channels,
+HELP LANGUAGERULES
+apply
+.
+The first channel for most is
+NEWBIE
+. Just type NEWBIE <message> and everyone
+listening to the newbie channel will see the
+message
+.
+Other
+channels are:
+Name
+Command
+For whom?
+----     -------  ---------
+ARMY
+- ART    - members of the army (see HELP
+ARMIES
+)
+City
+-
+CT
+(*) -
+citizens
+(see HELP
+CITYCOMMANDS
+)
+Clan   -
+CLT
+- clan members (see HELP
+CLANCOMMAND
+)
+House
+-
+HNT
+- new members
+HT
+- general house
+membership
+HTS
+- For higher members of the house
+Market
+- MARKET -
+buying
+and
+selling
+, for
+level
+11+
+Newbie - NEWBIE - for asking newbie
+questions
+and helping newbies
+Order  - OT     - members of your ORDER (HELP
+DIVINE
+ORDERS)
+Shout
+- SHOUT  -
+levels
+20+, worldwide, must be at a horn
+Yell   - YELL   - anybody, to all in same local area
+(*) you may also use the city name in the place of CT.
+History
+-------
+Newbie and Market have history (See HELP
+CHANNELHISTORY
+). Cities and
+Houses may or may not. Ask your City or House!
+To turn off channels
+--------------------
+To turn almost any channels off, put OFF after its name. For example,
+NEWBIEOFF, HNTOFF, etc.
+To turn on channels
+-------------------
+To turn most channels on, put ON after its name. NEWBIEON,
+CLTON
+, etc.
+To turn 'em all off or on at once
+---------------------------------
+You can type SILENCEON to turn off most channels all at once, and SILENCEOFF
+to turn them back on.
+Colours
+-------
+Type
+CONFIG
+COLOUR to
+control
+how
+messages
+appear to you.
+Expressiveness
+--------------
+If you
+wish
+to alter how your
+communication
+on channels 'sounds' to people, see
+HELP EXPRESSIVENESS
+.
+Staying IN
+CHARACTER
+, and Other Restrictions
+--------------------------------------------
+Always stay in character (
+IC
+) on channels - you are playing the role of a
+person in a magical
+world
+called
+Achaea
+.
+Talk
+about real life, other
+muds
+, or
+your favourite singer - this should all be done outside the game or, if you
+must, use
+TELLS
+.
+Please do not use tagged
+emotes
+on channels, such as "*cough*" or "-smile-"
+or "<stumbles around blindly>". The same applies to
+emoticons
+such as :) or
+^_^. All these are considered
+OOC
+devices which deteriorate the IC
+atmosphere of the channels.
+Be most careful with
+shouts
+- stay in character, watch
+language
+rules.
+Market channel is only for buying and selling: no chatting please.
+Newbie channel is for questions and answers about how to play the game: no
+chatting please. Due to its
+nature
+, it is entirely possible that some questions
+may be entirely OOC in scope. We recommend turning this channel off if you do
+not wish to be exposed to OOC
+communications
+from new players "
+learning
+the
+ropes."
+Most other channels have their own rules, but are generally more tolerant of
+chatting and general conversation.
+All channels are subject to
+HELP LANGUAGERULES
+, except clan channels.
+(See also: HELP CHANNEL HISTORY)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

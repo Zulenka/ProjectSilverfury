@@ -1,0 +1,162 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.4 The Achaean House System
+The
+Houses
+of
+Achaea
+are powerful organisations with varying motives. You may
+only
+join
+one
+House
+and many demand a lifetime of allegiance. While it may be
+possible to break this oath, the cost is often high.
+The benefits of
+joining
+a House are mainly:
+a) A community of like-minded individuals with a wealth of knowledge and
+resources.
+b) Benefit from any
+Expansions
+that the House
+might
+have.
+c) Share in the political clout of your House.
+House Structure
+---------------
+A House has a formalised structure. There are 15 House
+Ranks
+, differing in
+name
+from House to House. Furthermore, there is an elected position known as the
+House Leader. This adventurer, whose
+title
+varies from House to House, gains
+prestige and some extra
+power
+. It is a
+mark
+of respect and all such worthy
+adventurers should be crossed only with great caution. Further, each House
+Leader may appoint adventurers within his or her House to various customisable
+positions, investing the positions with many of the powers of the House Leader
+him- or herself.
+HOUSE LIST will list the various Houses of Achaea and some brief information
+about each.
+HELP HOUSE
+<house shortname> will
+show
+you information on that
+House, including what
+classes
+are permitted in that House. HOUSE STRUCTURE
+<house shortname> will
+tell
+you more about the structure of each House.
+Joining a House
+---------------
+Once you have found a House that suits your
+vision
+of life here in Achaea, you
+will need to meet the requirements to join it. For the Carnivalis Institute of
+Jestering and the Grand Merchant Collective you may seek out
+Certimene
+, the
+Class
+and House
+administrator
+in
+Delos
+. For all
+other
+Houses you will have to
+speak
+to a
+member
+of the organisation. To do this, locate any Newcomer
+Aides
+via
+HELP HOUSE
+<housename> and speak with them. For more information, see
+HELP
+CERTIMENE.
+Once in a House, you may see your
+rank
+in the House under your
+SCORE
+. HOUSE
+RANKS will show you a list of ranks below and including yours.
+HOUSE AUTHORITY will show you a list of House-related
+commands
+to which your
+House Rank gives you access.
+If, for some reason, you become dissatisfied with your House, you may
+QUIT
+<house shortname>. Be careful, though. It is difficult to regain entry into a
+House once you have quit it.
+See also: HELP 8 (which will give you a list of House and class-related help
+files.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

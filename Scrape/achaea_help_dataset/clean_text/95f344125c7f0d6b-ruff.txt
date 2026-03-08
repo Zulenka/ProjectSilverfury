@@ -1,0 +1,303 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.10.23 Clothing Types
+The items
+defined
+below, for the truly unknowing, include
+blouses
+,
+bodices
+,
+cravats
+,
+doublets
+,
+handkerchiefs
+,
+hose
+,
+jerkins
+,
+kerchiefs
+,
+kilts
+,
+leggings
+,
+pants
+,
+ribbons
+,
+ruffs
+,
+shifts
+,
+shirts
+,
+skirts
+,
+slips
+,
+snoods
+,
+stolas
+,
+stoles
+,
+surcoats
+,
+sweaters
+,
+tabards
+,
+togas
+,
+trousers
+,
+tunics
+,
+vestitures
+,
+vestments
+, and
+wimples. There are, necessarily, some
+OOC
+references for the sake of brevity and
+clarity.
+Blouse
+------
+A blouse is a feminine
+shirt
+which can be sleeved or sleeveless, collared or
+collarless.
+Bodice
+------
+A bodice is either the top half of a dress, or (when worn separately) a
+vest-like garment that extends from the shoulder to the waist. It is usually
+laced like a corset, but worn as an outer garment.
+Cravat
+------
+When a length of
+cloth
+is tied around the neck, it becomes a cravat. It may
+be long and flowing or neatly tucked into a button-hole or waistcoat, and
+may be tied in a simply knot or a more stylish bow.
+Doublet
+-------
+A doublet is a close-fitting outer garment. It may have sleeves or not.
+It may even have a short
+skirt
+, or not. A doublet also refers to quilted
+clothing
+worn under
+armour
+.
+Handkerchief
+------------
+To be used to blow one's nose during boring meetings, or to drop to gain
+someone's attention. A small rectangle, usually of a softer material and a
+light
+colour. Not to be confused with a
+kerchief
+, which can be worn on the
+head.
+Hose
+----
+Hose are close-fitting, footed leggings, often worn by men with a doublet
+and codpiece. They differ from
+stockings
+in that they are worn in a
+similar manner to trousers. A common sight in some places is a
+jester
+dressed in particoloured hose, where the legs are two different colours.
+Jerkin
+------
+The jerkin is a hip-length, close-fitting jacket without sleeves (or
+with extended shoulders). Jerkins are usually collarless and belted.
+Often worn by men over a shirt.
+Kerchief
+--------
+A triangular or square
+piece
+of cloth tied around the head. If square,
+it is generally folded into a triangle. Basically the same
+thing
+as a
+bandana.
+Kilt
+----
+A pleated, knee-length article of clothing that is usually made from wool, but
+not always. Worn by males mostly, though some are feminine (never to be called
+a skirt for men: they hate that.)
+Leggings
+--------
+A lot like trousers, but usually tighter and shorter, and no fastenings at the
+waist. Do not
+look
+good on people with a larger build. Or, they're a leg
+covering that reaches from the ankle to the knee, worn by soldiers and the
+like.
+Pants
+-----
+See Trousers.
+Ribbon
+------
+A ribbon (formerly known as riband) is a thin strip, usually of some sort of
+fabric, usually brightly coloured. Ribbons are often worn as
+decoration
+, and
+sometimes given as awards.
+Ruff
+----
+A ruff is a large, ruffled collar worn about the neck. It is considered to
+be a very formal addition to one's attire.
+Shift
+-----
+A loose-fitting undergarment similar to a
+slip
+or chemise.
+Shirt
+-----
+Generally worn over your neck/shoulder/chest/stomach or, in short, your upper
+half (usually excluding your head and often your neck). They are fancy, plain,
+colourful, dull, sleeved and sleeveless.
+Skirt
+-----
+An article of clothing that wraps around the waist and can end anywhere along
+the leg. Some are short, some are long, some are split, some are sensible.
+Slip
+----
+A female item of clothing, dress length and with thin straps across the
+shoulders which is worn beneath dresses or sometimes, in a shorter version,
+under skirts.
+Snood
+-----
+A netted hair covering that contains but rarely conceals the hair. In general
+it is attached at the back of the head, and may be worn with or without a
+hat. The netting of a snood is often adorned with small beads or jewels.
+Stola
+-----
+A stola is a long dress sewn from many yards of fabric. It is the female
+equivalent of a
+toga
+. It is usually sleeveless, but not always, and
+features many pleats and folds, creating significant draping over the body.
+Stole
+-----
+A stole is a type of narrow shawl that drapes around the neck and hangs
+down the front of the body. Stoles are a common component of liturgical
+vestments. Alternatively, fur stoles fashion accessories worn in a similar
+manner to scarves.
+Surcoat
+-------
+A surcoat is a garment such as an outer cloak or coat. It can be sleeved or
+sleeveless, short or long.
+Sweater
+-------
+A garment usually made of wool in a variety of colours. Often sent to you by
+your grandparents when you really wanted a short sword, though these varieties
+usually have a horrid
+pattern
+that can cause nausea after prolonged exposure.
+Tabard
+------
+A tabard is a loose-fitting garment
+something
+vaguely like an overcoat. If you
+have seen almost any
+Knight
+, then you know what a tabard is - like the Three
+Musketeers wore.
+Toga
+----
+A loose, one-piece garment worn usually by males. A toga wraps around
+the body and leaves one shoulder bare.
+Trousers
+--------
+We call them trousers here (though some provincials erroneously call them
+pants), but they're exactly the same as you would have expected them to be:
+tubes of fabric that cover your legs and fasten at your waist. Come in a
+variety of styles.
+Tunic
+-----
+A tunic is a loose-fitting garment much like a shirt or jacket with or without
+sleeves, and sometimes with a stiff high collar. It is knee length and similar
+to a surcoat.
+Vestiture
+/
+Vestment
+------------------
+Usually a robe-like article of clothing that denotes some state of
+office, or a religious order. Not to be used to blow ones nose during
+long and boring meetings.
+Wimple
+------
+A cloth that covers the neck below the chin and is commonly attached above
+the ears. It may also cover the head and hair completely,
+leaving
+the entire
+face visible. A wimple is usually worn with a headdress or scarf, as seen
+in the religious habit of nuns.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

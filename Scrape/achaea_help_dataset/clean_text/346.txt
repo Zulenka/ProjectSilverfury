@@ -1,0 +1,108 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.30 DIGGING AND BURYING
+You can
+BURY
+items and
+DIG
+for items in many places across
+Achaea
+.
+BURY
+----
+To bury, get a shovel. Some
+classes
+have special powers that allow
+digging
+as well, such as some morphs in the
+Metamorphosis
+Skills
+. Make sure that
+you have the item (or
+gold
+) you want to bury in your
+inventory
+, then
+BURY <item/GOLD>
+There is always a chance you will break your shovel, if using one. And
+you can't bury
+things
+just anywhere. Use common
+sense
+. Or try it and see.
+DIG
+---
+If you can bury
+something
+, you can dig it up. Just like with
+burying
+, you'll
+need a shovel or a special
+power
+permitting you to dig.  Then just
+DIG
+That's it! If something is buried in that location, you'll probably find
+it and it will be there on the ground for you to pick up.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,147 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.12 Clothing
+(See also HELP CLOTHING TYPES,
+HELP OUTFITS
+,
+HELP
+BODY
+PIERCING
+)
+Clothing
+has importance to all Achaeans, though it is mostly decorative.
+Clothing does not provide protection in
+combat
+, for example, though
+armour
+does.
+Finding and
+Buying
+Clothing
+---------------------------
+In every
+city
+, and many
+denizen
+villages, you will find purveyors of clothing.
+Many are adventurers
+who
+practise
+the
+skill
+of
+tailoring
+. You are likely to
+find their
+wares
+in city
+shops
+, and you may also view a list of available
+tailors
+with
+CRAFTERWHO
+. Also see
+HELP TAILORING
+for information on making
+your own garments.
+Wearing and Removing
+--------------------
+To put on (wear) clothing, simply type WEAR <clothing>.
+To take off (
+remove
+) clothing, type REMOVE <clothing>.
+Sets of clothing can be combined into an
+outfit
+, allowing them to be worn and
+removed with a single
+command
+.
+HELP OUTFITS
+has more details on this
+functionality.
+Certain clothing items may have
+hoods
+, enabling you to RAISE
+HOOD
+or LOWER
+HOOD.
+Clothing
+Outfits
+----------------
+You can also assign clothing to outfits and wear or remove them in
+groups
+. HELP
+OUTFITS will
+tell
+you more.
+How Much Can You Wear?
+----------------------
+Be aware that each item of clothing is worn over a particular part of the body,
+with different parts of the body limiting how many articles of clothing may be
+worn. For instance, you can only wear one
+shirt
+, but you can wear up to ten rings.
+(See also HELP CLOTHING TYPES, HELP BODY PIERCING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

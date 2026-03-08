@@ -1,0 +1,156 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.1 Ships
+(See also:
+HELP COMPASS
+,
+HELP CREW
+,
+HELP SAILING
+, HELP SHIP COMMAND,
+HELP SHIP REPAIR, HELP SHIP TYPES,
+HELP
+NEW TO
+SHIPS
+)
+With a
+ship
+, you can navigate the vast
+oceans
+surrounding the
+continent
+of
+Sapience
+, giving
+commands
+to your
+denizen
+crew
+which will result in your ship
+being sailed or rowed through the
+wilderness
+map
+interface (see HELP
+WILDERNESS).
+You can discover and
+explore
+islands
+which can only be reached by
+ships.
+Go
+deep-sea
+fishing
+, dive for treasure, battle with
+other
+ships, and
+more!
+Learning
+the
+skill
+of
+Seafaring
+(see HELP SEAFARING) further expands your
+options.
+Harbours
+may be found all around Sapience and on many of the surrounding
+islands. To get started, try:
+HARBOUR
+SHIPS to see what ships are currently docked.
+BOARD
+SHIP <ship
+name
+|ship #> to
+ascend
+the gangplank!
+Type HARBOUR at any harbour to see available commands. Man-made harbours will
+have more available commands than natural harbours, such as
+hiring
+denizen crew
+and purchasing repairs.
+To purchase a new ship, you will need to acquire ship
+commodities
+(see HELP
+SHIPFITTING
+), then visit a shipyard and COMMISSION <vessel>.
+See HELP SHIP TYPES for the different kinds of ships you may commission and
+the associated costs.
+Ship ownership is an expensive endeavour; you may be able to purchase a ship
+from another adventurer, for a reduced cost! Even those
+who
+do not own a ship
+may still
+sail
+the
+seas
+as captain or crew in another's fleet.
+(See also:
+HELP COMPASS
+,
+HELP CREW
+,
+HELP SAILING
+, HELP SHIP COMMAND,
+HELP SHIP REPAIR, HELP SHIP TYPES, HELP NEW TO SHIPS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

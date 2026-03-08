@@ -1,0 +1,130 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.6.2 Dragon Lairs
+Dragon
+lairs
+are
+something
+of a cross between a club
+house
+and a relaxation area for those
+dragons
+who
+have proven themselves capable of completing "The Dragon Quest" and its accompanying
+foray
+.
+Each primary dragon colour has its own lair, and access is granted by roaring at the appropriate location within Ashaxei's mirror in the
+Mhojave
+Desert
+- a fitting spot for a draconic sanctuary.
+Spending too much
+time
+within any lair is impossible, and you will find that a mighty dragon is only able to laze so long before you find yourself returned to
+Achaea
+proper.
+No dragon lair would be complete without an impressive hoard, and this is no exception.
+The hoard is a collective pool of
+gold
+amassed by all dragons
+sharing
+your primary colour. There are two primary ways to increase this pool:
+1. Gold that is 'missed' from the
+hunting
+gold cap will automatically be transferred into your hoard.
+2
+. The HOARD ENDOW
+command
+allows manual deposits to directly increase your reserves.
+This gold can be turned to a number of temporary perks which enhance your prowess, activated by use of the HOARD
+INVEST
+command:
+- Enhanced
+endurance
+regeneration
+for all within your lair
+- Enhanced
+willpower
+regeneration for all within your lair
+- A bonus to
+experience
+is conferred upon all your fellow coloured dragons
+- A
+critical
+hit chance bonus to all dragons of your colour
+Useful
+commands
+:
+- ROAR: Grants access to the dragon lair of your primary colour, provided you have unlocked it!
+- HOARD
+BOONS
+: Lists boons available or currently active within your lair
+- HOARD ENDOW <amount>: Adds to the dragon hoard
+- HOARD INVEST <boon>: Purchases an upgrade for the lair!
+-
+RANKINGS
+ENDOWERS: A prestigious
+ranking
+of the highest lair contributors!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

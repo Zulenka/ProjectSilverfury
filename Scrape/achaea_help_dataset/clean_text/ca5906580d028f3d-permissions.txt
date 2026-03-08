@@ -1,0 +1,211 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.21 PERMISSIONS
+Our
+permissions
+system
+allows you to specify
+who
+can access
+something
+, or who
+is affected by something. The
+housing
+system (
+HELP
+HOUSING) uses it to decide
+who can and cannot open a door in a
+house
+. If there are no permissions set on
+a door it will default to anyone can open. The
+library
+system (HELP
+LIBRARIES
+)
+uses the system to determine who can check out volumes, at what cost, and for
+how long. The
+ship
+system (HELP
+SHIPS
+) uses the
+permission
+system to determine
+who is allowed to be
+crew
+as well as who may
+board
+the ship. The
+totems
+system
+(HELP TOTEMS) also uses permissions.
+Permissions are a series of statements that are either true or false. Example:
+RANK
+10 OF
+PHAESTUS
+.
+That permission means that people who are rank 10 in the Order of Phaestus pass
+the test. You can also combine multiple permissions:
+MEMBER
+OF
+CYRENE
+NOT
+ENEMIES
+Which would
+apply
+to any member of Cyrene and all those not your enemies.
+To get even more elaborate, you can also use the 'not' modifier to take the
+opposite of a permission string. You may also use 'except' to exclude
+certain people or
+groups
+of people.
+An example of permissions using
+everything
+you've learned so far could be:
+NOT
+ENEMY
+RANK 10 OF PHAESTUS
+SARAPIS
+NOT MEMBER OF CYRENE
+EXCEPT NOT RANK
+3
+OF
+ASHTAN
+EXCEPT
+AEYR
+The
+following
+would pass the permissions test:
+- People who aren't your enemies. (Note that this is most people.)
+- People who are rank 10 in Phaestus' order.
+- Sarapis -- even if He was on your enemy list!
+- Everyone who is NOT a member of Cyrene.
+It would prevent people from opening the door who are:
+- Less than
+city
+rank 3 in Ashtan.
+- Aeyr -- even if He was rank 10 of Phaestus!
+Obviously this is a bit of a silly set of permissions, but it
+shows
+how
+elaborate you can get. The following are the specific permissions that you can
+use:
+PERSON
+- A specific person.
+ALLY
+- Your
+allies
+.
+ENEMY
+- Your enemies.
+FRIEND
+- Your
+friends
+.
+ROGUE
+- Not a
+citizen
+of any city.
+MEMBER OF <organisation>
+- A member of an organisation, including
+clans
+,
+Houses
+,
+orders
+,
+cities
+,
+Oakstone etc.
+ENEMY OF <organisation>
+- An enemy of an organisation.
+COUNCIL_MEMBER OF <org>
+- A member of the ruling council of a city.
+LEADER/HOUSEMASTER OF <org>
+- A city leader, a Housemaster, or the leader of a
+clan
+.
+RANK <x> OF <org>
+- At least rank <x> in cities, House, or orders.
+NEWCOMERHEAD
+OF <House>
+- The newcomerhead of a House.
+POSITION <x> OF <House>
+- Holder of position <x> in a House.
+<ministry> OF <city>
+- A
+minister
+of a city. For instance:
+AMBASSADOR
+OF ASHTAN
+<ministry>_
+AIDES
+of <org>
+- A minister and his aides. For instance: AMBASSADOR_AIDES OF ASHTAN
+CLANPOSITION <number> OF <clanname>
+- Members of a clan in a specific position.
+e.g. HOUSING SET DOOR
+PERMS
+out clanposition 1 of acc
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

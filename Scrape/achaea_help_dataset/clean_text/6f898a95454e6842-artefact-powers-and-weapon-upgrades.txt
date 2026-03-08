@@ -1,0 +1,209 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.18 Artefact Powers And Weapon Upgrades
+There is always a juggle when it comes to wearing many
+artefacts
+at once,
+especially as there's only so many body parts to wear them! The solution to
+this is
+ARTEFACT
+POWERS, allowing people to transfer one or more artefact
+powers onto
+other
+items. For example, instead of having to wear a
+ring
+of
+endurance
+, a ring of
+flying
+, and a Mayan ring, you can now combine them all
+onto one item, such as your crafted cloak or your favourite pair of boots!
+Here's a list of
+commands
+to make use of this
+system
+:
+ARTEFACT
+POWER
+LIST [OWNED]
+- List the available powers for purchase, or
+look
+up the power
+names
+.
+- Adding OWNED to the
+command
+will list all of the owned powers and what items
+they are placed on.
+- Not all artefacts are available as powers, especially artefact powers that
+are a function of the item they are imbued upon.
+ARTEFACT POWER
+SHOW
+<power>
+- Show the details of an artefact power
+ARTEFACT POWER
+BUY
+<power> FOR <item> [
+LEVEL
+<level>]
+- Purchase an artefact power directly for an item.
+- For
+multi
+-level powers, specify which level with the LEVEL <level> addition.
+- Investing a power on a different item will have a 25cr fee.
+- Can be placed on crafted
+tailoring
+/
+jewellery
+items, or items that already
+reset to you.
+- In the
+event
+the tailoring/jewellery item is not already non-
+decay
+/resetting,
+the cost to make it non-decay and resetting will be added to the cost of the
+artefact power purchase (100cr for non-decay, and 100cr for resetting).
+ARTEFACT <power> UPGRADE -or- ARTEFACT <item> UPGRADE
+- To upgrade an existing artefact power to the next level (for multi-level
+powers)
+- You may specify to upgrade the item the power is assigned to if it is the
+only multi-level power on that item.
+ARTEFACT POWER TRANSFER <power> FROM <item#1> TO <item#2>
+- Transfer a power to a different item.
+- Transferring a power to a different item will have a 25cr fee.
+- When transferring a power off a regular purchasable artefact, the original
+item will be destroyed.
+- The additional costs for non-
+decaying
+and resetting on the
+target
+item will
+also be applied if they are not present.
+ARTEFACT <power>
+TRADEIN
+- Tradein the power on an artefact, if this is the only power on an item the item will be deleted.
+- Artefact powers tradein for
+2
+/3rds of their purchase price.
+Invested artefact powers will be shown when you
+PROBE
+the item, and if the
+original artefact was required to be worn, so will the power.
+There is no change to the effects of the
+Orb
+of Suppression artefact/power, it
+will continue to hide all purchasable artefact items, but will show regular
+items that have artefact powers invested on them.
+For Warrior
+Weapons
+, we have additional upgrade options:
+Add these with  ARTEFACT <weapon> ADD <upgrade>
+ASP           - 750
+Bound
+/
+Weapon
+credits
+- You may add the Asp
+ability
+to almost any artefact edged weapon.
+- The Asp ability causes the weapon to hit with a random
+venom
+each
+time
+, and 1/
+3
+of the time no specific venom
+message
+is given. If there are
+venoms
+on the weapon, the venoms will be delivered and the asp will not take effect. If there are no venoms, asp will take effect.
+- For the purposes of adding Asp ability, knuckles do not count as edged weapons.
+- The asp ability may be traded in at two-thirds value (500cr)
+CONSERVATION  - 300 Bound/Weapon credits
+- Only for cutting weapons.
+- This will have a 25% chance to return any venom used when you strike someone with the weapon to your
+rift
+(assuming you have room).
+DECAPITATION  - 300 Bound/Weapon credits
+- Sometimes you really just want to decapitate someone with a warhammer while keeping their head intact.
+- This impractical endeavour can now be achieved by a weapon with this upgrade.
+MITIGATION    - 500 Bound/Weapon credits
+- This reduces the
+health
+damage a weapon deals to you when you tragically rebound off of someone's
+aura
+of
+rebounding
+by 25%.
+- It doesn't reduce the limb damage, as this is often desirable.
+SPIKES        - 400 Bound/Weapon credits
+- By attaching spikes to a blunt weapon, that weapon will now deal
+bleeding
+on all warrior
+specialisation
+attacks
+performed with it.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

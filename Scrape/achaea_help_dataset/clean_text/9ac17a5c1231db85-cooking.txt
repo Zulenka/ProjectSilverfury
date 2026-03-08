@@ -1,0 +1,152 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.6 Cooking
+(See also:
+HELP
+COOKING
+DESIGN
+)
+The cooking
+tradeskill
+enables you to prepare a wide variety of
+food
+products
+from basic ingredients. With advanced knowledge in cooking you will be able to
+design your own recipes, enhance your creations to make them more
+filling
+, and
+preserve
+them to make them last longer.
+You must be above
+level
+10 to access the cooking tradeskill.
+In order to
+learn
+cooking, you must purchase a permit for 200
+credits
+from the
+Culinary Institute of
+Delos
+with
+BUY
+COOKING PERMIT.
+Following
+that, pay a
+visit to Amarisse, Secretary of the
+Crafting
+Council and ASK AMARISSE GAIN
+COOKING.
+BUY COOKING PERMIT
+- Use this
+command
+at "The Culinary Institute of Delos".
+- This will cost 200 credits.
+- If you have a bronze
+trade
+seal, please
+READNEWS
+ANNOUNCE
+4247
+- Once purchased, this permit will
+show
+up on
+SCORE
+LICENSES
+.
+- This will never expire and cannot be traded in.
+GAINING THE COOKING
+SKILL
+- Make sure you have Bought your Cooking Permit as per above!
+- Make sure you have a tradeskill slot empty
+-
+TRADESKILLS
+will show your tradeskill slots
+- SCORE LICENSES will show how many slots you have in full.
+- Visit Amarisse, Secretary of the Crafting Council
+- ASK AMARISSE GAIN COOKING.
+If you are in possession of a gilded spoon, you may COOK any item in
+your personal
+NDS
+list without needing the Cooking tradeskill.
+These do not have a
+tradein
+value.
+Cooking stoves
+--------------
+For the low cost of only 200000
+gold
+, you may REQUEST STOVE from Fronck in
+Delos, gifting you a miniature stove that can be dropped in any
+housing
+room
+that you have
+permission
+to place furniture.
+Cooking stoves may also be found in all the major
+cities
+as well as the Delos
+Culinary Institute.
+(See also: HELP COOKING DESIGN)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

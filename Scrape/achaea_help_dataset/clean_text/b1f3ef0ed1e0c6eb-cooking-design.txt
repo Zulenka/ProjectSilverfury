@@ -1,0 +1,509 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.6.1 Cooking Design
+Designing new
+cooking
+recipes requires the "recipes"
+ability
+learned in the cooking
+skill
+(see
+HELP
+COOKING). All the
+commands
+needed to create cooking recipes can be viewed using the
+DESIGN
+command
+. Below, you will find further explanations of these syntaxes and guidelines for designing new recipes.
+Having gained the Cooking skill (see
+HELP COOKING
+for instructions on how to do so), you are now ready to start designing recipes!
+Below is a comprehensive
+guide
+, from start to finish, on how to design and ultimately create a cooking-related item, including all relevant rules and guidelines to ensure your design aligns with Achaea's standards for
+writing
+and acceptable content.
+To quickly get started in cooking, you will need to find a recipe to prepare - let's use
+NDS
+LISTPUBLIC C to see all the public cooking recipes. "A skewer of roasted vegetables," design 9330, looks like a simple one to try. Examine it in further detail with NDS P 9330.
+From this, we see that the recipe calls for
+3
+vegetables and 1 salt.
+Obtain these ingredients, take them to a suitable cooking location (e.g., a cooking stove or a campfire), and PREPARE 9330.
+Bon appetit!
+But this is not all! Once you achieve the
+level
+of Adept in the cook's craft, you will gain the coveted ability to design recipes of your own!
+To design your own recipes, visit the Cooking
+annex
+in
+Delos
+and purchase the recipe that best matches the type of dish you want to design.
+Then, DESIGN CREATE <recipe> to create your
+sketch
+in the
+system
+!
+Cooking Syntaxes
+-----------------
+PREPARE <design> [
+passcode
+]
+- Cook
+something
+from available recipes.
+- For more information on
+passcodes
+, see
+HELP NDS
+DESIGN CREATE <recipe>
+- Create a new sketch and
+apply
+the details of your chosen recipe to it.
+- This will assign the
+base
+name
+and type of the item. E.G "plate", or "haunch".
+- This will not consume your recipe.
+- Do not take liberties with the recipe type. If you copied 'a plate of
+cooked food' onto a sketch, the sketch must remain a plate. It can be 'a
+plate of
+eggs
+and toast' but it cannot be 'a dish of fried eggs' or
+'fried eggs'.
+- The main noun in the 'appearance'
+description
+must exactly match whatever
+the recipe is for.
+DESIGN <sketch> COPY <recipe>
+- Apply the details of your chosen recipe to an existing sketch.
+- This will assign the base name and type of the item. e.g., "plate", or
+"haunch".
+- This will not consume your recipe.
+- Do not take liberties with the recipe type. If you copied 'a plate of
+cooked food' onto a sketch, the sketch must remain a plate. It can be 'a
+plate of eggs and toast', but it cannot be 'a dish of fried eggs' or
+'fried eggs'.
+- The main noun in the 'appearance' description must exactly match whatever
+the recipe is for.
+DESIGN <sketch> APPEARANCE <description>
+- Sketch out the appearance description for your new recipe.
+Note: Max of 50 characters.
+- The Appearance is the short description visible in
+WARES
+and in
+INV
+.
+-
+Commas
+are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase
+letter
+and NOT end in a full stop.
+- This must feature the name of the item as a main noun.
+- Examples are: 'a plate of squid
+ink
+pasta' and 'a curried haunch of
+venison'.
+- This should not be a complete sentence.
+- Do not include actions or
+reactions
+, simply what the item is.
+- Keep in mind pluralisation. That noun is what will be pluralised, so if
+there is more than one, your appearance should still make
+sense
+. 'a plate
+of eggs and toast' plural '
+2
+plates of eggs and toast'. While the noun
+would still be in 'fried eggs on a plate' it would not work in plural
+form as '2 fried eggs on a plates'.
+DESIGN <sketch> DROPPED <description>
+- The dropped description is what is seen in
+LOOK
+when your item is
+dropped in a location.
+- This must be ONE complete sentence that begins with a capital letter
+and ends with a full stop.
+Note: Max of 80 characters.
+-
+Describe
+just the item, not possible player reactions or actions.
+- No superfluous
+punctuation
+(
+question
+marks
+, exclamations, etc.)
+- The main noun in the sentence must be the same as the
+pattern
+name so
+that people know what to call it when they want to pick it up, without
+having to type 'info here.'
+-
+Things
+like "A plate of squid ink pasta is placed on a table." are not
+acceptable. If it were dropped on the highway, there would be no table for
+it to be placed upon.
+DESIGN <sketch> EXAMINED <description>
+- This is what people see when an item is examined/probed.
+- This should only describe the item, no subjective terms, reactions,
+opinions,
+emotions
+, or responses.
+- Use at least two full sentences.
+- Must begin with a capital letter and end with a full stop.
+- This must feature the main noun of the item.
+- Do not try to format your
+descriptions
+in the
+editor
+. When using the
+editor, put your entire description on line one. The editor will properly
+format it for you.
+-
+Designs
+must be suitable for a chef working in a medieval-ish
+environment
+.
+- Designs must be something a chef can reasonably create and must be edible.
+For instance, a chef could not create an active volcano
+cake
+or a cup of
+tea
+.
+- Do not "evoke" or
+tell
+the reader what sense/
+emotion
+/impression your
+recipe gives.
+- Crafters are not enchanters; magic is not permitted in crafted designs.
+- Designs should describe the item, not the wearer, use of "you" and "your"
+is prohibited.
+- All numbers must be written out in words. "one, two, three," etc.
+- Single spacing only.
+- Do not use words that require accents or
+other
+non-English punctuation;
+these cannot be replicated in
+Achaea
+and will be treated as
+misspellings
+.
+E.G: Puree, Sautee are typical examples that would require an acute
+accent
+over the e.
+- Use appropriate materials.
+Glitter, sprinkles, and other hyper-processed and/or modern ingredients
+are not permitted.
+Make sure to use GB English terminology and avoid
+OOC
+regional
+references. See "frosting", "sushi", and similar.
+- Items
+claiming
+to be 'official' representations of affiliation with an
+organisation or person will be rejected. So no making 'the official
+cookie of the
+Heartwood
+Kin' or 'the Ascendant's burger'
+Organisations should use Patronage Requests to submit official items for
+sale in
+shops
+.
+- Please use a GB English spellcheck and the Oxford
+comma
+. Achaea does not
+use American spelling.
+- Do not write
+messages
+into designs.
+- Keep your designs tasteful (not necessarily tasty).
+DESIGN <sketch> FIRSTEATEN  <description>
+- This is the
+message
+people will see when they
+eat
+the
+food
+.
+- There is a maximum of 240 characters, which the system will limit you to.
+- Keep these reasonable, without forcing actions upon the eater that
+go
+beyond the explicit
+eating
+of the item.
+- Do not force subjective reactions to your dish upon the eater.
+DESIGN <sketch> THIRDEATEN  <description>
+- This is the message people will see when someone in their location eats
+the food.
+- There is a maximum of 240 characters, which the system will limit you to.
+- Use the
+following
+in place of
+names
+and
+pronouns
+: $eater, $eater_his,
+$eater_him, $eater_he.
+- Adding a plus (e.g. $+eater) will capitalise the word.
+- $+eater takes a bite of pickled snail. $+eater_he then uses both hands
+to quickly eat the rest.
+- Do include some version of the 'appearance' description. Otherwise
+onlookers will see only "Skye eats the dessert." They will not know
+exactly what she has eaten.
+DESIGN <sketch> TASTE <description>
+- You can use the TASTE command to inspect food before eating it.
+- When designing this aspect of a recipe, please note that the 'appearance'
+of the item will automatically be prepended to the beginning of the text.
+- You will see the full sentence when you
+probe
+your sketch.
+- ALWAYS PROBE THE SKETCH AFTER SETTING THIS.
+- This must end with a full stop.
+DESIGN <sketch> SMELL <description>
+- You can use the SMELL command to inspect food before eating it.
+- When designing this aspect of a recipe, please note that the 'appearance'
+of the item will automatically be prepended to the beginning of the text.
+- You will see the full sentence when you probe your sketch.
+- ALWAYS PROBE THE SKETCH AFTER SETTING THIS.
+- This must end with a full stop.
+DESIGN <sketch> COOKED YES|NO
+- If any portion of the dish needs to be cooked, then this should be 'yes.'
+DESIGN <sketch> INGREDIENTS ADD|
+REMOVE
+<#> <ingredient>
+- Ingredients currently available are: salt, sugar, flour, spices,
+seeds, nuts, fruits, vegetables, cheese, butter, eggs, grain, dough,
+pasta, meat,
+fish
+, poultry, milk, water, oil, and chocolate.
+- You do not need to set ingredients; the Council will make sure that these
+are set before approval.
+DESIGN <sketch> PRIVATE ON|OFF
+- At a cost of 1000
+gp
+, you can hide your designs from
+others
+when they do
+NDS MATCH searches. This flag may be set on the sketch or after approval
+with the corresponding NDS command.
+DESIGN <sketch> HIDEMARK ON|OFF
+- At the cost of 1000 gp, you can hide the crafter's
+mark
+. This means that
+when the crafted item is probed, it will not
+show
+the line
+saying
+"It
+bears the distinctive mark of..."
+DESIGN <sketch> SUBMIT [URGENT]
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See
+HELP PROOFREADING
+for guidance
+- Submit your sketch for approval by the
+Crafting
+Council.
+- The cost to submit a design does scale based on the number of
+times
+it has had to be submitted,
+PROOF
+and check your work!
+Urgent:
+First submission 10000
+gold
+, second submission 12000 gold, third submission 15000 gold, fourth submission 20000 gold, fifth submission (and cap) 30000 gold.
+Standard: 1000 -> 2000 -> 5000 -> 10000 -> 20000
+First submission 1000 gold, second submission 2000 gold, third submission 5000 gold, fourth submission 10000 gold, fifth submission (and cap) 20000 gold.
+- Must submit from the Cooking Annex in Delos (unless you possess the Crest of the Crafting Council)
+- The addition of URGENT places a design in a high-priority
+queue
+and costs an increased amount of gold.
+- You can have up to ten designs in the submission queue. This is total, across all
+tradeskills
+.
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See below and
+HELP PROOFREADING
+for assistance!
+DESIGN REQUEST <pattern>
+- Use this command at the Culinary Institute when you have been notified (by message) that your pattern has been approved.
+- Have the gold required in your hands.
+PROOFREADING
+(see also HELP PROOFREADING)
+=========================================
+ITEM TYPE
+- Make sure that the sketch used matches the main noun in all aspects of
+this design.
+APPEARANCE
+- Commas are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase letter and NOT end in a full stop.
+- This must feature the name of the item as a main noun.
+- Examples are: 'a plate of fried eggs' and 'a haunch of curried venison'.
+- This should not be a full sentence.
+- Do not include actions or reactions, simply what the item is.
+DROPPED
+- This must be ONE complete sentence that begins with a capital letter
+and ends with a full stop.
+- Describe just the item, not possible player reactions or actions.
+- The main noun in the sentence must be the same as the pattern name so
+that people know what to call it when they want to pick it up, without
+having to type 'info here.'
+- Things like "A plate of eggs sits on a table." are not acceptable. If
+it were dropped on the highway, there is no table!
+- "lays" is never appropriate in DROPPED; this is a transient action, you
+want "LIES".
+EXAMINED
+- This should only describe the item, no subjective terms, reactions,
+opinions, emotions, or responses.
+- Use at least two complete sentences, NO FRAGMENTS.
+- Designs must be suitable for a chef working in a medieval-ish
+environment.
+- Designs must be something a chef can reasonably create.
+- Do not "evoke".
+- Use appropriate materials.
+- All numbers must be written out in words. "one, two, three".
+- Feet, inches, yards, etc, no
+metric
+measurements.
+- Please use a GB English spellcheck; Achaea does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when
+writing a list, a comma should be used before the "and". E.G: a red,
+white, and blue scarf.
+- Single spacing always and only. Check for double spaces, especially after
+full stops, and if you have copied text from another format.
+- Designs should describe the item, not the eater, use of "you" and "your"
+are prohibited.
+- Cooking designs must be food that is eaten, no drinks and
+nothing
+that would
+make sense to "drink".
+- The Crafting Council reserves the right to determine whether foods are
+suitable for Achaea's environment. Certain anachronistic foods and terms
+will not be allowed. Following is a list of some such foods; we will
+attempt
+to keep it up to
+date
+, but please be aware that it is not
+exhaustive: pizza, tacos, hot dogs, waffles, fondue,
+jellybeans, gummi
+anything
+(bear, worm, etc), sushi, sashimi.
+FIRSTEATEN
+- Do not force actions beyond the explicit eating of the item.
+- Do not force subjective reactions to your dish upon the eater.
+- Please use a GB English spellcheck; Achaea does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when
+writing a list, a comma should be used before the "and". E.G: a red,
+white, and blue scarf.
+- Single spacing always and only. Check for double spaces, especially after
+full stops, and if you have copied text from another format.
+- Use of "you" and "your" is allowed here.
+THIRDEATEN
+- Use the following in place of names and pronouns: $eater, $eater_his,
+$eater_him, $eater_he.
+- Adding a plus (e.g. $+eater) will capitalise the word.
+- $+eater takes a bite of pickled snail. $+eater_he then uses both hands to
+quickly eat the rest.
+- Do not force actions beyond the explicit eating of the item.
+- Do not force subjective reactions to your dish upon the eater.
+- Please use a GB English spellcheck; Achaea does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when
+writing a list, a comma should be used before the "and". E.G, a red,
+white, and blue scarf.
+- Single spacing always and only. Check for double spaces, especially after
+full stops, and if you have copied text from another format.
+TASTE
+- The Appearance always prepends to your text here; double-check that this
+makes sense after you set this aspect.
+- Do not force actions beyond the explicit tasting of the item.
+- Do not force subjective reactions to your dish upon the taster.
+- Please use a GB English spellcheck; Achaea does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when
+writing a list, a comma should be used before the "and". E.G: a red,
+white, and blue scarf.
+- Single spacing always and only. Check for double spaces, especially after
+full stops, and if you have copied text from another format.
+- This must end with a full stop.
+SMELL
+- The Appearance always prepends to your text here; double-check that this
+makes sense after you set this aspect.
+- Do not force actions beyond the explicit smelling of the item.
+- Do not force subjective reactions to your dish upon the smeller.
+- Please use a GB English spellcheck; Achaea does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when
+writing a list, a comma should be used before the "and". E.G: a red,
+white, and blue scarf.
+- Single spacing always and only. Check for double spaces, especially after
+full stops, and if you have copied text from another format.
+- This must end with a full stop.
+If you do not have a cooking
+license
+, see HELP COOKING!
+For a full and detailed listing of the entire NDS output, see
+HELP DESIGN
+(See also: HELP CRAFTING GUIDELINES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

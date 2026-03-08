@@ -1,0 +1,223 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.1 SHOW - to see just about anything about your adventurer
+(See also:
+HELP STAT
+,
+HELP
+SCORE
+)
+The
+SHOW
+command
+is a single place to
+look
+at
+things
+about your adventurer.
+Three sorts of options are available to SHOW:
+- Things that are available elsewhere in exactly the same form,
+(
+AB
+,
+ALLIES
+,
+BANKACCOUNTS
+,
+BLOODLINE
+,
+CREDITS
+, DEF, DIAG,
+ENEMIES
+, FEELINGS,
+HONOURS
+ME
+,
+IH
+,
+II
+, ME,
+NEWS
+, QSC,
+QW
+RIFT
+, SCORE,
+SKILLS
+,
+STAT
+, and
+WHO
+)
+- Changed or combined versions of things available elsewhere, and
+(
+CON
+,
+DEX
+,
+INT
+,
+STR
+,
+GOLD
+, and especially ORGS)
+- Information that you can't get elsewhere.
+(
+LESSONS
+IN
+skill
+, LESSONS LEFT IN skill)
+The current SHOW options are:
+AB [skill]             -
+abilities
+you have in a given skill.
+AGE                    - your age.
+ALLIES                 - who you
+consider
+allies.
+BANKACCOUNTS           - where your stash is.
+BLOODLINE              - your relatives and
+family
+.
+CON|DEX|INT|STR        - your con/dex/int/str stat.
+CREDITS                - various
+credit
+information.
+DEF[ENCES]             - **
+bal
+/
+eq
+** your
+defences
+and effects.
+DIAG                   - **bal/eq** diagnose your
+afflictions
+.
+ENEMIES                - who you consider your enemies.
+FATIGUE                - how tired you are currently.
+FEELINGS
+GODS
+|VILLAGES - feelings from
+Immortals
+or villages.
+GOLD (or
+MONEY
+)        - the gold in your hands. Check BANKACCOUNTS too.
+HELP
+- this list, in full detail.
+HUNGER
+- how
+hungry
+you are currently.
+INFO HERE [IH]         - what is near you, in great detail.
+INFO
+INV
+[II]          - what you are carrying, in great detail.
+LESSONS                - how many lessons you possess for
+learning
+skills.
+LESSONS LEFT IN skill  - how many lessons till trans in a given skill.
+LESSONS IN skill       - how many lessons you have learnt in a given skill.
+NEWS                   - the various news sections.
+ORGS                   -
+city
+,
+clan
+,
+house
+, oakstone, order.
+PORTALS
+- how many uses of portals remain to you.
+QSC (or QUICKSCORE)    - shorter score.
+QW [match]             - quick who list, optionally matching 'match'.
+RAGE
+- your current
+battlerage
+levels
+.
+RIFT                   - what is in your rift.
+SCORE                  - your
+health
+,
+strength
+, and
+other
+useful info.
+SKILLS                 - your skills and skill
+rank
+.
+STAT [
+STATS
+]           - hunger, rest,
+warcry
+/
+motto
+, and other
+statistics
+.
+WHO [HERE]             - who is active, either in the realms, or with you.
+(See also:
+HELP STAT
+, HELP SCORE)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

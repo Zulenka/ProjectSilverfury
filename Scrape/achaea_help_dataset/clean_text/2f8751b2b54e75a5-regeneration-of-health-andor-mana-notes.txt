@@ -1,0 +1,163 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+5.1.1 Regeneration of Health and/or Mana: Notes!
+(see also
+HELP
+RECOVERY
+)
+Health
+regeneration
+- "How quickly does your health rise when you are damaged?"
+Mana
+regeneration - "How quickly does your mana rise when you are below full?"
+First, Health regeneration. Then Mana regeneration below that.
+HEALTH REGENERATION
+-------------------
+What Always Affects Health
+Regen
+--------------------------------
+alchemy
+astronomy
+a bard's scherzo
+being in a health regen room
+boar
+tattoo
+boost and regeneration
+abilities
+crystalism
+harmony
+grove
+harmony
+grove vigour
+sleeping
+a dreamcatcher, while sleeping
+uruz rune
+being grook in an aquatic
+environment
+What Affects Health Regen Within Limits
+---------------------------------------
+artefact
+powers:               1-
+3
+levels
+berkana rune:                  1
+level
+trollskin
+armour
+(*):
+2
+levels
+Ri'shen attunement:            1 level
+The total of levels that will affect health regen is 3. Having a total of
+levels beyond 3 is possible, but will not increase health regeneration rates.
+No more than one regen
+ring
+(the best, if more than one is worn) will grant any
+regen for the wearer.
+The 3-level limit is for health and has
+nothing
+to do with mana: the two are
+independent limits.
+Examples of Limits on Health Regeneration
+-----------------------------------------
+Suppose you
+wish
+to maximize health regeneration. How may this be accomplished?
+Acquire a level 2 regen ring and a berkana rune. This would provide 3 levels of
+health regen. A boar tattoo would
+speed
+things
+further, as boar tattoo and
+boost/regen abilities do not count towards the 3-level limit.
+Perhaps the player has a rare suit of trollskin armour* and wants to purchase a
+health regen ring. What should the player
+buy
+? A level 2 regen ring would be a
+waste, since only 3 levels of health regen are counted. Boar tattoo and
+boost/regen abilities do not count towards the 3-level limit, and so are not a
+consideration.
+The same person
+wishes
+to obtain a berkana rune. If the player already has a
+level 1 regen ring, of what value would the berkana rune be?  None - the player
+already has 3 levels of health regeneration and cannot benefit from any more.
+* Trollskin armour, a discontinued artefact, is no longer sold or available.
+MANA REGENERATION
+-----------------
+What Always Affects Mana Regen
+------------------------------
+alchemy astronomy
+moon
+tattoo
+meditating
+mind splitting
+being in a mana regeneration room
+What Affects Mana Regen Within Limits
+-------------------------------------
+artefact powers:           1-3 levels
+This is always limited to a maximum of 3 levels. The 3-level limit is for mana
+and has nothing to do with health: the two are independent limits.
+(see also HELP RECOVERY)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

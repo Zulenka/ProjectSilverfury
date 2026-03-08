@@ -1,0 +1,267 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.4 Learning, and Other Ways of Increasing Skills
+(See also: HELP LEARNING LANGUAGES,
+HELP LESSONS
+,
+HELP MYRRH
+,
+HELP
+SKILLRANKS
+)
+I.
+Learning
+II
+.
+Practicing
+III. Speeding Up Learning
+IV.
+Other
+Ways to Increase
+Skills
+V.
+Tutors
+VI.
+City
+Tutors
+VII.
+House
+Tutors
+VIII. Learning From Adventurers
+IX. Forgetting skills
+I. Learning
+-----------
+To raise your skills and gain more
+abilities
+, find a
+tutor
+to
+learn
+from and
+spend your
+lessons
+! A tutor could be an adventurer or a
+denizen
+. You must have
+lessons available to spend on your learning (HELP LESSONS). To begin a
+lesson
+:
+LEARN <#> <skill> FROM <tutor>     (# can be
+anything
+from 1 to 15)
+For example: LEARN 15
+SUBTERFUGE
+FROM EPICURUS
+You may see how many lessons you have to spend by typing
+SCORE
+RESOURCES. To
+find out how far you are to the next
+skill
+level
+, try asking a denizen tutor:
+ASK <tutor> <skill>
+II. Practicing
+--------------
+Practicing, which is using an
+ability
+over and over, does
+nothing
+to increase
+the relevant skill.
+The only case in which practicing (of a sort) is useful, is when you have just
+acquired a
+proficiency
+(HELP
+PROFICIENCIES
+).
+Attack
+with the
+weapon
+in order to
+fully gain the proficiency.
+III. Speeding Up Learning
+-------------------------
+- Should you learn from a
+mentor
+, you will be able to learn
+5
+more lessons at
+a
+time
+.
+- Should you
+eat
+myrrh
+or
+bisemutum
+, you will be able to learn 5 more lessons
+at a time.
+IV. Other Ways to Increase Skills
+---------------------------------
+- You may gain up to 10 lessons per
+IC
+month
+if
+others
+learn from you.
+- Certain abilities may increase your skills, such as a
+Druid
+harvesting
+his own hive or the effects of using a certain
+Tarot
+card.
+- Possibly via a
+boon
+(HELP
+BOONS
+).
+V. Tutors
+---------
+There are four types of tutors: General tutors, city tutors, House-specific
+tutors, and adventurers. A general tutor is a denizen
+who
+can
+teach
+anyone
+class
+specific abilities up to virtuoso level and non-class skills up to
+maximum level. There are few so learned who will share their knowledge
+publicly. Of these few, the most
+famous
+are Onorol the Healer and Tyrandiel the
+wise. You may find Onorol in the Sacristy of Healing in
+Shastaan
+, and Tyrandiel
+within the Lucretian Athenaeum in New
+Thera
+.
+VI. City Tutors
+---------------
+City tutors can
+train
+you in any ability but are only able to teach up to
+the
+skillrank
+of Skilled. (See:
+HELP SKILLRANKS
+.) The city tutors are:
+Ashtan
+:    Epicurus
+Cyrene
+:    Indalecio
+Eleusis
+:   Aine
+Hashan
+:    Damaris
+Mhaldor
+:
+Maric
+Targossas
+: Cazin
+VII. House Tutors
+-----------------
+Each House in
+Achaea
+has at least one tutor. Only House members may learn from
+this tutor, who usually resides in the House's estate where you may learn in
+relative safety. House tutors can teach all abilities up to the maximum
+level.
+VIII. Learning From Adventurers
+-------------------------------
+The final method is learning from another adventurer. The adventurer you are
+learning from must have the same skill that you want to learn at a higher
+level than you, or be a City
+Guide
+. City
+Guides
+can teach any ability up to
+any level to their fellow
+citizens
+.
+Your tutor also benefits slightly from
+teaching
+you. This benefit to the
+teacher
+will only occur if you learn no less than 15 lessons each time.
+You may offer to teach a skill by typing TEACH <skill> <adventurer>. There is
+never any benefit (in terms of increased skill) to you, as teacher, when you
+offer to teach someone a skill in this way. It's better for them to ask to LEARN from you.
+IX. Forgetting Skills
+---------------------
+Those at level 30 and under may reset the lessons spent in a skill by using the
+following
+syntax
+: FORGET <SKILL>. This will return almost 100% of your invested
+lessons back to you.
+* Note: This functionality is blocked once you've been offered to
+embrace
+, or
+you've embraced your class.
+(See also: HELP LEARNING LANGUAGES,
+HELP LESSONS
+,
+HELP MYRRH
+, HELP SKILLRANKS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

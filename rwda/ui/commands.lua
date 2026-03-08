@@ -150,7 +150,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour|bisect>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]|runesmith [list [goal]|info <preset>|weapon <ref> <preset>|armour <ref>|configure <ref> <preset>|status|cancel]  (alias: rs)")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour|bisect>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]|runesmith [list [goal]|info <preset>|weapon <ref> <preset>|armour <ref>|configure <ref> <preset>|status|cancel]  (alias: rs)|helpdb [status|import <path>|command <name>|ability <name>|affliction <name>|defence <name>|search <term>|unload]")
 end
 
 function commands.handle(raw)
@@ -201,6 +201,90 @@ function commands.handle(raw)
     tell(commands.statusText())
     return
   end
+
+  if sub == "helpdb" then
+    local action = (words[2] or "status"):lower()
+    local module = rwda.integrations and rwda.integrations.helpdb
+    if not module then
+      tell("HelpDB module not loaded.")
+      return
+    end
+    if action == "status" then
+      local st = module.status()
+      tell(string.format("helpdb loaded=%s path=%s", tostring(st.loaded), tostring(st.path or "(none)")))
+      return
+    end
+    if action == "import" or action == "load" then
+      local path = trim(raw:match("^%S+%s+%S+%s+(.+)$") or "")
+      if path == "" then
+        tell("Usage: rwda helpdb import <silverfury_data dir or dataset dir>")
+        return
+      end
+      local ok, res = module.load(resolvePath(path))
+      if ok then
+        tell("HelpDB loaded from " .. tostring(res))
+      else
+        tell("HelpDB load failed: " .. tostring(res))
+      end
+      return
+    end
+    if action == "unload" then
+      module.unload()
+      tell("HelpDB unloaded.")
+      return
+    end
+    if action == "search" then
+      local term = trim(raw:match("^%S+%s+%S+%s+(.+)$") or "")
+      if term == "" then
+        tell("Usage: rwda helpdb search <term>")
+        return
+      end
+      local results = module.search(term, 12)
+      if #results == 0 then
+        tell("No HelpDB matches for '" .. term .. "'.")
+        return
+      end
+      for i, item in ipairs(results) do
+        tell(string.format("%d. [%s] %s", i, tostring(item.kind), tostring(item.key)))
+      end
+      return
+    end
+    local getterMap = {
+      command = module.getCommand,
+      ability = module.getAbility,
+      affliction = module.getAffliction,
+      defence = module.getDefence,
+      skill = module.getSkill,
+      class = module.getClass,
+    }
+    local getter = getterMap[action]
+    if getter then
+      local name = trim(raw:match("^%S+%s+%S+%s+(.+)$") or "")
+      if name == "" then
+        tell("Usage: rwda helpdb " .. action .. " <name>")
+        return
+      end
+      local item = getter(name)
+      if not item then
+        tell("No HelpDB entry found for " .. action .. ": " .. name)
+        return
+      end
+      if type(item) == "table" then
+        local title = item.title or item.name or name
+        local category = item.category or action
+        local text = item.text or item.summary or item.description or "(no summary)"
+        text = tostring(text):gsub("\n", " ")
+        if #text > 220 then text = text:sub(1, 217) .. "..." end
+        tell(string.format("[%s] %s :: %s", category, tostring(title), text))
+      else
+        tell(tostring(item))
+      end
+      return
+    end
+    tell("Usage: rwda helpdb [status|import <path>|command <name>|ability <name>|affliction <name>|defence <name>|search <term>|unload]")
+    return
+  end
+
 
   if sub == "explain" then
     local reason = rwda.state.runtime.last_reason

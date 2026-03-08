@@ -1,0 +1,119 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.10.13 Phials and Vials
+(See also
+HELP REMEDIES
+,
+HELP TOXICOLOGY
+,
+HELP
+FILLING
+)
+Vials
+and
+phials
+are small
+containers
+, usually for liquids, often with a
+stopper or some way in which it may be closed.
+Vials
+hold
+salves
+,
+elixirs
+,
+venoms
+, and the like. Vials hold 200 sips.
+Phials hold the various compounds crafted by an
+Alchemist
+skilled in
+Formulation
+.
+Vial
+contents can be consolidated with the CONSOLIDATE <fluid>
+command
+, which
+will
+pour
+all of your elixirs into the fewest number of vials. CONSOLIDATE VIALS
+will consolidate all fluids in all of your vials at once.
+You can POUR from or into a vial:
+POUR [# of sips] <
+container
+|fluid> IN|INTO <container|RIFT>
+It is also possible to
+FILL
+a vial from the
+rift
+or a
+tun
+:
+FILL <vial> WITH <fluid> FROM <tun|RIFT>
+(See also
+HELP REMEDIES
+,
+HELP TOXICOLOGY
+, HELP FILLING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

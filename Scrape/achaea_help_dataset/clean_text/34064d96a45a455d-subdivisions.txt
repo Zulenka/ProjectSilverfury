@@ -1,0 +1,161 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+20.2 SUBDIVISIONS
+Subdivisions
+are areas of a
+city
+, built by the Ministry of Development of that city. When you are in one, you'll see an
+ansi
+'graphical' display of the surrounding rooms. See
+HELP MAP
+for more information on this "
+Wilderness
+Map"
+system
+that we use.
+Each room in a
+subdivision
+can be placed for sale by the city. Once a room is for sale, you will see that it is just by
+walking
+into the room. Type
+PLOT
+INFO to get more information on it, such as price and
+who
+, if anyone, owns it currently.
+In order to purchase a plot, on which you may build a
+house
+, simply
+go
+to a plot that is for sale, and type PLOT PURCHASE. From then on, the plot will be yours!
+Subdivision Development
+Commands
+for the
+Minister
+of the
+Interior
+:
+By standing in a developed room, the Ministry of the Interior is able to extend the subdivision by one room in any of the available
+directions
+, and create that room using one of over 35 tiles.
+Development Commands:
+DEVELOP FUNDS
+-
+Shows
+you how much
+gold
+and
+commodities
+the Ministry of the Interior has stored.
+DEVELOP TYPES [<pattern>]
+- Shows you the different tiles that you may develop with. The <pattern> is optional, but lets you
+show
+just a certain type of tile, based on the
+name
+of the tile.
+- For instance, DEVELOP TYPES ROAD*  would find all tiles that start with 'road'. The *
+character
+is called a 'wildcard' and will substitute for any number of characters.
+DEVELOP INFO <tile type>
+- Shows you more information on a type of tile.
+DEVELOP COPY
+- In the subdivision planner only. Copies the entire contents of the actual subdivision to the subdivision planner. USE WITH CARE!
+DEVELOP CLEAR
+- Clears the entire subdivision planner. USE WITH CARE!
+DEVELOP [<direction>] AS <tile type>
+- This lets you either create a new bit of land with a given tile type to the north, northeast, east, southeast, south, southwest, west, or northwest. If you do not include the
+direction
+(the [ ] means it is optional), then you will terraform the location you are currently in.
+- This
+command
+only works in subdivisions.
+- DEVELOP TYPES shows the cost for each type of tile. Upon creating one or terraforming an existing one, the appropriate amount of gold will be deducted from the Interior Ministry's reserves, as well as an additional amount of gold that is a function of how many commodities you need to develop that tile and the price the Ministry has set for those commodities. DEVELOP FUNDS will show you how many of each
+commodity
+the Interior Ministry can currently afford.
+- Subdivision dimensions are 100 by 100, and SURVEY will indicate where precisely you currently stand.
+DEVELOP PLOT NOSALE/DEFAULT/<plot price>
+-
+Plots
+start out as being not for sale, and you must set them for sale if you
+wish
+someone to purchase them.
+- The 'default' option means that a default price (see below) will be used for this plot.
+- You can take it off the
+market
+with the 'nosale' option.
+DEVELOP PLOTLIST [<owner's name>]
+- View a list of all plots, or plots owned by a specific adventurer.
+DEVELOP SET DEFAULT PRICE <price>
+- Sets a default price for plots that you set to use the default price.
+- This price can be seen in CITY ECONSTATUS.
+DEVELOP SUBDIV LIST
+- List the subdivisions your city has.
+DEVELOP SUBDIV
+TITLE
+<subdivision name> <title>
+- Set the title of one of your city's subdivisions. People will see this when they SURVEY inside a subdivision.
+Please also see
+HELP IMPROVEMENTS
+for more commands and responsibilities that the Interior Ministry has.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

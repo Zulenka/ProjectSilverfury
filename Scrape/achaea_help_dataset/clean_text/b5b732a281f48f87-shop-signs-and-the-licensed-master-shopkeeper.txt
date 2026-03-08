@@ -1,0 +1,127 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.11.3 Shop Signs and the Licensed Master Shopkeeper
+(see
+HELP SHOP POLICIES
+and
+HELP
+BINS
+)
+MASTER
+SHOPKEEPERS
+ONLY:
+SHOP
+SIGNS
+-----------------------------------
+Licensed master shopkeepers, and no one else, may purchase shop signs. Shop
+signs may only be purchased in
+shops
+owned by master shopkeepers. If you are
+standing in your shop and do not yet have one, you will be notified that you
+can make the purchase, and the cost of it.  Shop signs are non-refundable and
+non-returnable, so
+consider
+carefully before purchasing. No more than one shop
+sign may appear in any shop.
+HOW TO USE THE SHOP SIGN
+------------------------
+Simply enter your shop and then WRITE SIGN. The rest is just like any
+other
+writing
+session (writing a
+letter
+, posting a
+news
+item, etc).
+LIMITATIONS and
+LANGUAGE
+------------------------
+The content of the shop signs is subject to the language rules of our realms
+(HELP LANGUAGE RULES). Violating shop signs may result in removal of the sign
+and/or loss of
+license
+, possibly permanently.
+CONFIGURING THE SHOP SIGN
+-------------------------
+You may
+control
+the colour of your SHOP SIGN as a
+configuration
+option. Type
+CONFIG
+COLOUR and you will see the setting there: CONFIG COLOUR SHOP_SIGN
+<colour>.
+Everyone that enters your shop will see the sign at that colour, no matter what
+their config settings may be for viewing 'things' in rooms. If the person
+entering does not have
+ansi
+colour enabled, then the sign will not be coloured
+differently from
+anything
+else.
+(see
+HELP SHOP POLICIES
+and HELP BINS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

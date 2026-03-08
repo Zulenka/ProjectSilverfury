@@ -1,0 +1,132 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.13.2 Gift Customisations
+(See also:
+HELP
+CUSTOMISATION
+GUIDELINES)
+Like
+artefacts
+,
+customisations
+may be purchased for
+other
+adventurers as a
+GIFT. These include the gamut of usual customisations: resetting, non-
+decay
+,
+description
+, and
+custom
+reactions
+.
+The
+credits
+used for a gift customisation must be UNbound. Please do not
+bind
+the credits you intend to use for a gift customisation.
+You may also use silver tokens (see HELP
+SHOP
+OF WONDERS) to purchase gift
+customisations for resetting, non-decay, and description only.
+If necessary, we may check with the person
+who
+is to receive the gift
+customisation to make certain that you are not
+customising
+something
+for
+them that they do not
+wish
+to have customised. If it is important to you
+that the gift recipient does NOT know about the customisation until it is
+completed, please note this in your
+email
+.
+When you write to customisations@
+achaea
+.com to request a gift customisation
+for someone else, be sure to include your character's
+name
+from which the
+unbound credits will come as well as the
+character
+for whom the item is to
+be customised. The item must be in either your character or the recipient
+character's
+inventory
+.
+If,
+following
+the gift customisation, the gift recipient decides that he or
+she does not wish to have the customisation, we will
+remove
+it without
+refund. Once the gift has been given, there is no way to retrieve the
+credits you have spent.
+If you have any
+questions
+, please email customisations@achaea.com.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

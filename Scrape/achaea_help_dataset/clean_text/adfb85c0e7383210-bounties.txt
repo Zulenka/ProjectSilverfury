@@ -1,0 +1,177 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.38.1 City Bounties
+The
+bounty
+system
+provides a way for
+cities
+to track and reward retribution for offences against the
+city
+.
+VIEWING
+BOUNTIES
+----------------
+To see current bounties,
+go
+to your city's bounty
+board
+and use the
+syntax
+:
+CITY BOUNTY LIST
+CITY BOUNTY INFO <bounty #>
+These can be found in the
+following
+locations:
+Ashtan
+- Northern Parade of Zarathustra.
+Cyrene
+- Steps before the courthouse of Cyrene.
+Eleusis
+- Above the fields near a bridge.
+Hashan
+- A dark hallway.
+Mhaldor
+- Before the gates of the Baelgrim Fortress.
+Targossas
+- Scythia Square.
+CLAIMING
+A BOUNTY
+-----------------
+Claiming a bounty is open to all members of the city's
+army
+. To undertake a bounty, go to the bounty board and use the syntax:
+CITY BOUNTY
+CLAIM
+<bounty #>
+Doing so informs the
+target
+that he or she has a bounty on his or her head. Similarly, this opens up the claimant to
+attack
+from the target whilst the bounty remains in effect.
+When the target is killed, you will immediately receive your reward.
+ADDING/CANCELLING BOUNTIES
+--------------------------
+Defence
+ministers
+may add bounties to the board, or cancel them, with the following syntax:
+CITY BOUNTY ADD <person> <reason> <reward amt> [
+GOLD
+|
+CREDITS
+]
+CITY BOUNTY CANCEL <bounty #>
+Gold rewards are deducted from the Defence Ministry coffers, while the credits are withdrawn from a dedicated pool.
+This pool is replenished annually, and is configurable by the city leader. They may specify the size of the pool with:
+CITY BOUNTY CREDITS AVAILABLE <amount>
+Some notes about adding and cancelling bounties:
+- These are for organisational
+crimes
+only.*
+- There can be only one unclaimed bounty on a person's head at a
+time
+.
+- The maximum bounty reward is 50,000 gold, or 100 credits.
+- All bounties require a reason between 10 and 50 characters.
+- Bounties display on the city
+logs
+when added and on the millog when claimed or completed.
+- Bounties last
+6
+Achaean
+months
+from the time they are claimed.
+-
+Failed
+bounties may not be re-filed.
+- Bounties that are close to expiration may not be cancelled and re-filed.
+- You may not get through a bounty then go down the next crime "on the list" and file another. Once a bounty is completed or failed, you must
+consider
+ALL previous bountiable crimes as cleared from that person's record. You may not file another bounty on them unless they commit a new crime after that.
+- Bounty filers are responsible for the bounties filed. Do your homework.
+* For the purposes of bounty filing, vivify and exterminate are considered organisational crimes.
+Conquest
+is not unless it is
+attacking
+a mutually allied area.
+* In addition, to keep
+things
+simple, if someone
+attacks
+one of your
+citizens
+inside city limits, you may EITHER file a bounty or that
+citizen
+may file a private
+contract
+. If someone (or their
+group
+, do not try to find a loophole) kills more than one person in what could reasonably be considered one extended
+engagement
+, then you may bounty regardless of
+contracts
+filed.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

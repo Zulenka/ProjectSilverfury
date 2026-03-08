@@ -1,0 +1,174 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+12.2.3 Gheladan
+(See also:
+HELP LODI
+,
+HELP MINIA
+,
+HELP
+NEWBIE
+QUESTS
+)
+Like
+Minia
+and
+Lodi
+,
+Mount
+Gheladan
+is a place for young adventurers
+levels
+20
+and under(*) to
+quest
+and
+hunt
+. It is a land where two species of ratlike
+beings live at odds with one another. The Nilari, a peaceful
+race
+,
+look
+for aid
+against the
+Murinae
+, their more violent kin. The Murinae also willingly accept
+aid in handling the Nilari, with more nefarious
+goals
+in mind.
+Further up the mountain, deep within a series of caverns, a hive of giant bees
+and a nest of large hornets do battle with one another to
+fight
+for living
+space. Both species
+wish
+to destroy the
+other
+and seek dominance.
+Sibling
+dragons
+in Minia, Lodi, and Gheladan will transport
+newbies
+(only)
+between the three areas.
+IN MINIA: Find the
+dragon
+Auma
+(NE from the archway to Minia) and
+say
+, "Take
+me
+to Lodi please." or "Take me to Gheladan please."
+IN LODI: Find the dragon
+Poraeus
+at the entrance to Lodi and say, "Take me to
+Minia please." or "Take me to Gheladan please."
+IN GHELADAN: Find the dragon
+Lasuna
+at the entrance to Gheladan and say, "Take
+me to Minia please." or "Take me to Lodi please."
+Newbies within Gheladan are protected from
+attacks
+from higher
+level
+adventurers. Those forbidden from entering Mount Gheladan will be quickly
+ejected by Lasuna,
+who
+guards
+her newbies carefully.
+If you don't know your way to Gheladan by foot, and if you have use of the
+PORTALS
+ability
+(only for people under level 21. Type
+SHOW
+PORTALS to see if
+you have any
+portal
+trips left), you may
+go
+EAST, then SOUTHEAST from the
+location that PORTALS takes you to.
+(*) Not all those who are level 20 or under may enter Lodi, Minia, Gheladan, or
+any other area restricted to newbies. Those who are sufficiently
+infamous
+may
+not enter (see HELP
+INFAMY
+). Neither may those who have ever been offered the
+chance to
+embrace
+class
+(see HELP
+EMBRACING
+). Nor those who have exceeded three
+hundred
+days
+within the realms.
+(See also:
+HELP LODI
+,
+HELP MINIA
+, HELP NEWBIE QUESTS))
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

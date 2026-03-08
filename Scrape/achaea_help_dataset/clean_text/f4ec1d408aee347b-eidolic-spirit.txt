@@ -1,0 +1,169 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.8.5 Eidolic Spirit
+Spirit
+is the resource tithed from areas via Eidolic
+Influence
+.
+Spirit of Fear is generated via conquering areas. Spirit of Gratitude is generated via the
+liberation
+acts. Both funnel into the
+city
+via the
+font
+and can be used as Spirit.
+Each area conquered will generate Spirit monthly; this will be tithed to the conquering state at the end of the
+month
+. There are diminishing returns, so bigger isn't always better on paper. If you
+conquer
+an area that you have laid out in the
+Doctrine
+as a
+conquest
+objective
+, that area will generate a bonus amount of Spirit.
+The various
+quests
+that aim towards liberation/morale boosting will generate Spirit of Gratitude. This is cached in the area until it is liberated and then awarded to the liberator at the end of the month. Liberation itself also generates Spirit from a liberated area. If you
+liberate
+an area you have laid out in the Doctrine as a protection objective, that area will generate a bonus amount of Spirit for you.
+Spirit can be spent on a variety of rewards for your city. Some of these rewards are gated by the number of areas held in conquest.
+When the city has gained enough Spirit, the City Leader or
+Defence
+Minister
+can use the
+following
+commands
+to spend it.
+CITY SPIRIT
+INVEST
+<powername>
+- To use a
+power
+.
+CITY SPIRIT INVESTMENTS
+- To see the power list.
+CITY SPIRIT INVESTMENTS <powername>
+- To see the specifics of a power.
+- You must have reached the required areas held at a minimum before you can see a power's details.
+CITY SPIRIT RENEW <investment>
+- This will cause the
+investment
+to renew itself when it fades automatically.
+- This can be used with the
+EMPOWER
+, SLAUGHTER, and MAINTAIN investments.
+- In the case of MAINTAIN, the power is reactivated when the repair happens (if the power is off cooldown), or when the cooldown ends if a maintain is not pending.
+- To toggle the
+renewal
+OFF, simply repeat the
+command
+for the investment currently being renewed
+(i.e. If MAINTAIN is being renewed, to turn it off, use CITY SPIRIT RENEW MAINTAIN)
+CITY SPIRIT RELINQUISH
+- This will cost all of your accumulated spirit, and at your next Eidolic Phase, your spirit will
+return to its corporeal form, and all conquered areas will be relinquished.
+- This command can only be executed by the City Leader in the
+War
+Room.
+- Using this command means that the spirit of your
+Guardian
+will need to be resummoned from scratch if you
+wish
+to venture forth again.
+CITY SPIRIT
+STATUS
+- This will
+show
+the current spirit amount, any active investments, and any investments that are on cooldown.
+0 - 4 areas held in conquest
+EMPOWER - 100 Spirit
+SLAUGHTER - 100 Spirit
+PARADIGM - 150 Spirit
+PROPAGANDA - 200 Spirit
+TELEPORT - 500 Spirit
+MAINTAIN - 500 Spirit
+RELIEF - 1000 Spirit
+ADAPTATION - 1000 Spirit
+EXPANSION - 20000 Spirit
+5
+- 14 areas held in conquest
+DEFIANCE - 5000 Spirit
+BRIDGE - 7500 Spirit
+15 - 24 areas held in conquest
+ENLIVEN - 500 Spirit
+FORTIFY - 3000 Spirit
+FLAME
+- 3000 Spirit
+25+ areas held, with the largest current
+territory
+count.
+EMISSARY - 2000 Spirit
+FULLSENSE - 2000 Spirit
+LEAP - 500 Spirit
+SHROUD - 500 Spirit
+BUCKAWNS - 500 Spirit
+Last Updated: 12/17/2025
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,176 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.28 WEAPONRY
+(See also:
+HELP WEAPONS
+,
+HELP
+THROWING
+)
+Weaponry
+is a
+skill
+available to all. Anyone may use any
+weapon
+, and any
+attack
+with that weapon. Whether it works or not is another
+question
+! The results you
+get with
+weapons
+are strongly influenced by:
+(1)
+training
+, which gives you greater "weapons effectiveness," *
+(
+2
+)
+proficiency
+in that weapon, and
+(
+3
+) the attack used (
+say
+, using crush with a longsword).
+(*) In the case of certain
+class
+skills
+training may also increase effectiveness. Specifics are as follows:
+- For those with
+Groves
+or
+Pranks
+, the higher of the two skills (e.g. Pranks vs Weaponry) will be used, with no benefit from the lower.
+- For those with
+Skirmishing
+, the higher skill will be used, with a bonus 10% of the effectiveness of the lower skill.
+- For those with
+Weaponmastery
+,
+learning
+weaponry will convey no benefit, as the benefits of Transcendent Weaponry are conveyed regardless (only for the purpose of "weapons effectiveness"). Further learning in Weaponmastery will convey up to 10% additional efficacy.
+Weapons Effectiveness
+---------------------
+This is a sort of general measure of how well you will use any weapon, and is
+related, as noted above, to the Weaponry skill (and, for some, the
+Weaponmastery, Pranks, Skirmishing, or Groves skill).
+What is affected by your weapon's effectiveness?
+- the chance that any weapon's attack (swing/jab/whatever) is 'a hit.'
+- the chance that your 'hit' is not avoided by your
+target
+.
+- the damage done.
+A bit more about
+things
+related to Weapons use
+----------------------------------------------
+Proficiencies
+-------------
+All may gain proficiencies, whether skilled in weaponry or not. A
+proficiency means that you have mastered a particular type of weapon, e.g.
+longsword, broadsword,
+halberd
+, whip, mace, etc.
+Things that make you more effective
+-----------------------------------
+Each weapon has three
+statistics
+that are relevent to how well it works
+(these may be seen with the
+ability
+WeaponProbe):
+- Damage (higher damage results in more damage to your
+targets
+)
+- To-hit (higher to-hit results in fewer misses), and
+-
+Speed
+(higher speed means you recover
+balance
+more quickly).
+Proficiency and Weaponry skill also contribute to your effectiveness. Higher
+Weaponry results in an across-the-
+board
+increase (damage, fewer misses, quicker
+balance
+recovery
+).
+Weapons
+Attacks
+---------------
+There are many ways to use weapons (slash, whip, jab, crush, slice, etc).
+Only some are effective with any particular weapon.
+Example: you CAN whip someone with a sword, but you won't do well.
+To see the proper attacks for a particular weapon, simply
+PROBE
+it. If the
+attack
+shows
+in the PROBE, then the weapon is effective with that form.
+(See also:
+HELP WEAPONS
+, HELP THROWING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

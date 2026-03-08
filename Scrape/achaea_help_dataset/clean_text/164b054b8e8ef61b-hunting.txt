@@ -1,0 +1,197 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.26 Hunting
+Hunting
+the
+denizens
+of
+Achaea
+is one of the primary methods by which an
+adventurer can gain
+experience
+and
+gold
+. The
+key
+to hunting effectively is to
+find the most powerful denizens that you can safely
+kill
+, as those more
+powerful denizens are worth more experience and have a chance to drop greater
+quantities of gold.
+Finding Appropriate Denizens
+----------------------------
+Vast hordes of denizens populate the
+world
+of Achaea. Most areas will contain
+groups
+of denizens that share a common
+level
+range, allowing you to spend
+time
+in a small area
+killing
+groups of denizens with similar difficulty.
+Adventurers can use the AREAS
+command
+to get a list of areas that
+might
+be
+suitable for them to continue their advancement. The
+CONSIDER
+command can be
+extremely helpful in determining the relative
+strength
+of a
+denizen
+, as well
+as giving you information about the current
+health
+level of the denizen.
+HELP CONSIDER
+has more information about using the command to view information
+about denizens.
+Denizens
+Fight
+Back
+-------------------
+While you are
+attacking
+your chosen
+target
+, in almost all circumstances the
+denizen will be hitting you in return. The denizens in Achaea use a series of
+varied
+attacks
+which can range from damage to your health to various
+debilitating
+afflictions
+. Make sure to come prepared with
+elixirs
+to
+heal
+you
+and
+curatives
+to
+remove
+the afflictions.
+Read
+HELP CURES
+and
+HELP HEAL
+for more
+information.
+Some denizens are considered to be berserkers and will
+attack
+you as soon as
+you enter their rooms.
+Some groups of denizens will share
+loyalty
+with a common leader. In those
+situations, when you strike one of the loyal denizens, all
+other
+denizens in
+the room that share the same loyalty will also attack you in retaliation.
+As you are involved in
+combat
+with a denizen, the more you hit the denizen and
+take certain actions (like healing other adventurers), the more angry the
+denizen will become with you. The denizens use this anger level to determine
+who
+they will hit when they attack. If you are the only adventurer involved in
+combat with the denizen, then the denizen will have no choice but to strike
+you. If you are attacking the denizen in a
+group
+with other adventurers. the
+denizen will strike the target who has made the denizen the most angry. In most
+cases, this will be the adventurer who has done the most damage.
+Hunting in a Group
+------------------
+Hunting with other adventurers is frequently more efficient than hunting on
+your own, particularly when the group is able to tackle stronger denizens than
+you might be able to handle by yourself. When you are in a group with other
+adventurers, the experience rewards from the
+death
+of a denizen will be
+distributed amongst all of the members of the group. Higher-leveled adventurers
+in the group will receive a greater share of the experience than lower-leveled
+adventurers, but the overall pool of experience distributed will be higher than
+if you had been hunting alone. Read
+HELP GROUPS
+for more information about
+forming groups of
+adventurers.
+See also:
+HELP DENIZENS
+,
+HELP CONSIDER
+,
+HELP GROUPS
+,
+HELP CURES
+,
+HELP HEAL
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

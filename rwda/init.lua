@@ -66,6 +66,7 @@ local FILES = {
   "integrations/legacy.lua",
   "integrations/aklimb.lua",
   "integrations/groupcombat.lua",
+  "integrations/helpdb.lua",
   "ui/combat_builder_state.lua",
   "ui/combat_builder.lua",
   "ui/hud.lua",
@@ -182,6 +183,10 @@ function rwda.bootstrap(opts)
 
   if rwda.config.integration.use_aklimb and rwda.integrations and rwda.integrations.aklimb then
     rwda.integrations.aklimb.detect()
+  end
+
+  if rwda.integrations and rwda.integrations.helpdb and rwda.integrations.helpdb.bootstrap then
+    rwda.integrations.helpdb.bootstrap()
   end
 
   if rwda.config.integration.use_group_layer and rwda.integrations and rwda.integrations.groupcombat then

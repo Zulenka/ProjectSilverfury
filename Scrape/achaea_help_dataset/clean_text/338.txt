@@ -1,0 +1,241 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.6 XP Events
+What Is An
+XP
+Event
+?
+---------------------
+XP
+Events
+(also known as
+Experience
+Contests
+) are usually long-term events where adventurers compete individually, or by organisation. During these events, you gain experience via the slaying of
+denizens
+. Experience gain is tracked and ranked, and the person or organisation with the highest experience gain during the event is declared the winner.
+The
+names
+of those
+who
+have entered the XP Event will
+show
+up in the room in bold cyan (#14 in
+CONFIG
+COLOUR).
+*****   *****   *****   *****   *****   *****   *****   *****   *****
+Championship
+Games
+XP Event
+----------------------------
+Everything
+written above remains the case for this special XP event, but this one will be a
+6
+hour
+total
+hunting
+time
+which can be undertaken during the XP Event windows scheduled on
+UPCOMING
+.
+You do NOT have to complete all 6
+hours
+in one sitting, but you cannot
+hunt
+for less than 1 hour total at any one time.
+XPEVENT
+JOIN
+- will
+mark
+you as a participant and will begin your first hour-long hunting
+window
+.
+XPEVENT ENTER     - will start one of your successive, hour-long
+bashing
+windows. This will be for hour
+2
+,
+3
+, 4,
+5
+, or 6. Please use JOIN for the first hour.
+XPEVENT WHO       - will lists players who are currently using their XPEVENT window.
+Contest points awarded will vary based on the
+continent
+or
+plane
+you are on and roughly correspond to the
+level
+of danger you are in from
+other
+players while hunting, with higher danger being more rewarding.
+These modifiers are an adjustment to
+base
+point
+value and will show on SURVEY while the event is active:
+Diving
+: 20%
+Forays
+: 20%
+Outer
+islands
+: 20%
+On continent
+Sapience
+/
+Meropis
+: 125%
+Standard off plane (elemental
+planes
+etc): 100%
+On a different continent not covered by one of the above: 80%
+UW/
+Annwyn
+: 150%
+Note that 100% is baseline, it is not 100% on top of normal.
+As an example, if a
+denizen
+is typically worth 40 points (a sample value), then
+killing
+it on mainland Sapience will award 50 points, but an outer
+island
+would make it 13 points.
+It is NOT possible to
+QUIT
+the Championship XP Event, however any active participation will time out after an hour, removing OPEN
+PK
+status
+.
+Anyone on XPEVENT WHO is OPEN PK! This means they are open to
+attack
+by ANYONE else in
+Achaea
+, not only
+others
+who are in the event.
+*****   *****   *****   *****   *****   *****   *****   *****   *****
+Joining
+and
+Leaving
+--------------------
+To join an XP Event, type XPEVENT JOIN. You will be FREE PK once you join, so make sure that's really what you want to do!
+To quit an XP Event, type XPEVENT QUIT. You can NOT rejoin the XP Event once you have quit - you only get to join once. So make sure that's really what you want to do!
+If you
+QQ
+during an XP Event, you will remain in the XP Event when you return to the realms. Once you have joined an XP Event, the only way to quit it before it is over is to XPEVENT QUIT.
+About Experience Gain And Otherwise
+----------------------------------
+Bonuses to xp, such as rare
+minerals
+, the
+Effigy
+of Victory and the Mark bonuses, will not count for the
+scoring
+in this event, although you will personally still gain xp as normal, i.e. with the bonuses.
+If you are in a
+group
+, XP will be divided among you and this divided amount is what will count toward you
+score
+, regardless of whether others in your group are in the xpevent or not.
+ALL
+gear
+effects will be disabled for XP Event participants during their active time.
+Free PK
+--------
+All XP Events are FREE-PK, which means that you cannot
+lose
+or gain experience via PK if you join an XP Event.
+Any person-specific
+combat
+advantages gained during an XP Event, as in any  FREE-PK event, such as
+Vodun
+dolls,
+puppets
+,
+Death
+Tarot
+rubs, must be given up voluntarily at the end of the event. If you make us track you down, you'll regret it, so put those
+humgiis
+to good use!
+You CAN still lose experience via death to normal denizens (this excludes loyal entities, such as falcons, Baalzadeens, chaos entities, golems, et cetera). Any deliberate
+attempt
+to cause an XP event participant to
+die
+to a normal denizen is forbidden. That means: don't lead aggressive denizens out to
+kill
+people. Don't summon into
+city
+guards
+from outside city property.
+Commands
+(NOT FOR 802 Championship Games)
+------------------------------------------
+XPEVENT JOIN                     - join the current xp event.
+XPEVENT QUIT                     - quit the current xp event. cannot rejoin!
+XPEVENT
+RANKINGS
+[start] [count] - rankings of curr/prev xp event.
+XPEVENT WHO                      - those in the xp event.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,156 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.20 Seaspells
+(See also:
+HELP SHIPS
+,
+HELP
+SEAFARING
+)
+Seaspells
+are powerful spells invoked through melding one's psyche with a sea
+spirit
+that dwells within a ship's
+figurehead
+.
+In order to invoke seaspells, you must first obtain a
+ship
+figurehead.
+Vedel, the
+gypsy
+woodworker in
+Manusha
+, is known to carve and
+sell
+a handful
+of
+figureheads
+. There may be more available from
+others
+.
+Once a figurehead is in your possession, you must travel to the Altar of the
+Sea Spirits, somewhere in the ocean to the southwest of Zaphar Isle. There,
+provided you have the
+SHIPMELD
+ability
+, you must consecrate the figurehead. At
+the altar, place the figurehead on the ground and PRAY TO SEA SPIRITS. Await
+a while for consecration. When the figurehead is consecrated, you can take it
+to your ship's bow and SHIP
+MOUNT
+<figurehead>. Only one figurehead may be
+mounted at a
+time
+. Only the captain or the owner of the ship may mount or
+dismount a figurehead. Dismounting the figurehead will drain all
+power
+it once
+held.
+Once your figurehead is mounted, you must add power to it before any seaspells
+may be invoked. Travel over water adds power to your figurehead, so
+sail
+or row
+around for a while. Be warned:
+running
+down your stored power to 0 will destroy
+your figurehead.
+While any
+crew
+member
+may shipmeld and invoke these seaspells, a ship's captain
+may manage available spells via SEASPELLS, so long as they are in a
+harbour
+. A
+figurehead may have up to four seaspells accessible at one time. Available
+seaspells are as follows:
+Barrier    - Surround all passengers with prismatic barriers
+Rainstorm  - Douse all fires on a ship
+Shield
+- Create a protective shield around a ship
+Shipcloak  - Cloak your ship from the view of others
+Wavecall   - Summon a wave to carry a ship great distances
+Wavescythe - Summon a wave to destroy another ship's shield
+Whirlpool  - Summon whirlpools about your ship, making
+sailing
+difficult
+Windboost  - Summon
+winds
+to
+fill
+your ship's
+sails
+Take note that certain seaspells are mutually exclusive. A ship cannot have
+both the Shipcloak and Wavecall seaspells available, nor can a ship have both
+the Rainstorm and Shield seaspells.
+More documentation on how to shipmeld and use seaspells may be found in the
+appropriate
+AB
+SEAFARING
+scrolls
+.
+(See also:
+HELP SHIPS
+, HELP SEAFARING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

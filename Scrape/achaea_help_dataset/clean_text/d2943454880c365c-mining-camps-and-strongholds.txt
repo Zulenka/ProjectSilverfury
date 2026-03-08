@@ -1,0 +1,162 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+24.3 Mining camps and strongholds
+Mining
+camps
+are scattered throughout
+Sapience
+; these will have a stronghold
+and one or more mineable lodes within a
+6
+-room radius. These camps, via the
+stronghold within, are able to be assaulted and captured by
+rival
+miners (See:
+HELP
+MINING
+ASSAULT
+).
+Having
+control
+of a stronghold will grant the controlling adventurer a bonus of
+5
+% of the claimed
+commodities
+are mined within its confines. The controller of the
+stronghold will be able to
+claim
+these raw commodities via CLAIM STORAGE while
+in the camp. This will cost 1500
+gold
+to complete.
+Known mining camp locations
+---------------------------
+Amid the vast
+Mhojave
+:  Mhojave
+Desert
+Hillside near a lake                   :
+Dakhota
+Hills
+Northern
+Shamtota
+nearing Pachacacha   :  Shamtota Hills
+Along the southern rim of
+Pash
+Valley  :  Pash Valley
+Valley in the shadow of
+Dun
+mountain   :
+Vashnar
+Mountains
+Scrubby slope of
+Siroccian
+mountains   :  Siroccian Mountains
+The
+base
+of the descent into Dun Valley:  Dun Valley
+Pathway between steep hills            :
+Granite
+Hills
+Through the rolling hills              :  Granite Hills
+Among some small mountains             :  Southern
+Vashnars
+Into the mountains                     :  Southern Vashnars
+Ice Plains                             :  Frozen
+Tundra
+Broad overlook above the
+fissure
+:  Fissure of Echoes
+You can PROSPECT from a mining camp:
+PROSPECT
+HIRE
+[COMM] - while at a mining camp.
+Said camp will then send out a
+crew
+, which will
+look
+around the area for lodes for you:
+This costs 5,000 gold, takes 15
+minutes
+for a general search, and has a cooldown of 1
+hour
+.
+OR
+This costs 1,500 gold, takes 5 minutes for a specific-
+commodity
+search, and has a cooldown of 20 minutes.
+After your crew returns, you'll receive reports (PROSPECT REPORTS) of all commodities that were found. These reports become invalid as lodes get built on.
+If you have a report, lodes for that room will
+show
+up on look. You can PROSPECT HERE in a room you
+hold
+a report for (or that has a mine) to see the old information that the prospect conveyed. This should cover all cases where this is needed.
+You can PROSPECT YIELD <report number> TO <
+other
+player> in your room. This will give them the specific report, so you can collaborate to claim
+mines
+.
+You will need a report to know where a lode is to build a mine upon it.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

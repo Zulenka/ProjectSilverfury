@@ -1,0 +1,142 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.25.1 Joining a City
+This
+scroll
+speaks of both
+changing
+cities
+, and
+joining
+them.
+Changing Cities
+---------------
+Quit
+your current
+city
+(QUIT <cityname>), then follow the steps below.
+Joining:
+Auto
+, or Manual
+------------------------
+You may be able to
+join
+a city automatically, by finding the city's
+denizen
+in charge of citizening. Or you may have to find an adventurer
+citizen
+.
+Auto (via denizen)
+---------------------
+Some cities have a denizen in charge of citizening. It will be noted on
+HELP
+<city> if so. Simply seek out that denizen and ASK <denizen> JOIN <cityname>.
+In
+Mhaldor
+, this is
+Maric
+. So you'd ASK MARIC JOIN MHALDOR.
+When Auto isn't Enough
+----------------------
+Cities may restrict
+who
+they accept via their denizen in charge of
+citizening. If you ask to join, and are refused, you will be told
+why. You may be refused for being a city
+enemy
+, for being over a
+certain age, for being a
+member
+of certain
+houses
+or
+classes
+,
+etc.
+Manual (via Adventurer)
+-----------------------
+Use HELP <city> and
+read
+under [CURRENTLY IN THE REALM] and
+look
+for
+"able to induct new
+citizens
+." If anybody is listed there, then
+contact one. For example, if you do
+HELP ELEUSIS
+and see
+...
+[CURRENTLY IN THE REALM]
+Able to induct new citizens: Zelmo
+...
+Then use
+TELL
+ZELMO Excuse
+me
+, could you help me join
+Eleusis
+?
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

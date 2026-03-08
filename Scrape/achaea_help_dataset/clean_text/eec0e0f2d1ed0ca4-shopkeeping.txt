@@ -1,0 +1,268 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.11 SHOPKEEPING
+(See also
+HELP SHOP POLICIES
+and
+HELP BINS
+and
+HELP
+SHOP
+SIGNS
+)
+Becoming a
+Shopkeeper
+---------------------
+First you must acquire a shop!
+To purchase a shop, seek someone willing to
+sell
+you one.
+Shops
+outside the normal
+cities
+(
+Delos
+, Central
+wilderness
+) are generally sold via public
+LOTTERY
+. If you are interested in purchasing a shop in these areas, you should first check to see any
+lotteries
+have been announced or if any are currently underway.
+Otherwise, seek those
+who
+wish
+to sell shops in the same manner that you seek any seller: personal
+contacts
+,
+market
+channel
+,
+ads
+, and the like.
+Now That You're a Shopkeeper - Become an
+LMS
+! Licensed Master Shopkeeper
+------------------------------------------------------------------------
+Seek the Crafters Union offices in Delos. There you will find a
+Shopkeepers
+office, and a placard directing you to
+BUY
+SHOPKEEPER
+LICENSE
+and how much it costs. If you have to ask how much, you can't afford it!
+Pricing
+and
+Selling
+Stuff
+-------------------------
+Once you own a shop, you may put items for sale by doing the
+following
+:
+1) Drop an item on the floor of the storeroom for your shop.
+2
+) Use the PRICE
+command
+.
+Syntax
+: PRICE [SINGLE|ALL] <item> <gold>
+It has slightly different meaning if you use the 'single' or 'all'
+keyword before the item. If SINGLE is used, it will price only the
+first item it finds, and it will
+mark
+that item as being for sale
+individually (it won't
+group
+with like items). The ALL keyword will
+find all matching items and price them the same (this also removes
+the single-sale flag). To price alike items (except for those marked
+for individual sale), simply omit both keywords.
+Example (
+say
+you have 4 longswords):
+PRICE ALL LONGSWORD 2000         - Price all longswords at 2000
+gold
+PRICE SINGLE LONGSWORD1234 3000  - An exemplary longsword
+PRICE LONGSWORD 2500             - Price the
+other
+3
+a bit lower
+For groupable items, simply price the group as a whole, and the price
+will be applied to each individual item in the group.
+3) To
+remove
+an item, use either
+UNPRICE [SINGLE|ALL] <item>
+-or-
+PRICE [SINGLE|ALL] <item> NOTFORSALE
+- If you wish to share your shop with your
+friends
+, you may do ALLYSHOP while
+in your stockroom, in order to allow those on your
+allies
+list to use the
+PRICE command in your shop. To turn off the option, it's UNALLYSHOP.
+ALLYSHOP   - allow people on your allies list to operate the shop.
+UNALLYSHOP - people on your allies list will be unable to operate the shop.
+- When someone purchases
+something
+from your shop, the gold will be deposited
+on the floor of your storeroom. Thus, it is in your best interest to ensure
+that only you and those you trust completely have access to your storeroom.
+- Your shop will cost the
+city
+it is in
+money
+to pay for
+guards
+to keep
+thieves
+and brigands out of your shop. As such, the city may decide to tax
+your shop. If you type CITY SHOP INFO while standing in your shop, you will
+be able to see what taxes you owe on your shop.
+- You may pay your taxes by typing CITY PAY SHOP TAXES while standing in your
+shop, with the gold in your hands.
+- You may sell your shop to another adventurer by doing:
+SELL SHOP TO <adventurer> FOR <x> GOLD.
+The adventurer will be asked for confirmation, and if he has the gold, the gold will be transferred to your
+inventory
+. Be sure to give the new owner your
+keys
+.
+Shop and Stockroom
+Titles
+and
+Descriptions
+------------------------------------------
+You will generally
+speak
+to the
+Interior
+Minister
+of the city you are in to request a change of the shop or stockroom
+title
+or
+description
+.
+Stockroom titles must not
+attempt
+to disguise the fact that it is a stockroom. Stockroom titles MUST have the word 'stockroom' in it somewhere.
+Shop Reports
+------------
+After each
+Serenade
+, your shop attendants will collect a report of the items you have sold, and
+leave
+a physical copy of this report in the stockroom of your shop. If you sell no items, there will be no report for that
+date
+.
+Shop Display
+------------
+A
+decaying
+mannequin is available from the
+Tailors
+Annex
+in Delos. This item can be dropped in the shop room of a shop that you own to display
+clothing
+and
+jewellery
+.
+This can only be dropped by the mannequin purchaser in a shop that they own.
+This item cannot be preserved.
+Security Note
+-------------
+- It is -highly- recommended that you place a
+monolith
+,
+eye
+, and
+key
+sigil
+in your stockroom. This will prevent people from portaling in (monolith), stop souls from entering (eye), and automatically lock it when you leave the stockroom (key sigil).
+HELP SIGILS
+for more information.
+Delos Shops
+-----------
+Updates to a Delos shop (
+name
+, description for shop and stockroom) can be requested via
+email
+to
+support
+@
+achaea
+.com.
+Delos shops will be repossessed and auctioned/lotteried/sold off if a shop
+falls
+behind on its taxes for 3
+Achaean
+years or more. Or if the owner retires.
+(See also
+HELP SHOPPOLICIES
+and
+HELP BINS
+and HELP SHOP SIGNS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

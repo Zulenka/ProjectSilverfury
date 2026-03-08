@@ -1,0 +1,224 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.3.1 Experience
+(See also
+HELP GROUPS
+. Notes on
+group
+sharing
+of
+experience
+included below.)
+Experience - what is it, how do you get it?
+Experience
+Defined
+------------------
+Experience is a way to
+describe
+how capable you are as an adventurer. As you
+live and act in the realms, you will typically find
+things
+to do that will
+produce experience (or
+xp
+) for you. Do them and you get xp.
+Experience, among
+other
+things
+-----------------------------
+Experience is only one way in which adventurers grow.
+Others
+are:
+-
+Learning
+skills
+(see
+HELP
+LEARNING).
+- Obtaining
+licenses
+in
+crafting
+,
+bookmaking
+, etc (see HELP LICENSES).
+- Attaining to
+power
+through
+rank
+and positions in
+houses
+or
+cities
+.
+- Acquiring rare and powerful
+artefacts
+(HELP ARTEFACTS).
+- Gaining
+ranks
+in
+-
+combat
+(HELP COMBAT
+RANKINGS
+),
+-
+exploration
+(HELP EXPLORATION), and
+-
+riddles
+(HELP RIDDLES), among others.
+Levels
+of Experience
+--------------------
+As you gain xp (experience) you will gain new levels of experience. At the
+start, you are "
+level
+1." As you gain xp, your level will also rise. The
+names
+and
+descriptions
+of these levels is in HELP
+LEVELLIST
+.
+Ways to Gain Experience
+-----------------------
+Quests
+and Combat are the primary ways to gain xp.
+Experience from Quests
+----------------------
+Experience is gained in a variety of ways. By performing little (or big!)
+tasks
+for
+denizens
+of the realms. We call these tasks quests (HELP QUESTS). Find
+quests, perform them, and gain experience. Quests are rarely violent, and often
+quite complex and
+challenging
+. More than one
+Achaean
+adventurer has spent an
+entire career, and a very successful one at that, gaining experience ONLY by
+means of quests.
+Denizen
+Combat
+--------------
+Another way to gain experience is to enter mortal combat with denizens of the
+realms. This carries with it the risk of your own demise, which would also
+include a reduction in experience.
+Adventurer
+Killing
+, also known as
+PK
+------------------------------------
+Yet another way to gain experience is to enter mortal combat versus other
+adventurers. This may not seem all that much different from combat against
+denizens, but it is! This activity, called PK for short, is more restricted,
+you'll be expected to have a valid reason for
+attacking
+another player (see
+HELP PK). Killing another player or letting another player
+kill
+you solely for
+the purpose of gaining experience or other forms of
+renown
+is not permitted.
+Deficits
+--------
+Achaea
+records your total maximum experience attained historically. Experience loss on
+death
+creates an XP deficit - this is the amount of experience between your current and your maximum-ever-attained.
+Should you ever fall below your maximum total experience gained, any kill against another player shall
+credit
+you with 10% of the difference between your current experience amount and your total ever attained (as well as the standard experience gain). Members of the
+Mark
+and
+Dauntless
+have higher deficit yields.
+Groups
+and Experience
+---------------------
+When you follow others, or others follow you, your group shares in the benefits
+of any combat entered into by any
+member
+. The sharing is proportional to the
+level of experience of each adventurer. See also
+HELP GROUPS
+.
+Experience Boosts
+-----------------
+A number of things in Achaea will increase your experience gain. The
+DEFENCES
+command
+will
+show
+your total of your experience bonus percentage.
+You can see exactly what is affecting your experience gain with the
+following
+command:
+XPBONUSES
+(See also HELP GROUPS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

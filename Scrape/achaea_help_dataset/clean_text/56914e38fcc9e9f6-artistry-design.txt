@@ -1,0 +1,400 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.9.1 Artistry Design
+See also
+HELP CRAFTING GUIDELINES
+Having gained the
+Artistry
+skill
+(see
+HELP ARTISTRY
+for instructions on how to do so), you are now ready to start conceptualising your masterpiece!
+Below is a comprehensive
+guide
+from start to finish on how to
+design
+and eventually create a
+piece
+of artwork, including any and all relevant rules and guidelines to ensure your design matches Achaea's standard of
+writing
+and acceptable content.
+To quickly get started in artistry, you will need to find a piece of art to prime and embellish!
+Use
+NDS
+LISTPUBLIC A to see all public artistry
+designs
+. Select one you like, and use NDS P <design#> to examine it in further detail.
+Materials will be taken directly from your
+rift
+if not in your hands, and so long as you are in possession of enough to cover the design requirements, you may PRIME <design#> to create the
+base
+canvas.
+Mediums and
+other
+materials are created by inkmillers, using the SUPPLIES
+ability
+. Then you can begin the Embellishment process!
+But this is not all!
+Once you achieve the
+level
+of Adept in the artist's craft, you will gain the coveted ability to design artwork of your own!
+To design your own piece of art, visit the Artistry
+annex
+in
+Delos
+and purchase the canvas type that best matches the type of artwork you want to design.
+Artistry Syntaxes
+-----------------
+PRIME <NDS ID#> [
+passcode
+]
+- Construct a canvas from an approved NDS listing.
+- For more information on
+passcodes
+, see
+HELP NDS
+For A Mural (Player
+housing
+only)
+- With a plaster housing upgrade applied to a location
+(See
+HELP
+HOUSING UPGRADES)
+- PRIME <NDS ID#> (This must be explicitly a mural.)
+- This is limited to one per room.
+PROBE
+<canvasID>
+- See how many embellishments remain before the piece of art is complete.
+EMBELLISH <canvasID>
+- Embellish the design upon the canvas.
+- Canvas must be in
+inventory
+or in the same location as the
+artist
+.
+- This is a
+channel
+that will tick through your available artistry sessions.
+- This will end when you use the stop
+command
+.
+- This will end when the artwork is completed.
+- This will end when you
+run
+out of artistry sessions.
+- This will drain
+willpower
+and
+endurance
+while embellishing continues.
+- STOP at any
+time
+to cancel this process.
+- The piece of art is finished when the required number of artistry
+sessions have been completed!
+For A Mural
+- Be in the room with a mural in progress and EMBELLISH <mural#>
+DESIGN CREATE <canvas>
+-
+Apply
+the details of your chosen canvas to your
+sketch
+- This will determine
+commodities
+needed to Prime the work of art.
+- This will assign the base
+name
+and type of the item. E.G "mural", or
+"canvas".
+- This will not consume your canvas.
+Different canvas types may have medium restrictions:
+Locket
+- oilpaint and
+ink
+.
+Canvas    - oilpaint, watercolour, charcoal, chalk, pastel, ink.
+Wood
+- oilpaint, charcoal, chalk, pastel, ink.
+Slate     - chalk, charcoal, pastel.
+Parchment
+- ink, watercolour, charcoal, pastel.
+Mural     - oilpaint, charcoal.
+Silk      - oilpaint, ink.
+DESIGN <sketch> COPY <canvas>
+- Apply the details of your chosen canvas to an existing sketch
+- This will determine the commodities needed to Prime the work of art.
+- This will assign the base name and type of the item. E.G "mural", or "canvas".
+- This will not consume your canvas.
+DESIGN <sketch> APPEARANCE <description>
+- Sketch out the appearance
+description
+for your piece of art.
+Note: Max of 50 characters.
+- The Appearance is the short description visible in
+WARES
+, in
+INV
+, and
+seen with
+IH
+.
+-
+Commas
+are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase
+letter
+and NOT end in a full stop.
+- This must feature the name of the canvas type as a main noun.
+- Examples are: 'a canvas depicting the Zaphar' and 'a locket insert featuring Skye'.
+- This should not be a full sentence.
+- Do not include actions or
+reactions
+, simply what the item is.
+- Capital
+letters
+can be included in appearances, please
+title
+works
+appropriately with correct capitalisation.
+DESIGN <sketch> DROPPED <description>
+- The dropped description is what is seen via
+LOOK
+when your item is
+dropped in a location.
+- This must be ONE complete sentence that begins with a capital letter
+and ends with a full stop.
+Note: Max of 80 characters.
+-
+Describe
+just the item, not possible player reactions or actions.
+- No superfluous
+punctuation
+(
+question
+marks
+, exclamations, etc.)
+- The main noun in the sentence must be the same as the canvas type so
+that people know what to call it when they want to interact with it.
+- This line should be appropriate
+bearing
+in mind that most artwork can only
+be dropped in player-based housing, and locket inserts will not be in a
+locket if seen on the ground.
+DESIGN <sketch> EXAMINED <description>
+- This is what people see when an item is examined/probed.
+- This should only describe the item, no subjective terms, reactions,
+opinions,
+emotions
+, or responses.
+- Use at least two full sentences.
+- Must begin with a capital letter and end with a full stop.
+- This must feature the main noun of the item.
+- Do not try to format your
+descriptions
+in the
+editor
+. When using the editor,
+put your entire description on line one. The editor will properly format it
+for you.
+- Designs must be
+something
+an artist can reasonably depict.
+Intangible concepts will need creative interpretation to convey; you
+cannot simply paint the majesty of the
+Logos
+, this will need to be
+conveyed via the medium. ALWAYS
+SHOW
+DO NOT
+TELL
+.
+- Do not "evoke" or tell the reader what
+sense
+/
+emotion
+/impression your
+design gives. ALWAYS SHOW DO NOT TELL.
+-
+Artists
+are not enchanters; magic is not permitted in crafted designs.
+- Designs should describe the item, not the onlooker, use of "you" and "your"
+is prohibited.
+- Text is prohibited, while this may seem obtuse, your writing must convey
+an image; no written work.
+- Single spacing only.
+- Do not use words that require accents or other non-English punctuation;
+these cannot be replicated in
+Achaea
+and will be treated as
+misspellings
+.
+E.G: Applique would require an acute
+accent
+over the e.
+- Feet, inches, yards, etc, no
+metric
+measurements.
+- Please use a GB English spellcheck and the Oxford
+comma
+. Achaea does not
+use American spelling.
+- There are
+children
+in Achaea, keep your artwork tasteful.
+DESIGN <sketch> PRIVATE ON|OFF
+- At a cost of 1000gp you can hide your designs from
+others
+when they do
+NDS MATCH searches. This flag may be set on the sketch or after approval
+with the corresponding NDS command.
+DESIGN <sketch> HIDEMARK ON|OFF
+- At the cost of 1000gp you can hide the crafters
+mark
+. This means that
+when the crafted item is probed it will not show the line
+saying
+"It
+bears the distinctive mark of "".
+DESIGN <sketch> SUBMIT [URGENT]
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See
+HELP PROOFREADING
+for guidance
+- Submit your sketch for approval by the
+Crafting
+Council.
+- The cost to submit a design does scale based on the number of
+times
+it has had to be submitted,
+PROOF
+and check your work!
+Urgent:
+First submission 10000
+gold
+, second submission 12000 gold, third submission 15000 gold, fourth submission 20000 gold, fifth submission (and cap) 30000 gold.
+Standard: 1000 -> 2000 -> 5000 -> 10000 -> 20000
+First submission 1000 gold, second submission 2000 gold, third submission 5000 gold, fourth submission 10000 gold, fifth submission (and cap) 20000 gold.
+- Must submit from the Artistry Annex in Delos (unless you possess the Crest of the Crafting Council)
+- The addition of URGENT places a design in a high-priority
+queue
+and costs an increased amount of gold.
+- You can have up to ten designs in the submission queue. This is total, across all
+tradeskills
+.
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See below and
+HELP PROOFREADING
+for assistance!
+DESIGN REQUEST <ID>
+- Use this command at the Artistry studio when you have been notified (by
+message
+) that your design has been approved.
+- Have the gold required in your hands.
+PROOFREADING
+(see also HELP PROOFREADING)
+=========================================
+This section will be embellished in the future when common mistakes become
+apparent.
+ITEM TYPE
+- Make sure that the canvas type used matches the main noun in all aspects
+of this design.
+APPEARANCE
+- Commas are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase letter and NOT end in a full stop.
+- This must feature the name of the item as a main noun.
+- This should not be a full sentence.
+- Do not include actions or reactions, simply what the item is.
+- Please ensure any works that are titled are properly capitalised:
+e.g a canvas painting of the
+Jewel
+of the East
+e.g a painting on canvas titled "The Jewel of the East"
+DROPPED
+- This must be ONE complete sentence that begins with a capital letter
+and ends with a full stop.
+- Describe just the item, not possible player reactions or actions.
+- The main noun in the sentence must be the same as the canvas name so
+that people know what to call it when they want to pick it up, without
+having to type 'info here.'
+EXAMINED
+- This should only describe the item, no subjective terms, reactions,
+opinions, emotions, or responses. SHOW DON'T TELL
+- Use at least two complete sentences, NO FRAGMENTS.
+- Do not "evoke".
+- All numbers must be written out in words. "one, two, three".
+- Feet, inches, yards, etc, no metric measurements.
+- Please use a GB English spellcheck, Achaea does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when
+writing a list, a comma should be used before the "and". E.G: a red,
+white, and blue scarf.
+- Single spacing always and only. Check for double spaces especially after
+full stops, and if you have copied text from another format.
+- Designs should describe the item, not the onlooker, use of "you" and "your"
+are prohibited.
+If you do not have an artistry
+license
+, see HELP ARTISTRY!
+For a full and detailed listing of the entire NDS output, see
+HELP DESIGN
+(See also: HELP CRAFTING GUIDELINES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

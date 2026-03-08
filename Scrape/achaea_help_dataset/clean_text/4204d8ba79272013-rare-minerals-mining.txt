@@ -1,0 +1,198 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+24.5 Rare Minerals (Mining)
+Every now and then, your
+mining
+squads will
+dig
+up a rare mineral, which are
+rumoured to be
+pieces
+of the destroyed planetoids Somnustra, Lunastra, and
+Noxtra. Certain rare
+minerals
+are more likely to appear in certain kinds of
+lodes than
+others
+(their affinity is listed below), but they can appear in any
+type of lode.
+Ahmetite
+- Affinity for gem and
+gold
+lodes.
+- Increased gold drops from
+denizens
+for 1
+hour
+(+10%).
+- Discovered by Ahmet.
+Azelhurium
+- Affinity for stone and
+bone
+lodes.
+- Increased
+constitution
+for 1 hour (+
+2
+).
+- Discovered by Azelhu.
+Draekinite
+- Affinity for coal and ice lodes.
+- Increases
+rage
+lifespan by +
+6
+seconds
+, boost lasts for 1 hour.
+- Discovered by Draekar.
+Laytronite
+- Affinity for silver and ice lodes.
+- Increases
+dexterity
+for 1 hour (+2).
+- Discovered by Laytron.
+Makaelicite
+- Affinity for silver and coal lodes.
+- Increases
+mana
+regeneration
+for 1 hour (10%/
+5
+seconds).
+- Discovered by Makaela.
+Melodar
+- Affinity for obsidian lodes.
+- Grants the chance for
+balance
+times
+to be halved for 1 hour (20% chance).
+- Discovered by Melodie.
+Profithyst
+- Affinity for obsidian and platinum lodes.
+- Increases
+experience
+gain for 1 hour (40% increase).
+- Discovered by Proficy.
+Qwindorium
+- Affinity for gold and bone lodes.
+- Instantly
+levels
+up a squad of soldiers (up to
+level
+10).
+APPLY
+<mineral> TO
+SQUAD <#>.
+- Discovered by Qwindor.
+Senastone
+- Affinity for platinum and silver lodes.
+- Increases
+willpower
+regeneration for 1 hour (
+3
+%/5 seconds).
+- Discovered by Sena.
+Shunsten
+- Affinity for bone and ice lodes.
+- Increases rage gain from
+attacks
+(30% increase).
+- Discovered by Shunsui.
+Silathyst
+- Affinity for carbon and gem lodes.
+- Instantly levels up a squad of miners (up to level 10). APPLY <mineral> to
+SQUAD <#>.
+- Discovered by Silas.
+Slinkamite
+- Affinity for gem lodes.
+- Grants the chance for
+equilibrium
+times to be halved for 1 hour (20% chance).
+- Discovered by Slink.
+Telendrium
+- Affinity for gold and carbon lodes.
+- Increases
+endurance
+regeneration for 1 hour (3%/5 seconds).
+- Discovered by Telendrieth.
+Valenticite
+- Affinity for iron and gold lodes.
+- Increases
+strength
+for 1 hour (+2).
+- Discovered by Valentinus.
+Verillium
+- Affinity for platinum and obsidian lodes.
+- Increases
+intelligence
+for 1 hour (+2).
+- Discovered by Verily.
+Xerthyst
+- Affinity for carbon and iron lodes
+- Increases
+health
+regeneration for 1 hour (10%/5 seconds).
+- Discovered by Xer.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,185 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.2 Gold, Money, and a bit about getting it
+(see
+HELP BANKING
+and
+HELP
+NEWBIEQUESTS
+)
+Having, keeping, giving
+money
+/
+gold
+----------------------------------
+Gold (also known as
+sovereigns
+, gold
+pieces
+, even
+gp
+or
+gps
+) is the currency of
+the land. Found in the form of golden sovereigns, it is almost universally
+accepted as payment for goods and services. It is the coin of the realm, the
+money we use to
+buy
+and
+sell
+.
+In order to see how much gold you have, type I or
+INVENTORY
+. This will
+show
+you the amount of gold in your hands. If your gold is in your
+backpack or another
+container
+, you must
+PROBE
+that container to see how
+much gold it contains.
+Dealing with gold is a bit different from dealing with
+other
+items. When
+giving, dropping, or putting gold, you specify the number of gold directly
+before the word gold. So, for instance: GIVE 100 GOLD TO RURIN
+Gold can be stolen. If you do not want this to happen (and
+who
+does?), you
+should store your gold in a backpack, or, if you want more safety, in a
+bank
+.
+Gaining Money/Gold
+------------------
+Gaining money (sovereigns, or just gold) is always a priority for adventurers.
+The variety of tempting and useful items in
+Achaea
+is quite staggering:
+-
+weapons
+and
+armour
+(common and forged),
+-
+clothing
+(common and
+custom
+tailored),
+-
+jewellery
+,
+-
+plants
+,
+herbs
+,
+elixirs
+,
+potions
+, and
+salves
+for various purposes,
+-
+licenses
+as a
+bookie
+,
+herald
+, jeweller, or
+tailor
+,
+- private homes,
+-
+books
+and
+libraries
+,
+- furniture,
+-
+artefacts
+of
+power
+,
+- and the list goes on!
+As a new adventurer, you have several good options for gaining money which are
+described in some detail in HELP NEWBIE QUESTS. The big three are
+ratting
+,
+butterflies
+, and
+fishing
+.
+(See
+HELP RATTING
+,
+HELP BUTTERFLIES
+,
+HELP FISHING
+,
+HELP BANKING
+and HELP
+NEWBIEQUESTS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

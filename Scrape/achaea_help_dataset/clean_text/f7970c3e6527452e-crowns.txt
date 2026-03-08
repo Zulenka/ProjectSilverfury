@@ -1,0 +1,162 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.4.3 Mayan Crowns
+Special
+artefacts
+are purchased with
+something
+called Mayan
+Crowns
+. These were
+introduced in 476 AF as part of a customer appreciation
+month
+. These Mayan
+Crowns can be used in a special
+Shop
+of Wonders located in
+Delos
+. These items
+are unique
+wares
+and cannot be obtained in any
+other
+way than using Mayan
+Crowns. These items may become unavailable at
+times
+as well.
+Mayan Crowns are originally only available via the tiered
+credit
+sale. During
+such tiered credit sales
+CREDITSALE
+will
+show
+what tier you are currently on.
+They can also be obtained as prizes during various
+events
+and
+world
+games
+.
+Transferring Mayan Crowns
+-------------------------
+To transfer Mayan crowns, the
+command
+is
+CROWN
+TRANSFER <x> TO <person> FOR <y>
+GOLD
+. You may put 0 as the gold value. If there is a non-zero gold value, the
+person you are transferring to must be in the realms and have the gold in their
+inventory
+. They must AGREE to complete the transfer. Crown
+scams
+are forbidden.
+You may transfer Mayan crowns that are automatically gained via the tiered
+credit sale to anyone: your own
+alternate
+characters, or to
+others
+. If
+transferring to an alternate
+character
+, use FOR 0 GOLD so that the alternate
+character does not have to be in the realms (else, that would be
+multiplaying
+-
+verboten!) Once they are used to purchase an item from the Shop of Wonders,
+however, that item is
+bound
+to the character that purchased them. We will not
+honour
+requests to transfer the items to other characters. They have no
+trade
+-in credit value and cannot be refunded.
+If you obtained Mayan crowns via in-game means (i.e. had them gifted or sold to
+you from someone else), you can transfer the crowns freely to others but NOT to
+any of your own alternate characters, as that would constitute
+seconds
+abuse.
+(
+HELP SECONDS
+.)
+You cannot transfer bound Mayan crowns. You may receive bound Mayan crowns from
+some
+promotions
+.
+Gifting items from the Shop of Wonders
+--------------------------------------
+To purchase an item as a gift for another character, use this
+syntax
+:
+BUY
+<item> AS GIFT FOR <person> [
+MAIL
+]. If you include 'MAIL' at the end, it will
+be delivered via the
+postal
+service
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

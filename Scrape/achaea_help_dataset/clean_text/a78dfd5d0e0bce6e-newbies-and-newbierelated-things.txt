@@ -1,0 +1,213 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.2 Newbies, and Newbie-related things
+(See
+HELP REBIRTH
+, HELP NEWBIE ATTACK,
+HELP PORTALS
+,
+HELP CERTIMENE
+,
+HELP CHANNEL
+,
+HELP GUIDES
+,
+HELP MINIA
+,
+HELP LODI
+,
+HELP GHELADAN
+,
+HELP REBIRTH
+,
+HELP MARKET
+,
+HELP
+SHOUT
+)
+What is a
+Newbie
+?
+-----------------
+A newbie is any adventurer in
+Achaea
+that has not yet reached the 21st
+level
+of
+experience
+. If you create a new adventurer in Achaea, then you are a newbie.
+What do
+Newbies
+get?
+--------------------
+* To take the introduction to Achaea (see HELP
+NEWBIEINTRO
+)
+* Special newbie
+attacks
+to help you
+fight
+(see HELP
+NEWBIEATTACK
+)
+*
+Godly
+rescues
+, or
+PORTALS
+, to help you get around (see HELP PORTALS)
+* An easy way to
+join
+the
+class
+or
+House
+of your choice (see HELP
+CERTIMENE
+)
+* The NEWBIE
+channel
+for
+questions
+about Achaea (see HELP CHANNEL)
+* Access to the
+GUIDES
+,
+Romeo
+and
+Juliet
+(see HELP GUIDES)
+* Special places to
+explore
+, where non-newbies may not remain. These are
+Minia
+,
+Lodi
+, and
+Mount
+Gheladan
+. (see
+HELP MINIA
+,
+HELP LODI
+, and
+HELP GHELADAN)
+More about the Introduction
+-------------------
+The Introduction to Achaea contains two parts:
+Escape
+from
+Miba
+&
+the Cultist's Conspiracy. This is especially helpful, as it allows
+for a new adventurer to seamlessly integrate within Achaea.
+What DON'T Newbies get?
+-----------------------
+The
+market
+channel for
+buying
+and
+selling
+, at least to begin (see HELP MARKET)
+and the
+ability
+to SHOUT (see HELP SHOUT). Newbies also cannot join
+arena
+events
+or
+attack
+other
+players until level 11.
+The Official Achaea Quickstart
+Guide
+------------------------------------
+You will find a plethora of helpful general and getting-started information
+for newbies that you can
+read
+on the
+web
+or even print out at:
+https://www.achaea.com/newbie-guide/
+(See
+HELP NEWBIEINTRO
+, HELP NEWBIE ATTACK,
+HELP PORTALS
+,
+HELP CERTIMENE
+,
+HELP CHANNEL
+,
+HELP GUIDES
+,
+HELP MINIA
+,
+HELP LODI
+,
+HELP GHELADAN
+,
+HELP MARKET
+, HELP SHOUT)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

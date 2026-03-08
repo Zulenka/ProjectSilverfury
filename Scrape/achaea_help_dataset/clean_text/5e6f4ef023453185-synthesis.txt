@@ -1,0 +1,107 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.66 Transmutation
+Transmutation
+is the process of extracting alchemical
+minerals
+from the earth and transmutating one mineral into another.
+The transmutation process begins by extracting out in the
+world
+and concludes in an
+alchemy
+laboratory.
+Extracting
+----------
+A practitioner of this art may
+draw
+minerals from the very earth in certain
+environments; mountains, underground areas, and magma caves. When standing in
+one of these rooms:
+MINERALS
+EXTRACT <prime>
+Transmutation
+-------------
+After the primes are collected, head to your closest alchemy laboratory (these
+are located in the major
+cities
+). Once there, one mineral can be converted into another, provided you have the necessary reactants:
+TRANSMUTATE <#> <mineral> TO <mineral>
+Reactants
+---------
+City
+transmuters are granted a stipend of 200 transmutation reactants per
+month
+. These reactants are stocked within the laboratory workspaces and you need not request them - simply begin transmutation and you will make use of your stipend.
+Additional reactants can be purchased from the
+alchemists
+staffing each laboratory. Simply ask the
+alchemist
+to
+FILL
+<vial> WITH REACTANTS and they will do so for a modest fee.
+The Cauda Pavonis has made temporary arrangements to take alchemical prime and metal stockpiles off the hands of mineral merchants. Affiliated alchemists in the laboratories will take 1000 primes or 2000 minerals in exchange for a full
+vial
+of reactants. Simply ask the alchemist to FILL <vial> WITH REACTANTS FOR <prime|metal>.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,142 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.30.2 Cognition FAQ
+You're probably aware that our "cognitive"
+denizens
+are
+AI
+-powered, and maybe you have
+questions
+about how they work, why they can be a little unpredictable, and why we have to charge to use them. Hopefully this will answer your questions!
+----------
+Q: How does this
+system
+work behind the scenes?
+A: It's a bit overly-complicated to
+go
+into in detail, but in short, we generate a "prompt" that we send to the AI, and the AI sends back a response, which we interpret and use to make a
+denizen
+do
+something
+.
+We have to structure our
+prompts
+carefully to get the kind of responses we want, and we have to send all information we want the AI to have access to with every single
+prompt
+. That includes not just the instructions on how to behave, but also what they're supposed to react to, some details about the denizen, and whatever you put in the Personality Page (
+PPage
+) about that denizen.
+In the nearish future, when we add
+cognition
+to
+talking
+denizens, we'll also have to add
+things
+like short
+logs
+of past conversations so that the denizens have some memory in a conversation, even if it's rather short.
+----------
+Q: Why does this cost
+money
+?
+A: The simple answer is because the AI
+service
+we use costs money to use. We essentially pay by the text
+character
+to use it, which is why you
+buy
+"chars" to use the system. While there are cheaper options out there, none of them are as good as this and we didn't feel that
+anything
+less capable than the option we're using produced reliably good results.
+We fully expect the costs for this to go down and the quality to go up over
+time
+, and as this happens we'll adjust
+pricing
+to be cheaper and cheaper. We're not
+looking
+at this as a profit center, at all. This is just a way to allow for more dynamic and interesting denizens, to make the game
+world
+more interesting and immersive overall.
+----------
+Q: Why is there so much hidden text sent with prompts? Why can't we adjust all the text that gets sent, since we pay for it all with our chars?
+A: It's a function of how the generative AI models for text work. They're "stateless" which means they don't remember anything from query to query. So, we have to send all instructions on how to behave and what kind of response to give with every single query to the AI. We can't let you mess with the instructions, as it will potentially end up causing the AI to send broken responses. We also don't let you see them to make it harder for people to "hack' the instructions.
+----------
+Q: Why is my denizen suddenly behaving so differently or in a broken manner?
+A: The first
+thing
+to ask is whether you changed anything with your denizen's personality page. If you did, that's probably the culprit.
+The second possibility is that we updated something on our end. If you
+think
+that's the case, it's probably the case for a lot of people. If it's not, it's probably not a problem on our end.
+The third possibility, and one we can't do anything about, is that the AI capabilities changed.
+We're all
+going
+to be
+learning
+together here when it comes to cognitive denizens, as this is pretty new stuff.
+Also See:
+HELP COGNITION
+, HELP COGNITION PERSONALITY, HELP COGNITION RULES, HELP AI ETHICS
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

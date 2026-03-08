@@ -1,0 +1,220 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.8.1 Selling Things
+(See
+HELP MARKET
+,
+HELP ADS
+, HELP CREDIT TRANSFER, HELP CREDIT MARKET,
+HELP COMMS
+,
+HELP RATS
+,
+HELP FISHING
+, HELP SELLING VIALS, and
+HELP
+SHOPS
+)
+You can
+sell
+just about
+anything
+if you know where or to whom! Have a sword you
+no longer need? One of the land's many practitioners of
+forging
+would be
+willing to take it off your hands. Did you just milk
+5
+vials
+of curare? One of
+the land's many warriors will surely
+buy
+them.
+Things
+You Can Sell Direct
+--------------------------
+rats
+- SELL RATS TO <
+ratman
+denizen>        - see
+HELP RATS
+fish
+- SELL FISH TO <baitshop denizen>      - see
+HELP FISHING
+commodities
+- SELL <howmany> <commodity>           - see
+HELP COMMODITIES
+your
+SHOP
+- SELL SHOP TO <whom> FOR <amt>
+GOLD
+- see
+HELP SHOPS
+credits
+- CREDITS SELL <howmany> AT <goldeach> - see HELP CREDIT MARKET
+vials       - SELL
+VIAL
+[#] TO <vial buyer>         - see HELP SELLING VIALS
+Mostly Adventurers, Not Shops
+-----------------------------
+Most shops don't buy, but Adventurers do: the trick is to find them! The
+easiest ways can be on the
+market
+channel
+or with
+ads
+.
+Other
+options relate to
+credits and becoming a
+shopowner
+.
+MARKET  - after
+level
+11 or so you can use the market channel to
+look
+for
+adventurers to buy things from you. (HELP MARKET)
+ADS     -
+Advertisements
+are an alternative to MARKET. (HELP ADS)
+CREDITS - Transfer/sell credits to other adventurers (HELP
+CREDIT
+TRANSFER)
+or use the credit market. (HELP CREDIT MARKET)
+RATS    -
+Ashtan
+,
+Hashan
+,
+Targossas
+,
+Cyrene
+, and
+Mhaldor
+each have a
+denizen
+that will buy rats from you. (HELP RATS)
+FISH    -
+Tasurke
+,
+Shastaan
+, and
+Minia
+have fish
+buyers
+(HELP
+FISHING
+).
+COMMS
+- Commodities may be bought and sold at comm shops (HELP COMMS).
+SHOPS   - You could become a shopowner. This can be extremely expensive.
+Shops may be available from their current owners, or their
+cities
+.
+(HELP
+SHOPKEEPING
+)
+Some Things That Should be Pretty Easy To Sell (And To Whom!)
+-------------------------------------------------------------
+weapons
+- try asking a forger
+who
+can smelt.
+armour
+- try asking a forger who can smelt.
+Persons - Slaves and Otherwise
+------------------------------
+You cannot
+auction
+, sell, or offer for
+rent
+,
+lease
+,
+loan
+, or any other form of
+use or transfer, persons or people.
+Services are fine.
+Slave
+auctions
+happen, but they must always clearly and explicitly mention that
+services - not persons - are for sale or being offered for whatever purpose -
+lease, rent, loan, etc. That means clearly and explicitly EVERY
+TIME
+it is
+mentioned, not just once at the beginning of the auction.
+(See
+HELP MARKET
+,
+HELP ADS
+, HELP CREDIT TRANSFER, HELP CREDIT MARKET,
+HELP COMMS
+,
+HELP RATS
+,
+HELP FISHING
+, HELP SELLING VIALS, and HELP SHOPS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

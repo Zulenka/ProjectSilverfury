@@ -1,0 +1,164 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.5 THE DRUID CLASS
+(See also:
+HELP GROVES
+,
+HELP METAMORPHOSIS
+,
+HELP RECLAMATION
+,
+HELP
+8, HELP
+CLASS
+)
+Druids
+are the most ancient of the forestal
+classes
+,
+devoted
+to the forests
+and all they represent. Although their isolationist
+nature
+has tended to
+remove
+them from the great
+events
+of
+history
+, the formation of the forest
+commune of
+Eleusis
+in modern
+times
+(as well as the formation of the Council
+of Oakstone) has given Druids
+power
+that extends beyond their beloved forests.
+Members of the
+Druid
+class tend to stay clear of the near-religious battles
+between good and evil that dominate much of the land, preferring instead to
+focus on what they deem good: The welfare of the forests. Though some Druids
+are loners, there is a thriving forestal community, and some Druids are as
+social
+as possible.
+The
+skills
+of a Druid are rooted in forest and beast. Perhaps the most
+important is the
+ability
+to establish a location in the forest as his
+personal
+grove
+, from which much of his power flows. Within his Grove, none
+can stand against a Druid; there they reign supreme, backed by the full
+power of the forest. Swarms of bees will
+attack
+enemies
+, an earth golem can
+be made to
+guard
+the grove, lightning can be called down, thorny vines
+summoned to hurt and hinder your enemies, and far more. A Druid can travel
+through the forest instantly from his grove, and return to it equally
+quickly.
+Outside of a grove, and even outside of forests generally, a Druid remains a
+force to be reckoned with, if not nearly as powerful as in the forest. They
+are able to tap into the remnants of natural life in a location, coaxing them
+to grow at an astounding rate. Through their power is Nature able to progress
+at a much faster rate, granting power to those
+who
+stand upon the reclaim land.
+Similarly, a druid is able to transform into a variety of different animals,
+ranging from the humble squirrel to the grizzly bear to the mighty wyvern.
+These transformations grant the Druid a range of new powers, from bird forms
+that allow
+flying
+to the skies above and swooping down to hoist a victim into
+the skies, to the elephant form that allows trampling an opponent, and a host
+of
+other
+capabilities.
+The skills a Druid gains are
+Groves
+,
+Metamorphosis
+, and
+Reclamation
+. A
+fledgling
+Druid will gain Groves and Metamorphosis, and will receive
+Reclamation upon gaining full class
+membership
+.
+(See also:
+HELP GROVES
+,
+HELP METAMORPHOSIS
+,
+HELP RECLAMATION
+, HELP 8, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

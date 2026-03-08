@@ -1,0 +1,134 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.1.7 Party Duels
+Commands
+:
+CHALLENGE
+<adventurer> AS
+PARTY
+HELP PARTIES
+ES <arena>
+A party duel is quite simply a duel between two
+parties
+of adventurers. Each
+adventurer
+who
+is killed in the
+arena
+is removed completely, and the party
+that first defeats all members of the opposing party are declared the
+victors.
+Party duels may be fought at the
+Matsuhama
+arena in
+Delos
+, and
+cities
+have
+the option to purchase the game for
+3
+.
+5
+million
+gold
+. To form a party duel,
+you must
+group
+into two parties using the party
+system
+(
+HELP
+PARTIES) and
+meet at the Arena Staging Grounds. All members must be present, have full
+health
+, and be ungraced. Each should also have the appropriate amount of
+gold out, which is the same as for a duel. Then one
+member
+of one party
+should challenge one member of the
+other
+party using CHALLENGE <name> AS
+PARTY. Once the duel begins, ES <arena> will display information on the
+parties.
+At this
+time
+, the max number of adventurers per team in a party duel is 4.
+You can have a 1v2, duel, 2v2, 3v3, 4v4, 2v3, 3v4, or 2v4. In a 1v2 duel,
+someone from the
+2
+-member party must
+issue
+the challenge to the solitary
+combatant, not the other way around.
+Summary:
+A party duel is a duel between two parties of no more than 4 adventurers in
+each. Parties are formed using the system in
+HELP PARTIES
+.
+CHALLENGE <name> AS PARTY at the Arena Staging Grounds with all members
+present to begin.
+Price is the same as it would be for a standard duel.
+ES <arena> during the game to view parties.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,240 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.12.2 Filing An Issue
+(See
+HELP ISSUES
+, HELP IC RESOLUTION,
+HELP POLICIES
+,
+HELP
+PK
+)
+This help file deals mainly with what one should and should not include in
+an
+issue
+, in particular when filing an issue against another player.
+For more information on what an issue is, see
+HELP ISSUES
+.
+General Guidelines for All
+Issues
+---------------------------------
+1) Issue only once, then wait.
+2
+) No abusive
+language
+; no insults.
+3
+) Don't lie - we have many ways of checking.
+General Guidelines for Issues Against
+Other
+Players
+---------------------------------------------------
+4) Know the rules.
+5
+) The issue or reply is your only chance to make your case: use it well.
+6
+) An issue is a last resort: try
+IC
+resolution
+first. (Please see
+HELP IC
+RESOLUTION.)
+7) Don't abuse the
+system
+(e.g. filing multiple
+times
+on the same problem).
+Explanations of the Above Guidelines In Detail
+----------------------------------------------
+1) Issue only once, then wait: Make sure to include all relevant
+information, and then wait for a
+message
+from one of our
+administrators
+with
+the result of the issue, or possibly a request for more information. The
+person you are
+issuing
+has a chance to respond to your issue. That does NOT
+mean you can issue again to respond to their response. Include all the
+information in your issue: then a second issue won't be necessary. We do not
+take well to those
+who
+delete
+an issue and re-file an issue or file another
+issue so they add more information once the other
+party
+has replied. After
+you issue, wait. Do not message every
+divine
+you can
+think
+of and ask if
+your issue is being handled. It will be, in turn! We will get to your issue
+as soon as we can.
+2) No abusive language; no insults: If you are abusive, or insulting, or use
+foul language, or
+attack
+the person rather than the act, then we will decide
+the issue against you, including quite likely punishing you as well. Stick
+with the facts. Don't
+tell
+us about the quality, characteristics, or other
+attributes of the person you are issuing. Just tell what happened.
+Anything
+else and it may
+go
+very poorly for you. This stands when you are filing a
+non-targetted issue as well. If you use ISSUE
+ME
+to insult/abuse the
+admins
+,
+things
+will not go well for you. The admins are here to help you, but that
+does not mean they have to take abuse.
+3) Don't lie: The administrators are not stupid. We have many ways to check
+the accuracy of your story, and we have heard every story in the
+book
+, so be
+careful about lying in your issue.
+4) Know the rules: If you are filing an issue against another player for a
+policy
+infraction, make sure that a violation of the rules has actually
+occurred! Many times someone issues and has no
+idea
+what the rules of the
+matter are, and discovers in the end that the action was legal.
+5) The issue or reply is your only chance to make your case: Put
+*
+everything
+* in the issue or the replyissue. This is your right to be heard
+- write it down in the issue, or the reply. You will not be interviewed. You
+will not have a
+meeting
+, or a hearing. The admins will judge your case based
+on the issue and reply, plus their own research only. However, please keep
+the information in the issue to what is relevant. We do not want your life
+story!
+Links to 3rd party sites are permitted to add supplemental information to an issue or a reply. Like to provide a
+log
+. But your actual issue or reply content needs to be wholly within the issue system itself. This is to protect yourselves and the administration.
+6) Once you file an issue against another person for violations of PK or
+theft
+rules, regardless of how the issue is judged, you have relinquished
+any rights for IC resolution against that person. If you have IC reasons
+to attack another player, and you decide to issue that person for
+attacking
+you, this extinguishes your IC reasons. Your issue must
+describe
+what
+actions you took to
+attempt
+IC resolution prior to issuing.
+7) Don't abuse the system: Filing 3 or 4 issues at the same
+time
+is quite
+likely a sign of issue abuse. Filing an issue at every grievance with
+another player is quite likely a sign of issue abuse.
+Advice
+------
+Over the years we have noticed that players tend to not do basic things
+which would make ruling on an issue a lot easier. Below is a brief list of
+some general tips we have compiled:
+1) When issuing for
+harassment
+, keep very detailed records! If you have Bob
+ignored and he
+messages
+you from his
+alt
+, Jimmy, keep Jimmy's message! If
+Jimmy sends you a tell, make note of the time and wording! Simple things
+like this can make all our lives a lot easier.
+2) If you are making a deal with someone, get a message with the exact terms
+of the deal. This will allow you to forward the message to us if you are
+then scammed, meaning that we are better able to take action against the
+scammer
+.
+3) One
+death
+or no death is never
+going
+to be considered "egregious PK" or issue worthy.
+4) If you have
+questions
+or concerns regarding an issue decision involving another player, you may contact Senior
+Administrator
+Lathis
+via lathis@
+achaea
+.com to discuss it further.
+(See
+HELP ISSUES
+, HELP IC RESOLUTION,
+HELP POLICIES
+, HELP PK)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

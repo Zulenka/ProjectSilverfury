@@ -1,0 +1,104 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.31 Pumpkins
+Two varieties of
+pumpkins
+are available in
+Achaea
+!
+Magnificent Pumpkins can be acquired from the
+renown
+shop
+or bought for
+credits
+in the
+Tomacula
+graveyard
+during October when the store is open.
+See
+HELP RENOWN
+for all information on the renown shop.
+The second variety is the Magnificent carved
+pumpkin
+, one of these is awarded for every
+5
+pumpkins purchased from the Tomacula graveyard (the renown shop pumpkin does not count.)
+- SMASH PUMPKIN to see the options.
+- SMASH PUMPKIN <option> to open it and retrieve your prize!
+- These can be smashed by anyone (and the prize will belong to whoever does), but pumpkins will always reset to the original owner.
+Magnificent pumpkins smash open for: a card sleeve, a blood-stained shard, or a page from the tome of inspiration.
+Magnificent Carved Pumpkins smash open for: card sleeves, blood-stained shards, pages from the tome of inspiration, a
+custom
+-themed
+Mayaween
+vial
+, a cache that can be opened for any promotional
+talisman
+set (except for the
+Logosmas
+and Memory sets), or a Mayan
+crown
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

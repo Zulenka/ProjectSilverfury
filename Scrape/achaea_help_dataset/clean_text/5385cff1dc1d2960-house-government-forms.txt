@@ -1,0 +1,176 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.3 House Government Forms
+(See also:
+HELP AUTOCRACY
+,
+HELP TRIUMVIRATE
+,
+HELP DICTATORSHIP
+,
+HELP OLIGARCHY
+,
+HELP SUPPORT
+,
+HELP CHALLENGE
+,
+HELP
+SUCCESSOR
+)
+Houses
+may have governments in four primary forms:
+Elected
+Autocracy
+,
+Triumvirate
+,
+Dictatorship
+, and
+Oligarchy
+.
++----------+------------------+-------------+
+|
+Power
+\   Number of Leaders in Form   |
+| Handed     \                |             |
+| Down In     \  Single       | Three       |
+| What Way?    \ Leader       | Leaders     |
++ - - - - - - -+==============+=============+
+|              |              |             |
+|              | Elected      |             |
+|
+Election
+| Autocracy    | Triumvirate |
+|              |              |             |
++ - - - - - - -+--------------+-------------+
+|              |              |             |
+| Designated   |              |             |
+| Successor    | Dictatorship | Oligarchy   |
+|              |              |             |
++--------------+--------------+-------------+
+Multiple Leaders and the One More Powerful Leader - The
+Ascendant
+-----------------------------------------------------------------
+Triumvirate and Oligarchy have three leaders. In these forms, one leader from
+among the three will have more powers (appointments, patron, perhaps a few
+others
+). The three leaders will select one of their number to
+wield
+these
+additional powers via
+showing
+support
+(see HELP SUPPORT). Each
+house
+will
+select its own
+title
+for this most powerful leader, referred to generically as
+Ascendant.
+Government Forms Relate to House Leader(s) Only
+-----------------------------------------------
+All of these forms are concerned ONLY with
+selecting
+the House Leader(s). House
+Patron,
+other
+House positions, aideships, and the like, are otherwise
+unaffected by government form, and handled pretty much as they have always been
+- by appointment.
+Selecting Government Form
+-------------------------
+All houses were originally Elected Autocracies. Most still are. Several chose
+to transition to
+Dictatorships
+, and some to
+Triumvirates
+, through
+referendums
+and consultation with the
+Garden
+in the
+period
+immediately preceding and
+throughout most of 423 AF.
+Later Changes in Form
+---------------------
+Further changes in form may be undertaken via direct negotiations with the
+Garden. We are still considering methods which would allow changes in form
+without Garden intervention. This may include peaceful and non-peaceful means.
+It may not. We'll see!
+(See also:
+HELP AUTOCRACY
+,
+HELP TRIUMVIRATE
+,
+HELP DICTATORSHIP
+,
+HELP OLIGARCHY
+,
+HELP SUPPORT
+,
+HELP CHALLENGE
+, HELP SUCCESSOR)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,282 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+11.3.1 CRUSADES
+Crusades
+pit Order against Order in a
+fight
+to
+steal
+/protect a God's essence in
+order to gain access to special miracles.
+How Do I Start A
+Crusade
+?
+=========================
+Once an order has collected enough order essence, a sufficiently ranked
+member
+of said order can stand at the master
+shrine
+on the Prime Material
+Plane
+, and
+BESEECH <god> FOR CRUSADE <target>.
+This will drain that order of up to 4500000 essence and initiate a crusade.
+Initiating a crusade will start a countdown of forty eight
+hours
+, with a
+reminder
+at twenty four.
+When the crusade begins, all order members on both sides will be granted the FERVOUR and VENERATION powers for twenty four hours.
+The cost of a crusade is reduced based on the state of
+ire
+between the initiating order and the
+target
+order.
+What is Ire?
+=============
+Ire is a
+system
+which tracks hostile acts between
+orders
+. Visible via the ORDER IRE
+command
+, many
+things
+build it:
+- Desecrating
+shrines
+(successfully).
+-
+Killing
+members of an order.
+- Killing a
+champion
+of an order.
+- Judging shrines.
+- A champion killing a champion of an order.
+These actions generally build ire on both sides, though the attacker builds much more.
+Starting a crusade drops your ire against the target order by a substantial amount. The target order's ire increases by a fairly substantial amount to start them on the path toward retaliation.
+A Crusade Is Happening, What Do I Do?
+=====================================
+Once the crusade begins order members may TOUCH their God's Master Shrine on
+the Prime Material Plane in order to access the Plane of
+Nishnatoba
+. All
+followers will be taken along for the
+ride
+.
+Any person may now TOUCH any shrine in their home
+city
+to enter Nishnatoba
+during a crusade, provided that they are not a personal
+enemy
+of the order that
+it belongs to.
+Over the next
+hour
+, splinters of the stolen
+divine
+essence will fall all across
+Nishnatoba. Anyone in a Divine Order may collect said essence.
+Members of the order whose shrine has been degraded can GATHER ESSENCE.
+Everyone else must SUBVERT ESSENCE.
+Gathering
+is faster than subverting.
+Once you have essence you may RELINQUISH ESSENCE at any True Master Shrine.
+If relinquishing to the order being attacked, this will strengthen the shrine.
+If relinquished to anyone else, that essence will now belong to the order.
+ORDER ESSENCE will
+show
+all of the essence that your order has stolen, broken
+down by the god it was claimed from.
+A crusade will end either after three hours or once all essence is
+relinquished. Everyone will be moved off the Plane of Nishnatoba at conclusion,
+and for those that
+log
+out there (though you should not be doing this, it is a
+lawless plane) you will be moved off the Plane on
+logging
+back in, assuming a
+crusade is not active.
+I Need To
+Leave
+Nishnatoba,
+HELP
+!
+=================================
+If you need to leave Nishnatoba during a crusade, you can locate and ENTER the
+shining
+portal
+found at the central
+ring
+of pillars.
+How Do I See The
+Status
+Of A Crusade?
+=====================================
+CRUSADE STATUS at anytime will note any ongoing crusade and the status of said
+crusade. Only one crusade can be underway at a
+time
+.
+My Shrine Was Degraded!
+=======================
+If your patron's True Master Shrine is damaged, you will find that certain
+things become limited. If it is below 10%
+empowerment
+, you will be unable to
+raise shrines at all. Below 50%, you will be unable to perform greater
+miracles.
+Shrines do fix themselves on their own after a crusade resolves (a small amount
+each
+Achaean
+day
+), but it is very possible to find yourselves lacking some of
+your greatest
+weapons
+at a
+critical
+moment.
+My Order Has Stolen Essence!
+============================
+Great! You can use this to perform some new Greater Miracles. These miracles
+drain exclusively stolen essence, and are:
+Benediction:
+resurrect
+a fallen order member. That order member's soul must
+stand at the shrine. There is an internal cooldown on this miracle.
+Fervour: This miracle increases the potency of all
+other
+offensive shrine
+powers, and grants a
+custom
+order-themed deathsight to all members of the
+order.*
+Veneration: This order miracle empowers all members of the order that are
+dragons
+, granting them:
+* A custom
+dragon
+description
+, themed for the order.*
+* A critical hit bonus in areas your order holds sovereignty over.
+Elevation: the greatest of the order miracles (and incredibly expensive to
+match!), raise a member of your order as a Divine
+Avatar
+. This requires a
+gathered 500000 stolen essence minimum, but will consume the entire stolen
+essence reserve of the order. The more essence that is available, the longer
+this status will last.
+-
+Avatars
+are not open
+PK
+.
+- Avatars have high
+base
+stats
+.
+- They may wear things, including
+artefacts
+.
+- They may utilise fast travel.
+- They do not have access to avatar miracles.
+- They may enact lesser order miracles from anywhere, without the use of the
+shrine. Greater miracles (such as worldburn) still require a shrine.
+- Their status is not stripped upon
+dying
+.
+- Their essence reserves will naturally
+decay
+over time, and once they are
+expended the Avatar shall
+lose
+their status.
+* Custom dragon
+messages
+and deathsights are disabled by default. In order to
+gain them, you must
+CONFIG
+ORDERMESSAGES ON. This is to allow people to hide
+membership
+in a given order for cases where this may be desired.
+Just The
+Commands
+=================
+BESEECH <your god> FOR CRUSADE      - Enact a Crusade
+BESEECH <your god> FOR DEGRADATION  -
+Attack
+an enemy master shrine
+- Enacting order only
+GATHER ESSENCE                      - Gather splinters
+- Degraded order only
+SUBVERT ESSENCE                     - Gather splinters
+RELINQUISH ESSENCE                  - Relinquish essence at a shrine
+ORDER ESSENCE                       - Status of gathered essence
+CRUSADE STATUS                      - Status of an ongoing crusade
+CONFIG ORDERMESSAGES ON/OFF         - Enable/Disable the
+customisations
+given
+by the Fervour and Veneration miracles.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

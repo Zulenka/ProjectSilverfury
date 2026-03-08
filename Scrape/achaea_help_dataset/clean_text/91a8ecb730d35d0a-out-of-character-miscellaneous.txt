@@ -1,0 +1,438 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19 OUT-OF-CHARACTER MISCELLANEOUS
+19.1     Timeout
+Ensure that you do not stay online by
+accident.
+19.2     Registering
+Why we ask you to
+register
+.
+19.3     Clients
+About
+clients
+and why you need a good one.
+19.3.1   Nexus
+Our official
+client
+. Function and beauty.
+19.3.2   The Android Client
+A free client for
+mobile
+phones.
+19.4     Credits
+How to purchase
+credits
+.
+19.4.1   Credit Transfers
+Credit
+transfers & violations of
+HELP SECONDS
+.
+19.4.2   Credit Market
+Easily
+sell
+/
+buy
+credits for
+gold
+sovereigns
+.
+19.4.3   Mayan Crowns
+What is a Mayan
+Crown
+?
+19.4.4   Elite Memberships
+Monthly subscription plan.
+19.4.5   Credit Loans
+Safely
+loan
+credits.
+19.5     Bugs
+How to report
+bugs
+,
+ideas
+, or
+typos
+.
+19.5.1   Housedesign
+How to suggest new
+Houses
+and
+skills
+.
+19.5.2   Classleads
+How to suggest changes to skills.
+19.6     Website
+About Achaea's
+web
+site.
+19.6.1   Web Maps
+Some
+maps
+of
+Achaea
+on the web site.
+19.7     Lag
+Nobody's
+friend
+.
+19.8     Delete
+Ending your adventurer's life permanently.
+19.9     System
+The
+hardware
+and
+software
+that Achaea uses.
+19.10    Artefacts
+Special magic items which may be purchased.
+19.10.1  Artefacts Overview
+Overview of
+artefacts
+.
+19.10.2  Offensive Artefacts
+Offensive artefacts only.
+19.10.3  Defensive Artefacts
+Defensive artefacts only.
+19.10.4  Stats Artefacts
+Statistics
+-altering artefacts only.
+19.10.5  Armour Artefacts
+Artefact
+Armour
+19.10.6  Misc Artefacts
+Miscellaneous artefacts only.
+19.10.7  Trade Artefacts
+Artefacts for
+Trade
+,
+Crafting
+,
+Mining
+.
+19.10.8  Ship Artefacts
+Ship
+based artefacts only.
+19.10.9  Pets
+Living Artefacts.
+19.10.10 Artefact Tattoos
+For the truly discriminating.
+19.10.11 Class Artefacts
+Artefacts by
+Class
+19.10.12 Elemental Artefacts
+Artefacts for Elemental Lords
+19.10.13 Artefact Tradeins
+Trading
+in artefacts.
+19.10.14 Artefacts Gifts
+Giving artefacts as a gift.
+19.10.15 Shop of Wonders
+Items available in the
+Shop
+of Wonders.
+19.10.16 Mini Pets
+Small, collectible companions.
+19.10.17 Scrappers
+Everything
+about
+minipet
+battling!
+19.10.18 Artefact Powers and Weapon Upgrades
+A
+description
+of transferring artefact powers and the different upgrade powers that can be added to
+weapons
+.
+19.10.19 Promotional Items
+Promotional item
+descriptions
+.
+19.10.20 Discontinued SoW
+Discontinued Shop of Wonders items.
+19.10.21 Wheel of Fortune
+The
+famous
+Wheel of Fortune!
+19.10.22 Tome of Muses
+Information about the Tome of
+Muses
+.
+19.10.23 Legend Deck
+Information about the Legendary Card Deck.
+19.10.24 House of Wonders
+Mayan Crown items just for
+Housing
+!
+19.10.25 Environment Sceptre
+Build a special sceptre with gems!
+19.10.26 Logosmas Stockings
+Special
+stockings
+with prizes!
+19.10.27 Delos Bank Vault
+Unlock
+bank
+vaults with
+keys
+!
+19.10.28 Polymegahedral Dice
+Roll these
+dice
+for prizes!
+19.10.29 Tomaculan Caskets
+Unlock spooky
+caskets
+with keys!
+19.10.30 Globes
+Globes
+of Shifting
+Continents
+!
+19.10.31 Pumpkins
+Magnificent and Carved
+Pumpkins
+!
+19.10.32 Giftcards
+Theme and send to yourself/0thers for prizes!
+19.11    Admins
+Administrative characters there to
+help
+you.
+19.11.1  Special Admins
+Special
+Administrators
+Aspasia
+and
+Aquinas
+.
+19.11.2  Tecton
+The Terraformer.
+19.12    Test server
+For those rare
+times
+we use one.
+19.13    Customisation
+Options for
+customising
+equipment
+.
+19.13.1  Customisation Requests
+How to request a
+customisation
+.
+19.13.2  Gift customisations
+Customisations
+given as gifts to
+others
+.
+19.13.3  Class customisations
+Customising class items, such as falcons.
+19.13.4  Denizen Reactions
+Make your loyal
+denizens
+come to life.
+19.13.5  Perfume Customisation
+Add your own
+perfumes
+and colognes to your
+cabinet/case artefact!
+19.13.6  Mail Customisation
+Customised
+mail
+delivery - the silver whistle
+19.13.7  Customisation Guidelines
+Guidelines for customisations!
+19.13.8  Proofreading
+Commands
+and guidelines for designers!
+19.13.9  Flowerpot Customs
+Customise the flowers in your stone flowerpot!
+19.13.10 Item Reactions
+Adding
+reactions
+to your items!
+19.13.11 Battlerage Customs
+Customise your
+battlerage
+attacks
+!
+19.14    Voting and DYAD
+Voting
+for Achaea on TopMudSites.
+19.14.1  MONAD
+As it relates to
+DYAD
+.
+19.15    Achaea
+'s
+Forums
+and
+Discord
+The
+forum
+and Discord server for Achaea.
+19.16    IRE
+Our parent company, Iron Realms Entertainment.
+19.18    Meeting
+Meeting
+other
+adventurers.
+19.19    Contacts
+Email
+information for various inquiries.
+19.20    MXP
+Mud
+Extension Protocol.
+19.21    Referral
+Referring a friend.
+19.22    Banners
+Banners
+and forum
+signatures
+.
+19.23    GMCP
+GMCP
+Protocol.
+19.24    Talismans
+An overview of the
+Talisman
+system
+.
+19.24.1  Talisman Market
+The Talisman
+Market
+.
+19.24.2  Death Talismans
+The
+Death
+Talisman Set.
+19.24.3  Historical Talismans
+The Historical Talisman Set.
+19.24.4  Mark Talismans
+The
+Marks
+Talisman Set.
+19.24.5  Invasion Talismans
+The Invasion Talisman Set.
+19.24.6  Cities Talismans
+The
+Cities
+Talisman Set.
+19.24.7  Seafaring Talismans
+The
+Seafaring
+Talisman Set.
+19.24.8  Monks Talismans
+The
+Monks
+Talisman Set.
+19.24.9  Yggdrasil Talismans
+The
+Yggdrasil
+Talisman Set.
+19.24.10 Planes Talismans
+The
+Planes
+Talisman Set.
+19.24.11 Races Talismans
+The
+Races
+Talisman Set.
+19.24.12 Contenders Talismans
+The Contenders Talisman Set.
+19.24.13 ElderGods Talismans
+The ElderGods Talisman Set.
+19.24.14 Renegades Talismans
+The Renegades Talisman Set.
+19.24.15 Blackwave Talismans
+The Blackwave Talisman Set.
+19.24.16 ModernGods Talismans
+The
+ModernGods
+Talisman Set.
+19.24.17 Logosmas Talismans
+The
+Logosmas
+Talisman Set.
+19.24.18 Memory Talismans
+The Memory Talisman Set.
+19.24.19 Wanderer Talismans
+The Wanderer Talisman Set.
+19.24.20 Underworld Talismans
+The
+Underworld
+Talisman Set.
+19.24.21 War Talismans
+The
+War
+Talisman Set.
+19.24.22 Scholars Talismans
+The Scholars Talisman Set.
+19.24.23 Elemental Talismans
+The Elemental Talisman Set.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

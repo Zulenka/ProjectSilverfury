@@ -1,0 +1,244 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13.12 ASSASSINS AND THE QUISALIS MARK
+(See also:
+HELP CONTRACTS
+,
+HELP CHAMPIONS
+and
+HELP
+WRITS)
+What is an
+Assassin
+?
+--------------------
+The
+Quisalis
+Mark
+is an organisation of
+assassins
+named in
+honour
+of Thoth's
+chosen
+who
+died at
+Nishnatoba
+. Though their core
+denizen
+membership
+is
+headquartered in the vicinity of New
+Thera
+, they also recognise a number of
+adventurers as part of their
+ranks
+. An assassin accepts paid
+contracts
+from
+adventurers to ruthlessly and efficiently take out a
+target
+.
+Contracting an Assassin
+----------------------
+Assuming you have sufficient
+IC
+justification for slaying another adventurer
+(See HELP
+PK
+), you may
+contract
+an assassin as such:
+CONTRACT ASSASSIN FOR <target> [AT <amount>
+GOLD
+] <reason>
+You may only do this in the presence of an established contractor for the
+Quisalis. These cowled individuals can be found in the
+drinking
+establishments
+of most
+cities
+, as well as the Brass Lantern Inn.
+The price of any contract starts at 5000 gold, and may be modified based upon
+any public positions they may have. Organisational leaders and
+other
+higher-
+profile adventurers will require a higher fee. To impress upon the Assassin the
+importance of the contract, you may specify an optional higher fee. A variable
+portion of the fee will be taken by the Quisalis organisation, the rest will
+go
+to the Assassin.
+Your reason must be a very clear, brief statement: it will be seen by the
+target and is viewable by the administration in the
+event
+of a dispute. A good
+reason
+might
+be "
+Attacking
+me
+in
+Jaru
+on the 24th of Sarapin". Using this to
+make insults against the victim is forbidden, and will result in administrative
+punishment regardless of the context.
+You can have up to 10 contracts in the
+system
+at any one
+time
+.
+Contract Assignments
+--------------------
+Once an Assassin is requested, the contract will be placed on the contract
+board
+for the Quisalis Mark, and all assassins will be informed that a new
+contract is available to be claimed.
+A contract may be claimed with CONTRACT
+CLAIM
+<contract number> while standing
+at the contract board, which is located in the Quisalis headquarters under New
+Thera. An assassin can only claim one contract every 24
+Achaean
+days
+, although
+if they prove skilled and fulfill a contract, this cooldown is reset.
+If you are an Assassin and claim a contract, you must fulfill it within the
+time frame of 30
+months
+, or
+die
+trying. If the time expires or you are killed
+by the target, the contract is
+failed
+and your standing in the mark will
+decrease (see "Standing with the Quisalis Mark" below).
+Joining
+the Quisalis Mark
+-------------------------
+In order to
+join
+the Mark, you must find Derillin of New Thera, and JOIN
+QUISALIS MARK. Doing so costs 20000 gold. You must be at least
+level
+60 and 21
+years of age.
+You will then be a registered Assassin. You may not
+quit
+the organisation until
+approximately 12 Achaean months have elapsed since joining.
+Members of The Quisalis or Ivory organisations earn 25% of their
+experience
+deficit back (provided they have one) per
+kill
+. This is not cumulative with other experience deficit bonuses.
+While a
+member
+of the Quisalis Mark, you are open to being attacked by anyone
+at any time; your membership is considered sufficient in-
+character
+justification.
+Quitting
+the Quisalis Mark
+---------------------------
+In order to quit the Mark, you must QUIT QUISALIS MARK.
+Standing with the Quisalis Mark
+-------------------------------
+Completion or
+failure
+of a contract will
+influence
+your standing in the
+Quisalis Mark. Higher
+rank
+brings with it many advantages, such as a higher
+payout per contract completion and more prestige.
+The Assassin with the highest reputation gains a unique
+HONOURS
+line and
+deathsight for as long as he or she holds that position.
+Negative reputation (due to repeatedly
+failing
+contracts) will result in the
+Mark withholding more of the contract fee. Letting a contract lapse will result
+in a far higher reputation loss than a failed
+attempt
+.
+Additionally, if you
+fail
+to complete a contract for three consecutive Achaean
+years, you will be discharged from the ranks of the Quisalis and be unable to
+rejoin for the span of an Achaean year. If your reputation among the ranks of
+the Quisalis
+falls
+to
+nothing
+, you will be discharged from the Mark and will be
+unable to rejoin for five Achaean years.
+(See also:
+HELP CONTRACTS
+, HELP
+CHAMPIONS
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

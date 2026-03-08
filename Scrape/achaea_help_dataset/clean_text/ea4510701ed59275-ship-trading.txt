@@ -1,0 +1,216 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.21 Ship Trading
+What is
+Ship
+Trade
+?
+-------------------
+Transferring large amounts of goods from one location to another is a very
+important function. Luckily, Achaeans have discovered the perfect method to
+accomplish this
+task
+:
+ships
+! Using the cargo holds on their vessels,
+adventurers are able to
+ferry
+merchandise from one
+harbour
+to another.
+Due to supply and demand, a thriving trade-based economy has emerged across
+Sapience
+, based on the trade and transfer of goods via ship.
+What's in it for
+me
+?
+--------------------
+Due to the cost and scarcity of ships, there are many out there
+who
+are willing
+to pay handsomely should an enterprising adventurer decide to
+help
+them out.
+Gold
+, items, ammunition, especially valuable cargo and more are all possible
+rewards for helping out the right people. Of course, there is always the good
+feeling of helping out those around you!
+How Can I Get Involved?
+-----------------------
+All you need to get started in the lucrative
+world
+of
+trading
+is a manned ship
+that you are able to captain!
+Once you've got a ship, it's
+time
+to find some work. Man-made
+harbours
+may
+offer trade deals, which you may choose to accept on behalf of your ship. By
+purchasing and trading the proper cargo, you may complete the deal and receive
+the offered reward.
+Ship Cargo
+----------
+The basis of ship trade is cargo, i.e. the goods being bought, sold and
+bartered.
+The current cargo held aboard a ship can be viewed by the ship's captain via
+SHIP TRADE CARGO.
+Many types of cargo can be obtained in only a small handful of places, due to
+the requirements of their production. This cargo can be purchased or traded at
+man-made harbours.
+Due to their finite size, ships are able to only
+hold
+a certain amount of
+cargo. Small ships hold less, large ships hold more. Currently, ships can hold
+the
+following
+amounts:
+Ship Type       Amount
+Windcutter      75
+Seastrider      100
+War
+Galley      150
+If necessary, a ship's captain can order all cargo be tossed overboard with the
+command
+SHIP TRADE CARGO DUMP. However, this should be done with care, as it is
+irreversable.
+Trade Deals
+-----------
+The
+goal
+of ship trade is the completion of trade deals, or the delivery of
+specific cargo to a certain harbour in exchange for a reward.
+Man-made harbours may offer up to one deal at a time. The deals offered by a
+harbour may change each
+Serenade
+. Deals must be accepted by a ship before
+they can be undertaken, and a ship can only accept one deal at a time.
+Additionally, only one deal may be completed per Serenade
+period
+.
+If a harbour is
+offering
+a deal, it will be visible via HARBOUR INFO from
+either a ship docked there, or from the harbour itself.
+A ship's captain can view its current trade deal via SHIP TRADE DEAL
+SHOW
+, and
+can cancel it via SHIP TRADE DEAL CANCEL.
+When docked at a harbour offering a deal, a ship's captain may SHIP TRADE DEAL
+ACCEPT, accepting the deal for the ship.
+When docked at a harbour for which a ship has accepted a deal, its captain may
+SHIP TRADE DEAL COMPLETE, which will unload the proper cargo and grant the
+captain (or the ship) its reward.
+Trade Exchanges
+---------------
+Ship cargo is obtained from harbours via trade exchanges. It may either be
+purchased from the harbour with gold, or traded with
+other
+cargo.
+If a harbour is offering any exchanges, it will be visible via HARBOUR INFO
+from either a ship docked there, or from the harbour itself.
+Exchanges in which cargo is purchased using gold, the exchange info will
+indicate the amount of gold required to purchase a given amount of cargo. Cargo
+is purchased using SHIP TRADE PURCHASE <amount> <cargo>, by the captain. Gold
+is deducted from the ship's strongbox.
+Exchanges in which cargo is traded will indicate the amount of cargo needed to
+be given up, and the amount of cargo obtained in the exchange. Exchanges of
+this sort are performed by the ship's captain via SHIP TRADE EXCHANGE <amount>
+<old cargo> FOR <new cargo>.
+When
+buying
+or exchanging cargo, several conditions must be met. First, your
+ship must have enough gold or cargo to complete the exchange. Second, your
+ship's hold must have enough room to contain the new cargo.
+The third condition involves the ratio of cargo being exchanged. When
+purchasing cargo, the amount purchased must be a multiple of the offered amount
+in HARBOUR INFO. When exchanging cargo, the cargo being given away must be a
+multiple of the amount indicated in HARBOUR INFO. For example, if a harbour is
+offering the exchange "Receive
+3
+silk in exchange for 100 gold," then the
+amount purchased must be a multiple of three. Similarly, if a harbour offers
+the exchange "Receive 3 gems in exchange for
+2
+silk," then the amount of silk
+traded away must be a multiple of 2.
+Completion of a trade exchange results in the removal of either cargo or gold
+(from the ship's strongbox), and the addition of new cargo to the ship's hold.
+Syntax
+Summary
+--------------
+HARBOUR INFO
+SHIP TRADE CARGO
+SHIP TRADE CARGO CONFIRM
+SHIP TRADE CARGO DUMP [type]
+SHIP TRADE DEAL SHOW
+SHIP TRADE DEAL ACCEPT
+SHIP TRADE DEAL CANCEL
+SHIP TRADE DEAL COMPLETE
+SHIP TRADE PURCHASE <amount> <cargo>
+SHIP TRADE EXCHANGE <amount> <old cargo> FOR <new cargo>
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

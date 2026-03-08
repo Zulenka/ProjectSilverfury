@@ -1,0 +1,386 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.4.1 Tailoring Design
+Having gained the
+Tailoring
+skill
+(see
+HELP TAILORING
+for instructions on how to do so), you are now ready to start designing items of
+clothing
+!
+Below is a comprehensive
+guide
+from start to finish on how to
+design
+and eventually create a tailoring related item, including any and all relevant rules and guidelines to ensure your design matches Achaea's standard of
+writing
+and acceptable content.
+To quickly get started in tailoring, you will need to find a
+pattern
+to sew!
+Use
+NDS
+LISTPUBLIC T to see all public tailoring
+designs
+. Select one you like, and use NDS P <design#> to examine it in further detail.
+From there, you'll be able to determine which materials are required in order to sew it. Materials will be taken directly from your
+rift
+if not in your
+hands, and so long as you are in possession of enough to cover the design requirements, you may SEW <design#>!
+But this is not all! Once you achieve the
+level
+of Adept in the tailor's craft, you will gain the coveted
+ability
+to design clothing of your own!
+To design your own clothing, visit the Tailoring
+annex
+in
+Delos
+and purchase the pattern that best matches the type of item you want to design. Then, DESIGN CREATE <pattern> to create your
+sketch
+in the
+system
+!
+Tailoring Syntaxes
+------------------
+SEW <pattern> [
+passcode
+]
+- Construct a garment from your pattern.
+- For more information on
+passcodes
+, see
+HELP NDS
+DESIGN CREATE <pattern>
+- Create a new sketch and
+apply
+the details of your chosen pattern to it.
+- This will determine
+commodities
+needed to sew the finished item.
+- This will determine where the finished item is worn.
+- This will determine whether or not it can have a
+hood
+.
+- This will assign the
+base
+name
+and type of the item. E.G "shawl", or "trousers".
+- This will not consume your pattern.
+DESIGN <sketch> COPY <pattern>
+- Apply the details of your chosen pattern to an existing sketch.
+- This will determine commodities needed to sew the finished item.
+- This will determine where the finished item is worn.
+- This will determine whether or not it can have a hood.
+- This will assign the base name and type of the item. E.G "shawl", or
+"trousers".
+- This will not consume your pattern.
+DESIGN <sketch> APPEARANCE <description>
+- Sketch out the appearance
+description
+for your new design.
+Note: Max of 50 characters.
+- The Appearance is the short description visible in
+WARES
+, in
+INV
+, and
+what is seen when you
+LOOK
+<person>.
+-
+Commas
+are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase
+letter
+and NOT end in a full stop.
+- This must feature the name of the item as a main noun.
+- Examples are: 'a pair of
+leather
+trousers' and 'a plush mink blanket'.
+- This should not be a full sentence.
+- Do not include actions or
+reactions
+, simply what the item is.
+DESIGN <sketch> DROPPED <description>
+- The dropped description is what is seen in LOOK when your item is
+dropped in a location.
+- This must be ONE complete sentence that begins with a capital letter
+and ends with a full stop.
+Note: Max of 80 characters.
+-
+Describe
+just the item, not possible player reactions or actions.
+- No superfluous
+punctuation
+(
+question
+marks
+, exclamations, etc.)
+- The main noun in the sentence must be the same as the pattern name so
+that people know what to call it when they want to pick it up, without
+having to type 'info here.'
+-
+Things
+like "A cloak is hanging from a peg here." is not acceptable. If
+it were dropped on the highway there is no peg to hang from.
+DESIGN <sketch> EXAMINED <description>
+- This is what people see when an item is examined/probed.
+- This should only describe the item, no subjective terms, reactions, opinions,
+emotions
+, or responses.
+- Use at least two full sentences.
+- Must begin with a capital letter and end with a full stop.
+- This must feature the main noun of the item.
+- Do not try to format your
+descriptions
+in the
+editor
+. When using the editor put your entire description on line one. The editor will properly
+format it for you.
+- Designs must be suitable for a
+tailor
+working in a medieval-ish
+environment
+.
+- Designs must be
+something
+a tailor can reasonably create.
+For instance, a tailor could not create a baby in a baby blanket or a suit of chainmail.
+A tailor cannot weave something out of the essence of darkness or create something that is lighter than air.
+- Do not "evoke" or
+tell
+the reader what
+sense
+/
+emotion
+/impression your design gives.
+- Crafters are not enchanters, magic is not permitted in crafted designs.
+- Designs should describe the item, not the wearer, use of "you" and "your" is prohibited.
+- All numbers must be written out in words. "one, two, three," etc.
+- Single spacing only.
+- Do not use words that require accents or
+other
+non-English punctuation, these cannot be replicated in
+Achaea
+and will be treated as
+misspellings
+.
+E.G: Applique would require an acute
+accent
+over the e.
+- Feet, inches, yards, etc, no
+metric
+measurements.
+- Use appropriate materials.
+You can't make a
+shirt
+out of living skin or pure
+gold
+.
+Tailors
+cannot use scales/metal/non-standard materials as the fundamental material for a design, they would need to be stitched onto a garment proper.
+Achaea also does not have 'modern' materials and clothing functionality like velcro, denim, polyester (or any synthetic fabric), zippers, sweatshirts, and so on.
+- Items
+claiming
+to be 'official' representations of affiliation with an organisation or person will be rejected. So no making 'the official
+tunic
+of the Occultists' or 'the tunic of Tu'eras.'
+Organisations should use Patronage Requests to submit official items for sale in
+shops
+.
+- Please use a GB English spellcheck and the Oxford
+comma
+. Achaea does not use American spelling.
+- Do not write
+messages
+into designs. Tailors have the ability to embroider.
+- There are
+children
+in Achaea, keep your designs tasteful. Describe the item, not the parts of the person wearing it.
+- The
+preservation
+of body parts is beyond the scope of the
+Achaean
+crafter.
+DESIGN <sketch> HASHOOD ON|OFF
+- Allow certain clothing types to have
+hoods
+that can be raised and lowered.
+DESIGN <sketch> UNCOVER|COVER NAVEL
+- This will allow certain clothing types to
+show
+belly
+piercings
+.
+DESIGN <sketch> UNCOVER|COVER ARMS
+- This will allow certain clothing types to show items such as armbands and bracelets that would normally be hidden by sleeves.
+DESIGN <sketch> UNCOVER|COVER LEGS
+- This will allow certain clothing types to show leg items such as anklets and
+stockings
+.
+DESIGN <sketch>
+FALCONRY
+ON|OFF
+- Allow gloves and other appropriate items to be used as a knight's falconry glove.
+DESIGN <sketch> PRIVATE ON|OFF
+- At a cost of 1000gp you can hide your designs from
+others
+when they do NDS MATCH searches. This flag may be set on the sketch or after approval with the corresponding NDS
+command
+.
+DESIGN <sketch> HIDEMARK ON|OFF
+- At the cost of 1000gp you can hide the crafters
+mark
+. This means that when the crafted item is probed it will not show the line
+saying
+"It bears the distinctive mark of "".
+DESIGN <sketch> SUBMIT [URGENT]
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See
+HELP PROOFREADING
+for guidance
+- Submit your sketch for approval by the
+Crafting
+Council.
+- The cost to submit a design does scale based on the number of
+times
+it has had to be submitted,
+PROOF
+and check your work!
+Urgent:
+First submission 10000 gold, second submission 12000 gold, third submission 15000 gold, fourth submission 20000 gold, fifth submission (and cap) 30000 gold.
+Standard: 1000 -> 2000 -> 5000 -> 10000 -> 20000
+First submission 1000 gold, second submission 2000 gold, third submission 5000 gold, fourth submission 10000 gold, fifth submission (and cap) 20000 gold.
+- Must submit from the Tailoring Office in Delos (unless you possess the Crest of the Crafting Council)
+- The addition of URGENT places a design in a high priority
+queue
+and costs an increased amount of gold.
+- You can have up to ten designs in the submission queue. This is total, across all
+tradeskills
+.
+- PLEASE PROOFREAD YOUR DESIGN BEFORE SUBMITTING - See below and
+HELP PROOFREADING
+for assistance!
+DESIGN REQUEST <pattern>
+- Use this command at the Tailoring Office when you have been notified (by
+message
+) that your pattern has been approved.
+- Have the gold required in your hands.
+EMBROIDERY
+===========
+Finally, once you have reached Transcendent Tailoring, you will be able to embroider
+clothes
+for other people. Simply:
+EMBROIDER <clothing> <message>
+- The cost is 10 gold/letter.
+EMBROIDER <clothing>
+REMOVE
+- The cost is 1000 gold flat rate.
+PROOFREADING
+(see also
+HELP
+PROOFREADING)
+=============
+ITEM TYPE
+- Make sure that the sketch used matches the main noun in all aspects of this design.
+APPEARANCE
+- Commas are not permitted in the Appearance of crafted items.
+- This should begin with a lowercase letter and NOT end in a full stop.
+- This must feature the name of the item as a main noun.
+- Examples are: 'a pair of leather trousers' and 'a plush mink blanket'.
+- This should not be a full sentence.
+- Do not include actions or reactions, simply what the item is.
+DROPPED
+- This must be ONE complete sentence that begins with a capital letter and ends with a full stop.
+- Describe just the item, not possible player reactions or actions.
+- The main noun in the sentence must be the same as the pattern name so that people know what to call it when they want to pick it up, without having to type 'info here.'
+- Things like "A cloak is hanging from a peg here." is not acceptable. If it were dropped on the highway there is no peg to hang from.
+- "lays" is never appropriate in DROPPED, this is a transient action, you want "LIES".
+- "a pair of ..." is a singular item (a pair), conjugate appropriately.
+EXAMINED
+- This should only describe the item, no subjective terms, reactions, opinions, emotions, or responses.
+- Use at least two complete sentences, NO FRAGMENTS.
+- Designs must be suitable for a tailor working in a medieval-ish environment.
+- Designs must be something a tailor can reasonably create.
+- Do not "evoke".
+- Use appropriate materials.
+- All numbers must be written out in words. "one, two, three".
+- Feet, inches, yards, etc, no metric measurements.
+- Please use a GB English spellcheck, Achaea does not use American spelling.
+- Achaea uses the "Oxford comma" when using lists. This means that when writing a list, a comma should be used before the "and". E.G: a red, white, and blue scarf.
+- Single spacing always and only. Check for double spaces especially after full stops, and if you have copied text from another format.
+- Designs should describe the item, not the wearer, use of "you" and "your" are prohibited.
+- When
+describing
+OOC
+regional items of clothing, please describe the item rather than using the regional term.
+If you do not have a tailoring
+license
+, see HELP TAILORING!
+For a full and detailed listing of the entire NDS output, see
+HELP DESIGN
+(See also: HELP CRAFTING GUIDELINES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

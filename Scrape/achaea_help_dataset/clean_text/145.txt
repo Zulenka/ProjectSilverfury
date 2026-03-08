@@ -1,0 +1,170 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.4.1 THE LANDMARKS
+Certain
+landmark
+areas in the land are known to all by the age of
+18
+and can be walked to automatically if you are within 100 steps of the landmark and not in a
+subdivision
+or on the
+wilderness
+map
+.
+LANDMARKS
+[type]
+- List all landmarks, if you're inside a player
+city
+, New
+Thera
+, or the Isle of
+Delos
+, you'll receive a localised list of landmarks.
+- You may
+filter
+the list of locations by specifying the type of landmark you are
+looking
+for.
+- You will always see personal landmarks on the unfiltered list - this is because you can always try to
+walk
+to personal landmarks regardless of your current location.
+- To see a list of available landmark types, use LANDMARK TYPES.
+WALK TO <landmark name>
+WALK TO <player in your city or house>
+- Will start you
+walking
+towards the landmark or the player in
+question
+if you're able to walk to that room normally.
+- In the case of walking to a player in your city or
+House
+, it will
+point
+you to where they are standing when you start. If they
+move
+, you'll still be walking to where they were, not where they are now.
+WALK TO <area>
+- This will
+attempt
+to walk to most areas.
+- Does not work on areas that require traversing the wilderness.
+WALK TO <denizen>
+- This may allow you to walk to certain
+denizens
+(i.e., usually
+quest
+,
+newbie
+or named denizens only).
+DISTANCE TO <landmark name>
+- Will
+tell
+you how far away the landmark is, or if it's too far to tell!
+- You can only calculate the distance to landmarks visible on your LANDMARKS
+list.
+STOP
+- This (and many
+other
+commands
+) will interrupt your journey. Simply re-enter
+the original
+command
+to resume walking.
+Explorer
+Ranking
+----------------
+Explorer ranking is affected by using landmarks (WALK TO) exactly as though you
+were walking. That is, if walking would have gained you explorer ranking, then
+WALK TO would also gain you explorer ranking.
+Personal Landmarks
+------------------
+Adventurers can
+designate
+personal landmarks across the lands, allowing the
+ability
+to quickly travel there at any
+time
+. Each adventurer starts with 15
+marks
+, but may expand on this capability at the cost of 100
+lessons
+per
+additional
+mark
+(up to a grand total of 45 additional marks).
+LANDMARK ADD <alias>
+- Add a personal landmark in the current room with the provided
+alias
+.
+LANDMARK
+REMOVE
+[HERE|<alias>]
+- Remove a
+defined
+personal landmark.
+LANDMARK EXPAND
+- Purchase an additional landmark. This costs 100 lessons and is
+non-refundable.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

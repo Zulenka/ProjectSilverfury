@@ -1,0 +1,148 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.21 DOMINATION
+(See also
+HELP DENIZENS
+for some
+other
+commands
+to use with your entities.)
+Domination
+is without
+question
+the most dangerous art within
+Achaea
+. It
+involves the summoning of entities from the Chaos
+Plane
+as well as Chaos Lords.
+You risk your life and your very soul in dealing with them, for they are
+powerful and not to be trifled with.
+To gain the services of a Chaos Entity, you must first discover a way into the
+Chaos Plane. Once there, search them out and DOMINATE <entity>. If the entity
+feels you are wasting its
+time
+, it may choose to
+attack
+you or it may simply
+ignore
+you. However, if it feels it can gain
+something
+, it will begin a
+bargaining dialogue with you, asking how you intend to pay it for its services.
+Answer the
+questions
+as you like, but be warned that cheapness can have its own
+punishment. At any time during the bargaining, you may ABORT to end the
+dialogue. The entity may grow enraged at this, however, or may simply refuse to
+bargain further with you.
+After you have finished your bargaining, you will see, if you type PACTS, what
+pacts you have made with entities. If you have a pact made, you may call upon
+the aid of that entity by doing SUMMON <entity>. In some cases, the entity
+itself will come, and in some cases it will send its minions to
+assist
+you.
+When an entity is summoned, it will, in most cases, remain in the land for a
+full
+day
+. There are, however, ways to send it back to its
+infernal
+realm
+prematurely. BANISH <entity> will accomplish this if it is your
+wish
+, while
+others
+may have
+abilities
+that allow them to drive the entity off. An entity
+cannot be killed (though an entity's minions can be). It will only be driven
+back to the Chaos Plane if it
+falls
+into a state that would
+kill
+a mortal.
+Summary of general Domination-related commands:
+DOMINATE <entity>          : Begin to dominate a chaos entity.
+ABORT                      : Abort negotiations with the entity.
+PACTS                      : See what pacts you have with entities.
+PACT CANCEL <entity>       : Cancel a pact with an entity.
+SUMMON <entity>            : Summon an entity or one of its
+servants
+. (*)
+SUMMON <list of entities>  : Summon multiple entities at once. (*)
+BANISH <entity>            : Banish an entity back to the plane of Chaos.
+CALL ENTITIES              : Call your loyal entities to you.
+CALL ENTITIES PASSIVE      : Call your loyal entities to you in passive
+form.
+* You may prepend/append SWIFT to a single or list of entities to summon. This summons them with a karma cost instead of an
+equilibrium
+cost (for each entity).
+Certain entities cannot be summoned in this way: GOLGOTHA, XENOPHAGE, PIRIDON, and ISTRIA. Entities summoned in this way will not attack passively for ten
+seconds
+, though may still be commanded to attack actively.
+(See also
+HELP DENIZENS
+for some other commands to use with your entities.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,285 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.23 Elemental Talismans
+The "Elemental"
+talisman
+set:
+-----------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+. This will always be announced via the relevant
+news
+when the   pieces are currently available.
+- Whole talismans bought from the Delosian
+shop
+.
+-
+Trading
+between players (pieces only).
+- Partial completion (see below).
+The Elemental set contains the following talismans:
+---------------------------------------------------
+A miniature air elemental - TALISMAN INFO AIRELEMENTAL
+- Purchasable in
+Delos
+for 60
+bound
+credits
+- A
+minipet
+in the domesticated
+collection
+A warblefish's
+jawbone
+- TALISMAN INFO JAWBONE
+- Purchasable in Delos for 200 credits
+- OPEN this underwater and the next
+thing
+you
+say
+will be heard by all
+who
+share the underwater environs with you.
+- The jawbone will then close for 30
+seconds
+before it can be used again.
+A tiny
+phial
+filled with the Tears of the Sea - TALISMAN INFO SEATEARS
+- Purchasable in Delos for 300 credits
+-
+POUR
+from this phial into a
+vial
+of fresh or salt water to convert it to the
+other
+!
+A mineral-crusted shovel - TALISMAN INFO EARTHENSHOVEL
+- Purchasable in Delos for 375 credits
+-
+DIG
+those pesky burrowers up from deep in the earth (more than 1
+level
+of
+burrow
+), none shall
+escape
+your wrath!
+A dripping
+mudbomb
+- TALISMAN INFO MUDBOMB
+- Purchasable in Delos for 700 credits
+-
+THROW
+this in a room and everyone (including you!) will be hit with an effect that increases the
+balance
+time
+on
+flying
+by a nontrivial amount.
+- This item will return to you five
+minutes
+after being thrown.
+- The
+mud
+effect will fade naturally on its own after a couple of minutes, or can be scrubbed off in a body of water.
+A seared glyph - TALISMAN INFO SEAREDGLYPH
+- Purchasable in Delos for 850 credits
+- This glyph must be ATTACHed to either a
+shield
+of absorption or a suit of
+artefact
+armour
+containing an absorption
+paragon
+.
+- Every five
+times
+the armour absorbs a hit from a
+denizen
+, it will lash out with
+flame
+, dealing damage to the attacker.
+- Note that this item CANNOT be removed once attached.
+A stratospheric
+harness
+- TALISMAN INFO HARNESS
+- Purchasable in Delos for 1700 credits
+- SHAKE <harness> when in an associated region and of sound body in order to capture the far flung windstreams. These immense forces will allow you to travel to nearby isles.
+- Western windstream encompasses
+Tuar
+,
+Tapoa
+, and
+Ageiro
+.
+- Eastern windstream encompasses
+Zanzibaar
+,
+Clockwork
+,
+Colchis
+, and
+Umbrin
+.
+- Northern windstream encompasses
+Karbaz
+,
+Suliel
+, and
+Ilyrean
+.
+An armoured charge
+tank
+- TALISMAN INFO FIRETANK
+- Purchasable in Delos for 1350 credits
+- This item is controlled with the DEPLETE
+command
+.
+- This tank
+charges
+up as you slay
+denizens
+. Higher level denizens convey more charge, and the max charge the tank can
+hold
+at any one time is 7500.
+- You may spend charge on various actions.
+- For 1500 charge, you may destroy an item similar to a
+mushroom
+sigil
+, but you will not take damage to do so. DEPLETE EXPLOSION <item>
+- For 1500 charge you may burn away ropes or webs that
+bind
+you immediately for a short balance. DEPLETE WREATHE
+- For a minimum of 7000 charge (though it will consume all charge on the tank), you may grant
+experience
+to all that stand in your location, similar to a bard's Chorale. DEPLETE GLORY
+- This final effect may only affect you once every
+2
+hours
+and may only be performed by you once every
+18
+hours.
+A sceptre of aqueous mastery - TALISMAN INFO SCEPTRE
+- Purchasable in Delos for 2000 credits
+- You may
+POINT
+this sceptre in a
+direction
+to part water in said direction.
+- It additionally conveys the
+ability
+to CAST
+FLOOD
+.
+A shackle of
+Garash
+- TALISMAN INFO GARASHSHACKLE
+- Priced at 600 credits
+- This shackle will convey the
+mass
+defence
+to you for as long as you continue to wear it.
+- This is identical to the artefact of the same
+name
+.
+A
+fire
+pendant - TALISMAN INFO FIREPENDANT
+- Priced at 200 credits
+- This pendant increases your
+critical
+hit rate by 2% when worn.
+- This is identical to the artefact of the same name and does not stack.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the elemental set you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND BIND IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is 2/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

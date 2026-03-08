@@ -1,0 +1,192 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.4.4 Fences
+Per the decree of the Jaguars Crime Syndicate after the notorious thief
+Trole
+stole
+the western Bridge to
+Delos
+in 806 AF, all
+thieves
+and acts of
+profiteering are under their purview.
+YOU WERE JUST STOLEN FROM, WHAT NEXT?
+-------------------------------------
+Whatever was stolen from you has been transferred to the
+fences
+of the
+Jaguars Crime Syndicate. The thief no longer has your property.
+The item stolen from you will be sold off by a
+fence
+.
+Anyone can visit a fence and use the FENCE
+commands
+to place a single, maximum
+bid on any item being fenced.
+This is a silent
+auction
+, no incrementing. Top bid "wins". This auction
+period
+lasts for fifty
+days
+.
+A fence can be found in Delos, there are more scattered around the land.
+If your bid wins and you were the thief, you get the item and a cut of the
+gold
+.
+If your bid loses and you were the thief, you get a cut of the gold.
+If your bid wins and you were the original owner, you get your item.
+If your bid loses, the thief did not
+win
+the bid, and you were the original
+owner, you will be prompted to
+buy
+out the item with the bid to match. This
+happens when an auction period ends and is the final opportunity to retrieve
+the item. You have twenty-five days from the auction's end to do this.
+If you bid on an item and you are not the thief or owner, you will either win,
+or
+lose
+.
+Losing
+will return your gold to you.
+For all
+winning
+bids, the item is transferred directly to your
+inventory
+.
+BUYING
+OUT AN AUCTION OR WINNING AN AUCTION IS THE ONLY WAY TO GET YOUR
+PROPERTY BACK.
+CHITS
+-----
+When a thief steals an item, the item is passed along to the fences, and the
+thief gets a
+chit
+. This chit can be turned in for the thief's cut of the gold
+once an item is fenced.
+HAVING A CHIT DOES NOT MEAN THAT YOU WILL GET YOUR STOLEN ITEM BACK.
+ONLY WINNING THE AUCTION WILL ACHIEVE THIS.
+A
+theft
+victim can
+kill
+a thief and the chit will become theirs.
+A theft victim can
+hire
+a
+mark
+, if said mark is successful the chit will be
+transferred to the victim.
+Any
+Champion
+of the Mark can kill a thief, and the
+oldest
+chit owned by the
+thief will be returned to the victim.
+Any
+Quisalis
+assassin
+can kill a thief and earn the oldest chit held by the
+thief for themselves.
+A thief cannot kill you because you killed them to
+claim
+your chit back.
+VALUABLES
+----------
+Resetting items cannot be stolen.
+If you keep your valuables in a resetting
+container
+and this container is
+stolen, the container will be returned to you, but your items within (if not
+resetting) will be fenced in a separate container.
+All gold and items obtained via untargeted pickpocket
+attempts
+remain with the thief.
+Items being sold by a fence will not
+decay
+during this period.
+COMMANDS
+---------
+Anywhere in the land
+FENCE
+STATUS
+BIDS            - View your current bids.
+FENCE STATUS BUYOUTS         - View your currently available buyouts.
+At a fence
+FENCE LOTS                   - View the list of lots currently being fenced.
+FENCE LOT <lot ID>           - View the details of a specific lot.
+FENCE
+PROBE
+<item ID>        - Probe a specific item.
+FENCE BID <item ID> <gold>   - Place your bid on a lot.
+- This is a silent auction
+style
+, one bid only.
+FENCE
+BUYOUT
+<item ID>       - If available, buyout an item.
+FENCE TURNIN <chit>          - Turn in a thief's chit for their gold cut.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

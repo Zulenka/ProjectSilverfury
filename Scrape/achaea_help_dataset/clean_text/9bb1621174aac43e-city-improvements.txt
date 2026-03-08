@@ -1,0 +1,195 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.13 CITY IMPROVEMENTS
+In the course of serving their
+citizens
+,
+cities
+have a number of
+city
+improvements
+that may be built and maintained. Each type of
+improvement
+has an upfront cost in
+commodities
+, and ongoing maintenance costs. Maintenance costs are 1/120th of the setup costs, every
+Achaean
+month
+.
+Currently, the available city improvements are as follows:
+Scimitar of Yen-Sorte
+A giant statue of the legendary Aldar weaponmaster's scimitar.
+Grants approximately a 7% bonus to all types of damage dealt by citizens against players, but not against
+denizens
+.
+A city may only have one of these.
+- Cost: 20k steel, 20k obsidian, 2k platinum, 20k
+bone
+.
+Pillar of the
+Moon
+A graceful pillar that will grant a 10% bonus to the max
+mana
+of all citizens.
+A city may have only one of these.
+- Cost: 4k platinum, 4.5k
+gold
+(
+comms
+), 4.5k silver, 4.5k gems.
+Barracks
+A
+building
+that increases the maximum number of city
+guards
+by 20%. If it is destroyed, the extra guards do not disappear, but no new guards may be purchased until the total
+falls
+under the new lower maximum # of guards, or until a new barracks can be completed.
+A city may build up to
+3
+of these.
+- Cost: 10k steel, 10k stone, 10k
+wood
+, 4k silver.
+Orb
+of Confinement
+Has a chance to stop people from rising to the skies when turned on by someone in the Ministry of
+Defence
+.
+This includes all types of
+flying
+, including Eagle's and Atavian's wings.
+- Cost: 10k gold (comms), 5k gems, 30k obsidian, 5k ice.
+The Process
+-----------
+1. The City leader decides to build an improvement no more than 15 rooms from the city's
+keystone
+(see
+HELP
+KEYSTONES
+). Construction begins, assuming the city has the required commodities.
+2
+. Each Achaean
+day
+, the improvement will gain more
+health
+. When it reaches its maximum, it is done and except in the case of the Orb, its effect will be activated permanently, or for as long as the structure exists in the city.
+3. Each Achaean month thereafter, maintenance commodities will be deducted from the city storage. The amount is approximately equal to 1/120th of the cost of the improvement. There is no ongoing development
+point
+cost.
+4. If there aren't enough commodities in the city storage to pay the maintenance, the health of the improvement will start to fall. Upon
+reaching
+0, the improvement will fall apart.
+5
+. An improvement may be repaired at a cost in commodities proportional to how much health it has left.
+Syntaxes
+--------
+IMPROVEMENTS
+-
+Shows
+you information about the improvement (if any) in your current room.
+CITY IMPROVEMENT BUILD <improvement name>
+- Builds the chosen improvement in your current room.
+- Must be within 15 rooms of the city keystone, with no
+doors
+in between.
+- Must be outdoors, in urban or
+trees
+environment
+, in your city.
+- Must not be another improvement in the room.
+- Construction begins and will finish in a few Achaean
+months
+.
+- Only the city ruler may do this.
+CITY IMPROVEMENT REPAIR
+-
+Orders
+the repair of the city improvement in the room you're in.
+- The cost of the repair is in commodities, and is inversely proportional to
+how much health the improvement has left. For instance, if it only had 10%
+of its health left, the cost would be 90% of the comms cost to build it in
+the first place.
+- Once a repair is ordered, it will take
+time
+for it to be complete.
+- Only those in the Ministry of the
+Interior
+may order this.
+CITY IMPROVEMENT DESTROY
+- Orders the immediate
+destruction
+of an improvement in your room.
+- Only the leader of a city may order this.
+CITY IMPROVEMENT LIST
+- List the improvements in your city, and where they are located.
+- Usable by the city council members and the Ministry of the Interior.
+CITY IMPROVEMENT ACTIVATE ORB
+- Activates the Orb of Confinement, if your city has one.
+- Usable by ruling council members and the Ministry of Defence.
+CITY IMPROVEMENT DEACTIVATE ORB
+- Deactivates your city's Orb of Confinement, if there is one.
+- Usable by ruling council members and the Ministry of Defence.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

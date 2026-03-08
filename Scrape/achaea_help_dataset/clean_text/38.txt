@@ -1,0 +1,159 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.2 The Houses of Achaea
+(For information on adventurer-owned
+housing
+, please see
+HELP
+HOUSING)
+What are
+Houses
+?
+----------------
+Houses are organisations comprised of and
+run
+by adventurers
+devoted
+to a common purpose. The purpose varies widely from
+House
+to House, ranging from spreading evil to accumulating great wealth to protecting the forests of
+Sapience
+. Each House is unique in its
+history
+and place within the
+world
+and each offers an
+insight
+sui generis into the world of
+Achaea
+.
+Why are Houses important?
+-------------------------
+Houses serve as cornerstones of conflict, discovery, and camaraderie for the
+Achaean
+populace. Further, Houses offer invaluable advice and guidance to those new to the Realms. The
+support
+offered by a House is priceless to those
+wishing
+to make their way in the world, from
+learning
+about your
+skills
+to navigating the world at large to even loftier
+goals
+of supremacy in
+politics
+,
+combat
+, and research.
+Houses are venerable institutions steeped in history, rich in knowledge and
+culture
+. For those new to Achaea especially, the importance of
+joining
+a House to align with those of similar goals and philosophies cannot be stressed strongly enough! To
+learn
+about joining a House, see HELP JOINING A HOUSE.
+Each House owns a House Estate, a
+meeting
+place and home for the House's members, where the House's unique
+denizen
+tutor
+resides. Many House Estates also
+hold
+other
+benefits for the House's members. Some Houses may have purchased
+endurance
+or
+willpower
+regeneration
+rooms as well, where their House members
+regenerate
+endurance or willpower more quickly. Beyond these resources, most Estates contain
+libraries
+where the House members have archived their knowledge. (See
+HELP LIBRARIES
+.)
+Want to find out more?
+----------------------------
+HOUSE LIST               - Lists all Houses, including
+city
+and Patron.
+HOUSE STRUCTURE <house>  -
+Show
+the leadership of a House. Highly customisable!
+HELP HOUSE
+<short name>  - This will show you a short version of the leadership structure along with a House's
+heraldry
+and a
+description
+of the House.
+HELP JOINING A HOUSE
+If you're a House leader, please
+read
+HELP HOUSE LEADERS
+. See HELP 8 for
+more information on Houses.
+(For information on adventurer-owned housing, please see HELP HOUSING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

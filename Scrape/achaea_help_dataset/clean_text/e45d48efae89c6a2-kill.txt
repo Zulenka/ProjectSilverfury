@@ -1,0 +1,174 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.2.2 Newbie attacks - for younger adventurers
+As a younger adventurer, even if you have not yet joined a
+house
+or entered a
+class
+, you have three basic Brawling
+attacks
+:
+1) KICK
+2
+) PUNCH
+3
+) HEADSLAM
+By simply doing KICK
+RAT
+, for instance, you will
+attack
+once. When you recover
+balance
+(
+HELP
+BALANCE), you can punch, kick, or headslam again.
+You could also use a shortsword by
+WIELDing
+it then SLASHing your
+target
+.
+Generally however, it is more effective to use your Brawling
+skills
+.
+OTHER
+ATTACKS
+-------------
+There are plenty of other attacks, all specific to your class, and generally
+quite a bit more effective than the
+newbie
+attacks.
+You may use the
+KILL
+command
+, which will automatically select the best attack
+to use for you! For example: If you are a new
+magi
+, the KILL command would
+select the FIRELASH
+ability
+.
+Ask
+others
+of your class for more details on these attacks.
+FIGHTING
+- DON'T JUST STAND THERE!
+----------------------------------
+Perhaps the most important
+lesson
+that you can
+learn
+early on is not to just
+stand there and let yourself be killed. If you are fighting a
+kobold
+, for
+instance, and the kobold has beaten you nearly to
+death
+,
+run
+away, or
+heal
+.
+All too often we see
+newbies
+, seemingly frozen with fear, as
+something
+pummels
+them to death. All you have to do is simply
+move
+. Most
+things
+will not follow
+you (there are exceptions of course, but you won't be encountering them until
+you are bigger).
+It should also be noted that adventurers under
+level
+11 will be unable to
+attack other adventurers.
+HEALING,
+HERBS
+,
+VIALS
+, ETC
+--------------------------
+In order to
+fight
+more efficiently, you will want to get some healing herbs,
+potions
+,
+elixirs
+,
+minerals
+, and the like. For instance, the
+health
+elixir
+will replenish some health when you drink it.
+Irid
+moss
+will replenish both health and
+mana
+when you
+eat
+it.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

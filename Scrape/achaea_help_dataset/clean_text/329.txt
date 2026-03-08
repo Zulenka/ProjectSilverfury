@@ -1,0 +1,118 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.1.9 Royal Guard
+The
+arena
+-based game of Royal
+Guard
+is a team vs team
+combat
+game similar to
+King of the Hill or
+Champions
+vs
+Assassins
+. The
+objective
+of the game is for
+each team to defend their Regent,
+who
+is chosen randomly from the members of
+the team at the onset of the game. Whichever team succeeds in slaying the
+other
+team's Regent first is the winner. Whenever any team
+member
+aside from
+the Regent is slain, he or she is returned to the arena with one
+minute
+of
+grace
+to re-prepare, just as in King of the Hill or
+CvA
+.
+There are two twists to make the game more interesting. Two items are
+randomly placed in the arena at the beginning of the game: a golden
+crown
+and a golden sceptre. When the crown is worn by any player aside from a
+current Regent, that player becomes the new Regent of his or her own team,
+and the crown randomly
+moves
+to another location in the arena. When the
+sceptre is tapped by any player, the Regency of the opposing team from that
+player is randomly switched to another member of that opposing team, and the
+sceptre randomly moves to another location in the arena. Crown and sceptre
+both may also randomly change location without being used, so neither team
+can simply
+hold
+on to either for the entire duration of the game.
+Note: Whenever a new person becomes the Regent (including at the beginning
+of the game), he or she will be granted grace for 30
+seconds
+.
+Commands
+:
+TAP SCEPTRE:  Randomly switch the Regent of the opposing team.
+WEAR CROWN:   Become the new Regent of your own team.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

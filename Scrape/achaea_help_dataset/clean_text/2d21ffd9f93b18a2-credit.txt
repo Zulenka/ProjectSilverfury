@@ -1,0 +1,436 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.4 CREDITS
+(See also: HELP CREDIT TRANSFER, HELP ARTEFACT TRADEIN,
+HELP CREDITMARKET
+,
+HELP CREDIT LOANS,
+HELP LEVELS
+, and
+HELP
+BARDIC
+)
+This
+scroll
+covers
+I.
+CREDITS
+- what they are and their types.
+II
+. CREDITS - how to get them.
+III. CREDITS - do I have to
+buy
+them with
+money
+to have a chance?
+IV. CREDITS - what you can do with them.
+V. CREDITS - what are
+BOUND
+credits exactly?
+VI. CREDITS - how to
+bind
+them and maybe get a nice BONUS!
+VII. CREDITS - how to convert bound credits to
+lessons
+.
+VIII. CREDITS - how to give or transfer them to another adventurer.
+IX.
+CUSTOMISATION
+CREDITS - what are these for?
+X
+.
+ARTEFACT
+UPGRADE CREDITS - what are these for?
+XI. CREDITS - more on
+buying
+them from the
+website
+I. Credits - what they are, and their types
+-------------------------------------------
+Credits are valuable
+things
+,
+something
+like
+gold
+, that can be used for
+- buying
+artefacts
+(see HELP ARTEFACTS).
+-
+trading
+with
+others
+(see HELP
+CREDIT
+TRANSFER).
+- buying or
+selling
+on an open
+market
+(see HELP CREDIT MARKET).
+-
+binding
+to yourself (see below).
+There are five kinds of credits: Credits, Bound Credits, Customisation
+Credits,
+Weapon
+Upgrade credits, and Artefact Upgrade Credits.
+Use CREDITS REPORT to see how many you have of each type of credit (Credits,
+Bound Credits, Customisation Credits, and Artefact Upgrade Credits), as well
+as
+other
+pertinent information about your credits and credit spending.
+Use CREDITHISTORY to see your most recent credit transactions.
+II. CREDITS - how to get them
+-----------------------------
+Credits can be acquired in many ways:
+- from other
+Achaean
+adventurers on the credit market (see HELP CREDIT MARKET),
+- from other players via transfers (see HELP CREDIT TRANSFERS),
+- as prizes (see HELP
+EVENTS
+),
+- as a result of a
+boon
+(see HELP
+BOONS
+),
+- from regular art and bardic contest awards (see HELP BARDIC),
+- through work as a
+mentor
+(see HELP
+MENTORS
+),
+- through
+renown
+and
+adventures
+(see HELP ADVENTURES)
+Or credits can be purchased with real
+world
+money from
+Achaea
+using check,
+credit/debit card, money order, or many other options(*). Please see:
+http://www.achaea.com/credits.
+Bound Credits (
+defined
+in more detail below) can be acquired in many ways:
+- achieving certain
+levels
+of
+experience
+(see HELP LEVELS).
+- trading in artefacts (see HELP ARTEFACT
+TRADEINS
+).
+- prizes and boons (see
+HELP EVENTS
+and HELP BOONS).
+Artefact Upgrade Credits (explained in more detail below) are acquired from
+various promotional items. (
+Globes
+of Shifting
+Continents
+, giftbags, and
+Logosmas
+stockings
+.)
+Weapon Upgrade Credits are used for upgrading
+weaponmastery
+weapons
+(see HELP WEAPON UPGRADES.)
+Customisation Credits can be gained via
+trade
+with other players or from
+various promotional items. (Globes of Shifting Continents, giftbags,
+Logosmas stockings,
+Mayaween
+pumpkins
+.)
+III. CREDITS - do I have to buy them with money to have a chance?
+-----------------------------------------------------------------
+Many wonder if they will have any chance to compete in Achaea if they can't
+spend, or refuse to spend, real world money to buy credits. The short answer:
+of course you can do well, even excel!
+Read
+on for the long answer.
+If you read section II. above, you'll know that there are many ways to get
+credits, only one of which costs real world money. Note carefully the CREDIT
+MARKET reference. With enough Achaean gold, you can buy credits. Multiple
+millions of credits have traded hands on this market, for Achaean gold.
+Hundreds, if not thousands, of Achaeans have achieved the transcendent
+level
+of
+skill
+in at least three
+skills
+, and had enough left over for an artefact or
+three, using credits purchased for Achaean gold, or credits gained from prizes
+(Achaea has given away almost two million credits and countless millions of
+lessons over the years as well).
+Do you have a chance? Sure do! Now it's up to you to
+show
+that you have what it
+takes to survive and even dominate in Achaea.
+IV. CREDITS - what you can do with them
+---------------------------------------
+Credits can only be used in these ways:
+- transfer to other players (see HELP CREDIT TRANSFERS),
+-
+sell
+on the credit market for gold (see HELP CREDIT MARKET),
+- bind: convert to Bound Credits.
+You may not spend credits on artefacts, nor convert them to
+lessons. You can do either if you bind them, turning them into
+bound credits.
+Once credits are bound (converted to Bound Credits) then you may:
+- convert credits to lessons (see below), and
+- purchase artefacts,
+licenses
+, and other things that cost credits (see
+HELP ARTEFACTS).
+Credits are strictly non-refundable.
+V. CREDITS - what are bound credits exactly?
+--------------------------------------------
+Bound Credits are credits which have been 'bound' to your adventurer.
+When you bind a (normal, non-Bound) Credit, it is now a Bound Credit. It is
+forever bound to one adventurer and may never be transferred, bought, sold, or
+refunded again.
+Bound Credits may be
+- converted to lessons (1 Bound Credit converts to
+6
+lessons; HELP LESSONS)
+- used to purchase
+* artefacts (see HELP ARTEFACTS),
+* item
+customisations
+(see HELP CUSTOMISATION),
+* some licenses and permits (see HELP LICENSES),
+* some furniture (see HELP FURNITURE),
+Only bound credits may be spent (or converted to lessons).
+You may not sell or transfer Bound Credits to other adventurers. They are, in
+effect, bound to one adventurer forever.
+VI. CREDITS - how to bind them and maybe get a nice BONUS!
+----------------------------------------------------------
+If you want to bind a credit to you, use the
+following
+:
+CREDITS CONVERT <#> TO BOUND CREDITS
+For example, CREDITS CONVERT 1000 TO BOUND CREDITS will take 1000 (normal,
+not-Bound Credits) and will bind them to your adventurer, giving you 1000 Bound
+Credits.
+The BONUS!
+----------
+Every adventurer will receive a bonus gift of
+2
+.
+5
+lessons per Credit on
+the first 1000 Credits converted to Bound Credits. This is automatically
+applied to any bound
+House
+or
+City
+credits purchased from organisational
+sales. You do not gain bonus gift lessons in any other way, such as
+trading in artefacts.
+VII. CREDITS - how to convert bound credits to lessons
+------------------------------------------------------
+If you want to convert Bound Credits to lessons, do this:
+CREDITS CONVERT <#> TO LESSONS
+For example, CREDITS CONVERT 10 TO LESSONS will take 10 Bound Credits and
+will convert them to lessons, giving you 60 Lessons. Guess what you can
+do with that!
+VIII. CREDITS - how to give or transfer them to another adventurer
+------------------------------------------------------------------
+If you
+wish
+to transfer credits to another person, you may do so using:
+TRANSFER <x> CREDITS TO <person> FOR <x> GOLD.
+For example, TRANSFER 10 CREDITS TO
+MAYA
+FOR 1000000 GOLD will take 10
+(normal, not Bound) Credits from you, give them to Maya, and take far
+too much gold from Maya (assuming Maya agrees to the transaction)!
+If you want to give someone credits for free, then specify 0 gold. This works
+at any
+time
+and does not require the agreement of the recipient. Lucky person!
+If you specify some amount of gold except 0, then adventurer will have to be in
+the realms and must AGREE to the transaction.
+To transfer Customisation Credits use:
+CUSTOMISATION CREDITS TRANSFER <#> to <person>
+Restrictions on Transfers
+-------------------------
+You may not transfer credits obtained within Achaea (i.e. not
+purchased with real world money from Achaea) to any of your
+alternate
+adventurers. See HELP CREDIT TRANSFERS for details.
+IX. CUSTOMISATION CREDITS - what are these for?
+-------------------------------------------------
+Customisation credits can be used to add
+reactions
+or alter
+descriptions
+of artefacts or items.
+These can be used either in our CUSTOMISATION REQUEST
+system
+, or for reactions
+or special requests by emailing customisations@achaea.com.
+Customisation credits cannot be used for artefact
+pets
+, but may be used for
+descriptive customisation of
+minipets
+via the in game customisation system.
+X. ARTEFACT UPGRADE CREDITS - what are these for?
+---------------------------------------------------
+As their
+name
+suggests, Artefact Upgrade Credits can only be put towards the
+cost of upgrading an artefact. These are valued at a 1:1 ratio to standard credits, and are used when upgrading an artefact* via the ARTEFACT <artefact> UPGRADE
+syntax
+.
+These can also be traded in for
+3
+lessons per credit
+ARTEFACT UPGRADECREDIT
+TRADEIN
+<# of credits to trade in>
+(*) These only
+apply
+to artefacts that have levels. For example: upgrading an
+Orcsplitter battleaxe to a Stonereaver battleaxe, or upgrading a Sash of
+Wisdom to a Sash of Caymus. They cannot be used to upgrade
+pet
+functionality.
+XI. CREDITS - more on buying them from the website
+---------------------------------------------------
+To buy credits from our website,
+go
+to: www.achaea.com/credits. Once there,
+you will be able to purchase them with credit card, debit card, and various
+other options(*). You can also print out order forms to send in checks and
+money
+orders
+.
+(*) These other options may include such things as Western Union, WebMoney
+Transfer, TravellersExpress MoneyGram, Print&Pay, Personal Check, PayNova,
+MoneyBookers, HyperWallet, eCheck, Check by FAX, e-Gold, NETeller,
+Paymate, and numerous options that may vary from country to country.
+Payment by Credit and Debit
+---------------------------
+All credit transactions are fully encrypted and secure, and are
+handled by a third-
+party
+, reputable
+service
+. After you have
+purchased credits, they will usually appear in your adventurer's
+account within
+minutes
+. If, for some reason, you'd rather not use
+the website, you may
+mail
+a check drawn on a US
+bank
+, or a money
+order denominated in US dollars.
+Checks and Money Orders
+-----------------------
+If you wish to purchase credits with cash, check, or money order,
+please go to www.achaea.com/credits and select one of those
+options on the order form. It will create an order form which you
+should print out, and mail with your order.
+Large Purchases
+---------------
+If you wish to purchase 2000 credits or more at once, such packages
+are available for purchase at a significant discount on the website.
+Disclaimer:
+-----------
+Achaea is a functioning world, and while we guarantee you will not
+lose
+any of
+the credits you buy, no such guarantee can be provided for what you purchase
+with the credits themselves. Naturally, we wouldn't be in business very long if
+this happened frequently, but as it is a world, your actions have consequences,
+and the actions of others can result in consequences for you. It's this
+dynamism in the
+nature
+of the world that people enjoy about Achaea. Thus, it is
+possible that the perceived or real value of the things you purchase with
+credits, or your
+ability
+to use those things, may both rise and decline during
+the course of play.
+(See also: HELP CREDIT TRANSFER, HELP ARTEFACT TRADEIN,
+HELP CREDITMARKET
+,
+HELP LEVELS
+, HELP BARDIC)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

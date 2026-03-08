@@ -1,0 +1,163 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13.11 COMBAT RATINGS AND RANKINGS
+HELP COMBAT RANKINGS
+- new version for update
+(See Also:
+HELP ARENA
+,
+HELP
+RANKINGS
+)
+Achaea
+has a
+system
+of
+ranking
+adventurer vs. adventurer combatants. You are not, however, automatically in the system. You must first
+reach
+level
+30, and then type
+JOIN
+COMBAT
+RANKINGS, to be put in the system.
+The rankings reset every real
+month
+, and whoever is at #1 at the end of the
+season
+will get an
+honours
+line indicating their victory. Along with this the top three combatants will receive
+credit
+prizes.
+At the end of the season 1st place will
+win
+50
+bound
+credits
+, 2nd place will win 25 bound credits, and 3rd place will win 10 bound credits.
+Anyone caught trying to manipulate or abuse the system in a way that is
+obviously unfair will be permanently banned from it and punished in
+other
+ways
+as well.
+COMBAT
+QUEUE
+JOIN  - join the queue.
+COMBAT QUEUE
+LEAVE
+- leave the queue. You cannot rejoin for an
+hour
+if you do this.
+- Every five
+minutes
+, two people from the queue will be picked at random to do battle and are moved to the
+arena
+to do battle. You are only available to be picked in this moment if the
+following
+are all true:
+* You are not on a free
+pk
+plane
+.
+* You are not on aggression cooldown, or you are in your home
+city
+outside of a sanctioned raid.
+* You have not been picked by the queue in the last ten minutes.
+- Once in the arena, you will
+fight
+!
+Additionally, victors of ranked
+spars
+will earn Delosian
+Eagles
+, these are able to be spent in the Eagle's Perch, a
+shop
+in
+Delos
+. (See HELP DELOSIAN EAGLES)
+FORMULA
+-------
+For those
+who
+are interested, the formula used to rate people is:
+NewRating = OldRating + (K * (W - (1/(10^((-Dr)/200)+1))))
+K: A variable. If you've had less than 20 fights, K is 100.
+If you've had more than 20 fights:
+If your rating < 2100 then K = 32
+If your rating >= 2100 and < 2400 then K = 24
+If your rating >= 2400 then K = 16
+W: A variable.
+If you won,  W = 1.0
+if you tied, W = 0.
+5
+If you
+lost
+, W = 0.0
+Dr: Difference in Rating. It is your rating minus your opponent's.
+(See Also:
+HELP ARENA
+, HELP RANKINGS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

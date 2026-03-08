@@ -1,0 +1,300 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.7.2 The Market Channel
+(see
+HELP CHANNELS
+, HELP HALL MONITORS, and
+HELP
+META
+MONITORS
+)
+The
+market
+channel
+is a venue for sellers to quickly find
+buyers
+and vice
+versa. If you have
+something
+to
+sell
+or need to
+buy
+something in a hurry, this
+is the channel to use!
+Command
+What it does
+-------         ------------
+MARKETON      - turns the market channel on.
+MARKETOFF
+- turns the market channel off.
+MARKET <text> - sends your
+message
+to the market channel. At a cost of 50gp
+per message.
+The Basic
+Idea
+--------------
+Market use should be:
+- explicit
+buying
+or
+selling
+, and
+- legitimate goods and services only.
+1 Explicit:
+Make it clear you are buying something, or selling. Use words
+like 'buying' or 'paying for' or '
+offering
+gold
+for' or something
+equally explicit for buying; for selling, use words like 'selling'
+or 'offering for sale' or
+other
+equally explicit terms.
+2
+Valid:
+Whatever you are offering to buy, or offering to sell, it should
+exist and be reasonable to buy or sell it. It can be an item (like
+a bomb or sword) or a
+service
+(like
+resurrection
+, or a
+hunting
+partner).
+Marketeer
+License
+-----------------
+For those frequent users of the market channel that do not
+wish
+to have the
+inconvenience of getting 50 gold from your
+pack
+every
+time
+there is an
+alternative. For sale at the Master
+Shopkeepers
+office in
+Delos
+you can
+purchase a Marketeer License for 20k gold. With this license all market
+tells
+will not cost you
+anything
+additional.
+WARNING: If you violate the below rules and your privileges to use the
+market channel are revoked you will
+lose
+your Marketeer License
+with no refund.
+Rules
+-----
+Market
+messages
+have a limit of 120 characters. You may only send one
+message at a time. If you find this limit to be too restrictive, place
+an
+advertisement
+(see HELP
+ADS
+).
+The market channel is not a
+social
+channel (*: see note at end). It is strictly
+for buying and selling of legitimate goods and services. You may also mention
+public
+events
+such as
+festivals
+and tournaments which are accessible to a
+substantial portion of Achaea's adventurers.
+Borrowing or Lending are Forbidden:
+- Asking to borrow or lend just about anything (esp. gold or
+credits
+).
+Yes, that includes
+renting
+, using, temporarily transferring, or
+any other arrangement which has similar results to borrowing or lending.
+Also Not Allowed:
+- Counter-offers (e.g. "Paying more not to have so-and-so rezzed.").
+- Responding to someone else's
+ad
+(use tells instead: see HELP TELLS).
+- Trying to buy/sell for
+others
+. Example: (Market) blah
+says
+, "Buttinsky
+needs
+goldenseal
+! Send tells." - Let Buttinsky do his own
+marketing
+.
+- Criticising or vouching for another person's products or services.
+- Mocking another person using "valid" market offers.
+- Market as free service - just asking for information, or the
+whereabouts of a person, or contact with an order or
+clan
+.
+- Buying or selling persons or people, or offering for sale,
+lease
+,
+renting,
+loan
+, temporary or permanent use, etc. Services is fine,
+but you'd better be painfully clear that this is services, not a
+person, and painfully and explicitly clear _every_ time you mention
+the services being offered. (See also
+HELP SELLING
+, because this
+sort of transaction shouldn't happen at all).
+- Asking for a resurrection, unless you CLEARLY offer to pay.
+- Anything that would violate
+HELP LANGUAGE RULES
+.
+- Anything that would violate
+HELP OOC
+(you may also lose
+credibility
+:
+see HELP
+ROLEPOINTS
+).
+- Blatantly ridiculous offers (e.g., asking to buy credits for 1 gold).
+- Tacking a valid offer on the back of any of the above. Example:
+(Market) blah says, "He is lying! Don't believe him. Selling
+elm
+."
+- Using a market ad to insult others. Example:
+(Market) blah says, "Don't be an idiot like
+X
+, buy my goldenseal."
+- NO accepting
+contracts
+for a specific person or specific
+group
+/organisation.
+- Reminding others of the rules, unless you are an
+admin
+or
+immortal
+of
+Achaea
+(See
+HELP ADMINS
+,
+HELP IMMORTALS
+, HELP HALL MONITORS, and
+HELP META MONITORS for further explanation).
+- 'Selling information' but giving it away in the same message.
+For example: "Selling the info that so-and-so is in
+city
+x."
+- Anything else that is not clearly buying or selling legitimate
+goods or services. (**)
+Since it is one of the few worldwide
+channels
+, the market channel is closely
+monitored for abuse. If you send a message that violates the above guidelines,
+you may lose the
+ability
+to send market messages for a time.
+Typically, the first offence will result in the loss of market privileges for
+one
+Achaean
+month
+, with each additional offence adding more and more time. If
+you violate the rules often enough, or the offences are great, it is possible
+for you to lose your market privileges permanently.
+Who
+can Use Market?
+-------------------
+Anybody
+level
+11 or over may use the market channel, unless that person has had
+his privileges revoked.
+Other Restrictions
+------------------
+A delay of a few
+seconds
+is required between uses of the channel.
+* Other channels that may fulfill your socialising needs: city,
+house
+,
+clan, oakstone, or order, plus yell,
+say
+,
+shout
+, and
+tell
+.
+** This may be also called the 'general principle'.
+(see
+HELP CHANNELS
+, HELP HALL MONITORS, and HELP META MONITORS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

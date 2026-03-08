@@ -1,0 +1,111 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.3.1.1 Inquisitor - Master of Ceremonies for Quizzes
+As the
+Inquisitor
+, you are responsible for keeping the
+quiz
+going
+in an
+orderly manner. The
+following
+commands
+are yours:
+INQUIZ <adventurer>       : Adds an adventurer to the quiz.
+OUTQUIZ <adventurer>      : Kicks an adventurer out of the quiz.
+NEWQUESTION               : This must be done before asking a
+question
+.
+QPOINTS                   : Sets the amount of points the question is worth.
+Q <your question>         : Ask a question.
+TIMER <seconds>           : Set the timer countdown.
+CA <answer>               : Display the correct answer to your question.
+ANSWERS                   : List the answers that have been given.
+CORRECT <adventurer>      : Declare an adventurer correct and award him the
+number of points you set with QPOINTS.
+ADDPOINTS/REMOVEPOINTS    : Use these commands to add or
+remove
+points from a
+adventurer's
+score
+. These are to be used primarily
+to rectify any errors you
+might
+have made. The
+syntax
+is: ADDPOINTS/REMOVEPOINTS <adventurer>
+<points>
+WINNER <adventurer>       : Declare a adventurer the winner of the quiz. This
+command
+also officially ends the quiz.
+SAYBALANCE                : This will increase, to about 30
+seconds
+, the
+length of "
+say
+balance" in the Quiz room. It's
+good for keeping people slightly quieter in a busy
+Quiz.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

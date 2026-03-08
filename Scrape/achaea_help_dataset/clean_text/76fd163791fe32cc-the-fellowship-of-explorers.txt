@@ -1,0 +1,187 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.19 THE FELLOWSHIP OF EXPLORERS
+(See
+HELP
+RANKINGS
+)
+What It Is
+----------
+The
+Fellowship
+of
+Explorers
+is an organisation formed to
+honour
+true explorers.
+Who
+Are Members
+---------------
+All mortal Achaeans are members in the Fellowship of Explorers, excepting
+Romeo
+and
+Juliet
+who have special duties.
+How to Gain
+Rank
+----------------
+Though all mortals (as noted above) are members, not all have a
+ranking
+in the
+Fellowship of Explorers. To gain rank,
+explore
+! The exact amount of
+exploration
+needed to gain your first rank in the Fellowship changes over
+time
+, and is
+currently between three and four hundred new places.
+If you are unranked as of yet (See RANKINGS EXPLORERS), then keep at it! You
+will be soon enough.
+How to
+Lose
+Rank
+----------------
+As new lands are discovered, your rank in the Fellowship may actually decrease.
+This is because your rank in the Fellowship depends on how much of the known
+world
+you have explored. If you do not keep the boots dusty, as the Theran
+saying
+goes, your prowess as an
+explorer
+will diminish. Your rank may be seen
+in RANKINGS EXPLORERS
+ME
+, or just RANKINGS EXPLORERS, or
+SCORE
+.
+Others
+may see
+it in
+HONOURS
+or RANKINGS EXPLORERS.
+What doesn't count
+------------------
+Certain kinds of exploration will not affect your rank:
+- Exploring while a soul
+- Exploring burrowing/buried
+- Exploring using the evade
+ability
+- Exploring while
+following
+someone else
+- Exploring in the
+wilderness
+(HELP WILDERNESS)
+- Exploring in any
+newbie
+area
+- Exploring in a
+subdivision
+- Exploring in any private home
+- Exploring on a
+ship
+- Exploring while deepsea
+diving
+- Exploring in the Soul
+Plane
+, Limbo, or the Plane of Creation
+- Exploring in stockrooms
+Commands
+--------
+RANKINGS EXPLORERS
+will
+show
+you a ranked list of the greatest explorers in the land.
+Ranks
+-----
+Sightseer
+Vagabond
+Itinerant
+Rambler
+Nomad
+Wayfarer
+Voyager
+Landstrider
+Forestwalker
+Searcher of Horizons
+Vashnarian Climber
+Penetrator of the Depths
+Desert
+Roamer
+Hunter of the
+Lost
+World
+Continental Wanderer
+Terran Master
+Sapient Explorer
+Questor of the Far Reaches
+Haidionic Seeker
+Aspiring
+Achaean
+Ranger
+Achaean Ranger
+Worldwalker
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

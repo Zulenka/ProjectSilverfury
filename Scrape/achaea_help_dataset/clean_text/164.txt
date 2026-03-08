@@ -1,0 +1,124 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.3.6 House Challenges - How Successors Move Up
+(See HELP HOUSE GOVERNMENT,
+HELP DICTATORSHIP
+,
+HELP OLIGARCHY
+, and
+even
+HELP ARENA
+for
+arena
+challenges
+and
+combat
+.)
+A designated
+successor
+to a current
+Dictator
+or
+Oligarch
+may
+attempt
+to
+move
+ahead (taking over the reins of
+power
+in the place of the one
+who
+designated
+this successor) by means of a
+challenge
+.
+The challenge simply notifies the Dictator/Oligarch, and the
+House
+, of the
+successor's desire to take over as soon as possible. There is no
+election
+, or
+referendum
+.
+If the Dictator or Oligarch responds "yes" to the challenge, or does not
+respond  at all (within a reasonable
+period
+), then the Successor takes the
+reigns of power and becomes the new Dictator/Oligarch. If the response is "no"
+then the challenge ends with no change.
+HOUSE CHALLENGE <person>   : Challenge the current leader
+HOUSE CHALLENGE
+REJECT
+: Current leader declines to step aside
+HOUSE CHALLENGE SURRENDER  : Current leader agrees to step down
+(See HELP HOUSE GOVERNMENT,
+HELP DICTATORSHIP
+,
+HELP OLIGARCHY
+, and
+even
+HELP ARENA
+for arena challenges and combat.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

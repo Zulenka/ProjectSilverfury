@@ -1,0 +1,142 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.7.3 Mayaween
+(See also:
+HELP
+VAULT
+)
+Mayaween
+is a
+Sapience
+-wide
+event
+that occurs once during every cycle of the
+Dance of the Vault. As a result of this cyclical convergence of
+constellations
+,
+the very fabric of reality
+shifts
+to allow the ghostly
+denizens
+of the
+Spirit
+Realm to enter our
+world
+, with eerie and spooky consequences.
+Over the Mayaween
+period
+, adventurers can be seen
+walking
+the
+highways
+,
+cities
+, forests, and villages of Sapience, dressed as
+famous
+personalities
+from
+Achaean
+lore,
+divine
+and
+denizen
+alike! Various items are also known to
+appear in Makesh's
+shop
+in New
+Thera
+, from spooky
+decorations
+and candies to a
+wide range of costumes for adventurers to purchase.
+Other
+strange happenings rumoured to occur during Mayaween are the appearances
+of the
+Griesly
+family
+manor, a ghostly
+ship
+that travels from port to port along
+Sapience's coast, and the haunted ruins of old Thera.
+Brawlers
+========
+In the very depths of Griesly Manor can be found the
+fighting
+pit, overseen by
+Ermintrude Goree, an exchange student now staying with the Griesly family!
+When in her presence check BRAWLER LIST to see the monsters ready to
+fight
+and
+then use your
+racetrack
+tickets to:
+BRAWLER
+BET
+# TICKETS ON <brawler>
+There are no prizes for
+placing
+, winner takes all.
+There is no way to change a bet once placed!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

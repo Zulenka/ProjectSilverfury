@@ -1,0 +1,475 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.20 Discontinued Shop of Wonders
+Shop
+of Wonders - Discontinued
+------------------------------
+All items purchased in the Shop of Wonders with Mayan
+Crowns
+are resetting and
+non-
+decay
+. They have no
+trade
+-in
+credit
+value, cannot be refunded. Their
+various functions are not
+artefact
+powers and are unable to be transferred.
+Items purchased with
+GOLD
+in the Shop of Wonders are NOT resetting nor
+non-decay.
+The Shop of Wonders can be found among the rest of the artefact
+shops
+in
+Delos
+.
+The
+following
+items are DISCONTINUED and are not currently available for
+purchase. This may change in the future.
+A mahogany hand vice:
+3
+Mayan Crowns
+- This magnificent device allows the owner to COMPRESS SHARDS in their
+inventory
+, forming them all into a single larger crystal.
+Barnacle-encrusted
+Bucket
+:
+2
+Mayan Crowns
+- A must for the avid fisherman, this bucket replenishes with up to 50
+freshwater
+bait
+every
+Achaean
+month
+.
+Bottle of
+Perfume
+/Cologne: 2 Mayan Crowns
+- These scented trinkets allow the owner to SPRAY <bottle> ON <letter>
+to scent a
+letter
+with its particular fragrance. Perfect for the
+aspiring temptress or libertine!
+Figurine Cache: 2 Mayan Crowns
+- This battle figurine cache can be opened for figurines from the
+Undeath
+set.
+- Collect all six and you'll be rewarded with an old school Ugrach battle
+figurine!
+- OPEN <cache> UNDEATH
+Historical
+Talisman
+Cache: 3 Mayan Crowns
+- This talisman cache can be opened for
+pieces
+from the Historical talisman
+set.
+- OPEN <cache> FOR HISTORICAL
+Woodland Cache: 2 Mayan Crowns
+- This woodland cache can be opened for
+minipets
+from the Woodland set.
+- OPEN <cache> WOODLAND
+Desert
+Drake:
+5
+Mayan Crowns
+- Legendary
+steed
+.
+- Comes fitted with a collar of
+Lupus
+.
+Egg
+(Parquet Wooden)*: 1 Mayan
+Crown
+- This egg can be hatched inside either a walnut, birch, or mahogany
+brazier.
+Egg (Mosaic Stone)*: 2 Mayan Crowns
+- This egg can be hatched inside either an onyx, sandstone, or marble
+brazier.
+Egg (Damascene Metal)*: 3 Mayan Crowns
+- This egg can be hatched inside either a bronze, iron, or copper
+brazier.
+Egg (Inlaid Gemstone)*: 4 Mayan Crowns
+- This egg can be hatched inside either a
+diamond
+, garnet, or emerald
+brazier.
+Shining Feather: 5 Mayan Crowns
+- While this feather is in the owner's inventory, the owner has no need
+for the
+levitation
+defence
+.
+Estachian Feedbag: 3 Mayan Crowns
+- When attached to a non-
+pet
+, non-collared
+mount
+, will keep your mount
+from starving to
+death
+.
+- You may order your mount to drop or give the feedbag to you if you
+wish
+to transfer it to a different mount.
+- It will return to your inventory if the mount dies.
+Charcoal Hippogriff: 5 Mayan Crowns
+- Legendary
+flying
+steed.
+- Comes fitted with a collar of Lupus.
+Ram's Horn: 5 Mayan Crowns
+- This horn allows you to
+shout
+from anywhere as if you were at a public
+ram's horn, without the gold cost.
+Ruby Hydra: 5 Mayan Crowns
+- Legendary steed.
+- Comes fitted with a collar of Lupus.
+An indomitable ictheli: 5 Mayan Crowns
+- Strike fear into your
+enemies
+with this undeath themed mount!
+- A non-flying legend steed, unique to the Shop of Wonders. Comes
+pre-fitted with a Collar of Lupus.
+Cookie Jar: 1 Mayan Crown
+- Self-
+filling
+lambent golden jar
+- Creates 8 different types of cookie at a rate of 2 per
+day
+.
+- Holds a max of 5 cookies.
+Fluvian Jar: 3 Mayan Crowns
+-
+Fills
+with 100 draughts of water when you
+FILL
+it at a water location.
+- You can use each of those draughts to douse forest fires or scrub
+graffiti off walls.
+- If you
+POUR
+<jar> ON <self/another person> you will immediately
+remove
+the stink affliction, though this will empty the jar in one pour.
+Stationery Kit: 1 Mayan Crown
+- Discontinued versions include olivewood, rosewood, and sandstone.
+- This will generate up to five
+letters
+that are embossed with your
+name
+and
+title
+.
+- Only the one whose name is embossed upon the letter may
+mail
+it.
+Sacrificial Kris: 10 Mayan Crowns
+-
+Wield
+this sacrificial blade and OFFER up any
+denizen
+corpse
+to your
+favourite
+Divine
+when you are not in front of a
+shrine
+. You can ATTUNE
+it in the presence of any Deity's
+shrines
+once per Achaean month.
+Any shrine in the same room will take precedence for
+offerings
+.
+(Can not be used to
+sanctify
+or
+defile
+)
+Terrin'ukia's Monocle: 8 Mayan Crowns
+- This monocle allows you to see ALL secret
+exits
+when you are wearing it,
+without needing to use any
+ability
+.
+Dragonskin
+Pack
+: 4 Mayan Crowns
+- These
+packs
+hold
+200 items instead of 50.
+- Never decay and reset.
+- It has a lid that can be opened and closed by anybody
+holding
+it.
+- NOT protected by any special
+permissions
+.
+Wyvernskin Pack: 3 Mayan Crowns
+- These packs hold 150 items instead of 50.
+- Never decay and reset.
+Obsidian
+Panpipes
+:
+6
+Mayan Crowns
+- The alluring call of these
+pipes
+will
+draw
+more
+rats
+to you in non-
+sewer
+urban locations.
+- 5 per room instead of 3, like the
+Bardic
+Rondo. PLAY PIPES.
+Ebony Pegasus: 5 Mayan Crowns
+- Legendary flying steed.
+- Comes fitted with a collar of Lupus.
+Ivory Peryton: 5 Mayan Crowns
+- A flying legend steed, unique to the Shop of Wonders. Comes
+pre-fitted with a Collar of Lupus.
+Diamond
+Pipe
+: 9 Mayan Crowns
+- This pipe is cleverly designed to allow you to get 15 puffs out of any
+plant
+you put in it, rather than 10.
+Glass
+Poppy
+: 6 Mayan Crowns
+- BLOWing this finely crafted glass flower at an adventurer will send
+them into the
+embrace
+of
+Sleep
+. Those with the
+insomnia
+defence will
+be immune to the effects, and this item requires and consumes
+balance
+to use.
+Crafter's
+Portfolio
+: 3 Mayan Crowns
+- Allow the
+preservation
+of up to 100
+crafting
+designs
+from decay.
+- You may own as many Folders or Portfolios as you like, increasing
+your capacity without limit.
+Trader's Satchel: 1 Mayan Crown
+- The satchel will continuously generate a few random
+commodities
+.
+- The commodities generated could be
+anything
+that would normally be
+purchased in a commodities shop.
+- The Satchel will fill up to 4 total items. And will
+go
+from empty to
+full in 3-4 Achaean
+days
+.
+Sceptre of Aqueous Mastery: 10 Mayan Crowns
+-
+Wielding
+this sceptre, you can part water like a
+devotion
+user and
+flood
+a room like a
+magi
+.
+* CAST FLOOD
+*
+POINT
+SCEPTRE <
+direction
+of water>.
+Polished Skull: 7 Mayan Crowns
+- Want to know the location of an adventurer corpse? CARESS SKULL
+<person> to find out. Any contact with life energy, however, will
+prevent this skull from working. That means if the corpse is being
+held by another adventurer, the skull will not be able to find it.
+Portable Stove: 5 Mayan Crowns
+- Allowing the use of the
+Cooking
+skill
+anywhere at any
+time
+, using this
+portable stove is as simple as drop and cook!
+Silver Token: 2 Mayan Crowns
+- Redeemable to
+customisations
+@
+achaea
+.com for one
+custom
+description
+with
+resetting
+customisation
+. Please include the numeric ID of your token
+(e.g. token12345) with your
+email
+.
+- See
+HELP CUSTOMISATION
+for details on eligible items.
+Crystalline
+Vase: 1 Mayan Crown
+- This vase comes in three types. Like flowerpots, these vases generate
+new flowers. Each vase generates only one flower each, and will not
+generate another until that flower is taken out.
+- The flowers are unique and not available anywhere else.
+* White  - pale pink calla lilies.
+* Blue   - clusters of indigo hydrangeas.
+* Violet - amethyst magnolias.
+Quartz
+Crystal
+Vial
+: 2 Mayan Crowns
+- They never decay, and can hold up to 240 sips instead of the usual 200.
+- It will require fewer brewings of
+elixirs
+and
+salves
+to fill to maximum
+capacity than a normal vial.
+- There is a 1% chance that it will
+regenerate
+a draught when one sips an
+elixir
+or applies a
+salve
+from it.
+Platinum Whistle: 7 Mayan Crowns
+- BLOW upon this whistle to call all your loyal entities and
+mounts
+to you
+at once, even from across
+planes
+and
+continents
+.
+- Excludes Angels, Daemons, giraffe balloons, golems, toboggans, and Icon
+alchemists
+.
+* About
+Eggs
+and Braziers
+---------------------------
+Braziers are available at the Shop of Wonders, priced in gold. When you
+purchase an egg, hatch it in the appropriate brazier. A bird will hatch from
+the egg. (Note: of course, the egg will be destroyed in the process. If you
+desire to keep an egg, well, don't hatch it.) The precise mechanics of hatching
+an egg are yours to figure out. The birds range from canaries to hummingbirds
+to swallows to many more, and the type of bird that hatches from your egg will
+depend on the type of brazier you use to hatch it. We'll
+leave
+it for you to
+figure out the
+combinations
+.
+The eggs and the birds are for
+decoration
+/fun only. They are not meant for any
+utility nor
+combat
+purpose. If you happen to find a way to use them in such a
+way, please
+consider
+that a
+bug
+and report it using BUG.
+As with all
+artefacts
+, the birds hatched from the eggs will reset to their
+owner.
+All birds will respond to "
+Sing
+, <bird type>." Metal and gemstone birds will
+respond to "Fly up, <bird type>" and "Land, <bird type>". Gemstone birds will
+respond to "Hop up, <bird type>" as well as "Come along, <bird type>".
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

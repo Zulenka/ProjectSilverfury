@@ -1,0 +1,301 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.8 Becoming an Immortal - specifically, a Celani
+Celani
+Applications Are Currently Open
+We are currently seeking:
+Aegis
+,
+Lorielan
+,
+Prospero
+, and
+Valnurana
+.
+If you are
+dying
+to be one of these
+Gods
+, OR have a new role in mind, OR you're unsure about a specific role but want to take your storytelling and
+roleplay
+experience
+to another
+level
+, please
+read
+on!
+Makarios and I want to
+teach
+and enable you to take your creativity to new heights with a whole suite of tools at your fingertips! The celani
+application
+(way down at the bottom) is the first step toward elevating your roleplay.
+We can all
+tell
+when someone is passionate about
+something
+, that joy and interest shines through, and that's just as true for storytelling or monster making or
+writing
+as it is any
+other
+hobby. We want our celani to find what they're passionate about and then enable them to let that enthusiasm
+shine
+.
+But, being one of our Gods is a position of trust, and we won't send you out there unprepared. We want your experience and the experiences you create for the other players to be awesome, we want tension, pride coming before
+falls
+, bloody retribution, poignant memories, and glorious redemption arcs. To allow you to do all of that and more, we want to prepare you for what's ahead, so read on to
+learn
+what the celani experience is like, what our expectations are, and what you'll
+go
+through if you're successful!
+* A brief boring note first: You must be over the age of
+18
+to
+apply
+for celani, and we ask for a minimum activity average of 12
+hours
+a week.
+Just like players, but without the
+bashing
+, we use
+levels
+to track celani and
+Demigod
+progress! Levels 1 through
+19
+are celani, and at level 20 you're a Demigod. Complete level 39 and you should be poised to take on your Godrole!
+Celani (can be completed in
+3
+weeks, usually takes
+6
+-10):
+- You will read a whole heap of
+things
+, create your celani
+journal
+wikipage, and then
+describe
+yourself! This will be your first real
+run
+-in with our writing standards and we'll go back and forth until your celani is picture perfect! This is worth 1 level.
+- You are introduced to item and creature creation and you will make your own
+pet
+! This is worth 3 levels.
+- You will make yourself a room, and undertake
+proofreading
+to get it up to our writing standards! This is a great place to drop all your old
+event
+junk, mine has a few camels in it still from 2014. This is worth 1 level.
+- You will learn how to possess
+denizens
+for roleplay and complete a small interaction using a
+denizen
+. This is worth
+2
+levels.
+- You will learn how to
+design
+and create a
+quest
+. This is worth 2 levels.
+- You will plan and execute a minievent, these usually only last a couple of hours and involve at least 2 denizens. This is worth 3 levels.
+The other 6 levels are earned through freeform
+tasks
+.
+It's really important to us that our God players can self motivate and feel like they can bring their
+ideas
+to life, so at this stage we want celani to start pitching their own ideas!
+- If you loved making a room you can choose to do more
+building
+, either a new area, expanding something existing, updating something old, or fixing
+description
+related
+typos
+.
+- If you loved making
+quests
+or building the behaviour for your pet you can expand behaviours for denizens in the land, make more quests, fix some prog
+bugs
+, or create something new!
+- If denizen possession and roleplay was your favourite, you can plan and execute another event!
+The level value for these tasks will be assigned based on the specifics!
+At level 20 you are a Demigod! You've learned how to do all of the basics, now it's
+time
+to flex those muscles and get more involved.
+You will become an assistant to at least one of our Patron Gods, some
+demigods
+are even visible to and interact with the players!
+- Shadowing your Patron, you'll learn all about being "godly", interacting with players, and how to be a patron. You will
+help
+handling any org requests (4 levels)
+- You will help them behind the scenes with org based
+events
+/
+expansions
+. (4 levels)
+- You will plan and execute an event of your own for your organisation with your Patron's guidance. (4 levels)
+At this stage you have 8 levels remaining to earn, and can do so from the
+following
+task
+list:
+- Helping with more patron org requests.
+- Planning and
+running
+events.
+- Spontaneous denizen possession.
+- Quest and/or
+mob
+/item/
+world
+behaviour creation.
+- Making stuff! Either with the team on any "Big stuff"
+going
+on or individually planned
+projects
+.
+- Generally being an awesome part of the roleplay
+crew
+and pitching in wherever, new things crop up all of the time!
+When you hit level 35 you will also have a
+chat
+with Ictinus to cement your Godrole decision and begin your research and planning while you finish up Demigod!
+Some Frequently Asked
+Questions
+:
+Will I be able to go back to being a player?
+Yes, usually the
+day
+you ask for it too. With the caveat that if you've been exposed to some ongoing
+plot
+shenanigans, you
+might
+be asked to wait for that to be released before you can
+log
+your mortal back in.
+What about
+issues
+/bugs/crafts/
+customisations
+?
+Celani, Demigods, and Gods don't handle the
+admin
+stuff of
+Achaea
+. UNLESS the issues or bugs are about a
+thing
+you have made, then we might ask you for the answers to the questions, or to fix any bits and bobs that need fixing.
+Writing and proofreading is really intimidating, am I doomed?
+YES! You will be doomed to the red pen of corrections! But we use a very specific
+style
+here in the
+Garden
+and we will teach everyone how to do
+everything
+(and we try to proofread and
+anything
+any of us write.)
+I can't code, so I can't be a God?
+You don't need to code, I can't code either! We do have a pseudo-code (prog) we use for creating mob and item behaviours, but we will teach you that, and we have a whole
+bucket
+of toys to play with while you learn.
+I have massive stagefright/fall asleep without warning/internet that won't stay connected for more than
+5
+mins at a time, can I still be a God?
+We can assess through celani and see if this is going to be a problem. Our highest priority is the experience of the players, so if we have concerns about your being able to be present and follow something through with them, we will err on the side of caution and protect their experience.
+Before we go any further, a final note:
+Being in good standing with the Garden and the admin team is an essential pre-requisite to becoming a Celani. If you have a problematic
+history
+or we believe that your past behaviour
+poses
+a risk to the cohesion of our team (our team is everything to us), then you will not be accepted.
+You've made it this far, let's goooo!
+If you have further questions about the godroles, the process, or anything related to this, please
+email
+ictinus@achaea.com and ask!
+If you want to take the leap and apply to
+join
+the team send the following information to the same email (that's ictinus@achaea.com):
+1. Your real
+name
+and the
+names
+of any Achaea characters you've had.
+2. Your real age.
+3. Tell us about your most memorable roleplay experience.
+This could be from Achaea or elsewhere.
+Tell us why it was so memorable and what you learned/took from it.
+4. Describe something!
+This could be a description of an item, a room, a creature, a person, or this could be a 6 sentence maximum plan for an event.
+Please make this a fresh description/plan, not something you have made/written in the past.
+Read HELP MORTAL BUILDERS and
+HELP STYLE
+for guidance!
+If you are writing an event plan, remember to make space for players to get involved.
+5. Why you want to be a god!
+Include what part excites you the most and what part worries you the most.
+6. Tell us something surprising about yourself!
+7 - OPTIONAL - If you have been a team
+member
+in the past, please explain why it did not work last time.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

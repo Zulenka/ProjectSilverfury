@@ -1,0 +1,228 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.16 War
+WAR
+DECLARATIONS
+****************
+CITY
+WAR DECLARE <city>
+- When in the City Council Chambers the Leader or
+Defence
+Minister
+of a city can
+issue
+a war
+challenge
+to another city.
+CITY WAR ACCEPT <city>
+OR
+CITY WAR DECLINE <city>
+- Once a war
+declaration
+has been issued, the opposing City Leader or Defence Minister has three
+months
+to accept or decline the invitation to war.
+- This will require a CONFIRM to take effect.
+CITY WAR DECLARATIONS
+- This
+shows
+the unanswered declarations.
+If the
+other
+city accepts, the two
+cities
+are at war from that
+point
+onwards.
+If the other city declines, they may need to pay a
+penalty
+depending on the current hostile
+status
+.
+Penalties
+---------
+If
+Cyrene
+declines a challenge issued by
+Hashan
+, the penalty is:
+* None           - if Cyrene has no recorded hostilities towards Hashan.
+* 250,000
+gold
+- if Cyrene has some recorded hostilities towards Hashan, but these are low.
+* 500,000 gold   - if Cyrene has been highly hostile towards Hashan, but Hashan has not been heavily hostile towards Cyrene.
+*
+2
+,000,000 gold - if both cities have been highly hostile to each other.
+The exact penalty is shown when attempting to decline a war challenge, and the declining leader is required to confirm it before it takes effect.
+Practically, this means that if a city is actively hostile to another, but then turns down a war challenge as a result of their actions, it will have to pay.
+After a challenge is declined, Hashan cannot challenge Cyrene again for 2
+Achaean
+years.
+If the declining city does not have enough
+money
+in its coffers or Defence funds, the debt will be remembered and any money received by the city will be automatically paid to the debtor until the debt is paid off in full.
+CITY ECONSTATUS
+This will
+show
+any outstanding debts.
+WAR
+***
+Once declared, a war lasts for 2 Achaean years unless extended or surrendered.
+City leaders/Defence
+Ministers
+may choose to CITY WAR EXTEND <other city> to extend the war's duration by another two years.
+- This takes effect when both cities have done so.
+An active war has the
+following
+implications:
+- Soldiers are NOT OPEN
+PK
+.
+- Soldiers are NOT OPEN PK.
+- Soldiers are NOT OPEN PK.
+- Room repairs are disabled.
+- Retaliation
+raids
+do not work - only sanctioned raids.
+- Kills for tanks and sanctions count from anywhere in the game.
+-
+Citizens
+and
+allies
+of involved organisations count towards sanctions and tanks.
+- An automatic
+bounty
+is placed on the city council and the Defence Minister of each city.
+- These
+bounties
+are placed on the 1st of each
+month
+of an active war, new bounties will only be placed if the previous war bounties have been claimed.
+The winner is determined based on performing the following actions:
+- destroying locations
+- dismantling tanks
+-
+killing
+city soldiers (high-ranked soldiers count for more)
+- slaying the city
+guardian
+- fulfilling the automatic war bounties
+- causing loss of city morale
+-
+sinking
+org-owned
+ships
+CITY WAR LIST
+- List current wars, including duration and
+who
+is currently
+winning
+.
+A global War newsboard is available to everyone enlisted in an
+army
+, and all important war-related
+events
+are posted here, including a summary of war activities each Achaean month.
+ENDING THE WAR
+**************
+A war ends when the two year duration elapses and the cities do not agree on an extension.
+Additionally, the City Leader or Defence Minister of the
+losing
+city has the option to CITY WAR SURRENDER <city> to surrender and end the war at any
+time
+.
+After the war ends, the following happens:
+- Hostility metrics and war metrics are wiped.
+- The losing city pays
+5
+million gold to the winner
+(or ends up in debt, see Penalties above for how that works).
+- The victor's
+banners
+are placed at
+key
+landmarks
+in the losing city.
+- An accolade is gained by the winner.
+- Morale is affected on both sides.
+After a war ends, there is a two year
+period
+during which the two cities cannot declare war on one other again.
+Final Note
+----------
+*****     During wartime, soldiers are NOT OPEN PK.     *****
+*****     During wartime, soldiers are NOT OPEN PK.     *****
+*****     During wartime, soldiers are NOT OPEN PK.     *****
+For more specifics and
+commands
+please see:
+HELP ORG RELATIONS
+HELP ARMIES
+HELP PK
+HELP CITY DESTRUCTION
+HELP CITY LEADERS
+HELP DEFENCE MINISTRY
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

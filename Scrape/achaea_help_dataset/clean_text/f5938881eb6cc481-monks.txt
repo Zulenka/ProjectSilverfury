@@ -1,0 +1,170 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.9 THE MONK CLASS
+(See also:
+HELP TEKURA
+,
+HELP TELEPATHY
+,
+HELP KAIDO
+,
+HELP SHIKUDO
+,
+HELP
+8, HELP
+CLASS
+)
+The origins of the
+monk
+class are
+lost
+to antiquity. What is known is that an ancient order of
+monks
+called the
+Sentaari
+had developed the
+ability
+to use
+telepathy
+and
+harness
+kai energy. They also mastered the art of edgeless
+weapons
+, including the staff and the cane. These weapons allowed them to defend themselves against attackers without
+killing
+them, while still letting them strike mighty blows in the
+defence
+of the peoples of the
+continent
+, as during the invasion of the Tsol'teth known as the Black Wave. However, during a civil
+war
+in the ancient
+Seleucarian
+Empire, the invading forces stripped the monks of their weapons to impair their ability to
+assist
+the rightful rulers.
+While his guildsmen were held under martial law, the Grandmaster of Flowers meditated for a
+month
+, then unveiled the unarmed art of
+Tekura
+, vowing that the monks would never again be made helpless against evil.
+Combining
+Tekura with his pre-existing mastery of
+Kaido
+and Telepathy, the Grandmaster drove the Royal Elites from the area around the monastery. After the war, he disseminated the art to all the
+other
+monasteries. Within ten years, the armed arts had fallen into disuse. Within a hundred, they had been forgotten.
+Although the Sentaari lived on in the form of a
+House
+founded by monks, monks generally follow no particular set of beliefs. Some
+devoted
+themselves to
+building
+empires, while
+others
+prefer a life of solitary meditation.
+The
+skills
+of the monk
+forge
+mind, body, and
+spirit
+into an indomitable force. Using their unarmed
+attacks
+they can break limbs, cause internal
+bleeding
+, sweep an opponent off his feet, and deliver body-crushing throws. A monk can confuse and damage the mind even over a distance and through the
+power
+of kai, can toughen his body to withstand damage, make himself heavier, restore damaged limbs by sheer force of will, and eventually temporarily banish a victim from the timestream itself.
+In the 742nd year after the fall of
+Seleucar
+, in the wake of murder in the very heart of the Judgement Mountain monastery, the Grandmaster once again allowed use of the staff in
+combat
+to be practised openly, granting those transcendent in Tekura the ability to pursue the path of
+Shikudo
+.
+The skills
+wielded
+by those of Monk class are Tekura, Telepathy, and Kaido. A
+fledgling
+in this class will possess Tekura and Kaido, gaining Telepathy on
+embracing
+their class. Those
+who
+have achieved mastery over Tekura may choose to enhance their
+training
+with the
+skill
+of Shikudo, the art of the staff.
+(See also:
+HELP TEKURA
+,
+HELP TELEPATHY
+,
+HELP KAIDO
+,
+HELP SHIKUDO
+, HELP 8, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

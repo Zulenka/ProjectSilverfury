@@ -1,0 +1,157 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.36.2 Totems, ownership, and empowering
+What are they?
+--------------
+Totems
+are crafted by practitioners of the
+Runelore
+skill
+. With the
+power
+of a
+totem
+you may afflict your
+enemies
+or aid your
+allies
+. Totems may be carried
+around or implanted in the ground, as is often the case, for the protection of
+a place.
+Who
+owns them?
+--------------
+They are owned by those who craft them until arrangements are made to
+designate
+a new owner. Totems may report
+attempts
+to smudge or uproot them in some cases.
+Designating
+a new totem owner
+-----------------------------
+The crafter of an implanted totem may designate a new owner by
+DESIGNATE <person> AS OWNER OF <totem>
+DESIGNATE ORDER OF <deity> AS OWNER OF <totem>
+DESIGNATE <org> AS OWNER OF <totem>
+This indicates to the given person, order, or org (
+city
+,
+House
+, but
+not
+clan
+) that he or they can
+CLAIM
+the totem in order to accept
+it as personal or organisational property.
+Totem ownership does not change until the designated person, or a
+member
+of the
+designated org, goes to the totem and does this:
+CLAIM <totem>
+If the person does
+REJECT
+<totem> instead then the original crafter retains
+ownership and may keep it or
+attempt
+to designate another new owner.
+If the person does CLAIM <totem> then that person or org now owns the totem -
+ownership transfer is complete. The only way to clear the ownership on a totem
+is to uproot it.
+Empowering
+a totem
+------------------
+A totem may be empowered by any person with Runelore skill at least as great as
+the original crafter. Empowering is rather expensive in
+mana
+cost (1000 at
+present). Empowering does not last forever. There is a small chance each
+Achaean
+day
+(yes, day, not
+month
+) that any particular empowered totem will
+lose
+the empowering.
+If a totem is empowered, then it will report to its owner, or to its owning
+organisation, when it is the
+object
+of hostile smudge or uprooting attempts.
+Any such attempt is hostile if undertaken by someone not the owner, or not a
+member of the owner's org.
+Totem owners
+------------
+Clans
+may not own totems.
+Other
+organisations, including
+houses
+,
+cities
+,
+and
+orders
+, may. Individuals may also own totems.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,168 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.23 Voyages
+Voyages
+, also known as "
+seafaring
+quests", are a series of eleven diverse
+adventures
+offered by Achaea's
+harbour
+dockworkers/harbourmasters and undertaken by a
+ship
+and her
+crew
+. Invariably these involve a grand journey on the high
+seas
+, venturing forth from
+island
+to island, harbour to harbour, coast to coast, in order to complete the
+objectives
+, hear the stories, and
+claim
+the vast rewards at the end.
+These are not to be undertaken lightly! The seafaring life can be a long one, and only the simplest of voyages can be done in a quick jaunt, from a single harbour to a single harbour. Most are much more diverse and cerebral, involving several-leg journeys that aim to
+tell
+a varied and robust range of stories, in most cases unfolding as the voyage itself progresses.
+To Undertake a Voyage
+----------------------
+You need:
+Your ship in the harbour.
+To be Captain of the ship.
+Your crew in your
+entourage
+(
+ENT
+)
+SAY
+REQUESTING A VOYAGE FOR SHIP <#>  - Ship Captain only.
+- When at a voyage giver.
+VOYAGE PENDING -
+Shows
+the offered voyage information.
+VOYAGE EMBARK  - Sets you and your crew on the offered voyage.
+VOYAGE CANCEL  - Rejects the offered voyage.
+- This will automatically happen if you wait too long to respond.
+NOTES:
+- A Windcutter can have up to
+3
+crew + captain (4 total)
+- A Sea Strider can have up to
+5
+crew + captain (
+6
+total)
+- A WarGalley can have up to 7 crew + captain (8 total)
+- Not all voyages are available from all
+harbours
+.
+- 1 voyage per ship at a
+time
+, and 1 voyage per person.
+- Voyages will expire, they do not remain on a ship/person indefinitely.
+Mid-Voyage
+Commands
+--------------------
+Where captain is referenced this refers to the captain
+who
+accepted the voyage, not necessarily the current ship's captain. Be mindful of this on shared
+ships
+.
+VOYAGE
+STATUS
+- Useable by anyone on a voyage.
+- Gives information about your current voyage.
+VOYAGE DISBAND - Captain only.
+- Disbands the crew and this voyage, cancelling from everyone and the ship.
+- This cannot be forced.
+- The personal cooldown for the voyage goes into effect for the Captain.
+VOYAGE DISMISS <crewmate> - Captain only.
+- Dismiss a crewmate from the active voyage's crew.
+- IRREVERSIBLE.
+VOYAGE ABANDON - Crew
+member
+only - you
+leave
+the crew for the active voyage.
+- The personal cooldown for the voyage goes into effect even if you abandon the crew.
+- IRREVERSIBLE.
+End of Voyage
+--------------
+When a voyage is concluded, ALL members of the participating crew will be credited with completion and rewarded accordingly.
+In addition to the standard rewards, most voyages award
+pieces
+from the SEAFARING
+talisman
+set. Pieces are awarded to the captain when the
+quest
+is finished, and these can of course be traded around as desired. The amount of pieces awarded varies; simple voyages will not yield pieces,
+others
+range from 1
+piece
+per ship up to
+2
+pieces for every member of the crew.
+There is also a small chance that each member of the voyaging crew will be awarded a talisman piece of their own.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

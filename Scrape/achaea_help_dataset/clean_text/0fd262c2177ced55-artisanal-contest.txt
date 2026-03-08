@@ -1,0 +1,300 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.23 ARTISANAL CONTEST
+Note:
+Bardic
+/
+Artisanal
+winners can be seen on the
+Achaea
+wiki at http://wiki.achaea.com!
+People of Achaea! The Artisanal
+Fellowship
+of
+Scarlatti
+do invite you all to share the
+power
+of your creativity and imagination throughout the land! To
+honour
+and acclaim your wisdom and
+artistry
+, we have decided to encourage the fine arts by
+holding
+occasional
+writing
+and visual arts
+contests
+. The winner of this competition will be ascribed
+rank
+within the artisanal
+orders
+in our Fellowship, as well as receiving a healthy reward of the currency known as
+Credits
+.
+The current Artisanal and Bardic contest has now closed.
+Rules
+-----
+Bardic entries must
+1 - be original works (literature,
+history
+, poetry, or
+philosophy
+)
+2
+- be in written form. Words only; no recordings.
+3
+- be distinctly
+Achaean
+*, within the proper
+mythology
+,
+culture
+and worldview.
+Artistic entries must:
+1 - be completely original artistic works, done by you only. This means no clip art, no stock photos, no pre-fab or pre-drawn models, 3d or otherwise. If you didn't make it from scratch, you don't use it in your art!
+2 - be distinctly Achaean.
+3 - not be collages.
+4 - cover any Achaean subject (history, portrait,
+map
+, etc.)
+5
+- be black and white, colour, 2d, 3d, whatever.
+Completely Original
+--------------------
+Every part of your
+piece
+must be original to qualify. Clip art is not original, even if you fix it up with Photoshop or some similar tool. Stock photos, pre-fab/pre-drawn 3d models, and the like are also not original.
+For artistic
+pieces
+, a written explanation may be beneficial.
+What if it isn't original? If it's not entirely original work, then the entry is eliminated. You also stand a good chance of experiencing in-game repercussions if plagiarism is detected, up to and including loss of your
+character
+.
+Distinctly Achaean
+-------------------
+- using the
+name
+of
+something
+Achaean (
+city
+,
+race
+, etc) is not enough.
+- creating a work that corresponds in great detail to in-game Achaean
+descriptions
+is probably quite enough.
+We ask - "Does this faithfully depict, in a reasonably detailed manner, an Achaean scene (one not likely to be found elsewhere)?" If yes, then it's very likely to be distinctly Achaean.
+If the scene could have been anywhere, then it's probably not "distinctly Achaean."
+Just any old warrior will probably not make it. Just adding the name of a city or
+house
+doesn't make it uniquely Achaean. Bewinged Atavians with
+runes
+on their
+armour
+and
+weapons
+and
+tattoos
+on their bodies, or even acting out Achaean
+abilities
+- this is more likely to be convincing.
+More on "Distinctly Achaean"
+----------------------------
+This is on a spectrum from
+- "totally obviously Achaean" (top end), to
+- "has elements that are likely Achaean" (somewhere in the middle), to
+- "could really be anywhere:
+nothing
+especially Achaean about it" (bottom end).
+The lower a piece is on this scale, the lower its desirability.
+Things
+near the bottom will likely be eliminated, even if high quality. Things near the top will likely
+win
+something even with lower quality art.
+Everywhere else in the spectrum is a judgement call. "Achaean-ness" is weighted in there with quality.
+Collage
+-------
+If it's a collage, it will probably be eliminated, likely without in-game repercussions.
+Entry Submission
+----------------
+All Bardic (written) and Artisanal (visual) entries for the contest must be submitted by
+email
+to either
+artisanals
+@achaea.com or
+bardics
+@achaea.com.
+Submissions must include the name of your character and any additional appropriate information required to judge the entry.
+Please ensure that
+EVERYTHING
+you
+wish
+to submit is included in this email - multiple
+emails
+regarding the same submission are unlikely to be reviewed favourably.
+NOTE: Your character is assumed to have created the work in-role. This character will be the one to receive any forthcoming reward.
+Regardless of how many characters you play on Achaea, you may only submit one
+entry toward the contest.
+These contests are held by discretion of the Achaean
+admin
+team, typically when in-game
+events
+or (rarely)
+OOC
+moments of significance provide an inspiring platform for creativity. The closing
+date
+for each contest will always be announced at the same
+time
+as the contest itself. After submissions are closed, a judging
+period
+of one to two weeks will take effect, after which results will be announced and prizes awarded accordingly!
+Formats
+-------
+Bardic submissions should be sent either in a plain text file (properly formatted where appropriate), or in the body of the email itself. Please do not send direct copy-pasted content from Word or the equivalent! As a
+reminder
+, the bardic submissions email is bardics@achaea.com
+How To
+LOSE
+with your BARDIC Entry - Guaranteed!
+------------------------------------------------
+Just copy and paste from Microsoft Word. If you have smart
+quotes
+anywhere, then you'll be disqualified instantly!
+Just use notepad, wordpad, or any
+other
+text
+editor
+. Or use Writer from OpenOffice.Org, which is free and comparable to M$ Word.
+Or
+learn
+how to disable smart quotes in Microsoft Word.
+Look
+here: Tools -> Autocorrect Options -> Autoformat As You Type, and then make sure the box is UNchecked that
+says
+"Straight Quotes" for "smart quotes".)
+Artisanal Submissions
+---------------------
+To submit an Artisanal work, attach the submission to the email with any additional information provided. You may submit .jpg, .gif, animated .gif, or
+Flash
+formats. The total size of your submission must not exceed 10MB. As a reminder, the artisanal email for submissions is artisanals@achaea.com
+In either case, submitting an entry is a very serious step. When you submit an entry, you are
+saying
+:
+- that you were the original creator of the material, and
+- that there is no material in your submission that is copyrighted by anyone else.
+If you submit material that you didn't create yourself, or that has been copyrighted by someone else, your character or characters will be
+shrubbed
+. You may also have BROKEN THE LAW: submitting someone else's copyrighted material (or any intellectual property) may be a violation of US and International law. ORIGINAL WORKS ONLY!
+Rewards
+-------
+There are 3
+levels
+of success in the contest. One winner, up to three creditable runners up, and any number of minor merit awards. A character may only enter three
+times
+per contest. Success in the contest brings with it the
+following
+rewards:
+Winner     : 4 points and 600 credits
+Runners up : 2 points and 300 credits
+Merit      : 1
+point
+and 150 credits
+Winning
+(and
+runner
+up) entries will be announced in game and on the Achaean
+website
+! Prizes will be allocated to the winning characters shortly afterwards, and the actual entries shall
+go
+on display on the Achaea wiki following that!
+Each time you hit increments of 4 points in the Artisanal contest, you will gain a new rank in that Order, as well as some credits. That is in addition to the credits you get for being the winner, runner-up, or merit contestant see above).
+There are 7
+ranks
+. Your current rank is displayed in your
+HONOURS
+. The rank
+titles
+are as follows:
+Artisanal:
+1 - Associate        - 100 credits
+2 - Fellow           - 200 credits
+3 - Master           - 300 credits
+4 - Artisanal Master - 400 credits
+5 - High Master      - 500 credits
+6
+- Laureate         - 600 credits
+7 - High Laureate    - 700 credits
+Copyright Notice
+----------------
+All submitted works of whatever
+nature
+become the sole property of Iron Realms Entertainment, LLC, with all copyright assigned to Iron Realms Entertainment, LLC.
+NOTE: The reason for this is that we wish to be eternally free to display winning works on our website. If you still have a problem with this,
+consider
+that the only works that will win are ones that have something to do with Achaea, and you couldn't
+sell
+those anyway. We don't mind you also posting the art or stories on your website however.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

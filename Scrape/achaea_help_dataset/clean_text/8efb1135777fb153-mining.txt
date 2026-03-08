@@ -1,0 +1,243 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+24.1 Mines and mining
+Mining
+is a
+system
+unlike any
+other
+in
+Achaea
+. It is not about you - the adventurer - heading out into the mountains and swinging a pickaxe yourself.
+Goodness, no. You are way too awesome for that.
+SUMMARY
+--------------
+Since this is a somewhat involved system, we'll start with a summary of how it works. For further information on the related mining topics, please see
+HELP
+24 for a list of mining-related HELP files.
+1. You now have a Legion, which is composed of squads of two overarching types: Mining and Soldier. However, until you purchase squads to
+go
+in it, your Legion is empty.
+2
+.
+Hire
+yourself, at minimum, one mining squad for your Legion. You may also want to hire soldier squads for protection. That's up to you.
+3
+. Go find a Mining Camp.
+4. PROSPECTING
+4a. PROSPECT HIRE [COMM] - while at a mining camp.
+Said camp will then send out a
+crew
+which will
+look
+around the area for lodes for you:
+This costs five thousand
+gold
+and takes fifteen
+minutes
+for a general search, and has a cooldown of one
+hour
+.
+OR
+This costs fifteen hundred gold and takes five minutes for a specific
+commodity
+search, and carries a cooldown of twenty minutes.
+4b. After your crew returns, you'll receive reports PROSPECT REPORTS of all
+commodities
+that were found. These reports become invalid as lodes get built on.
+4c. If you have a report, lodes for that room will now
+show
+up on look. You can PROSPECT HERE in a room you
+hold
+a report for (or that has a mine) to see the old information that prospect conveyed. This should cover all cases where this is needed.
+4d. You can PROSPECT YIELD <report number> TO <other player> in your room. This will give them that specific report, so you can still collaborate in order to
+claim
+mines
+.
+5
+. Lode types are of 'raw commodities' like iron ore, silver ore, raw
+bone
+, impure ice (See: HELP RAW COMMODITIES).
+6
+. Assuming there isn't another mine already built in that room, you can now CONSTRUCT a mine of small, medium, or large sizes. The mine's size plays into how much it will cost to operate and how many squad members can be put in it at once.
+You will require a report to know where a lode is to build a mine upon it.
+7. Enter the mine.
+8. Deploy your squads. The mining squads will immediately set to work on the lode.
+9. As they extract the raw
+comms
+, they will go into the mine's storage. You can CLAIM STORAGE at any
+time
+while in the mine in order to get those raw comms into your
+inventory
+, at a cost of 1500-4000 gold. Commodities brought into your inventory this way will then begin to
+decay
+with an eight (8) real life hour timer.
+10. Every time you CLAIM STORAGE, the adventurer, if any,
+who
+controls the stronghold in the mining camp will get a bonus of 5% of the raw comms claimed. Please note once again that
+claiming
+this way begins the eight real hour decay timer.
+11. Alternatively, you can CLAIM STORAGE WAREHOUSE <warehouseID/Name> for your mines and
+strongholds
+, this will take the commodities from your stronghold or mine and
+fill
+any appropriate
+leases
+without the worry of decay.
+12. You can use your soldier squads to
+attack
+other people's mines and strongholds, capturing them if you succeed in wiping out any soldier squads inside them.
+13. Your mining squads may occasionally
+dig
+up a rare mineral that can grant (usually temporary) special powers (See: HELP RARE
+MINERALS
+).
+14. When the mine is depleted, it'll collapse about 10 minutes later, transferring squads back to your Legion as well as
+moving
+anything
+in storage to your inventory.
+15. You must now convert your raw comms into normal, usable comms. Every mining camp has a refinery for this purpose (See: HELP RAW COMMODITIES for more information.)
+16. There are
+rankings
+showing
+which adventurers have mined the most of each comm, and a global
+ranking
+showing the most accomplished miners. There's also a global ranking based on the total number of
+days
+an adventurer has controlled Strongholds for. RANKINGS MINING and RANKINGS MINING <comm>.
+You find a lode by PROSPECTing the room you're in. One important
+thing
+to note is that after a room's lode gets emptied, another lode will eventually appear there. If you use the PROSPECT
+command
+in a room with a mine already in it, it will
+tell
+you what size of mine there is there, the comm type it's mining for, the lode size, and the approximate amount that has been mined out of the lode.
+When you find a lode, it will be of tiny, small, medium, large, or huge sizes, which correspond to how many raw comms can be extracted before that lode is emptied. Lodes can contain up to 6500 commodities.
+When you find a lode you like, it's time to establish a mine:
+CONSTRUCT <small/medium/large> MINE
+- Small mine  : 60 squad members (max. 40 miners)
+- Medium mine : 200 squad members (max. 120 miners)
+- Large mine  : 480 squad members (max. 280 miners)
+NOTE: The above numbers are inclusive, so for a small mine you can have a maximum of 60 squad members, up to 40 of that number may be miners.
+Mines have costs to establish, of course, and these comms must be in your inventory:
+- Small mine  : 75 iron and 180 stone
+- Medium mine : 140 iron and 300 stone
+- Large mine  : 230 iron and 550 stone
+Note that these costs will scale proportionately with how much of the lode has been mined out. So if a lode is 80% mined out, it'll only cost 20% of the above to build a mine on that lode.
+Next, you will:
+ENTER MINE
+- Only the owner of a mine can enter it via the entrance.
+- You'll now be in your mine, which will have a few rooms.
+-
+LEAVE
+MINE will leave it, as long as you're in the first room in your mine.
+Now you'd DEPLOY SQUADS (See: HELP
+LEGIONS
+).
+You'll pretty much always want to put your mining squads in the final room of the mine. Your soldier squads could be placed anywhere, but you'll want to understand how squad
+combat
+works (See: HELP MINING
+ASSAULT
+).
+If you don't deploy any mining squads within 10 minutes, your mine will collapse,
+killing
+you if you're in it (but not killing any squads in it - they will return to your Legion).
+While your mining squads are in the mine, they will be working away, producing raw comms that will go into your mine's storage. Each raw comm type takes a different amount of time for a single miner to produce, and the more miners you have, the faster the mine will produce comms.
+Mine and Stronghold Storage
+---------------------------
+Where do the raw comms that your mining squads produce go? Into your mine's storage.
+You can see what's in the storage of your mine or stronghold at any time you're in it by doing SEE STORAGE.
+In order to get them out of storage and into your inventory, you need to be in your mine and CLAIM STORAGE. This will transfer, five minutes later, the raw comms in your mine's storage to your inventory. In a small mine this costs 1500 gold. In a medium mine it's 2500, and in a large mine, 4000 gold.
+NOTE: Claiming commodities into your personal inventory will cause them to begin
+decaying
+. After eight real life
+hours
+, these commodities will decay entirely unless appropriate storage is sourced.
+To avoid dealing with decay, you can CLAIM STORAGE WAREHOUSE <warehouseID/Name>} for your mines and strongholds, this will take the commodities from your stronghold or mine and fill any appropriate leases without worry.
+Your mining squads will continue working the mine until you
+recall
+them or there's
+nothing
+left in the lode, at which
+point
+your squads will return to your Legion and the mine will collapse. Don't be in the mine when it collapses.
+Anything in your mine's storage will be transferred to your inventory.
+Mine Costs
+----------
+Aside from the upfront costs in iron and stone (see above) to establish a mine, there are ongoing costs. These costs will come out of your
+bank
+accounts, so you must be sure to have enough gold in your accounts to cover the costs, which are as follows:
+- Every
+Achaean
+day
+, a small mine will cost 200 gold, a medium mine 350 gold, and a large mine 600 gold.
+- 5 gold/Achaean day for every individual miner. There are, in an uninjured squad, 20 miners to a squad. Soldiers cost nothing on an ongoing basis.
+If the system tries to take
+money
+out of your bank accounts and there's none there, the mine will be destroyed and all comms in it
+lost
+, though your squads will be returned to your Legion.
+Make sure you keep enough gold in your bank accounts to cover these costs!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

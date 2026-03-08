@@ -1,0 +1,206 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.15 City Fonts
+Within each of the six
+city
+-states of
+Achaea
+can be found an
+artefact
+of great
+power
+, known as a
+font
+. Most were created during the
+War
+of the
+Divine
+Child
+. As an
+application
+of Divine energies intermingled with residual effects from the
+Eye
+of
+Proteus
+,
+fonts
+can confer numerous benefits on their
+cities
+and
+help
+protect them from forces both mundane and supernatural.
+The fonts are:
+- The Mirror of Shimite in
+Ashtan
+.
+- The Unending Spring in
+Cyrene
+.
+- The
+Cauldron
+of Infinity in
+Eleusis
+.
+- The
+Crucible
+of
+Stars
+in
+Hashan
+.
+- The Heart of Caizhel in
+Mhaldor
+.
+- The Flames of the Dawn in
+Targossas
+.
+As the years pass, researchers continue to discover the mysterious ways in which these
+relics
+function. Currently, they can be used to:
+- Summon a powerful city
+guardian
+to rally and reinforce city
+guards
+(HELP
+GUARDIANS
+).
+- Cause the font to radiate powerful
+auras
+to aid in the displacement of
+enemies
+(see below).
+Empowering
+a font
+-----------------
+Those with the necessary
+rank
+in the city's military (specifically, rank 4 or above) may
+EMPOWER
+FONT <power>, using one of the
+following
+options:
+- WEAKEN : A compounding affliction that increases the amount of damage an
+enemy
+takes.
+NOTE: Raiders may SANCTION RAID to immediately declare a sanctioned raid in a city whose font is empowered with weaken, bypassing any
+kill
+requirements.
+- QUAKE  : Send powerful tremors through the earth, disrupting the propping of
+totems
+.
+-
+DECAY
+:
+Influence
+the very fabric of
+time
+, reducing the life of any persistent room effects such as devotional rites,
+crystalline
+vibrations, necromantic hands of the grave, and a bard's harmonics.
+-
+SENSE
+:
+Shows
+the location of everyone within the city, and whether they are a
+citizen
+, a neutral
+party
+, or an enemy.
+NOTE: While this bypasses most forms of hiding, it does NOT bypass forms that render the user incorporeal, such as black
+wind
+, phasing, or spiritwalk.
+Restoring a font's power
+------------------------
+The benefits of these relics come at a cost: their pools of energy are reduced when activated. Restoring this energy involves
+hunting
+special creatures, intrinsically linked to the fonts of power called eidolons. To fuel a font, the
+corpses
+of these eidolons must be placed within the confines of the font,
+drawing
+their energies into the very core of the
+relic
+.
+Because each type of eidolon was created from a particular city font, eidolons will not empower the font with which they are linked. These are the eidolons and the cities in which their corresponding fonts are found:
+-
+Things
+of Chaos (Ashtan).
+- Mountain Drakes (Cyrene).
+- Flower Maidens (Eleusis).
+- Black Lamassu (Hashan).
+- Hideous Abominations (Mhaldor).
+- Diminutive
+Fairies
+(Targossas).
+Members of the
+Defence
+ministry and high-
+ranking
+army
+members can check their city's font power
+levels
+with CITY FONT
+STATUS
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

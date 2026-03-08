@@ -1,0 +1,193 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13.4.5 Finding Weapons or Armour to Buy
+(See also:
+HELP ARMOUR
+,
+HELP WEAPONS
+,
+HELP
+BUYING
+)
+Many, especially younger Achaeans, focus a lot of energy on locating
+weapons
+and
+armour
+. Sometimes this is not a good
+idea
+at all, so the first
+thing
+to do
+is ask: DO I NEED ARMOUR, or DO I NEED A
+WEAPON
+?
+Do You Need a Weapon?
+---------------------
+Probably not. If you're a
+Bard
+, you'll need a rapier soon. If you're one of the
+three knightly
+classes
+(
+Infernal
+,
+Paladin
+,
+Runewarden
+), you'll want a sword,
+probably a shortsword. That's it!
+If you're an
+Apostate
+,
+Alchemist
+,
+Blademaster
+,
+Druid
+,
+Sentinel
+,
+Jester
+, Mage,
+Monk
+,
+Occultist
+,
+Priest
+,
+Serpent
+,
+Shaman
+, or
+Sylvan
+, you either don't use
+weapons, don't use weapons yet (younger Serpent), or you have a special way to
+get your own (
+Priests
+summon their own maces, and
+Jesters
+wish
+for their own
+blackjacks).
+Do You Need Armour?
+-------------------
+Armour can be pricey, for a younger
+Achaean
+. Buying armour can definitely wait,
+if you can even use it at all.
+Magi
+can't use armour or
+shields
+at all.
+Monks
+can't use shields. Everybody
+else can use both to some degree. See
+HELP ARMOUR
+for details.
+How Much Do Weapons Cost?
+-------------------------
+You should be a
+member
+of a
+House
+, in which case you will likely get a free or
+very cheap weapon to start.
+Failing
+in that, you'll pay from perhaps 500 to 1500
+gold
+for a shortsword, and
+a somewhat broader range (
+say
+, 500-4000 or so) for a rapier.
+Where Are Weapons and Armour Sold?
+----------------------------------
+Both are sold primarily in adventurer-
+run
+shops
+scattered throughout the
+cities
+of
+Sapience
+. Start with your own
+city
+whenever possible, since there are often
+discounts available.
+If you don't have a city, then start
+walking
+! There are dozens of shops in each
+city, stocked by their owners as they are able. Stock changes from
+minute
+to
+minute, and there is no guarantee that a price is fair either, so bring a
+friend
+(a friend with the WeaponProbe
+ability
+if at all possible).
+(See also:
+HELP ARMOUR
+,
+HELP WEAPONS
+, HELP BUYING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,169 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10 CITY-STATES
+10.1   Citystructure
+The political structure of
+city
+-states.
+10.2   Rulingcouncils
+The ruling councils of city-states.
+10.3   Cityleaders
+The leaders of city-states.
+10.3.1 Resigning
+How to
+leave
+city government, or the
+army
+.
+10.4    Ministries
+General information on
+Ministries
+.
+10.4.1  Ambassador
+The Ministry of the
+Ambassador
+.
+10.4.2  DefenceMinistry
+The Ministry of
+Defence
+.
+10.4.3  Interior
+The Ministry of the
+Interior
+.
+10.4.4  Treasurer
+Treasurer
+of the City.
+10.4.5  Culture
+The Ministry of Cultural Affairs.
+10.4.6  Admiral
+The Admiral of the City Fleet.
+10.5  Citycommands
+Basic city-related
+commands
+.
+10.6  Cityranks
+Ranks
+of prestige within a city.
+10.7  Guards
+City
+guards
+that will act to protect you.
+10.8  Guardians
+Unique and powerful city
+guardians
+.
+10.8.1 Eidolic Influence
+Spirit
+Guardians and
+Territory
+Control
+10.8.2 Doctrines
+A political statement.
+10.8.3 Conquest
+Conquer
+the land!
+10.8.4 Liberation
+Liberate
+towns and villages!
+10.8.5 Spirit
+Fear and Gratitude, yours to spend.
+10.9  Sewers
+Under the
+cities
+of
+Sapience
+10.10 City List
+The Cities of Sapience.
+10.11 City Armies
+Enlist in your city's military.
+10.12 Keystones
+Marking the main entrance to a city.
+10.13 Improvements
+Various buildable city
+improvements
+.
+10.14 City Destruction
+Raid and destroy opposing cities.
+10.15 Fonts
+City
+fonts
+and their use.
+10.16 War
+War
+between cities, all the details.
+10.17 City Salaries
+Earn
+gold
+by serving your city!
+10.18 City Guides
+Shepherds of
+newbies
+from
+Tasks
+-
+Houses
+!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,292 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.12.1 The Vertani Culture: a Compendium
+PHYSICAL
+TRAITS
+---------------
+Physically, the
+Vertani
+can range from two and a half metres to nearly
+four metres in height, albino to ebony in skin tones, and slender to
+stout in body types. Due to their required military
+service
+, obese
+Vertani are a rare sight. Practically all Vertani have one golden
+eye
+;
+the
+other
+eye is of a more standard colour. A Vertani's
+rank
+in their
+society can usually be used to determine their
+look
+. The lower-ranked
+Vertani are required to shave their head and are tattooed with the
+markings of their
+House
+. Highly ranked Vertani are permitted to grow out
+their hair, with colours generally ranging from white to black.
+THE DAQ
+-------
+A lucky few Vertani, known as the Daq, are born with matching eye colour
+of
+gold
+. "The Daq", which means "the same" in their tongue, is
+considered a sign of an "old soul". They enter mandatory military
+service at the young age of six and serve there the rest of their life.
+In return, the Daq
+hold
+nearly all the upper echelons of
+power
+in the
+Empire.
+There is little resentment for this monopoly of power, as most Vertani
+believe that at some
+point
+in the cycle of
+reincarnation
+they too will be
+reborn as Daq.
+MILITARY
+CULTURE
+----------------
+There is a strong emphasis on the military regardless of the
+individual's house or
+status
+. All Vertani are required to
+join
+the
+Empire's military
+training
+at the age of nine. At sixteen they will
+enter full service, which they serve for six more years. After this
+military
+time
+they are allowed to return to their House. A refusal to serve
+results in execution and is essentially unheard of.
+The Vertani
+fight
+in highly disciplined
+legions
+composed from a variety
+of forces. Despite
+fighting
+in very regimented units they also have a
+strong
+sense
+of individual
+honour
+. It is not unusual for them to pause
+mid-battle and watch a display of martial prowess by two people caught in a
+duel.
+It is unheard of for a Vertani to refuse a duel. They
+consider
+this a
+great dishonour to both themselves and their House. Because of this,
+their duels are rarely to the
+death
+, and in fact the combatants
+might
+drink and laugh together after the duel.
+Despite the Vertani's rigid society, they have a fun-loving festive side
+as well. They consider any excuse for a
+party
+an acceptable one, and
+they are known to be extremely wild during them. Even their funerals are
+parties
+rather than sorrowful affairs. They believe in celebrating life
+rather than mourning death.
+DEATH
+-----
+The Vertani believe that after
+dying
+, the soul reincarnates into a
+newborn with no memory of its previous life. This gives them a great
+appreciation for life, as noted by their extravagant funeral parties.
+They value life greatly, assuming it is useful life - especially since they
+go
+through much effort to make sure every
+citizen
+is useful. The casual
+disregard of it by Achaeans frustrates them.
+Early in Vertani
+history
+, they argued that being revived cheapened the
+sacrifice made in battle and diminished the beauty of life. Thus, their
+Priests
+petitioned to the All not to grant this
+resurrection
+. The Vertani
+believe that because of this, they are the only ones
+who
+truly
+appreciate life.
+RELIGION
+--------
+The Vertani revere
+something
+they call the All. The All is the power
+behind creation, a force that binds reality together,  but a physical God
+does not embody the All. The Vertani consider the All to be the sum of
+creation; everybody is part of the greater power known as the All.
+While they acknowledge the
+Logos
+as being substantially equivalent to the
+All, they scoff at Sapients' representation of the All in the Logos. They
+consider the Logos to be an inadequate and overly personified depiction
+for the All. The other
+Gods
+are also recognised as being aspects of the All.
+Priests in the Vertani Empire work with the
+spirit
+element instead of
+worshipping a God. They consider spirit to be the representation of the
+All. Vertani priests are non-combatants, and all of their priests are
+Daq.
+They feel attuned to the rhythms of the natural
+world
+. As such, they place
+great store in
+things
+like comets, star positions and
+constellations
+, and
+atmospheric
+patterns
+.
+In a way, civilisation is the state religion. The Vertani feel that they
+have a duty to expand civilisation wherever possible.
+THE
+HOUSES
+----------
+The Vertani Empire's core consists of nine Houses, themselves based off the
+nine core territories that originally formed the Vertani Empire. The
+head of each House is the Solarn.
+The Houses rotate rule as picked by the Imperial Oracles, who decide which
+House's rule it is by prophesy. The Imperial Oracles are idiot
+savants
+who
+live in
+horror
+after having been what is euphemistally called 'touched by
+The All'. They are kept restrained and confined for their own safety, as
+they constantly try to
+kill
+themselves otherwise. Their sole function is to
+prophesy the next
+Ascendant
+.
+The Overlord of the Vertani Empire, the Ascendant, is the Solarn of the
+House whose cycle it is to rule. There has never been an Ascendant who was
+not of the Daq. The cycle doesn't turn when the Ascendant is slain, only
+when there is some sort of indication from their oracles.
+The Solarns of the other Houses sit on a council that advises the Overlord,
+though each Solarn serves to further their own House's
+goals
+as well. The
+Houses are united by the firm belief that their civilization is superior to
+all
+others
+, and that it is their duty to enlighten all others.
+o HOUSE KORTUL: This house is reputed for their great military
+strategists. Their house colours are black and gold. The current
+Ascendant is from this House.
+o HOUSE GAVIIR: One of the three mercantile Houses. This house is known
+for their cunning merchants and excellent business sense. Their colours
+are green and gold.
+o HOUSE TSEZ: One of the two mage houses, this house considers
+themselves to be the most scholarly. They are reputed for being stiff,
+formal, and ascetic. Their colours are blue and silver.
+o HOUSE RAKUM: One of the most cunning houses. They consider themselves
+to the merchants like Gaviir. There are rumours of more sinister
+activity, but these rumours have yet to be proven. Their colours are red
+and black.
+o HOUSE HASII: Home of the spiritualists of the Vertani Empire. They are
+considered enigmatic by the rest of the Empire and
+claim
+to see a more
+basic reality in the All. They are reputedly the most serious of the
+Vertani Houses. Their colours are violet and silver.
+o HOUSE JYDAV: A warrior House notable for their battle lust, especially
+their Berserkers. While House Jydav is feared for their ferocity in
+battle, their tactics
+leave
+much to be desired. The House colours are
+black and silver.
+o HOUSE BAVINGOR: The third merchant House. They enjoy a luxurious and
+expensive lifestyle. House Bavingor takes great pride in their display
+of wealth. Their colours are saffron and blue.
+o HOUSE CUPWR: The
+artists
+and craftsmen of the Empire. They believe
+that the greatest
+expression
+of Truth is in their works of creation.
+Their House colours are copper and green.
+o HOUSE FERANKI: A mage House known for their blending of science and
+magic. This condescending and arrogant House considers their form of
+magic as the best and highest. Their colours are indigo and red.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

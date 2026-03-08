@@ -1,0 +1,154 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.10.1 Using the Editor in Achaea
+For
+things
+like
+letters
+,
+journals
+, and the like, we have the
+Achaean
+editor
+!
+The in-game editor is visible when not using one of the Iron Realms
+clients
+(see
+HELP CLIENTS
+for more information about this).
+The main
+help
+in the editor reads as follows:
+----------------------------------------------------------------------
+Main Help
+----------------------------------------------------------------------
+This is the main help screen. All
+commands
+are entered on the
+beginning of a new line and are preceded by a '*'. (e.g. *
+quit
+on
+a line by itself)
+Currently, there are the
+following
+commands :
+*help,  *quit,  *
+save
+,  *more,  *echo,  *clear, *line,
+*insertline, *deleteline, *overwrite, *insert, *replace
+For more information on a particular
+command
+type *help <command>.
+(e.g. *help *quit) on a line by itself.
+----------------------------------------------------------------------
+Save (*save, *s)
+Usage: *save
+This will end the current
+editing
+session and bypass the
+question
+of whether you want to save, and simply save your work.
+More (*more, *m)
+Usage: *more
+This will display any text that hasn't been displayed because of
+the set screen length.  It only displays text if there is text to
+be displayed.
+Echo (*echo, *e)
+Usage: *echo
+This will display any text that is in the current session so you
+can see exactly what is written.
+Clear Text (*clear)
+Usage: *clear
+This will erase all the text that is in the current session.  It
+will ask you if you are sure before doing so.
+Go
+to Line (*line, *l)
+Usage: *line <line>
+This will set the current editing line to the line specified by
+<line>.  <line> may be the number of the line to go to, or one
+of the words "start" or "end".  Each of which goes to the
+corresponding line.
+Insert blank line (*insertline, *il)
+Usage: *insertline
+This will insert a blank line after the current line.
+Delete
+current line (*deleteline, *dl)
+Usage: *deleteline [<line>]
+This will permanently delete the current line (or the line
+specified).
+Set Overwrite mode (*overwrite)
+Usage: *overwrite
+This sets the current method of editing to overwrite, which means
+that any lines that may be below the current line will be replaced
+with any new lines that are typed.
+Set Insert mode (*insert)
+Usage: *insert
+This sets the current editing mode to inserting, which will insert
+new text in front of any lines that may be below the current line.
+Replace line (*replace, *r)
+Usage: *replace <line> <text>
+This will replace the given line number with the text given. <line>
+must be a number.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

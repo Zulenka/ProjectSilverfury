@@ -1,0 +1,246 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.11.4 Warehouses and Leases
+Leases
+------
+Leases are the method by which a city's
+Interior
+Minister
+and their
+aides
+can provide access to warehousing facilities for the storage of bulk resources. These are fully customisable, allowing
+cities
+to compete with one another based on certain factors (such as
+lease
+duration, tax amount, etc). The
+following
+properties can be set.
+-
+Title
+: this is the standard title for the lease. For instance, "Short leased warehousing space in
+Cyrene
+, lowest tax you'll find!"
+-
+Description
+: a more thorough description of what the lease offers and why it is worthwhile.
+- Type: this details what type of lease it is. The default is UNCONDITIONAL, meaning anyone can request the lease.
+- Taxper: this is the amount of
+gold
+a person is taxed per
+X
+number of
+commodities
+. For example, if the TAXPER is set to 3000, you will be taxed for every 3000 commodities that you store in the leased warehouse.
+Currently, tax is preset to 5000 gold, so if you store 12000 commodities in the 3000 TAXPER warehouse, you will pay 20000 gold monthly.
+- Duration: the length of
+time
+the lease will last, in
+Achaean
+months
+.
+Commands
+:
+-------
+-
+CITY
+LEASE SCRIBE <title>: creates a new lease with the given title. The Interior Minister or an
+Aide
+can do this.
+- CITY LEASE LIST:
+show
+all the leases your city has, completed or otherwise. This can be done by the Interior Minister or an Aide.
+- CITY LEASE VIEW: see the current
+status
+of a lease. The Interior Minister or an Aide can do this.
+- CITY LEASE EDIT <lease> <property> <value>: edit one of the properties described above. The Interior Minister or an Aide can do this.
+- CITY LEASE SEAL <lease>: SEAL a lease. This is permanent, and a requirement for publishing. You will not be able to seal a lease missing
+critical
+information. Additionally, only the Interior Minister can do this.
+- CITY LEASE PUBLISH <lease> [number to publish]: publish a lease (or leases) for the public.
+A lease must be sealed for it to be publish-able, and only the Interior Minister can do this. If you do not specify a number of a given lease to publish, it defaults to one. You do not have to publish all the leases at once: you can publish ten one
+day
+, then five the next, etc. The only limitation is that you may not have more than 250 leases published at once.
+- CITY LEASE SCRAP <lease> and CITY LEASE
+POLICY
+SCRAP <policy>. Deletes a lease or policy entirely. You cannot scrap a sealed lease or a policy that is currently attached to a lease.
+- LEASE LIST: for the general public. Only available at city warehouse locations, this will list any available leases for
+hire
+.
+- LEASE SHOW <lease>: Provides more detailed information on a lease.
+- LEASE REQUEST <lease>: for the general public. At a lease management location, request a lease. If you have the required gold to cover the request, you will be issued the lease and have access to warehousing facilities detailed there in. It currently costs 1000 gold for every 10 months the lease will last.
+Lease
+Policies
+:
+--------------
+- CITY LEASE POLICY CREATE <informative name>: this creates a policy, as you
+might
+expect. You can CITY LEASE POLICY SHOW <policy> to see details at any time.
+- CITY LEASE POLICY <policyname> SET [MEMBEROF|EXCLUDE] <list>: sets the limits. Some examples below.
+- CITY LEASE SET <lease> POLICY <policyname>: and you're done!
+That policy is now attached to that lease. Policies can be attached to as many leases as you require and can be updated at any time. This is because it doesn't impact people if the policy changes after they request, since it only covers whether they can request or not.
+Some policy examples:
+- CITY LEASE POLICY SET examplepolicy MEMBEROF CYRENE > 1
+MHALDOR
+> 4
+ELEUSIS
+<
+2
+HASHAN
+<
+3
+TARGOSSAS
+ASHTAN
+>
+5
+: A
+member
+of any city with
+rank
+constraints.
+- CITY LEASE POLICY set examplepolicy MEMBEROF CLEAR: clears all member restrictions, anyone can now take the lease.
+- CITY LEASE POLICY SET examplepolicy EXCLUDE
+ENEMIES
+SHALLAM
+3: enemies of the filing organisation are now unable to take the lease, as are members of Shallam with higher than city rank 3.
+- CITY LEASE POLICY SET examplepolicy EXCLUDE CLEAR: clears all exclusion restrictions.
+- CITY LEASE POLICY SET examplepolicy EXCLUDE ENEMIES: now only exclude organisational enemies.
+- CITY LEASE POLICY SET examplepolicy MEMBEROF
+DELOS
+> 1
+SELEUCAR
+: now you must not be an
+enemy
+and be a member of Seleucar (any rank) or Delos (above city rank 1).
+Warehousing:
+-----------
+Warehousing is the mechanism by which adventurers may store large amounts of commodities (once they've exhausted their
+rift
+capacity). A warehouse can only be obtained by leasing from an organisation, and that warehouse can only be accessed from that organisations warehousing facility.
+Commodities can be sold on the
+commodity
+market
+without being removed from the warehouse where they are stored.
+Commands:
+--------
+- WAREHOUSE
+DEPOSIT
+<amount> <commodity> [IN <warehouse>]
+Deposit commodities into a warehouse. If you don't specify a warehouse, it'll pick one from your available
+warehouses
+at the current location. Depositing will
+draw
+from both your
+inventory
+and rift, so there is no need to
+mass
+outrift before doing this.
+- WAREHOUSE
+WITHDRAW
+<amount> <commodity> [FROM <warehouse>]
+Withdraws commodities and places them in your inventory. If you don't specify a warehouse, it will try to fulfill your request from the warehouses available.
+- WAREHOUSE RETRIEVE <warehouse>
+Retrieve
+everything
+stored in a warehouse.
+- WAREHOUSE RETRIEVE <warehouse> SHUTDOWN
+To retrieve your commodities and instantly shut down the warehouse.
+- WAREHOUSE TAG <warehouse> <tag>
+This allows you to
+apply
+a "tag" to a warehouse, so you don't have to deal with numeric IDs. For instance, you could WAREHOUSE TAG 1 IRON, which would then let you refer to warehouse 1 as "IRON" instead. Tags must be unique across your warehouses.
+- WAREHOUSE CLOSE <warehouse>
+From any warehousing location to shutdown a warehouse. This does not retrieve the commodities.
+- WAREHOUSE LIST
+Lists all of your warehouses and some information about each.
+- WAREHOUSE VIEW <warehouse>
+View information about a warehouse (including the lease and what commodities are currently stored in that
+specific warehouse).
+Warehouse upkeep:
+-----------------
+Every Achaean
+month
+, you will be taxed based on how many commodities are in your warehouse.
+This is dependent on your lease: for instance, if you are storing 50000 commodities in a warehouse and the tax per commodity of your lease is 10000 commodities, you will be taxed less than if the tax per amount on your lease was every 5000 commodities.
+Basically, the higher the tax per number on your lease, the better! Gold will be drawn from your
+bank
+and inventory, so you don't need to worry about keeping
+money
+on hand.
+What happens when your lease runs out:
+---------------------------------------
+When your lease expires, your warehouse will begin the process of shutting down*.
+What this means in
+practice
+is you have 5 (FIVE) months to RETRIEVE all your
+comms
+from that warehouse before it will close completely. Each month that goes by where you do not collect your commodities, you will be sent a
+message
+warning you of such (regardless if online or not). When this
+grace
+period
+ends, your commodities will be placed into the organisation's commodity stores, and it is then at the discretion of the Interior minister whether you will have them returned.
+* YOU CANNOT STORE MORE COMMODITIES IN A WAREHOUSE THAT IS IN THE PROCESS OF SHUTTING DOWN.
+It is best not to let this happen!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

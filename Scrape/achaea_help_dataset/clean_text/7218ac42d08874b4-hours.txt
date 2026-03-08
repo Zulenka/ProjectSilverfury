@@ -1,0 +1,139 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.1 The Calendar and Time
+(See also
+HELP DATE
+,
+HELP
+REMINDERS
+)
+The
+Achaean
+calendar
+as we know it predates the rise of Nicator, although of
+course years are now numbered from the fall of the
+Seleucarian
+Empire.
+There are 12 Achaean
+months
+with 25
+days
+in each
+month
+. The months are:
+1) Sarapin    (mid-winter)         7) Valnuary   (mid-summer)
+2
+) Daedalan   (late winter)        8) Lupar      (late summer)
+3
+) Aeguary    (early spring)       9) Phaestian  (early autumn)
+4) Miraman    (mid-spring)        10) Chronos    (mid-autumn)
+5
+) Scarlatan  (late spring)       11) Glacian    (late autumn)
+6
+) Ero        (early summer)      12) Mayan      (early winter)
+Syntax
+: CALENDAR [NEXT]
+----------------
+Display a table of the
+Achaea
+calendar for the current game year. If
+MXP
+is enabled, each
+date
+can be clicked on to automatically convert to real
+time
+(this is in
+GMT
+!) If NEXT is specified,
+shows
+the
+following
+game year!
+Achaean Time vs. That
+Other
+Context (*)
+---------------------------------------
+Achaea                      That Other Context
+------                      ------------------
+1 Year                      ~ 300
+hours
+(about 12 and a half days)
+1 Month                     ~ 25 hours
+1
+Day
+~ 1
+hour
+That Other Context (*)      Achaea
+----------------------      ------
+1 year                      ~ 29 years
+1 month                     ~ over 2 years
+1 day                       ~ 24 days
+1 hour                      ~ 1 day
+(* That Other Context - what some call 'real life', or what is referred to in
+the output of the TIME and DATE
+commands
+as 'your world')
+(See also HELP DATE)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

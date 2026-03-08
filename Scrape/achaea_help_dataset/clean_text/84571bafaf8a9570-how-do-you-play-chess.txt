@@ -1,0 +1,349 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.3.4.1 HOW DO YOU PLAY CHESS?
+01) How many players take part in a game of
+chess
+?
+Chess is played by two opponents, one of whom plays the
+light
+pieces
+, and
+one of whom plays the dark pieces.
+02) What kind of
+board
+is used?
+The board used in chess is made up of 64 squares, alternately coloured
+light and dark. It is a grid of 8 squares by 8 squares, and all the squares are
+used in play.
+03) Is there any special way that the board is placed?
+Yes. If each player is sitting behind his own pieces, the bottom-right
+square for each will be light.
+04)
+Who
+makes the first
+move
+?
+The light-coloured player always makes the first move.
+05) How do you
+tell
+who gets which colour?
+When you begin the game, you will be randomly assigned one of the two
+colours.
+06) What pieces does each player have at the beginning?
+Each player has 16 pieces: 8 pawns,
+2
+rooks, 2
+knights
+, 2 bishops, 1
+queen and 1 king. When you use the DISPLAY_BOARD
+command
+, you will see that a
+player's pieces are arranged, from his
+point
+of view as such:
+pawn   pawn   pawn   pawn   pawn   pawn   pawn   pawn
+rook
+knight
+bishop queen  king   bishop knight rook
+When setting up a chessboard, simply remember that each queen starts on her
+own colour, and each king starts on the opposite colour. Thus, a player's king
+will be lined up directly across from his opponent's king.
+07) What is capturing, and how is it done?
+Capturing is a move that involves removing an
+enemy
+piece
+from the board.
+In chess, all capturing is done by displacement of the captured piece (NOT by
+leaping over it). When you capture in chess, you
+remove
+the enemy piece and
+place your own capturing piece on the same square. If more than one capture is
+possible, only one of them can be made on any given move. The King, Queen,
+Rook, Bishop, and Knight capture in the same way that they move. This means
+that they can make captures that are within their
+moving
+range (which we will
+discuss later). The Pawn's method of capture differs from its ordinary move,
+however.
+08) Can you move a piece to a square that's already occupied by one of your
+own pieces?
+Never.
+09) Can you by-pass one of your own, or an opponent's piece in a move?
+Only the Knight may leap over
+other
+pieces (and remember, that does not
+constitute a capture).
+10) How does the King move and capture?
+The King
+moves
+one square in any
+direction
+, forwards, backwards,
+sideways, or diagonally. The King can thus capture an enemy piece which is on
+an adjacent square.
+11) How does the Rook move and capture?
+The Rook can move any number of squares on a horizontal or vertical line
+(provided there are no pieces in the way). It can only move EITHER horizontally
+or vertically at a
+time
+though. It captures in the same way that it moves.
+12) How does the Bishop move and capture?
+The Bishop moves only on diagonals. It can move any number of squares
+along a diagonal, so long as its path is not obstructed. It can only move one
+direction at a time. It captures in the same way that it moves.
+13) How does the Queen move and capture?
+The Queen's may, in a single turn, make a move that is EITHER like that
+of a Bishop or like that of a Rook. She captures in the same way. She is the
+most powerful piece on the board.
+14) How does the Knight move and capture?
+The Knight's move is different in principle from that of all the other
+pieces. The move of the Knight is always of the same length: three squares that
+form an "L". So, for instance, one square forward, and two to either side, or
+two moves backwards and one to either side. The Knight is the only piece that
+can leap over friendly or hostile pieces on the intermediate squares of his
+move. If his
+destination
+square is occupied by a hostile piece, then he
+captures it. If it is occupied by a friendly piece, then he may not move there.
+One handy rule to keep in mind about the Knight's
+movement
+is that he always
+ends on a square of a different colour from that which he started on.
+15) How does a Pawn move?
+The Pawn moves forward vertically one square at a time. Light pawns move
+towards the Dark side, and vice-versa. The exception to this rule is that if a
+Pawn has not yet been moved, the player has the option of moving it two squares
+forward on his first move. The Pawn can _never_ move backwards. A Pawn may
+_never_ capture while moving vertically. It captures diagonally only. (see the
+next
+question
+)
+16) How does a Pawn capture?
+While the Pawn may only move vertically, it may only capture diagonally.
+It may capture any hostile piece which is on a square diagonally forward of the
+Pawn, and immediately adjacent to the Pawn.
+17) Can Pawns get any more crazy?
+Yes, definitely. There is one further rule with pawns, called "en
+passant" ("in passing" in
+translation
+to English). En passant works as such: If
+one player (let's
+say
+the Dark player) has a pawn that he has not yet moved
+yet, and the other player (the Light player in this case) has a pawn that is
+two away from him vertically, and one away horizontally, then if the Dark
+player exercises his option to move his pawn two forward at once, the Light
+player may capture the Dark pawn _as if it had only moved one forward_. In
+other words, if the Dark player moved his pawn two forward, the Light player
+could capture his Pawn by moving it onto the same column as the Dark pawn, and
+one forward, ie where the Dark pawn would have been had it moved one space
+instead of two. The Dark pawn is thus captured. It should be noted that En
+Passant is optional.
+18
+) What happens if a Pawn makes it all the way down to the other side?
+If a Pawn reaches the other side of the board (or the "last rank"), then
+it will be promoted automatically to a Queen. This is, obviously, a VERY
+powerful move to be able to make.
+19
+) Are there any other ways to move?
+Yes, there is one final way to move, called Castling. Castling is the
+only double move allowed in chess. It involves a move both with your King and
+with one of the Rooks. Both moves count for a single move.
+In order to castle, the
+following
+conditions must be met:
+1) Your king must not have moved yet that game.
+2) The rook you
+wish
+to castle with must not have moved yet that game.
+3
+) There must be no intervening pieces between your king and the rook
+you wish to castle with.
+4) None of the squares that the king moves over or lands on may be
+threatened by an enemy piece.
+5
+) You must not currently be in check.
+What castling actually is is moving your king 2 squares towards the rook
+that you're
+going
+to castle with, and then moving that rook next to the king,
+but on the other side. So, if you castle "king side", you will move your king
+over two to the right, and move the rook on your right two squares to the left.
+If you castle "queen side", then you will move your king two over to the left,
+and move the rook on your left three squares to the right.
+20) Is there a standard
+system
+of notation used to indicate moves?
+Yes. In order to specify a square on the board, we need to know what FILE
+(column) it is on, and what
+RANK
+(row) it is on.  Achaeans use two different
+methods of notation to do this.
+One, called descriptive notation, is based on the
+names
+of the pieces and
+the places that they occupy in the opening position. The other is called
+algebraic notation.
+From right to left, (notation is done relative to your side), in
+descriptive notation, the files (columns) are:
+QR QKT QB Q K KB KKT KR
+(meaning Queen's rook, Queen's Knight, Queen's Bishop, Queen, King,
+King's Bishop, King's Knight, King's Rook).
+Similarly, from right to left, the files in algebraic notation are:
+A  B  C  D  E  F  G  H
+To indicate which rank the square is on, we merely append a number, 1-8,
+to it. So, for instance, the left-hand rook begins at QR1 (or A1), while the
+pawn that starts in front of the knight on the King side is KKT2 (or G2).
+It is important to remember that position names are given relative to
+either the Light or Black side. QR1 (A1) for the Light side is QR8 (H8) for the
+black side.
+So, let's say you want to move the pawn in front of your king two squares
+forward. You would type MOVE K2 TO K4, or MOVE E2 TO E4.
+If you wish to king-side castle, do MOVE 0-0. If you wish to queen-side
+castle, do MOVE 0-0-0.
+21) How do you
+win
+?
+You win by
+attacking
+your opponent's King in such a way that no matter
+what move he makes, his King will still be under
+attack
+.
+22) What is meant by checkmate?
+Checkmate is the situation described in the previous answer: a King is
+being attacked and there is no way to move out of range of enemy forces.
+23) What is meant by check?
+Any move that
+attacks
+a King is called a "check". If the King can
+escape
+(whether by movement or by blocking the attack with another piece, or by
+capturing the attacking piece), the game goes on.
+24) How long can you stay in check?
+When you are placed in check, you must move to prevent check on your very
+next move.
+25) Can you move your King INTO check?
+Never. You may never move your King into a square that an enemy piece may
+reach
+.
+26) What are the different kinds of check?
+Usually, check results when a piece moves to a square from which it
+attacks the hostile King. There are, however, two special kinds of check.
+Discovered check results from the removal of a piece that has been
+masking an attack on the hostile King. In other words, the checking piece
+stands still and another piece ceases to block that attack.
+Double check is a form of discovered check. The double check comes about
+when the unblocking piece also gives check as it opens up a check from its
+comrade that it has been blocking. Note that the only way to escape double
+check is to move your King to a safe square.
+27) What is meant by stalemate?
+Stalemate results when a player whose turn it is to move, and whose King
+is _not_ in check, has only moves left that would place his King in check. This
+rule was devised about a thousand years ago, by Nicator, in order to penalize
+inept play. In a stalemate situation, the game is a
+draw
+. Neither side wins. In
+this situation in chess in
+Achaea
+, one side should simply use the CONCEDE
+command to end the game, but neither side actually wins.
+28) What is perpetual check?
+When one player can check endlessly so that his opponent's King cannot
+escape the checks, but the player cannot get the opponent's King in checkmate,
+you have a draw by perpetual check. Again, one of the two players should just
+use the concede command to end the game, as no one can win.
+29) Are there any other types of drawn
+games
+?
+Yes. When the same position has been repeated twice, with the same player
+on the move each time, and it is just about to be repeated for the third time,
+the player whose turn it is to move can
+claim
+a draw before making the move
+that will produce the threefold repitition. Someone should just use the CONCEDE
+command in this circumstance (though again, with the understanding that no one
+lost
+or won).
+If 50 moves are made without a capture or a Pawn move having been made,
+the game will be called a draw automatically.
+Finally, it is a draw if neither side has sufficient material left to get
+his opponent in checkmate. (see the next question)
+30) What is the minimum amount of material needed to force a checkmate?
+Checkmate can be forced with the following minimum material:
+a) King and Queen against King
+b) King and Rook against King
+c) King and two bishops against King
+d) King and Bishop and Knight against King
+If you have a King and Pawn against King, you can win in most cases by
+forcing the advance of the Pawn to the last rank and promoting it to a Queen.
+The following circumstances are inadequate to force checkmate:
+a) King and Bishop against King
+b) King and Knight against King
+c) King and two Knights against King
+In almost all cases, having an extra pawn will enable you to win with
+this material by advancing the pawn to the last rank and thus obtaining a new
+Queen.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

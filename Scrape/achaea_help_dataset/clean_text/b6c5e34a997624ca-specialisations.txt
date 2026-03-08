@@ -1,0 +1,138 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.12.3 Racial Specialisation
+(for
+Seafaring
+specialisations
+, see
+HELP
+SEAFARING
+SPECIALISATION
+)
+Syntax
+:
+RACE
+SPECIALISATION LIST
+RACE SPECIALISE AS <SPECIALISATION>
+After
+reaching
+level
+10, adventurers with a
+class
+may select a racial specialisation to further customise their
+character
+. Upon
+selecting
+a specialisation, you will receive an additional two points in one statistic at the cost of one
+point
+in another. See the end of this help file for an example.
+You may view the specialisations that are available to your race at any
+time
+via RACE SPECIALISATION LIST. Once you have found a specialisation that you would like to commit to, selecting it is as simple as: RACE SPECIALISE AS <SPECIALISATION>.
+Once selected, your specialisation is permanent, and can only be changed via
+reincarnation
+(see
+HELP REINCARNATION
+for more information).
+EXAMPLE
+-------
+A level 10 human has the
+following
+statistics
+:
+Str
+.
+Dex
+.
+Con
+.
+Int
+.
+-----------------------------------------------------------
+Unspecialised       12          12          12          12
+When
+applying
+a specialisation to this, our human adventurer has the potential to alter his or her
+stats
+to any of the following:
+Specialisation      Str.        Dex.        Con.        Int.   Change
+-----------------------------------------------------------------------------
+Man-at-arms         14          12          12          11     +
+2
+Str. -1 Int.
+Rogue               12          14          11          12     +2 Dex. -1 Con.
+Champion
+12          11          14          12     +2 Con. -1 Dex.
+Savant              11          12          12          14     +2 Int. -1 Str.
+(see also
+HELP RACES
+,
+HELP RACESTATS
+,
+HELP REINCARNATION
+, HELP
+TRAITS
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

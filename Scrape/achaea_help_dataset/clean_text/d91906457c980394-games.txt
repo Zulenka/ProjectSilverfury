@@ -1,0 +1,282 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17 EVENTS AND SPECIAL ACTIVITIES
+17.1     Arena
+The
+Arenas
+throughout the realms
+17.1.1   Freeforall
+There can be only one.
+17.1.2   FreezeTag
+A game of tag played in the
+Arena
+.
+17.1.3   Frogbaiting
+Weird game with a giant frog and a dead fly.
+17.1.4   Balanceofpower
+Live as a Legend.
+Die
+as a Legend.
+17.1.5   Runner
+Run
+fast: live, rise, renew!
+17.1.6   Rampage
+A bloodbath and a finale:
+who
+could ask for more?
+17.1.7   Party Duels
+Team vs team duels in the arena.
+17.1.8   CVA
+Champions
+vs.
+Assassins
+17.1.9   Royal Guard
+Defend your Regent.
+17.1.10  Kinggame
+King of the Hill!
+17.1.11  TOTF
+The Tournament of the Fang.
+17.1.12  Jousting         Arena
+Jousting
+.
+17.1.13  Sparon
+/
+Sparwho
+Finding
+sparring
+partners.
+17.2     Worldwide Games
+Games
+Played Across the Realms
+17.2.1   Foozle
+A
+Foozling
+contest!
+17.2.2   Bandersnatch
+Hunt
+the
+Frumious
+Bandersnatch
+!
+17.2.3   CTF
+Capture the Flag!
+17.2.4   Egghunt
+A rare
+event
+involving a hunt for
+eggs
+.
+17.2.5   IBOTG
+Irregular Battle of the Genders
+Egghunt
+.
+17.2.6   XP Events
+Experience
+Contests
+for all!
+17.2.7   Tumblerace
+Faster than a speeding snail you
+race
+hither.
+17.2.8   Riddle
+The quirky riddling game.
+17.2.9   Riddle History
+Previous
+riddles
+.
+17.2.10  Boons
+What they are, how to ask for them, or not!
+17.2.11  Word Scramble
+The game of Word
+Scramble
+.
+17.2.12  Great Hunt
+A bloodthirsty game of stamina and
+skill
+.
+17.2.13  Treasure Hunt
+Dig
+up a prize with your bare hands.
+17.2.14  Beardball
+World
+domination
+, with stylish beards.
+17.2.15  Group Riddles
+Team based riddling!
+17.3     Other Games
+There's plenty more where those came from!
+17.3.1   Quiz
+A fun
+OOC
+event, generally with prizes.
+17.3.1.1 Inquisitor
+The quiz's master of ceremonies.
+17.3.2   HotBeret
+An amusing, if silly, game.
+17.3.3   Nai-an
+'tzai-an'har  The game of Istarion's nobility.
+17.3.4   Chess
+The noble game of King's
+Chess
+.
+17.3.4.1 Chessrules
+The rules of King's Chess.
+17.3.5   Sojourn
+The Tsol'teth game of
+Sojourn
+.
+17.4     Gambling
+The various forms of
+gambling
+in
+Achaea
+.
+17.4.1   Bookies
+Become a
+bookie
+or place
+bets
+with one.
+17.4.2   ForBookies
+Bookie-only
+commands
+and
+other
+details.
+17.4.3   Roulette
+Make a fortune!
+Lose
+a fortune!
+17.4.4   Lotteries
+Buy
+lots of tickets. It's your turn to
+win
+!
+17.4.4.1 ForRunners
+Become a
+lottery
+runner
+yourself!
+17.4.4.2 Iron Lottery
+The special Iron Lottery.
+17.4.5   Blackjack
+All the cool people are playing it.
+17.4.6   Rolldice
+Craps
+: gambling with
+dice
+.
+17.4.7   Auctions
+Bid to win, or not.
+17.4.8   Poker
+The ultimate in high-stakes.
+17.4.9   Humgii Racing
+The ancient and noble sport loved by all.
+17.5     Itinerant Bazaar A roaming bazaar full of exotic wares
+.
+17.7     Festivities
+It's a celebration!
+17.7.1   The Annex
+Stock up on festive
+decorations
+and treats.
+17.7.2   Logosmas
+The
+Season
+of Giving.
+17.7.2.1 Decorations
+Deck the
+halls
+with boughs of holly.
+17.7.2.2 Ironbeard
+Ironbeard
+the Magnanimous.
+17.7.3   Mayaween
+When
+things
+go
+bump in the night.
+17.7.4   Quinquagenary
+Every 50 years since the Fall of
+Seleucar
+.
+17.7.5   Championship     The legendary
+Championship
+Games.
+17.7.5.1 Games
+The Games themselves!
+17.7.5.2 Worldrace
+The Championship race around the world!
+17.7.5.3 Worldgames
+The Championship
+Worldgames
+contest.
+17.7.5.4 Twins Tournament The Twins combat tournament!
+17.7.6   Supernalis
+The heavenly appearance of the
+aurora
+supernalis
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

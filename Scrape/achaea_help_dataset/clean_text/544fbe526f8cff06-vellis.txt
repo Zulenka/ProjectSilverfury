@@ -1,0 +1,155 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+14.4 Vellis and His Life's Work: Butterflies
+(See also HELP NEWBIE QUESTS,
+HELP MINIA
+,
+HELP PASH
+,
+HELP
+SAVANNAH
+)
+As you
+explore
+Achaea
+, particularly
+Minia
+, the Savannah, and the
+Pash
+valley,
+you will notice a variety of
+butterflies
+flitting to and fro. Though you could
+kill
+them, slaying a
+butterfly
+is hardly
+something
+to be proud of, and in any
+case, no one will give you
+anything
+for a dead butterfly(*).
+Vellis
+------
+At the entrance to Minia, a man named Vellis waits. This man has a penchant for
+butterflies and will be willing to give you
+gold
+for live butterflies. To
+capture these butterflies alive, however, requires a butterfly
+net
+. Simply
+GREET VELLIS and accept the butterfly net he offers you. Then,
+wield
+the net,
+find a butterfly, and CATCH BUTTERFLY.
+When you're ready,
+go
+back to Vellis and GIVE NET TO VELLIS. He'll review your
+catch and give you a little reward. Be sure you're done, because he won't give
+you a new net for at least one
+Achaean
+day
+. Note: there is no limit to the
+number of butterflies that you may
+hold
+in your net, nor how long they will
+remain in it, excepting your own patience and the tendency of
+everything
+in
+Achaea to
+decay
+over
+time
+.
+Finding Vellis
+--------------
+Just find Minia. From
+Portals
+,
+read
+the sign.
+Butterflies
+-----------
+There are six types of butterflies in Achaea. Ranging from most common (and
+least valuable to Vellis) to rarest (and most valuable to Vellis) they are:
+Gold
+Name
+-----  --------------------------
+10   red admiral butterfly
+15   white pearl butterfly
+25   indigo nightfire butterfly
+40   glitterlight butterfly
+60   golden emperor butterfly
+80   summerstorm butterfly
+Vellis is not interested in butterflies found in or near the
+Aalen
+forest.
+(*) - this is not strictly true. Finding out how and/or why is up to you!
+(See also HELP NEWBIE QUESTS,
+HELP MINIA
+,
+HELP PASH
+, HELP SAVANNAH)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

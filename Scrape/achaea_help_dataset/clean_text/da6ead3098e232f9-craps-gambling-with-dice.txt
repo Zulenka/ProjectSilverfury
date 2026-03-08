@@ -1,0 +1,135 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.4.6 Craps: gambling with dice.
+For those with
+artefact
+ivory
+dice
+, a very simple
+gambling
+game may be played
+called
+craps
+. Here's how it works.
+One person takes the dice. Whoever has the dice is called the shooter.
+The shooter rolls the dice (ROLLDICE), with the
+following
+results:
+roll 7 or 11       :
+win
+.
+roll
+2
+,
+3
+, or 12   :
+lose
+(this is called '
+crap
+out' - pass the dice).
+roll
+anything
+else : keep rolling! You've got a
+point
+to roll again before 7.
+If you get a point (4,
+5
+,
+6
+,8,9,10)
+---------------------------------
+The case where you roll anything else is called 'getting a point.' So if you
+roll 4, 5, 6, 8, 9, or 10, then your point is that number. Keep rolling forever
+until you roll your point again, or 7.
+Ignore
+all
+other
+numbers, which no
+longer count until you either get your point or a 7. If your point comes up
+first, you win. If 7 comes up first you lose and, in fact, you crap out.
+If you win, or if you lose, you always keep the dice and can play again, so to
+speak
+, unless you crap out, in which case you must pass the dice to a new
+shooter.
+It is customary to place a
+bet
+when you are about to roll the dice for the
+first
+time
+, and then for
+others
+to bet against you, or to 'take' or 'cover'
+that bet. When you are about to roll the dice for the first time, or right
+after you just won or
+lost
+, that's called 'coming out.'
+Examples:
+coming out: roll a 7. you win!
+coming out: roll a 2. craps. you lose.
+coming out: roll a 10. 10 is the point. roll a 3, 11, 7. crap out. you lose.
+Pass the dice.
+coming out: roll a 4. 4 is the point. roll 5, 6, 2, 11, and 4. You win!
+Good luck to you all!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

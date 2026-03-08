@@ -1,0 +1,131 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.12.4 Racial Stats Reference
+The
+races
+of
+Achaea
+, with the exception of
+dragons
+, all offer four different
+racial
+specialisations
+at
+level
+10 that alter the basic
+statistics
+below. They
+also have specific racial
+traits
+associated with them that provide various
+advantages and, occasionally, disadvantages. See
+HELP
+<racename> for more
+information on the specialisations and traits of each.
+======================================
+||
+Race
+|
+Str
+|
+Dex
+|
+Con
+|
+Int
+||
+--------------------------------------
+|| Atavian  | 11  | 13  | 12  | 12  ||
+||
+Dragon
+** |
+18
+| 14  | 20  | 18  ||
+|| Dwarf    | 12  | 11  | 13  | 12  ||
+|| Fayad    | 10  | 13  | 12  | 13  ||
+|| Grook    | 11  | 12  | 12  | 13  ||
+|| Horkval  | 12  | 12  | 13  | 11  ||
+|| Human    | 12  | 12  | 12  | 12  ||
+|| Mhun     | 12  | 13  | 11  | 12  ||
+|| Rajamala | 12  | 13  | 12  | 11  ||
+|| Satyr    | 13  | 12  | 11  | 12  ||
+|| Siren    | 11  | 12  | 12  | 13  ||
+|| Tash'la  | 12  | 11  | 14  | 11  ||
+|| Troll    | 13  | 12  | 12  | 11  ||
+|| Tsol'aa  | 12  | 12  | 11  | 13  ||
+|| Xoran    | 13  | 11  | 12  | 12  ||
+======================================
+** Cannot be chosen via
+reincarnation
+or through
+character
+creation. See HELP
+DRAGONS.
+(See also
+HELP RACES
+, HELP <racename>, HELP
+SPECIALISATION
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

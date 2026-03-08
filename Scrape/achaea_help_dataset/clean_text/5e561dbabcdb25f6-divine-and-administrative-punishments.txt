@@ -1,0 +1,194 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+11.6.1 Divine and Administrative Punishments
+(see HELP DIVINE FAVOUR,
+HELP ADMINS
+,
+HELP POLICIES
+,
+HELP
+PENALTIES
+)
+Divine
+Punishments
+------------------
+Divine punishments may be meted out in a variety of forms including:
+cripple   - a sudden change in perspective.
+disease   - hope that you never
+experience
+so many
+afflictions
+at once.
+disfavour
+- see HELP DIVINE FAVOUR.
+maggot
+- a different
+race
+with a different sort of appetite.
+softvoice - removes your
+ability
+to
+shout
+or yell.
+toad      - a different race. Imagine how it
+moves
+!
+zap
+- a range of powerful acts, mostly not fatal to the recipient.
+Administrative Penalties
+------------------------
+Administrative penalties are reserved primarily for
+resolution
+of
+ISSUES
+,
+violation of
+Achaean
+policies
+, and
+other
+OOC
+(out of
+character
+) situations:
+describe
+- loss of your ability to set your own
+description
+.
+exp
+loss  - loss of experience.
+marketoff
+- loss of
+market
+privileges, temporary or permanent.
+newbie
+- loss of your ability to use the newbie
+channel
+.
+notitling
+- loss of the ability to
+title
+others
+.
+pacifism
+- loss of the ability to
+fight
+.
+returnmsg - loss of the ability to set your return
+message
+.
+shrubbing
+-
+changing
+to a new, leafier form, temporary or permanent.
+time
+- a place from which there is usually no
+exit
+.
+voice
+- loss of ability to use a voice or
+accent
+.
+warcry
+- loss of ability to choose a warcry or
+motto
+.
+Admin
+Penalties Mostly for OOC situations
+-----------------------------------------
+Since these penalties cover OOC situations, the place where violations may
+occur is not entirely confined to
+Achaea
+, potentially including other forms of
+communication
+at our discretion, including (but not limited to)
+emails
+,
+forum
+posts
+, or instant
+messages
+.
+What Punishments or Penalties Am I Under Now?
+---------------------------------------------
+You may see what punishments or penalties you are currently under by typing
+either PUNISHMENTS or PENALTIES. Either
+command
+will
+show
+the same output.
+Administrative Appeal
+---------------------
+Appeal of any of these administrative penalties should be sent via
+email
+to
+support
+@achaea.com.
+(see HELP DIVINE FAVOUR,
+HELP ADMINS
+,
+HELP POLICIES
+, HELP ISSUES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,204 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.5.1 Tutors and Teachers
+(See also:
+HELP LEARNING
+,
+HELP
+LANGUAGE
+LEARNING
+)
+Tutors
+/
+Teachers
+---------------
+There are six types of tutors/teachers:
+- General tutors,
+-
+City
+tutors,
+-
+Class
+-specific tutors,
+-
+Tradeskill
+-specific tutors,
+-
+House
+-specific tutors, and
+- Adventurers
+General Tutors
+--------------
+A general
+tutor
+is a
+denizen
+who
+can
+teach
+anyone class specific
+abilities
+up
+to virtuoso
+level
+and non-class
+skills
+up to maximum level. There are few so
+learned who will share their knowledge publicly. Of these, the most frequently
+visited are:
+- Onorol the Healer (Sacristy of Healing in
+Shastaan
+)
+- Tyrandiel the wise (Lucretian Athenaeum in New
+Thera
+)
+- Wizardress Tenobob (a hut in the
+newbie
+village of
+Lodi
+)
+- Captain
+Maelstrom
+(
+harbour
+of Tasur'ke)
+- Nehuen (
+Hall
+of
+Shields
+in
+Orilla
+upon
+Meropis
+)
+City Tutors
+-----------
+City tutors can
+train
+you in most abilities but are only able to teach up to
+the
+skillrank
+of Skilled. (See:
+HELP SKILLRANKS
+.)
+The city tutors are:
+Ashtan
+:  Epicurus
+Cyrene
+:  Indalecio
+Eleusis
+:   Aine
+Hashan
+:  Damaris
+Mhaldor
+:
+Maric
+Targossas
+: Cazin
+Class Tutors
+------------
+These three can train you in their specific arts.
+Kavaya  -
+Blademaster
+Kosuira -
+Depthswalker
+Yinied  -
+Shikudo
+Tradeskill Tutors
+-----------------
+These three can train you in
+shipfitting
+!
+Captain Maelstrom
+Hawkins, the shipwright
+Scurvy Jim
+House Tutors
+------------
+Each House in
+Achaea
+has at least one tutor. Only House members may
+learn
+from
+this tutor, who usually resides in the House's estate where you may learn in
+relative safety. House tutors alone can teach all abilities up to the maximum
+level.
+Adventurers
+-----------
+Any adventurer may teach you
+anything
+in which he has a higher level of
+skill
+.
+Should you learn from a
+mentor
+, you will be able to learn 20
+lessons
+at a
+time
+.
+(See also:
+HELP LEARNING
+, HELP LANGUAGE LEARNING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

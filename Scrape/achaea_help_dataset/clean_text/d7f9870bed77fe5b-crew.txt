@@ -1,0 +1,226 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.8 Ship Crew - Morale, Experience, Wages, and Provisions/Rations
+Crews
+are hired without any
+experience
+at all, and with normal morale. This
+will change over
+time
+.
+Crew
+Types
+----------
+Shipmates
+- Shipboard
+sail
+menders and hull repairers.
+Crewmates     - Crew your vessel enabling you to sail the high
+seas
+!
+Swashbucklers -
+Help
+to protect your cargo from plunder and can be sent aboard
+other
+ships
+to plunder their
+hold
+and stores!
+Crew Experience
+---------------
+As your crew members continue working on your
+ship
+, and with each other, they
+slowly gain experience and, with that experience, enhanced performance.
+The progression of experience is:
+Lubber  -> Untried   -> Inexperienced  -> Apprentice  -> Ordinary  ->
+Able    -> Seasoned  -> Veteran        -> Expert      ->
+Elite
+Each of these experience
+levels
+has twelve sublevels, I,
+II
+, ... XII.
+When your crew first reaches a
+level
+,
+say
+, Untried, it will be at
+Untried I, then as it gains experience, Untried II, Untried III, all
+the way up to Untried XII before it then rises to Inexperienced I, and
+so forth through all the crew experience levels to Elite XIII.
+Crew Morale
+-----------
+Morale affects many
+things
+, mainly (but not only) related to crew performance.
+Keep 'em happy with good wages and treatment, and they'll take good care of
+you.
+The scale of morale, from worst to best, is:
+mutinous     -> violent     -> angry     -> simmering  -> disgruntled  ->
+indifferent  -> normal      -> content   -> loyal      -> steadfast    ->
+devoted
+-> unwavering  -> fanatical
+Crew Wages
+----------
+Each crew type (crewmates, shipmates, etc) has its own wage which is expressed
+in
+gold
+and bits per
+Achaean
+day
+. A bit is a tenth of an Achaean gold
+piece
+.
+Wages are distributed from the strongbox every Achaean day.
+To make sure that crew wages are paid, you must place sufficient gold in the
+ship strongbox (see SHIP STRONGBOX for options. Must be in the
+Cabin
+to do
+this) - and do so BEFORE the wages come due! It's probably a good
+idea
+to keep
+plenty of extra gold in the strongbox in case you are unavoidably detained. The
+crew does tend to get ugly without pay.
+Setting Crew Wages
+------------------
+Use SHIP CREW WAGE to see what the current wages are. To set new wages, use
+SHIP CREW WAGE type wageingoldandbits
+For example:
+SHIP CREW WAGE crewmate 12
+Will set the wage for each crewmate to 1 gold and
+2
+bits per Achaean day. Or
+SHIP CREW WAGE
+shipmate
+9
+Will set the wage for each shipmate to 9 bits per Achaean day.
+What the Crew
+Think
+About Their Pay
+-----------------------------------
+SHIP CREW WAGES will
+tell
+you not only the current wages, as stated above, but
+will also indicate how your crew feel about their wages, on a scale from
+unhappiest to happiest:
+murderously low -> mutinously low -> abysmally low -> low            ->
+a bit low       -> adequate       -> fair          -> generous       ->
+very generous   -> handsome       -> rich          -> kingly indeed
+They may also not be sure, in which case their feelings will be "a mystery!"
+Crew
+Food
+/Rations/Provisions
+----------------------------
+Your crews need to
+eat
+. You need to feed them. To do so, gather various
+supplies into the ship's larder, and make your decisions about what
+class
+of food you'd like to feed them, and whether you're
+going
+to skimp or be
+generous with portions.
+* To see what's in the stores:
+SHIP STORES CHECK
+This will tell you how much of each type of food you have, and a general
+idea of how many
+days
+it will last the current crew.
+* A very expensive way to
+fill
+the stores:
+SHIP STORES STORE howmany item
+(For example: SHIP STORES STORE
+3
+mutton)
+Go
+buy
+food anywhere you like and store it. This is very pricey!
+* For the kind of food you want to feed your crew (assuming you have it):
+SHIP CREW PROVISIONS quality
+(For example, SHIP CREW PROVISIONS GOOD (or FINE or COMMON))
+*For the amount of food you'll feed your crew:
+SHIP CREW PROVISIONS HALF|NORMAL|DOUBLE|TRIPLE
+Half rations won't make for happy crew, but it beats starving. Give 'em extra
+to add that little touch of joy to their dull lives.
+*A better way to fill your larder - from a
+Harbour
+:
+HARBOUR PROVISIONS -
+shows
+what's in stock, and at what price.
+HARBOUR PURCHASE [count] type PROVISIONS FOR ship
+(for example, HARBOUR PURCHASE 3 FINE PROVISIONS FOR
+Maelstrom
+)
+This would purchase three crates of provisions which will be taken immediately
+to your ship, which of course is already docked right there at this harbour.
+Three crates is a pretty substantial amount of food, by the way, and should
+certainly keep your crew happy for multiple
+months
+. This is also a LOT cheaper
+than putting in steaks or lollipops one at a time!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

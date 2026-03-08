@@ -1,0 +1,197 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.20 Underworld Talismans
+The "Underworld"
+talisman
+set:
+-------------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+. This will always be announced via the relevant
+news
+when the pieces are currently available.
+- Defeating monsters in the
+Underworld
+itself
+-
+Trading
+between players (pieces only)
+The Underworld set contains the following talismans:
+-----------------------------------------------------
+A withered crypt worm				- TALISMAN INFO CRYPTWORM
+- Priced at 50
+credits
+- This wriggling legendary
+mount
+bears the effects of the Collar of
+Lupus
+and the Badge of Returning.
+The culling blade				- TALISMAN INFO CULLINGBLADE
+- Priced at 1500 credits
+- While
+wielding
+this blade you may utilise a special
+battlerage
+attack
+with the REAP
+command
+.
+- This will strike your specified
+target
+and a second creature in your location of the same type (REAP
+UNDEAD
+for instance).
+- On the treacherous
+planes
+of
+Annwyn
+and the Underworld, reap will hit a third target as well.
+- This consumes the same amount of
+rage
+and rage
+balance
+as a standard, high- damage rage attack, and also does the same damage.
+A funeral shroud				- TALISMAN INFO FUNERALSHROUD
+- Priced at 2000 credits
+- WRAP yourself in this shroud and you will vanish from sight in a location.
+- This specifically hides you on
+LOOK
+, QUICKLOOK, GLANCE, OBSERVE, VEILGLANCE, and similar
+abilities
+.
+- It does not hide you from
+sense
+abilities.
+- Performing any action while concealed by this shroud will cause it to immediately unwrap.
+- Wrapping yourself carries a three
+minute
+cooldown if not in the Underworld.
+A talisman of custody				- TALISMAN INFO CUSTODYTALISMAN
+- Priced at 400 credits
+- BREAK a
+piece
+off this talisman and hand it to an adventurer with less
+experience
+than yourself.
+- If that adventurer dies while you are both in the realms, while you are wearing the talisman of custody, you will take the experience loss in their place.
+- Each
+time
+you use the talisman in an
+RL
+day
+, the experience cost will increase:
+* At first you will only
+lose
+the same experience they would.
+* After ten deaths, you will lose 10% of the experience they would and 90% of the experience loss you would have suffered had you died yourself in their place.
+* The talisman will break on the tenth
+death
+, but it recharges all of its uses once a
+month
+.
+- SHAKE the talisman to make it whole again if you change your mind.
+- TOUCH the talisman to see
+who
+currently holds the piece.
+A sliver of fog-wreathed obsidian	- TALISMAN INFO SOULSLIVER
+- Priced at 800 credits
+- Each time you
+die
+this sliver will absorb part of your fading life essence.
+- You may BREAK this sliver to restore your
+health
+(the more charge, the bigger the health gain).
+- This healing can push you over your max health by up to 25% of maximum! (This does also work if you have your max health increased by the effect of the death cape.)
+A
+totem
+of unlife			- TALISMAN INFO UNLIFETOTEM
+- Priced at 500 credits
+- TOUCH this totem while standing next to an entrance or
+exit
+to the Underworld and a list of all currently in the Underworld will be carved upon it.
+- Be warned that everyone in the Underworld will see a
+message
+whenever the totem is used.
+- There is a 30 second cooldown on its use, shared by everyone, but any time it is used, all
+totems
+held by adventurers in eligible rooms will also bear the new carving.
+A skein of
+sanity
+- TALISMAN INFO SANITYSKEIN
+- Priced at 220 credits
+-
+WIND
+this skein to add balance time to it while in the Underworld.
+- PULL this skein to consume the time you've wound onto it, allowing you to act with normal balance while under the corrupting effects of the Underworld.
+A splinter of shattered psyche		- TALISMAN INFO PSYCHESPLINTER
+- Priced at 180 credits
+- This splinter will double your rate of corruption while within the Underworld.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

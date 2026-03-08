@@ -1,0 +1,170 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.1 New Adventurers in Achaea
+Welcome to
+Achaea
+,
+Dreams
+of
+Divine
+Lands!
+As a new adventurer, you will undoubtedly be confused. Below are a list of
+scrolls
+that you should probably
+read
+.
+Reading
+them in order is best, but if
+you feel you already know what you need to about a certain topic, you may skip
+some of these scrolls.
+To read these scrolls, simply type
+HELP
+<scrollname>  (e.g. HELP
+MUDINTRO
+)
+Capital
+letters
+are not necessary. There is a lot of information, but after
+reading these scrolls, you will be prepared to begin your life in Achaea!
+For your gameplay-related
+questions
+, use the
+newbie
+channel
+NEWBIE <your question>
+Our official
+guides
+(HELP GUIDES) may be available to help you as well.  The
+sole purpose of Guides is to help you, our new adventurers.
+Note that these scrolls are arranged in a standard outline form. The headings
+of the sections are not help scrolls in and of themselves, though they may
+share the same
+name
+as one of the scrolls in that heading. Many of these
+scrolls refer to
+other
+help scrolls which contain further information on that
+subject. Though some of the basic help scrolls are listed here, they are by no
+means the only help scrolls. Typing HELP on its own will give you an index to
+all the help scrolls.
+Topic:                     Help scrolls
+------------               -------------------
+A list of basic
+commands
+basecommands
+An Introduction to
+MUDs
+mud
+intro
+Your
+Character
+score
+,
+status
+,
+objects
+,
+skills
+, your character
+Classes
+and Skills         classes,
+learning
+, skills,
+classlist
+Communication
+says
+,
+tells
+,
+shouts
+,
+language
+,
+emotes
+,
+messaging
+,
+news
+,
+bugs
+Starting Out
+movement
+,
+death
+,
+gold
+,
+shops
+, newbie
+attacks
+,
+what now,
+web
+site
+These are only a few of the help scrolls that Achaea has. There is a help
+scroll
+on nearly every subject that pertains to how to play Achaea. Type HELP
+on its own to see an index of these scrolls.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

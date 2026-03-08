@@ -1,0 +1,196 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.3 CAPTURE THE FLAG
+Capture the Flag, with and without the "Game of the Eyes" variation, is a game
+that pits
+cities
+against each
+other
+. Upon starting, seven flags (fourteen for
+the Game of the
+Eyes
+variation) will be dropped about the land, emblazoned with
+the symbol of the Owl. You must bring the flags to the locations listed below,
+plant
+them, and then defend them. For every second that a flag that was planted
+by a
+member
+of your
+city
+is there, your city gains a
+point
+.
+Members of the participating cities (all of them) will be coloured for more easy identification.
+Ashtan
+- Purple
+Cyrene
+- Teal
+Eleusis
+- Bright green
+Hashan
+- Dark yellow
+Mhaldor
+- Red
+Targossas
+- Bright white
+One Flag per Location
+---------------------
+Only one flag may be planted per plantable location. If, by some strange
+confluence of
+events
+or some error, more than one flag is planted in a single
+location, only one flag will gain points, and the other flags will
+automatically uproot.
+Flag Disappearance
+------------------
+Flags will disappear if taken inside, to the Skies or Above the Skies, flown with, if taken onto another
+continent
+or
+plane
+, if held by a
+denizen
+or any
+container
+, or if held by a graced person.
+The Game of the Eyes Variant
+----------------------------
+With the Game of the Eyes Variant, the
+CTF
+changes in several ways:
+- Only flags planted in pairs, neighbouring each other, by the same
+city, gain points.
+- The first flag in any pair goes in the usual/standard planting locations
+- The second flag in any pair must be precisely one room distant from
+the flag already planted.
+- Only the main flag, and one neighbour, may be planted in any vicinity
+of a standard planting room.
+- One point is scored for each pair of flags properly planted, for each
+scoring
+time
+period
+.
+Learning
+--------
+All
+skill
+learning is suspended during the CTF.
+Experience
+Loss
+---------------
+During a Capture the Flag
+event
+, no one will
+lose
+xp
+from a
+kill
+that is
+credited to another adventurer. Further, no one will gain xp from
+adventurer-
+killing
+.
+Totems
+------
+IMPLANTED totems do not operate during the CTF.
+STANDING totems do operate during the CTF.
+Locations in which flags may be planted
+---------------------------------------
+"North of New Thera"
+"On the Delosian Bridge"
+"At the foot of the Southern Vashnars"
+"Overlooking the
+Mhojave
+crater", in the Mhojave
+desert
+"Centre of the marketplace", in Tasur'ke
+"
+Mount
+Sinope" in the
+Siroccian
+Mountains
+"At the
+Shastaan
+Well" in Shastaan
+Commands
+--------
+CTF
+-
+Shows
+you the
+status
+of the current or latest Capture the Flag game.
+If a game is currently active, also shows current location of all flags.
+PLANT FLAG
+-
+Plants
+a flag in one of the above locations. You must spend
+6
+seconds
+doing
+nothing
+but planting.
+UPROOT FLAG
+- Uproots a flag. You must spend 6 seconds doing nothing but uprooting.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,143 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.4 GROUPS AND ENTOURAGES
+A
+GROUP
+is a group of adventurers
+who
+are travelling in a cohesive unit.
+How to Form a Group
+-------------------
+FOLLOW someone! For example, if you
+wish
+to follow Crotalus, you'd simply
+FOLLOW CROTALUS and you'll be added to his group.
+Benefits of
+Groups
+------------------
+You will generally share
+experience
+gained in
+combat
+while you are in a group.
+A dedicated
+channel
+for
+speaking
+to members of your group exists: GROUPTELL, or
+GT.
+How to
+Leave
+a Group
+--------------------
+LOSE
+the person you are
+following
+(or is following you), or simply
+walk
+away
+from the group.
+How to See Who is in Your Group
+-------------------------------
+The GROUP
+command
+will
+show
+the person you're following, and all
+other
+members
+of your group.
+If you wish to see which of your loyal
+denizen
+companions are following you,
+the
+ENTOURAGE
+(or
+ENT
+for short) command will give you the details.
+Group
+Movement
+--------------
+If you follow another adventurer, then when he
+moves
+, you'll
+move
+too (assuming
+you can).
+Group
+Targetting
+----------------
+The
+ASSIST
+command allows you to
+target
+the denizen that the group leader is
+attacking
+!
+(See also:
+HELP
+PARTIES
+)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

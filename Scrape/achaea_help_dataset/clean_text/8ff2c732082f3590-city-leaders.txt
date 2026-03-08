@@ -1,0 +1,235 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.3 CITY LEADERS
+City
+leaders, known variously as Archon
+Ascendant
+(
+Ashtan
+), Seneschal (
+Hashan
+), Imperiate (
+Cyrene
+), Tyrannus (
+Mhaldor
+), Dawnlord (
+Targossas
+), and Speaker (
+Eleusis
+) are both the
+figurehead
+and most powerful person in a city in political terms. Chosen by the ruling council (
+HELP
+RULINGCOUNCILS
+), and by necessity a
+member
+of it, the city leader is responsible for
+choosing
+the
+Ministers
+of a city. The person in this position is also immune to political
+challenges
+. He or she may only be removed after his or her fellow ruling council members have made someone else the leader.
+City leaders earn 200
+renown
+per
+hour
+while logged in, up to 800 renown per
+day
+or until they hit cap (see HELP RENOWN).
+The
+Minister
+of
+Defence
+also has the
+ability
+to
+issue
+, accept, and decline
+war
+declarations, also to surrender during a
+time
+of war. See
+HELP WAR
+.
+A city leader has all the
+commands
+of a normal member of the ruling council, with some additions:
+APPOINT <ministry> <citizen>
+Appoints someone to a Ministry.
+Valid
+ministries
+are:
+Ambassador
+, Defence,
+Interior
+,
+Treasurer
+,
+Culture
+.
+This also serves to appoint the Admiral.
+FUNDS COFFERS
+The city leader is the only person, aside from those in the
+Treasury
+,
+who
+can see the amount of
+gold
+in the city coffers.
+CITY
+ANNOUNCE
+CITY ANNOUNCE CLEAR
+CITY ANNOUNCE <text_with_\n_if_desired_to_break_lines>
+Shows
+, clears, or sets a new city announce which will be visible to all
+citizens
+upon entry to the realms.
+CITY AUTOCITIZEN AGEMAX <age>       - that age or lower would be OK.
+CITY AUTOCITIZEN ON|OFF             - autocitizen enabled or not.
+CITY AUTOCITIZEN RESTRICT[
+CLASS
+] *  - restrict certain
+classes
+.
+CITY AUTOCITIZEN FORBID[
+HOUSE
+] *    - forbid certain
+houses
+.
+All the settings related to Autocitizening. Requires special arrangements with a coder,
+designation
+of a special
+denizen
+to handle this, and so forth. For further details on RESTRICT[CLASS] and FORBID[HOUSE],
+simply enter the commands without the *. So, for example, enter CITY AUTOCITIZEN RESTRICT, and you'll see further info.
+These commands are available to the City Leader and Ambassador, but not
+aides
+.
+CITY
+CLAN
+<clan alias> NEW_HEAD <person>
+Appoint a new clan head for a city-owned clan. New clan head must already be in the clan.
+CITY
+CREDITS
+TRANSFER [
+BOUND
+] <credits> TO <person> <reason>
+Transfer credits to a adventurer.
+If BOUND, then the recipient will receive the
+lesson
+bonus for
+binding
+credits, if any.
+CITY FORCE DOOR <direction>
+For ruling council members and Defence Minister only, this allows forcing a
+subdivision
+door on a private house. The door must still be opened to enter. The door will close and lock again after about an
+Achaean
+hour. Every CITY FORCE DOOR is logged and monitored for abuse. Be sure you are doing this with exceedingly good reason!
+CITY NEWCOMERMESSAGE CLEAR|<
+message
+with \n ok>
+Sets or clears the message given to all new citizens that
+join
+by way of autocitizening. May be done by the City Leader or Ambassador, but not aides.
+CITY PATRON NONE
+CITY UNPATRON <god>
+CITY PATRON <god>
+It is the sole right of a city leader to offer Patronage of the City to the
+Divine
+of his or her choosing, or to have no Patron at all.
+CITY SET RELATIONS <city> <HOSTILE|NEUTRAL|ALLIED>
+A city leader is the only person who may set a city's official relationship with
+other
+cities
+. Be warned that if the other city is already set as hostile towards you, and you set your city as hostile to it, the two cities will enter a state of 'war', and neither will be able to declare neutrality until the passing of at least
+6
+Achaean
+months
+. CITY RELATIONS will let you see how your city currently feels about other cities, and how they feel about your city. Note that neither neutral nor Allied have any formal effect for cities, but a village that
+allies
+a city opens up the possibility of adventurers from that city leading village soldiers. See HELP LEADERSHIP.
+Note: this can also be used for villages! Use CITY RELATIONS HOSTILE to see any and all hostile or at-war relations, including with villages.
+CITY SET TOTEMER <who>|NONE
+Designates a person to adjust/uproot/smudge city
+totems
+. This person's activities will not cause alarms. The act of
+designating
+a totemer is logged in the city
+totem
+log
+. It is not necessary to
+designate
+a
+citizen
+, since citizens' actions of this kind are already ignored by totems.
+LIBRARY
+LIBRARIAN <who>
+The City Leader can designate the city's librarian. Use this
+command
+when standing in the city library.
+See also HELP PATRONAGE REQUESTS.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

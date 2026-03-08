@@ -1,0 +1,622 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.3 Defensive Artefacts
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+A wand of reflection:                                         800 Credits
+- This wand will grant you some reflections once per
+hour
+.
+- Most
+attacks
+made upon you will hit and destroy a reflection, and all reflections must be destroyed before you can be hit. Any aggressive
+moves
+by you will destroy all your reflections. These wands are great for when you get jumped, or when you're in battle and need a short breather to catch up on healing
+afflictions
+.
+A shackle of
+Garash
+:                                          600 Credits
+- This shackle shall function as a permanent
+mass
+defence
+when worn.
+A Lasallian lyre:                                             500 Credits
+- This lyre, when STRUMmed, will grant the prismatic barrier defence.
+- This barrier stops most physical attacks. What you can do while in one is severely limited.
+- Does not stop order,
+smoke
+bomb, incinerate, chill,
+death
+aura
+, empress, soul rend, paroxysm, jack in the box, body warp, chaos rays,
+unnamable
+, grave hands, piety, banana peels, tentacles, holocaust globe,
+knife
+sigils
+, rite of warding, gravity and tremors vibes, bloodworms, untargetted beckon, and demon sear.
+- Destroyed by
+dragon
+blast, soulspear, and truename.
+- Stops trample, star
+tarot
+, entity attacks, darts trap, leprosy, thornspray, yank, arc,
+spirit
+wrack, targetted beckon, all bombs
+other
+than smoke, nearly all
+denizens
+, disruptive harmonics, percussia, hailstorm, efreeti, tailsweep, rite of demons, vibes (lullaby, creeps, dissipate, palpitation, oscillate, energize, disorientation, plague, stridulation, revelation, adduction, and dissonance), daegger
+hunt
+, and shadowstrike.
+- Can do while in a prismatic barrier: check
+abilities
+,
+talk
+on
+city
+or
+clan
+channels
+, submit a
+bug
+report, check the
+who
+list for
+clans
+or
+cities
+, check and view
+config
+, check
+defences
+, virtually
+anything
+having to do with
+messages
+(
+MSG
+READ
+, MSG SEND, MSG LIST, etc), check
+world
+game or
+arena
+status
+, glance, read help,
+speak
+on
+house
+channel
+, check house who, check inventory, use
+market
+or
+newbie
+channel, check public
+news
+, use a
+party
+channel,
+embrace
+death, check
+punishments
+,
+qq
+/
+quit
+, check
+rankings
+, read a
+log
+, say
+things
+, check
+stat
+, check
+tattoos
+, send a
+tell
+, check recent
+tells
+, yell.
+A miniature toolkit:                                          500 Credits
+Artefact
+power
+: trapmaster
+- Give the owner access to the TRAPS and DISARM abilities. If owner is
+Sentinel
+or
+Jester
+, DISARM will never
+fail
+.
+- Disarm does have a chance to fail, if it fails, you will be hit by the trap as if you moved through it. If you are successful, the trap will be disarmed and you will receive any of the
+commodities
+used when it was created.
+- If you are of the Sentinel or Jester
+class
+, this item removes the
+failure
+chance on disarming other people's traps! (This extra effect only applies if you have learned the Disarm
+ability
+in
+Woodlore
+/
+Pranks
+.)
+Robes of the
+Magi
+:                                            1000 Credits
+Artefact power: reduce_
+mana
+- Cuts your mana usage by 1/
+3
+. Certain specific instances are excluded.
+- Draining of mana by demons or
+runes
+is not affected.
+Transmutation
+is also not affected.
+A Sash of Eternal Battle:                                     1000 Credits
+Artefact power: reduced_
+endurance
+- Cuts the endurance cost of almost all endurance-using abilities by 1/3.
+A pair of buckawn's boots:                                    800 Credits
+Artefact power: anti_
+web
+- Lets you avoid the web
+tattoo
+attack
+from players.
+- This also makes you immune to web bombs that are thrown (not those that detonate in your hands).
+A buckawn's amulet:                                           800 Credits
+Artefact power: anti_web
+- Lets you avoid the web tattoo attack from players.
+- This also makes you immune to web bombs that are thrown (not those that detonate in your hands).
+A
+Shield
+of Absorption:                                       800 Credits
+- This shield will absorb a physical-based attack completely, 15% of the
+time
+.
+- Must be
+wielded
+.
+-
+Stats
+on the shield are: 11% cutting, 11% Blunt.
+- May be used by all
+classes
+except
+Blademasters
+.
+- You may
+wield
+two if you
+wish
+, but it will be no more effective than
+wielding
+one!
+A ring of the Magus:                                          700 Credits
+Artefact power: magic_defence
+- Grants protection from magic-based attacks.
+- Approximately 15% magic damage protection.
+- The ring of the Magus reduces the type of damage called "magical." Not "damage from a magical source" but "damage which is itself a direct, magic damage." Examples of magical type damage: Palpitation and dissonance vibrations,
+evileye
+and curse bleed, staffcast dissolution, certain
+denizen
+and entity attacks, decay, warp, deathaura. The reduction works in precisely the same way as a
+piece
+of physical
+armour
+. This means that, just like with physical type attacks, some portion of magical type attacks is unreduced by armour, and some portion is reduced. Example, a magical-type attack is delivering 1000 damage: 500 of it would
+go
+through unaffected, and 500 would be reduced a certain percentage by the power of the Ring.
+A prismatic ring:                                             600 Credits
+Artefact power: elemental_resistances
+- This ring has permanent versions of the various resistance ring enchantments.
+- ACTIVATE <type> RESISTANCE -
+fire
+, cold, electric, magic.
+A bracelet of sustenance:                                     550 Credits
+Artefact power: sustenance
+- This bracelet conveys the benefit of being
+level
+80+.
+- Specifically, you will no longer need to
+sleep
+or
+eat
+.
+- Does not convey
+immunity
+to
+hunger
+attacks.
+A mask of lifevision:                                         500 Credits
+Artefact power: lifevision
+- This mask gives access to the lifevision ability.
+A set of mithril spurs:                                       500 Credits
+Artefact power: quickmount
+- These spurs grant access to the quickmount ability.
+- Regain
+balance
+more quickly while mounting a
+steed
+.
+- If you have the
+vault
+ability in
+Riding
+you may use it with no loss of balance.
+A glittering fishscale
+tunic
+:                                 400 Credits
+Artefact power: breathe_underwater
+- This tunic will allow you to breathe underwater when worn.
+Goggles of whitesight:                                        150 Credits
+Artefact power: whitesight
+- These goggles allow you to see in
+blizzards
+.
+- Affects multiple things, including
+look
+, squint, glance, and examine, among
+others
+.
+Spectacles of whitesight:                                     150 Credits
+Artefact power: whitesight
+- These spectacles allow you to see in blizzards.
+- Affects multiple things, including look, squint, glance, and examine, among others.
+A
+Shadowcloak
+:                                                800 Credits
+Artefact power: shroud
+- This cloak gives access to the shroud ability when worn.
+A deathmask:                                                  750 Credits
+- This mask shall conceal your
+name
+on deathsight.
+- A deathsight
+message
+will still occur, but the name of the slayer will not be given.
+A staff of
+illusion
+:                                          500 Credits
+Artefact power: illusion
+- This staff gives you the ability to CONJURE
+ILLUSIONs
+.
+- The maximum illusion length using the staff is 500 characters. This also increases the maximum length for any class abilities that allow you to CONJURE ILLUSION.
+- You may specify one newline
+character
+in your illusion with the character sequence
+- Requires balance and costs 1 second of
+equilibrium
+.
+- Just having the staff is enough: it is not needful to wield it.
+A Shar'ilian lightspire:                                      2000 Credits
+Artefact power: illusion
+- Level
+2
+Staff of Illusion!
+- Cast an illusion in your room with CONJURE ILLUSION <illusion>.
+- Cast an illusion at a particular player with CONJURE <player> ILLUSION
+<illusion>.
+- CONJURE ILLUSION <illusion> cast a basic illusion in your room.
+- Conjure illusions in colour: CONJURE [player] COLOUR <1-14> ILLUSION
+<illusion>.
+- The maximum length of illusions cast is 1000 characters. This also
+increases the maximum length for any class abilities that allow you to
+CONJURE ILLUSION.
+- You may specify up to two newline characters in your illusion with
+the character sequence
+This also increases the maximum number of
+newlines for any class ability that allows you to CONJURE ILLUSION.
+- Requires balance and costs 1 second of equilibrium.
+Charges
+:
+The next functions of the lightspire require charges for use.
+The staff will
+regenerate
+4% charge every
+Achaean
+day
+,
+capping out at 100.
+(These numbers are subject to change as we observe use.)
+PROBE
+the lightspire to see its current charge.
+- CONJURE AREA ILLUSION <illusion> cast an area wide illusion for 50% charge.
+- CONJURE
+CONTINENT
+ILLUSION <illusion> cast a continent wide illusion.
+This requires three mutually allied, lightspire owners with fully
+charged staves, this will drain 100% charge from all three.
+Colours cannot be applied to the area or continent wide illusions.
+Glamours:
+A glamour is a fantastical illusion that you can place in a room.
+These are chosen from a list, rather like the basic hardcoded
+emotes
+.
+It is intentional that these are takeable once dropped.
+- GLAMOUR LIST See what glamours are available to cast.
+- GLAMOUR CAST <glamour> to create a standard glamour for 25% charge.
+These glamours will have a lifespan of 3 Achaean
+months
+and cannot be
+customised in any way.
+- GLAMOUR CAST SPECIAL <glamour> to create a glamour from the list with
+1 month's lifespan, but once dropped this glamour is not-takeable. Again,
+this cannot be customised in any way.
+Upon purchasing a staff you can
+email
+customisations
+@
+achaea
+.com with a
+glamour suggestion (appearance, dropped, and examined, all must refer
+to the item as a glamour) and we will add it to the list (within reason).
+Glamour suggestions can be public or private, mention which at the time
+of suggestion, we won't change them after they're live.
+- Public glamour submissions are free.
+- Private glamour submissions cost 50 bound credits
+- Regardless of type, the first glamour submission for a Lightspire
+owner is always free.
+An
+orb
+of suppression:                                        500 Credits
+Artefact power: suppression
+- Conceal what artefacts you possess.
+- Hides most artefacts, including itself, from people examining you. If an artefact isn't being hidden, notify Makarios. When the orb is in your possession, it works for:
+-
+remove
+/
+unwear
+- onlookers will not see you remove the item.
+- house inventory - conceals worn and inventory but not wielded.
+- appraise - conceals worn, wielded, and inventory items.
+- EXCEPTIONS: For an extra 50 credits per artefact, you may arrange things so that the artefact is NOT suppressed, and will be visible even if you have an orb.
+A
+talisman
+of obfuscation:                                    500 Credits
+Artefact power: conceal_illusions
+- Reduces the effectiveness of the lifevision defence by 33%.
+A gem of cloaking:                                            400 Credits
+- When activated, removes you from the who, clwho, and
+bw
+/
+qw
+lists.
+- Lasts for 10
+minutes
+when activated, after which it cannot be used again for an hour. You may freely deactivate and reactivate the gem during its 10
+minute
+duration without affecting the cooldown.
+- While on Treacherous
+Planes
+, the gem's concealment power is permanently in effect. This does not require activation and incurs no cooldown.
+- Note: This does not remove you from
+HWHO
+, or
+CWHO
+. Similarly, it does not remove you from TRADEWHO for mutual
+allies
+,
+friends
+, citymates, and housemates.
+A twitching-
+eye
+gem:                                          250 Credits
+- Will alert you when a personal
+enemy
+enters its room.
+- When this gem is DROPped in a location, the next time one of your personal
+enemies
+enters, you will be alerted to it and the gem will return to your possession. Note that the
+target
+will be made aware they have been spotted!
+A Bell of the Clarion Call:                                   1200 Credits
+- RING this bell to prevent phased, blackwinded, and similar players from entering the room for 1 minute.
+- This item incurs a 10 minute cooldown before it may be used again.
+Anake's
+Hood
+:                                                 400 Credits
+Artefact power: anti_spying
+- While you are wearing this hood, you will be protected from many
+attempts
+to eavesdrop on you.
+- This includes
+grove
+watch, mind listening,
+subterfuge
+and
+vodun
+/
+puppetry
+listen, angel/demon mindread.
+A prismatic lantern:                                          350 Credits
+Artefact power:
+portal
+_identify
+- This lantern will allow you to see into a portal, determining its origin.
+- To use this artefact, the owner merely has to PROBE the portal with the lantern in his or her inventory.
+- Note: this does not
+show
+the contents of the room on the other side of the portal, only the name of the room itself.
+An incandescent
+sigil
+:                                        250 Credits
+- Detachable
+flame
+sigil.
+- This sigil is similar to a flame sigil in that it prevents the item it is attached to from being picked up. However, the sigil owner will not be prevented from picking up the item, and can detach the sigil at will.
+- ATTACH <sigil> TO <item>
+- DETACH <sigil> FROM <item>.
+- NOTE: This cannot be used in conjunction with a standard flame sigil.
+- NOTE: This does not prevent the effects of a
+mushroom
+sigil.
+A serpentine keyring:                                         100 Credits
+- For the truly security conscious, this keyring will only allow you to remove
+keys
+from it.
+- The owner, and only the owner, may remove keys using GET <
+key
+#> FROM KEYRING.
+A gilded page:                                                100 Credits
+- Allows you to reset the
+traits
+of your current form a single time. This item is consumed on use.
+- READ PAGE
+A Grimoire of Adaptation:                                     1000 Credits
+- This grimoire will allow you to reset your traits up to once per
+RL
+day.
+- READ GRIMOIRE
+A Grimoire of Hasty Adaptation:                               2000 Credits
+- This grimoire will allow you to reset your traits up to once every two RL
+hours
+.
+- READ GRIMOIRE
+A shard of the lesser lorewarden:                             350 Credits
+Artefact power: class_switch_reduction
+- Reduce the class switch cooldown to 1 hour.
+A chip of the lesser lorewarden:                              800 Credits
+Artefact power: class_switch_reduction
+- Reduce the class switch cooldown to 10 minutes.
+A stone of the lesser lorewarden:                             1600 Credits
+Artefact power: class_switch_reduction
+- Reduce the class switch cooldown to 1 minute.
+A dagger of
+reincarnation
+:                                    100 Credits
+- This dagger allows for a single reincarnation,
+changing
+your
+race
+.
+- SACRIFICE MYSELF once you have it, and then you may
+reincarnate
+in the Flame as usual. This ignores soulcage and starburst and works even if you have either of those up/active/etc.
+- You can reincarnate to the same race to reset your racial
+specialisation
+. If you have multiple classes, it will only reset the current class slot's saved
+spec
+.
+A Gem of Transmutation:                                       1000 Credits
+- This gem will allow you to change your race once every RL day.
+- REINCARNATE INTO <race>.
+- You can reincarnate to the same race to reset your racial specialisation. If you have multiple classes, it will only reset the current class slot's saved spec.
+A Gem of Rapid Transmutation:                                 2000 Credits
+- This gem will allow you to reincarnate up to once every two RL hours.
+- REINCARNATE INTO <race>.
+- You can reincarnate to the same race to reset your racial specialisation. If you have multiple classes, it will only reset the current class slot's saved spec.
+A Sailors' Decree:                                            1200 Credits
+Artefact power: remote_
+seafaring
+- Change your seafaring Specialisation at will when on a
+ship
+in
+harbour
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

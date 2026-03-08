@@ -1,0 +1,146 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.26.1 The Commodities Market
+(See also:
+HELP
+COMMODITIES
+)
+The Commodities
+Market
+is in
+Delos
+, located se, se, e, e, s from the Delosian Bridge. It's a centralised place for both individual Achaeans and
+Cities
+(via their
+Trade
+Ministries
+) to
+buy
+and
+sell
+commodities.
+In both cases, you must be in the Commodities Market to buy or sell
+comms
+.
+Commodities can be sold on the
+commodity
+market directly from
+warehouses
+.
+If commodities are returned/sent to you (via the commodity market
+system
+) they will first
+attempt
+to
+fill
+any space remaining in your
+rift
+. Any remaining commodities will then attempt to fill any warehouse space leased in your
+name
+.
+If neither your rift or a
+lease
+is available, the commodities will be placed in your
+inventory
+and begin to
+decay
+. There are eight (8) real
+hours
+of
+time
+before the decay occurs, during which appropriate storage must be sourced.
+Everyone can sell a
+base
+amount of up to 5000 of any commodity type on the commodity market. This amount will increase based on your associated commodity
+rank
+.
+Syntax
+:
+Listing:
+CM LIST [comm] [maxprice]
+Selling
+:
+CM SELL <num> <comm> [FOR] <price per>
+(Note that offers to sell disappear after about one
+Achaean
+year if not
+fulfilled. Your comms will be refunded to you in that case.)
+CM SELL <num> <comm> [FOR] <price per> [FROM
+CITY
+|FROM WAREHOUSE
+<warehouse>]
+CM LIST MY [comm]
+CM CANCEL ALL [comm]
+CM CANCEL <id>
+Buying
+:
+CM BUY <num> <comm> [FOR] <max price>
+Trade Ministry:
+CM BUY <num> <comm> [FOR] <max price> FOR CITY
+CM SELL <num> <comm> [FOR] <price> FROM CITY
+CM CITY LIST [comm]
+CM CANCEL CITY ALL [comm]
+CM CANCEL CITY <id>
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

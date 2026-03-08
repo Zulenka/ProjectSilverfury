@@ -1,0 +1,162 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.7 FURNISHING
+(See also:
+HELP DESIGN
+, HELP FURNISHING DESIGN, and
+HELP
+CRAFTING
+GUIDELINES)
+The art of
+Furnishing
+enables you to create various furnishings using basic
+commodities
+and, where appropriate, samples. With advanced knowledge, one can
+design
+their own furnishings,
+hold
+more samples, and regain a part of the
+materials used in the creation of the furniture by means of disassembly.
+To become a professional furnisher, you must be trained by the craft
+guild
+of
+Delos
+.
+You must be above
+level
+10 to access the furnishing
+tradeskill
+.
+BUY
+FURNISHING PERMIT
+- Use this
+command
+at "A comfortable parlour" in Delos.
+- This will cost 200
+credits
+.
+- If you have a bronze
+trade
+seal, please
+READNEWS
+ANNOUNCE
+4247
+- Once purchased, this permit will
+show
+up on
+SCORE
+LICENSES
+.
+- This will never expire and cannot be traded in.
+GAINING THE FURNISHING
+SKILL
+- Make sure you have Bought your Furnishing Permit as per above!
+- Make sure you have a tradeskill slot empty
+-
+TRADESKILLS
+will show your tradeskill slots
+- SCORE LICENSES will show how many slots you have in full.
+- Visit Amarisse, Secretary of the Crafting Council
+- ASK AMARISSE GAIN FURNISHING.
+Once you are a licensed furnisher, you will have basic
+ability
+in the
+Furnishing tradeskill.
+Abilities
+Gained
+----------------
+At Novice:       The ability to Furnish from existing
+designs
+and the ability
+to hold 20 of each sample.
+At Adept:        The ability to create new designs and the ability to hold 100
+of each sample.
+At Transcendent: The ability to Furnish bookcases and bookshelves, and the
+ability to hold 250 of each sample.
+Kegs, Casks, and Barrels
+========================
+Kegs, casks, and barrels can now be designed by furnishers! These can contain
+up to 40 sips of a beverage (created by a beverage maker).
+These items are also the
+base
+of the keg, cask, or
+barrel
+artefact
+used for
+ageing
+beverages
+in cellars!
+A wire-
+bound
+cork can be purchased from the crafting artefact
+shop
+.
+PLUG CORK IN <keg/barrel/cask> to make a placed item into a non-
+decaying
+and resetting version, and also expanding its capacity from 40 - 200 sips!
+(See also:
+HELP DESIGN
+, HELP FURNISHING DESIGN, and HELP CRAFTING GUIDELINES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

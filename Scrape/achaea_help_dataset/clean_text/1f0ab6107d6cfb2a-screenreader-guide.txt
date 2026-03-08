@@ -1,0 +1,264 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.11.1 Screenreader Guide
+Welcome to
+Achaea
+! This
+help
+file is a
+guide
+to help new players
+who
+use screenreaders become acquainted with Achaea first and cut down on unnecessary information until you become more familiar with the game and the
+world
+. These tips have been provided by our own players who use screenreaders and are by no means exhaustive, but we hope they will help you get started!
+Section 1: Basics
+Many help files and instructions provided by the game indicate
+commands
+that you can type by noting the commands in all capital
+letters
+. If you are able to
+configure
+your
+screenreader
+to
+spell
+out instances of all capital letters, it may help you
+going
+forward when
+reading
+help files or receiving help from
+other
+players, who tend to use the same convention.
+First, to avoid being overwhelmed by excessive text in the game, begin by typing the
+following
+configuration
+options:
+CONFIG
+SCREENREADER ON
+This turns on the screen reader configuration in the game and helps reduce the excess text clutter you
+might
+otherwise receive.
+CONFIG MAPSHOW OFF
+This turns off the graphical ASCII
+map
+the game provides, which can be confusing for a screenreader.
+CONFIG ROOMDESC BRIEF
+This makes it so that when you first
+walk
+into a room, you only see the
+title
+of the room, and the items,
+mobiles
+, and players in the room. You will not see the entire several sentences long
+description
+of the room. You can always
+look
+at the entire description of a room by typing LOOK while in the room.
+Section
+2
+:
+Communication
+To cut down on excessive text for the
+time
+being from the various communication
+channels
+players use, it can be helpful to begin by turning off certain channels. Once you are more adjusted, you can turn the ones you want back on.
+Generally, you can turn channels on or off by typing the channel's
+name
+, then adding OFF or ON without a space after the
+channel
+name (example: M A R K E T O F F with no spaces).
+The
+market
+channel and
+shouts
+are already turned off as a novice, but if you're feeling overwhelmed, you can turn off a few additional channels:
+CT
+(your organisation's main communication channel)
+You can turn it off by typing C T O F F with no spaces.
+If you are a novice in
+Mhaldor
+, you are directed to
+speak
+on
+CLT
+, rather than CT. If you need to turn this off until you can set up your screenreader, do so with C L T O F F, with no spaces.
+TELLS
+, which are direct in-
+character
+messages
+from other players. These may be very useful to ask for help and turning them off is not recommended. There is also some more information below in this file.
+If you do need to turn TELLS off, however, you can turn them off with T E L L S O F F with no spaces.
+Again, to turn these channels back on, type the channel name, then, without a space, type ON instead of OFF.
+You might
+wish
+to turn TELLS, CT (and/or CLT) back on sooner rather than later. These channels are where other players may offer you help. Asking
+questions
+through these channels can help you become familiar with and
+connect
+with people in your organisation.
+NEWBIE
+is a useful channel that should not be turned off unless you really intend and wish to. It is your primary source of help as a newbie, and you will receive tips both from players and from newbie
+Guides
+(whose
+names
+are
+Romeo
+and
+Juliet
+).
+To speak on any channel, you may simply type the name of the channel, followed by what you wish to
+say
+. For example, to speak on the NEWBIE channel, you can type NEWBIE, followed by what you wish to say.
+Sometimes you might receive a
+TELL
+from someone, which is a private whisper someone sends directly to you while they and you are both in the game. The tell may sound like this, for example:
+Juliet tells you, "Hello."
+If someone sends you a tell and you would like to respond, simply type REPLY, then type the
+message
+you would like to send to the person. You can also initiate a tell to someone by typing TELL, and then the character's name, and then the message you would like to say to the person. If you cannot get the spelling of the character's name from initial
+pronunciation
+(as a lot of people do have strange names), you may wish to have your screenreader spell out the name for you so you can
+reach
+the correct person. This is also a good strategy for items, rooms, or non-player characters with strange names you wish to interact with throughout the game.
+Sometimes players may try to send you a tell with extra
+punctuation
+indicating they are trying to
+talk
+to you on an out-of-character basis rather than an in-character basis. This is usually indicated by them surrounding their words with double parentheses, or by prefacing their words with double forward slashes, or by prefacing their words with "
+OOC
+:". If you are able to configure your screenreader or your
+MUD
+client
+to
+read
+those particular conformations of punctuation and give you the indication that it is out-of-character information, please do so! Examples are:
+Juliet tells you, "(( Hello. ))"
+Juliet tells you, "// Hello."
+Juliet tells you, "OOC: Hello."
+If you did not hear your screen reader read the double parentheses in the first line above, or the double slashes in the second line above, then
+consider
+reconfiguring your screen reader settings until you are able to do so.
+It is also highly recommended that you type J O I N V I P, or
+JOIN
+VIP, with a space between the N in join and the V in VIP. This is a dedicated
+clan
+for visually impaired players; you can ask for assistance there as well. You will need to type CLAN SWITCH VIP, then type CLT followed by your message or
+question
+.
+Section
+3
+: MUD
+Clients
+If you are using the native
+Nexus
+MUD client in your
+web
+browser to play Achaea, our players with screenreaders would strongly suggest that you instead use a MUD client program that works with screenreaders. Those clients include: VIPMUD, GMUD, and MUSHCLIENT. This is certainly not an exhaustive list.
+If you are familiar with common MUD functions such as gagging lines, using
+triggers
+, substitutes, and
+aliases
+, all of these and more that you add to your MUD client
+system
+may help you manage the flow of information from Achaea for you more easily. Furthermore, sound triggers, where a particular line of text triggers a particular sound, can be extremely useful to help you quickly understand what is going on in the game. So
+building
+a big
+library
+of .wav files for your client system can be helpful.
+Unfortunately, it is beyond the scope of this help file to
+teach
+you the specifics of how to work with MUD clients or add aliases, gags, triggers, and sound triggers. But these are
+things
+you can potentially ask other players to help you with via the NEWBIE channel.
+Section 4:
+Questing
+As a new player, you will be encouraged by the game to start questing and completing your
+TASKS
+in
+Minia
+,
+Lodi
+and other newbie areas.
+HELP WHATNOW
+is a good place to start, as well as checking your TASKS often to see what is new.
+HELP TASKS
+is a brief help file that may be easier to understand.
+Section
+5
+: Conclusion
+Achaean
+players, or adventurers, are very helpful, and so again, if you have any questions, please feel free to ask via the NEWBIE channel. It may be helpful to mention that you are using a screen reader if you are willing to disclose that information. If too many people are
+talking
+to you at once and you are feeling overwhelmed, you may wish to mention that, or ask people to answer you via tells in a more private way for any questions you may have.
+We truly hope that you enjoy the wonderful world of Achaea! We would like to make this text
+adventure
+as accessible as possible for players who use screen readers. Please feel free to submit any
+ideas
+you may have to help us do this better by typing
+IDEA
+, followed by the text of your idea.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,557 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.9 A list of basic commands
+Information about your
+Character
+--------------------------------
+SHOW
+: Combines pretty much
+everything
+below. See
+HELP SHOW
+.
+SCORE
+/
+STAT
+: Gives you the most basic information about your character.
+STATUS
+STATS
+:
+Shows
+some information about your kills and deaths.
+I,
+INVENTORY
+,
+EQ
+: Lists the
+equipment
+you possess.
+INFO
+INV
+,
+II
+: Lists the unique, identifying numbers of your equipment.
+DEF,
+DEFENCES
+: This will list various defences that you may have.
+DEFENCES BRIEF  : Show a less verbose list of defences that you may have.
+SKILLS
+: List what skills you have.
+AB
+<skillname>  : See what
+abilities
+you have in a
+skill
+.
+WIELDED
+: See what you are
+wielding
+.
+FEELINGS        : See how the
+Gods
+, or Villages, feel about you currently.
+CREDITS
+: See various
+syntax
+related to credits, such as converting.
+Communication
+commands
+----------------------
+SAY
+or ' or "   : Say
+something
+to everyone in your location. Note that there are some
+other
+verbs that work similarly to say. For instance:
+sing
+,
+whine
+,
+mutter
+,
+snarl
+, and
+scream
+.
+EMOTE
+: Send text to everyone in the room.
+TELL
+: Remote communication with another adventurer. This can also be done just by typing an adventurer's
+name
+followed by the text you
+wish
+to send.
+TELLS
+: Lists the last fifty tells received.
+SHOWTELL <#>    : Shows a tell from your
+history
+.
+TELLSOFF        : Stop listening to tells.
+TELLSON         : Start listening to tells.
+YELL            : Yell something to everyone in your immediate area.
+YELLSOFF        : Stop listening to yells.
+YELLSON         : Resume listening to yells.
+SHOUT
+: Shout something out for everyone in the land to hear.
+SHOUTSOFF       : Stop listening to
+shouts
+.
+SHOUTSON        : Resume listening to shouts.
+NEWBIE
+:
+Speak
+on the newbie
+channel
+.
+NEWBIEOFF       : Turn the newbie channel off.
+NEWBIEON        : Turn the newbie channel on.
+MSG
+: Send a
+message
+to someone.
+MESSAGES
+: See a summary of your messages.
+SHOWMSG
+: See a message in full detail.
+DELMSG          :
+Delete
+a message.
+DELMSG ALL      : Delete all your messages.
+CMSG            : Clear your message.
+NEWS
+: Type
+HELP NEWS
+to get information about the news.
+IGNORE
+<person> : Begin to ignore, or, if you're already
+ignoring
+, stop ignoring, a person. Stops messages, tells, directed
+says
+, and targeted
+emotes
+. (
+HELP IGNORE
+for a complete list of what it stops and doesn't stop.)
+Movement
+commands
+-----------------
+WALK
+TO <landmark> : Walk to a
+landmark
+. See
+HELP LANDMARKS
+and see
+HELP MOVEMENT
+for more on movement.
+Item-related commands
+---------------------
+GET             : Gets something from the ground or a
+container
+: GET 50
+ASH
+, GET 50 ASH FROM CHEST, GET
+GROUP
+ASH FROM
+LETTER
+DROP            : Drops an item: DROP 50 ASH, DROP ASH, DROP GROUP ASH
+GIVE            : Give an item to another being: GIVE 50 ASH TO ACHILLES
+You can also give a group of items (
+HELP
+GROUPING
+): GIVE GROUP ASH TO ALASHI
+For
+gold
+, always use the amount: GIVE 1000 GOLD TO PUXI
+PUT             : Put an item in something: PUT 33 GOLD IN
+PACK
+, PUT GOLD IN SATCHEL
+EX, EXAMINE     : See what a creature looks like, or how tough it is.
+P,
+PROBE
+: Information about something and what's inside it.
+BREAK           : Destroys certain fragile items.
+KNOCK           : Indicates your presence on one side of a door.
+LIGHT
+: Firecrackers,
+Pipes
+, and LOTS of other
+things
+!
+PULL, PUSH      : Could be useful almost anywhere.
+RING
+, SHAKE     : Could be useful almost anywhere.
+SMELL, TASTE    :
+Food
+, drinks,
+elixirs
+, and sometimes other things.
+TURN            : Could be useful almost anywhere.
+TOUCH           : Could be useful almost anywhere.
+READ
+:
+Books
+,
+signs
+, plaques, inscriptions, etc.
+WEAR            : Wear an item that you
+hold
+.
+REMOVE
+: Remove an item that you are wearing.
+OPEN            : To open a door, use OPEN DOOR N(ORTH). Only unlocked
+doors
+!
+CLOSE           : CLOSE DOOR DOWN (etc). Doors MAY be locked open.
+LOCK            : Have the proper
+key
+, then LOCK DOOR <direction>.
+UNLOCK          : Have the proper key, then UNLOCK DOOR <direction>.
+WIELD
+: Wield an item (HELP WIELDING). WIELD LEFT or WIELD RIGHT for handedness, or use WIELD <item> [item]. You can use
+names
+or item numbers.
+UNWIELD
+: Cease wielding an item.
+THROW
+: see
+HELP THROWING
+.
+POINT
+: POINT <thing> AT <whoorwhat>. Must be
+holding
+the
+thing
+.
+SHEATHE
+: Sheathe a sword in a worn
+scabbard
+. Note that you may also
+SHEATHE <scabbard> to sheathe a sword in a specific scabbard.
+DRAW
+: Draw a sword from a worn scabbard. You may also
+DRAW <scabbard> to draw from a specific scabbard.
+DRAW STRONG     : Draw a sword from a worn scabbard with a flashy slash.
+You may also DRAW <scabbard> STRONG.
+DRAW SALUTE     : Draw a sword from a scabbard in a salute. You may also
+DRAW <scabbard> SALUTE.
+Commands to gain information about the
+world
+--------------------------------------------
+LOOK
+, L         : A full
+description
+of the location you are in.
+QL              : (QuickLook) An abbreviated description of your location.
+EXITS
+,
+X
+: Lists only the visible exits from your current location.
+VERBOSE         : Get long
+descriptions
+of rooms when
+moving
+around.
+BRIEF           : Get only short descriptions of a room when moving around.
+INFO HERE,
+IH
+: See the unique item numbers of the things in your location.
+WHO
+HERE        : See a brief listing of the people in your location.
+WHO             : Shows who is in the game, if visible to you.
+BW
+,
+QW
+: (BriefWho, QuickWho) A shorter WHO listing.
+RACEWHO,
+RWHO
+: A who list for people of your
+race
+.
+WARES
+: See what is for sale in a
+shop
+. See
+HELP SHOPS
+for more.
+CRAFTERWHO
+: A list of online
+tailors
+,
+jewellers
+,
+heralds
+, and cooks.
+CONSIDER
+:
+Learn
+more about your foe.
+Some
+combat
+-related commands
+----------------------------
+KILL
+: Use a
+class
+attack
+on a
+denizen
+.
+SETTARGET
+,
+ST
+: Set a
+target
+, allowing you to just enter an attack
+command
+,
+rather than specifying a target each
+time
+.
+COMPOSE
+:
+Purge
+fear from yourself.
+CONCENTRATE
+: Regain internal
+equilibrium
+if you have
+lost
+it.
+WRITHE
+:
+Escape
+from hindering entanglements.
+PUNCH           : Punch something. A weak attack.
+KICK            : Kick something. Also a weak attack.
+DRINK/SIP/QUAFF : Drink, sip, or quaff a liquid, such as a healing
+elixir
+or other liquid.
+APPLY
+: Used to apply
+salves
+to your body. For instance, APPLY
+MENDING
+SALVE
+TO ARMS. See
+HELP HEAL
+for extended information on healing.
+MEDITATE/MED    : Regain
+mana
+.
+SLEEP
+: Regain
+health
+.
+SET
+WARCRY
+: Set your warcry. Can warcry or
+motto
+, but not both.
+WARCRY          : Scream out your warcry.
+SET MOTTO       : Set your motto. Can warcry or motto, but not both.
+MOTTO           : Declaim your motto.
+STAND           : Stand up if you have fallen down.
+Some
+house
+-related commands (You may see the
+others
+with HOUSE AUTHORITY)
+-------------------------------------------------------------------------
+HOUSE MEMBERS   : View the active members in your house.
+HOUSEFAVOUR
+: Formally
+honour
+a fellow housemember.
+HOUSEDISFAVOUR
+: Place a black
+mark
+against a fellow housemember.
+QUIT
+<housename>: Quits your house.
+HWHO
+: See who from your HOUSE is online.
+HOUSETELL
+,
+HT
+: Tell something to everyone who is online and in your house.
+Some
+city
+-related commands
+--------------------------
+CWHO
+: See who is online from your city.
+CITIZENS
+: See every active
+member
+of your city.
+CITIZENS
+DORMANT
+: See the dormant members of your city.
+CITYTELL,
+CT
+: Tell something to everyone who online and a member of your city.
+Other commands of general usefulness
+------------------------------------
+QUIT,
+QQ
+:
+Leave
+Achaea
+, for now.
+DATE
+: See the
+Achaean
+date.
+TIME              : See the real time.
+REGISTER
+: Register your personal details with the
+system
+.
+DESCRIBE
+SELF     : Add a personal touch to your description.
+ENEMY
+: Declare someone your enemy.
+UNENEMY           : Remove someone from your
+enemies
+list.
+ALLY
+: Declare someone your ally.
+UNALLY            : Remove someone from your
+allies
+list.
+CONFIG
+PAGELENGTH
+: Set the max number of lines to be displayed at once
+when
+reading
+long
+scrolls
+.
+!                 : Repeat your last command.
+EAT
+: Eat a
+piece
+of food.
+PORTALS
+: If you are a newbie and have any
+Godly
+rescues
+left, this will teleport you to a room full of portals. (STATUS will tell you if you have any left.)
+FLIPCOIN          : Flip a coin. Heads or tails? Only
+Hermes
+, God of rogues and
+gamblers
+, knows.
+BIRTHDAYS         : Shows you who has a birthday today.
+HONOURS
+: Gives you some information about another adventurer.
+PASSWORD
+: Change your password.
+RANKINGS
+: See a list of the top-ranked adventurers.
+LEARN             : Commence a
+lesson
+in a skill from a denizen or adventurer. (see HELP
+LEARNING
+)
+DEPOSIT
+: Deposit some
+money
+in a
+bank
+. (see HELP
+BANKING
+)
+WITHDRAW
+: Withdraw some money from your account.
+SCRUB             : When you are particularly smelly, scrubbing yourself in a river or lake is quite effective.
+STAREDOWN         : Stare down another adventurer, if of a lower
+level
+.
+RATS
+: Toggle whether or not you see rats.
+PLANTS
+ON/OFF     : Whether or not you see growing plants.
+WEATHER
+ON/OFF    : Whether or not you see general weather conditions.
+DELETE            : Permanently destroy your character, except customers.
+CHARACTERS        : Displays helpful information about your
+registration
+and account.
+REINCARNATE
+: You may reincarnate once for free during your lifetime. Doing so allows you to choose a new race. You must be dead to reincarnate. The syntax is REINCARNATE INTO <race>.
+HELP REINCARNATE
+for more information.
+NAMECHANGE
+: Allows you to change your name, provided you have played under 50
+hours
+, and have not changed it before.
+SCRUB WALLS       : With a full
+bucket
+of water, scrub city walls of graffiti.
+NAME <denizen>    : Name your loyal
+denizens
+! Costs 1000 gold.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

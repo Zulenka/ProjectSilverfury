@@ -1,0 +1,221 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.2.4 EGGHUNT
+The grandest sport known throughout the land! Or perhaps not. But fun
+nonetheless. The
+idea
+of this game is to gather as many special
+eggs
+which are scattered about the land in the
+time
+limit provided. The person
+with the highest
+score
+at the end of the time
+period
+is the winner.
+The eggs and their
+point
+values (from common to rare):
+1 point:  a white
+egg
+2
+points: a blue egg
+3
+points: a green egg
+5
+points: a yellow egg
+8 points: a striped egg
+In Golden
+Egghunts
+only:
+100 points: a Golden Egg
+The rules
+---------
+* You must
+JOIN
+EVENT
+to become a part of an
+EGGHUNT
+.
+* An EGGHUNT is an EVENT - use the various EVENT
+commands
+such as
+EVENT
+WHO
+, EVENT
+STATUS
+, EVENT SCORES, etc.
+* Egghunts may be
+sharing
+or nosharing
+* For sharing egghunts:
+* An egg must be in your
+inventory
+to count (not in any
+container
+).
+* You will drop any eggs if you
+die
+.
+* For NOsharing egghunts:
+* When you pick up an egg, it disappears, and your score increases.
+Variation: GOLDEN Egghunt
+-------------------------
+A Golden Egghunt is like any
+other
+egghunt, except for a twist: there is a
+single Golden Egg, whose location will
+show
+up in
+WG
+STATUS. The Golden
+Egg is worth 100 points alone. Warning: if you happen to be the lucky
+finder of the Golden Egg, watch out! Somewhere out there is a very large
+and very angry Golden Goose who is out to reclaim her egg.
+PK
+or NOPK
+----------
+* PK (Player
+killing
+) to get eggs is an option which may vary from
+game to game. As with all other options, check with EVENT STATUS.
+With PK permitted,
+experience
+loss for player deaths will be disabled for
+the duration of the event. ONLY those who have joined the event can
+kill
+each other without further
+roleplay
+reason. Normal PK rules are in effect
+during this event for those who have not joined it.
+THEFT
+FORBIDDEN
+---------------
+* THEFT is forbidden at all
+times
+for all forms of EGGHUNTS, whether
+or not PK is allowed, if either the victim or the thief has joined
+the egghunt.
+EGG LOCATIONS
+-------------
+* Eggs will be in rooms on the main
+continent
+of
+Sapience
+.
+This may include anywhere that is out of
+doors
+, though not
+in the
+trees
+or
+flying
+.
+Eggs will also not appear in
+subdivisions
+nor on the
+wilderness
+map
+.
+EGGS DISAPPEARING
+-----------------
+* Eggs are unstable and will disappear under any of these circumstances:
+- in a container, rather than on the ground or in your inventory
+- being held by another
+denizen
+- being held by an adventurer who is
+- off
+plane
+- flying
+- in the trees
+- phased
+- graced
+- blackwinded
+- astralformed
+- in the Skies
+- in nirvana or the inferno
+- not joined in the game
+- in ANY
+city
+, or in the
+sewers
+of any city.
+DEATH
+WARNING
+-------------
+NOTE CAREFULLY - if you die during a PK event, but the event ends before you
+are immolated/resurrected or
+embrace
+death, then you MAY VERY WELL
+lose
+experience for that death. We have added a 'cooling off' period at the end of
+free-PK
+events
+to try to avoid any possible difficulties of this kind.
+No reimbursements will be given for
+lost
+experience in such cases.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

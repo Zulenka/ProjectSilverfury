@@ -1,0 +1,173 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.18 Personal Histories
+Every
+character
+in
+Achaea
+is given the capability to write a publicly viewable
+background
+and to keep his or her personal
+history
+up to
+date
+by
+writing
+regular 'chapters.' This background and the chapters must be written in-role,
+as they are there to be used as
+roleplay
+devices.
+In order to promote consistent roleplay, you must remember that once you've
+written your background, _it cannot be altered_. You can, however, provide
+updates to your background by way of the aforementioned chapters. Ideally,
+reading
+a character's background and then reading the various historical
+chapters that the character has written will give one a
+sense
+of where the
+character is coming from, where he's been, and where he's
+going
+.
+Once again we must emphasize that this
+system
+is to be used _only_ for writing
+in-role history of your character. It's not to be used for any
+other
+purpose,
+and those using it for any other purpose will find they cannot use the system
+anymore
+.
+Syntax
+summary: (full explanations in the next section)
+--------------
+COMPOSE
+BACKGROUND (**
+READ
+THE INSTRUCTIONS BELOW FIRST ** )
+COMPOSE HISTORY
+COMPOSE HISTORY
+TITLE
+<chapter #> <title>
+VIEW BACKGROUND <adventurer>
+VIEW HISTORY SUMMARY <adventurer>
+VIEW HISTORY <chapter #> <adventurer>
+SET HISTORY PUBLIC/
+ALLIES
+/PRIVATE
+Syntaxes:
+---------
+COMPOSE BACKGROUND
+- Takes you into the
+Achaean
+editor
+to compose your background.
+- You may only write a background ONCE, ever. We recommend writing it
+off-line in a word processor,
+spell
+-checking it, reading it over a few
+times
+to make sure it's just how you want it, and then pasting it into
+the Achaean editor.
+- There's no need to write excessively long
+backgrounds
+. What you want to
+do is give your character some flavour and give yourself a framework to
+roleplay in. What you do not want to do is write histories that nobody
+will respect, because they are ridiculous. Don't write that you come from
+some far off land, as you don't. Don't write that you are the
+spawn
+of
+some demon, because you aren't. Keep it consistent with Achaean history
+and consistent within itself.
+- YOU MAY ONLY WRITE A BACKGROUND ONCE AND ONCE SAVED, YOU CAN _NEVER_
+ALTER IT! SO BE CAREFUL!
+COMPOSE HISTORY
+- Takes you into the editor to compose a new chapter.
+- Like with backgrounds, you may not edit these once saved.
+- Chapters are to be used only for the telling and explaining of personal
+history. They are not to be used to write whatever you feel like writing.
+COMPOSE HISTORY TITLE <chapter #> <title>
+- Assigns a title to a chapter.
+- The title may be multiple words long. The title may be changed as many
+times as you like.
+VIEW BACKGROUND <character>
+- Views a character's background.
+- Omit the character field to view your own background more easily.
+VIEW HISTORY SUMMARY <character>
+- Displays a summary of the chapters a character has written.
+- Omit the character field to view your own summary more easily.
+VIEW HISTORY <chapter> <character>
+- Displays the specified chapter of the specified character.
+- Omit the character field to view your own chapters more easily.
+SET HISTORY PUBLIC/ALLIES/PRIVATE
+- Sets your background and chapters viewable by everyone, only your allies
+or no one. The only exceptions are the most powerful
+Gods
+(such as
+Tecton
+)
+who
+can always read them.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

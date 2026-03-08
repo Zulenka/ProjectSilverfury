@@ -1,0 +1,142 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.14 About hacking of your adventurer
+(see also:
+HELP
+PASSWORD
+)
+By
+hacking
+, we mean when someone steals, guesses, or otherwise obtains access to your adventurer's password or account.
+Failed
+Login
+Attempts
+---------------------
+The
+message
+you get about failed login attempts is not always a sign of hacking: sometimes it's just someone curious, perhaps to see if a
+name
+is being used, or even may have mistyped the name. Nearly every adventurer sees this message a few
+times
+, and it is usually
+nothing
+to worry about.
+In any
+event
+, when you see the message about failed login attempts, please don't immediately
+ISSUE
+! Just make sure your password is secure. See below for suggestions on how to help with that.
+Password Security
+-----------------
+The security of your accounts for all of your adventurers is your concern and your sole responsibility. You choose the password, and it is your job to protect it! We don't want you to be
+hacked
+or
+lose
+your
+character
+, so here are a few ways to reduce the risk of hacking and protect your
+passwords
+.
+1) Never
+tell
+your password to anyone.
+2
+) Don't write your password down where anybody else can find it.
+3
+) Use a password that is difficult to guess. Use
+letters
+, numbers, AND special characters. Don't just use a name or common words.
+Good: this:is?agood1
+Bad:  johndavis
+4) Don't have your
+mud
+/telnet
+client
+save
+your adventurer's password if there is ANY chance that someone else
+might
+use your machine.
+5
+) Make sure that your
+registration
+on the adventurer is accurate. If there is ever a problem with your account, you must be able to verify your identity. The only way to identify yourself is to provide your real-
+world
+name, birthdate, and
+email
+address, along with your adventurer name. If you can't do that, then we won't be sure that you are the rightful owner of the adventurer.
+6
+) In cases where failed login attempts happen more than a few times, you may
+wish
+to email your complete, proper registration information to
+support
+@
+achaea
+.com,
+who
+can record it separately in case of a successful
+hack
+, and can record the internet addressing information of the failed login attempts.
+(see also: HELP PASSWORD)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

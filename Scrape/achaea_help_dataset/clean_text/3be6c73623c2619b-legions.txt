@@ -1,0 +1,233 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+24.2 Legions
+The first
+thing
+you'll need to do in order to mine or to
+attack
+a mine or
+stronghold is squads for your Legion. To do this, just find a
+denizen
+that is
+effectively
+selling
+squads. These
+denizens
+are the conduit to squads
+looking
+for work. Squadmaster Barakus is the man to see about squads. Barakus can be
+found in a
+mining
+camp just off the path that leads across the Northern
+Vashnar
+Mountains, eventually
+going
+to
+Mhaldor
+.
+Just
+BUY
+<squad> FROM BARAKUS as you'd buy from any
+other
+shop
+. By default, your Legion is limited to 1000 people, divided into squads of up to 20.
+Within your Legion are two types of squads, called Cohorts. There's the Mining
+Cohort, which is composed of your mining squads, and the Soldier Cohort,
+composed of one of five
+base
+types of soldier squad.
+Squads have the
+following
+attributes:
+Cohort          : Either Mining or Soldier.
+Name
+: Such as Rico's Roughnecks or Swamp Witches.
+Level
+: Squads start at level 1, and can advance as far as level
+10. See below for more info.
+Strength
+: How many people are in the squad. When first purchased,
+squads have 20 members.
+Squad type      : Either Miner or, if a soldier squad, Infantry, Heavies,
+Assassins
+, Archers, Wizards.
+Specialisations
+: This only applies to mining squads. Each mining squad not
+only
+levels
+up as it is in a mine that produces raw
+comms
+,
+but will start to level up its expertise at mining specific
+raw comms as it
+mines
+that raw comm.
+Squad Levels
+------------
+As mining squads in a mine produce raw
+commodities
+, it and every other friendly
+squad in the mine gets squad
+experience
+, eventually leading to it
+levelling
+up
+to a max of level 10.
+As mining squads level up, they get a chance to produce commodities faster than
+usual. Every squad level adds a 1 percent chance that that squad will
+generate an extra comm when it produces one normally.
+Further, as mining squads generate commodities they also get
+specialisation
+levels in that
+commodity
+, and for each specialisation level there's an additional
+2
+percent chance of generating an extra comm when one is normally produced.
+Legion Syntaxes
+---------------
+LEGION LIST
+- List the squads in your Legion.
+LEGION
+SHOW
+SQUAD <squad ID>
+- Get more info on a specific squad.
+LEGION DEPLOY SQUAD <squads1> [squad2] [...]
+- Deploy squads in either a mine or a stronghold. You must be in the mine or
+stronghold to deploy and you can only deploy in your mine or your stronghold.
+LEGION DEPLOY ALL <type>
+- Deploy all of a particular type of squad.
+LEGION
+RECALL
+ALL [HERE]
+- Recall all your mining squads from everwhere, or just the ones in the room you're in.
+LEGION RECALL SQUAD <id>
+- Recall a specific squad.
+LEGION
+ARMY
+CREATE <army name>
+- Create an army, which is just a way to refer to a
+group
+of squads as a group.
+LEGION ARMY ADD <army name> <squadid>
+- Add a squad to your army, which is used offensively to attack mines and
+strongholds
+.
+LEGION DEPLOY ARMY <army name>
+- Deploy an army a room inside a mine or stronghold.
+LEGION ARMY DISMISS SQUAD <squad id>
+- Dismisses a squad from whatever army it's in.
+LEGION RETIRE SQUAD <id>
+- PERMANENTLY retires a squad, removing it from your Legion entirely.
+LEGION ARMY LIST
+LEGION ARMY SHOW <army name>
+- Get more information on your army.
+LEGION ARMY DISMISS SQUAD <squad id>
+- Dismiss a particular squad from your army. It is still in your Legion,
+however.
+LEGION ARMY DISMISS ALL [army name]
+- Dismiss all the squads from your army or from all
+armies
+.
+LEGION
+ASSAULT
+MINE|STRONGHOLD WITH <ARMY <army name>|SQUADS <squad1> [squad2] [...]>
+- This is how you assault a mine or stronghold. See below for more info on
+assaults.
+LEGION EXPAND CAPACITY
+- This costs 200
+bound
+credits
+the first
+time
+and increases by 100 for each
+subsequent expansion.
+- Capacity is increased by 100 people with each increase.
+- This can be done a maximum of four
+times
+.
+Available Squads from Squadmaster Barakus
+-----------------------------------------
+Note: All squads cost 1000
+gold
+, and start at level 1. The only difference
+between squads of the same type (miner, archer, wizard,
+assassin
+, heavy,
+infantry) is
+cosmetic
+.
+Miners   : Manaran Miners
+Infantry : El'Jaziran Dogmen,
+Dun
+Infantry
+Wizards  : Swamp Witches, Dwarven Mages
+Assassins: Ganeven Assassins,
+Colchis
+Assassins
+Heavies  : Rico's Roughnecks, Troll Brutes
+Archers  : Shortbow Archers,
+Aalen
+Bowmasters
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

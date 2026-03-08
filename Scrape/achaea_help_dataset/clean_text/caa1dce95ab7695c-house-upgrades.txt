@@ -1,0 +1,350 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+20.4 HOUSE UPGRADES
+(See also:
+HELP HOUSING
+, HELP HOUSING SUMMARY,
+HELP
+SUBDIVISIONS
+)
+Once you've purchased your
+house
+there are a number of different upgrades you
+can purchase for the rooms in your house. These upgrades tend to be fairly
+expensive compared to rooms as they represent either serious structural changes
+to your house from a
+roleplaying
+sense
+or powerful magic.
+Houses
+and Rooms: No Sale or Transfer
+-------------------------------------
+Houses may not be sold, transferred, or traded in, although the individual
+rooms and
+doors
+may be destroyed and some value may be recaptured in that way.
+Destroying the rooms and doors of a house returns approximately half
+credit
+.
+Plots
+may not be sold if they have houses on them.
+UPGRADES LIST
+-------------
+All upgrade costs* in houses built upon
+ships
+are doubled.
+(*) That's costs, not refund value at
+time
+of
+destruction
+.
+See
+HOUSING
+DESTROY ROOM UPGRADE, below, for further information.
+Health
+regeneration
+(keyword: health)
+- You and your
+allies
+will
+regenerate
+extra health while in the room.
+- 40 room
+credits
+.  (80 on a
+ship
+)
+Mana
+regeneration (keyword: mana)
+- You and your allies will regenerate extra mana while in the room.
+- 40 room credits.  (80 on a ship)
+Endurance
+regeneration (keyword: endurance)
+- You and your allies will regenerate extra endurance while in the room.
+- 60 room credits.  (120 on a ship)
+Willpower
+regeneration (keyword: willpower)
+- You and your allies will regenerate extra willpower while in the room.
+- 60 room credits.  (120 on a ship)
+News
+access (keyword: news)
+- Anyone may access the news from that room.
+- 40 room credits.  (80 on a ship)
+Outdoors (keyword: outdoors)
+-
+Remove
+the roof from that room.
+- 10 room credits.
+- NOTE: not available on ships.
+Environment
+(keyword: see below)
+- Change the environment to one of the available choices. You may only
+have one environment per room - for example, if you upgrade a room to
+garden
+, and it was formerly freshwater, it is no longer freshwater.
+- 20 room credits.
+- NOTE: not available on ships.
+- Environments that may be selected are:
+* Garden (keyword: garden)
+-
+Plants
+will grow here.
+-
+Trees
+are added to the room.
+* Freshwater (keyword: water)
+- Plants will grow here.
+- You will not be able to
+fish
+from this room.
+* Beach (keyword: beach)
+* Grassland (keyword: grassland)
+- Plants will grow here.
+* Natural Underground (keyword: nunderground)
+- Plants will grow here.
+- Alchemical
+minerals
+may be extracted here.
+-
+Diamond
+dust may be gathered here.
+* Constructed Underground (keyword: cunderground)
+- Alchemical minerals may be extracted here.
+Security (keyword: security)
+- Applies
+key
+sigil
+,
+monolith
+sigil, and
+eye
+sigil protections to the room.
+-
+5
+room credits (10 on a ship)
+Orb
+(keyword: orb)
+- blocks track and flight in and out of a room.
+- You can still pierce the veil out of the room.
+- Airlord lightning will not be able to pierce the orb's protection.
+- Traverse, the Yuthka
+Legenddeck
+card, and falcons will not be able to pass
+through the barrier.
+- This cannot be deactivated, it is always on.
+- Not available for ships.
+- 5 room credits
+No Prism (keyword: noprism)
+- For those desperate for
+privacy
+, this will prevent prisming into that
+room.
+- 40 room credits.
+- NOTE: not available on ships.
+Privacy (keyword: privacy)
+- Veils your room in a cloak of privacy. People will not be able to
+listen in on conversations there. Various
+things
+are stopped, including
+eavesdropping, listening, mind listen,
+vodun
+/
+puppetry
+listen,
+angel mindread, and forms of overhearing
+tells
+.
+- 80 room credits.  (160 on a ship)
+- NOTE: An option to this is a
+bed
+, which is a much more powerful version
+of a privacy room. See
+HELP BEDS
+for more details.
+Stables (keyword: stables)
+- Allows you to STABLE <LOYAL> (be it
+mount
+,
+pet
+, or
+minipet
+.)
+-
+Mounts
+will no longer need or use
+food
+while stabled.
+- If the loyal resets, it will now reset to that room instead of your
+inventory
+.
+- You may UNSTABLE <LOYAL> to remove it.
+- 80 room credits.  (160 on a ship)
+Gates (keyword: gates)
+- Prevents stabled mounts from being summoned with WHISTLE <mount>
+or the platinum whistle
+artefact
+.
+- Requires the stables upgrade to be purchased first.
+- 20 room credits.  (40 on a ship)
+Observatory (keyword: observatory)
+- Allows you to
+LOOK
+OUTSIDE and see the
+subdivision
+map
+.
+- Not available in out-of-subdivision houses.
+- 40 room credits.
+Furniture Stasis (keyword: fstasis)
+- Prevents furniture
+decay
+in the room.
+- 80 room credits.  (160 on a ship)
+Humgii
+(keyword: humgii)
+- Your own pet humgii! Will
+eat
+almost
+anything
+given to him.
+- Can have his
+description
+customised (HELP
+CUSTOMISATIONS
+).
+- 50 room credits.  (100 on a ship)
+Chess
+board
+(keyword: chess)
+- A permanently installed chessboard for your house.
+- 40 room credits.  (80 on a ship)
+Fountain (keyword: fountain)
+- A bubbling fountain that supplies a stream of fresh water.
+- Can have its description customised (HELP CUSTOMISATIONS).
+- 20 room credits.  (40 on a ship)
+Plaster (keyword: plaster)
+- Prepare a room for a mural!
+- See
+HELP ARTISTRY
+-
+3
+room credits. (
+6
+on a ship)
+Cellar (keyword: cellar)
+- A room upgrade that allows the
+placing
+of Kegs/Casks/Barrels from
+furnishing
+to age and store
+beverages
+!
+- 10 room credits. (20 on a ship)
+Plot
+sign (keyword: sign)
+- A small wooden sign outside your subdivision home.
+- Must be purchased/traded-in from the keyroom of your house.
+- Not available for ships.
+- 20 room credits.
+Crystal Ornament (keyword: ornament)
+- Allows the home owner to set up to three ambience
+messages
+that will be displayed randomly.
+- 40 room credits.  (80 on a ship)
+-
+Syntax
+:
+PUSH ORNAMENT <message>   Add a
+message
+.
+PULL ORNAMENT <#>         Remove a message.
+TOUCH ORNAMENT            List current messages.
+TURN ORNAMENT             Toggle ornament's visibility.
+COMMANDS
+--------
+HOUSING
+BUY
+ROOM UPGRADE <keyword>
+-
+Buys
+a specified upgrade for the room you are standing in. All upgrades
+cost TWICE as much for houses on ships.
+HOUSING DESTROY ROOM UPGRADE <keyword>
+- Destroys a specified upgrade in the room you are standing in and
+refunds you half the room credits that the upgrade currently costs.*
+(*) NOTE: the refund value is half the room credits that the upgrade
+costs appropriate to where it is located. If you own a home on a ship,
+where upgrades cost double, you will be refunded half of the doubled
+purchase cost.
+HOUSING
+SHOW
+ROOM UPGRADES
+-
+Shows
+the upgrades for the room you're in, if you own it.
+(See also:
+HELP HOUSING
+, HELP HOUSING SUMMARY, HELP SUBDIVISIONS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

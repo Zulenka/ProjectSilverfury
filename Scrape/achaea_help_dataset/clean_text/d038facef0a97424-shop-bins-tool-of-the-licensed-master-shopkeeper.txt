@@ -1,0 +1,216 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.11.2 Shop Bins: Tool of The Licensed Master Shopkeeper
+(See also
+HELP PRICING
+and
+HELP
+SHOPKEEPING
+)
+The Licensed Master
+Shopkeeper
+-
+LMS
+for short has a number of very powerful
+commands
+at his disposal in pursuit of shopkeeping excellence and the profit
+that may bring!
+PRICE <item> <price>
+BIN
+<bin>
+PRICE BIN <bin>
+NAME
+<name>
+PRICE BIN <bin> <visibility-info>
+PRICE BIN LIST
+WHERE AND WHEN
+--------------
+Go
+to your stockroom. There you may
+issue
+these PRICE BIN commands.
+PRICE BIN commands affect the visibility of your
+bins
+to different
+groups
+.
+Shop
+bins do not expire. You must
+remove
+them explicitly.
+PUT
+THINGS
+IN BINS
+------------------
+To place an item in a bin, simply add "BIN <bin>" to the end of any normal
+pricing
+command
+. For example:
+PRICE sword12345 5000 BIN
+2
+Now that sword is in bin 2! To take
+something
+out of a bin, just put it in bin
+0. Bin 0 is the place where
+everything
+goes that is not in any
+other
+bin. It's
+the 'non-bin!'
+DECORATE YOUR BINS
+------------------
+You have a limited number of bins, currently 7, plus the store generally, which
+is not exactly a bin, but sort of. Things not in any other bin are in the
+store.
+Name your bins like this:
+PRICE BIN 2 NAME Great Swords!
+If you don't give your bins
+names
+, they'll have something quite unimaginative,
+such as BIN 1 or BIN 4. Yecch! Nobody will
+buy
+from you if you do this!
+CONTROL
+VISIBILITY OF YOUR BINS
+-------------------------------
+Now for the fun stuff! Bins aren't necessarily visible to everybody. Bins can
+be set with various 'visibility options' as follows:
+PRICE BIN
+3
+ALL                     - everyone sees this bin
+PRICE BIN 4 ALL EXCEPT
+GROUP
+DRUIDS
+- everyone but druids sees this bin
+PRICE BIN
+6
+ALL EXCEPT PERSON
+AEYR
+- everyone but Aeyr sees this bin
+PRICE BIN 2 NONE                    - nobody sees this bin
+PRICE BIN
+5
+NONE EXCEPT GROUP
+THOTH
+- only Thoth order members see it
+PRICE BIN 1 NONE EXCEPT PERSON YIG  - only Yig sees it
+PRICE BIN 7 NONE EXCEPT CODE mycode - only people
+who
+know this code!
+A BIT MORE ABOUT CODES
+----------------------
+If you want to make a bin only visible to someone with your secret code, here
+is what you do. First, set up the code with the command just before this
+section. It would be something like PRICE BIN 7 NONE EXCEPT CODE blahblah.
+ONLY those who use the
+following
+command will see bin 7:
+WARES
+CODE blahblah
+COMPARISON
+WITH SHOP
+POLICIES
+-----------------------------
+Shop policies affect the entire shop. If you refuse
+service
+to a person or
+group, that person or group can buy
+nothing
+from you, and cannot see your
+wares. If you give a discount, or charge a markup, it applies to all
+buyers
+. On
+the other hand, you can have a good number of shop policies.
+Bins each have their own visibility - who can or cannot see the bin. Mostly,
+you'll just be using bins to organise and highlight your stock, with maybe a
+special '
+House
+only' bin or two. Make a bin for
+weapons
+and a bin for
+armour
+,
+or whatever you
+wish
+. A bin for specially-enchanted rings perhaps: use the bins
+however you like!
+PRICE BIN LIST
+--------------
+Shows
+all bins at this shop.
+SYNTAX
+REVIEW
+-------------
+Syntax: PRICE BIN <bin#> ALL|NONE [EXCEPT GROUP|PERSON|CODE <who>]
+where <bin#> is the bin number, 0=no bin,
+and <who> is the person, group, or code
+OR
+PRICE BIN <bin#> NAME <name>
+OR
+PRICE BIN LIST
+(See also
+HELP PRICING
+and HELP SHOPKEEPING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

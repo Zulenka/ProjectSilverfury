@@ -1,0 +1,133 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.14 ADVERTISEMENTS
+There comes a
+time
+in any adventurer's life when that dusty old sword isn't
+really needed
+anymore
+and the
+gold
+it's worth could better be spent on
+other
+things
+...
+Advertisments can be used to list what you have for sale or what you are
+looking
+to purchase. They are visible to everyone and exist only to facilitate
+communication
+about a particular product or item, they are not involved with
+the actual purchase of the item (that's left up to the merchant in you!)
+The
+commands
+to use the
+Ad
+system
+are as follows:
+ADS
+[BY <person>] [FOR <pattern>]
+Lists the ads you can see. Be warned though, there may be many. Try
+limiting your search by using the BY and/or the FOR clause. These
+help
+by only displaying ads posted by an individual, eg.: ADS BY
+AEYR
+or that match a certain
+pattern
+, eg: ADS FOR *sword*
+AD <id>
+Display more information about a particular ad, including the Poster,
+the price, and the
+description
+of what is for sale/desired.
+AD <id> BRIEF <text>
+Change the brief description of the ad.
+AD <id>
+DESCRIBE
+<text>
+Change the description of the item that is for sale/desired.
+Anything
+you want potential purchasers to know should
+go
+here.
+AD <id> PRICE <price>
+Set the price of the item you are
+selling
+or how much you are willing
+to spend on a purchase.
+AD <id>
+DELETE
+Remove
+one of your ads.
+AD NEW <name>
+Create a new ad with the specified
+name
+. Be warned, old ads will be
+automatically deleted after a while. You may only have 10 ads at any
+given time, so choose wisely. (You can always delete some if you
+absolutely NEED to
+sell
+that ratty old Rajamala blanket.) It costs
+100 gold to create a new ad.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

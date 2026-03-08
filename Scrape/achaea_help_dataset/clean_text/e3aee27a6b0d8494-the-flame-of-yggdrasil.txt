@@ -1,0 +1,115 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+12.1.2 THE FLAME OF YGGDRASIL
+The fabled
+Flame
+of
+Yggdrasil
+is said to have the
+power
+to
+resurrect
+bodies
+which are placed in it. If you can find the Flame, simply do this:
+-
+IMMOLATE
+<corpse> and the person will have the option to
+- ENTER the FLAME (in which case life will be returned to that person), or
+-
+REJECT
+the FLAME (in which case the
+corpse
+will fall to the ground).
+Those
+who
+delay this decision (to ENTER or REJECT) long enough, whether through
+indecision or a difficult discorporation will find that they will have resolved
+the
+question
+in
+favour
+of entering the flame. (In short, if you wait more than
+about 15
+seconds
+, either because you can't or won't decide, or because you have
+lost
+connection between body and soul, then you will ENTER the flame anyhow).
+It is said that the Flame began its
+aeon
+-long burn ages ago when the Elder God
+Agatheis
+was experimenting with elemental
+control
+. He spent many years inside
+Yggdrasil, meditating and perfecting His power, and an experiment gone awry one
+day
+resulted in a life-giving, seemingly eternal, heatless flame.
+Because of the genuinely holy
+nature
+of the Flame, it is considered a sign of
+disrespect to the
+Gods
+to linger there.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

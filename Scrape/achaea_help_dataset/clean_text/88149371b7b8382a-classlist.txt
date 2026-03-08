@@ -1,0 +1,335 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.96 A LIST OF CLASSES.
+What follows is a list of
+classes
+, the
+skills
+that come with them. For more
+info see:
+HELP CLASS
+<class>
+HELP HOUSE
+<house>
+HELP
+<skill>
+Summary
+-------
+Alchemist
+:   Enigmatic figures
+wielding
+the
+power
+of the ether.
+Apostate
+:    Evil, necromantic daemon summoners.
+Bard
+:
+Bladedance
+,
+Composition
+, and
+Sagas
+are at the disposal of the Virtuoso
+Blademaster
+: Masters of the legendary Two Arts.
+Depthswalker
+:Manipulators of shadows and
+time
+.
+Druid
+:       Forest-loving metamorphs.
+Infernal
+:    Evil warriors employing necromantic methods.
+Jester
+:      Happy-
+go
+-lucky pranksters and rogueish entertainers.
+Magi
+:        Masters of the four elements and
+crystalline
+vibrations.
+Monk
+:        A
+class
+that
+forges
+mind, body, and
+spirit
+into a unified whole.
+Occultist
+:   Chaos-loving summoners of extra-
+planar
+entities.
+Paladin
+:     Valorous warriors wielding dual
+weapons
+with an eagle companion.
+Pariah
+:      Cheaters of
+Death
+and bringers of plagues.
+Priest
+:      Holy warriors with a fearsome
+guardian
+angel by their side.
+Psion
+:       Weavers with Aldar magic.
+Runewarden
+:  Mystic warriors
+who
+employ runic lore alongside their swords.
+Sentinel
+:    Metamorphing forest rangers with animals for assistance.
+Serpent
+:     Masters of
+venoms
+and
+subterfuge
+. Perhaps the trickiest class.
+Shaman
+:      Mystical users of
+Vodun
+dolls,
+curses
+, and
+bound
+spirits.
+Sylvan
+:      Forest-lovers who meld in mastery of three elements.
+Unnamable
+:   Frenzied mutant warriors for Chaos.
+Detail
+------
+Alchemist: Enigmatic figures wielding the power of the ether.
+Skills:
+-
+Alchemy
+-
+Physiology
+-
+Formulation
+/
+Sublimation
+Apostate: Evil, necromantic daemon summoners.
+Skills:
+-
+Evileye
+-
+Necromancy
+-
+Apostasy
+Bard: Sword, Song, and Story are at the disposal of the Virtuoso
+Skills:
+- Composition
+- Bladedance
+- Sagas*
+-
+Woe
+*
+* Woe is exclusive to
+citizens
+of
+Cyrene
+. Non-Cyrenian Bards
+wield
+Sagas.
+Blademaster: Masters of the legendary Two Arts.
+Skills:
+-
+TwoArts
+-
+Striking
+-
+Shindo
+Depthswalker: Fearless manipulators of shadow and time.
+Skills:
+-
+Aeonics
+-
+Shadowmancy
+-
+Terminus
+Druid: Forest-loving metamorphs.
+Skills:
+-
+Groves
+-
+Metamorphosis
+-
+Reclamation
+Infernal: Evil warriors employing necromantic methods.
+Skills:
+-
+Malignity
+-
+Oppression
+-
+Weaponmastery
+Jester: Happy-go-lucky pranksters and rogueish entertainers.
+Skills:
+-
+Puppetry
+-
+Pranks
+-
+Tarot
+Magi: Masters of the four elements and crystalline vibrations.
+Skills:
+-
+Crystalism
+-
+Elementalism
+-
+Artificing
+Monk: A class that forges mind, body, and spirit into a unified whole.
+Skills:
+-
+Tekura
+/
+Shikudo
+-
+Kaido
+-
+Telepathy
+Occultist: Chaos-loving summoners of extra-planar entities.
+Skills:
+-
+Domination
+- Tarot
+-
+Occultism
+Paladin: Valorous warriors wielding dual weapons with an eagle companion.
+Skills:
+-
+Excision
+-
+Valour
+- Weaponmastery
+Pariah: Cheaters of Death and bringers of plagues.
+Skills:
+-
+Memorium
+-
+Pestilence
+-
+Charnel
+Priest: Holy warriors with a fearsome guardian by their side.
+Skills:
+-
+Spirituality
+-
+Devotion
+-
+Zeal
+Psion: Weavers of Aldar magic.
+Skills:
+-
+Weaving
+-
+Psionics
+-
+Emulation
+Runewarden: Mystic warriors who employ runic lore alongside their swords.
+Skills:
+-
+Runelore
+-
+Discipline
+- Weaponmastery
+Sentinel: Metamorphing forest rangers with animals for assistance.
+Skills:
+-
+Woodlore
+- Metamorphosis
+-
+Skirmishing
+Serpent: Masters of venoms and subterfuge. Perhaps the trickiest class.
+Skills:
+- Subterfuge
+-
+Venom
+-
+Hypnosis
+Shaman: Mystical users of Vodun dolls, curses, and bound spirits.
+Skills:
+- Vodun
+- Curses
+-
+Spiritlore
+Sylvan: Forest-lovers who blend in mastery of the three elements.
+Skills:
+-
+Propagation
+- Groves
+-
+Weatherweaving
+Unnamable: Frenzied mutant warriors for Chaos.
+-
+Dominion
+-
+Anathema
+- Weaponmastery
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

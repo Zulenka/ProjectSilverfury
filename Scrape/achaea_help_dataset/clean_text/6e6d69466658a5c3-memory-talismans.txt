@@ -1,0 +1,172 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.18 Memory Talismans
+The "Memory"
+talisman
+set:
+--------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+. This will always be announced via the relevant
+news
+when the
+pieces are currently available.
+-
+Trading
+between players (pieces only)
+The Memory set contains the following talismans:
+------------------------------------------------
+A miniature battle demon            - TALISMAN INFO MEMORYDEMON
+- Priced at 60
+credits
+- A
+minipet
+.
+A reinforced
+barrel
+of explosives   - TALISMAN INFO MEMORYBARREL
+- Priced at 300 credits
+- ROLL BARREL <direction> to use!
+- This
+infamous
+barrel may be rolled in a
+direction
+, and once it gets rolling it will roll for up to five rooms in that direction. For each room it passes through, it will annihilate all stone or icewalls in that room.
+- Note: It will not break walls in the initial room and requires they not be blocking the way, and closed
+doors
+as ever remain a foe too great for even the most mighty of magics.
+A
+bound
+vow
+of
+vengeance
+- TALISMAN INFO MEMORYVOW
+- Priced at 400 credits
+- While
+holding
+this talisman, you may VOW VENGEANCE AGAINST <target>.
+- They must be visible to you on the same
+continent
+, and once your vow is in place if you
+kill
+that person within the next ten
+minutes
+you will be greatly healed in body.
+- However, if you slay someone else first, your vow will come to
+nothing
+.
+- This carries a ten-
+minute
+cooldown.
+Shifting instrument                 - TALISMAN INFO MEMORYINSTRUMENT
+- Priced at 500 credits
+- This instrument has two functions.
+- First, you may INSPIRE AUDIENCE once every fifteen minutes to give everyone
+who
+considers you a mutual
+ally
+in your location the aria
+defence
+(as long as they aren't deaf).
+- Second, you may
+MORPH
+<instrument> INTO <
+other
+instrument type> to swap the instrument between various forms: harp, lyre, lute, and mandolin.
+Dread wings of fathomless
+woe
+- TALISMAN INFO MEMORYWINGS
+- Priced at 800 credits
+- These grisly wings will serve as an alternative to wings of the eagle and will take you to the skies when invoked with the word DUANATHAR.
+A malign heart                     - TALISMAN INFO MEMORYHEART
+- Priced at 1200 credits
+- If your starburst activates while holding this talisman, you will be inspired to great wrath, receiving a flat boost to your
+battlerage
+gauge.
+- You will only receive this boost once every ten minutes.
+A spark of hope                    - TALISMAN INFO MEMORYFLAME
+- Priced at 1600 credits
+- Drop this spark in a non-
+city
+outdoors room and it will grow into a
+flame
+.
+- The next three
+corpses
+of people to be placed into the flame (PUT
+CORPSE
+IN FLAME) will be forced into the
+halls
+of the
+finality
+.
+- Note, this will not work on anyone who died within the limits of a city.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

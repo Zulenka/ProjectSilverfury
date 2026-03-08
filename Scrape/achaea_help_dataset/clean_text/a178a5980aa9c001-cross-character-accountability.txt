@@ -1,0 +1,129 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.3.4 Cross Character Accountability
+(See also:
+HELP
+SECONDS
+)
+I.  What is cross
+character
+accountability
+?
+II
+. Additional notes
+I. What is cross character accountability?
+------------------------------------------
+Cross character accountability ensures that those of you with alternative
+characters (see HELP 15.
+3
+.1 for more on this) act responsibly with your
+usage of them.
+In practical terms, this usually means one of two
+things
+:
+a) Punishment increments for out-of-character matters are applied across
+your characters. This means that you will receive higher
+punishments
+for breaking the same rules, regardless of what character it is. This
+can eventually lead to you having all your characters
+shrubbed
+and
+your
+IP
+banned.
+b) If you create an alternative character with the sole intention of being a
+pain, you should expect to see consequences on your main/all character(s)
+played by you. Depending on the severity of your actions, this may
+include having all characters shrubbed or your IP banned.
+Simply put, creating or having an
+alternate
+character is not a way for you
+to
+escape
+punishments on
+other
+characters. If you are punished for violating
+a
+policy
+on one character, then
+log
+on to another character and continue
+behaving the same way, don't
+think
+we won't notice or do
+anything
+about it.
+Likewise, creating "throwaway alts" that you use to be a nuisance because
+you don't care about the consequences on those characters can have an effect
+on other characters that you play.
+II. Additional Notes
+--------------------
+Many players have alternate characters and are very responsible with them.
+This will not affect them. This will affect the small minority
+who
+see it
+fit to abuse the privilege of multiple, separate characters.
+(See also: HELP SECONDS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

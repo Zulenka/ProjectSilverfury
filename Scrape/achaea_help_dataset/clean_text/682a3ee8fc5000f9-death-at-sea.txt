@@ -1,0 +1,140 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.13 Death at Sea
+(See
+HELP DEATH
+,
+HELP SHIPS
+,
+HELP
+SEAFARING
+)
+Sea death's not all bad! How often do you get your bacon scooped out of the
+fire
+by helpful sea spirits? Seriously now.
+Death
+at sea can be far less troublesome if you simply make
+preparations
+ahead
+of
+time
+, and of course remember what to do in the not-too-gruesome eventuality
+of your sea borne demise.
+Preparation
+-----------
+Go
+to the
+ship
+of your choice. Be at the bow. Then:
+PERFORM
+SEAPRAYER
+RITUAL
+If it goes well, you'll know that this will be the place to which the sea
+spirits will return you after death. The ritual location will be remembered
+forever and does not have to be renewed unless, of course, you change your
+mind.
+One limitation here is important: the ritual depends on your continuing to
+maintain at least boarding privileges on the ship in
+question
+. If you are
+no longer able to
+board
+the ship, then your
+attempts
+to pray to the sea
+spirits on death will be to no avail.
+When Death Comes
+----------------
+Resurrection
+?
+Triggers
+allergies for some people.
+Immolation
+?
+Who
+wants to smell like barbecue?
+EMBRACE
+DEATH?       That's so 700AF.
+PRAY TO SEA SPIRITS  All the truly cool are doing it.
+Yes, if you have performed your seaprayer ritual successfully, then when you
+die
+, you will return to the place of that ritual if you simply PRAY TO SEA
+SPIRITS. Good stuff, eh? Oh yes.
+It may not work, though. If you are no longer able to board the ship, then your
+prayer will
+leave
+you at the same place as most everybody else: "Outside the
+Cave
+." How could it be that you are no longer able to board the ship where you
+performed the seaprayer ritual? Maybe you had a lover's spat, and your ex-pal
+has taken you off the boarding list? Maybe the vessel was sold. Maybe you
+quit
+the organisation that owns it. Many possibilities there.
+(See
+HELP DEATH
+,
+HELP SHIPS
+, HELP SEAFARING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

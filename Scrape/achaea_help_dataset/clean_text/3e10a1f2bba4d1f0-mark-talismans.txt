@@ -1,0 +1,356 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.4 Mark Talismans
+The "Marks"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The
+Marks
+set contains the following talismans:
+-----------------------------------------------
+A Warhorn of Heroes                  - TALISMAN INFO
+IVORYWARHORN
+- Purchasable in
+Delos
+for 1000
+bound
+credits
+.
+-
+Challenges
+another adventurer to a valorous duel.
+- Simply DECLARE
+CHALLENGE
+<person> to broadcast your challenge to the
+world
+.
+- The intended
+target
+can then ACCEPT or DECLINE your CHALLENGE.
+A Champion's medallion               - TALISMAN INFO
+IVORYMEDALLION
+- Purchasable in Delos for 350 bound credits.
+- This medallion will confer a bonus to
+experience
+for slaying members of
+the
+Quisalis
+Mark
+.
+- This only applies to adventurer kills.
+A Sangrean spyglass                  - TALISMAN INFO
+IVORYSPYGLASS
+- Purchasable in Delos for 200 bound credits.
+- Granting enhanced sight of the Ivory Tower, this spyglass will allow
+adventurer to see the
+ranks
+of the Quisalis Mark in the Realms.
+-
+MARKWHO
+will reveal the list.
+An Ivory pennon                      - TALISMAN INFO
+IVORYPENNON
+- Purchasable in Delos for 250 bound credits.
+- A sign of affiliation with the Ivory Mark, this pennon will confer a
+small experience bonus to the wearer when
+hunting
+in the the Quisalis
+Den, under New
+Thera
+.
+A spiralled silver
+arrow
+armband     - TALISMAN INFO
+IVORYARMBAND
+- Purchasable in Delos for 500 bound credits.
+- As a loyal
+supporter
+of the Ivory Mark, this item bestows a
+custom
+deathsight
+message
+upon the owner while worn.
+- For kills attributed to the wearer, adventurers will see: As a
+beacon
+of
+the Ivory Mark, Killer has vanquished Victim.
+An armed Atlantia dummy              - TALISMAN INFO
+IVORYATLANTIA
+- Purchasable in Delos for 50 bound credits.
+- Perfect for your next performance, or just to
+tell
+a horrible joke, this
+ventriloquist's dummy has been fashioned to
+look
+like Atlantia, leader
+of the Ivory Mark.
+- Wielders can DUMMY <dummy>
+SAY
+<whatever> to make the dummy
+speak
+.
+A Champion's
+Training
+Dummy          - TALISMAN INFO
+IVORYDUMMY
+- Purchasable in Delos for 50 bound credits.
+- Howl with righteous fury as your wail upon this training dummy.
+- You can drop it anywhere and then
+attack
+it for up to one
+Achaean
+day
+.
+- All
+attacks
+that work on
+denizens
+may be used on this item.
+A miniature ivory tower              - TALISMAN INFO
+IVORYTOWER
+- Purchasable in Delos for 500 bound credits.
+- A perfect replica of the Ivory Tower, this item may be TURNed to transport
+the adventurer to the
+Sangre
+Plains and the
+halls
+of the Ivory Mark.
+- This item will only work on the
+continent
+of
+Sapience
+, and requires the
+user to be in good general
+health
+.
+An Atlantian bowstring               - TALISMAN INFO
+IVORYBOWSTRING
+- Purchasable in Delos for 1200 bound credits.
+- Crafted for the famed cloudbow of Atlantia, this bowstring will ensure
+that
+arrows
+will not
+lose
+accuracy, regardless of how far the arrow is
+shot.
+- Simply ATTACH it to your bow to reap the benefits.
+- Should you
+wish
+to change the bow it is attached to, simply DETACH it.
+Anima's Thirst                       - TALISMAN INFO
+QUISALISDAGGER
+- Purchasable in Delos for 2500 bound credits.
+- The fabled tool of a long-dead
+assassin
+, this
+weapon
+will effortlessly
+pierce to the very soul of the target, severing the safeguards against
+death
+.
+- To unleash this
+power
+, simply STAB <target> WITH <dagger> and their
+starburst
+defence
+, and any inked starburst
+tattoos
+, will be annihilated.
+- This weapon may only be used once per Achaean day.
+A notched
+bone
+- TALISMAN INFO
+QUISALISBONE
+- Purchasable in Delos for 350 bound credits.
+- This macabre trophy will convey upon the owner a small experience bonus
+for slaying adventurers in the Ivory Mark.
+A Callibian medallion                - TALISMAN INFO
+QUISALISMEDALLION
+- Purchasable in Delos for 250 bound credits.
+- Replicated from the one worn by the famed Quisalis recruiter, Callibius,
+this token will bestow an experience bonus to all
+denizen
+kills inside the
+Ivory Tower.
+The Grandmaster's
+looking
+glass      - TALISMAN INFO
+QUISALISLOOKINGGLASS
+- Purchasable in Delos for 200 bound credits.
+- Precisely calibrated, this looking glass will allow the wielder to see the
+members of the Ivory Mark in the realms.
+A suspicious-looking Derillin dummy  - TALISMAN INFO
+QUISALISDERILLIN
+- Purchasable in Delos for 50 bound credits.
+- Known for his shadowy motives and enticing deals, Derillin's
+character
+traits
+have been accurately represented on this ventriloquist's dummy.
+- The owner of this puppet may use DUMMY <dummy> SAY <comment> to make him
+speak.
+An Assassin's training dummy         - TALISMAN INFO
+QUISALISDUMMY
+- Purchasable in Delos for 50 bound credits.
+- A vital tool for an aspiring Assassin, this training dummy will offer the
+convenience of a willing victim for all of the owner's attacks.
+- Once dropped, it will return to the owner's
+inventory
+in one Achaean day.
+- All attacks that work on denizens may be used on this item.
+A miniature tombstone                - TALISMAN INFO
+QUISALISTOMBSTONE
+- Purchasable in Delos for 600 bound credits.
+- As cold and eerie as the New Thera
+graveyard
+, this small token will
+transport the owner to outside the Quisalis Den under New Thera.
+- This item will only work on the continent of Sapience, and requires the
+user to be in good general health.
+A coiled black steel armband         - TALISMAN INFO
+QUISALISARMBAND
+- Purchasable in Delos for 500 bound credits.
+- As a devout follower of the Quisalis Mark, this armband bestows a custom
+deathsight message upon the owner while worn.
+- For kills attributed to the wearer, adventurers will see: In accordance
+with the traditions of the Quisalis Mark, Killer has assassinated Victim.
+A cloak of the Blood Maiden          - TALISMAN INFO
+QUISALISCLOAK
+- *THIS ITEM IS NOT CURRENTLY AVAILABLE IN DELOS OR FOR PARTIAL COMPLETION*
+- A perfect reproduction of the cloak of the storied Quisalis Assassin,
+Isiva, this cloak functions as a
+Shadowcloak
+, and also drinks in the
+blood of vanquished foes.
+- Once it has
+drunk
+in enough blood (
+5
+deaths, player kills are worth
+double) the cloak will allow the owner to ACTIVATE BLOODSHIELD, providing
+a
+shield
+that will block the next attack against you.
+- Be warned, the cloak's thirst for blood must be sated,
+failing
+to make
+a
+kill
+within
+3
+minutes
+will cause the blood reserves to deplete.
+- *THIS ITEM IS NOT CURRENTLY AVAILABLE IN DELOS OR FOR PARTIAL COMPLETION*
+A Death Keeper's mask                - TALISMAN INFO
+QUISALISMASK
+- Purchasable in Delos for 1000 bound credits.
+- An armament of the Quisalis of old, this mask will provide the wearer
+with the area that the victim died in via DEATHSIGHT.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the death item you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is
+2
+/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

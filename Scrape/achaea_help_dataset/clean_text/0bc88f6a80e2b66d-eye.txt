@@ -1,0 +1,135 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.3 SIGILS
+Sigils
+are small, magical symbols that may be attached to items, or dropped on the ground. They have a variety of effects: a
+flame
+sigil
+makes an item safe from certain
+attacks
+that try to rob you of items; a
+fist
+sigil helps you
+hold
+on to a
+weapon
+. You may obtain sigils from
+city
+marketplaces or from someone
+who
+holds the
+Conjuration
+tradeskill
+.
+For those sigils which must be attached to
+something
+, you may ATTACH <sigil> TO <whatever>.
+For fist sigils attached to a Mage's Elemental Staff, you may DETACH <sigil> FROM <thestaff>.
+Cube
+When on the ground, it will periodically destroy vibrations, unless there is reverberation vibration in the room. If thrown in the presence of a reverberation vibration, it will disrupt the effects of that
+skill
+.
+Eye
+When on the ground, an eye sigil will prevent souls from entering the room. On the
+other
+hand, when thrown at the ground, (i.e.
+THROW
+EYE AT GROUND), an eye sigil will disappear in a
+flash
+of
+light
+and pull all phased people back into phase with reality.
+Fist
+When ATTACHED to an item, it cannot be knocked out of your hands easily. For a Mage's Elemental Staff only, may be detached with DETACH <sigil> FROM <staff>.
+Fist sigils are returned to you when you
+plant
+a quarterstaff with an attached fist sigil, or when you
+lose
+puppets
+/dolls created in
+arena
+that had fist sigils attached.
+Flame
+When ATTACHED to an item, the item will not be able to be
+wielded
+, picked up, given away, or put anywhere. In other words, you will be able to drop the item, and that will be it.
+You won't be able to get it afterwards. If you don't drop the item, then it will be safe in your
+inventory
+insofar as no one will be able to order you to give it away in any manner, but you won't be able to give it to someone voluntarily either.
+Key
+The key sigil is a peculiar, and eminently useful sigil. Drop it in a room, and when anyone leaves that room, it will automatically shut and lock the doorway (if there is one) that was passed through, even if it has been locked open.
+Monolith
+When on the ground in the location you are in, this will prevent most forms of instant teleportation into the room.
+Mushroom
+When ATTACHED to most
+objects
+, this sigil will cause a magical explosion, annihilating both the sigil and whatever it was attached to.
+Orb
+When thrown at a chaos entity, it will destroy the entity.
+Star
+When thrown at the ground, this will coat all in the room in a thin layer of reflective dust. This will allow the
+thrower
+to track their movements outside of the room, even when they may usually not be visible.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

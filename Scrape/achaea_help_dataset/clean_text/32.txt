@@ -1,0 +1,159 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.3 ACHAEA
+There are thousands of
+MUDs
+out there. Why play
+Achaea
+? What makes it different, and why is it consistently voted one of the top three MUDs in existence?
+Few MUDs are Original and Unique: Achaea is both.
+------------------------------------------------
+The vast majority of MUDs are based on only a handful of "stock"
+games
+on released code bases - DIKU, LP, ABER, SMAUG, COLD, and more. Many of them are nearly identical, with only superficial differences. They have the same
+classes
+/
+professions
+, same
+races
+, same
+cities
+, mountains, etc. You gain
+experience
+the same way, gain
+power
+the same way,
+learn
+skills
+in the same way, and solve the same
+quests
+.
+Most of their game worlds are pieced together with no theme or coherence.
+These crazy quilt, rubber-stamp-copy worlds have little to offer.
+Achaea set out to avoid that mistake!
+In Achaea, we fashioned a unique, original, detailed
+mythology
+and
+history
+for the
+Achaean
+realm, one that is reflected in the
+world
+itself. We based it on a
+custom
+codebase
+running
+on the Rapture engine.
+2
+) Few MUDs are truly
+multiplayer
+.
+Most MUDs involve playing against the computer, either by yourself or in a team of
+other
+adventurers. You
+go
+out and
+kill
+monsters together (or separately). There's
+nothing
+wrong with this, and we have some of this in Achaea too, but the
+point
+is that you're still playing against the computer, and a computer is not nearly as interesting an opponent as a human being.
+In Achaea, the focus of the game is on interaction with other adventurers, whether positive or negative. Almost
+everything
+comes down to adventurer interaction, skills, competition, and cooperation. Skills and
+abilities
+interact in a very complex way, and are mainly useful in adventurer-vs-adventurer conflict. Cities and
+Houses
+and
+Clans
+and Religious
+Orders
+are all
+run
+by adventurers with only the absolute minimum of administrative oversight. The
+goals
+and motives of our
+groups
+are not scripted by some pre-
+defined
+set of rules! Groups choose their goals based on their own motivations and interests. It's really great!
+One important side-effect of this focus on adventurer vs. adventurer interaction is that it can provide for a very intense and
+emotion
+-laden
+environment
+. Beating a computer
+might
+feel good and being beaten by one doesn't feel great, but how much more powerful will those
+emotions
+be when your opponent is a real person and you're
+fighting
+(in whatever form) to defend yourself, your
+city
+, or your religion against truly capable
+enemies
+?
+Achaea provides a canvas upon which the adventurers may paint an interesting history.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,215 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.1 Design and Crafting
+(See also HELP TAILORING DESIGN, HELP JEWELLERY DESIGN, HELP COOKING DESIGN, HELP FURNISHING DESIGN, and
+HELP
+DESIGN
+SHARING
+)
+Sketches
+,
+Patterns
+,
+Schematics
+, Recipes, Blueprints, and
+Designs
+!
+-----------------------------------------------------------------
+Blank sketches are what you design a new item on!
+Patterns, Schematics, Recipes, and Blueprints are
+base
+versions of the item you want to make, these are copied onto blank sketches to set the item type, and in some
+tradeskills
+, what
+commodities
+are required to make it.
+A design is created when a
+sketch
+is completed, submitted, approved, and paid for, and is what you use to SEW/CRAFT/FURNISH/COOK your designed item.
+Designs are interacted with via the
+NDS
+system
+!
+NDS -
+NEWDESIGN
+-----------------------
+The main
+command
+is NDS. Enter the command for the full listing!
+If you are a crafter, you have the
+following
+options.
+NDS
+BUY
+<design#> [YES]                - buy an unowned design.
+NDS DESTROY <design#>                  - destroy a design.
+NDS DISOWN <design#> [CONFIRM]         - give up ownership of a design.
+NDS EXTEND[LIFE] <design#> [YES]       - adds to life of ownership.
+NDS GIVE <design#> TO <
+who
+|ORG org|PUBLIC> - transfer a design.
+- If given to an Organisation this is a permanent transfer and the design no longer
+decays
+.
+- If given to the Public, this is a permanent transfer and the design no longer decays.
+NDS HIDEMARK <design#> YES|NO          -
+show
+or hide crafter's
+mark
+on new items for 1000
+gold
+.
+NDS LIST [A|J|T|C|F] [
+X
+[#]]           - public, org, and your designs.
+- A is a list of all designs of all you have access to.
+- J is
+Jewellery
+, T is
+tailoring
+, C is
+cooking
+, F is
+furnishing
+.
+NDS LISTMINE [A|J|T|C|F] [X [#]]       - your designs.
+NDS LISTORG [A|J|T|C|F] [X [#]]        - organisation designs.
+NDS LISTPUBLIC [A|J|T|C|F] [X [#]]     - public designs.
+NDS MATCH APPEARANCE <match>           - your designs matching appearance.
+NDS MATCH DROPPED <match>              - your designs matching dropped.
+NDS MATCH EXAMINED <match>             - your designs matching examined.
+NDS MATCH FIRSTEATEN <match>           - your designs matching first eaten.
+NDS MATCH OWNER <
+name
+|org|NONE>        - designs of that owner.
+NDS MATCH SMELLTEXT <match>            - your designs matching smell text.
+NDS MATCH TASTETEXT <match>            - your designs matching taste text.
+NDS MATCH THIRDEATEN <match>           - your designs matching third eaten.
+NDS MATCH TYPE <word>                  - your designs matching a type.
+NDS
+PASSCODE
+<design#> <passcode#>     - passcode a design (0 to clear).
+- see HELP DESIGN SHARING
+NDS
+PRESERVE
+<design#> [CONFIRM]       - irrevocably preserve a design.
+NDS PRIVATE <design#> YES|NO           -
+marks
+design as private or not for
+1000 gold.
+- this will hide your designs from
+others
+when they do NDS MATCH
+searches.
+NDS P[ROBE] <design#> [passcode]       -
+look
+at a design in full.
+NDS SHARE <design#> YES|NO             - allow share access to a design.
+- see HELP DESIGN SHARING
+NDS UNOWNED [V|J|T|C] <match>          - designs without owners.
+Ownership in your designs will slowly
+decay
+.
+When they
+run
+out of
+time
+, then your ownership will terminate, and others may
+possibly be able to purchase them. Before your ownership expires, you can:
+NEWDESIGN DESTROY <design#>    - to get rid of the design entirely.
+This is permanent and irreversible.
+NEWDESIGN DISOWN <design#> YES - to clear your ownership.
+Then someone else
+might
+buy it.
+NEWDESIGN EXTEND <design#>     - to extend your
+period
+of ownership. You
+will see the fee, but not be charged, at
+first.
+NEWDESIGN EXTEND <design#> YES - Pay the gold and extend the period of
+ownership.
+The extension will always extend by a fixed amount, up to a certain maximum. If the standard extension would take the lifetime of your ownership beyond
+the limit, then you will be unable to extend the life of your ownership for now.
+Come back again later, when the life of your ownership will be lower, and you'll be able to do it. You can continue to do this over and over again forever. You just can't crank the total at any one time above a certain limit. The fee is a function of, and somewhat less than, the original
+pattern
+or
+schematic
+fee. The fee does not get smaller every time you extend the lifetime of your ownership. But you can continue to extend the lifetime of your ownership forever. There is no arbitrary limit to how many
+times
+you may do this.
+NEWDESIGN UNOWNED           - All designs that are not currently owned.
+NEWDESIGN BUY <design#>     - See the cost of an unowned design.
+NEWDESIGN BUY <design#> YES - Purchase an unowned design.
+(See also
+HELP CRAFTING GUIDELINES
+,
+HELP TAILORING
+,
+HELP JEWELLERY
+, HELP COOKING DESIGN,
+HELP FURNISHING
+, and HELP DESIGN SHARING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

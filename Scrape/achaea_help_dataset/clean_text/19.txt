@@ -1,0 +1,218 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7 ITEMS AND DENIZENS/NPCs
+7.1    Denizens
+Some general info about
+denizens
+/
+NPCs
+/
+mobiles
+.
+7.1.1  Humgii
+Waste not, want not.
+7.1.2  Denizen Returns
+7.2    Gold
+The
+syntax
+for interacting with
+gold
+.
+7.3    Sigils
+Useful, magical symbols.
+7.4    Loyalty
+Read
+about making mobiles loyal to you.
+7.4.1  Naming
+Naming
+your loyals.
+7.5    Doors
+The syntaxes for interacting with
+doors
+.
+7.6    Locks
+The syntaxes for interacting with
+locks
+.
+7.7    Keys
+Keys
+and how to copy them.
+7.8    Buckets
+A
+fire
+fighter's chief tool.
+7.9    Questitems
+Read how
+quest
+items differ from normal items.
+7.10   Throwing
+Learn
+how to
+throw
+things
+at or to people.
+7.11   Pocketbelts
+A very useful item to store quantities of
+plants
+.
+7.12   Clothing
+The variety of
+clothes
+in
+Achaea
+.
+7.12.1 Outfits
+A way to wear/
+remove
+groups
+of
+clothing
+at once.
+7.13   Groupingitems
+Some items can be 'grouped' and treated as one.
+7.14   The Rift
+A personal, trans-dimensional storage place.
+7.15   Seasone
+Friendly filler of
+vials
+and
+elixirs
+near
+Thera
+.
+7.16   Inks
+Inks
+, their uses,
+Tattoos
+,
+Runelore
+, & Vinci.
+7.17   Bodypiercing
+Who
+wouldn't want to stick holes in their skin?
+7.18   Drugs
+Become a junkie if you're dumb enough.
+7.19   Heraldry
+Blazons, Coats of Arms, the
+Family
+Escutcheon!
+7.20   Cosmetics
+(and
+perfumes
+!)
+7.21   Light
+Things that need
+lighting
+, and a bit about them.
+7.21.1 Breathing Fire
+You know you want to; if only you could.
+7.23.1 FurnitureCommands
+Commands
+to
+buy
+, and then use.
+7.23.2 FurniturePlacing
+Some limited ways to place and coordinate.
+7.23.3 Beds
+The ultimate in
+privacy
+.
+7.25   Relics
+Unique items of great
+power
+.
+7.26   Hunting
+Killing
+denizens for
+experience
+and gold.
+7.27   Quivers
+Safely store your
+arrows
+.
+7.29   Collections
+Minipet
+and Battle Figurine
+collections
+.
+7.30   Cognition
+Expand your minipet and
+pet
+reactions
+!
+7.30.1 AI Ethics
+A note from our CEO.
+7.30.2 Cognition FAQ
+Answers to common
+Cognition
+questions
+.
+7.30.3 Cognition Rules
+Some brief rules regarding Cognition.
+7.30.4 Cognition Personality
+Setup the personality in Cognition.
+7.30.5 Cognition Kpages
+Knowledge pages for Cognition.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,150 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+24.4 Raw Commodities
+Your miners will unearth a variety of raw
+commodities
+as they work on a lode.
+These can then be refined into usable commodities at a later
+time
+.
+Raw commodities and their finished product
+------------------------------------------
+Coal        :    A
+piece
+of coal (No refinement needed)
+Carbon      :    Steel bar (also requires one iron ore)
+Fibre       :    A spool of
+cloth
+OR a length of
+rope
+Gold
+ore    :    Gold bar
+Impure ice  :
+Cube
+of elemental ice
+Iron ore    :    Iron bar
+Platinum ore:    Platinum bar
+Raw
+bone
+:    Polished bone
+Raw gems    :    Small gems
+Raw obsidian:    A piece of obsidian
+Raw stone   :    A block of stone
+Silver ore  :    Silver bar
+Refining
+--------
+In the camp outside a
+mining
+stronghold simply REFINE <x> <finished comm>. For
+example, REFINE
+5
+PLATINUM will
+attempt
+to convert 5 platinum ore into platinum bars.
+Each refined
+commodity
+will require a piece of coal to
+power
+the refining
+process. If you
+wish
+to refine 5 gold ore you will need 5 coal.
+Raw commodities are converted 1:1 to the finished commodity in almost all
+cases. The only exception here is steel, which requires iron ore and carbon to
+produce.
+Commodities required in the refining process (including coal) will be drawn
+automatically from your
+rift
+if you do not have any in your
+inventory
+.
+Lode locations
+--------------
+Lodes for the various raw commodities can be found in the
+following
+environments:
+Valley     Hills
+Desert
+Mountains
+Tundra
+Polar
+Carbon
+x
+x                      x
+Iron ore                       x          x           x           x
+Raw obsidian                   x                      x
+Silver ore          x          x          x
+Gold ore                       x          x           x
+Platinum ore        x                     x           x
+Raw gems            x                     x           x
+Coal                           x                      x           x
+Raw bone            x                     x                       x
+Impure ice                                            x                    x
+Raw stone                      x                      x
+Fibre               is gained via
+FORAGING
+, see
+HELP FORAGERS
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

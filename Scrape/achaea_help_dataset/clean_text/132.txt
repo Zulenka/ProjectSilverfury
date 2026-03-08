@@ -1,0 +1,167 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13.15 The Dauntless
+The
+Dauntless
+, as their
+name
+suggests, are a
+group
+of fearless fighters
+who
+welcome any and all
+challenges
+to their
+combat
+prowess at any
+time
+of the
+day
+or night. Divorced from the
+Quisalis
+and Ivory organisations, Dauntless
+fight
+not for
+money
+; not to avenge the meek or weak; not as
+champions
+of
+other
+organisations; instead they fight for the joy, love, glory, and rush of pitting
+themselves against any man (or woman) who thinks he has the mettle to prove a
+test.
+Joining
+The Dauntless
+----------------------
+One can
+join
+the
+ranks
+of The Dauntless by visiting with Lafrin.
+Membership
+is
+purchased* on a yearly basis, for twelve thousand
+gold
+per year.
+You must be a minimum of
+level
+70 to be accepted.
+(Lafrin spends his
+days
+with fellow Dauntless Ophal, seeking out challenges of
+their own, but you can contact them via
+tells
+and ask them WHERE they are.)
+You will be removed from The Dauntless 12
+IC
+months
+after initiating the
+status
+, when the year's membership expires, but there are no restrictions on
+purchasing another year's membership.
+Members of The Dauntless earn 20% of their
+experience
+deficit back (provided
+they have one) per
+kill
+. This is not cumulative with other experience deficit
+bonuses, so if you are a
+member
+of the Quisalis or Ivory organisations, you
+will gain the 25% back as per your
+Mark
+status.
+Anyone is welcome to
+attack
+any member of the Dauntless at anytime, but
+Dauntless are entirely permitted to seek retaliation for these actions
+themselves. However, Dauntless are not permitted to
+hire
+marks
+for such
+attacks
+.
+* Should you own a knotted
+leather
+cord, you will be able to join The Dauntless
+for no cost, and will not be removed at the end of the standard 12
+month
+period
+. Provided this minimum year has passed, you will be able to
+QUIT
+DAUNTLESS, to step down from the ranks of the fearless.
+What If I Just Want To Fight Now And Then?
+-------------------------------------------
+The simple answer is, you can! And you don't even need to join up!
+Members of The Dauntless are fair game to any and all in
+Achaea
+at any time of
+the day or night. Their being Dauntless is enough of a reason to justify attack
+upon them by anyone, but bear in mind, a Dauntless may seek retaliation should
+you decide to do so!
+You can easily see who of The Dauntless are online with DAUNTLESSWHO. This
+command
+is usable by everyone. It does respect the function of gems of cloaking.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

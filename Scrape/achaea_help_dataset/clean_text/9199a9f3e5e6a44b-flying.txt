@@ -1,0 +1,97 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.2 FLYING
+If you have the
+ability
+to fly, whether by virtue of a
+mount
+of some sort or
+magic then you will be able to fly from any outdoor location. The
+exits
+in the
+skies will be the same as the exits on the ground. From the skies, you can
+GLANCE GROUND to see what's on the ground below you.
+Naturally, those
+who
+are
+following
+you when you fly will not be able to follow
+you into the skies. Furthermore, if you drop an item that cannot fly while in
+the skies, it will soon fall to the ground, and break if it is breakable.
+If you find yourself unwillingly dragged into the sky, and you do not have the
+ability to fly, you will have but a fleeting amount of
+time
+with which to make
+yourself
+levitate
+(through a feather
+tattoo
+or a
+levitation
+elixir
+, for
+instance) or you will be gravely damaged upon hitting the ground.
+In order to return to the ground, you may simply LAND.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

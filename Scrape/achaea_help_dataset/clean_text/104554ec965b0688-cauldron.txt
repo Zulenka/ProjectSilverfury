@@ -1,0 +1,247 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.5 Invasion Talismans
+The "Invasion"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+The Invasion set contains the following items:
+----------------------------------------------
+A brick of slowmelt ice - (
+icebrick
+)
+- Purchasable in
+Delos
+for 1300
+bound
+credits
+.
+-
+POINT
+BRICK <dir> to create a reforming icewall on that
+exit
+!
+- Every three
+seconds
+, if broken, this icewall will reform itself, up to six
+times
+total.
+- Standard checks
+apply
+(i.e. can't icewall or recurr icewall on a firewalled exit etc).
+- If the icewall fails to reform once, the remaining
+attempts
+will still happen.
+- Use of this item incurs a
+5
+minute
+cooldown.
+An iron
+cauldron
+- (cauldron)
+- Purchasable in Delos for 650 bound credits.
+-
+LIGHT
+CAULDRON to place firewalls in all room
+exits
+.
+- This item has a 15 minute cooldown.
+A reinforced battering ram - (
+batteringram
+)
+- Purchasable in Delos for 500 bound credits.
+- RAM <target> <dir>
+- If there is an ice or stonewall between you and your
+target
+, smash through it and knock the target prone.
+- This will not pull your
+entourage
+.
+- This item respects standard
+movement
+hinders such as piety/gravehands/etc.
+- Any wall in the way will be destroyed on use.
+A steel caltrop - (
+caltrops
+)
+- Purchasable in Delos for 500 bound credits.
+-
+THROW
+DOWN CALTROPS <venom>
+- The next three people to enter the room will get hit by that
+venom
+.
+- Caltrops respect standard envenoming restrictions.
+- (If you can't envenom it on a
+weapon
+, you can't envenom it on these).
+- This will not work in retardation.
+- After the third hit or
+3
+minutes
+has passed, this item will
+go
+on cooldown for 15 minutes.
+- If the 3 minutes ends and the caltrops go unused they will be on cooldown for
+2
+minutes.
+A crumpled scouting
+map
+- (
+scoutingmap
+)
+- Purchasable in Delos for 1600 bound credits.
+- SCOUT SURROUNDINGS to see all corporeal and alive players in adjacent locations.
+- Use of this item has a 2.5 second cooldown, but no
+balance
+cost.
+- This functionality is not blocked by walls or
+doors
+.
+An observant hag's
+eye
+- (
+hagseye
+)
+- Purchasable in Delos for 1000 bound credits.
+-
+PROBE
+PORTAL
+- Works alongside the identify_portal
+power
+to
+tell
+you the list of players on the
+other
+end of the portal.
+- This item comes with the identify_portal power.
+A shadow-wreathed adamantine shackle - (
+shadowshackle
+)
+- This item is not available in the Delosian talisman shop.
+- If you can't beat them,
+join
+them?
+- This is a shackle of
+Garash
+themed to match the one worn by the Tsol'teth Ama-maalier.
+- Wearing this shackle gives you the
+mass
+defence
+, so you never have to worry about
+running
+out of mass
+salve
+mid-
+fight
+!
+A figurine of Bain'maal - (
+darkearthfigurine
+)
+- This item is not available in the Delosian talisman shop.
+- A battle figurine of the Tsol'teth Bain'maal
+- This figurine is a part of the Tsol'teth battlefigurine
+collection
+!
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the historical set you can TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is 2/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

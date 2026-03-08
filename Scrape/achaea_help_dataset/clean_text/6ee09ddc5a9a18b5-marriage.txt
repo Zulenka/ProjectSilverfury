@@ -1,0 +1,228 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.8 MARRIAGE
+Proposing -
+Engagement
+----------------------
+The first step in getting married is proposing to your love. PROPOSE TO
+<whoever> WITH <whatever> will do it. The WITH <whatever> is so that you may
+propose with an engagement
+ring
+, or any valuable bauble that has meaning to
+both of you. Simply have the item in your
+inventory
+.
+Should you be proposed to, you need only AGREE to accept it. Any
+other
+action will disregard the offer.
+Adventurers must be within the 30th
+level
+of
+experience
+or higher, and have
+at least 75
+OOC
+hours
+of play (i.e.,
+3
+days
+, 3 hours in
+SCORE
+ABOUT) to become
+engaged.
+Engagement
+----------
+Once you have successfully proposed or agreed to a proposal, you will be
+engaged. You may break off the engagement at any
+time
+by doing BREAK
+ENGAGEMENT. Once you have been engaged for at least 24
+Achaean
+months
+as
+shown in your
+HONOURS
+, you will be eligible to actually get married. This
+mandatory
+period
+of engagement is to force you to
+think
+about what you are
+doing.
+Marriage
+is not a
+thing
+to be taken lightly.
+The Wedding - Marriage
+----------------------
+There's a wide array of possibilities when it comes to the actual wedding
+itself. Two of the most important decisions that need to be made are whether
+you want a ceremony or not, and if so, whom you
+wish
+to perform it.
+If you and your to-be decide not to have a ceremony, you may simply wait out
+the engagement time. At any
+point
+after the 24 months, you may follow one of
+three courses:
+1) seek the proper
+member
+in your
+house
+who
+is able to
+marry
+, or
+2
+) if you have some reason to wish a particular
+Divine
+to make the
+marriage official, you should both
+message
+Him or Her with your request.*
+3) Seek out Ocedda,
+Priest
+of
+Eros
+, in the
+City
+of
+Nur
+, and
+speak
+with him
+about marriage. (This will cost 10,000
+gold
+.)
+*DO NOT SIMPLY CONTACT ANY RANDOM GOD!
+Gods
+are not on-call mortal wedding performers! If you have a PERSONAL
+relationship with a God (for example, you are the order head of that God's
+Order), you may make a request. If your only reason for wanting a particular
+God to make your marriage official is "I wanted to get married right now and I
+saw their
+name
+on QW" or "I really like their realm", you have no business
+asking and your request will probably seem quite rude.
+In
+practice
+, it makes no real difference what Divine makes it official - this
+would be for sentimental reasons only. Some
+Divines
+will fulfill such a request,
+others
+may not. Neither you nor your to-be needs to be in the realms when a
+marriage is officialised in such a manner.
+If you both decide to have a ceremony, you need to decide who you would like
+to have perform it and contact that person. You may have a ceremony
+performed by a willing Divine, or by an agreeable mortal, or have a simple
+exchange of vows between yourselves without an officiant -- however you wish
+to handle it. You will still require a Divine to make the marriage official
+should you not have one performing the ceremony. You can use the message
+methods described above. Be sure that you, your to-be, and your officiant are
+in agreement about the ceremony itself and what is expected.
+Rings are, of course, widely available. You can
+buy
+one already made from a
+person or a
+shop
+, or contact a licensed jeweller to get one
+custom
+-made.
+CRAFTERWHO
+J will
+tell
+you which
+jewellers
+are currently in the realms. You
+can also customise rings at any point, to have custom
+descriptions
+, to reset
+to the owner, or to not
+decay
+(
+HELP
+CUSTOMISATION
+).
+Divorce
+-------
+Marriage is not a thing to be entered into lightly. Too many adventurers
+wish to be married at the first
+signs
+of love with another, but it is wise
+to wait, for divorce is not granted without consequence.
+If, as happens all too often, you find that married life does not agree with
+you, you may DIVORCE <spouse>. This costs 10,000 gold, however, and your
+HONOURS
+description
+will permanently reveal that you have been divorced.
+Commands
+related to marriage:
+-----------------------------
+PROPOSE TO <whomever> WITH <whatever>
+BREAK ENGAGEMENT
+DIVORCE <spouse>
+ASK OCEDDA MARRIAGE
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

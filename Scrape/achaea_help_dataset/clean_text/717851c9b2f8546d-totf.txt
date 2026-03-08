@@ -1,0 +1,123 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.1.10 Tournament of the Fang
+The Tournament of the Fang is a
+point
+-based
+arena
+game in which your
+objective
+is to defeat the
+other
+participants in
+combat
+. Victory over each opponent will
+earn the victor points in the tournament. The precise number of points vary
+depending on the opponent's current standing in the tournament: if they are
+closer to the victor's
+score
+or higher, the victor will gain more points
+than if the defeated opponent is lower in score. The tournament will
+run
+for a
+predetermined
+time
+period
+, and the person with the highest score in that time
+is declared the winner.
+The major difference in this game is that throughout the arena you will find
+many wild creatures roaming about. Upon entering the tournament, each combatant
+will receive a bridle that allows them to use the beasts as a
+mount
+capable of
+fighting
+by their side. Each of these creatures has its own unique way to
+assist
+in the tournament, with
+attacks
+ranging from normal physical damage to
+heavily afflicting your foe.
+When a warrior is slain in combat, his or her tamed beast will be released
+back into the wild for someone else to try to bridle. Much like the
+Rampage
+event
+, the slain combatant will return immediately to the arena to continue the
+tournament. He or she will gain 15
+seconds
+of
+grace
+upon returning.
+BRIDLE <animal>       Tame a wild beast to assist in the tournament.
+UNBRIDLE <animal>     Set your tamed beast free.
+ARENA SCORES <arena>   See the current tournament standings.
+LEAVE
+TOTF
+if you
+wish
+to hang your head in shame and
+quit
+the Tournament of
+the Fang early.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

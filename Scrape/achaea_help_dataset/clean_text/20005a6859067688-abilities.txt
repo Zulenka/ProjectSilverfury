@@ -1,0 +1,151 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.14 SKILLS
+(See also HELP SKILL SYSTEM,
+HELP LESSONS
+, HELP LESSON GAIN, and
+HELP
+LEARNING
+)
+Much of your life in
+Achaea
+will revolve around your
+skills
+. Skills are either
+sets of
+abilities
+or a single
+ability
+representing how well you do
+something
+(like dodge
+arrows
+and sword blows, for instance). Typing SKILLS will list
+which ones you have, and typing HELP <skillname> will give you some more
+information on each
+skill
+. Furthermore, many skills have anywhere from 20 to
+50 abilities within the skill. An ability could be an individual
+spell
+, or
+something like a particular type of kick or swordstroke.
+You'll notice, when you type SKILLS that next to the
+name
+of each skill will
+be a word, like Inept. This word indicates your general
+proficiency
+in that
+skill. As your proficiency in that skill increases, you will gain more
+abilities, in the case of skills which have abilities in them, or you will
+grow better at whatever that skill represents. For instance, as you increase
+your
+Philosophy
+, you will take less and less damage from
+attacks
+on your mind
+(
+psionic
+attacks). The word next to your skill will also change, indicating
+your increased mastery of that skill. To see a list of skill
+ranks
+, type HELP
+SKILLRANKS
+.
+You will notice that when you type SKILLS, mention is made of both skills and
+'miniskills' (after
+level
+10).
+Miniskills
+differ from skills only in that they
+take far fewer
+lessons
+to master (see HELP LESSONS).
+Though the general skills that you start off with are useful, it is the
+class
+-specific skills that make up the core of your
+character
+. To gain these
+sets of skills, all of which will have many abilities in them, you will need
+to
+join
+a class. You may
+read
+more about
+houses
+and
+classes
+in section 8.
+In order to see what abilities you have in a skill (if there are, indeed, any
+abilities in that particular skill), typing
+AB
+<skillname> will let you see
+them. After that, typing AB <skillname> <ability name> will give you help,
+generally
+speaking
+, on that individual ability.
+(See also HELP SKILL SYSTEM,
+HELP LESSONS
+, HELP LESSON GAIN, and HELP LEARNING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

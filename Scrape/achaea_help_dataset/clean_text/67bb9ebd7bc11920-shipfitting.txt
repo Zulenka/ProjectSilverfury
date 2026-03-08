@@ -1,0 +1,191 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.76 Shipfitting
+See also HELP SHIP EQUIPMENT and HELP SHIP TYPES
+While the construction of
+ships
+is the province of a shipwright, it is the
+Shipfitting
+expert
+who
+transforms a generic,
+bog
+-standard craft into a truly inspiring vessel worthy of the most fearsome pirate captains or magnanimous
+mariners
+.
+The
+skill
+of Shipfitting concerns itself with all manner of
+ship
+-related
+improvements
+, whether it be the creation and manipulation of various naval
+equipment
+and
+weapons
+, girding the vessel against the horrors of the deep, or even
+decorating
+the hull and
+sails
+in a colourful shades. Transcendent
+shipfitters
+can even deconstruct entire ships!
+To become a professional
+shipfitter
+, you must be trained by one of the ship commissioners found around the
+world
+.
+You must be above
+level
+10 to access the shipfitting
+tradeskill
+.
+GAINING THE SHIPFITTING SKILL
+- Make sure you have a tradeskill slot empty
+-
+TRADESKILLS
+will
+show
+your tradeskill slots
+-
+SCORE
+LICENSES
+will show how many slots you have in full.
+- Visit Amarisse, Secretary of the
+Crafting
+Council
+- ASK AMARISSE GAIN SHIPFITTING.
+Shipfitters will need to visit
+Maelstrom
+and purchase a toolbox before they
+can begin work.
+A shipfitter will also need SHIPFIT
+permissions
+before they can make changes
+aboard a vessel.
+Ship
+Commodities
+-----------------
+1 Shipcloth - 50
+cloth
+1 Shipiron  - 50 iron + 10 steel
+1 Shipwood  - 50
+wood
++ 10 iron
+1 Shiplines - 50
+rope
++ 10 iron
+1 Pitch     - 50 wood + 10 animal fat
+Ship Equipment - Costs and Keywords
+------------------------------------
+Bait
+Tank
+-
+baittank
+40 shipiron +
+5
+pitch
+Beacon
+of
+Iocolas
+- beacon
+20 shipiron + 50 goldbar + 50 stone
+Captain's Trunk        - trunk
+5 shipwood + 5 shipiron
+Cartographers
+Desk
+- standard_desk
+5 shipwood + 5 shipiron
+*Cartographers Desk (L) - large_desk
+15 shipwood and 15 shipiron
+Diving
+Bell            - bell
+20 shipwood + 10 shiplines + 10 pitch
+Leadline
+- leadline
+10
+leather
++ 40 rope
+Ship's Axe             - shipaxe
+15 wood + 15 iron
+Mariner's
+Sextant
+- sextant
+15 shipiron
+Salvage
+crane          - salvagecrane
+15 shipwood + 15 shipiron + 10 shiplines
+*Multipurpose crane     - dredgecrane
+20 shipwood + 25 shipiron + 15 shiplines
+Emergency Buoy         - buoy
+3
+shipcloth + 3 shiplines
+Wooden float           - float
+3 shipwood + 3 shiplines
+Loudhailer             - loudhailer
+10 wood + 5 cloth
+* These are both possible to have made alone, or can be upgraded from the
+version above for the difference in ship commodities.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

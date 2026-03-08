@@ -1,0 +1,157 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.1 Talisman market
+The
+talisman
+market
+is a method by which adventurers may
+sell
+or
+auction
+various talisman
+pieces
+. It is worth noting that not all talisman pieces are able to be sold on this market; notably those from the
+Dragon
+or Azatlan sets at present.
+Selling
+pieces
+-----------------------
+There are two ways to sell pieces on the talisman market. The first involves setting pieces to be sold for a set price. When sold in this way, not all pieces must be bought at once; a person can
+buy
+any number of the pieces you have put up. To sell pieces in this way, use the
+command
+:
+TALISMAN MARKET SELL [amount] <piecetype> [
+LEVEL
+<level>] <source> <price> [DURATION <duration>]
+If you omit the amount and level options, they default to 1. If duration is omitted, it defaults to 12
+achaean
+months
+.
+Use TALISMAN MARKET CANCEL <
+piece
+name> to cancel a sale.
+Source is where the talisman has come from, either:
+Questing
+,
+Promo
+,
+Bashing
+,
+or
+Foray
+.
+Auctioning
+pieces
+-----------------------
+The second way to sell pieces on the market is through an auction. When selling pieces in this way, the pieces you place up for auction are all sold as a single item. The price you specify will be for the entire bundle (rather than on a piece per piece basis as with the former method). To sell pieces in this way, use the command:
+TALISMAN AUCTION [amount] <piecetype> [LEVEL <level>] <source> <price> [DURATION <duration>]
+As with the basic selling method, if amount or level are omitted, they default
+to 1.
+Duration defaults to 12 achaean months. Auctioning remains open until the
+duration has elapsed, at which
+point
+the highest bidder wins. You may not cancel
+an auction after you have begun one.
+Source is where the talisman has come from, either: Questing, Promo, Bashing,
+or Foray.
+Buying
+pieces
+-----------------------
+To buy pieces outright, use the command:
+TALISMAN MARKET BUY <number> <piecetype> [LEVEL <level>] <source> <max price>
+If level and amount are omitted, they default to 1.
+You will automatically purchase the number of pieces specified at the optimal
+possible price (the cheapest available options).
+Source is where the talisman has come from, either: Questing, Promo, Bashing,
+Refine, or Foray.
+Bidding on pieces
+-----------------------
+You may bid on an active talisman piece auction with the command:
+TALISMAN MARKET BID ON <auction ID>
+You must bid at least
+5
+% higher than the current bid. It is best to bid the
+most you are willing to pay, as your max bid will be recorded and your bid adjusted upward until it reaches that threshold if
+others
+bid against you. If
+you are outbid, your funds will be returned to you; if you
+win
+the auction,
+any unused funds (the difference between your max and current bid) will be
+returned.
+You can see the ID of the various
+auctions
+with TALISMAN MARKET LIST
+Command summary
+-----------------------
+TALISMAN MARKET LIST
+TALISMAN MARKET LIST [set] [piece [LEVEL <level>]] [price] [MINE]
+TALISMAN MARKET BUY [number] <piece> [LEVEL <level>] <source> <maxprice>
+TALISMAN MARKET BID <max> ON <auction>
+TALISMAN MARKET SELL|AUCTION [number] <piece> [LEVEL <level>] <source>
+<price per> [DURATION <months>]
+TALISMAN MARKET CANCEL <piece name>
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,250 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.6 Cities Talismans
+The "Cities"
+talisman
+set:
+--------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the
+pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The
+Cities
+set contains the following talismans:
+------------------------------------------------
+A broken music box                 - TALISMAN INFO
+MUSICBOX
+- Purchasable in
+Delos
+for 700
+bound
+credits
+.
+-
+WIND
+up this musicbox and while it remains in a room it will periodically
+alter damage types so that everyone (including you!) takes more damage from
+that type of damage.
+A disgusting
+biscuit
+- TALISMAN INFO BISCUIT
+- Purchasable in Delos for 150 bound credits.
+- The diplomat's best
+friend
+, one bite of this biscuit will entirely
+cure
+you
+of being
+drunk
+.
+- However, the taste
+might
+be worse than the drunken haze!
+- Note: use of this item is not permitted during
+drinking
+contests
+.
+A set of wraith shackles           - TALISMAN INFO
+WRAITHSHACKLES
+- Purchasable in Delos for 1000  bound credits.
+- CLAP SHACKLES ON someone and their rate of
+movement
+will be significantly
+reduced for the next 30
+seconds
+.
+- Once the shackles fall off that person is immune from shackling for a
+further 30 seconds, and the set of shackles used shall not be useable for
+5
+minutes
+.
+A
+tumbleweed
+- TALISMAN INFO TUMBLEWEED
+- Purchasable in Delos for 500  bound credits.
+-
+PLANT
+this insidious
+weed
+in a location and it will trip up any that enter,
+proning them and
+throwing
+them off
+balance
+for a short
+time
+.
+- Each person that trips over the weed has a chance to uproot it, at which
+point
+you'll be unable to use it until it restores itself.
+An alabaster urn                   - TALISMAN INFO
+ALABASTERURN
+- Purchasable in Delos for 1300 bound credits.
+- PAINT <urn> ON <person> and undertake the noblest act of all.
+- Next time that person
+falls
+in battle, you shall
+die
+in their stead.
+- If you die in this way, you will not be resurrected by starburst or similar
+effects, and will instantly
+embrace
+death
+.
+- You will not die to protect someone if you are not in the same room when
+they fall in battle.
+- After someone has died to protect you no-one else may for a time.
+- Only one person may protect someone at any one time (and said person may
+only protect one person at a time).
+- You must be mutual
+allies
+with the person you are painting.
+- There is a cooldown on usage per urn in addition to per
+target
+limitations.
+- Per target cooldown is 30 minutes, general urn cooldown is 10 minutes.
+A collapsible
+celescope
+- TALISMAN INFO CELESCOPE
+- Purchasable in Delos for 650 bound credits.
+- CONSTELLATE in a room where someone has recently starbursted to gather
+the remnants of celestial energy.
+- Once the celescope is fully charged, it will protect you on your next
+starburst death to a
+denizen
+, making it so you retain all of your
+defences
+on revival.
+- Note that this -does- work vs org loyal
+denizens
+such as
+guards
+, but not
+against adventurer-loyal denizens such as
+woodlore
+animals.
+Set Completion Bonus
+---------------------
+Completing all of the talismans in this set will award a special bonus:
+A
+barrel
+-maker's
+goblet
+.
+When kept in your
+inventory
+, this item will alert you when someone in the area
+resurrects by any means!
+If the newly returned to life is on your allies list, the goblet will contain
+a sip of champagne with which to celebrate.
+If the newly returned to life is on your
+enemies
+list, the goblet will contain
+a sip of whiskey, enabling you to gird yourself to meet them again in battle.
+(This item has no
+tradein
+value.)
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the historical set you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered tradein that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is
+2
+/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

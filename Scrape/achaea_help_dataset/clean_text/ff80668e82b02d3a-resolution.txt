@@ -1,0 +1,251 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.8.8 Resolutions and Mementoes
+Available on the 1st of each
+month
+(
+OOC
+), you can
+claim
+a
+resolution
+! These can
+be used to
+help
+motivate you to achieve lofty
+goals
+, try
+something
+new, or to
+push you just that little bit further in your daily activities!
+Syntax
+:
+RESOLUTION LIST                 -
+Show
+the list of possible
+resolutions
+.
+RESOLUTION
+STATUS
+- Show the status of your claimed resolutions.
+RESOLUTION SHOW <resolutionID>  - Show the details of a particular resolution.
+RESOLVE TO <resolutionID>       - Claim a resolution!*
+*
+Claiming
+resolutions can only be done on the OOC first
+day
+of the month. You
+cannot claim resolutions of the same type. Resolutions will not retroactively
+award for previous achievements.
+* Claiming resolutions costs
+gold
+,
+2
+,000 or 10,000, depending on the one claimed.
+Completing resolutions awards
+mementoes
+of resolve. You can visit Tinker
+Drucker in
+Petra
+to spend these!
+The
+following
+items are for sale, note that all of these items (
+save
+the hornet
+and the
+talismans
+) will
+decay
+eventually. These cannot be customised due to
+their special effects.
+a delicate
+ash
+wood
+plaque -- 4 mementoes
+Similar to wax tablets for sale in
+Lothos
+, this item can be mounted (via
+PUSH) in your
+subdivision
+home and PULLed to be removed. You may TOUCH it
+to write a
+message
+of your choice to be displayed, and SHAKE it to
+remove
+the message!
+Yearn, a soulfinding dagger --
+6
+mementoes
+This item allows you to locate a single soul. You may SLICE <corpse> WITH
+YEARN, and subsequently may SOULFIND <adventurer>.
+a
+pocketbelt
+-- 8 mementoes
+Crafted for the carrying of
+vials
+, this modified pocketbelt makes for
+easy carrying both
+curatives
+and Seasone's special flasks close at hand,
+while still allowing you to sip from them at a moment's notice.
+a ruby-studded
+pipe
+-- 10 mementoes
+This pipe has a distinctive appearance, as well as
+holding
+15 puffs rather
+than the normal 10!
+a commendation of the damned -- 12 mementoes
+TOUCHing this commendation will allow you to
+champion
+one of the
+Underworld
+political factions, ensuring all your
+denizen
+kills contribute to their
+successes.
+NOTE: This is destroyed upon use and a new one must be obtained to change
+your attunement.
+NOTE: These cannot be preserved and have a standard 60
+Achaean
+month
+lifespan.
+a captivating flower maiden
+figurehead
+-- 16 mementoes
+In addition to her distinctive appearance, this figurehead has special
+interactions if PUSHed or PULLed!
+an ornate winged helm -- 17 mementoes
+This helm may be worn in addition to any normal
+armour
+, and provides
+an extra
+5
+% to both cutting and blunt physical damage protection.
+a tome of the
+Muses
+-- 20 mementoes
+This tome is empty when first obtained, but can be added to with pages
+of either resplendent or
+aged
+vellum. Each page unlocks a new
+power
+, and
+further information of the Muses of
+Scarlatti
+.
+- Resplendent pages are permanent once added and are obtained
+through giftbags.
+- Aged pages are obtained by completing the Margam or Icosse Tower
+forays
+, and decay after a
+period
+of fifteen real
+days
+.
+- See HELP TOME OF MUSES for a full breakdown of powers the tome
+offers - of which there are twenty in total!
+a giant hornet -- 25 mementoes
+This beast is a legendary,
+flying
+mount
+! Enough said!
+an imperial cuirass -- 30 mementoes
+As the winged helm, this may also be worn in addition to normal armour,
+and provides an extra 5% resistance to both cutting and blunt physical
+damage.
+a deck of mystical cards -- 50 mementoes
+These decks are used to
+hold
+the mystical cards of Achaean Legends obtained
+via
+promotions
+(HELP
+PROMO
+ITEMS), or traded by
+other
+players.
+Use the
+LEGENDDECK
+syntax for the full
+command
+set!
+platinum fairy wings -- 65 mementoes
+While they have a distinctive appearance, these wings function as Eagle's
+wings, taking the wearer to the Skies when uttering the magic word
+"Duanathar"
+Talismans:
+The following
+talisman
+is available, contributing to the following
+talisman:
+Name
+: a floating tapestry of pristine vellum -- 500 mementoes
+Keyword: tapestry
+Brief: "This tapestry
+tells
+of a race's doom"
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

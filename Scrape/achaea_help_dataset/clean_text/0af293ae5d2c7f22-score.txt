@@ -1,0 +1,275 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.1.1 SCORE
+The first way to get information about your
+character
+is to type
+SCORE
+or SC.
+This will give you a number of lines of information about the
+status
+of your
+character. Below is an example of the result of this
+command
+when performed by
+an adventurer named Nechar. (There is also a variant called QSC or
+QUICKSCORE which will display only current
+health
+information.)
+What SCORE
+Shows
+----------------
++-Nechar----------------------------------------------------------------------+
+|
+Level
+: 62 (23%)    "Canonised"                                            |
+| Age    : 427         Birthdate: 13th Lupar, 204AF
+Class
+:
+Paladin
+|
+| Gender : Male
+Race
+: Tsol'aa
+Journeyman
+|
+|                                                                             |
+|
+XP
+Rank
+: 0
+Explorer
+Rank: 2772
+Combat
+Rank: 0                  |
++-Vitals----------------------------------------------------------------------+
+| Health  : 2594/2594
+Willpower
+: 13730/13730
+Strength
+: 12
+Intelligence
+: 13 |
+|
+Mana
+: 3671/2966
+Endurance
+: 11600/11870
+Dexterity
+: 12
+Constitution
+: 11 |
+|                                                                             |
+| Rest    : feeling fairly tired
+Bleeding
+: 0                   |
+|
+Hunger
+: reasonably full                    Sobriety : completely sober    |
+| New
+Msgs
+: 0
+Timeout
+: 0
+minutes
+|
+|                                                                             |
+| Your
+mentor
+is WarMaster.                                                   |
++-Resources-------------------------------------------------------------------+
+|
+Gold
+Credits
+House
+Credits  Mayan
+Crowns
+|
+|
+Holding
+: 0             Unbound: 0       Room: 0.0      Unbound: 0         |
+|
+Packs
+: 0
+Bound
+: 211     Door: 0.0      Bound  : 0         |
+|
+Banks
+: 0
+Lessons
+: 172                                       |
++-Organisations---------------------------------------------------------------+
+|
+Clans
+|
+|   The Sequoias                                                              |
++-About You-------------------------------------------------------------------+
+| Mentor        : WarMaster                 Can Mentor: Yes                   |
+| Relationship  : None                      Divorced  : Never                 |
+|                                                                             |
+|
+Shouting
+Voice
+: A brave, clear male voice resounds, "Blah blah blah."       |
+|
+Warcry
+: ......                                                      |
+|                                                                             |
+| Total
+Time
+Played:
+19
+days
+, 15
+hours
+and 51 minutes                         |
+| Time This Week   : 4 minutes                                                |
++-Licences and Permits--------------------------------------------------------+
+|
+Clan
+Slots    : 1/10   Can
+Reincarnate
+: Yes
+Trait
+Reset : Yes              |
+|
+Friend
+Circles
+: 0      House Relocation: No                                 |
+|                                                                             |
+|
+Seafaring
+Promotion
+Points: 0 available (0 of 0 used)                       |
+| Leadership Points         : 0                                               |
+|                                                                             |
+| You have not yet selected a racial
+specialisation
+. See
+HELP SPECIALISATION
+. |
+| You can recompose your
+background
+if you
+wish
+.                              |
++-
+Languages
+-------------------------------------------------------------------+
+| Languages Spoken:
+Achaean
+and Tsol'aa                                       |
+|
+Language
+Lessons: 1239                                                      |
++-
+Statistics
+------------------------------------------------------------------+
+| Adventurer Kills
+Denizen
+Kills           Your Deaths                 |
+|   Slain    : 0            Slain    : 0            To Adventurers : 0        |
+|
+Levels
+: 0            Levels   : 0            To
+Denizens
+: 0        |
+|   Avg Level: 0            Avg Level: 0            To Misadventure: 0        |
+|                                                                             |
+|
+Infamy
+: not known for acts of infamy                                   |
+|
+Credibility
+: is an extremely
+credible
+character                             |
++-----------------------------------------------------------------------------+
+The SCORE command breaks into several different sections. Each of these can be
+pulled up individually or SCORE FULL will pull all at once.
+COMMAND OPTIONS
+---------------
+SCORE FULL - Brings a list of all sections.
+SCORE CHARACTER - Specific detail about your character (
+Name
+, level, race,
+class)
+SCORE VITALS - Details about your current health and
+stats
+.
+SCORE RESOURCES - Details about gold and credits.
+SCORE ORG[anisations] - Information about organisations you belong to.
+SCORE ABOUT - Info such as mentor status and amount of time played.
+SCORE LICENCES/PERMITS - Info about all the permits such as marketeer.
+SCORE LANGUAGES - This sections details all the languages you are able to
+speak
+.
+SCORE
+STAT
+[istics] - Details about kills and deaths.
+SCORE E - Shows clans that have you enemied.
+CONFIG
+SCORESHOW - Allows you to modify your default output with SCORE command.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

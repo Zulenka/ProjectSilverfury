@@ -1,0 +1,150 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.13 "GROUPING" ITEMS
+(See also
+HELP GROUP
+for
+grouping
+with
+other
+adventurers)
+Command
+Summary:
+-----------------
+COMBINE <item> AND <item>
+COMBINE <item> [FULLY]
+COMBINE ALL
+SPLIT <item> <# of ways> [WAYS]
+SPLIT <item> <num>/<num>
+SPLIT <item> INTO
+GROUPS
+OF <num>
+GET/GIVE/DROP/PUT/FALCON DELIVER/VEILDELIVER
+GROUP
+<groupeditem> TO <person>
+Some item types in
+Achaea
+can be grouped and treated as a single item. For instance, if you're carrying 16 red
+inks
+, it's helpful to group them so you can manage them more easily and
+move
+them all at once. Once combined, they are treated as one, and giving, dropping (but not
+inking
+, obviously), etc., manipulate the 'group' as a whole. To create and manage groups, you can use the
+following
+commands
+:
+COMBINE <item> AND <item>
+-or-
+COMBINE <item> [FULLY]
+-or-
+COMBINE ALL
+The first will
+join
+two items into a single group (if they are the same type and can be grouped, of course). The second will combine all of the same type into a single group, regardless of how many you have. Note that this can work both in your
+inventory
+andon the ground (but it will check your inventory first). The third will
+attempt
+to combine all items in your inventory that can be grouped into a single group.
+Example:
+COMBINE RED
+INK
+(Combines all of the red ink in your inventory into a single
+item representing all of them.)
+SPLIT <item> <# of ways> [WAYS]
+This splits a grouped item into the specified number of groups. It will try to separate them evenly, but if it can't, one group will
+hold
+the difference. For example, a group of 8 can be split
+3
+ways, yielding two groups of
+2
+and a single group of 4.
+SPLIT <item> <num>/<num>
+This splits the grouped item into two groups with the specified fraction, e.g., 2/3 or 50/50.
+Example (while
+holding
+a group of 10 red inks):
+SPLIT RED INK 50/50
+(Results in two groups being formed, each with
+5
+inks.)
+SPLIT <item> INTO GROUPS OF <num>
+Split the item in to as many groups as possible, each group having a specified number in it. Note, that you can only split into 250 groups at a
+time
+this way.
+GET/GIVE/DROP/PUT/FALCON DELIVER/VEILDELIVER
+--------------------------------------------
+Dealing with items in groups is a little different than most items. Having a group of items requires the GROUP addative to interact with the entire group and not just one item in the group.
+DROP GROUP REDINK
+PUT GROUP REDINK IN CHEST
+VEILDELIVER GROUP
+COHOSH
+TO
+TECTON
+FALCON DELIVER GROUP COHOSH TO TECTON
+(See also
+HELP GROUP
+for grouping with other adventurers)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

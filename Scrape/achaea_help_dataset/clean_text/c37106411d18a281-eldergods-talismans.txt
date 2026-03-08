@@ -1,0 +1,213 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.13 ElderGods Talismans
+The "ElderGods"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+. This will always be announced via the relevant
+news
+when the
+pieces are currently available.
+-
+Trading
+between players (pieces only)
+The ElderGods set contains the following talismans:
+---------------------------------------------------
+A
+declaration
+of hostility          - TALISMAN INFO
+AEGIS
+- Priced at 1500
+- Possessing this declaration affords a 1.
+5
+%
+critical
+hit bonus against
+mobs
+(not
+guards
+) that are loyal to an organisation
+who
+holds feelings of hatred towards you.
+A dwarven finishing hammer          - TALISMAN INFO
+PHAESTUS
+- Priced at 400
+- SMITE GROUND WITH HAMMER to break all magical
+shields
+and prone anyone who had their
+shield
+broken in the room.
+- Smiting the ground incurs a 1
+minute
+cooldown and has a
+3
+.
+2
+second
+balance
+cost.
+- This item must be
+wielded
+to use.
+A
+sachet
+of soothing
+herbs
+- TALISMAN INFO
+VALNURANA
+- Priced at 300
+- SHAKE SACHET and if you are put to
+sleep
+within the next minute, the person who sleeps you will also fall asleep.
+- The item will be removed from your
+inventory
+on use and will return after 20
+minutes
+.
+A battered sifting pan              - TALISMAN INFO
+PROSPERO
+- Priced at 1200
+- PUT #
+GOLD
+IN PAN - SHAKE PAN
+- Minimum contribution to the pan is 10,000 gold
+sovereigns
+.
+- 10
+seconds
+after shaking, the pan creates a room effect 10 s that will damage all in room scaling to the amount of gold put in if the shaker is alive.
+- 15 minute cooldown on the person who shook the pan and the room the pan was shaken in.
+- Gold is consumed on shake and can be removed from the pan prior to shaking.
+- 4 second balance on shake.
+A translucent
+filter
+- TALISMAN INFO
+LORIELAN
+- Priced at 250
+- OBSERVE <person> when in the same location to see a variety of information about that person.
+- 2.5 second balance on use.
+A double-flowered cherry blossom    - TALISMAN INFO
+GAIA
+- Priced at 100
+- Wear this item and it will impart a
+perfume
+/cologne-like scent that changes based on the
+season
+.
+Storm-grey wings cloaked in lightning - TALISMAN INFO
+VASTAR
+- Priced at 2000
+- These are equivalent to atavian wings.
+- These wings will also
+reach
+all
+exits
+available to the eagle's wings
+A rosewood
+citole
+- TALISMAN INFO
+SCARLATTI
+- Priced at 500
+- This citole functions akin to the Lasallian lyre.
+- When STRUMmed, will grant the prismatic barrier
+defence
+.
+- The citole is also considered a
+bardic
+instrument.
+- This barrier stops most physical
+attacks
+. What you can do while in one is severely limited.
+An obsidian hound carving             - TALISMAN INFO
+TWILIGHT
+- Priced at 350
+- This expands the
+assist
+line on deathsight to
+show
+exactly who was involved.
+Collect all of the above talismans to earn a
+piece
+of shimmering
+Ayardium
+!
+-
+EAT
+AYARDIUM to gain a random rare mineral bonus (from the list below).
+- This bonus lasts for 20 minutes (22 for Tash'la).
+- This item returns to you after 2
+hours
+.
+- Possible mineral bonuses are: Ahmetite, Azelhurium, Draekinite, Laytronite, Makaelicite, Profithyst, Senastone, Shunsten, Telendrium, Valenticite, Verillium, and Xerthyst.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

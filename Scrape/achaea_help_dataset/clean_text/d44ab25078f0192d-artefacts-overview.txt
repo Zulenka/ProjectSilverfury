@@ -1,0 +1,206 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.1 Artefacts Overview
+(see also
+HELP ARTEFACTS
+, HELP ARTEFACT TRADEINS,
+HELP
+ARTEFACT
+TRANSFERS)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+.
+Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means
+they cannot be loaned out, or stolen(!), for very long. Some only work for
+the owner. They never
+decay
+. They cannot be changed to reset to anyone
+else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+The specific artefacts available for purchase are all listed in the
+following
+help files:
+- HELP OFFENSIVE ARTEFACTS
+- HELP DEFENSIVE ARTEFACTS
+- HELP STATS ARTEFACTS
+- HELP MISCELLANEOUS ARTEFACTS
+- HELP [<classname>|
+KNIGHT
+] ARTEFACTS
+- HELP TRADESKILL ARTEFACTS
+- HELP SHIP ARTEFACTS
+- HELP SHOP OF WONDERS
+-
+HELP PETS
+- HELP ARTEFACT ARMOUR
+Commands
+--------
+ARTSEARCH <artefact>
+- Search the artefact helpfiles for matching artefacts.
+HELP ARTEFACT SEARCH <artefact>
+- Alternative
+syntax
+to ARTSEARCH.
+ARTEFACT LIST
+- View a list of all of your artefacts
+ARTEFACT LIST <type>
+- View a list of a specific type of artefact that you possess, like
+vials
+,
+armour
+, or
+weapon
+.
+ARTEFACT LIST EXCLUDE <type1> [<type2>]
+- View a list of your artefacts, excluding certain types.
+How To Purchase
+---------------
+Many artefacts are available to you in shops throughout the realms, primarily
+in Delos, plus the artefact
+vial
+shop
+in
+Moghedu
+. Consult the above help files
+for any additional details on purchasing specific artefacts, such as bows or
+Earrings of Sinope.
+For any
+other
+requests or special needs,
+email
+artefacts@
+achaea
+.com. Please be
+very clear as to what you want to purchase and what you believe it will cost.
+This is especially true in cases where you may be
+claiming
+a discount, or other
+special consideration.
+Artefacts as Gifts (see HELP ARTEFACT GIFTS)
+--------------------------------------------
+Artefacts may be given as gifts, but with a
+critical
+restriction: to buy an
+artefact as a gift, you MUST pay with UNBOUND credits. If your credits are
+bound, you must use them on yourself. You may not buy a gift with bound
+credits.
+Beyond that, though this is not unique to gifts, please be aware that
+an artefact gift is not transferrable or returnable, though if it is
+normally
+something
+that could be traded in (which excludes
+pets
+) then
+it can still be traded in by the person you gave it to.
+Artefacts and Loaning
+---------------------
+Some artefacts may be used by individuals other than the owner. We
+consider
+this a perk, and you are free to lend your artefacts to
+others
+to use. This
+functionality may change for some or all artefacts in the future.
+Artefacts that must be
+wielded
+to be used will be useless to anybody but the
+owner. This has been true since at least 2005. So don't bother trying to
+loan
+out an artefact you have to
+wield
+to use.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, both of which would normally
+boost damage of a magical
+nature
+, then only one will boost damage of a magical
+nature. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will
+increase the value of sipping a
+health
+elixir
+. In general, the best item rules,
+but there may be exceptions. So don't count on having two artefacts and somehow
+stacking their effects.
+(see also HELP ARTEFACT TRADEINS and HELP ARTEFACT TRANSFERS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

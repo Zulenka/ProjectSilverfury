@@ -1,0 +1,135 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.2 ACHAEA'S CONCEPT
+Achaea
+is a massively
+multiplayer
+online text game. These kinds of
+games
+are often referred to as
+MUDs
+, or MMOs, or
+MMORPGs
+, or
+other
+similarly unwieldy acronyms. In it, you take on the role of a male or female of eighteen years of age, of one of a range of
+races
+,
+who
+has recently left home to begin to seek his or her fortune. Through a myriad of experiences ranging from sojourns into the deepest dungeons to roles of political leadership to, if you prove worthy,
+Ascension
+to the
+ranks
+of the
+Gods
+themselves you will grow as a
+character
+in depth and if you desire, in fame.
+The first
+thing
+to understand about Achaea is that it is not a game as you may be used to if you have not played MUDs before. There is not a single ultimate
+goal
+that all players share. Some players may try to
+reach
+the highest
+levels
+of
+experience
+and become a Greater
+Dragon
+.
+Others
+may choose to aim for political
+domination
+or religious
+influence
+while still others may only want to live a quiet life in the forest communing with the dryads and treekin. For some, the ultimate goal is achieving greatness in personal
+combat
+while to others greatness is measured not by the sword but by the coin. The
+point
+is that it's really up to you.
+Think
+of it as a virtual life more than a game.
+By thoroughly
+reading
+the
+help
+files that Achaea has (type HELP to see a chapter list), you will find out enough to get started, and enough to get some glimpses of what may lie ahead of you. By no means however is
+everything
+in Achaea included in the help files. We choose to try to fully document everything that new players will encounter, but we prefer to
+leave
+the
+things
+more advanced players may deal with for them to discover.
+If you're completely confused, the best place to start is probably to create a character (to
+go
+http://www.achaea.com/ and click on Play Now) and take the
+newbie
+introduction. It will
+guide
+you through an exciting
+tutorial
+that will familiarise you with how Achaea works.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

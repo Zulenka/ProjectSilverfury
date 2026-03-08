@@ -1,0 +1,207 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.4.5 BLACKJACK
+(See also:
+AB
+PRANKS
+and AB PRANKS
+BOP
+. The
+blackjack
+is a
+weapon
+with which
+pranksters bop their
+enemies
+.)
+Ahhh! Blackjack, the king of table
+games
+. The one casino game where
+skill
+can
+play a significant role. In order to play blackjack in
+Achaea
+, you must first
+find a blackjack table (located in all the major
+cities
+) and then simply type
+PLAY BLACKJACK. When prompted to
+bet
+, simply BET <amount>
+GOLD
+. You will be
+prompted for all
+other
+necessary input. When you
+wish
+to
+quit
+, simply type
+LEAVE
+TABLE.
+Specifics of Blackjack in Achaea
+--------------------------------
+- If none of these make
+sense
+to you, see the Rules of Blackjack, below.
+- Minimum bet:
+2
+gold.
+- Insurance costs half your original bet, and pays 2:1.
+- The value of your hand, as reported to you, will always value aces at
+your best advantage. Keep in mind that if that best advantage is an 11,
+you still have the option of valuing the ace at 1.
+- Dealer stands on soft 17.
+- There is no surrender option. (Surrender is for the weak!)
+- When you LEAVE TABLE, you will be presented with a summary of your
+winnings or losses.
+- Nobody wins on ties.
+The Rules of Blackjack
+----------------------
+Card Values
+-----------
+The cards from 2 through 9 are valued as indicated.
+The 10, Jack, Queen, and King are all worth 10.
+An Ace can count as either 1 or 11.
+The suits of the cards are irrelevant.
+How much a hand is worth (ie its value) is simply the sum of the points each
+card is worth. For instance, if you had a hand with 8,
+3
+, and
+6
+, it'd be worth
+17. If you have an Ace, a 10, and a
+5
+, you COULD either have 26 (11+10+5) but
+it is assumed that you have 16 (1+10+5). Remember, Aces can be either 1 or 11.
+It's up to you.
+If a hand includes an Ace, it can be counted as either 1 or 11 without the
+total
+going
+over 21, it's called a 'soft' total. So, for example, a 7 and an
+Ace together would be a soft
+18
+.
+Dealing the cards
+-----------------
+Once all the
+bets
+are made, the dealer will deal the cards to the players.
+He'll deal two cards to each player, both face-up, and then deal himself one
+card face-down and one card face-up. The face-down card is called the 'hole'
+card.
+Once the cards are dealt, each player will be asked in turn what he or she
+wants to do. You can 'hit' (get another card), 'stand' (take no more cards), or
+'double' (again, more on that later.) Once all players have finished, the
+dealer will play out his hand. He will first flip up his hole card, and if it
+gives him less than 16, he will continue to
+draw
+cards until he has over 17 or
+over.
+When the dealer is finished, those players
+who
+did not already bust (ie
+go
+over
+21) will
+win
+at 1:1 if they have more than the dealer. Having the same as the
+dealer merely returns your bet, and having less than the dealer means you
+lose
+your bet. The exception to this is blackjack. If you get dealt a card worth 10
+and an ace, you are said to have 'blackjack' (as opposed to just having 21),
+and as long as the dealer does not also have blackjack, you will get paid at
+3:2 rather than 1:1.
+It is important to understand that the dealer makes no decisions. What he does
+is completely determined by what cards he is dealt.
+What a player can do
+--------------------
+Hitting and Standing
+- As discussed before, you can keep hitting (ie getting another card) until
+you bust (ie go over 21). You stand when you do not want any more cards.
+Doubling Down
+- When a hand only has two cards in it, you can choose to double down. What
+this means is that you double your bet, but you will receive one and only one
+more card. You must receive that card too.
+Insurance
+- If the dealer's original up-card is an ace, you will be offered the chance
+to
+buy
+insurance. Insurance costs half your original bet, but if the dealer has
+blackjack, then you will get your insurance bet back at 1.5:1. So, unless you
+also have blackjack, a successful insurance bet means that you lose
+nothing
+. If
+you do have blackjack, a successful insurance bet means that you end up
+winning
+1.5:1 on your original bet.
+Implementation Notes
+--------------------
+The game is implemented so that counting cards will be of no value.
+Consider
+it
+to be the equivalent of many decks.  Sorry, all you 'Beat the Dealer' fans out
+there!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,142 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.13 LANGUAGE
+(See
+HELP SAYS
+about how to
+say
+things
+,
+HELP LANGUAGE LEARNING about
+learning
+languages
+,
+HELP LANGUAGE LIST for a list of known languages,
+HELP LANGUAGE RULES
+about things you shouldn't say, and
+HELP MIDDLE ACHAEAN
+about the
+Achaean
+language
+.)
+COMMANDS
+--------
+SPEAK
+- to see what languages you can speak.
+SPEAK <language> - to switch into a certain language.
+LANGUAGE         - to see what language you are
+speaking
+now.
+Upon your arrival in
+Achaea
+, you will have the
+ability
+to speak Achaean, the
+common language, plus at least one racial language.
+To see what language(s) you can speak, type SPEAK.
+To speak a different language, type SPEAK <language>.
+To see the language you are currently speaking, simply type LANGUAGE.
+Language comes into play in
+tells
+, yells,
+says
+, and
+shouts
+. All
+other
+forms of
+communication
+are language-independent.
+Each
+city
+in Achaea also has its own special dialect usable only by
+citizens
+,
+and only for the duration of their
+citizenship
+. This special dialect is granted
+by the
+gods
+directly to citizens, and is withdrawn automatically by their
+power
+when citizenship ends. This has obvious advantages for discussing city business
+or coordinating with city members.
+Those advantages are magnified by the fact that the necklace of comprehension (an item produced by those with the
+Conjuration
+trade
+skill
+), does not allow
+others
+to understand these special dialects.
+(See
+HELP SAYS
+about how to say things,
+HELP LANGUAGE LEARNING about learning languages,
+HELP LANGUAGE LIST for a list of known languages,
+HELP LANGUAGE RULES
+about things you shouldn't say, and
+HELP MIDDLE ACHAEAN
+about the Achaean language.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

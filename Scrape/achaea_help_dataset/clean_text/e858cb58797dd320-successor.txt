@@ -1,0 +1,137 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.3.8 Successors
+(See also: HELP HOUSE GOVERNMENT,
+HELP AUTOCRACY
+,
+HELP TRIUMVIRATE
+,
+HELP DICTATORSHIP
+,
+HELP OLIGARCHY
+,
+HELP
+CHALLENGE
+)
+Who
+is
+Successor
+?
+-----------------
+The successor is the one that will take
+power
+next after the current
+dictator
+or
+oligarch
+. Each dictator or oligarch designates a separate, distinct
+successor.
+Commands
+--------
+SUCCESSOR
+DESIGNATE
+<who>  - designate a successor (dictator/oligarch only).
+SUCCESSOR
+SHOW
+-
+shows
+who your successor is.
+Limits
+------
+A successor may not already be in the
+House
+Leadership, nor may one person be
+successor to more than one Oligarch.
+A successor must be a
+member
+of the same House as the Dictator or Oligarch, and
+must be at least House
+Rank
+5
+.
+A dictator or oligarch may not exercise most powers of the position unless and
+until a successor has been designated.
+Powers
+------
+The successor has no real power, except that if a Dictator or Oligarch gives up
+the position, then the successor takes the reins of power at that
+time
+.
+The successor may challenge (see HELP CHALLENGE) the oligarch or dictator at
+any time. If the oligarch/dictator fails to answer in a reasonable
+period
+, or
+surrenders, then the successor takes over in the position and is the new
+dictator/oligarch.
+(See also: HELP HOUSE GOVERNMENT,
+HELP AUTOCRACY
+,
+HELP TRIUMVIRATE
+,
+HELP DICTATORSHIP
+,
+HELP OLIGARCHY
+, HELP CHALLENGE)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

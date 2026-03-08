@@ -1,0 +1,138 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.8 CITY GUARDIANS
+During the Great
+War
+of the
+Child
+, the
+gods
+used the
+artefact
+called the
+Eye
+of
+Proteus
+to create
+relics
+in each
+city
+. Those relics are: the Weave of Conflict in
+Ashtan
+, the
+Crucible
+of
+Stars
+in
+Hashan
+, the Flames of Dawn in
+Targossas
+, the
+Fissure
+in
+Mhaldor
+, the
+Cauldron
+of Infinity in
+Eleusis
+, and the Icerune Crater in
+Cyrene
+.
+When the
+cities
+were threatened by wild chaos, the true
+nature
+of these relics were revealed, as they came to the
+defence
+of their respective cities and formed
+Guardians
+to protect each city. Shortly after this, the relics created creatures which formed colonies throughout
+Sapience
+.
+Each city may purchase one
+Guardian
+by the
+Minister
+of Defence or a Defence
+Aide
+. Only one Guardian per city may be in existence at any
+time
+. When a Guardian is summoned, the
+relic
+in its city is drained of
+power
+and must be refilled before a new Guardian may be purchased. To
+fill
+a city relic,
+kill
+a creature that was created by another city relic and PUT <creature> IN <relic>.
+The creatures that can be used to fill the relics are:
+things
+of chaos (Ashtan), lamassu (Hashan),
+fairies
+(Targossas), abominations (Mhaldor), flower maidens (Eleusis), and mountain drakes (Cyrene). (Note: the city
+name
+in parenthesis is where the creatures originated and may NOT be used to fill the relic in that city.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,208 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.12 THE POSTAL SYSTEM
+(See also:
+HELP
+EDITOR
+)
+** Warning: sending a
+letter
+to any of your own
+alternate
+characters is NOT PERMITTED and considered
+seconds
+abuse (HELP SECONDS). Do NOT
+mail
+anything
+,even a blank letter, to one of your alternate characters! **
+Each
+city
+has a
+post
+office, often located near the city
+bank
+. There is also a general post office located in
+Delos
+. The basic
+idea
+is to first pay for and get a blank letter (REQUEST LETTER), then write in it (WRITE LETTER), and then send it (MAIL LETTER TO <someone>).
+The
+postal
+system
+can only be used to mail
+things
+to
+other
+adventurers. To send a letter to a
+denizen
+(such as Rurin or Tyrandiel), there is a
+messenger
+located
+on the Delosian Bridge
+who
+can deliver
+letters
+to most
+denizens
+.
+Letters can also be used to send up to five items to another person. If you need to send more than this, at any post office you can REQUEST [SMALL|LARGE]
+PARCEL
+which can
+hold
+either ten or twenty items respectively. Unlike letters, these
+parcels
+can not be written upon.
+Syntax
+:
+REQUEST LETTER
+Request a letter from the postal staff. Letters are magical and can hold
+amazingly large things. They cost 100
+gold
+each, and will
+decay
+within a
+handful of
+Achaean
+months
+. If you want to include items, just PUT <item> IN
+LETTER before you mail it. You can only request a letter while at a post
+office, though there are stationery stores in
+Sapience
+where you can
+buy
+decorative letters, usually for a higher price.
+REQUEST [SMALL|LARGE] PARCEL
+Request a small or large parcel for sending items to people. Small parcels
+cost 200 gold and hold 10 items, while large parcels hold 20 and cost 400 gold.
+If you don't specify a size, small is purchased by default.
+WRITE LETTER
+Compose
+a letter. (See
+HELP EDITOR
+for
+composing
+commands
+.) You can write in
+a letter from anywhere.
+MAIL <LETTER|PARCEL> TO <whom>
+Address and mail a letter or parcel to someone. You must be at a post office to
+do this.
+READ
+LETTER
+Read whatever may be written on a letter. You can do this from anywhere,
+provided the letter is in your
+inventory
+or in your room.
+CHAR LETTER
+Provided you have a source of
+fire
+with you, such as a
+tinderbox
+, you can
+partially char a letter, which will cause bits and
+pieces
+of it to become
+unreadable. This can be done multiple
+times
+, making the letter less
+readable each
+time
+. You can char a letter from anywhere.
+LETTERLIST
+List the letters in your inventory (this is part of the LISTS
+ability
+in
+the
+Vision
+skill
+).
+Pasting Letters
+----------------
+It is possible to PASTE a letter into a
+journal
+or
+manuscript
+which can
+permanently
+preserve
+letters into a great form to preserve for posterity in a
+library
+.
+The syntax for doing this is:
+PASTE <LETTER> INTO <JOURNAL/MANUSCRIPT> [PAGE <NUMBER>]
+What are the catches/benefits to doing this?
+- The pasted letter is destroyed in the process and cannot be recovered.
+Any contents will be left in your inventory.
+- Once you have pasted a letter onto a page, you can no longer edit that
+page.
+- Regardless of which
+language
+the journal has been written in, the page
+that the letter was pasted on will now be in the same language that the
+letter was in.
+- If a letter is ENCIPHERed, the page in the journal will be forever
+ENCIPHERed, even if the journal itself isn't ENCIPHERed.
+(See also: HELP EDITOR)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

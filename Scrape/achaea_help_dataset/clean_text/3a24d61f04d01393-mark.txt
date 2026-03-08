@@ -1,0 +1,211 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13.14 Contracts, Hiring, and the Mark(s) - Quisalis and Ivory
+(See:
+HELP PK
+,
+HELP ASSASSINS
+,
+HELP CHAMPIONS
+, HELP WRITS,
+HELP
+ISSUES
+)
+Contracts
+serve as a means to allow adventurers the appropriate retribution for
+grievous offenses against the person (in-
+character
+only). Serving this purpose,
+we have two organisations:
+The Ivory
+Mark
+(HELP
+CHAMPIONS
+), whose members uphold
+honour
+and the plight of
+the weak.
+The
+Quisalis
+Mark (HELP
+ASSASSINS
+),
+who
+use any means necessary to eliminate a
+target
+.
+It mainly comes down to a personal preference which organisation you choose.
+Members of both will
+attempt
+to slay another adventurer on your behalf.
+Contracting a
+Champion
+or
+Assassin
+----------------------------------
+The specifics for
+hiring
+a Mark to fulfill your
+contract
+are listed in HELP
+CHAMPIONS and
+HELP ASSASSINS
+respectively. Some
+things
+you should know about
+contracting before you proceed:
+- Champions and Assassins are used as a means of retribution, for victims of
+attacks
+who are unable to retaliate themselves.
+Marks
+should never be used to
+instigate conflict.
+- A Mark is considered a
+weapon
+: all attacks that the Mark makes while
+fulfilling a contract will be as if you were
+attacking
+the person yourself.
+- A valid and clear reason must be specified when requesting a contract. This
+reason is not viewable by the Mark, but it is revealed to the target upon
+successful completion of the contract. Do not make insults against the victim
+when stating your reason; the Administration
+monitors
+them and will penalise
+those who do.
+- You may only have one contract per person at once. You may have up to five
+active contracts on different individuals.
+- If you are listed as a thief on your
+honours
+, the Mark organisations will not
+accept your contracts.
+What happens next?
+------------------
+Once your contract is accepted, and your fee paid, you're done. A Mark will be
+selected to complete the contract on your behalf. At this
+point
+, any roleplayed
+justification for attacking that adventurer ceases.
+Contracts last for 30
+Achaean
+days
+(30
+RL
+hours
+), but don't
+move
+toward
+expiration unless the mark is online and the target is:
+- active in the realms,
+- on the prime material
+plane
+,
+- on the
+continent
+of
+Sapience
+,
+- not phased,
+- not in the
+wilderness
+,
+- not in any private home (in or out of
+subdivision
+),
+- outside of any 'defendable' area of _ANY_
+city
+, temple,
+or
+House
+estate.
+You can check on the
+status
+of your contracts by using the CONTRACTS
+command
+. As
+the hirer, you can CANCEL CONTRACT <#> if you
+wish
+.
+If the Mark successfully completes a contract, along with having your revenge,
+you'll also gain a sizeable portion of the
+experience
+from the
+kill
+.
+Should the Mark be slain while attempting to carry out your revenge, or if the
+target eludes the Mark for the full 30 days, the contract is considered
+failed
+,
+and the matter concluded. Such is the risk of contracting a
+member
+of a Mark.
+(See:
+HELP PK
+,
+HELP ASSASSINS
+,
+HELP CHAMPIONS
+, HELP WRITS, HELP ISSUES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

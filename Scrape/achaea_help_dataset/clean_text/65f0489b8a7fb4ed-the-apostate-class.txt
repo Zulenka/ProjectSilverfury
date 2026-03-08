@@ -1,0 +1,175 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.2 THE APOSTATE CLASS
+(See also:
+HELP APOSTASY
+,
+HELP NECROMANCY
+,
+HELP EVILEYE
+,
+HELP
+8, HELP
+CLASS
+)
+In
+days
+long past, the
+armies
+of Evil plotted to open a
+rift
+to the daemon
+planes
+through the torture and sacrifice of a holy
+guardian
+angel. However,
+the angel was resurrected and the rift closed, but not before a daemon
+general by the
+name
+of Morimbuul had come through the aperture. The daemon
+general, enraged at his entrapment on the prime material
+plane
+, threatened
+to destroy all around him. His summoner, a man named Xerimor, was able to
+subdue him, and much to the daemon general's fury, forced Morimbuul to
+instruct him in the daemonic arts. And thus was the class of
+Apostates
+born.
+Apostates are diabolical scholars and ritualists in the
+service
+of Evil.
+These black
+priests
+spread the teachings of the
+Gods
+of Evil throughout the
+realm, and they also act as the spiritual pulse of
+Mhaldor
+, the
+city
+of
+evil. Because of their
+devotion
+to Evil, they are rarely welcome in
+other
+cities
+.
+Through the
+skill
+of
+Apostasy
+, Apostates
+harness
+the
+power
+of the
+daemonic realms. They may summon and
+command
+daemonic entities to do their
+bidding, including living daemonic daeggers, bloodworms, nightmares, and
+most importantly, the powerful baalzadeens. Their
+training
+in the dreadful
+art of
+Necromancy
+grants them powers based upon draining life essence from
+the hearts of mortals and using it for various spells, including even the
+secret of guarding one's soul from
+death
+itself. These
+skills
+are
+supplemented by the skill of
+Evileye
+, which allows Apostates to cause a
+great number of terrible
+afflictions
+upon their
+enemies
+.
+The skills
+wielded
+by those of
+Apostate
+class are Apostasy, Necromancy,
+and Evileye. A
+fledgling
+in this class will possess Evileye and Necromancy,
+gaining Apostasy upon
+embracing
+class.
+** Please be advised that this class comes with restrictions on your
+actions. The skills of Apostates are fuelled by daemonic and evil forces; if
+you choose this class but act against such forces, you may find that your
+ability
+to use such skills has been revoked.
+(See also:
+HELP APOSTASY
+,
+HELP NECROMANCY
+,
+HELP EVILEYE
+, HELP 8, HELP CLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

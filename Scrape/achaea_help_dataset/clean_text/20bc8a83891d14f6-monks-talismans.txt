@@ -1,0 +1,206 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.8 Monks Talismans
+The "Monks"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the
+pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+- Partial completion (see below.)
+The
+Monks
+set contains the following talismans:
+-----------------------------------------------
+An odyssean tongue         - TALISMAN INFO ODYSSEANTONGUE
+- Purchaseable in
+Delos
+for 200
+bound
+credits
+.
+- You may WHISPERTONGUE <phrase>, and then you will automatically utter that
+phrase at the moment of your demise.
+A black headband         - TALISMAN INFO MONKHEADBAND
+- Purchasable in Delos for 300 bound credits.
+- While wearing this headband none of your
+mana
+draining
+defences
+shall
+impose their drains upon you, so as long as you are MEDITATING.
+A taloned
+ring
+- TALISMAN INFO TALONEDRING
+- Purchasable in Delos for 500 bound credits.
+- While wearing this ring you will grip tightly to all items that you are
+wielding
+, much like the gripping defence's functionality.
+A cranes pennon         - TALISMAN INFO CRANEPENNON
+- Purchasable in Delos for 1000 bound credits.
+- UNFURL this pennon and the next two people to BOW to the pennon will enter
+into a mutually acknowledged duel.
+- Neither of those people will be able to stray more than one room from the
+pennon until either five
+minutes
+has passed or one of the combatants is
+slain.
+- Note: you cannot force someone to bow, before anyone gets
+ideas
+!
+An olive branch         - TALISMAN INFO
+OLIVEBRANCH
+- Purchasable in Delos for 2000 bound credits.
+- RAISE this branch and you will take no damage from external sources.
+- This can only be done every 10 minutes and lasts ten
+seconds
+.
+- Note that this does not protect you against self-inflicted damage such as
+HOLOCAUST or FULMINATION. It also respects all forms of hinder such as
+prone/paralysis/
+entanglement
+.
+- Any offensive action will cause the effect to dissipate.
+A rallying
+banner
+- TALISMAN INFO MONKBANNER
+- Purchasable in Delos for 2000 bound credits.
+-
+PLANT
+BANNER and all of your mutual
+allies
+upon the same
+continent
+and
+plane
+,
+who
+are also on
+balance
+and not on a
+monolith
+will be summoned
+to the standard. Once planted you will need to wait for the standard to
+reset to you before you may PLANT it again.
+A dark
+ash
+wood
+staff  - TALISMAN INFO ASHSTAFF
+- Purchasable in Delos for 2000 bound credits.
+- This staff functions as a
+level
+3
+Shikudo
+staff, but also permits you to
+SMITE THE GROUND WITH STAFF to cause a variety of effects, from the minor
+to the not so minor.
+- Note that this is entirely uncontrollable so you should not expect to rely
+on any particular effect.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the
+death
+item you can
+TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder
+of the bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that
+reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already
+have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is
+2
+/3rds of 520 credits (The 500 credits paid above, plus your 2
+pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

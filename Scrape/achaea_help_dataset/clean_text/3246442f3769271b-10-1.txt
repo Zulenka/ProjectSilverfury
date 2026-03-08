@@ -1,0 +1,167 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.1 THE POLITICAL STRUCTURE OF CITIES
+A
+city
+is ruled, first and foremost, by a ruling council. These council members can have different
+names
+, such as Archon, Vizier, or Regent.
+HELP
+<city> will
+show
+you what the ruling council
+name
+for that city is.
+In order to become a
+member
+of the ruling council (which normally have five members), you must contest an existing member in an
+election
+, and triumph in the election.
+HELP ELECTIONS
+will give you detailed information about
+elections
+and
+referendums
+.
+Out of the ruling council members, one member,
+who
+must be approved by every council member but one, becomes the leader of that city. The leader can have various names, such as Overseer in
+Ashtan
+, Dawnlord in
+Targossas
+, or Seneschal in
+Hashan
+. That leader then enjoys
+immunity
+from electoral
+challenges
+from the populace.
+The leader of the ruling council then may appoint people to the heads of five different
+ministries
+, and each of these
+ministers
+may appoint
+aides
+. These are:
+Ministry of the
+Ambassador
+Responsible for new
+citizens
+(old and new)
+Responsible for city
+guides
+Ministry of
+Defence
+Responsible for the
+Army
+and all hostile excursions, tanks, and
+war
+.
+Responsible for the security of the city,
+guards
+,
+enemies
+,
+crimes
+.
+Responsible for city
+improvements
+and the
+font
+.
+Includes the Admiral, who is responsible for the city fleet.
+Ministry of
+Interior
+Responsible for the city
+shops
+.
+Responsible for the
+subdivision
+.
+Responsible for
+trade
+,
+warehouses
+, and
+commodities
+.
+Treasurer
+Responsible for the city coffers.
+Responsible for all finances and fund allocations.
+Ministry of Cultural Affairs
+Responsible for the
+arena
+.
+Responsible for special
+events
+within the city.
+So, in summary:
+The people elect the ruling council. The ruling council selects one of their number to be the leader. The leader appoints people to the five ministries. The ministers appoint aides to
+assist
+them in the
+day
+to day.
+Further help on the various ministries may be found under section 10.4 (Ministries).
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

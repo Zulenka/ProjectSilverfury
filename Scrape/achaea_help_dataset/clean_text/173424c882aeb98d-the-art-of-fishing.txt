@@ -1,0 +1,256 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.32 THE ART OF FISHING
+People
+fish
+for many reasons, from competitive sport, to income, to just
+relaxation. With a little
+practice
+, you too will be a master fisherman, landing
+those trophy fish with ease!
+Commands
+--------
+BAIT
+HOOK WITH <bait>
+---------------------
+This baits your hook with the proper bait. You must be
+wielding
+a
+fishing
+pole.
+Remember that there are four sizes of bait, and small bait will only catch a
+small fish, medium a medium fish, large a large fish, and huge a huge fish.
+You can find bait and fishing poles in several places:
+Shastaan
+, Tasur'ke, and
+two rooms south of the entrance to
+Minia
+are a few.
+CAST LINE <direction>
+---------------------
+When casting your line, you must stand one room away from the room you're
+casting into, which must be either a river or a lake. You'll cast a random
+number of yards here. After you've cast, you just wait for a nibble or strike.
+You may only catch fish in freshwater or river environments. One does not fish
+the ocean from land generally, although deepseafishing will allow one to fish
+from on
+ship
+.
+This takes
+balance
+and the balance cost varies with
+traits
+and
+skills
+.
+For deepsea fishing there is a variation on this
+command
+:
+CAST LINE [SHORT|MEDIUM|LONG]
+Shorter casts are a bit faster than medium, and medium a bit faster than long.
+Conversely, long casts carry a better chance of getting a stronger strike
+than medium, and medium have a better chance than short.
+TEASE LINE
+----------
+This is done after you've gotten a nibble, or a small or medium strike. The
+ideal
+time
+to tease your line is a bit over
+2
+seconds
+after the nibble or
+strike happens. Your chance of the teasing working decreases the further away
+from the ideal time you are. Remember that there IS potentially value in
+teasing the line after a small or medium strike, because it increases the
+chances that jerking the pole will hook the fish. It's also worth noting that
+the higher your
+survival
+skill
+, the better you will be at teasing the line.
+This takes balance and the balance cost varies with traits and skills.
+JERK POLE
+---------
+After you have a small, medium, or large strike you may do this. The ideal time
+to jerk your pole is a bit under 2 seconds after the fish has struck. As with
+tease line, the further away from this ideal time you are, the less your chance
+for success will be. And, like tease line, the higher your survival skill is,
+the better you will be at this.
+This takes balance and the balance cost varies with traits and skills.
+REEL LINE
+---------
+This will reel the fish in a distance determined by both your survival skill
+and the size of the fish. With some of the big fish, particularly sturgeons and
+giant salmon, you will have to get very lucky indeed to reel fast enough to
+stop these monster fish from
+running
+out your line and snapping it, so be
+warned.
+The distance you reel varies somewhat with the size and
+fight
+of the fish.
+CUT LINE
+--------
+If you just don't want to battle a fish
+anymore
+, you may cut your line to
+release it, but you'll
+lose
+your bait.
+SELL
+FISH TO <bait
+shop
+denizen>
+--------------------------------
+Cha-ching! You'll get paid for every
+ounce
+of fish you've caught. Most
+places that sell bait will also
+buy
+fish. Some won't.
+Also SELL SMALLFISH  TO <buyer>
+SELL MEDIUMFISH TO <buyer>
+SELL LARGEFISH  TO <buyer>
+SELL HUGEFISH   TO <buyer>
+Which has two implications - first, it only sells one type of fish, and
+second, you get a detailed report on every fish sold,
+weight
+and payment,
+plus a grand total.
+RANKINGS
+FISHING
+----------------
+These record the biggest catch for each breed of fish both in
+history
+and for
+the current
+Achaean
+year.
+Notes
+-----
+1. Each breed of fish has a particular
+character
+to it, from cautious to
+interested to aggressive. These just dictate how likely that kind of fish
+is to
+go
+for your bait.
+2. It's possible to fish out a room, but the fish will be replaced
+approximately every Achaean
+month
+.
+2a. It's not possible to fish out a deep sea location like it is on land, but
+areas may be over-fished which will result in the chance of catching fish
+being significantly lowered. Also, you will never be able to catch fish
+in some locations. Refer to
+HELP
+23 and its related topics for more
+details.
+3
+. "
+Auto
+-fishing" is illegal, like auto-
+ratting
+. If we catch you auto-fishing,
+you will be
+shrubbed
+, permanently.
+4. SURVEY will let you know, in a freshwater or river room, if there are no
+fish, a few fish, or more than about ten fish available to catch in that
+room.
+Types of Bait
+-------------
+Small  : worm, minnow, sand flea
+Medium : shrimp, clam, crab
+Large  : mudsucker, octopus
+Huge   : rock bass, marble carp
+Types of Fish
+-------------
+Small:   Yellow Perch      (lake, weak fight, interested)
+Blue Eel          (lake, weak fight, cautious)
+Striped Shad      (lake, medium fight, interested)
+Longnose Darter   (river, medium fight, interested)
+Bearded Pikefish  (river, strong fight, interested)
+Medium:  Rock bass         (lake, strong fight, aggressive)
+Catfish           (lake, medium fight, interested)
+Marble Carp       (lake, medium fight, cautious)
+Giant Chubsucker  (lake, weak fight, aggressive)
+Eastern Mooneye   (lake, medium fight, interested)
+Black Crappie     (river, medium fight, cautious)
+Walleye           (river, strong fight, aggressive)
+Trout             (river, strong fight, aggressive)
+Large:
+Pike
+(lake, strong fight, aggressive)
+Sturgeon          (lake, very strong fight, interested)
+Giant Salmon      (river, very strong fight, aggressive)
+Huge:    Whiskerknot Skrei (deepsea, medium fight, interested)
+Stripefish        (deepsea, medium fight, aggressive)
+Two-headed fish   (deepsea, strong fight, cautious)
+Giant Hatchetfish (deepsea, very strong fight, aggressive)
+Coelacanth        (deepsea, strong fight, cautious)
+Spotted Fangtooth (deepsea, strong fight, interested)
+Duskfin Tuna      (deepsea, very strong fight, cautious)
+Redfin Tuna       (deepsea, strong fight, aggressive)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

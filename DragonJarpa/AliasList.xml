@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<AliasPackage>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Dragon</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>CurseRoar</name>
+				<script>local t = Targets and Targets.getCombatTargetForCmd and Targets.getCombatTargetForCmd() or nil
+if not t or t == "" then
+  cecho("\n&lt;red&gt;[DR] No combat target.\n")
+  return
+end
+
+send(("queue insert !t!w!puc 1 dragoncurse %s sensitivity 1"):format(t))
+send(("queue insert !t!w!pue 2 dragonroar %s"):format(t))
+</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^cr$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Blast Target</name>
+				<script>local t = Targets and Targets.getCombatTargetForCmd and Targets.getCombatTargetForCmd() or nil
+if not t or t == "" then
+  cecho("\n&lt;red&gt;[DR] No combat target.\n")
+  return
+end
+send(("queue insert !t!w!pue 1 blast %s"):format(t))
+</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^blt$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Breathstream</name>
+				<script>local t = Targets and Targets.getCombatTargetForCmd and Targets.getCombatTargetForCmd() or nil
+if not t or t == "" then
+  cecho("\n&lt;red&gt;[DR] No combat target.\n")
+  return
+end
+
+local dir = (matches[2] or ""):lower()
+
+local dirMap = {
+  n   = "north",
+  s   = "south",
+  e   = "east",
+  w   = "west",
+  ne  = "northeast",
+  nw  = "northwest",
+  se  = "southeast",
+  sw  = "southwest",
+  u   = "up",
+  d   = "down",
+  out = "out",
+}
+
+dir = dirMap[dir] or dir
+
+send(string.format("queue insert !t!w!pub 2 breathstream %s %s", t, dir))
+</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^brs\s*([a-z]+)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Enmesh</name>
+				<script>local t = Targets and Targets.getCombatTargetForCmd and Targets.getCombatTargetForCmd() or nil
+if not t or t == "" then
+  cecho("\n&lt;red&gt;[DR] No combat target.\n")
+  return
+end
+send(("queue insert !t!w!pue 1 enmesh %s"):format(t))</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^enm$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Auto Bite</name>
+				<script>dragon.autoToggle()</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^autobite$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>AutoBiteDebug</name>
+				<script>local t = (type(zguiGetCombatTarget)=="function" and zguiGetCombatTarget()) or (dragon._getTarget and dragon._getTarget()) or nil
+local prone = (t and type(zguiIsProne)=="function") and zguiIsProne(t) or false
+local ready = (type(zguiCanProneAttack)=="function" and t) and zguiCanProneAttack(t) or false
+local canBite = (t and dragon.canBiteTarget) and dragon.canBiteTarget(t) or false
+echo(string.format("t=%s auto=%s ready+prone=%s prone=%s canBite=%s bal=%s eq=%s mode=%s",
+  tostring(t),
+  tostring(dragon.cfg and dragon.cfg.autoEnabled),
+  tostring(ready),
+  tostring(prone),
+  tostring(canBite),
+  tostring(type(zguiHaveBal)=="function" and zguiHaveBal()),
+  tostring(type(zguiHaveEq)=="function" and zguiHaveEq()),
+  tostring(zgui.combatState and zgui.combatState.readyMode)))
+</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^dbited$</regex>
+			</Alias>
+		</AliasGroup>
+	</AliasPackage>
+</MudletPackage>

@@ -1,0 +1,125 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.4 MOVEMENT
+(See also
+HELP
+LANDMARKS
+)
+To
+move
+around in
+Achaea
+, you will first want to type
+LOOK
+or QL in order to
+see what the
+exits
+from the room you are in are. You'll find the exits at the
+end of the
+description
+, and to see what is beyond an
+exit
+, you may type GLANCE
+<direction> or just GL <direction>. To move in that
+direction
+, you simply type
+the direction:
+N/NORTH, NE/NORTHEAST, E/EAST, SE/SOUTHEAST, S/SOUTH, SW/SOUTHWEST, W/WEST,
+NW/NORTHWEST, U/UP, D/DOWN, IN, OUT
+You can also move automatically, one room at a
+time
+, to certain landmarks if
+you are close enough. See
+HELP LANDMARKS
+for details. Very useful, especially
+when
+lost
+.
+DOORS
+-----
+Sometimes, you will encounter doors. A door may be open, shut, locked open, or
+locked shut. To try to open a door that lies to the north of you, the
+syntax
+would be OPEN DOOR NORTH or OPEN DOOR N. To close a door to the north, you
+would type CLOSE DOOR NORTH or CLOSE DOOR N. (As you can see,
+directions
+can
+generally be abbreviated in the ways shown above.)
+Naturally, before you can open a locked door, you must unlock it, and before
+you can close a door that has been locked open (imagine a bolt lock that has
+been locked while the door is open), you must unlock it. To do so, you must
+obtain a
+key
+for the door, which may or may not be possible, depending on the
+door. There are
+other
+ways to bypass doors, but those are for you to discover.
+To lock a door to the north, assuming you are
+holding
+the proper key for it,
+you would do LOCK DOOR NORTH. The syntax to unlock a door to the north is
+UNLOCK DOOR NORTH.
+(See also HELP LANDMARKS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,251 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.4.1 THIEVERY
+If you were just stolen from, see
+HELP FENCE
+to
+learn
+what to do next.
+THE
+THIEVERY
+(
+THEFT
+,
+STEALING
+) RULES
+------------------------------------
+Theft rules supersede any
+other
+PK
+specific scenarios. (
+Dauntless
+/
+Infamy
+)
+1. You may
+steal
+from anyone for any reason at any
+time
+, except as follows:
+a. Theft
+attempts
+against anyone under the age of 21 are not permitted unless the
+target
+is
+infamous
+.
+b. Theft while in an
+Arena
+is not permitted.
+c. Theft during
+worldgame
+events
+(e.g.
+foozles
+,
+bandersnatch
+,
+egghunts
+) is not allowed, if either the victim, the attacker, or both, have joined the game.
+d. Forcing
+curatives
+into
+containers
+may only be done for the purposes of
+combat
+, never for theft. This includes
+SoW
+/
+promo
+elixirs
+.
+e. Theft from newly returned
+dormant
+players will not be possible.
+2
+. Taking
+things
+from a stockroom or a private
+house
+that you do not own, and without prior
+permission
+, is theft. This means that taking things from someone's house while they are under 21 or during a worldgame is forbidden.
+3
+. You may not
+attack
+or hinder a player for the purpose of theft. For the
+avoidance
+of doubt:
+a. Force
+abilities
+that do not cause the victim to
+lose
+equilibrium
+or
+balance
+(mind force, soulmaster, minuet, hypnotism, etc) are permitted.
+b. Stripping
+defences
+, except for selfishness, is not permitted.
+c. Blocking or
+moving
+a player is not permitted.
+4. Theft victims (even from unsuccessful attempts) can
+fight
+back and pursue repercussions. These retaliatory actions do not grant the thief
+roleplay
+justification to seek revenge (see
+HELP PK
+paragraph
+6
+regarding circular roleplay).
+CON
+JOBS (Please refer to
+HELP
+SCAMS
+)
+-------------------------------------
+Con jobs, deceit, trickery, and the like involving
+gold
+are illegal (see below for
+credit
+-related con jobs). If, for instance, you promise to exchange gold for services or the other way around, accept the other party's half of the deal, and then refuse to follow through on yours, that's considered a
+scam
+.
+Con jobs and
+credits
+.
+Something
+like a credit transfer at an unexpected price is a con job. We safeguard you in this way: you have to AGREE to such transactions, or else you have to type out the entire TRANSFER <x> CREDITS TO <person> FOR <y> GOLD
+command
+. If you get fooled, or if you put in the wrong command, then you've been
+conned
+, and you have nobody to blame but yourself.
+Con jobs relating to paying credits for things (whatever:
+shops
+, bulk
+herbs
+, etc) are definitely forbidden and will be handled strictly. Don't do that!
+ORGANISATIONAL THEFT
+--------------------
+This is a very particular case where a
+member
+of an organisation abuses a position of
+power
+in an org in order to clear out coffers, destroy
+ships
+, wipe
+commodity
+stores, and similar.
+In these instances the offender is considered open PK to all members of the organisation until the stolen contents are returned/repaid or until the organisation considers the debt satisfied in some other manner.
+Theft from a
+shop
+in/belonging to a
+city
+/house is not and never has been considered organisational theft.
+Tips to Protect Against Thievery
+--------------------------------
+1.
+Run
+away. Remember, the thief isn't allowed to restrain you.
+2. Keep your gold in the
+bank
+!
+3. Turn on your
+curing
+and setup selfishness as a
+defence
+.
+Frequently Asked
+Questions
+--------------------------
+Q. Is it permitted to force
+eating
+herbs, if you secret them the
+herb
+beforehand? (To
+cure
+things that may prevent theft)
+A. It is permitted if the herb that the victim is being forced to
+eat
+does not strip a defence. Thus, a thief cannot use this to strip blindness or deafness.
+Q. Is it permitted to force wake?
+A. Yes, waking a person, on its own, does not count as an attack in theft, as long as it's done through a method that does not harm the victim, strip his defences, or attack him in any other way. For example, you could use a force command to make your victim awaken, but you couldn't kick him to wake him up.
+Q. Is picking items up off the ground dropped by someone
+who
+died theft?
+A. Picking up items dropped by someone who died is not theft, unless the retriever forced that adventurer to have the items out and droppable upon
+death
+.
+Q. Is it permitted to strip phase in order to steal?
+A. No. Phase is a defence, and you cannot strip it, nor
+anything
+else that
+shows
+up in DEFENCES for the victim (excepting selfishness).
+If you were just stolen from, see
+HELP FENCE
+to learn what to do next.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

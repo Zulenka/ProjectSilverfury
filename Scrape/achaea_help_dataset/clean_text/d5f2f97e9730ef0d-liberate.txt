@@ -1,0 +1,280 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.8.4 Liberation
+HELP LIBERATION
+Command
+Summary:
+SANCTION
+LIBERATION
+- Start a liberation
+attempt
+in the area
+ACTIVATE
+TANK
+- Place the tank in the
+target
+area, after the liberation has been sanctioned. Gated by
+Defence
+Aide
+, AR3 or
+city
+overseer
+PRIME <tank> - Prime a tank for liberation use, 48hr priming, with 24 hr use
+time
+DETONATE TANK - Detonate the charged tank to
+liberate
+the area
+SURVEY -
+Shows
+tank location within the area and any area conditions applied by the liberation.
+If you
+wish
+to liberate an area, your
+Minister
+of Defence, City Leader, or a Defence Aide must SANCTION LIBERATION in the area during the conquering city's Eidolic Phase.
+Only orgs with
+territory
+status
+or higher are liberatable to make it easier to
+fight
+back from a reset.
+An area may be liberated only if one of the
+following
+facts is true:
+It has only one adjacent conquerable area. I.e., any dead-end area can always be liberated (e.g.,
+Moghedu
+). Note that unconquerable areas do not count for this calculation, so if an area has two areas off it, but one is immune to
+conquest
+, that is a dead-end area.
+The organisation that holds the area has fewer than two conquerable areas adjacent under its
+control
+. The cities' proper do not count towards this
+metric
+, as they are unconquerable.
+For example, if
+Targossas
+holds
+Jaru
+,
+Pash
+Valley, and the Great Southern Road, Jaru cannot be liberated because Pash Valley (1) and the Great Southern Road (
+2
+) are adjacent. Jaru would become vulnerable again if either is liberated.
+Hostile orgs have the same number of territories as the adjacent controlling org. This one should not come into play very often.
+The sanction liberation command has a 24
+RL
+hour
+cooldown once used. This command begins a
+5
+minute
+countdown. Once the timer completes, one of the
+ranking
+liberating leaders will need to ACTIVATE TANK at a location within the conquered area. Be prepared to defend the location against the city currently
+holding
+the territory.
+This tank will need to be specially prepared beforehand:
+-
+Forge
+and charge a tank as usual. Once fully tended and charged, then you can PRIME <tank>. 48 RL
+hours
+later, the tank is primed. If you do not use it within 24 RL hours, it will burn out and disappear.
+- Retrieve tank, etc., is smart; it will not use your liberation tanks for
+raids
+or raid tanks for liberations.
+- Primed or priming tanks do not count towards your tank cap (so you can start tending a new one after you begin priming). The location of your tank will be displayed on SURVEY for those nearby.
+- Defend and charge this tank. It will only charge to
+level
+one. You can only place one tank. Deaths and time will contribute to the charging. The number of deaths and the time required will increase as your city conquers more areas.
+- The sanction will last 100
+minutes
+, or until the tank is detonated/disarmed/captured, whichever happens first.
+- DETONATE TANK to liberate the area once your tank is charged.
+These tanks can be captured and disarmed, as is normal. Doing so will end the liberation attempt. All tank-related
+channels
+will take longer to use outside the city. If the Eidolic Phase ends while you are attempting to liberate an area, the attempt will
+fail
+. Any city can disarm or capture, but only the city that sanctions the liberation attempt can place the tank. When a tank is deployed, everyone in the area is at risk of
+attack
+; those attempting to liberate the area should be prepared to defend.
+NOTE: This is not a bountyable or contractable
+period
+UNLESS the area is mutually allied to the city that holds the area; in that case, a liberation attempt is an overtly hostile action against the city, and
+bounties
+may be filed.
+For example, if
+Mhaldor
+is attempting to liberate New
+Thera
+from Ashtani occupation (New Thera is mutual
+allies
+with
+Ashtan
+), Ashtan may file bounties on those
+who
+get involved. But, if Ashtan is attempting to liberate the
+Shamtota
+Hills from
+Eleusis
+, Eleusis may not file bounties against those who
+challenge
+their
+hold
+.
+A few additional notes:
+- Sanctioning liberations generates hostility between the sanctioning org and the current owner of the target area (the same amount as sanctioning a raid).
+- Liberation
+attempts
+have a chance to
+fire
+under certain conditions similar to conquests. The conditions will not occur until the tank is placed. SURVEY shows which conditions are active for a given liberation.
+- You can use the adaptation
+investment
+on your own
+beacon
+/liberation attempts if desired (
+HELP SPIRIT
+for information on investments).
+When an area is liberated, all adjacent areas held by the defeated organisation are granted protection from liberation - this
+grace
+period is roughly 20 RL hours. Note that this only prevents liberation initiation - if those areas are already being liberated, those liberations will resolve as normal. This prevents you from taking an area that protects another, then taking the newly vulnerable area in the same phase.
+Liberated territory remembers who it was liberated from for four of that organisations' phases after the fact. If that org takes a territory adjacent to the liberated territory in that timeframe, they will reclaim it (assuming no one else has taken it first).
+For example, if
+Cyrene
+liberates Moghedu from Mhaldor but Mhaldor then conquers the
+Mhojave
+, they will take the Mhojave and flip Moghedu back to them.
+Liberation Conditions:
+Khentimen's Curse: The curse of Khentimen shall make it so
+moving
+throughout an area becomes very difficult. Indeed, you may find that every step becomes quite the
+trial
+...
+Effect: A chance to be hindered at each step while moving through the area.
+Kasmarkin's Doom: There can be no
+escape
+from the doom which awaited fallen
+Kasmarkin
+, and all who stand within the
+influence
+of the beacon will find that magic travel over any kind of distance will be denied them entirely.
+Effect: No magical travel, includes (but is not limited to): wings, earrings,
+portals
+Errikale's Cunning: All that
+move
+through the influence of this beacon shall find that they are able to evade blows from multiple foes who seek to strike them at once with supreme ease. However, a lone warrior is just as deadly as ever.
+Effect: Many people on one target are much less effective than single
+combat
+.
+Purity of Mind: All that stand within the influence of the beacon will find their minds pure of unwanted thoughts entirely. So much so that telepathic
+communication
+of any kind will become impossible.
+Effect: No telepathic communication at all, including
+party
+tells
+.
+Yen-Sorte's Folly: All that are within the influence of the beacon will find themselves suffused with resistance to damage of all kinds and will be cleansed of
+afflictions
+periodically. Such
+power
+could make you feel invincible!
+Effect: Damage reduction and a chance to have afflictions removed.
+Heretical
+Rejection
+:
+Shrines
+within the influence of the beacon will be cut off from their source of power, and will convey no miracle, greater or lesser, upon believer or heretic alike.
+Effect: No
+shrine
+usage.
+Rampant Paranoia: Everyone within the influence of the beacon raised in this area shall find they cannot
+help
+but
+consider
+everyone else an
+enemy
+, regardless of affiliation.
+Effect: Everyone is considered an enemy.
+The Finality's Vigil: The
+Finality
+observes this location, and as a result no forms of
+resurrection
+, be they starburst or higher methods will avail those that perish. Further, any who fall will be immediately pulled into the
+embrace
+of
+death
+.
+Effect: Upon being killed, you will immediately embrace death.
+Peerless Grace: So graceful and fleet of foot will those who stand within the influence of the beacon be, that they will find that no forms of room hinder, passive or active, will keep them from
+leaving
+the location if they so desire.
+Effect: No room hinder
+Vakha's Struggle: Ever shifting and
+changing
+to thwart that which would lay them low, those that find themselves in the influence of this power shall soon
+learn
+a taste of what it means to confront the first to dwell in the darkest depths.
+Effect: Rotating damage resistance to certain elemental types.
+Last Updated: 12/17/2025
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

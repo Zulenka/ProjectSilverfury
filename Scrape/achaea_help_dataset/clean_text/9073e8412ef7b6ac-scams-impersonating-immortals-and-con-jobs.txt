@@ -1,0 +1,270 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.4.2 Scams, impersonating Immortals, and con jobs
+Somebody wants to
+steal
+your adventurer.
+Failing
+in that, he wants to
+scam
+you
+to take your
+money
+, or
+credits
+. He'll pretend to be an
+immortal
+,
+guide
+, or
+admin
+of
+Achaea
+, or he'll try to trick you
+other
+ways.
+Read
+below for
+information on keeping your adventurer safe and on avoiding
+scams
+.
+Things
+you can do to keep your adventurer safe
+----------------------------------------------
+- No Admin or immortal of Achaea will ever ask you for your
+password
+.
+We don't need it. We don't want it. It wouldn't do us any good anyway.
+- Never
+tell
+your password to anyone. Ever. Even if we ask you to.
+Which we won't!
+- Make sure whoever you
+talk
+to is legitimate, using
+HELP
+<name>,
+HELP GODS
+,
+HELP ADMINS
+,
+HELP GUIDES
+, or even
+HONOURS
+<name>.
+- Many
+immortals
+have help
+scrolls
+. Try
+HELP SARAPIS
+, for example,
+or HELP <name> for
+others
+.
+- Try
+HELP GODS
+. The people on that list are proper immortals of Achaea.
+- Proper
+admins
+are
+Lathis
+,
+Lycon
+,
+Meletus
+, and
+Anytus
+.
+HELP ADMINS
+.
+- Any other immortal will be obvious in HONOURS <name>.
+Be careful! If someone claims to be a god, immortal, admin, guide, or staff of
+Achaea, check it out first. One impersonator created a new adventurer named
+Serapis to try to fool other players into giving away money or credits or
+passwords
+.  Another created Moya. The true immortal
+names
+would be
+Sarapis
+or
+Maya
+. Watch out! This stuff happens all the
+time
+.
+Don't give us your password. We don't need it. We won't ask for it.
+Credits
+-------
+Don't hand over your credits to just anybody. Don't transfer credits to
+immortals, admins,
+guides
+, or any staff of Achaea. If we need your credits,
+we'll handle it in a very safe way. You won't have to transfer
+anything
+.  When
+you are
+buying
+artefacts
+or
+customisations
+, don't transfer anything! We'll do
+it.
+Use the
+artefact
+shops
+or via direct
+emails
+to artefacts@achaea.com.
+Things you can do to keep your credits,
+gold
+, and possessions safe
+------------------------------------------------------------------
+- Check every single detail in a
+credit
+transfer offer.
+Now check them again. Then again. Example:
+(Hammer, the
+Scammer
+) offers to
+sell
+you 1 credits for 350000 gold.
+Type AGREE if you
+wish
+to accept this offer.
+Once you AGREE, it is all over. We will not intervene to help you.
+Your gold is gone. Too late.
+- If you are transferring your credits TO someone else, then that's
+your responsibility. Make sure the transfer
+command
+is correct!
+And check your own credits before and after the transfer. Don't
+believe someone
+who
+tells
+you "it didn't work!"
+-
+Con
+jobs involving credits (except as above, with credit transfers)
+are illegal! File an
+ISSUE
+if you don't get what you paid for.
+* For instance, someone who
+illusions
+the
+message
+"(
+x
+) offers to
+sell you
+2
+credits..." - that's an illegal scam.
+* For instance, someone illusions "(blah) has transferred 20 credits
+to you." This is also an illegal scam.
+* For instance, somebody
+says
+he's a guide, and wants credits for
+something
+. Doesn't matter what. Don't do it.
+- Make absolutely certain when you
+loan
+something out that you will
+be getting it back. Because if the person doesn't return it, it
+IS NOT
+THEFT
+. It's bad. It's not nice. It's a scam maybe. But it's
+not theft.
+Illegal
+cons
+/scams
+------------------
+Illusioning about credits, hypnotising people to give you credits, and
+anything similar, will almost certainly result in permanent loss of
+your
+character
+, through
+shrubbing
+or other means. Don't do it!
+Con jobs or scams with gold are equally illegal. If
+Herb
+, the
+harvesting
+fool,
+offers you 1000
+moss
+for 30,000 gold, then you hand over the gold, and Herb
+laughs and won't hand over the moss, or won't hand over all of it, or gives you
+something else instead, then Herb is
+going
+to be in a
+world
+of hurt. Let us
+know right away so we can fix things up for you. We'll all have fun with it.
+Our scam protections can only include 100% in-game deals that we can verify.
+We cannot enforce agreements between players that feature
+OOC
+goods. This
+includes artwork and scripts. We cannot verify the receipt of these items and
+so they do not fall under our scam protections.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

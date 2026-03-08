@@ -1,0 +1,130 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.5 House Leaders
+As a
+House
+leader, what you need to know about House positions and the
+associated powers is fairly simple. HOUSE AUTHORITY
+shows
+you all your powers,
+of course, but a word of explanation regarding positions,
+aides
+, and powers is
+in order.
+Only the Lord/Lady of your House can create positions. He/she can create up to
+5
+positions above and beyond the House Lord/Lady, House Patron, and Head of
+Newcomers
+(which may and should be renamed by each House). The Lord/Lady may
+then assign a set of powers to any of those positions, as well as to the Head
+of Newcomers position, by doing HOUSE SETPOWERS <position
+name
+/NEWCOMERHEAD>
+<
+power
+list separated by spaces>. For instance, a power list
+might
+look
+like:
+suffix
+prefix
+score
+writelog.
+Next you'll want to appoint someone(s) to that position. Except for the Head of
+Newcomers, positions may have unlimited number of position holders. Have 1,
+have many: it's up to the House in
+question
+.
+Once you have assigned powers to a position, the person
+who
+holds that position
+may then assign a sub-set of those powers to his or her aides. That sub-set can
+be any
+combination
+of the powers the position has, up to and including all the
+powers the position has.
+So:
+House Lord/Lady:
+- Creates positions.
+- Appoints people to them.
+- Assigns powers for the positions.
+Position holders:
+- Appoint aides.
+- Assign
+aide
+powers.
+House leaders earn 200
+renown
+per
+hour
+while logged in, up to 800 renown per
+day
+or until they hit cap (see
+HELP
+RENOWN).
+See also HELP PATRONAGE REQUESTS, and HELP 8 for more information on
+Houses
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

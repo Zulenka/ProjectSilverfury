@@ -1,0 +1,114 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.1.8 Champions VS Assassins!
+The game of
+Champions
+VS
+Assassins
+is played much like King of the Hill,
+except for these differences:
+1. There is no Hill or Flag. Instead, there is a Blade of the Masters that
+is dropped at a random location in the
+arena
+once the game begins.
+2
+. Instead of RED TEAM and BLUE TEAM, the
+teams
+are ASSASSINS and CHAMPIONS.
+They are still colour-coded red and blue, however.
+3
+. Whoever holds the Blade gains points for their team. You don't have to
+plant
+a flag, or get to the Hill. All you need to do is
+hold
+the Blade. So
+if the opposing team holds the Blade, you have to
+kill
+whoever holds it, and
+if your team holds the Blade, you have to defend the Blade holder.
+4. While you are
+holding
+the Blade, you will be under the
+aeon
+/retardation
+effect. You cannot get rid of it except by
+losing
+the Blade.
+5
+. The Blade is like the Flag in King of the Hill. If you
+die
+, you
+lose
+it.
+If you fly, you lose it. If you phase, blackwind, et cetera, you lose it.
+6
+. If you
+WIELD
+the Blade, you can SLASH <name> for an extremely powerful
+hit! And we do mean powerful!
+7. Use AT instead of KT, ARENAWHO instead of KWHO.
+8. ES <arena> and ARENA SCORES <arena> will have useful information once the
+game is started.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

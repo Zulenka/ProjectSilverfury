@@ -1,0 +1,259 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.4.6 Multiclass
+What is
+Multiclass
+?
+-------------------
+Multiclass is a way for an adventurer
+who
+has displayed mastery of their
+primary
+profession
+to expand their horizons and
+learn
+additional
+classes
+!
+Each additional
+class
+is self-contained, meaning that it has to be switched to,
+and deactivates any of the previous class's
+skills
+,
+defences
+, and effects.
+How do I gain additional classes?
+---------------------------------
+To gain an additional class, you will need an available class slot. These slots
+are granted at
+level
+80, level 100, and then every 10
+levels
+after that.
+Should you not
+wish
+to wait until the next (or the first!) level threshold, you
+may purchase an additional slot for 250
+bound
+credits
+. Simply CLASS
+BUY
+SLOT to
+unlock one.
+Once you have a slot, you will be able to visit
+Certimene
+, in
+Delos
+, and ASK
+CERTIMENE GAIN <class> (see the section below on limits for further details on
+gaining classes).
+How do I switch between classes?
+--------------------------------
+Switching between classes is simple: CLASS SWITCH <class
+name
+|slot#>, and your
+skills and
+traits
+will be switched out to the new profession!
+By default, one can change
+professions
+once every 12
+Achaean
+days
+(12
+RL
+hours
+), but this
+time
+can be reduced in the
+following
+ways:
+- Obtaining an
+artefact
+to reduce this time.
+- If one reaches
+5
+additional classes, they will receive the benefit of the
+class change artefact one level greater than they currently have. Should
+they already have the top artefact,
+changing
+classes will incur no
+cooldown.
+What
+things
+change/remain when I change class?
+----------------------------------------------
+Things that change:
+- Class skills.
+- Traits (Adventurers get a set of traits per class slot).
+- Racial
+specialisation
+(Adventurers get a racial specialisation per class
+slot).
+- Defences and beneficial effects on
+other
+adventurers.
+- Class loyals are dismissed.
+- Class/specialisation-based
+proficiencies
+(but they're saved for when you
+switch back).
+Things that stay the same:
+-
+Health
+,
+mana
+,
+endurance
+,
+willpower
+.
+-
+Base
+racial
+statistics
+.
+- Karma/
+Devotion
+/Essence/
+Rage
+.
+- Regular learned
+weapon
+proficiencies.
+- General skills, mini skills, and
+trade
+skills.
+-
+Customisations
+on class loyals
+How do I change one of my additional classes?
+---------------------------------------------
+You can do this in one of two ways:
+- Switch to your desired class and
+QUIT
+CLASS.
+- CLASS FORGET <class> will allow you to forget a class without switching to
+it.
+Normal refunds of
+lessons
+apply
+to additional classes, with embraced
+individuals receiving 50% of their invested lessons, and journeymen getting
+98%.
+What are the limits on gaining and switching between classes?
+-------------------------------------------------------------
+1) Gaining classes
+- Normal org restrictions on classes apply, one can not gain a class that is
+disallowed by their
+city
+.
+- Heavily-aligned classes are mutually exclusive within their
+roleplay
+sphere.
+For example: an adventurer can not be both a necromancer and a devotion user,
+or an
+occultist
+and a forestal class. A forestal classed adventurer could
+pick another class within the
+nature
+faction though.
+- An adventurer must have reached transcendent in all of their lower slot class
+skills before being able to gain their next class.
+2
+) Switching classes
+- Class may not be switched within 8
+minutes
+of any hostile action, both by
+you or to you.
+- Classes may not be switched in an
+enemy
+city.
+- Beneficial effects to other adventurers are
+lost
+when switching class (
+Runes
+,
+blessings etc.).
+Lesson
+costs
+------------
+With the burden of trying to keep multiple classes in your head, it becomes
+increasingly difficult to master new
+abilities
+. For each class you've learned,
+the effectiveness of lessons diminishes, requiring more lessons to advance in
+skill
+rank
+.
+Here's a brief rundown of the increasing costs:
+Class                Lessons to transcendent
+--------------------------------------------
+Primary class        1738 lessons per skill
+2nd class            2500 lessons per skill
+3rd class            3335 lessons per skill
+4th class+           5000 lessons per skill
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

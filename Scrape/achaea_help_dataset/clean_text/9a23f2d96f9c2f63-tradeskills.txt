@@ -1,0 +1,223 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.61 Tradeskills
+Fancy yourself the creative type?
+Wish
+to be renowned throughout the lands for
+your master craftsmanship? Then
+learning
+a
+tradeskill
+might
+be
+something
+you're
+interested in.
+Achaea
+offers a variety of
+miniskills
+that allow you to ply your talents and
+make some
+gold
+while you're doing it. Each person can
+learn
+two(*)
+tradeskills
+from the
+following
+list:
+Armoursmithing
+(
+HELP
+ARMOURSMITHING) -
+Forge
+protective
+armour
+and
+shields
+.
+Artistry
+(HELP ARTISTRY)             -
+Design
+and create works of art.
+Augmentation
+(HELP AUGMENTATION)     - Augment items with magical
+enchantments.
+Beverages
+(HELP BEVERAGES)           - Design drinks and
+drinking
+vessels.
+Conjuration
+(HELP CONJURATION)       - Conjure powerful magical
+objects
+.
+Cooking
+(HELP COOKING)               - Design and cook delicious dishes.
+Furnishing
+(HELP FURNISHING)         - Scour for materials and craft furniture.
+Gathering
+(HELP GATHERING)           - Obtain reagents from many sources.
+Harvesting
+(HELP HARVESTING)         - Pick
+plants
+and
+other
+natural
+curatives
+.
+Inkmilling
+(HELP INKMILLING)         - Mill
+inks
+and warpaints.
+Jewellery
+(HELP JEWELLERY)           - Create exquisite
+custom
+jewellery.
+Remedies
+(HELP REMEDIES)             - Concoct life-
+saving
+elixirs
+and
+salves
+.
+Shipfitting
+(HELP SHIPFITTING)       -
+Equip
+ships
+with
+everything
+they need.
+Transmutation
+(HELP TRANSMUTATION)   - Extract and transmutate
+minerals
+.
+Tailoring
+(HELP TAILORING)           - Sew exquisite
+clothes
+for the masses.
+Toxicology
+(HELP TOXICOLOGY)         - Prepare deadly poisons.
+Weaponsmithing
+(HELP WEAPONSMITHING) - Forge the
+weapons
+of
+war
+.
+(*) You'll obtain your first tradeskill at
+level
+30, and the second at
+level 50. For additional
+skills
+beyond that, see "Additional
+tradeskills" below.
+Obtaining tradeskills
+---------------------
+To begin your journey as a craftsman, seek out Amarisse at the Delosian
+Crafters Union in
+Delos
+. Once there, ASK AMARISSE GAIN <
+trade
+skill>.
+Cooking, Furnishing, Jewellery, Artistry, Beverages, and Tailoring also each
+have a permit cost of two hundred
+credits
+, these will need to be purchased
+before the skills can be gained from Amarisse.
+Additional tradeskills
+----------------------
+To encourage a thriving economy and community, additional tradeskills carry an
+extra cost to learn. If you'd like to become more self-sufficient, you may
+purchase more tradeskill permits for fifty credits each, allowing you to learn
+an extra trade
+skill
+. Each of these skills also carries a compounding
+lesson
+cost to learn. So your third tradeskill (first additional skill) will cost
+fifty percent more
+lessons
+to
+reach
+transcendent. Your fourth (second
+additional) will cost fifty percent more again. This caps at 300% of the
+base
+cost (base cost + 200%).
+Use the TRADESKILLS
+command
+to see which tradeskills you have and which slot
+they are in.
+To purchase an additional tradeskill permit, simply visit Amarisse in Delos and
+BUY
+TRADESKILL PERMIT.
+There is no pressure to learn additional skills though, there will definitely
+be another adventurer around
+who
+will be able to
+assist
+you!
+Forgetting tradeskills
+----------------------
+Should you wish to change tradeskills in the future, you can FORGET
+<tradeskill> and you'll be refunded 50% of your invested lessons in that skill.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

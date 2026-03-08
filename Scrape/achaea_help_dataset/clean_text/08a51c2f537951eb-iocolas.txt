@@ -1,0 +1,407 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+23.12 Ship Equipment
+Purchasing
+Ship
+Equipment
+-------------------------
+Shipfitters
+are responsible for creating,
+moving
+, and removing ship equipment and
+weapons
+on a ship.
+The
+shipfitter
+will require SHIPFIT
+permissions
+for your ship and will, for a price, make the changes you want.
+TRADEWHO
+SHIPFITTING
+will list shipfitters currently in the game!
+Ship
+Commodities
+----------------
+Ship commodities are used by shipfitters to create and
+move
+ship equipment and weapons on your ship.
+Ship commodities are created when they dismantle equipment or
+ships
+and can also be created from regular commodities.
+Shipcloth - 50x
+cloth
+Shipiron - 50x iron, 10x steel
+Shipwood - 50x
+wood
+, 10x iron
+Shiplines - 50x
+rope
+, 10x iron
+Pitch - 50x wood, 10x animal fat
+Weapons
+-------
+Weapons are in their own category and are covered in HELP SHIP WEAPONS. You
+still purchase them from a shipfitter!
+Available Equipment
+-------------------
+The tools and accessories are listed below, including
+Bait
+Tank
+Beacon
+of
+Iocolas
+Captain's Trunk
+Cartographers
+Desk
+Diving
+Bell
+Leadline
+Ship's Axe             Mariner's
+Sextant
+Salvage
+crane
+Token of Charybdis     Ship's Token Stores           Emergency Buoy
+Wooden float           Multipurpose crane            Loudhailer
+Bait Tank  - 40 shipiron and
+5
+pitch
+---------
+Keyword: "baittank"
+You can have as many or as few of these as you like. Each holds 250 items of
+any kind. Bait within will
+decay
+at a slower than usual rate.
+Fish
+are
+unaffected.
+Everything
+else
+decays
+faster in the bait tank (sloshing
+around in all that water isn't good for most
+things
+!). Place tanks in any or
+all rooms on your ship, as many as you like.
+Beacon of Iocolas - 20 shipiron, 50 goldbar, and 50 stone
+-----------------
+Keyword "beacon"
+The perfect accessory for fleets! This
+piece
+of equipment will provide much
+more detail in SHIP LIST for the ship captain or owner
+who
+is not
+sufficiently confident about the precise location of his ships. Can only
+be used if not already on any ship. The Beacon goes on the bow only.
+Captain's Trunk - 5 shipwood and 5 shipiron
+---------------
+Keyword: "trunk"
+Mark
+your quarters by
+placing
+this trunk in your ship's
+cabin
+. Once placed,
+your swashbucklers will recognise the sanctity of the Captain's quarters and
+not patrol there. While it is a trunk, it is solely decorative, and is
+unsuitable for the containment of items. The trunk can only
+go
+in the cabin.
+Cartographer's Desk Standard - 5 shipwood and 5 shipiron
+Cartographer's Desk Large    - 15 shipwood and 15 shipiron
+----------------------------
+Keyword: "standarddesk"
+Keyword: "largedesk"
+Where else would you put your
+maps
+? With a cartographer's desk, currently
+priced at twenty five thousand
+gold
+, those of your
+crew
+able to take
+bearings
+(helm or watch of sufficient
+specialisation
+) will be able to
+help
+you locate
+places for which you have maps. Just put your maps into the desk and you're
+ready to go. The desk can be in the cabin or on any deck (quarter, main,
+side). If you don't specify, it goes on the quarterdeck and may not be
+moved.
+See HELP SHIP MAPS for somewhat more detail on maps. Blanks are for sale
+from
+Maelstrom
+.
+A shipfitter can upgrade from the Standard desk to the Large for the difference
+in shipcomms.
+Diving Bell - 20 shipwood, 10 shiplines, and 10 pitch
+-----------
+Keyword: "bell"
+Deep sea divers need a way to get down to the sea
+bed
+- hence, the diving
+bell. Have one or more divers SHIP ENTER BELL, then you can SHIP LOWER
+BELL until it arrives at the local sea bed's surface. The bell will make
+a ringing noise upon arrival, with the number of rings being an indication
+of the likely danger of the area, in terms of local
+denizens
+, and the
+possibility of treasure as well. If the bell is raised while divers
+remain below, those divers must hurry to the bell or be sent to a watery
+grave!
+Divers can SHIP
+LEAVE
+BELL at any
+time
+at all, no matter where
+the bell may be, and be returned to the ship's deck. To
+explore
+the
+sea bed, divers simply leave to the down whenever that appears. Fish or
+other
+deep sea denizens found on the bottom of the sea may be befriended
+or fought or treated in the same way as any other
+denizen
+. If fought,
+their
+corpses
+cannot be sold at fish
+shops
+, though. Try
+offering
+them!
+The bell can only be on the quarterdeck.
+Leadline - 10
+leather
+and 40 rope
+--------
+Keyword: "leadline"
+How can you take a sounding without a leadline? And how can you know if there's
+any chance of a good dive without having a sounding? There you go then. The
+SHIP TAKE SOUNDING
+command
+requires a leadline. If you get a good sounding,
+you'll know there's a chance for a good dive. If not, move along. The results
+of your sounding have another salutary element - fish will not strike in
+shallower waters. So don't try deepsea
+fishing
+if you're not in - guess it -
+deep sea!
+You could just go everywhere and dive, too. I recommend you take soundings.
+Mariner's Sextant - 15 shipiron
+-----------------
+Keyword: "sextant"
+How better to find your place in the cosmos than with a sextant, which gives a
+fairly good
+idea
+as to your current position based on your knowledge of the sun
+(and maybe someday,
+stars
+) and their movements through the skies. Try SHIP TAKE
+SIGHTING at noon. These heavy, ship-mounted sextants can be placed in any
+location on a ship that is not indoors. The sextant will give latitude only,
+to a reasonable
+level
+of precision, but not exact. Perhaps some
+day
+Achaea's
+star charts will be good enough to permit better results.
+Salvage Crane - 15 shipwood, 15 shipiron, and 10 shiplines
+-------------
+Keyword: "salvagecrane"
+The crane is needed for those seeking to perform salvage operations. To start
+out SHIP SALVAGE SCAN will allow you to locate a sunken ship. Then the crane
+will permit you to use SHIP SALVAGE <ship id> in order to pull the wreckage off
+the ocean floor.
+Multipurpose Crane - 20 shipwood, 25 shipiron and 15 shiplines
+------------------
+Keyword: "dredgecrane"
+Multi
+-purpose crane is a crane that allows both
+salvaging
+of ships and dredging
+for cargo floats.
+SHIP SALVAGE SCAN will allow you to locate a sunken ship. Then the crane will
+permit you to use SHIP SALVAGE <ship id> in order to pull the wreckage off the
+ocean floor.
+SHIP DREDGE BEGIN will allow you to begin dredging for sunken cargo where a
+ship sunk with a buoy on
+board
+. Each dredging
+attempt
+can retrieve a portion
+of the cargo and add it to your
+hold
+. You cannot retrieve more than 30% total
+cargo from a wreck.
+SHIP DREDGE STOP will abort a dredging operation.
+Ship's Axe - 15 wood and 15 iron
+----------
+Keyword: "shipaxe"
+Use this axe to free your ship from grapples sent aboard. CHOP TETHER.
+Emergency Buoy  -
+3
+shipcloth and 3 shiplines
+--------------
+Keyword: "buoy"
+A buoy is a one-use ship upgrade that does not decay. You can only have one aboard and it will disappear if it is ever used.
+Upon
+sinking
+, you will be able to retrieve all of your cargo from your ship if you return to the location where your ship went down and SHIP BUOY ACTIVATE <buoy>. This can only be done by the owner of the sunken ship, or someone with Command
+rank
+5. The entire cargo of the sunken ship will be transferred to the deck in a cargo box.
+When the previously sunken ship and the ship with its cargo box on deck are in the same
+harbour
+, SHIP CARGOBOX TRANSFER to return the cargo to its owner.
+SHIP BUOY LOCATE will give a buoy's ID, an approximate
+direction
+and distance, how many
+months
+remain on it, and which wreck it
+marks
+.
+This can be done by anyone who has captain permissions on the sunk ship at any time. When a buoy has less than
+2
+months remaining before it decays, anyone can locate it for dredging purposes.
+If you
+wish
+, you can dump a cargobox, rendering all the cargo it holds naught but jetsam. Use SHIP CARGOBOX DUMP to do so.
+SHIP INFO will list if a buoy is in place for a ship.
+Wooden Float - 3 shipwood and 3 shiplines
+------------
+Keyword: "float"
+A float is a thirty-
+month
+ship upgrade that increases your cargo capacity by 25!
+A ship can only have one active at a time, and it cannot be preserved or repaired.
+When the float decays any cargo over the
+base
+capacity of the ship will be
+lost
+.
+SHIP INFO will inform if a float is active and how long remains until it decays.
+Wooden Loudhailer - 10 wood and 5 cloth
+-----------------
+Keyword: "loudhailer"
+The loudhailer allows you to HAIL <ship> <message>!
+<ship> must be one word, it will work with ship
+target
+, ship IDs, partial ship
+names
+, and ship
+aliases
+.
+Everyone on your current ship and the target ship will hear your hails.
+You cannot hail a cloaked ship or ships in a harbour and this does have a distance limitation.
+Token of Charybdis (available from Maelstrom directly)
+------------------
+Not strictly a piece of equipment FOR a ship, it is nonetheless indispensable
+for those ON ships, providing you a way to be rescued from a captainless ship.
+Simply SHIP
+RESCUE
+ME
+to invoke the
+spirit
+of Charybdis, then wait a while, and
+voila! At huge personal cost, you will arrive safely and mostly unharmed at a
+mainland harbour.
+Ship's Token Stores (available at Tasur'ke and Shala-Khulia
+harbours
+)
+-------------------
+These are sort of bulk equivalents of Tokens of Charybdis which are usable
+only by any crew/
+shipmates
+/etc (denizen crew), and only when a ship sinks.
+They are not quite perfect, but on the whole, very effective. All crew who
+use one of the Tokens from the ship's store will be preserved to continue to
+serve when the ship is salvaged.
+One of the huge advantages to the token stores is that if you do
+save
+some
+of your crew, you will have a highly-experienced and motivated cadre who
+will
+train
+up any new crew you
+hire
+very quickly. Whatever amount of
+experience
+might
+be lost by bringing in new crew will be regained in a
+very short time.
+On the other hand, if you
+lose
+your entire crew, then there is no cadre
+and thus, your new crewmembers begin as raw recruits, so to
+speak
+.
+(See also:
+HELP SHIPS
+,
+HELP SHIPFITTER
+, and HELP SHIP WEAPONS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

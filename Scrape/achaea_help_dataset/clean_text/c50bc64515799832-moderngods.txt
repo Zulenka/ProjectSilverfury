@@ -1,0 +1,188 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.16 Modern Gods Talismans
+The "Modern Gods"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+(this will always be announced via the relevant
+news
+when the
+pieces are currently available)
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+(when in stock)
+The Modern
+Gods
+set contains the following talismans:
+-----------------------------------------------
+A tear of Ethian                        - TALISMAN INFO
+AURORA
+- Priced at 200
+-
+THROW
+this tear and all in your current room and those adjacent will be unphased (including you).
+- In addition, everyone unphased in your area will then be revealed as if they had been illuminated by a star
+sigil
+.
+A wrap of lightless
+cloth
+- TALISMAN INFO
+BABEL
+- Priced at 300
+- WEAR this wrap and for the next five
+minutes
+all information about you will be concealed (on
+honours
+and
+other
+means to view the same information).
+- This has a one
+hour
+personal cooldown.
+A tattered swatch of ashen cloth        - TALISMAN INFO
+DEUCALION
+- Priced at 400
+- While carrying this cloth all of your non
+critical
+strikes against
+denizens
+not upon the prime
+plane
+have a 33% chance to gain a
+5
+% damage bonus.
+A Tritonic coin of salt-crusted silver  - TALISMAN INFO
+NERAEOS
+- Priced at 50
+- This coin will be consumed in place of
+gold
+when attempting to bribe sailors to throw your
+target
+off their
+ship
+.
+- Bribes resolve much faster when handled in this way.
+- This talisman can be used twice before it is CONSUMED.
+A comet-etched barb                     - TALISMAN INFO
+OURANIA
+- Priced at 1200
+- While carrying this barb, meteor
+arrows
+you
+fire
+will strike your target even if they
+flee
+indoors.
+- They must still be outdoors when you initially fire the meteors, and this only applies to arrows (not star
+tarot
+or similar).
+A prismatic
+eye
+of rainbow glass        - TALISMAN INFO
+PANDORA
+- Priced at 500
+- You may drop this eye in a location where it will "disappear".
+- You may then GLASSEYE to
+look
+into that location as if you were standing there yourself.
+- This eye will stay placed for 59 minutes, will be invisible once placed, and -does- bypass shimmering orbs.
+A cruel stalagmite fang                 - TALISMAN INFO
+SARTAN
+- Priced at 800
+- You may use this talisman against someone
+who
+considers you a mutual
+ally
+.
+- When you IMPALE <target> WITH <this talisman>, you will take some of their
+health
+for your own.
+A shadowy capsule                       - TALISMAN INFO
+TLALAIAD
+- Priced at 2000
+- Turn this capsule and after a 12 second
+channel
+a paradoxical effect begins.
+- Ten
+seconds
+after this effect begins, so long as you remain in the area where you initially activated the capsule, you will be returned to the location where you twisted it and your health and
+mana
+set back to what they were when the effect began.
+- There is a five
+minute
+area wide cooldown on a capsule being used, and you must be alive when the effect resolves for the reset to take place.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

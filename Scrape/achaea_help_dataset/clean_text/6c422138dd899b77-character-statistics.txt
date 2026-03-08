@@ -1,0 +1,164 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.20 CHARACTER STATISTICS
+(See also
+HELP
+STATUS
+)
+Adventurers in
+Achaea
+have four
+stats
+(or
+statistics
+):
+Str
+-
+Strength
+- relates to the physical damage you can deal out.
+Dex
+-
+Dexterity
+- relates to your
+ability
+to avoid getting hit in
+combat
+along with
+speed
+of performing some actions.
+Con
+-
+Constitution
+- relates to your maximum
+health
+and
+endurance
+.
+Int
+-
+Intelligence
+- affects your maximum
+mana
+and magical damage.
+(Each of these stats may affect
+other
+things
+besides what is listed.)
+Your Stats Now
+--------------
+To see your stats,
+SCORE
+(or SC). See
+HELP SCORE
+for more information.
+What Determines Your Stats
+--------------------------
+Stats are primarily determined by your
+race
+. Once you have reached
+level
+10,
+you can alter the distribution of your stats somewhat by
+selecting
+a racial
+specialisation
+(see HELP SPECIALISATION).
+What Doesn't Change Your Stats
+------------------------------
+Stats do not change because you rise in age, or increase or decrease in
+experience
+, or level, or
+skill
+.
+What DOES Increase Stats
+------------------------
+Some things may affect your stats, if only temporarily:
+- A God may
+look
+upon you with
+Favour
+, or
+Disfavour
+(HELP
+DIVINE
+FAVOURS
+).
+- An adventurer may affect your stats by use of certain
+abilities
+.
+- You may acquire a powerful item via
+questing
+(HELP
+QUESTS
+).
+- You may borrow or purchase an
+artefact
+of
+power
+(HELP
+ARTEFACTS
+).
+(See also HELP STATUS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

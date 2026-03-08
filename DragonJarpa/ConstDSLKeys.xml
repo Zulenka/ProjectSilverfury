@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<KeyPackage>
+		<KeyGroup isActive="yes" isFolder="yes">
+			<name>Const_Keys</name>
+			<packageName>Const_Keys (2)</packageName>
+			<script></script>
+			<command></command>
+			<keyCode>0</keyCode>
+			<keyModifier>0</keyModifier>
+			<KeyGroup isActive="yes" isFolder="yes">
+				<name>Constanstia RW</name>
+				<packageName></packageName>
+				<script></script>
+				<command></command>
+				<keyCode>33554431</keyCode>
+				<keyModifier>0</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>DSL - Left Leg</name>
+					<packageName></packageName>
+					<script>ldir = "left leg"
+constDWC()
+if ak.defs.shield or ak.defs.rebounding then
+  send("rsl " ..target.. " curare")
+ elseif ak.check("nausea", 50) then
+  send("queue addclear free stand|wield sword sword|dsl " ..target.. " " ..ldir.. " " ..v1.. " " ..v2)
+ else
+  send("queue addclear free stand|wield sword sword|dsl " ..target.. " " ..v1.. " " ..v2)
+ end</script>
+					<command></command>
+					<keyCode>52</keyCode>
+					<keyModifier>536870912</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>DSL - Right Leg</name>
+					<packageName></packageName>
+					<script>ldir = "right leg"
+constDWC()
+if ak.defs.shield or ak.defs.rebounding then
+  send("rsl " ..target.. " curare")
+ elseif ak.check("nausea", 50) then
+  send("queue addclear free stand|wield sword sword|dsl " ..target.. " " ..ldir.. " " ..v1.. " " ..v2)
+ else
+  send("queue addclear free stand|wield sword sword|dsl " ..target.. " " ..v1.. " " ..v2)
+ end</script>
+					<command></command>
+					<keyCode>54</keyCode>
+					<keyModifier>536870912</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>DSL - Torso</name>
+					<packageName></packageName>
+					<script>ldir = "torso"
+constDWC()
+if ak.defs.shield or ak.defs.rebounding then
+  send("rsl " ..target.. " curare")
+ elseif ak.check("nausea", 50) then
+  send("queue addclear free stand|wield sword sword|dsl " ..target.. " " ..ldir.. " " ..v1.. " " ..v2)
+ else
+  send("queue addclear free stand|wield sword sword|dsl " ..target.. " " ..v1.. " " ..v2)
+ end</script>
+					<command></command>
+					<keyCode>53</keyCode>
+					<keyModifier>536870912</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>DSL - Prone Left Leg</name>
+					<packageName></packageName>
+					<script>ldir = "left leg"
+
+if ak.defs.shield or ak.defs.rebounding then
+  send("rsl " ..target.. " curare")
+ else
+  send("queue addclear free stand|wield sword sword|dsl " ..target.. " delphinium delphinium " ..ldir)
+ end</script>
+					<command></command>
+					<keyCode>49</keyCode>
+					<keyModifier>536870912</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>DSL - Prone Right Leg</name>
+					<packageName></packageName>
+					<script>ldir = "right leg"
+
+if ak.defs.shield or ak.defs.rebounding then
+  send("rsl " ..target.. " curare")
+ else
+  send("queue addclear free stand|wield sword sword|dsl " ..target.. " delphinium delphinium " ..ldir)
+ end</script>
+					<command></command>
+					<keyCode>51</keyCode>
+					<keyModifier>536870912</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Impale</name>
+					<packageName></packageName>
+					<script>send("queue addclear free stand|fury|impale " ..target)</script>
+					<command></command>
+					<keyCode>55</keyCode>
+					<keyModifier>536870912</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Disembowel</name>
+					<packageName></packageName>
+					<script>send("queue addclear free stand|disembowel")</script>
+					<command></command>
+					<keyCode>57</keyCode>
+					<keyModifier>536870912</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Falcon</name>
+					<packageName></packageName>
+					<script>send("queue addclear free stand| falcon follow " ..target.."|falcon slay " ..target)</script>
+					<command></command>
+					<keyCode>50</keyCode>
+					<keyModifier>536870912</keyModifier>
+				</Key>
+			</KeyGroup>
+		</KeyGroup>
+	</KeyPackage>
+</MudletPackage>

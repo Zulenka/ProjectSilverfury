@@ -1,0 +1,118 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+5.22 Poses
+Poses
+are a way to set a
+custom
+message
+for people to see when they 'look' at
+the room you're in.
+Syntax
+:
+POSE
+Looking
+shifty, ^ is loitering here.
+TPOSE Looking shifty, ^ is loitering here.
+UNPOSE or POSE CLEAR to clear your pose.
+SHOW
+POSE to see how you are posing.
+Rules:
+* The ^ will substitute your
+name
+(with
+titles
+).
+* A pose must include your name, so must include a ^ somewhere.
+* TPOSE will set a temporary pose that will be cleared when you
+move
+.
+* Poses can't be longer than 60 characters.
+* Poses must be complete sentences.
+* No offensive poses. If you
+think
+your pose
+might
+be offensive, don't use
+it.
+* You won't be able to use poses until
+level
+50.
+* Use common
+sense
+. No poses indicating powers your
+character
+doesn't have.
+If the game doesn't recognise your character as controlling lightbeams that
+circle
+your body, or vampires
+following
+you around, or that you glow with
+fiery
+power
+, you're not to put them in your pose. Anyone found repeatedly
+abusing this will be deprived of their power to set custom poses.
+* Do not use poses to obscure your presence in a room or otherwise mislead
+observers.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,175 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13.5 ARMOUR AND SHIELDS
+(For the
+House
+of the Vashnarian
+Shield
+, please see HELP HOUSE SHIELD.)
+Normal
+armour
+is
+something
+you wear that protects you from both types of
+physical damage (cutting and blunt).
+The basic types of armour in
+Achaea
+, aside from
+shields
+, are, in
+ascending
+order of effectiveness, with the best armour a
+class
+may wear listed:
+Armour type
+Classes
+/
+Race
+(best armour wearable)
+-----------         ------------------------------
+Cloth
+Dragon
+,
+Magi
+, Horkvals,
+Psions
+, Pariahs, Elemental Lords
+Leather
+Monks
+, Bards
+Ringmail
+Alchemists
+,
+Apostates
+Scalemail
+Serpents
+,
+Jesters
+, Shamans,
+Occultists
+,
+Depthswalkers
+,
+Blademasters
+Chainmail
+Druids
+,
+Sentinels
+,
+Sylvans
+, Classless
+Splintmail
+Priests
+Field plate
+Paladins
+,
+Infernals
+,
+Runewardens
+, Unnamables
+Full plate          Paladins, Infernals, Runewardens, Unnamables
+NOTE: the classes are listed next to the BEST armour they may wear. They may
+wear any lesser armour if desired, or none whatsoever.
+The types of shields available in Achaea are, in ascending order of
+effectiveness, and with the best type of shield a class may
+wield
+listed:
+Shield type         Classes which may wield them
+-----------         ----------------------------
+None                Dragon, Magi, Monks, Blademasters, Pariahs, Elemental Lords
+Buckler             Serpents, Sylvans, Bards, Psions, Classless+
+Cavalry             Alchemists, Occultists, Apostates, Shamans,
+Depthswalkers, Classless+
+Banded              Jesters
+Kite                Priests, Druids, Sentinels
+Tower               Runewardens, Infernals, Paladins,
+Unnamable
++ Those
+who
+have no class may wield Buckler and Cavalry shields.
+* The
+artefact
+shield of absorption may be
+wielded
+by everyone except
+blademasters.
+Armour
+Statistics
+-----------------
+Non-magical armour and shields have two armour-specific statistics: protection
+vs. cutting damage and protection vs. blunt damage. The WEAPONPROBE
+ability
+in
+the
+Weaponry
+skill
+will allow you to see these statistics on a
+piece
+of armour
+or on a shield.
+(See also:
+HELP
+ARTEFACT ARMOUR)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

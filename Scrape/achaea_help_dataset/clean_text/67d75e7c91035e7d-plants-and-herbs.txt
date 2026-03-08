@@ -1,0 +1,166 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.5 Plants and Herbs
+(See HELP HEALING LIST, HELP HEALING YOURSELF,
+HELP CURES
+, and HELP CURE LIST.)
+Plants
+and
+herbs
+abound in
+Achaea
+.
+Learning
+their properties should be a high
+priority for all adventurers.
+By the proper use of herbs and plants you may
+-
+remove
+or
+heal
+numerous
+afflictions
+.
+- erect
+defences
+that prevent certain afflictions.
+- create
+salves
+and
+elixirs
+, using the
+Remedies
+skill
+(
+HELP
+REMEDIES).
+Store herbs and plants in the
+rift
+(HELP RIFT).
+Plants and herbs may be eaten or smoked, in addition to their use as
+ingredients for practitioners of the skill of Remedies.
+The plants listed below are those that can be harvested and can be either used
+in and of themselves, or combined with
+other
+elements in salves and elixirs
+for beneficial effects. You may encounter many other kinds of plants throughout
+your journeys in Achaea, including but not limited to mandrake root, coriander,
+saffron, and many more -- some with unique properties and purposes, both
+beneficial and nefarious, and some without.
+Short
+name
+Description
+----------  ---------------------
+Ash
+some prickly ash bark
+Bayberry
+some bayberry bark
+Bellwort
+a bellwort flower
+Bloodroot
+a bloodroot leaf
+Cohosh
+a black cohosh root
+Echinacea
+an echinacea root
+Elm
+slippery elm
+Ginger
+a ginger root
+Ginseng
+a ginseng root
+Goldenseal
+a goldenseal root
+Hawthorn
+a hawthorn berry
+Kelp
+a
+piece
+of kelp
+Kola
+a kola nut
+Kuzu        a kuzu root
+Lobelia
+a lobelia seed
+Moss
+some
+irid
+moss
+Myrrh
+a ball of myrrh gum
+Pear        a prickly pear
+Sileris
+a sileris berry
+Skullcap
+a skullcap flower
+Slipper     a lady's slipper root
+Valerian
+a valerian leaf
+Weed
+a sprig of cactus weed
+(See HELP HEALING LIST, HELP HEALING YOURSELF,
+HELP CURES
+, and HELP CURE LIST.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

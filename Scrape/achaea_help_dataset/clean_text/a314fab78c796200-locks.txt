@@ -1,0 +1,134 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.6 LOCKS
+Doors
+may contain up to six
+locks
+, and each lock is capable of having a
+separate
+key
+. If you own a structure that has a door, and you would like a
+lock added to that door, or you would like an existing lock on that door
+changed, you will need to
+speak
+to your Patron.
+This is not the case for locks on the stockroom doors of
+city
+shops
+. When requiring assistance with these, find the appropriate
+denizen
+locksmith
+.
+Ashtan
+- Schliemann the Unlocker.
+Cyrene
+- Dalphon, the Clockworker.
+Delos
+- Eltrik, the locksmith.
+Eleusis
+- Iuchair, Eleusian Locksmith.
+Hashan
+- Zaertum, the Locksmith.
+Mhaldor
+- Mordas, the Locksplitter.
+Targossas
+- Barkash, the Locksmith.
+The
+following
+can only be offered to the official owners of the shops in
+question
+.
+Lock Change
+-----------
+With 10,000
+gold
+in hand at the appropriate unlocker's location:(*)
+REQUEST LOCKCHANGE FOR <shopname>
+REQUEST LOCKCHANGE FOR <shopname> CONFIRM
+Replacement Key
+---------------
+With
+5
+,000 gold in hand at the appropriate unlocker's location:(*)
+REQUEST KEY FOR <shopname>
+REQUEST KEY FOR <shopname> CONFIRM
+Key Copying
+-----------
+With 300 gold in hand as well as the key you
+wish
+copied:
+COPY <key> FOR <adventurer>
+The key you wish to have copied must bear your
+mark
+.
+* NOTE: For a lock change or a replacement key, you will need to know the
+name
+of the
+shop
+. This can be found via CITY SHOP INFO when stood in the shop.
+No kind of furniture (see
+HELP
+FURNITURE) may have locks, nor be lockable.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

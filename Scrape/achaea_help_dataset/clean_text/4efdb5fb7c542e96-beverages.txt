@@ -1,0 +1,242 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.10 Beverages
+HELP BEVERAGES
+See also HELP BEVERAGE DESIGN, HELP VESSEL DESIGN, and
+HELP CRAFTING GUIDELINES
+The
+Beverages
+tradeskill
+allows for the
+design
+, creation, and storage of a
+vast variety of drinks and victuals. In many ways a counterpart to
+cooking
+,
+the domain of the beverage maker is varied and diverse - ranging from simple
+juices and
+teas
+to award-
+winning
+beers, perfectly distilled spirits, and even
+vintage, cellar-
+aged
+wines.
+Whether a consumer or a connoisseur, Beverages allows an unparalleled depth of
+self
+expression
+in all
+things
+related to drinks. And you can even swig your
+twenty year old cognac from a teacup if you so desire!
+To become a professional beverage-maker, you must be trained by the craft
+guild
+of
+Delos
+.
+You must be above
+level
+10 to access the beverages tradeskill.
+BUY
+BEVERAGES PERMIT
+- Use this
+command
+at "A cool cellar" in Delos.
+- This will cost 200
+credits
+.
+- If you have a bronze
+trade
+seal, please
+READNEWS
+ANNOUNCE
+4247
+- Once purchased, this permit will
+show
+up on
+SCORE
+LICENSES
+.
+- This will never expire and cannot be traded in.
+GAINING THE BEVERAGES
+SKILL
+- Make sure you have Bought your Beverages Permit as per above!
+- Make sure you have a tradeskill slot empty
+-
+TRADESKILLS
+will show your tradeskill slots
+- SCORE LICENSES will show how many slots you have in full.
+- Visit Amarisse, Secretary of the
+Crafting
+Council
+- ASK AMARISSE GAIN BEVERAGES.
+Once you are a licensed beverage maker, you will have basic
+ability
+in the
+Beverages tradeskill.
+There are four
+specialisations
+within the Beverages
+profession
+:
+Each of these specialisations requires a
+point
+invested in it in order to
+design and create related drinks, 1 point is given at inept, another at
+fabled, and a third at transcendent.
+SPECIALISE IN <spec>   - Spend a point in one of the specialisations.
+UNSPECIALISE BEVERAGES - Will cost 100
+lessons
+and reset your specialisations.
+Fermentation
+-------------
+Fermentation is the domain of the wine and beer specialist, allowing the
+creation and design of various ales, porters, wines, and the like.
+Someone specialised in fermentation can submit a design for a fermented drink,
+FERMENT the drink once approved, place the fermented drink in a cellar to age,
+and then
+fill
+the finished drink into
+drinking
+vessels to be
+drunk
+!
+(See
+HELP
+BEVERAGES DESIGN)
+Distillation
+-------------
+Distillation concerns itself with the design and creation of various spirits,
+including but not limited to vodka, gin, whiskey, rum, and so on.
+Someone specialised in distillation can submit a design for a distilled drink,
+DISTILL the drink once approved, place the distilled drink in a cellar to age,
+and then fill the finished drink into drinking vessels to be drunk!
+(See HELP BEVERAGES DESIGN)
+Refreshments
+-------------
+Refreshments is the matter of designing and creating a variety of
+immediately-drinkable beverages. Typically the domain of non-alcoholic
+drinks, the refreshment specialist is however also able to mix cocktails as
+well as steep teas and kawhes, and press juices and cordials.
+Someone specialised in refreshments can submit a design for a mixed, steeped,
+or pressed drink, MIX/STEEP/PRESS the drink once approved, and
+pour
+into
+drinking vessels to be drunk!
+(See HELP BEVERAGES DESIGN)
+Vessels
+--------
+To specialise in vessels is to pride oneself not on the drink itself but the
+container
+in which it resides. Often, an elaborate vessel can mask a bland and
+pedestrian drink, and the opposite is also true! Those taking up the Vessels
+craft shall find themselves able to design a variety of drinking
+containers
+,
+ranging from traditional wine glasses and sophisticated snifters to a simple
+mug
+or a drinking horn.
+These vessels can then be used to serve fermented, distilled, mixed, pressed,
+or steeped drinks!
+Anyone with access to a vessel
+NDS
+ID# can request vessels be made by one of
+the
+following
+denizens
+.
+Vessels only
+describe
+the actual vessel, not the beverage it may eventually
+contain. There is an aspect in beverage design (INVESSEL) that will add a
+description
+of the beverage itself when it is in the vessel.
+Glassworkers, including Jessie in New
+Thera
+, make glass-based vessels.
+Potters, including Gazban in El'
+Jazira
+, make clay-based vessels.
+Stonemasons, including Palusta in
+Xhaiden
+Dale, make stone-based vessels.
+Woodcarvers, including Tobe in Caer Witrin, make
+wood
+and
+bone
+-based vessels.
+Blacksmiths, including Rico in New Thera, make metal-based vessels.
+Leatherworkers, including Vanac in
+Bitterfork
+, make
+leather
+-based vessels.
+All non-
+barrel
+/cask/keg
+equipment
+can be bought at "a cool cellar" in Delos.
+(See HELP VESSEL DESIGN)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,192 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.25 Conclave Talismans
+The "Conclave"
+talisman
+set:
+-------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Trading
+between players (pieces only)
+- Whole talismans bought from the Delosian
+shop
+.
+- Partial completion (see below).
+NOTE: The
+Conclave
+set is no longer used in
+promotions
+(
+other
+than generic "all talisman"
+offerings
+) and exists in the Delosian Talisman Shop in order to facilitate partial completion of otherwise unfinishable
+artefacts
+, as well as the Grand
+Magi
+Robes, but not including sprites or top hats unfortunately!
+In addition, purchasing Conclave talismans will not adhere to your faction from the Conclave
+event
+and this cannot be changed.
+The Conclave set contains the following talismans:
+---------------------------------------------------
+A magical hourglass           - TALISMAN INFO HOURGLASS
+- Priced at 75
+credits
+- This functional hourglass will allow its owner to TURN HOURGLASS <x>
+MINUTES
+and its sands will slowly
+pour
+through. When the last grain has passed, it will alert those in the room.
+A Brooch of the Tempest       - TALISMAN INFO TEMPESTBROOCH
+- Priced at 150 credits
+- This brooch will prevent the
+wind
+from blowing you off course when
+flying
+.
+Prospero's Lesser
+Vault
+- TALISMAN INFO LESSERVAULT
+- Priced at 350 credits
+- A talisman version of Prospero's Lesser Vault, doubling the capacity of the owner's
+rift
+.
+A
+Ring
+of Flying              - TALISMAN INFO FLYINGRING
+- Priced at 400 credits
+- Allows the owner to FLY.
+A buckawns amulet             - TALISMAN INFO BUCKAWNS
+- Priced at 800 credits
+- Enchanted to allow its owner to dodge the sticky strands of a
+web
+tattoo
+, much like its
+artefact
+equivalent.
+An Armband of Celerity        - TALISMAN INFO CELERITY
+- Priced at 500 credits
+- Gives you an extra
+move
+/second before the "Don't be so hasty"
+message
+kicks in.
+A Grimoire of Adaptation      - TALISMAN INFO ADAPTGRIMOIRE
+- Priced at 1000 credits
+- This grimoire will allow you to reset your
+traits
+up to once per
+RL
+day
+.
+A Stygian Pendant             - TALISMAN INFO STYGIANPENDANT
+- Priced at 1200 credits
+- This pendant increases your chance of
+critical
+hits by
+6
+%.
+A pair of atavian wings       - TALISMAN INFO ATAVIANWINGS
+- Priced at 2000 credits
+- An enhanced version of eagle's wings, much like its artefact version.
+Robes of the Grand Magi       - TALISMAN INFO
+GRANDMAGI
+- Priced at 3000 credits
+- An upgraded version of the Robes of the Magi, this confers a reduction in both the
+mana
+and
+willpower
+cost of many spells.
+Partial Completions
+--------------------
+If you have two or three pieces of a talisman in the Conclave set you can TALISMAN COMPLETE PARTIAL <talismanname> to complete it for the remainder of the
+bound
+credit
+value of the item as it is in the Delosian Talisman shop.
+DOING THIS WILL COMPLETE THE TALISMAN AND
+BIND
+IT TO YOU.
+Talismans completed in this manner will have an altered
+tradein
+that reflects its credit worth, including the credit purchased completion.
+I.E
+You have: cruciblebase and cruciblebowl.
+You use TALISMAN COMPLETE PARTIAL
+CRUCIBLE
+and pay 500 bound credits.
+This is half the cost of the crucible in the shop because you already have half of the pieces.
+You get: a completed soulfire crucible talisman.
+This item has a tradein value of: 346 bound credits.
+This is
+2
+/3rds of 520 credits (The 500 credits paid above, plus your 2 pieces valued at 10 credits each.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

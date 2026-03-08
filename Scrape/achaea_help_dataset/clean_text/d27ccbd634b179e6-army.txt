@@ -1,0 +1,185 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.11 Armies and city soldiers
+Armies
+exist as a formalised military force for a
+city
+, consisting of enlisted
+citizens
+who
+are the front line in the organisation's
+war
+efforts, both offensive and defensive.
+Being a soldier opens up some
+permissions
+and benefits, such as:
+- Gaining
+rank
+and recognition for war-
+time
+efforts.
+- The
+ability
+to participate in sanctioned
+raids
+against
+other
+cities
+, laying waste to your enemy's home city.
+- The ability to defeat and defuse
+enemy
+raids against your city, gaining rewards for you and your forces.
+- Reduced
+experience
+loss from being slain by soldiers from another city.
+- Soldiers at
+Army
+rank
+3
+and above will earn 100
+renown
+per
+hour
+logged in up to 300 renown per
+day
+or until they hit cap (see
+HELP RENOWN
+.)
+How to
+join
+-----------
+Joining
+your city's military is simple: seek out an
+aide
+to the war ministry and request conscription in the city's barracks.
+How to gain rank
+----------------
+Your rank in the army is determined in a manner similar to other
+systems
+, such as city rank or experience
+level
+. During a sanctioned raid, performing certain offensive and defensive actions may increase your renown, such as
+killing
+an enemy, destroying rooms in the enemy city, or
+saving
+your own city's rooms from being destroyed. Gain enough renown, and you'll automatically be promoted to the next rank at certain thresholds.
+The
+Defence
+Minister
+also has the ability to promote those within the army to a new rank for exceptional acts of
+valour
+and dedication.
+Each rank carries with it increased powers and permissions, such as the ability to
+requisition
+tanks from the city stores or the ability to enact powerful offensive
+auras
+from the city's
+font
+.
+How to
+resign
+-------------
+You can end your
+service
+in the city army at any time by entering ARMY RESIGN, provided your
+tour
+of service is concluded*.
+Once you have
+resigned
+your commission, you will
+lose
+all rank and renown and will not be able to rejoin any military force for one
+Achaean
+year.
+*A full tour of service lasts for 24 Achaean
+months
+, during which
+resignation
+is not possible. Exceptions are made once for those below level 50, after which subsequent conscription is subject to the same requirements.
+Available
+commands
+------------------
+A list of commands available to soldiers in the city army, these are investible by the Minister of Defence and the
+Divine
+Patron at various
+ranks
+.
+ARMYWHO        : List all available city soldiers.
+ARMYTELL/ART   :
+Speak
+on your city's military
+channel
+.
+ARMYON/ARMYOFF : Listen to/
+ignore
+your city's army channel.
+ARMY MEMBERS   : List all enlisted soldiers.
+ARMY RESIGN    : End your service in the city army.
+ARMY RANK      : View your rank in the army.
+ARMY LISTPOWERS: List available army powers
+Other City
+Destruction
+-related commands can be found in HELP CITY DESTRUCTION.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

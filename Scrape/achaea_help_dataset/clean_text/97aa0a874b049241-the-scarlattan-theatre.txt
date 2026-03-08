@@ -1,0 +1,452 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.31 The Scarlattan Theatre.
+The
+theatre
+is designed to allow the staging of plays by troupes of
+performers. It's fairly flexible and with a little effort on your part
+can be used to produce some high-quality performances with props,
+costumes, backdrops, and some special effects.
+The Scarlattan Theatre makes its home in
+Fellowship
+Hall
+in
+Delos
+.
+Manager
+-------
+The manager is responsible for the overall welfare of the theatre and
+is in charge of ensuring it is
+run
+properly, etc.
+The manager may (via
+tells
+to Spalding, the stage manager):
+* APPOINT people to the position of director.
+* See
+who
+has requested use of the theatre.
+Director
+--------
+The first step in using it is to have the manager appoint a director.
+The director has overall responsibility for the production which
+includes casting and appointing people to
+other
+positions of
+responsibility. The director is also responsible for the
+vision
+of the
+production.
+The director may (via tells to Spalding, the stage manager):
+* APPOINT people to the positions of designer, conductor, or promoter.
+*
+TITLE
+the current production.
+* APPOINT a replacement as director.
+* CAST an adventurer into a particular role, or UNCAST an adventurer.
+* Put the theatre into REHEARSAL mode (see Acting, below).
+* Open the CURTAIN on the current play, and close it again at the end
+In addition, the director may use most of the
+commands
+available to the
+other office holders. A reference to all commands appears at the end of
+this
+scroll
+.
+Designer
+--------
+The designer is responsible for the props, costumes, and backdrops used
+in the production. The designer may also operate the effects machine,
+located just offstage. Props and backdrops are modified by giving them
+to Joshua, the head carpenter, and telling him what's required.
+Costumes are modified by giving them to Rose, the costumes mistress,
+and telling her what the costume is to
+look
+like.
+Props
+* Give prop to Joshua.
+* Joshua will ask you what you want it to look like; answer with a short
+description
+, such as 'a shining longsword' or 'the
+eye
+of
+Proteus
+.'
+* Joshua will then modify it and hand you the modified prop.
+* Props are used on stage; selected actions performed on them are visible
+throughout the theatre.
+Backdrops
+* Give backdrop to Joshua.
+* Joshua will ask you what you want it to look like; answer with the
+description of a scene (ideally one you've written earlier), of a few
+hundred words (minimum 50 words).
+* Joshua will hand you the painted backdrop.
+* Backdrops are used by being taken up to the rigging above the stage
+and DROPping them into place at the appropriate cues.
+Costumes
+* Give costume to Rose.
+* She will ask you who it's to be a costume of. Give her a one-word
+name
+such as "Nicator."
+* She will then ask you to give a description of the person, such as,
+"He is a human and is (etc.)." If you have no description to give her,
+say
+'no', and she will improvise.
+* She will then hand you the modified costume.
+Effects machine
+* Recognised effects are: rain,
+wind
+, thunder, lightning, waves,
+smoke
+,
+fog, rainbow.
+* Say the name of the effect while in the same room as the machine to
+play it once.
+* Say '<effect name> on' to have the effect repeat periodically;
+'<effect name> off' to turn it off again.
+* Say 'Storm on' to switch on rain, wind, thunder and lightning with the
+one
+command
+, 'Storm off' to switch them all off again.
+* Say 'set
+custom
+<effect name> <text>' to associate a custom effect
+with a one-word name; say 'custom <effect name>' to play the custom effect.
+Conductor
+---------
+The conductor has
+control
+of the orchestra, located in a pit below the
+level
+of the stage.
+* The orchestra recognises the
+following
+preset
+pieces
+: fanfare,
+requiem, fugue, march, minuet, aubade.
+Saying
+the name of the preset
+while in the orchestra pit will cause the orchestra to play it.
+* The conductor may say 'play <text>' to have the orchestra play custom
+text.
+* The orchestra responds to
+emotes
+from the conductor. If it has not yet
+been taught how to play a particular
+emote
+it will associate the text
+from the next 'play' command with the emote.
+Promoter
+--------
+The promoter is responsible for the
+selling
+and
+pricing
+of tickets and
+the allocating of private boxes. All promoter commands are carried out
+via tells to Roderick, the Usher.
+Promoter commands
+* 'set price gallery <amount>' and 'set price balcony <amount>' set the
+ticket prices for gallery and balcony seats, respectively. This must be
+done before the box office can be opened (see below).
+* 'Allocate box <person>' will allocate the next available private box
+to an individual. 'Unallocate box <person>' will
+remove
+that privilege.
+* 'Open' will open the box office. Tickets may now be bought from the
+usher; anyone entering an audience room without the correct ticket, will
+be taken to the correct place by the ushers.
+* The box office closes automatically when the director closes the
+curtain on the production. Takings will then be placed in the
+inventory
+of the promoter (or director, if there is no promoter).
+Boxholder commands
+* Anyone
+holding
+a private box may
+tell
+the usher 'Invite <person>'.
+That person will now be seated in the private box for the next
+show
+.
+* 'Uninvite <person>' withdraws the invitation.
+Seatholder commands
+* Tickets may be bought after the box office opens, but before the
+curtain rises on the show.
+* Greet the usher. If you have a seat in the theatre, you will be shown
+to it. If not, you will be told ticket prices.
+* Give
+gold
+to usher. The amount should correspond to either the price
+of a gallery ticket, or the price of a balcony ticket. You will be
+marked as seated accordingly.
+Greeting
+the usher will take you to the
+correct room.
+Acting
+------
+Words and certain actions on stage will be repeated throughout the
+entire theatre, eg.:
+Thespis, the drama
+teacher
+says
+, "Good evening, lords, ladies and gentlemen!"
+Thespis picks up a prop resembling a shining longsword.
+The rest of the theatre sees:
+[ONSTAGE] Thespis says, "Good evening, lords, ladies and gentlemen!"
+[ONSTAGE] Thespis picks up a shining longsword.
+Things
+said can be formatted by starting them with modifiers.
+Recognised modifiers are: shrieks,
+shouts
+, cries, announces, intones,
+declaims, sings, trills, croons, exclaims, gasps, asks, begs, pleads,
+ponders, sighs, whines,
+muses
+, mutters, rasps, murmurs, whispers,
+mouths. Example:
+Thespis, the drama teacher says, "Declaims and welcome, to tonights'
+performance!"
+The rest of the theatre sees:
+[ONSTAGE] Thespis declaims, "And welcome, to tonights' performance!"
+Emotes are performed by saying the intended text, prefixed by the word
+'emote'.
+Example:
+Thespis, the drama teacher says, "Emote flourishes his longsword, and
+performs a low bow."
+The rest of the theatre sees:
+[ONSTAGE] Thespis flourishes his longsword, and performs a low bow.
+When the theatre is put into rehearsal mode by the director, actors'
+names
+will be replaced by the names of the characters they are playing,
+and props will appear as the actual items. People not cast will not be
+affected. Example:
+Thespis, the drama teacher says, "Announces tonight, I will be playing
+Callisto."
+Thespis drops a prop resembling a shining longsword.
+Bruce the stagehand says, "Did you mean to drop that?"
+The rest of the theatre sees:
+[ONSTAGE] Callisto announces, "Tonight, I will be playing Callisto."
+[ONSTAGE] Callisto drops a shining longsword.
+[ONSTAGE] Bruce says, "Did you mean to drop that?"
+Once the curtain goes up people not cast will be ignored. The theatre returns
+to rehearsal mode when the curtain goes down. Example:
+Bruce drops a hammer.
+Bruce the stagehand says, "Oops."
+Bruce leaves to the west.
+The rest of the theatre sees:
+[ONSTAGE] A hammer
+falls
+to the stage.
+Theatre Commands Reference
+--------------------------
+Syntax
+: tell Spalding appoint manager <person>
+Who:
+Immortal
+Appoints the manager.
+Syntax: tell Spalding Who wants to use the theatre
+Who: Immortal, Manager
+Shows
+who
+wishes
+to use the theatre
+Syntax: tell Spalding I would like to use the theatre
+Who: Anyone
+Notes that the player would like to use the theatre
+Syntax: tell Spalding I no longer
+wish
+to use the theatre
+Who: Anyone who has registered
+Removes the person from the list
+Syntax: tell Spalding who is using the theatre
+Who: Manager, Immortal
+Shows who is currently using the theatre
+Syntax: tell Spalding appoint director <person>
+Who: Director, Immortal, Manager
+Appoints a director.
+Syntax: tell Spalding appoint designer | conductor | promoter <person>
+Who: Director
+Appoints a person to the given position.
+Syntax: tell Spalding Title play <title>
+Who: Director
+Sets the title of the current production.
+Syntax: tell Spalding Cast <person> as <character>
+Who: Director
+Sets the actor playing a
+character
+.
+Syntax: tell Spalding Uncast <person>
+Who: Director
+Removes an actor from the playlist.
+Syntax: tell Spalding Rehearsals
+Who: Director
+Puts the theatre into rehearsal mode.
+Syntax: tell Spalding Curtain
+Who: Director
+Starts performance of the play, and
+marks
+the end of the performance.
+Syntax: tell Spalding Close production
+Who: Director
+Closes down the current production.
+Carpenter
+---------
+Syntax: give prop to Joshua
+say <short description>
+[while onstage] take | drop | push | pull | turn | touch | drink from
+| put <item> in prop | take <item> from prop | put prop in <item> | take
+prop from <item>
+Who: Director, designer
+Used on the stage, props will appear to be the items they have been
+crafted to resemble. The actions above, when performed on them, will be
+visible throughout the theatre.
+Syntax: give backdrop to Joshua
+say <long description>
+drop backdrop
+Who: Director, designer
+Take backdrops into the rigging above the stage, and drop them at the
+appropriate cues. Backdrops will signal scene changes and alter the
+appearance of the stage.
+Costumes mistress
+-----------------
+Syntax: give costume to Rose
+say <character name>
+[say <character description>]
+Who: Director, designer
+Will customise costumes.
+Acting (while onstage)
+Syntax: say emote <text>
+say [modifier] <text>
+Who: any cast
+member
+If the first word of an utterance a cast member makes on stage is
+'emote', the remainder will be seen by the audience as if the character
+were
+emoting
+. Otherwise,
+anything
+a cast member says on stage will be
+heard by the audience as if their character had said it. If the first
+word of the utterance is a modifier, what the audience hears will be
+modified accordingly. Recognised modifiers are: shrieks, shouts, cries,
+announces, intones, declaims, sings, trills, croons, exclaims, gasps,
+asks, begs, pleads, ponders, sighs, whines, muses, mutters, rasps,
+murmurs, whispers, mouths.
+For example, Laurence, playing Hamlet, says: "Emote lifts the skull to
+eye level and ponders it", then "Declaims Alas, poor Yorick, I knew him
+well."
+The audience would see:
+Hamlet lifts the skull to eye level and ponders it.
+Hamlet declaims, "Alas, poor Yorick, I knew him well."
+Effects machine
+---------------
+Syntax: say <effect name> [on | off]
+say set custom <custom name> <text>
+say custom <custom name>
+Who: Director, designer
+The effects machine will recognise the following commands from the designer,
+echoing the corresponding effects to the entire theatre:
+lightning, thunder, wind, rain, smoke, fog, rainbow, waves, storm.
+Conductor
+---------
+Syntax: say <preset>
+Who: Director, conductor
+Syntax: say play <text>
+Who: Conductor
+Syntax: <emote> orchestra
+Who: Conductor
+The orchestra will recognise certain preset commands from the conductor
+and produce custom effects using the command 'play <text>'. Current
+presets are:
+fanfare, requiem, fugue, march, minuet, aubade. It can be taught to
+associate particular emotes with particular musical effects.
+Usher
+-----
+Syntax: tell usher Set price gallery | balcony <amount>
+Who: Director, promoter
+Sets ticket prices for the gallery and balconies.
+Syntax: tell usher Allocate | Unallocate box <person>
+Who: Director, promoter
+Allocates or unallocates a private box for the next show.
+Syntax: tell usher Open
+Who: Director, promoter
+Opens the box office for the next show, commences selling tickets.
+Syntax: tell usher Invite | Uninvite <person>
+Who: Box holder
+Holders of private boxes may invite anyone to share their box with them, or
+withdraw
+the invitation.
+Syntax: Give <ticket price> gold to usher
+Who: Anyone not already allocated a seat
+Buys
+a ticket for the next performance
+of the current production.
+Syntax: Greet usher
+Who: Ticketholders, boxholders, guests
+Usher will take ticketholders, owners of private boxes, and their guests, to
+the correct seat.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

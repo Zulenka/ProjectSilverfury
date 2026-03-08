@@ -1,0 +1,163 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.7.5.3 Championship Worldgames
+The
+Championship
+Worldgames
+Extravaganza consists of the
+following
+games
+:
+1. The
+Foozle
+- this will cover a vast array of
+denizens
+across multiple
+planes
+.
+HELP FOOZLE
+to refresh yourselves on the
+commands
+!
+- In Championship mode, there are tiers of difficulty, and participants will work their way up the tiers, with the higher tiers rewarding higher points per item.
+- Foozle items can not be skipped by passing in this mode, one must complete the box before submitting it. We'll have measures in place to ensure that denizens required for the contest are alive for the duration.
+- The
+event
+will be timed (one
+hour
+) or will
+run
+until ten adventurers have completed the highest tier of items, whichever comes first. Should the
+time
+limit be reached, standings will be based on scores at that time.
+- Travelling through the
+wilderness
+is enabled during
+foozles
+once more.
+- At the end of the hour, partial points will be awarded for partially finished cards.
+2
+. A
+PK
+Egghunt
+- see
+HELP EGGHUNT
+for all of the details. There will be a lot of
+eggs
+.
+- This will last one hour
+-
+Sharing
+WILL be allowed
+3
+. The
+Bandersnatch
+- see
+HELP BANDERSNATCH
+.
+- This will last one hour
+NOTE: The overall points winner of
+events
+1 and 2 will decide whether or not this is a PK bandersnatch!
+If PK is enabled for the bandersnatch, sharing will be permitted. If it is no PK, there will be no sharing.
+While specifics per game are outlined above, the following applies to ALL games:
+- Major
+movement
+, movement bonuses, and forest
+defences
+will be disabled for the duration of the event.
+Additional rules:
+You need to be accessible to everyone else in the game mechanically - this doesn't exclude special
+exits
+or entrances provided they are universally accessible, but
+anything
+that is gated in any way - by time, by
+class
+, by organisation, or otherwise, is not allowed.
+Shrines
+, long range movement
+abilities
+such as empress and deliver, will not function.
+Abilities which force
+others
+to fly or change elevation will not function.
+Implanted
+totems
+will not function.
+Scores will be totalled across the three games and Championship Points (and
+credits
+) awarded based on the winners across the
+board
+.
+Championship points and credits will be awarded to the top six finishers:
+1st wins 200 credits and 7 Championship points
+2nd wins 175 credits and
+5
+Championship points!
+3rd wins 150 credits and 4 Championship points!
+4th wins 125 credits and 3 Championship points!
+5th wins 100 credits and 2 Championship points!
+6th wins 75 credits and 1 Championship points!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,199 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.33 Friends
+(See
+HELP PERMISSIONS
+,
+HELP ALLIES
+,
+HELP
+PARTIES
+)
+What are
+friends
+?
+-----------------
+Friends are people that enter into a mutual agreement (unlike
+allies
+, for which
+see HELP ALLIES). Request formal recognition as a 'friend' by nearly anyone
+you
+wish
+.
+Friend
+status
+occurs when the person recognises you as a friend in
+return, at which
+point
+the benefits begin!
+You are limited to 20 mutually-recognised friends unless you wish to purchase
+additional
+circles
+of friends, which is discussed below.
+What are the benefits of friendship?
+------------------------------------
+Other
+than that warm, fuzzy feeling inside? Right now, there are
+5
+benefits
+you have with your mutual friends. You can:
+- Add mutual friends to your WATCHFOR list. Then, if your friend has
+toggled
+CONFIG
+WATCHFORALLOW ON, any
+time
+that a friend on your WATCHFOR
+list enters the realms, you will receive a notification. You can either
+* WATCHFOR ADD <friend> PERMANENT to always receive the notification, or
+* WATCHFOR ADD <friend> to receive the notification only once.
+You can also add notes to the notifications, to
+remind
+yourself why you
+were watching for a particular person. Try WATCHFOR alone for
+syntax
+.
+-
+QW
+FRIENDS to see a QW list filtered to only
+show
+your friends in
+the realms. (This does not bypass
+artefacts
+/
+abilities
+that are meant
+to conceal persons from the QW list.)
+-
+PARTY
+INVITE FRIENDS to invite all your friends currently in
+the realms into a party at once. (See
+HELP PARTIES
+.)
+-
+ALLY
+FRIENDS to instantly ally all your friends to available ally slots.
+- Add your friends to
+permission
+lists for any
+houses
+you
+might
+own.
+(See
+HELP PERMISSIONS
+.)
+Adding and removing friends
+---------------------------
+If Jim wants to add Sally as a friend, Jim uses the
+command
+: FRIEND SALLY.
+Sally will get a
+message
+about Jim's request, and will also be able to check
+for pending friends requests with the command FRIENDS REQUESTS (or just
+FRIENDS R). To accept Jim's request, Sally can simply type FRIEND
+JIM, and the friendship becomes official. If Sally does not confirm Jim's
+friend request, the request will expire after 14
+days
+.
+If at any point, either friend decides to nullify the mutual friendship, he
+or she can do so. For example, if Jim changes his mind about Sally, he can
+FRIEND
+REMOVE
+SALLY. What happens then is that Jim's approval of Sally as a
+mutual friend is removed, but Sally's approval of Jim as a mutual friend
+still remains as a friendship request until Sally removes it from her end as
+well. So if Sally has NOT removed Jim, and Jim checks FRIENDS REQUESTS, he
+would see Sally listed there as someone requesting friendship, and he could
+FRIEND SALLY and restore the friendship to official status.
+Friend requests will expire in 14
+Achaean
+months
+if not answered.
+Syntax
+------
+FRIENDS - see with whom you have mutually acknowledged friendship.
+FRIENDS R(EQUESTS) - see outstanding requests for friendship from or to you.
+FRIEND <person> - request or confirm mutual friendship with another.
+FRIEND REMOVE <person> - end or
+withdraw
+the request for a mutual
+friendship.
+Adding New Circles of Friends
+-----------------------------
+From anywhere at all you may
+BUY
+CIRCLE
+OF FRIENDS PERMIT, which will increase
+your limit on friends by 5 at a cost of 25
+bound
+credits
+.
+(See
+HELP PERMISSIONS
+,
+HELP ALLIES
+, HELP PARTIES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

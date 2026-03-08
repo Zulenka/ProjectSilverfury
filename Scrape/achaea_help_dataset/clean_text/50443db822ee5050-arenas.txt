@@ -1,0 +1,371 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.1 ARENAS - THROUGHOUT THE LANDS
+I.
+Arenas
+II
+.
+Arena
+Commands
+III. Arena and Options Purchases
+I. Arenas
+---------
+The
+Matsuhama
+Arena, so called in homage to Matsuhama, the God of Battle, is a
+place where the mortals of
+Achaea
+may
+fight
+without the normal losses
+associated with
+combat
+. While battling in the Arena, no
+experience
+will be
+lost
+from
+death
+, and
+salves
+or
+elixirs
+will not be used up. Further,
+plants
+that you
+eat
+will not disappear, but stay in your
+inventory
+, although taking plants out
+of your
+rift
+will decrease the number of plants in it.
+In more recent
+times
+each
+city
+has managed to purchase its own arena.
+Delos
+:   The Matsuhama Arena
+Ashtan
+:   The Theatrum Mortalis
+Hashan
+:   The Stadia Coronae
+Mhaldor
+:   The Colosseum Diabolus
+Eleusis
+:   Collosea en duir
+Cyrene
+:   Ainghaeal's Nest
+Targossas
+:   The Gauntlet
+Private, individual use of the arena is often called
+sparring
+(see
+HELP
+SPARRING). To use the arena for
+spars
+, journey to one of the arena's staging
+grounds. Once there, you may
+CHALLENGE
+<adventurer> [TO THE DEATH]
+[TO
+PRACTICE
+]
+[AS
+PARTY
+]
+The adventurer you challenge must also be in that room. Have the
+gold
+ready for
+any fees that the city
+charges
+for the privilege of using its arena. (See also
+HELP SPARRING).
+The usual challenge will result in an arena fight much like a free for all with
+only two contestants.
+To The Death
+------------
+The challenge TO THE DEATH will result in actual death, actual gain or loss of
+experience, consumption of
+herbs
+/salves/elixirs/smokes/
+tattoos
+, and be very
+much like you were at North of New
+Thera
+, except with nobody else there.
+Contracts
+may be fulfilled by TO THE DEATH arena combat.
+Practice Duels
+--------------
+The challenge TO PRACTICE will
+show
+a lot more detail about what's happening to
+you and your opponent, allowing you to get more familiar with how your
+class
+works. Here's some of the features:
+*
+Afflictions
+gain/
+cures
+are shown for you and your opponent.
+*
+Health
+and
+mana
+levels
+are shown on each
+attack
+.
+* DIAGNOSE on yourself and your opponent are balanceless.
+* DIAGNOSE will show you the common cures for your afflictions.
+* Class
+skills
+will be automatically transcendent even if you are not.
+Party
+Challenges
+----------------
+The challenge AS PARTY will allow
+parties
+of adventurers to challenge
+each
+other
+to team duels in the arena. Each adventurer
+who
+is killed in
+the arena is removed completely from the arena. The party that first
+defeats all members of the opposing party are declared the victors.
+At this
+time
+, the max number of adventurers per team in a party duel is
+4. You can have a 1v2, duel, or 2v2, or 3v3, or 4v4, or 2v3, or 3v4, or
+2v4. In a 1v2 duel, someone from the
+2
+-
+member
+party will be able
+issue
+the challenge to the solitary combatant, but not the other way around.
+Other
+Events
+------------
+The arena is also used for a number of
+group
+events, such as
+Freezetag
+,
+Bait
+-the-Frog, and Free-for-all. During any of these events, ES, or EVENTSTATUS
+will give you some information about the
+event
+. Additionally, if you
+go
+to the
+spectator stands in the Arena, you may DIAGNOSE (or just DIAG) any adventurer
+currently participating in order to see what afflictions he or she has. (See
+HELP FREEZETAG
+,
+HELP FROGBAITING
+,
+HELP FREEFORALL
+,
+HELP RAMPAGE
+, HELP
+BALANCEOFPOWER
+, and HELP
+JOUSTING
+)
+Adventurers
+level
+9 and under are never able to participate in any arena group
+events. Starting at level 10 (or higher, if set for the individual event)
+adventurers may participate in any arena group event.
+Arena death does not cost experience, though it may affect combat
+ranking
+.
+Once entered, you may
+leave
+one of these events via LEAVE <event> provided
+the event has not begun.
+You will leave the arena with the same levels of
+endurance
+and
+willpower
+as you
+entered it. The same is true of many such
+things
+, like Karma or
+Devotion
+.
+The arena is a device to
+spar
+outside of normal reality thus
+anything
+that
+happens within the arena should not be carried to the rest of
+Sapience
+.
+II. Arena Commands
+------------------
+CHALLENGE <who>            : Challenge someone to a duel
+CHALLENGE ... TO THE DEATH : Challenge someone to a duel to the death!
+CHALLENGE ... TO PRACTICE  : Includes significant detail throughout the duel.
+CHALLENGE ... AS PARTY     : Challenge another party as a group
+ES/EVENTSTATUS <arena>     : Get some information on whatever event (if any)
+is currently taking place in the Arena,
+including a list of participants.
+Arenawatch                 : From the spectator's stands of any arena, you may
+ARENAWATCH <person> anyone in the arena who has
+added you as an
+ally
+. Doing so will redirect
+almost
+everything
+that person sees to you,
+along with an echo of all of his or her commands,
+leaving
+you unable to use most commands and
+stopping most other output directed toward you.
+ARENAWATCH UNWATCH will allow you to function
+normally once more, as will taking damage or
+being moved by another.
+(See also: HELP COMBAT_
+RANKINGS
+)
+III. Arena and Options Purchases
+--------------------------------
+Cities
+, and only cities, may purchase, own, and operate arenas. Contact your
+city patron for more details.
+Bait the Frog Game      - 2.00 million gold
+Free-for-all Game       - 4.00 million gold
+Freezetag Game          - 2.00 million gold
+Rampage
+Game            -
+5
+.00 million gold
+CvA
+Game                - 7.50 million gold
+KotH
+Game               - 7.50 million gold
+TotF
+Game               - 7.50 million gold
+Party Duel              -
+3
+.50 million gold
+Arena Jousting          - TBA
+Totem
+Control
+Option(*) - 0.75 million gold
+(*) The
+TotemControl
+option changes the arena so that
+totems
+are not
+automatically unimplanted between arena
+games
+. It also allows the
+removal of implanted totems at any time via an arena
+command
+. The
+removal is accomplished by destroying the implanted totems. If
+you
+wish
+to leave implanted totems between arena games, be sure
+to have these totems sketched with
+runes
+while _outside_ the
+arena. Runes sketched while inside the arena are still cleared
+at the end of arena events.
+IV. Delos Arena Commission
+--------------------------
+We're pleased to
+announce
+a feature of the Matsuhama Arena in Delos:
+The
+ability
+to commission an arena event on behalf of yourself or an
+organisation you belong to!
+Simply head to the arena staging grounds with 15000 gold in hand, and
+use the
+following
+syntax
+:
+ARENA COMMISSION [FOR <org>] [REWARD <amount> <GOLD|CREDITS>]
+A winner's purse may be specified in gold or unbound
+credits
+(this only
+applies to events that have a singular winner)!
+After you've commissioned the arena, you have access to tweak the
+various ARENA commands (as outlined in HELP
+CULTURE
+), and then INIT an
+event of your choice! Keep in mind that the commissioning will only last
+for five
+minutes
+, so please make sure that your event is initialised
+before the time limit expires.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

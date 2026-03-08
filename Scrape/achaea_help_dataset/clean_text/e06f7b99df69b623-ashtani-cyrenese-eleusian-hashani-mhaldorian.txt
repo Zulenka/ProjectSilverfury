@@ -1,0 +1,5 @@
+Fatal error
+:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 268435464 bytes) in
+/var/www/achaea/wp/wp-includes/formatting.php
+on line
+3501

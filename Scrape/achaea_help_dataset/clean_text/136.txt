@@ -1,0 +1,197 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.2.4 Quitting in Achaea - game, class, house, or other organisation
+Two completely different topics are covered here:
+(1)
+quitting
+the game, as in,
+leaving
+Achaea
+to return some
+time
+later, and
+(
+2
+) quitting an organisation of which you are a
+member
+.
+Quitting the Game
+-----------------
+Quitting from Achaea is accomplished simply by typing
+QUIT
+or
+QQ
+. When you
+quit, your
+character
+and
+equipment
+is saved. There is no need to explicitly
+save
+your character before you quit. When you type quit, there will be a delay
+of a few
+seconds
+. This is to prevent people from quitting as soon as they are
+attacked, for this is a very frowned-upon action. You can abort the QQ or QUIT
+any time during the brief delay by typing STOP. Also if you take any damage
+during this time you will also stop your
+exit
+.
+Be sure you don't just close your browser
+window
+or
+disconnect
+your
+client
+.
+QUIT or QQ first! Otherwise _you_ may have left, but your adventurer may
+continue in the realms for some time, at great hazard!
+(See also
+HELP REGISTERING
+and
+HELP
+SAVE)
+You may also use QUIT to
+leave
+your
+house
+,
+class
+,
+city
+, or
+clan
+. To quit an
+order, the
+syntax
+is
+RENOUNCE
+PATRON (see HELP RENOUNCE).
+Quitting Your Organisation
+--------------------------
+The QUIT
+command
+also applies to
+cities
+,
+houses
+,
+classes
+, and
+clans
+. The QUIT
+command does not work for
+divine
+orders
+: you must use RENOUNCE PATRON in that
+case. As a lay member in an order you can RENOUNCE LAY
+MEMBERSHIP
+.
+Quitting Your City or House
+---------------------------
+QUIT <orgname> - this is how you quit. This works for cities and houses. Use
+the shorter
+name
+if there is a choice!
+Quitting Your Class:
+Fledgling
+or
+Journeyman
+/
+Journeywoman
+---------------------------------------------------------
+If you are a fledgling or journeyman in your class, then if you QUIT CLASS, you
+will
+lose
+whatever class
+skills
+you have, and will regain a number of
+lessons
+about 2-
+3
+% less than those you spent in
+learning
+your class skills.
+Quitting your Class: Full Member (You have Embraced Class)
+----------------------------------------------------------
+If you are a full member in your class, meaning that you have done the
+command
+EMBRACE
+CLASS, then if you QUIT CLASS, you will lose whatever class
+skills you have, and will regain a number of lessons approximately equal to
+HALF of those you spent in learning your class skills.
+Read
+again carefully: you lose half your lessons if you quit class after full
+(embraced) membership.
+Quitting a
+Worldgame
+:
+Foozle
+,
+Egghunt
+, etc
+------------------------------------------
+LEAVE <Game> or QUIT <game>
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

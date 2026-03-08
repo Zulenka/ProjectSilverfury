@@ -1,0 +1,222 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.12 ISSUES and ISSUING
+(See HELP IC RESOLUTION, HELP FILING AN ISSUE,
+HELP POLICIES
+,
+HELP
+PK
+)
+Issues
+are, first and foremost, an
+OOC
+way to request customer
+service
+in-game. If you file an
+issue
+, you are filing it as the real human being
+behind your computer, not your
+character
+. There is no such
+thing
+as an
+in-character issue. As such, please mind that just like
+email
+, computers,
+and the United States of America, issues should not be discussed over
+public
+channels
+.
+This help file deals mainly with what is and is not an issue. If you are
+planning to file an issue, please
+read
+HELP FILING AN ISSUE which has more
+detail on what you should and should not include in an issue. If you are
+planning to file an issue AGAINST another player, be sure to read
+HELP IC
+RESOLUTION
+as well.
+I.
+Commands
+.
+II
+. What Is An Issue?
+III. What Is Not An Issue?
+IV.
+Buying
+Credits
+,
+Credit
+Purchases, etc., are not Issues.
+I. Commands
+-----------
+ISSUE
+ME
+<text>            - File an issue.
+ISSUE <person>             - File an issue against another player.
+REPLYISSUE <issue#> <text> - Respond to an issue filed about you.
+ISSUES                     - List issues by or about you.
+SHOWISSUE <issue#>         -
+Show
+details of an issue.
+DELISSUE <issue#>          -
+Withdraw
+an issue.
+What Is An Issue?
+-----------------
+An ISSUE is usually one of two
+things
+1) A problem: An ISSUE is a problem in
+Achaea
+, probably with another
+adventurer or a
+group
+, that you cannot find a way to resolve in any
+other
+way, and usually related to
+theft
+,
+killing
+, or
+harassment
+.
+(See HELP FILING AN ISSUE and HELP
+IC
+RESOLUTION)
+2
+) A personal request for clarification or
+immortal
+assistance: It is
+OK to issue in order to ask a
+question
+, or to get clarification
+from an immortal. Just ISSUE ME <your question here>. This is far
+better than
+shouting
+for an
+admin
+or
+divine
+.
+Note: "ISSUE ME I need to
+talk
+to a divine." is not enough. Give us
+your question! Don't just
+say
+you need to talk to us.
+What Is Not An Issue?
+---------------------
+An ISSUE is not a problem with how the game works - that is a
+BUG
+, and you
+should use the BUG
+command
+to report it.
+An ISSUE is not a suggestion for a new way to do things - that is an
+IDEA
+,
+and you should use the IDEA command to suggest it.
+An ISSUE is not a report on a
+typo
+you've noticed in Achaea - that is a
+TYPO, and you should use the TYPO command to report it.
+Buying Credits, Credit Purchases, etc., are not Issues
+------------------------------------------------------
+For CREDIT PURCHASES (e.g. you're trying to
+buy
+credits on the
+web
+site,
+or sending in a
+money
+order, or you've not gotten credits in a reasonable
+period
+, or you want to negotiate a larger purchase, etc): for
+questions
+or
+problems like this: DON'T ISSUE! Contact
+support
+@achaea.com.
+If it's a problem with a
+customisation
+,
+pet
+, buying an
+artefact
+, converting
+credits, and the like, don't contact sales - contact the relevant email
+addresses, which may be:
+artefacts
+@achaea.com,
+customisations
+@achaea.com,
+or
+pets
+@achaea.com. If your credit-related problem has naught to do with
+artefacts, customisations, or pets, you can file an issue.
+(See HELP IC RESOLUTION, HELP FILING AN ISSUE,
+HELP POLICIES
+, HELP PK)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

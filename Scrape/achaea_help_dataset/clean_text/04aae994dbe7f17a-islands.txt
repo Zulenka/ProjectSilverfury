@@ -1,0 +1,675 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+12 GEOGRAPHY
+Achaea
+is a vast
+world
+with hundreds of unique places to
+explore
+! Many of them
+you must discover on your own; listed here are the better known
+destinations
+.
+12.1.1    Yggdrasil
+The World Tree.
+12.1.2    Flame
+The
+Flame
+of
+Yggdrasil
+.
+12.1.3    Garden
+The
+Garden
+of the
+Gods
+.
+12.1.4    Cave
+The mystical
+Cave
+where mortals return to life.
+12.1.5    Ceylon
+The Golden Land.
+NEWBIE
+AREAS
+12.2.1    Minia
+A magical land created for young adventurers.
+12.2.2    Lodi
+The Valley of
+Lodi
+, for young adventurers.
+12.2.3    Mount Gheladan
+An area for young adventurers to
+train
+.
+12.2.4    Loom Island
+A travel hub for young adventurers.
+ADVENTURER
+CITIES
+12.3.1    Ashtan
+The Seat of Chaos.
+12.3.2    Hashan
+The Court of Shadows.
+12.3.3    Mhaldor
+The
+City
+of Evil.
+12.3.4    Eleusis
+The forest village in the
+trees
+.
+12.3.5    Cyrene
+Oceanus' Gate.
+12.3.6    Targossas
+Hallowed
+Targossas
+, the Guardians' Hearth.
+THE
+CONTINENT
+OF
+SAPIENCE
+(GENERAL)
+12.4.1    Sapience
+The continent of Sapience.
+12.4.2    Highways and Roads
+Major byways of Achaea.
+12.4.3    Outer Islands
+The remote
+islands
+in the deep ocean.
+THE CONTINENT OF SAPIENCE (CENTRAL)
+12.5.1    Savannah
+The great
+grasslands
+.
+12.5.2    Dakhota Hills
+The
+Dakhota
+Hills.
+12.5.3    New Thera
+Rebuilt birthplace of Nicator.
+12.5.4    Tomacula
+A village of plainspeople.
+12.5.5    Mannaseh Swamp
+The
+Mannaseh
+Swamp.
+12.5.6    Azdun Dungeon
+The
+Azdun
+Dungeon.
+12.5.7    Siroccians
+Volcanic mountains populated by orcs.
+12.5.8    Tir Murann
+A settlement of alien refugees.
+12.5.9    Black Forest
+The Black Forest.
+12.5.10   Aureliana
+The
+Aureliana
+Forest.
+12.5.11   The Great Rock
+The dungeon of the
+Beastlords
+.
+12.5.12   Kasmarkin
+Ancient and abandoned troll city.
+12.5.13   Aerinewild
+An otherworldly forest.
+12.5.14   Sangre Plains
+The breadbasket of Sapience.
+12.5.15   Petra
+The farming village of
+Petra
+.
+12.5.16   Green Lake
+A strange lake off the Prelatorian Highway.
+12.5.17   Qurnok
+Troll village in swamps near Green Lake.
+12.5.18   Lake Vundamere
+A tranquil lake off the Prelatorian Highway.
+12.5.19   Chapel of All Gods
+A place to
+honour
+the
+Divine
+.
+12.5.20   Lake Dakhota
+A hidden freshwater reservoir.
+12.5.21   Merrywick
+A halfling village.
+THE CONTINENT OF SAPIENCE (EAST)
+12.6.1    Ithmian Forests
+The North, East, and West
+Ithmian
+forests.
+12.6.2    Delos
+A haven for all
+things
+martial.
+12.6.3    Forest Watch
+A buckawn encampment. Beware the zombie slaves!
+12.6.4    Bagwar
+'s
+Copse
+The West Ithmian village.
+12.6.5    Enverren Marsh
+Enverren
+Marsh
+and the Caverns of
+Chiada
+.
+12.6.6    Manusha
+Manusha
+, the
+gypsy
+village.
+12.6.7    Lake Narcisse
+A lake within the Western
+Ithmia
+.
+12.6.8    Sparrow
+'s Rest      The home of a
+group
+of reclusive
+Druids
+.
+12.6.9    Sunderlands
+A mysterious wasteland.
+THE CONTINENT OF SAPIENCE (SOUTHEAST)
+12.7.1    Putoran Hills
+The
+Putoran
+Hills.
+12.7.2    Pash Valley
+The
+Pash
+Valley.
+12.7.3    Shamtota Hills
+The
+Shamtota
+Hills.
+12.7.4    Shastaan
+A peaceful, ocean-side village.
+12.7.5    Jaru
+The village of
+Jaru
+.
+12.7.6    Shala
+'jen           The monastery of Shala'jen.
+12.7.7    Nimick
+A hidden
+mining
+town nestled in the Shamtotas.
+12.7.8    Isle of New Hope
+A secluded isle off the coast near Jaru.
+12.7.9    Adryn
+'s Keep        A feudal estate off the southern Zaphar.
+12.7.10   The Eastern Shore
+The eastern shore of Sapience.
+THE CONTINENT OF SAPIENCE (SOUTH)
+12.8.1    Mhojave
+The arid source of cactus
+weed
+.
+12.8.2    Moghedu
+Below the ground, the racial home of the Mhun.
+12.8.3    El
+'
+Jazira
+The
+desert
+village of El'Jazira.
+12.8.4    Southern Vashnars
+The southern portion of the mighty mountains.
+12.8.5    Genji
+An Atavian village in the Southern
+Vashnars
+.
+12.8.6    Aeraithian Falls
+A village of gliding humanoids.
+12.8.7    Actar
+A peaceful valley that's home to
+halflings
+.
+12.8.8    Caer Witrin
+The gift of the Great
+Bard
+to the Goddess
+Selene
+.
+12.8.9    Sea Lion Cove
+A secluded cove on the Southern Sea.
+12.8.10   Quartz Peak
+Quartz
+cliffs within the Southern Vashnars.
+12.8.11   Mount Piraeus
+A Vashnarian peak inhabited by cyclopes.
+12.8.12   Rhodestrian Settlement A secret and dangerous mercenary camp
+.
+12.8.13   Ghezavat
+A buried commune.
+THE CONTINENT OF SAPIENCE (WEST)
+12.9.1    Aalen
+The
+Aalen
+forest, racial home of the Tsol'aa.
+12.9.2    Vashnar Mountains
+The mighty
+Vashnar
+Mountains.
+12.9.3    Dun Valley
+The
+Dun
+Valley.
+12.9.4    Dun Valley Swamps
+The southern swamps of Dun Valley.
+12.9.5    Blackrock
+Also called the Underground Lake.
+12.9.6    Harae
+The Isle of
+Harae
+12.9.7    Delmarin
+Caves beneath the
+mines
+of
+Blackrock
+.
+12.9.8    Ka
+'doloki           A small oceanside village near Muurn Caverns.
+12.9.9    Xhaiden Dale
+A valley in the Northern Vashnars.
+12.9.10   Creville Asylum
+A mental sanitarium gone terribly wrong.
+12.9.11   Thraasi Foothills
+Foothills of the Vashnar Mountains.
+12.9.12   Saiha
+'balan
+Grotto
+A hidden locale within the Aalen Forest.
+12.9.13   Boldarihm
+An ancient dwarven academy of magic.
+THE CONTINENT OF SAPIENCE (NORTH)
+12.10.1   Tasur
+'ke            The seaside village of Tasur'ke.
+12.10.2   Granite Hills
+The mineral-rich
+Granite
+Hills.
+12.10.3   Dardanic Grasslands The flat
+, open
+Dardanic
+Grasslands.
+12.10.4   Northreach
+A far-north coniferous forest.
+12.10.5   Manara Burrow
+Underground tunnels beneath the Granite Hills.
+12.10.6   Nuskuwe
+Caverns of
+Nuskuwe
+.
+12.10.7   Aurick Manor
+The manor of a wealthy
+family
+in Tasur'ke.
+12.10.8   Bitterfork
+A village in the Dardanic Plains.
+12.10.9   LHG
+The Lupine
+Hunting
+Grounds.
+THE CONTINENT OF SAPIENCE (FAR NORTH)
+12.11.1   Kamleikan
+A northern village near ice floes.
+12.11.2   Aran
+'riod           The plains village of the Yriluawe people.
+12.11.3   Tundra
+The vast
+tundra
+where the wendigos roam.
+12.11.4   Inbhir Ness
+The
+Inbhir
+Ness of the dwarves.
+12.11.5   Saoghal Valley
+One of the most mystical places in the world.
+12.11.6   Rheodad Forest
+The forested peninsula of
+Rheodad
+.
+12.11.7   Ruins of Morindar
+Dangerous ruins roamed by cursed revenants.
+12.11.8   Tenwat Prison
+A living prison of flesh.
+12.11.9   Hriddan Settlement
+A settlement of minotaurs far to the north.
+12.11.10  Isaia
+A city beneath the icy floes.
+12.11.11  The Dreamspear
+Home of a mysterious dream seer.
+12.11.12  The Valho Coast
+The northeastern edge of the continent.
+12.11.13  Wegava Valley
+The homeland of the gnolls.
+12.11.14  Caverns of Riagath
+Troll-filled caves in the far northern
+mountains.
+12.11.15  The Vents of Hthrak A wasteland of fire and geysers
+.
+12.11.16  Istar Jungle
+A northern jungle amidst the cold tundra.
+12.11.17  Istarion
+Istarion
+, city of the Tsol'dasi.
+12.11.18  Falaq
+'tor           A tower of ice along the northern coast.
+12.11.19  Ishana Steppes
+Coastal grasslands along the Sapphire Sea.
+12.11.20  Fissure of Echoes
+A legendary chasm fraught with peril.
+12.11.21  Trading Posts
+Centres of commerce within the tundra.
+THE CONTINENT OF
+MEROPIS
+12.12.1   Meropis
+A continent far to the south of Sapience.
+12.12.2   Vasnari Mountains
+The peaks of Meropis.
+12.12.3   Sarave Foothills
+The foothills of the
+Vasnari
+Mountains.
+12.12.4   Daoric Plains
+The vast eastern plains of Meropis.
+12.12.5   Orilla
+A seaside village on the
+Gulf
+of
+Nilakantha
+.
+12.12.6   Chaghut
+A nomadic encampment in the
+Daoric
+Plains.
+12.12.7   Mirror Caves
+Mirrored caves in the Vasnari Mountains.
+12.12.8   Mines of Iskadar
+Dwarven mines deep within the
+Vasnaris
+.
+12.12.9   Gulf of Nilakantha
+Calm waters where danger lurks below.
+12.12.10  Nicator
+'s Crossing  A fortified keep in the Vasnari Mountains.
+12.12.11  Grukai Swamp
+A swamp of bizarre and dangerous perils.
+12.12.12  River Mnemosyne
+The lifeblood of Meropis.
+12.12.13  Atrousian Jungle
+The Northern, Central, and Southern jungle.
+12.12.14  Dralhu Hryre
+A tribe of jungle warriors.
+12.12.15  Mourning Pass
+A
+battlesite
+from the pages of
+history
+.
+12.12.16  Seat of Vastar
+A community of zealots in an ancient ruin.
+12.12.17  Judgement Mountain
+The monastic origins of the
+Sentaari
+.
+12.12.18  Luman Village
+A quiet coastal
+fishing
+village.
+12.12.19  Northern Scrublands The rugged hills and grasslands
+.
+12.12.20  Sirocco Fortress
+A fortified stronghold in the
+scrublands
+.
+12.12.21  Ulsyndar
+The dangerous salt mines.
+12.12.22  Asterian Peninsula
+The remnant of
+Aster
+Malik.
+12.12.23  Aster Town          The walled castle town.
+12.12.24  Squall Cleft
+A rajamalan tribe's home.
+OCEANS
+12.13.1   Oceans
+The oceans of Achaea.
+12.13.2   Riparium
+The underwater kingdom of the merfolk.
+12.13.3   Phereklos
+The underwater ruins of a mermic kingdom.
+12.13.4   Lothos
+The underwater triton kingdom.
+ISLANDS
+12.14.1   Ulangi
+The forest
+island
+of
+Ulangi
+.
+12.14.2   Polyargos
+A volcanic island, home to a fearsome
+dragon
+.
+12.14.3   Shala-Khulia
+An isle covered in a lush rainforest.
+12.14.4   Arcadia
+The ancient home of the Atavians.
+12.14.5   Erymanthus
+The floating island upon which
+Arcadia
+is found.
+12.14.6   Mysia
+A pirate haven in the
+Eusian
+ocean.
+12.14.7   Tapoa
+A remote and wild island.
+12.14.8   Zanzibaar
+A busy port for all travellers.
+12.14.9   Clockwork Isle
+A completely manmade island.
+12.14.10  Ilyrean Caves
+Icy cavern home of the sakuwats.
+12.14.11  Suliel Island
+A far northern island of ice.
+12.14.12  Eirenwaar Island
+An island split in two by a glacier.
+12.14.13  Tuar
+The island of the Tuari and the Nelbennir.
+12.14.14  Umbrin
+An isle of militarised warriors.
+12.14.15  Colchis
+An isle of superstitious warriors.
+12.14.16  Zaphar Isle
+The dual isle of Zaphar.
+12.14.17  The Isle of Prin
+The jungle home of a Xoran tribe.
+12.14.18  Minos
+A northern isle ruled by the mage Arsentar.
+12.14.19  Ageiro
+A mountainous island rich in ore.
+12.14.20  Karbaz
+A forested island in the far northwest.
+BEYOND
+12.15.1   Planes
+A brief mention of
+planes
+.
+12.15.2   Underworld
+The
+plane
+of the
+undead
+. Extremely perilous.
+12.15.3   Bopalopia
+Possibly the strangest place you've ever been.
+12.15.4   Annwyn
+The enchanted fairy plane.
+12.15.5   Nishnatoba
+A vast,
+war
+-torn wasteland.
+SPECIAL
+MAPS
+12.16.1   About special Maps
+12.16.2   Ashtan Map
+12.16.2   Ashtan Sewers Map
+12.16.5   North Ithmia Map
+12.16.6   East Ithmia Map
+12.16.7   West Ithmia Map
+12.16.8   Savannah Map
+12.16.9   Dakhota Map
+12.16.10  Mhojave Map
+12.16.11  Moghedu Map
+12.16.12  Pash Map
+12.16.13  Shamtota Map
+12.16.14  Aalen Map
+12.16.15  Vashnar Map
+12.16.16  S Vashnar Map
+12.16.17  Hashan Map
+12.16.18  Hashan Sewers Map
+12.16.19  New Thera Map
+12.16.20  Shastaan Map
+12.16.21  Tomacula Map
+12.16.22  Minia Map
+12.16.23  Delos Map
+12.16.24  Old Delos Map
+12.16.25  Mannaseh Map
+12.16.26  Azdun Map
+12.16.27  Lodi Map
+12.16.28  Black Forest Map
+12.16.29  Tasur
+'ke
+Map
+12.16.30  Beastlords Map
+12.16.31  Ulangi Map
+12.16.32  Polyargos Map
+12.16.33  Dun Valley Map
+12.16.34  Dun Fortress Map
+12.16.35  El
+'Jazira Map
+12.16.36  Riparium Map
+12.16.37  Cyrene Map
+12.16.38  Cyrene Sewers Map
+12.16.39  Genji Map
+12.16.40  Mhaldor Map
+12.16.41  Mhaldor Sewers Map
+12.16.42  Shala
+'jen Map
+12.16.43  Kasmarkin Map
+12.16.44  Kamleikan Map
+12.16.45  Aran
+'riod Map
+12.16.46  Forest Watch Map
+12.16.47  Bopalopia Map
+12.16.48  Aerinewild Map
+12.16.49  Eleusis Map
+12.16.50  Tundra Map
+12.16.51  Inbhir Ness Map
+12.16.52  Saoghal Valley Map
+12.16.53  Underworld Map
+12.16.54  Actar Map
+12.16.55  Sangre Plains Map
+12.16.56  Petra Map
+12.16.57  Blackrock Map
+12.16.58  Caer Witrin Map
+12.16.59  Rheodad Map
+12.16.60  Shala-Khulia Map
+12.16.61  Arcadia Map
+12.16.62  Isle of Erymanthus Map
+12.16.63  Mount Gheladan Map
+Yggdrasil's Reaches
+12.17.1   The Ioje Compound
+12.17.2   Radak
+'s
+Hold
+12.17.3   Lhitsu Forest
+12.17.4   The Stone Forest
+12.17.5   The Village of Myrinia
+12.17.6   Pri
+'alysh
+12.17.7   Qerstead
+12.17.8   The Twin Islands of Kunapi
+12.17.9   Loramere
+12.17.10  Kuthalebak
+12.17.11  The Ettins of the Channels
+12.17.12  Ratatosk
+12.17.13  The Elemental Planes and Embassy
+12.17.14  The Elemental Plane of Water
+12.17.15  The Elemental Plane of Air
+12.17.16  The Elemental Plane of Earth
+12.17.17  The Elemental Plane of Fire
+12.17.18  The City of Nur
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

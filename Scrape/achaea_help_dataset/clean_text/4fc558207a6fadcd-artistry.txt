@@ -1,0 +1,233 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.37.9 Artistry
+Command
+Summary:
+BUY
+ARTISTRY
+PERMIT
+ASK AMARISSE GAIN ARTISTRY
+PRIME <
+NDS
+ID#> [
+Passcode
+]
+NDS P <NDS ID#>
+EMBELLISH <CANVAS ID#> or STOP to stop embellishing
+REPAIR <CANVAS ID#>
+-- See below for
+commands
+on murals and lockets
+Lift the spirits, offer exaltation to the
+Gods
+, rouse a rabble to revolution,
+drive someone to delve the deepest pits of despair, or beyond with artistry!
+Artistry is the
+skill
+of
+combining
+mediums most mundane and the loftiest flights of imagination to a form tangible self
+expression
+; it enables the creation of inspiring murals, lifelike portraits, wonderfully evocative paintings, and all manner of artwork in between.
+You must be above
+level
+10 to access the Artistry
+tradeskill
+.
+BUY ARTISTRY PERMIT
+- Use this command at "A painter's studio" in
+Delos
+.
+- This will cost 200
+credits
+.
+- If you have a bronze
+trade
+seal, please
+READNEWS
+ANNOUNCE
+4247
+- Once purchased, this permit will
+show
+up on
+SCORE
+LICENSES
+.
+- This will never expire and cannot be traded in.
+GAINING THE ARTISTRY SKILL
+- Make sure you have bought your Artistry Permit as per above!
+- Make sure you have a tradeskill slot empty
+-
+TRADESKILLS
+will show your tradeskill slots
+- SCORE LICENSES will show how many slots you have in full.
+- Visit Amarisse, Secretary of the
+Crafting
+Council
+- ASK AMARISSE GAIN ARTISTRY.
+Once you are a licensed
+artist
+, you will have basic
+ability
+in the Artistry tradeskill!
+Creating a
+piece
+of artwork is a more involved process than sewing a garment; it is a labour of inspiration and talent!
+Priming and Embellishment
+=========================
+When you have chosen an approved
+design
+to create you must first prime your
+canvas:
+- PRIME <NDS ID#> to create the blank canvas upon which you will create your art!
+- NDS P <nds ID#> will
+tell
+you how many sessions of embellishment this piece of art will take.
+- You can also
+PROBE
+a primed piece of work to see how many sessions remain.
+- The materials required will be consumed at the Priming stage.
+** See HELP ARTISTRY DESIGN for details on Priming a mural **
+** See HELP ARTISTRY DESIGN for details on Priming a mural **
+** See HELP ARTISTRY DESIGN for details on Priming a mural **
+With your canvas in your possession or in your location, you may begin the process of embellishment:
+- EMBELLISH <canvasID> to begin an artistry session. This is a
+channel
+that will tick through your available artistry sessions.
+This will end when you use the stop command.
+This will end when the artwork is completed.
+This will end when you
+run
+out of artistry sessions.
+This will drain
+willpower
+and
+endurance
+while embellishing continues.
+- STOP at any
+time
+to cancel this process.
+- The piece of art is finished when the required number of artistry sessions have been completed!
+The more you
+train
+in this skill, the higher quality your artwork will be,
+in terms of durability, and how many artistry sessions you gain each
+day
+.
+For Murals
+===========
+The property owner must first
+apply
+the PLASTER
+housing
+upgrade to the room in
+question
+.
+The property owner does not need access to artistry or a mural's design unless they
+wish
+to take part in the embellishments themselves.
+So long as an artist has access to a mural design (whether org-based, public, or passcoded), they may PRIME a mural in private housing.
+Any artist may then
+assist
+in the EMBELLISHment of the artwork, provided they have artistry sessions to use.
+For Portrait
+Locket
+Inserts
+============================
+When one of these has been painted it can be placed into an empty portrait locket made by a jeweller.
+(This is the new portrait locket design, and is not compatible with older
+lockets)
+PUT INSERT IN LOCKET
+This will add the portrait's
+description
+to the locket.
+This will consume the insert.
+This is not reversible.
+OPEN LOCKET
+This will show your portrait description on PROBE/EXAMINE.
+CLOSE LOCKET
+This will hide the portrait's description on PROBE/EXAMINE.
+Artistry Sessions
+=================
+These are what enable you to create a work of art.
+You will gain a number of sessions per in-game day, depending on your skill level in artistry.
+You will automatically "store" up to seven unused artistry sessions.
+Artistry sessions are consumed during the Embellishment channel.
+Abilities
+Gained
+----------------
+At Novice:       The ability to Prime and Embellish existing artwork.
+1 artistry session per day.
+At Adept:        The ability to design your own masterpieces.
+2
+artistry sessions per day.
+At Transcendent: 4 artistry sessions per day.
+Repairing Your Artwork
+=======================
+You can REPAIR your artwork using that command. The number of
+months
+restored to the artwork depends on your level of skill, the same way it does in creation.
+See also HELP ARTISTRY DESIGN
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

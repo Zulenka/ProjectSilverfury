@@ -1,0 +1,8 @@
+{
+  "dataset_dir": "achaea_help_dataset",
+  "text_dir": "achaea_help_dataset\\clean_text",
+  "documents": 3864,
+  "chunks": 15805,
+  "commands": 2084,
+  "help_references": 30697
+}

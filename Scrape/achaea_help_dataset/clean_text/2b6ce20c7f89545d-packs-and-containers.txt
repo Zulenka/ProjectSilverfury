@@ -1,0 +1,142 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.13 Packs and Containers
+Packs
+and some
+containers
+can be very useful in many ways. Some
+things
+should
+NOT
+go
+into them, though (see below). For things that SHOULD go into packs
+and/or containers, here's how to use them properly:
+LOOK
+IN
+PACK
+- see what's inside of it.
+PROBE
+PACK           - see the
+description
+of the pack, PLUS what's inside it.
+P PACK               - same as PROBE PACK.
+PUT
+thing
+IN PACK    -
+move
+something
+from your
+inventory
+into your pack.
+GET thing FROM PACK  - move something out of your pack and into inventory.
+TAKE thing FROM PACK - same.
+"Thing" can be any thing you can
+hold
+, such as a sword, an
+herb
+, a
+book
+, some
+food
+, whatever, including
+gold
+sovereigns
+. You can also have a count of how
+many of the "thing" you want to move, in case you have more than one. "Thing"
+can include a
+name
+, a name and number, or just a number. See below for details.
+EXAMPLES
+--------
+PUT BOOK IN PACK
+PUT BOOK143221 IN PACK
+PUT 143221 IN PACK
+PUT BOOK IN PACK28910
+GET
+2
+BOOK FROM PACK
+GET 100 GOLD FROM PACK
+PUT 10000 GOLD IN BOX
+GET TRUFFLE FROM
+LETTER
+WHAT SHOULD NOT GO INTO PACKS/CONTAINERS
+----------------------------------------
+Some items should be kept in the
+Rift
+, rather than in a pack or
+other
+physical
+container
+.
+Herbs
+,
+inks
+,
+commodities
+, crystals, and some other items should be
+kept in the Rift. See
+HELP RIFT
+for more details.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

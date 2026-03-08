@@ -1,0 +1,443 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+1.8 Glossary
+What follows is a list of terms and acronyms that may be unfamiliar to you but
+that you may encounter while playing
+Achaea
+. It is not a comprehensive list but
+should be enough to get you by.
+Abilities
+- Individual spells or physical
+skills
+. They are grouped together in
+SKILLS.
+Admins
+- The admins --
+Meletus
+,
+Anytus
+,
+Lycon
+, and
+Lathis
+-- are
+admin
+that handle
+out-of-
+character
+issues
+with adventurers such as requests for
+help
+or
+adventurers acting inappropriately. Makarios and Ictinus are Achaea's
+Co-Producers and are in charge of the
+day
+to day
+running
+and decision
+making for Achaea.
+Afflictions
+- Particularly in
+combat
+, your character may be afflicted with a variety of
+ills, from paranoia to paralysis.
+Learning
+to
+cure
+these is important and
+forms one of the core skills in a good combatant.
+- See also HELP CURING SYSTEM.
+Balance
+- Most
+attacks
+use either balance or
+equilibrium
+. Your actions are much
+restricted during the (generally short)
+time
+you are recovering balance
+after using an
+ability
+that takes balance.
+Bound
+Credits
+- See Credits, Bound.
+Channels
+- Channels are a way of
+speaking
+to a
+group
+of people without being in the
+same location. See
+HELP CHANNELS
+for more information.
+City
+- Usually refers to one of the various adventurer-
+run
+cities
+such as
+Ashtan
+,
+Hashan
+,
+Mhaldor
+,
+Cyrene
+,
+Targossas
+, and
+Eleusis
+.
+Clan
+- An adventurer-created organisation used for a variety of purposes.
+Class
+- A set of three skills. Similar to a
+profession
+. Examples of
+classes
+are
+Druid
+,
+Priest
+, and
+Monk
+. As an example, when you
+join
+the Monk class,
+you will initially gain the skills of
+Tekura
+and
+Kaido
+, and will
+eventually receive a third
+skill
+:
+Telepathy
+. (See
+HELP CLASSLIST
+.)
+Credits, normal
+- A form of in-game currency that may be sold on the
+credit
+market
+,
+transferred to
+other
+characters, or converted into Bound Credits.
+Credits, Bound
+- A form of in-game currency that may be used to purchase
+artefacts
+, convert
+into
+lessons
+in order to raise skills,
+buy
+housing
+credits, and more.
+Denizens
+- Inhabitants of the realms that are not adventurers.
+Dormant
+- Some use this term to refer to
+Immortals
+whose attentions have been turned
+away from mortal affairs, usually for an extended
+period
+of time.
+Endurance
+- A measure of your overall
+level
+of physical exhaustion. Not the same as
+health
+, which measures wounds.
+Equilibrium
+- Most abilities use balance or equilibrium. Your actions are restricted
+during the time you are recovering equilibrium.
+Grace
+- The state of being in which you are both prohibited from doing and
+protected from aggressive actions. It is gained by
+dying
+, and may be
+rejected by typing
+RENOUNCE
+GRACE. The
+command
+GRACED will
+show
+you
+who
+is
+on-line and in grace. Grace will last no longer than approximately 15
+minutes
+.
+Guides
+-
+Romeo
+and
+Juliet
+are characters whose sole purpose in life is to help
+newbies
+. They are known as Guides.
+Guilds
+- A
+guild
+was a formal organisation of adventurers bound together by an
+ideology and class, now all disbanded in
+favour
+of the new type of
+organisation called a
+House
+.
+Health
+- A measure of your character's physical well-being, expressed as a number
+from 0 (dead) to a variable maximum based on a number of factors.
+Herb
+-
+Myrrh
+,
+Echinacea
+,
+Kelp
+, and any other harvestable
+plant
+that may be
+used to
+heal
+or prevent afflictions (see HELP
+HERBS
+).
+Holobombing
+- The
+practice
+of
+flying
+magi
+dropping holocaust
+globes
+from the skies.
+Honours
+- Refers to the set of text displayed when one types HONOURS <adventurer>.
+Humgii
+(animal)
+- Cute little animals with voracious appetites. Just give
+something
+to a
+humgii, and it will
+eat
+it. It will eat
+anything
+and so can be used as a
+garbage can. Known for their rather gassy dispositions.
+IC
+(In Character)
+- This means something you have done while you are your character.
+Everything
+you do, aside from private
+talking
+, is automatically considered to be
+in-character, even private talking can be considered IC, if one
+party
+chooses to do so.
+Inventory
+- The general
+name
+for the list of all the items you are
+holding
+, wearing, or
+wielding
+.
+IRL (In Real Life)
+- Sometimes used to refer to
+things
+outside of Achaea. Also 'otherworldly.'
+Learning
+- Learning is the process by which you raise your SKILLS. Find a
+tutor
+, such
+as another adventurer who has the skill you
+wish
+to raise higher than you,
+or a
+denizen
+such as EPICURUS. Then, you will
+LEARN
+<skill> FROM <whomever>.
+See
+HELP LEARNING
+for more details.
+Lessons
+- You must have these to learn (see LEARNING) and thus raise your SKILLS.
+Level
+- A measurement of how much
+experience
+you've gotten. You'll be informed
+whenever you
+go
+up or down a level, and you may gain free lessons or
+Bound Credits when you do so.
+Logos
+- A word in classical Greek and neo-Platonic
+philosophy
+meaning the cosmic
+reason giving order, purpose, and intelligibility to the
+world
+.
+As in:
+Sarapis
+, the Logos, who is Lord of Creation.
+Mana
+- A measure of your mental fortitude. Used to
+power
+most spells.
+Mobiles
+- Denizens. Inhabitants of the realms that are not adventurers.
+MUD
+(
+Multi
+-User Dungeon)
+- Sometimes used as a generic term for all online persistent worlds or as a
+term for a certain segment of them.
+NoT (North of
+Thera
+)
+- A major intersection on the Prelatorian Highway that is
+south of Ashtan. Since Thera was destroyed and rebuilt, it is now
+technically North of New Thera.
+NPC
+(Non-Player Character)
+- An inhabitant of the realms that is not an adventurer.
+OOC
+(Out Of Character)
+- Referring to things outside of (or foreign to) Achaea, like
+a popular performing figure or sporting team or the European Union.
+All public things in Achaea must be IC, for example: MARKET,
+NEWBIE
+,
+HT
+,
+SHOUTS
+, and
+CT
+. Most private things are also IC, such as
+says
+.
+Order
+- A religious Order is a
+collection
+of adventurers organised in a
+formal hierarchy that worships a particular
+Immortal
+.
+Renown
+- An automatically earned currency that transforms into bound credits, up to
+a daily cap! See
+HELP RENOWN
+.
+Room
+- An area of space of varying size. Your character will always be in a room.
+A location.
+RL
+(Real Life)
+- Sometimes used to refer to things outside of Achaea.
+RP
+(
+Roleplay
+)
+- This term, as used in Achaea, means to do things and
+say
+things as if you
+were your character. Speaking of anything your character couldn't know
+about, or doing anything your character wouldn't do by virtue of his or
+her personality, is poor RP.
+Rurin (person)
+- A
+servant
+of
+Phaestus
+who, for quite a long time, maintained a lucrative
+monopoly on the sale of many goods in Ashtan,
+Shallam
+, and Hashan.
+Shrine
+- A structure constructed by highly-ranked followers of a God.
+Offerings
+may
+be made at the shrine, strengthening your God, and
+shrines
+may be
+sanctified or defiled to strengthen or weaken them.
+Skills
+- Sets of ABILITIES. Type SKILLS to see which ones you have.
+Spamming
+- In the context of Achaea, spamming means sending repeated, unwanted text at
+someone for the purpose of annoyance. It is not acceptable to
+spam
+someone
+simply because he or she chooses not to respond to you.
+Trans
+- Transcendent. The utmost level of achievement in a skill.
+Willpower
+- A measure of your overall level of mental endurance. It is to Mana as
+Endurance is to Health.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,152 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.3.4 zMUD and Voting and the Mapper
+zMUD
+Vote
+Button
+----------------
+It's easy to make a VOTE
+alias
+or button for zmud. All the alias or button
+needs is the value shown in step 4) below!
+If you're not sure how to do this, here's the step-by-step for a button:
+1) in zMUD, click on the 'Settings' icon, opening 'Settings in Memory'
+2
+) on the 'settings in memory' page click on the little triangle next
+to the 'New' icon, and select 'New Button'
+3
+) in the 'Edit Button'
+window
+, in the 'Caption' box, give the button a
+name
+, like 'VOTE' (or whatever you want)
+4) in the 'Edit Button' window put this in the 'Value' box:
+#URL http://www.
+achaea
+.com/vote
+5
+) click on 'Save' on the right, near the green check
+mark
+.
+6
+) close the 'Settings in Memory'
+To use the button, just click on it. When the browser opens and the page
+loads, click in the box "Vote for this site and enter!"
+zMUD
+Mapper
+-----------
+The zMUD mapper can be used in Achaea. To get the most out of zMUD's
+mapper:
+CONFIGURE
+---------
+- VERBOSE - use verbose
+descriptions
+in Achaea during
+configuration
+.
+This is _not_ necessarily needful while actually
+mapping
+, but
+can
+help
+during the configuration/setup steps for zMUD's mapper.
+- use zMUD mapper's configuration steps as usual to configure it.
+POST
+CONFIGURE
+--------------
+Once
+everything
+is set up, you may
+wish
+to use the
+following
+,
+assuming you have zMUD 6.67 or later:
+- To keep the mapper from trying to match the first line of the
+room
+description
+, open the
+map
+window, click on
+config
+, then
+configuration settings, which will take you to the map preferences
+window. Select
+speedwalking
+, then change the automatic room matching
+radio button to match room name.
+NOTES AND
+HISTORY
+-----------------
+The main thrust of the changes made recently is that the
+exits
+line (or lines)
+will now always start at the beginning of a new line, and the brief description
+at the top will now never end with a space (it used to, in cases where it
+didn't end in "(road)").
+The "(road)" entry is not shown while you are
+flying
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

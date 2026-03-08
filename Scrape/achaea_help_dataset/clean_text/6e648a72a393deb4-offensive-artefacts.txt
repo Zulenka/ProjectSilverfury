@@ -1,0 +1,664 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.2 Offensive Artefacts
+(see also:
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS,
+HELP
+ARTEFACT
+TRADEINS
+)
+Artefacts
+are special items that can be purchased only with
+Bound
+Credits
+. Unless otherwise stated, artefacts can be purchased in Merentesh's series of
+shops
+in
+Delos
+. They will reset into your
+inventory
+frequently, which means they cannot be loaned out, or stolen(!), for very long. Some only work for the owner. They never
+decay
+. They cannot be changed to reset to anyone else's inventory, so do not
+buy
+artefacts of any kind if you intend to
+sell
+them.
+Note About Stacking
+-------------------
+Artefact effects (for similar artefacts) don't combine or stack. If you have,
+say
+, a Collar of
+Ceylon
+and a Collar of
+Agatheis
+, then only one will boost damage of a magical
+nature
+. If you have a Logosian
+Ring
+and a Mayan Ring, then only one will increase the value of sipping a
+health
+elixir
+. In general, the best item rules, but there may be exceptions. So don't count on having two artefacts and somehow stacking their effects.
+Weapon
+upgrades:
+Add these to your warrior artefact
+weapons
+with the
+command
+:
+ARTEFACT <weapon> ADD <upgrade>
+ASP           - 750 Bound/Weapon credits
+- You may add the Asp
+ability
+to almost any artefact edged weapon.
+- The Asp ability causes the weapon to hit with a random
+venom
+each
+time
+, and 1/
+3
+of the time no specific venom
+message
+is given. If there are
+venoms
+on the weapon, the venoms will be delivered and the asp will not take effect. If there are no venoms, asp will take effect.
+- For the purposes of adding Asp ability, knuckles do not count as
+edged weapons.
+- The asp ability may be traded in at two-thirds value (500cr)
+CONSERVATION  - 300 Bound/Weapon credits
+- Only for cutting weapons.
+- This will have a 25% chance to return any venom used when you strike someone with the weapon to your
+rift
+(assuming you have room).
+DECAPITATION  - 300 Bound/Weapon credits
+- Sometimes you really just want to decapitate someone with a warhammer while keeping their head intact.
+- This impractical endeavour can now be achieved by a weapon with this upgrade.
+MITIGATION    - 500 Bound/Weapon credits
+- This reduces the damage a weapon health deals to you when you tragically rebound off of someone's
+aura
+of
+rebounding
+by 25%.
+- It doesn't reduce the limb damage, as this is often desirable.
+SPIKES        - 400 Bound/Weapon credits
+- By attaching spikes to a blunt weapon, that weapon will now deal
+bleeding
+on all warrior
+specialisation
+attacks
+performed with it.
+Bows:  These shoot more quickly, do more damage, and hit more easily
+than a darkbow. The damage and to-hit percentages aren't possible
+to give because they are only one of many factors - suffice it
+to say that the more expensive bows are more accurate and do more
+damage.
+Note: The
+base
+price of bows is based on having the DARKBOWS ability.
+Should you not have this
+class
+ability, you can purchase the
+"shooting" option via the ARTEFACT command, which grants the
+owner the ability to use the SHOOT command:
+SHOOT <adventurer> [
+direction
+] -or-
+SHOOT <adventurer> WITH METEOR.
+A ranger's bow:                                               250 Credits
+- This bow is more accurate, does more damage, and fires 7% faster than standard bows.
+- Shooting Addon: +100 Credits
+A Velocity Bow:                                               550 Credits
+- This bow is more accurate, does more damage, and fires 14% faster than standard bows.
+- Shooting Addon: +250 Credits
+A Lupine bow:                                                 1000 Credits
+- This bow is more accurate, does more damage, and fires 22% faster than standard bows.
+- Shooting Addon: +500 Credits
+A dragonskin
+quiver
+:                                          100 Credits
+- This quiver holds significantly more
+arrows
+than a standard quiver, and can also
+hold
+up to ten meteor arrows.
+- For sale in
+Moghedu
+, right next to the entrance, in a
+shop
+.
+An Atlantian quiver:                                          300 Credits
+- This quiver holds more arrows than a dragonskin quiver, and up to fifteen meteor arrows.
+- For sale in Delos, in the Offensive Artefact Shop.
+A
+moon
+-bright quiver:                                         600 Credits
+- This quiver holds more arrows than a Atlantian quiver, and up to twenty five meteor arrows.
+- For sale in Delos, in the Offensive Artefact Shop.
+Babel's Pin:                                                  525 Credits
+- A throwable artefact javelin with the
+stats
+: 255/146/83
+Babel's Barb:                                                 800 Credits
+- A throwable artefact javelin with the stats: 267/153/87
+Babel's Fury:                                                 1300 Credits
+- A throwable artefact javelin with the stats: 279/160/91
+Note: Javelins cannot be purchased currently.
+A steel stiletto:                                             200 Credits
+- A throwable artefact stiletto with the stats: 50/210/223
+An ivory stiletto:                                            400 Credits
+- A throwable artefact stiletto with the stats: 53/217/229
+A Deisian stiletto:                                           800 Credits
+- A throwable artefact stiletto with the stats: 56/222/235
+An
+Offspring
+Talisman
+:                                        500 Credits
+Artefact
+power
+: faster_
+eq
+- Reduces the time it takes to recover
+equilibrium
+, by about 7%.
+An Aldar Diadem:                                              1000 Credits
+Artefact power: faster_eq
+- This diadem speeds up your equilibrium regain by about 15%.
+An Aldar talisman:                                            1000 Credits
+Artefact power: faster_eq
+- This talisman speeds up your equilibrium regain by about 15%.
+A Collar of Ceylon:                                           400 Credits
+Artefact power: magic_damage
+- This collar increases the damage of your magical attacks by 10%.
+- These collars increase damage done to opponents from
+abilities
+that are magical in nature. These abilities include:
+-
+alchemy
+educe iron                -
+anathema
+unnamable
+scream
+-
+apostasy
+bloodworms               -
+artifice
+staff casts
+- bladedance's endless song         - duress buffet / skyhammer
+-
+crystalism
+palpitation / destabilise heat & oscillate
+-
+elementalism
+fulminate / freeze / mudslide / magma /
+firelash (including the enchanted variant) / deepfreeze / stormhammer /
+holobomb / firestorm ticks / emanation / conflagrate (including ticks) /
+dehydrate / bombard
+-
+emulation
+destruction
+-
+evileye
+sicken / bleed
+-
+excision
+scour / confront (if not ablaze)
+-
+groves
+lightning                  - ignition flamewhip / fireshroud
+-
+kaido
+choke / surge               -
+occultism
+distortaura's recoil damage
+-
+memorium
+logographs (
+PVE
+) / blood wrack
+-
+metamorphosis
+hydra
+flame
+/ inferno
+- occultism warp / targetted bodywarp / truename / chaosrays
+-
+oppression
+deathaura / quash      - pervasion blade
+-
+propagation
+thornrend / lacerate  -
+puppetry
+throttle
+-
+runelore
+thurisaz                 - sculpting pulverise (PVE)
+-
+shadowmancy
+attune madness        -
+shindo
+burst / annihilation
+-
+sublimation
+combustion / eruption -
+tarot
+star
+-
+telepathy
+mind crush              -
+terminus
+tuad / bahar
+-
+necromancy
+deathaura / decay / taint / blackwind choke
+-
+weatherweaving
+windwhip / fulmination / shockwave / bolt / cyclone /
+waterspout / hailstone / electrify / stormhammer / overcharge
+- venom: darkshade damage ticks     -
+dragoncraft
+dragonroar / incantation
+-
+curses
+bleed                      -
+devotion
+purity
+-
+spiritlore
+hydra roar
+A Collar of Diablerie:                                        800 Credits
+Artefact power: magic_damage
+- This collar increases the damage of your magical attacks by 15%.
+- See Collar of Ceylon for full details.
+A Collar of Agatheis:                                         1600 Credits
+Artefact power: magic_damage
+- This collar increases the damage of your magical attacks by 20%.
+- See Collar of Ceylon for full details.
+A chronomatic anomaly:                                        500 Credits
+-
+THROW
+this anomaly to extend the timers of any holocaust
+globes
+, magmaspheres, or bombs present.
+- This will extend the relevant timers by a random amount, up to ten
+seconds
+. After use, a location will not be susceptible to further anomalous interference for several
+minutes
+afterwards.
+Bracers of
+Frost
+:                                             1000 Credits
+Artefact power: frost_mastery
+- These bracers give access to the FREEZE, DEEPFREEZE, and ICEWALL abilities.
+- FREEZE GROUND - Cover the ground in ice.
+- FREEZE <person> - Freeze an opponent.
+- CAST DEEPFREEZE - Deepfreeze all
+enemies
+that are in the same location as you.
+-
+POINT
+<bracers> <direction> - Create an icewall to block the direction.
+A Scorpion's Tail:                                            800 Credits
+Artefact power: sting
+- This artefact will allow you to STING people, afflicting with the loki venom.
+A deep red boomerang:                                         450 Credits
+- Yank people without the
+mass
+defence
+into your location, provided they are in your line of sight.
+- Will function up to ten rooms away
+- THROW BOOMERANG AT <target> <direction>
+- Boomerangs will not function through one-way
+exits
+- The same
+things
+that prevent a yank will prevent a boomerang from succeeding (impaled, massed, stand firm, rooted, clinging) plus grounding vibes, being at a dock, restrained by tentacles or grave hands, or a rite of piety.
+Bracers of Flame:                                             400 Credits
+Artefact power:
+fire
+_mastery
+- These bracers give access to the FIRELASH and FIREWALL abilities.
+- Can also be used in place of a
+tinderbox
+.
+A whip of taming:                                             300 Credits
+- Gives someone the PEACE affliction when hit. Cannot be used for garrote.
+A knotted
+leather
+cord:                                       250 Credits
+Artefact power:
+dauntless
+- Waive the
+gold
+cost for
+joining
+the Dauntless.
+- Allows the use of
+JOIN
+DAUNTLESS from anywhere.
+- You will not be automatically removed from the Dauntless after a year's
+membership
+- Once the minimum year has passed, you can
+QUIT
+DAUNTLESS to
+resign
+, and may join again at no cost.
+A Veil of the Sphinx:                                         2500 Credits
+Artefact power: sphinx
+- This veil grants the FULLSENSE ability and expands the use of FARSEE.
+- FULLSENSE will allow you to see the
+name
+and location of every adventurer in your local area.
+- Adventurers
+who
+already have this ability will receive a significant
+balance
+reduction.
+- FARSEE will no longer be restricted by
+planar
+or continental boundaries.
+- FARSEE will
+show
+the precise location and area of your
+target
+.
+A
+Hood
+of the Sphinx:                                         2500 Credits
+Artefact power: sphinx
+- This hood grants the FULLSENSE ability and expands the use of FARSEE.
+- See Veil of the Sphinx for full details
+A fire pendant:                                               200 Credits
+Artefact power:
+criticals
+- This pendant increases your chance of
+critical
+hits by
+2
+%.
+A blood pendant:                                              600 Credits
+Artefact power: criticals
+- This pendant increases your chance of critical hits by 4%.
+A Stygian pendant:                                            1200 Credits
+Artefact power: criticals
+- This pendant increases your chance of critical hits by
+6
+%.
+Vambraces of the Berserker:                                   300 Credits
+Artefact power:
+battlerage
+_decay
+-
+Harness
+the power of the berserker to extend your battlerage's lifespan.
+A band of the Berserker:                                      250 Credits
+Artefact power: battlerage_
+support
+- Increase the damage dealt by your allies' conditional damage battlerage attacks.
+- They must be in your rallying presence to benefit from this.
+A pair of eagle's wings:                                      800 Credits
+- These wings grant you access to the clouds room, which has exits to
+key
+locations around
+Sapience
+.
+A pair of atavian wings:                                      2000 Credits
+- An enhanced version of the Eagle's Wings.
+- These wings will also
+reach
+all exits available to the eagle's wings
+A vibrating stick:                                            800 Credits
+Artefact power: wormholes
+- This stick lets you seek out and travel through wormholes.
+- With it, you may WORM SEEK and WORM WARP.
+An oscillating stick:                                         1300 Credits
+Artefact power: wormholes
+- In addition to allowing wormhole travel, provides the ability to see all wormholes in an area with WORM SOURCES.
+A wand of
+portals
+:                                            800 Credits
+- This wand will allow you to open portals to people in
+other
+locations.
+- Opening a
+portal
+takes six seconds, and is stopped by a
+monolith
+sigil
+.
+- POINT <wand> AT <person>
+An Anklet of Dashing:                                         500 Credits
+Artefact power:
+dash
+- Grants the ability to DASH/SPRINT.
+A
+flying
+carpet:                                              300 Credits
+Artefact power:
+entourage
+_flight
+- When you fly all adventurers
+following
+will follow along into the air.
+- The
+group
+leader must be able to fly, separate from the carpet.
+An Armband of Celerity:                                       500 Credits
+Artefact power: celerity
+- Gives you an extra
+move
+/second before the "Don't be so hasty" message kicks in.
+Wolverine's claws:                                            500 Credits
+Artefact power:
+burrow
+- These claws grant you the ability to BURROW.
+- These claws must be worn to be used.
+- They do not conflict with any other worn item.
+Chitin
+greaves:                                               500 Credits
+Artefact power: leap
+- These greaves will grant you access to the LEAP ability.
+- The owner and wearer of the greaves must possess both balance and equilibrium to begin a leap and may not be prone. Leaping uses balance and
+endurance
+.
+- The leap may still be disrupted by slipping on icy ground, closed
+doors
+, gravehands, piety, grounding vibration, or banana peel.
+A spinning gyroscope:                                         500 Credits
+Artefact power: swift_predator
+- Halves the time to recover from use of the TRACK ability.
+A ring of flying:                                             400 Credits
+Artefact power: flying
+- Lets you FLY like an Atavian.
+A Cane of the Quickening:                                     300 Credits
+- This cane lets you
+walk
+normally with one broken leg.
+- Must be
+wielded
+.
+- While
+walking
+normally, you appear to be walking normally to those that
+look
+on, and to yourself. Thus, no appearance of hobbling.
+A Brooch of the Tempest:                                      150 Credits
+Artefact power: stability
+- This brooch will prevent the
+wind
+from blowing you off course when flying.
+A camouflaged hunter's blind:                                 700 Credits
+- ASSEMBLE BLIND to set up the hunter's blind in an outdoor room without
+trees
+, allowing you to SWING UP. It will last one
+Achaean
+day
+, and
+city
+guards
+will destroy a blind if they find it.
+A spider-silk tether:                                         500 Credits
+Artefact power: pacing
+- Follow while they sprint away!
+- This item allows you to PACING [ON/OFF]
+- At a constant endurance drain, you can remain following a person while they sprint or gallop away.
+A clean slate:                                                500 Credits
+- SCRIBE <target> INTO SLATE to block all of your target's racial abilities for 30 seconds.
+- This will incur a 4
+minute
+cooldown on the item.
+- Once used on a person, they will earn a 4 minute
+immunity
+from repeated use.
+- This item cannot be used on
+dragons
+or elemental lords.
+An Earring of Sinope:                                         800 Credits
+- A pair of earrings. You wear one, and somebody else wears the other. As long as you are both wearing yours, you can travel to each other.
+- TRAVEL TO <person>
+- For those wearing multiple Earrings of Sinope, use TRAVEL TO <person> WITH earringID (for example, TRAVEL TO CALLISTO WITH earring123).
+- Earrings of Sinope are always owned by exactly one person, though clearly they are used by two. You specify the partner at purchase time with the following
+syntax
+: BUY <earring> PAIRED WITH <person>.
+- If the owner should decide to bestow the other earring to a different partner at a later time, this can be accomplished at a cost of 100 credits. See HELP ARTEFACT TRANSFERS for more information on
+changing
+partners.
+- In the local area, Earrings of Sinope are blocked by grounding vibrations, being in the
+arena
+, or being in a
+ferry
+, and only these things. You must also not be prone/paralysed/bound or off eq/balance to travel to someone.
+- When in a different area, using the Earrings of Sinope has a longer windup/equilibrium cost, and is prevented by a monolith on either end.
+- Earrings will only function as long as you are on the same
+plane
+, same
+continent
+, and both in, or both not in, the
+wilderness
+, and if both in the wilderness, then within not too great a distance.
+A macabre door knocker:                                       1100 Credits
+- RAISE KNOCKER to open a door of
+light
+from a ground location and enter the doorway to
+escape
+to another underground locale.
+- There are 6 exits available from Sapience and 4 if you use this from
+Meropis
+.
+- Activation and entering the door can be prevented by the presence of a monolith sigil.
+- There is a
+5
+second windup on cast.
+- This will not function on outer
+islands
+or away from the
+continents
+of Sapience or Meropis proper.
+An effulgent spark (healing):                                 350 Credits
+- Detonating a
+tank
+imbued with this power will send a healing wave through the room, refreshing anyone present.
+An aqueous spark (
+flood
+):                                     400 Credits
+- Detonating a tank imbued with this power will
+fill
+a room with water, temporarily
+flooding
+the surroundings.
+A psychic spark (psychic):                                    500 Credits
+- Detonating a tank imbued with this power will send a psychic ripple through anyone present, assaulting their
+mana
+reserves.
+A trembling spark (tremors):                                  200 Credits
+- Detonating a tank imbued with this power will cause the earth to tremble and quake, knocking anyone present off their feet.
+A metallic spark (shrapnel):                                  400 Credits
+- Detonating a tank imbued with this power will send metallic shrapnel flying.
+- Causes damage and bleeding for anyone in the room, or within line of sight up to three rooms away.
+An effervescent spark (parting):                              250 Credits
+- Detonating a tank imbued with this power will create a wave of heat intense enough to boil away any nearby water.
+- This is the same effect as parted waters.
+A silvery spark (enticement):                                 0 Credits
+- Detonating a tank imbued with this power will create a vortex that pulls people in from adjacent rooms.
+- This item is not currently available for sale in Delos and can only be obtained with tears of the
+fae
+(HELP
+FAESHOP
+).
+A concussive spark (concussive):                              750 Credits
+- Detonating a tank imbued with this power will cause a shockwave that will send anyone present flying.
+- Affected players will either be sent to an adjacent room or knocked to the ground.
+A caustic spark (caustic):                                    1000 Credits
+- Detonating a tank imbued with this power will fill the room with noxious gas, choking anyone who happens to breathe it in.
+A cyclonic spark (cyclone):                                   500 Credits
+- Detonating a tank imbued with this power will create a vortex of air that will knock any unfortunate flyers to the ground.
+A galvanic spark (lightning):                                 600 Credits
+- Detonating a tank imbued with this power will set off a wave of electric potential.
+- After a time bolts of lightning will strike adventurers still in the room.
+A blazing spark (fire):                                       300 Credits
+- Detonating a tank imbued with this power will engulf your room in a fiery blaze.
+- Any adventurers present will be burned and set alight.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

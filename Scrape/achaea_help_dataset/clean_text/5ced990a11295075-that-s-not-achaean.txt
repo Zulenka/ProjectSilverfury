@@ -1,0 +1,190 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.13.7 That's not Achaean!
+A few words have crept into
+Achaean
+usage that really don't belong.
+Join
+us in
+our
+crusade
+to cleanse the tongue of our beautiful lands!
+Not Achaean         Is Achaean!      |  Not Achaean         Is Achaean!
+|
+alot
+->  a lot            |
+kahwe
+->
+kawhe
+alright
+*        ->  all right        |
+nevermind
+->  never mind
+anymore
+->  any more         |
+noone
+->  no one
+appolog[y|ise]  ->  apolog[y|ise]    |
+occurrance
+->  occurrence
+arguement
+->  argument         |  perminate       ->  permanent
+catagory
+->  category         |
+priviledge
+->  privilege
+challange
+->
+challenge
+|
+publically
+->  publicly
+congradulations
+->  congratulations  |
+reccommend
+->  recommend
+definate
+[ly]    ->  definite[ly]     |
+rediculous
+->  ridiculous
+devine
+->
+Divine
+|  responce        ->  response
+dieing
+->
+dying
+|
+rouge
+***        ->  rogue
+discernable**   ->  discernible      |
+schedual
+->  schedule
+dosent
+->  doesn't          |  sence           ->
+sense
+elixer
+->
+elixir
+|
+seperate
+->  separate
+embarass        ->  embarrass        |
+sirrocians
+->
+siroccian
+[s]
+existance
+->  existence        |
+skeptical
+++     ->  sceptical
+faught          ->  fought           |  speach          ->
+speech
+firey
+->  fiery            |  thankyou        ->  thank you
+genious         ->  genius           |  tounge          ->  tongue
+grammer         ->  grammar          |
+truely
+->  truly
+greatful
+->  grateful         |  vile+           ->
+vial
+harrass
+->  harass           |
+visable
+->  visible
+heighth
+->  height           |
+wierd
+->  weird
+independant
+->  independent      |
+withdrawl
+->  withdrawal
+*   "Alright" is acceptable informally, though "all right" is preferred.
+**  Some dictionaries now allow "discernable" as an _
+alternate
+_ spelling,
+doubtless to accommodate the
+legions
+of those unable to
+spell
+it
+properly. We
+reject
+this line of
+thinking
+!
+*** Rouge is colouring applied to the face. Rogue is a kind of person,
+or way of life, or many
+other
+things
+we will not list here.
++   Vile is a proper word meaning morally reprehensible. Vial is a small
+container
+for liquids.
+++  We do not generally list regional variations in UK vs US spellings
+here. For skeptical (US) and sceptical (UK) we make an exception.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

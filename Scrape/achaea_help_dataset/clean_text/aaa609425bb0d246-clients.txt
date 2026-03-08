@@ -1,0 +1,127 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.3 Clients / MUD Clients / Telnet clients
+A
+client
+is
+software
+that connects to
+Achaea
+to let you play it. It can be either browser-based, downloadable, or a
+mobile
+app.
+The best options to play Achaea with are:
+* The
+Nexus
+client, which is our official client. It runs in a browser and will
+work on all PCs/laptops (Windows, Macs, Linux), as well as tablets. It even
+runs on mobile, though not with full functionality.
+You can access Nexus at http://nexus.achaea.com
+HELP NEXUS
+will
+tell
+you more.
+* The Mudlet client, which is a third-
+party
+downloadable client for PCs.
+You can find Mudlet at http://www.mudlet.org
+To
+connect
+you'll need to tell it to connect to achaea.com, and either port
+23 or 2003. (Both work.)
+Mudlet allows for
+custom
+GUIs to be created. One of our favourites was made
+by Zulah. All instructions and links for it can be found at:
+http://
+forums
+.achaea.com/discussion/5061/zulahgui-free-easy-gui
+* A mobile client for
+Android
+phones (see
+HELP
+ANDROID)
+* If you're visually-impaired and using a
+screenreader
+, we recommend
+checking out http://www.gmagames.com/vipmud.shtml
+There are many
+other
+third-party
+clients
+(some free, some require purchase) that can be
+run
+. Some of these are listed on our
+website
+:
+https://www.achaea.com/how-to-connect/
+If you are having problems with
+registering
+, there are some notes in
+HELP REGISTERING
+related to various
+MUD
+clients.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,167 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3.7.5 Channel History
+(See also:
+HELP
+CHANNELS
+)
+Channel
+History
+is available to all on
+Newbie
+, Deathsight, and
+Market
+channels
+if they have access to those channels normally. Simply HISTORY MARKET, HISTORY
+DEATHSIGHT, or HISTORY NEWBIE and you will see the last 60
+messages
+on the
+channel. This could include messages from before you were present in the
+realms.
+Optionally
+----------
+Some
+cities
+may have chosen to acquire history for their
+CT
+, in which case
+HISTORY CT will work. The same goes for
+Houses
+, in which case HISTORY
+HT
+and
+HISTORY
+HNT
+will both work and provide two different channel histories.
+Clans
+and
+Orders
+may also have history.
+It is also possible to specify the number of lines of history you would like to
+see. For example HISTORY CT 15 would
+show
+only the last 15 lines in the channel
+history.
+A Quicker Way to View History, Maybe
+------------------------------------
+HISTORY <anyorgname> will also work if you are a
+member
+of that org, and
+the org has paid for channel history.
+How To Get History
+------------------
+This costs 500,000
+gold
+.
+Divine
+Orders that
+wish
+to activate channel history should contact their Divine.
+Houses that wish to activate channel history will need to file a Patronage
+Request via their Patronage
+Denizen
+. For this single fee a
+House
+will get both HT and HNT history.
+Clan
+leaders can use CLAN HISTORY ADD [CONFIRM] with 500,000 gold in hand to purchase history for the clan they have selected in their CLAN LIST.
+Limits
+------
+HISTORY only records
+things
+said by adventurers on the prime material
+plane
+,
+plus
+Immortals
+, whose precise location transcends such designations in any
+event
+.
+Those
+who
+are astralformed, blackwinded, phased, off of the prime material
+plane, otherwise unable to use the channel, or have it disabled, will be unable
+to review their organisation's history.
+You should not be able to see historical entries from people you have ignored
+(this is only the case for clans).
+Tell
+History
+------------
+You can check the history of
+tells
+that you have received using the TELLS
+command
+. This will list a brief list of the last twenty tells. You should use
+SHOWTELL (#) to see the full
+message
+of a specific tell.
+Personal History
+----------------
+Adventurers are able to write their own histories about their personal lives.
+For more information on this see
+HELP BACKGROUND
+.
+(See also: HELP CHANNELS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

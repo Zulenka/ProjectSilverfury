@@ -1,0 +1,255 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.1.10 KING OF THE HILL
+King of the Hill is a game held in the
+arena
+. It is played between two
+teams
+,
+each composed of 1-15 people. The teams are named simply Red Team and Blue
+Team. There is a single Hill and a single Flag per game.
+The
+objective
+of the game is to secure the Hill and
+plant
+the King of the Hill
+Flag there. Planting and uprooting works very much like in Capture the Flag
+(see
+HELP
+CTF
+). Once planted, the flag will accrue
+KOTH
+points for the team
+that planted it, 1
+point
+per each second planted. The number of points needed
+to
+win
+, called 'goalpoints', are set before the start of the game. The first
+team to
+reach
+the goalpoints is the winner of the KOTH game.
+Once a game has started, you can see the goalpoints and the current scores with
+ARENA SCORES <arena>.
+GAME SETUP AND
+JOINING
+----------------------
+There are a number of options for the setup of a King of the Hill game. They
+are: the number of players per team, whether team assignment is random or can
+be chosen, the number of goalpoints, and whether any environments are
+restricted from being the "Hill", such as forest/jungle (listed simply as
+"forest"), watery rooms, or indoor rooms.
+You will see the settings for a particular KOTH game when it is initialised. If
+the option of
+JOIN
+KOTH <arena> [RED/BLUE] is presented to you, that means you
+can choose a team colour to join. If you choose to omit the colour, you will be
+joined to the team with less players, or if the teams are equal, you'll be
+joined to one at random. If you only see the option to JOIN KOTH <arena>, that
+means that team assignment has been set to random, and you cannot choose your
+team.
+More options for KOTH are to come.
+KOTH TEAMS
+----------
+You can use KT and KWHO to
+speak
+to your teammates in the arena and to see
+who
+they are.
+CONFIG
+COLOUR ARENATELLS <1-15> to set the colour for this
+channel
+.
+ES <arena> will also
+show
+you who is on your team by colour. You will also see
+your teammates'
+names
+in the colour of your team for most actions and
+attacks
+.
+When you join the game, you will be placed in the same room as your teammates
+so that you do not have to waste
+time
+getting together.
+Following
+is possible during KOTH, unlike
+other
+arena
+games
+.
+GAME PLAY
+---------
+Basic gameplay goes like this. Your team must:
+1. Secure the hill and the flag.
+2
+. Plant the flag at the hill (use PLANT FLAG, and you must be doing
+nothing
+else for
+6
+seconds
+while you do this).
+3
+. Keep it defended until your team
+score
+reaches the goalpoints.
+4. If the flag/hill are taken by the other team,
+fight
+to regain both. If the
+enemy
+team has planted the flag, use UPROOT FLAG to take it from them.
+When KOTH starts, the Hill will be declared at a random room in the arena,
+subject to any
+environment
+restrictions displayed at initialisation. You can
+also check its location at any time on ES <arena>. If there is more than one
+room in the arena with the same
+name
+,
+look
+for the rounded hill in the correct
+room. You can only plant the flag at the Hill.
+ES <arena> will also show you where the flag is at any given moment. ARENA
+SCORES <arena>
+tells
+you the
+running
+score.
+The flag will disappear from your
+inventory
+and appear at a random location in
+the arena if you do any of these
+things
+:
+- fly
+- blackwind/astralform (cannot phase in the arena)
+- put it in a
+container
+or give it to a
+pet
+, entity, or the like.
+- are killed
+-
+hold
+the flag while graced
+- uproot the flag
+Note the last, as this is significantly different from how flags behave in a
+CTF. Uprooting a planted flag will cause it to appear in a random location in
+the arena, so if you manage to uproot one, you or your teammates will have to
+run
+and secure it before you can re-plant it.
+If you are killed in a KOTH, you will be returned to the arena at a random
+location, your
+defences
+stripped. You will have 1
+minute
+of
+grace
+to raise your
+defences and such again. You can
+REJECT
+GRACE if you do not need this minute.
+You cannot plant, uproot, or even hold the flag at all while graced.
+GAME END
+--------
+KOTH generally ends when one team reaches the objective goalpoints. It can also
+end if all members of one of the teams
+leave
+the game. Remember,
+death
+does not
+cause you to leave the game. As in a
+Rampage
+, you reappear somewhere randomly
+in the arena with your defences stripped, and you can continue playing. This is
+so that the game cannot be won simply by
+killing
+off everyone on the opposing
+team once.
+COMMANDS
+SUMMARY
+----------------
+JOIN KOTH <arena>:
+Will place you in the game on a random team.
+JOIN KOTH <arena> RED/BLUE:
+Will place you in the game on the team you selected.
+ES <arena>:
+Will show you the location of the Hill and the Flag.
+ARENA SCORES <arena>:
+Show current scores, current King, and goalpoints.
+KT:
+Speak to your KOTH Team.
+KWHO:
+See who's on your KOTH Team, other than yourself.
+CONFIG COLOUR ARENATELLS #:
+Choose a colour for your KT channel.
+PLANT FLAG:
+Plant the flag at the Hill. You must do nothing else for 6 seconds.
+UPROOT FLAG:
+Uproot a planted flag. This will cause it to disappear and reappear
+somewhere else in the arena.
+LEAVE KOTH:
+Depart early from the game.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

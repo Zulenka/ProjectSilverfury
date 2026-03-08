@@ -1,0 +1,196 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+13 THE PRINCIPLES OF BATTLE
+13.1    Combatprinciples Some basic information about combat
+.
+13.2    Preparation
+Preparing for
+combat
+.
+13.2.1  Defence
+Beneficial effects of
+plants
+and
+minerals
+.
+13.3    Defending
+Defending
+yourself successfully.
+13.4    Weapons
+Learn
+about the
+weapons
+in
+Achaea
+.
+13.4.1  Wielding
+Wielding
+and wearing
+armour
+,
+clothing
+, and weapons.
+13.4.2  Proficiencies
+Becoming adept at use of
+classes
+of weapons.
+13.4.3  Proficiency Teachers
+13.4.4  Scabbards
+Sheathing
+,
+Drawing
+, and
+Scabbards
+.
+13.4.5  Buying Weapons
+Where, how, what, in weapons and armour, to
+buy
+.
+13.5    Armour
+Learn about armour in Achaea.
+13.6    Saferooms
+Read
+about rooms which are safe, by
+Divine
+order.
+13.7    Heal
+About healing,
+curing
+,
+afflictions
+, etc.
+13.7.1  Healinglist
+A list of common natural and alchemical
+curatives
+.
+13.7.2  Afflictions
+List of afflictions, and what
+cures
+them.
+13.7.3  Curing Balances
+Waiting to
+cure
+again.
+13.7.4  Compose
+About
+composing
+and
+concentrating
+.
+13.7.5  Smoking
+Put this in your
+pipe
+and
+smoke
+it.
+13.7.6  Tinderboxes
+Light
+my
+fire
+!
+13.7.7  Entanglement
+How to
+WRITHE
+out of
+entanglement
+.
+13.7.8  Curingsystem
+Set up a server-side curing
+system
+. Important!
+13.8    Denizencombat
+Adventurer vs.
+denizen
+combat.
+13.9    Bodypartdamage
+The system of body parts and damaging them.
+13.9.1  Target
+The
+target
+command
+.
+13.10   Combattips
+Some tips for success in combat.
+13.10.1 Fleeing
+Fleeing
+combat.
+13.11   Combat_rankings
+Are you good enough to be #1?
+13.12   Assassins
+The ways and means of the
+Quisalis
+Mark
+.
+13.13   Champions
+Avenge the weak.
+13.14   Contracts
+And
+HIRING
+!
+13.15   Dauntless
+The
+Dauntless
+!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

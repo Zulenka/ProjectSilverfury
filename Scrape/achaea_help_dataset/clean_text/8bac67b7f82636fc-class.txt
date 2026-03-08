@@ -1,0 +1,212 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1 WHAT ARE CLASSES?
+(See also:
+HELP CLASS LIST
+, HELP CLASS RANKS,
+HELP
+CHANGING
+CLASS
+)
+Think
+of a class as a
+profession
+. Just as a baker has a set of
+skills
+that
+allows him to bake, so does a
+member
+of the
+Paladin
+class have skills that give
+him the
+ability
+to act as a Paladin. In
+Achaea
+, each class gives access to at
+most three class skills. Each
+skill
+has many
+abilities
+. As you
+train
+(by taking
+lessons
+studying
+the skill) you gain more abilities.
+A class is probably the most important choice in your life in Achaea, so think
+carefully on it. Not that you can't change class: you can! See
+HELP CHANGING
+CLASS for more details.
+Your class determines most of your
+combat
+capability, as well as some of your
+ability to earn
+gold
+.
+HELP CLASS LIST
+will
+tell
+you which
+classes
+are available.
+How do I get a class?
+---------------------
+Getting a class is easy once you've decided which one you want to
+join
+. Just
+go
+to
+Certimene
+in
+Delos
+, and ASK CERTIMENE BECOME <class>.
+How do I
+talk
+to
+others
+in my class?
+------------------------------------
+The best way to do this is to join a
+House
+and find others of like mind and
+experience
+. You are also able to use
+CLASSWHO
+to find others of your own
+class to
+speak
+with, preferrably privately using
+tells
+or
+messages
+or even
+meeting
+together directly.
+How do I progress in a class?
+-----------------------------
+There are three stages in class progression:
+Stage 1:
+Fledgling
+- When you first join a class, you will be a fledgling. You'll have only
+2
+of
+the
+3
+skills in the class and will not be able to
+learn
+them above the
+level
+of Skilled (not very high).
+Stage 2:
+Journeyman
+- When you
+reach
+level 20, you'll be a Journeyman, and will be able to learn
+your class skills up to Fabled.
+Stage 3: Full member
+- Once you as a member of a house reach level 30 and are a Journeyman with
+house
+rank
+1, you'll be given the opportunity to
+EMBRACE
+CLASS. Or if you
+are not a member of a house you will be given the opportunity to EMBRACE
+CLASS at level 50. Upon
+embracing
+class, you'll become a full member, will
+gain your third class skill, and all limits on your
+learning
+will be
+removed.
+How do I change my class?
+-------------------------
+There are two ways to change your class. The first is through gaining a second
+class via
+Multiclass
+(HELP MULTICLASS). If you do not
+wish
+for a second (or
+third, or fourth!) class then you will need to change your primary class. In
+order to change your primary class you must first
+QUIT
+CLASS. If you are not
+yet a full member in your class then you will receive approximately 98% of
+the lessons you put into class skills, and then
+lose
+the skills.
+There is no way to UNEMBRACE CLASS. You may quit the class. You may not
+unembrace.
+** Warning: If you are a full member of your class, and you
+leave
+your class,
+then you will lose ALL of your class skills and you will get back only 50% of
+the lessons that you had trained in your class skills.
+(See also:
+HELP CLASS LIST
+, HELP CLASS RANKS, HELP CHANGING CLASS,
+HELP
+MULTICLASS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

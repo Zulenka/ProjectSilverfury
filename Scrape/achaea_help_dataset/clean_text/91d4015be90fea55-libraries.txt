@@ -1,0 +1,332 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.18 Libraries and Librarians
+(See also
+HELP PERMISSIONS
+,
+HELP
+JOURNALS
+)
+Libraries
+are places to keep, and from which to borrow,
+books
+. Libraries
+are available for
+placement
+in private homes and in organisational locations
+(such as
+House
+or House estates, Order
+Temples
+, or
+City
+locations).
+They are also very seriously expensive propositions! The smallest and least
+expensive will still probably cost over half of a million
+gold
+sovereigns
+to
+set up.
+A person or
+clan
+or org can only own one
+library
+. You can have multiple locations (a designator needed for each), but they will share the main library booklist and
+permissions
+.
+(see end of this
+scroll
+for COPY, LOCK, and SEAL services.)
+Table of Contents:
+I. Using a Library (a
+Guide
+for Borrowers)
+II
+.
+Who
+is a Library Owner?
+III. Acquiring a Library (a Guide for Library Owners)
+IV. Setting up a Library (a Guide for Owners)
+V. Library
+Commands
+(for Library Owners)
+VI. Library
+Groups
+(for Library Owners)
+VII. Library
+Group
+PERMISSIONS (for Library Owners)
+VIII. Library Services: COPY, LOCK, and SEAL (for Everybody)
+I. Borrowers: to use a Library
+------------------------------
+-
+Go
+to the location of the library.
+- View each bookshelf (with
+PROBE
+or LIBRARY
+STATUS
+).
+- CHECKOUT <book> - to check it out.
+- While you have it, Probe it to see how long till it is due.
+- CHECKIN <book>  - to check it in.
+- If you forget to check it back in, no problem - the
+book
+will return itself!
+- LIBRARY BROWSE <text> to
+show
+only those books available that have the
+specified <text> in their
+title
+.
+- The Library listings may show either a '*' or an 'X'; the
+'X' indicates that a book is locked and may not be copied,
+whereas the '*' indicates that it may be (see section VIII, Library
+Services, below)
+II. Who is a Library Owner?
+---------------------------
+For private homes, the library owner is the owner of the home.
+For
+Cities
+, the library owner is the city leader.
+For
+Houses
+, the library owner is the House leader.
+For
+clans
+, the library owner is the clan head.
+III. Library Owners - Acquiring a Library
+----------------------------------------
+- THE PLACE: you must have a private home, or an organisational room
+in which furniture may be placed. For organisational rooms, this may
+require special arrangements to add a 'building' associated with your
+organisation's rooms. To make these special arrangements, file an
+ISSUE
+. Be sure to know where you'd like the
+building
+to be.
+- THE
+DESIGNATION
+: go to Fronck at the Delosian Furniture showroom and
+REQUEST LIBRARY DESIGNATION. The cost of this is currently 250,000 gold.
+Fronck will provide you with a token-like, coin-shaped 'Designator'
+which you must drop in the place you
+wish
+to
+designate
+as a library.
+(Anybody can do this, for anywhere.) This item can also be referred to as a
+LIBRARYDESIGNATOR, for those who deal in
+tuns
+too, this prevents confusion.
+- THE SHELVES: Any practitioner of the
+Furnishing
+tradeskill
+(including you!)
+may create bookshelves or bookcases which may then be PLACEd in your Library.
+Consult
+HELP FURNISHING
+for more details.
+Simply PLACE each bookshelf or bookcase in the room you have designated
+as a library. You're in business!
+See also
+HELP FURNISHING
+for more details. Only the home owner, or
+a
+member
+of the organisation that owns the building, may drop
+furniture there.
+IV. Setting up a Library (a Guide for Owners)
+---------------------------------------------
+- To designate a librarian, use LIBRARY LIBRARIAN <who>.
+(Do not designate yourself! It is not needful.)
+- You can do this as often as you like,
+changing
+/updating for any
+reason, or no reason.
+- To add books to a library, simply put them into a library bookshelf.
+PUT <book> INTO <bookshelf/case>.
+If an item is already resetting, it cannot be placed in circulation.
+Contact an
+admin
+for help with this via ISSUE
+ME
+.
+- To
+remove
+books from circulation, just take them out of the bookshelf.
+- To check the contents of your library, or to open or close it, use the
+LIBRARY STATUS [OPEN|CLOSE]
+command
+.
+- To
+control
+access to the library, set up groups (see below).
+- To take the collected fees out of the library: LIBRARY
+WITHDRAW
+<amount>.
+- You may also CHECKIN or CHECKOUT as
+others
+.
+V. Library Commands (for Library Owners)
+----------------------------------------
+Type LIBRARY to see the commands available to you.
+* open/close, etc
+LIBRARY STATUS           - to see if your library is open or not.
+also
+tells
+you what books are in the
+library, or checked out, and by whom.
+Note that a * next to a title means
+it can be copied, while an
+X
+means it
+cannot.
+LIBRARY STATUS OPEN      - to open it.
+LIBRARY STATUS CLOSE     - to close it.
+*
+define
+who can check out books, for how long, and at what cost.
+LIBRARY GROUP                 - list the relevant group commands.
+LIBRARY GROUPS                - list all groups you've
+defined
+.
+LIBRARY GROUP <#>
+NAME
+<name> - give the group a name.
+LIBRARY GROUP <#>
+PERM
+- (see permissions below).
+LIBRARY GROUP <#> FEE <amt>   - cost to check out for this group.
+LIBRARY GROUP <#> LEND <amt>  - how long this group checks out,
+in
+Achaean
+days
+.
+*
+other
+LIBRARY LIBRARIAN <who>       - designate a librarian.
+LIBRARY WITHDRAW <howmuch>    - withdraw from the library's
+treasury
+.
+VI. Library Groups (for Library Owners)
+---------------------------------------
+Groups are used to control who has access. Each library has four, numbered
+1 through 4. Group 1 is considered first, when determining who has access
+to a library.
+Groups have
+- a name         - optional, for whatever purpose you wish.
+- a fee          - cost for borrowers to checkout a book.
+- a lending
+time
+- measured in Achaean days. (0 means checkout not allowed)
+- permissions    - see Library Group PERMISSIONS below.
+VII. Library Group PERMISSIONS (for Library Owners)
+---------------------------------------------------
+This makes use of the permissions
+system
+already used for
+housing
+doors
+and
+totems
+(described in HELP PERMISSIONS).
+LIBRARY GROUP <#> PERM ADD <perm>    - adds a perm item to group.
+LIBRARY GROUP <#> PERM REMOVE <perm> - removes a perm item before group.
+LIBRARY GROUP <#> PERM               - lists the
+perms
+for this group.
+If you set up no groups at all, then everybody can borrow from your library
+with no fee for a
+period
+of 300 Achaean days. As soon as you set up even one
+library group, then nobody gets access at all, excepting those you have set up
+in those groups. You can set up, change, and otherwise deal with groups
+whenever you want, over and over again if you want. This is not a one-shot
+thing
+!
+VIII. Library Services: COPY, LOCK,
+MARK
+, and SEAL (for Everybody)
+------------------------------------------------------------
+Seek Mydoin inside the Library in New
+Thera
+. There
+read
+the sign to familiarise
+yourself with the COPY, LOCK, and SEAL services.
+- with COPY you copy a volume (that is sealed and not locked).
+- with SEAL, you make a volume permanently unchangeable. Only the owner may
+request SEALing of a personal
+journal
+.
+- with LOCK, a volume in a library may be locked by a librarian or library
+owner only. A locked volume may not be copied.
+- with MARK you make a volume resetting to you. (This cannot then be put into
+library circulation as resetting conflicts with library status.)
+(See also
+HELP PERMISSIONS
+, HELP JOURNALS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

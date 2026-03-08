@@ -1,0 +1,164 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.20 Levels of Experience
+(See also:
+HELP LEVEL LIST
+,
+HELP
+CIRCLES
+)
+A
+level
+, or level of
+experience
+, is a way to
+talk
+about or
+describe
+how
+experienced and capable someone is. Experience may be gained from performing
+quests
+and through success in
+combat
+. As you increase in experience, your
+level, or level of experience, will also rise, starting at level 1.
+To see your current level of experience, use
+SHOW
+LEVEL or
+SCORE
+.
+Levels
+Aren't Circles
+---------------------
+Some people like to call levels of experience 'circles.' You can call levels of
+experience whatever you want, in the end, but just know that the term here is
+'level' or 'level of experience.' That's the
+name
+and usage ordained by the
+Gods
+.
+Lessons
+and
+Credits
+-------------------
+Any
+time
+you gain a level, you will receive
+5
+lessons. Anytime you
+lose
+one,
+you will lose 5 lessons. See
+HELP LESSONS
+for more information. If you
+go
+below
+0 lessons, you won't be able to use/spend lessons on
+learning
+until you come
+above 0 again.
+At obtaining certain levels for the first time, you will also gain a number of
+Bound
+Credits:
+Level         Bound Credits
+-----         -------------
+7                5
+10
+6
+15                7
+20                8
+Continuing on up every 5 levels to level 95 for 23 bound credits, then jumping
+by two at level 100 for 25 bound credits.
+See
+HELP CREDITS
+for information on Bound Credits and how you can use them.
+Shouting
+Voice
+--------------
+Further, as you progress in the hierarchy of levels, your shouting voice will
+change and grow more powerful. When you
+reach
+level 80, your need for
+sleep
+and
+for
+food
+will completely disappear.
+The Big Payoff
+--------------
+Upon
+reaching
+level 99, you will gain the
+ability
+to change into a
+Dragon
+,
+granting you new powers and extra
+health
+.
+(See also:
+HELP LEVEL LIST
+, HELP CIRCLES)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

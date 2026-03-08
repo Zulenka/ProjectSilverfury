@@ -1,0 +1,242 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.25 The Dynamic Achaean MAP
+(See also
+HELP WILDERNESS
+, HELP SPECIAL MAPS,
+HELP
+SHIP
+MAPS
+)
+For
+Web
+-Based Maps
+------------------
+See https://www.
+achaea
+.com/achaea_maps/
+The
+MAP
+of Achaea
+-----------------
+With the MAP
+command
+you can see your current locale in a glance - your
+location plus neighbouring locations as well, with some hints of how they are
+connected and what
+might
+be in some locations (such as a
+shop
+or
+news
+room).
+How to See the Map
+------------------
+Try:
+MAP
+If you're in a place that has been mapped, you'll see the location you're in
+and, depending on your MAP RADIUS, maybe some nearby locations as well. You may
+increase your radius as high as five. Try:
+MAP RADIUS
+5
+You can put any value 1-5. 1 isn't much of a map! Smaller numbers are faster,
+so that's a consideration, especially for some slower
+clients
+.
+To turn on the map permanently, you may
+CONFIG
+MAPSHOW ON.
+What Do All the Symbols Mean?
+-----------------------------
+Most of the symbols you see should be clear. Here is a
+key
+anyhow:
++   Your position
+[ ]  A location
+[$]
+Bank
+[<]  In
+exit
+[H]
+Harbour
+[>]  Out exit
+[N]  Newsroom               [^]  Up exit
+[P]
+Post
+Office            [_]  Down exit
+[S]  Shop                   [=]  Up and Down
+exits
+[@]
+Wilderness
+Entrance    [
+x
+]
+Combination
+of the above
+Any
+other
+line out of a location, such as -, /, |, or \, is
+an exit
+going
+north, northeast, east, southeast, south, southwest,
+west, or northwest from that place.
+What are All These Colours?
+---------------------------
+Variations in colour are related to various aspects of the location or the
+environment
+of the place.
+Colour
+Description
+Environment
+1       Dark Red           *Any Private home, Mountains
+2
+Dark Green         Forest, Swamp,
+Trees
+3
+Dark Yellow/Brown  *Road, *Path, Hills, Shipboard
+4       Dark/Royal Blue    Ocean, River, Lake
+5       Dark Magenta       *Any org-owned
+building
+, Valley
+6
+Grey Blue / Teal   Path, Road
+7       Plain White        Blighted, Ruins,
+Tundra
+8       Grey               Underground,
+Sewers
+, Catacombs
+9       Bright Red         Magma Caves
+10       Bright Green       Jungle,
+Grasslands
+11       Bright Yellow      Beach,
+Desert
+,
+Garden
+12       Bright Purple      Reef
+13       Bright Magenta     Urban/
+Cities
+14       Bright Blue/Cyan   Skies
+15       Bright White       Polar
+(*
+anything
+marked with a * overrides other values, if conflicting)
+What if There's a Connection that Doesn't Seem to
+Go
+Anywhere?
+--------------------------------------------------------------
+You may be at the border between two maps, or whatever is beyond the connection
+may be
+something
+special, like a mansion inside a
+city
+. Either way, just step
+across the border to see more. It is probably a good
+idea
+to GLANCE first to
+see what you are getting into.
+What if There's No Map?
+-----------------------
+We haven't mapped
+everything
+- only about one hundred and thirty areas! That is
+probably about half of all the places that could be mapped. Most places that
+are not on the main
+continent
+of
+Sapience
+have not been mapped yet. Just about
+everything on a different
+plane
+has not been mapped yet.
+We'll get to it. It should be a fairly short
+time
+before it's all done and
+ready. Hang on!
+What if There Shouldn't Be a Map?
+---------------------------------
+We don't plan to map private homes, hidden/secret exits, or mazes. Probably a
+few more
+things
+won't be mapped either, though those would be the big ones.
+If you see such a place mapped, or some other place that probably shouldn't be
+mapped, feel free to file a
+bug
+report about it (something like BUG the room
+I'm standing in is mapped, and probably shouldn't be because it's in a maze).
+Other Details
+-------------
+The MAP command is not forceable.
+You can set MAP WIDTH and MAP HEIGHT separately, rather than RADIUS.
+Yes, you can see the MAP even when blind.
+There is no known affliction that perturbs or affects what you see on a map.
+Bad
+weather
+in an area can prevent the map from
+showing
+.
+(See also
+HELP WILDERNESS
+, HELP SPECIAL MAPS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

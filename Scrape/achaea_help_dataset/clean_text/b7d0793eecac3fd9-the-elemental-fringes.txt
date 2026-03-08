@@ -1,0 +1,219 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+12.17.19 The Elemental Fringes
+THE ELEMENTAL
+FRINGES
+At the very borders of Elemental
+dominion
+lies the Fringes, liminal spaces where primal forces collide, fracture, and reknit themselves in aberrant fusions. Here, the sovereignty of
+Kkractle
+,
+Garash
+,
+Sllshya
+, and
+Whiirh
+is unrecognized, their
+influence
+intermingling without structure or coherence, producing warped landscapes and volatile phenomena. Native elementals born of flux prowl these borderlands, their extreme aggression and unstable behavior leading the pure Elements to classify them as
+failed
+expressions
+of form.
+In the year 981AF, violent elemental upheavals ripped open several
+planar
+rifts within the Elemental
+Planes
+, revealing the Fringes to those of the Prime for the first
+time
+.
+BLISTERWASH
+CALDERA
+Where
+Fire
+and Water meet lies Blisterwash Caldera, a geothermal basin cloaked in stinging vapour and hot steam. Shallow pools of sulphuric water
+fill
+mineral-crusted depressions, displaying a variety of hues from deep reds to sickly yellows and acidic greens. Much of the ground remains dry and brittle despite the surrounding moisture, fractured from persistent cycles of heat and cooling.
+You can travel to Blisterwash Caldera through the stabilised rifts at:
+'Hot spring on the Grasp' within the Elemental
+Plane
+of Fire (v52824)
+'Irradiated by a dazzling sunbeam' within the Elemental Plane of Water (v53301)
+EMBERVEIL
+It is within Emberveil that gusts of Air fan the enduring heat of Fire, shaping a
+desert
+of scorching
+winds
+and phantasmagorical
+light
+. Mirage-laden dunes stretch outward in every
+direction
+, their shifting forms obscuring the true scale of the land. Even the skies are unsettled, with colour and cloud twisting into mountains, fortresses, and
+other
+impossible forms that
+leave
+one to wonder which are merely tricks of the desert.
+You can travel to Emberveil through the stabilised rifts at:
+'Edges of the Blight' within the Elemental Plane of Fire (v52857)
+'A sweltering cloud platform' within the Elemental Plane of Air (v65261)
+THE
+DUSTSONG
+SPIRE
+Defying the
+weight
+of Garash, the Dustsong Spire is a high
+scrubland
+where Air and Earth intermingle across ground and sky. Sparse
+shrubs
+cling to the flat, arid ground in spite of scouring winds and sudden, violent dust storms. Across the dry plains rise cragged boulders and columns of stone that float mid-air, their porous faces
+singing
+a hollow song as gusts of
+wind
+blow through them.
+You can travel to the Dustsong Spire through the stabilised rifts at:
+'Windswept expanse' within the Elemental Plane of Earth (v53813)
+'A rumbling cloud platform' within the Elemental Plane of Air (v65474)
+FENROT
+GLADE
+Where Water festers and Earth
+decays
+, Fenrot Glade sprawls as a mire of stagnant shallows and choking
+muck
+. Rotting mangroves stand along an algae-slick shore, their roots buried in
+decaying
+plant
+life and soft, sodden ground. Inland, dried mudflats stretch in cracked plates and ridges, strewn with rocks, roots, and the eroded remains of old mudslides.
+You can travel to Fenrot Glade through the stabilised rifts at:
+'Beside a small oasis' within the Elemental Plane of Earth (v53753)
+'Among pitch-black seaweed' within the Elemental Plane of Water (v53315)
+THE
+CRUST
+Forged of both Fire and Earth, the Crust rises as a jagged monument of searing stone and molten
+rage
+. Sheer cliffs of blackened rock fracture into crumbling ledges upon the volcano's mountainside, and fiery lava flows cascade downwards in slow, but relentless marches. At its
+base
+yawns a vast
+fissure
+, its depths churning with incandescent magma, casting a blistering glare into the
+smoke
+-choked
+environment
+.
+You can travel to the Crust through the stabilised rifts at:
+'Burning crater' within the Elemental Plane of Fire (v34660)
+'A parched plain' within the Elemental Plane of Earth (v53843)
+ICEFALL
+REACH
+Bound
+by the chill of Air and the frozen depths of Water, Icefall Reach endures as an immense iceberg adrift upon a ceaseless, heaving ocean. From its fractured cliffs rise jagged spires of ice, their surfaces scoured by relentless gales. Storms batter its expanse with snow and sleet, veiling the towering shards and carving new forms into the broken landscape.
+You can travel to Icefall Reach through the stabilised rifts at:
+'Wind-whipped waves' within the Elemental Plane of Water (v52665)
+'A chilly cloud platform' within the Elemental Plane of Air (v65583)
+ELEMENTAL PILLARS
+Erected and empowered by the actions of adventurers in the year 982AF, the Elemental Pillars found within the Fringes act as stabilising conduits to the pure Elemental Planes. Each area within the Fringes boasts two pillars related to that area's two base elements. For example, a swirling pillar of Sllshya and a fiery pillar of Kkractle in Blisterwash Caldera.
+These pillars can be TOUCHed to teleport you to face a paramount elemental in the heart of its domain. Be warned: these elementals are significant
+challenges
+designed to be fought in
+groups
+, and their defeat is worthy enough to be noted on one's
+honours
+.
+ELEMENTAL FLUX
+While stable enough to be trodden upon, the Elemental Fringes are still volatile landscapes left to the whim of primordial forces. Over time, each area within the Fringes will accumulate Elemental Flux, eventually surpassing a threshold and causing the area's instability to increase.
+These different states of Elemental Flux have unique effects on the area:
+Low Flux
+---
+15%
+XP
+Bonus
+Medium Flux
+---
+25% XP Bonus
+More powerful
+denizens
+are more likely to
+spawn
+.
+Spawn rates are increased.
+High Flux
+---
+50% XP Bonus
+More powerful denizens are more likely to spawn.
+Spawn rates are increased.
+A wandering, honours-
+level
+boss awakens in the area.
+*Area-specific
+weather
+phenomena
+*The effects of the weather phenomena vary between different areas in the Fringes.
+Elemental Flux rises naturally over time, though it can be hastened by slaying hybrid elementals within the area. Once an area enters a state of high flux, it will remain in that state for approximately 25
+hours
+before returning back to low flux. This cycle repeats independently for all areas within the Fringes.
+You can use see the flux
+status
+of the Elemental Fringes using the PLANARFLUX
+command
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

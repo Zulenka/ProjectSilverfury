@@ -1,0 +1,323 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.10.13 Artefact Tradein
+(see also
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS, and
+HELP
+CREDITS
+)
+Artefacts
+may be traded in, by the owning adventurer only, in return for
+Bound
+Credits only. Since these are _already_ bound credits, there is no
+lesson
+bonus
+gained by
+trading
+in artefacts.
+Artefacts are traded in at two-thirds value, based on the current price of the
+artefact
+. If it sells for 300, you'll get 200 in
+trade
+. If it sells for 400,
+you'll get 266 in trade. And so forth. There are exceptions for
+multi
+-priced
+artefacts and artefact
+level
+upgrades, detailed below.
+Many Promotional Items can also be traded in, if these do not trade in with the
+ARTEFACT
+TRADEIN
+command
+,
+PROMO
+TRADEIN may be used.
+Multi-priced Artefact Trade-ins
+-------------------------------
+One special case relates to items that have multiple prices, such as bows. In
+all such cases, the trade-in price is two-thirds of the current price, and
+taking into account whatever
+class
+or
+other
+qualifications you may have had at
+the
+time
+of purchase.
+Example: You
+buy
+a Lupine bow. The price is 1000 credits if you have the
+darkbow
+ability
+, or 1500 credits if you don't. You have the darkbow ability at
+the time of purchase, so you pay 1000 credits). You change class,
+losing
+the
+darkbow ability. In the meantime, the price goes up to 1200 / 1800 (with
+darkbow ability, without darkbow ability). Now you want to trade in your Lupine
+bow.  The trade-in value would be 800 credits (two-thirds of the current
+darkbow ability price of 1200) because we are counting you as having the same
+qualifications that you had at the time of original purchase.
+(In short: no, you can't get a cheap bow, change class, and get a refund on the
+higher value! We also won't let you pay the higher price, change class, and get
+a lousy refund on the lower value!)
+Artefact Level Upgrades
+-----------------------
+Many of our artefacts are level-based. For example, we offer three
+levels
+of
+artefact broadswords, with each level having better
+stats
+than the previous.
+You may upgrade such artefacts to higher levels at ONLY the cost of the
+credit
+price difference between the levels. For example, if you purchase a
+level 1 longsword (a Meteoric longsword) for 350 credits, and you later
+wish
+to upgrade to a level
+3
+longsword (a Logosian longsword) which costs 1600
+credits, you would only need to pay 1250 credits.
+Level upgrades can only be from one
+base
+type of artefact to another. If you
+have a level 1 rapier, you cannot upgrade in this manner to a level
+2
+broadsword, for example.
+If you have purchased the "asp" ability on an artefact
+weapon
+, if you later
+upgrade the weapon, the "asp" ability will transfer.
+To upgrade your artefacts, simply use the ARTEFACT <artefact> UPGRADE command.
+Themed Artefact Tradein
+-----------------------
+If you have a regular artefact and then acquire the same artefact but with a
+themed
+description
+from an
+event
+,
+talisman
+, or
+promotion
+, you can now tradein
+the special version while retaining the description!
+A 25 credit charge comes with merging artefacts, and all of the
+commands
+are listed under ARTEFACT <artefact> DESCRIPTION.
+ARTEFACT <artefact> DESCRIPTION LIST
+- What
+descriptions
+are available!
+ARTEFACT <artefact> DESCRIPTION
+SHOW
+<slot>
+- Show a specific description.
+ARTEFACT <artefact> DESCRIPTION MERGE INTO <other artefact>
+- Merge one artefact with another.
+- The first referenced artefact will be
+destroyed and traded in.
+ARTEFACT <artefact> DESCRIPTION SWITCH <slot>
+- Switch your artefact's description!
+When you merge an artefact, you receive the same number of credits you would if
+trading in the merged artefact normally, and that artefact will be destroyed.
+Note that you may not merge an artefact that possesses multiple artefact powers
+on it (though the artefact you're merging into may have any number), and the
+artefacts must be of the same base type. I.e. you could merge a firependant with
+another
+fire
+pendant, but not a blood pendant with a fire pendant.
+This cannot be done with ice figurines.
+Commands
+--------
+The command is ARTEFACT:
+ARTEFACT <artefact> VALUE
+ARTEFACT <artefact> UPGRADE
+ARTEFACT <artefact> ADD <ASP|SHOOTING>
+ARTEFACT <artefact> TRADEIN [CONFIRM]
+ARTEFACT
+REMOVE
+<tattoo>
+TATTOO
+[CONFIRM]
+Use ARTEFACT ... VALUE to check what the tradein value will be.
+Use ARTEFACT ... UPGRADE to upgrade a multi-level artefact.
+Use ARTEFACT ... ADD to add functionality to an artefact.
+- ASP for bladed
+weapons
+.
+- SHOOTING for artefact bows if you lack the
+skill
+.
+Use ARTEFACT ... TRADEIN to do the trade. If you CONFIRM, it's irreversible.
+Use ARTEFACT REMOVE <tattoo> TATTOO to remove permanence from a tattoo.
+The tradein value of artefact
+tattoos
+(permanent) is 66 credits.
+The result of a tradein is to give you Bound Credits. These Bound Credits
+will now appear separately on
+STAT
+, and can only be spent on
+lessons
+and
+other benefits for your
+character
+. See
+HELP CREDITS
+for details.
+Customisation
+Has No Tradein Value
+----------------------------------
+The trade-in value does not include any credit for
+customisations
+. The value or
+cost of customisations is
+lost
+when you trade in an item. This means if you get
+an item customised with a
+custom
+description, or if you get your item to reset
+to your
+inventory
+, or if you get your item set to non-
+decay
+, none of this will
+have any trade-in value.
+No Change, Refund, OR Lessons
+-----------------------------
+No change or refund is given - if you trade in an artefact, all of the
+return will be given in Bound Credits, which can only be used on your
+character. You will not be given normal Credits you can transfer to any
+other character.
+Limitations
+-----------
+Many
+things
+may not be traded in at all:
+-
+Pets
+may not be traded in.
+- Collars of
+Lupus
+may not be traded in.
+-
+Houses
+(personal dwellings) may not be traded in.
+- Room credits may not be traded in.
+- Artefact
+Beds
+(items of furniture).
+- Item customisations (non-decay, descriptions, reset) may not be traded in.
+Other exceptions may be added from time to time. Please be sure to
+ISSUE
+ME
+<your question> if you have
+questions
+.
+Requesting A Tradein
+--------------------
+To request a trade-in,
+email
+artefacts@
+achaea
+.com. Please be very clear as to
+what you want to trade in, with item numbers please, what you want in exchange,
+and what you believe your trade-ins to be worth.
+Alternatively, use the ARTEFACT commands listed above.
+If you are requesting an artefact level upgrade, please do NOT use the
+ARTEFACT TRADEIN command at this time. Email artefacts@achaea.com with all
+relevant information.
+Examples:
+---------
+Aeyr
+purchases a Meteoric longsword for 350 credits. He also decides that he'd
+like to customise the description of the sword, which he does for fifty
+credits. Later, he decides that he wants to upgrade his customised Meteoric
+longsword to a Logosian longsword. A Logosian longsword costs 1600 credits.
+The cost for this level upgrade is 1250 credits. Note that the cost of the
+customisation was not factored in to this transaction. Customisations may not
+be traded in, and do not affect trade-in value.
+Now Aeyr has used his Logosian longsword for some time and decides he really
+wants to trade in the longsword and purchase a Hammer of
+Forging
+. Aeyr gets
+two-thirds value for his trade-in. The Logosian longsword still costs 1600,
+so the trade-in is 1066 credits. A Hammer of Forging costs 400 credits, which
+means that Aeyr now has 666 credits left over. Aeyr is using the new ARTEFACT
+xxx TRADEIN
+system
+, so those 666 credits remain as Bound Credits, to be used
+at any future time for the purchase of more artefacts, converting to lessons,
+or other purchases for that character.
+In neither case may Aeyr purchase a new item on behalf of any other adventurer.
+The new Logosian longsword and the new Hammer of Forging must both be owned by
+him.
+See another example at Multi-priced Artefact Trade-ins (near the top).
+(see also
+HELP ARTEFACTS
+, HELP ARTEFACT TRANSFERS, and HELP CREDITS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

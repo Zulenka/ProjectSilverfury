@@ -1,0 +1,156 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+8.1.17 The SYLVAN CLASS
+(See also:
+HELP GROVES
+,
+HELP PROPAGATION
+,
+HELP WEATHERWEAVING
+,
+HELP
+8,
+HELP CLASS
+.)
+The
+Sylvan
+guild
+was founded in modern
+times
+by those
+who
+drew on knowledge from both the
+Druids
+and the
+Magi
+of
+Achaea
+. They generally hail from the forest village of
+Eleusis
+, and exhibit both a deep reverence for
+nature
+and a profound curiosity about the
+base
+workings of reality. A typical Sylvan is in love with the forests and with those beings of the forest, but beyond that, they are scholars of nature who seek to understand better how to live in
+harmony
+with it by employing the basic elements -- water, air, earth -- to help them.
+In battle, the
+power
+of a Sylvan relies upon a mixture of
+skillsets
+. In the forest, a Sylvan is mighty, and they can select a
+grove
+from which the majority of their power will flow. A Grove is a location
+devoted
+solely to a particular Sylvan or
+Druid
+, and within their Grove, a Sylvan is nigh-
+undefeatable. They may call down lightning, summon swarms of bees, call up an earth golem, order the very forest to rise against
+enemies
+, and even
+resurrect
+the dead.
+The Sylvan has also learned the subtle art of
+Propagation
+. Through careful manipulation of the
+bounty
+of Nature, the propagator may transform themselves into a Viridian -- a living being of the forest, and then further alter their physical state with various cuttings of
+plants
+and
+herbs
+, granting many
+beneficial changes. At their most adept, the Viridian can cause
+death
+with naught but a single touch, and should be feared appropriately.
+Outside of these, through
+Weatherweaving
+, a Sylvan can direct it where
+control
+is impossible. Focusing upon the elemental
+channels
+of earth, water and air, they gain in precision and power. They are rumoured to be able to unleash truly terrifying demonstrations of Nature's destructive capabilities.
+A Sylvan gains the
+skills
+of
+Groves
+and Propagation when
+joining
+as a
+fledgling
+, and receives Weatherweaving upon
+embracing
+the
+class
+.
+(See also:
+HELP GROVES
+,
+HELP PROPAGATION
+,
+HELP WEATHERWEAVING
+, HELP 8,
+HELP CLASS
+.)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

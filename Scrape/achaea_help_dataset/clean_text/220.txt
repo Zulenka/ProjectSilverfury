@@ -1,0 +1,161 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.16 Undeath
+--- This
+system
+is no longer active in
+Achaea
+---
+--- This system is no longer active in Achaea ---
+--- This system is no longer active in Achaea ---
+So you're freshly
+undead
+, and you
+might
+be
+thinking
+to yourself "What should I do?".
+Fret not, my rotting
+friends
+, for that is why you have this
+guide
+.
+1) Becoming Undead
+The Soulbleed
+Nexus
+is said by many foolish living to be a nasty
+thing
+,
+drawing
+on the deaths of mortals to
+forge
+the undead we know and love! Happen to
+die
+in the wrong circumstance and you (the player) may find yourself piloting one of the Underworld's Legion.
+You are no longer your normal
+character
+.
+2
+) Rising in the Legion
+Now that you have become a loyal undead you can defend the Underworld's
+conquest
+and
+kill
+those pesky living. You will be able to
+wield
+Undeath
+as a
+skill
+, but you may not have much access to it.
+Much like a normal
+army
+, the more living you kill the higher in the
+ranks
+you will rise. Should you be enthralled again, you may find yourself in a body of much sturdier make and much greater
+power
+.
+3
+)
+Death
+after Death
+Ah, but even the Undead are not
+immortal
+. Both your soul and your physical form will crumble when you die, happen to
+lose
+all your
+vitality
+(or "lives") and you'll return to the pathetic realm of the living. I've heard rumours of some very powerful Undeath
+skills
+that will even cost you lives, and some methods to restore them should you desire.
+4) Supplies
+If you are bereft of
+curatives
+, use the PRAY TO THE DEMISE
+command
+to restock!
+In a more serious tone, the plague of Undeath comes with a few rules and restrictions that players should be aware of as this
+event
+unfolds.
+* Functionally, the Undead and regular characters are separate. You cannot punish or seek out retribution on a main character for the actions of an Undead. Undead, don't out yourselves if you can avoid it! You'll have so much more fun.
+* If you are Undead, you are free to be attacked and slain by any of the living. You can
+attack
+anyone within
+Underworld
+conquered
+territory
+as well as any
+Dauntless
+,
+Marks
+, and
+infamous
+folks.
+* Transferring items between an Undead and a living character is not allowed. You should not be able to do this anyway, but if you find some way around it please file a
+BUG
+and restrain from doing it. Abuse will lead to administrative punishment.
+* You will not be able to access your former self while you are an Undead so be aware that if you
+QQ
+you will still be Undead when you return.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

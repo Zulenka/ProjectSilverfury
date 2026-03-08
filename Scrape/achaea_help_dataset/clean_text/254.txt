@@ -1,0 +1,154 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.21 NAMES
+(For giving a
+name
+to a loyal animal or
+other
+creature, see
+HELP
+NAME)
+Why We Care About
+Names
+------------------
+Mostly, we don't. But, some names are either offensive, don't fit in the
+environment
+, or don't really sound like names. These, we try to keep out of our
+world
+for the sake of maintaining the fantasy feel of it.
+Unacceptable Names
+------------------
+- Overly silly names (Bunnyknickers, Eepeepeep).
+- Offensive or obscene names.
+- Any 'sensitive' names from modern religions (Jesus, Mohammed)
+- Names that don't sound like names due to being unpronounceable or including
+articles like "the" or "an". (Thegreatone, Xkillerx, Llpptriii,
+Ahumblecat....though Humblecat itself would be fine)
+- Names that don't fit in a fantasy environment (Microsoft, Nuclear, Bieber)
+- Very
+famous
+names from other fantasy worlds (Gandalf, Lestat, Zelda)
+- Very famous names of real-life people, current or historical (Lincoln,
+Einstein)
+- Names that contain or are a common
+title
+or honorific. (Kingbob, Mrpeepers)
+If You Decide To Change
+-----------------------
+The
+command
+is
+NAMECHANGE
+<newname>, for example
+NAMECHANGE idranuliar
+For a bit more detail, see
+HELP NAMECHANGE
+. No, you can't really use
+'Idranuliar' - it's just an example!
+What About
+Houses
+and
+Cities
+?
+-----------------------------
+Houses and cities are generally free from
+immortal
+oversight or intervention.
+On the subject of names, their
+policies
+may be no more restrictive than these.
+Exceptions
+----------
+Some names came from long, long ago, before we had such rules. They will remain
+due to their long
+history
+. Please don't harass Dragonknight about his name,
+he's very sensitive.
+I'm An Established Player And I HATE <newbie's> Name!
+-----------------------------------------------
+Do NOT
+prompt
+new players to
+read
+HELP NAMES
+or to NAMECHANGE. This is the internet, silly names are an expected part of new players.
+Guides
+flag unsuitable names and these then
+go
+into an automated
+system
+designed to change names and best retain new players.
+DO NOT
+ISSUE
+A NEW PLAYER ABOUT THEIR NAME.
+DO NOT ISSUE A NEW PLAYER ABOUT THEIR NAME.
+DO NOT ISSUE A NEW PLAYER ABOUT THEIR NAME.
+DO NOT ISSUE A NEW PLAYER ABOUT THEIR NAME.
+If a new player's name is clearly beyond the pale and offensive (see HELP
+LANGUAGE
+POLICIES) use ISSUE
+ME
+<your issue> to report it.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

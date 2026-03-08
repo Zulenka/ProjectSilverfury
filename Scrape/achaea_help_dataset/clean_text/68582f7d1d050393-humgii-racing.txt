@@ -1,0 +1,144 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.4.9 Humgii Racing
+Racing
+humgii
+is an old and honorable sport. In it, jockeys, typically of the
+Pixie
+,
+Imp
+, or
+Pygmy
+races
+,
+ride
+humgii for one and a half laps around a track. Odds are presented beforehand, allowing players to
+bet
+Tickets on a humgii and reap a reward in
+credits
+.
+Tickets are gotten by purchasing credits when the relevant
+credit
+promotion
+is
+running
+- you will receive one racing ticket for every 10 credits you
+buy
+.
+In humgii racing, you can bet on a particular humgii/jockey to either
+Win
+, Place, or
+Show
+.
+Win   = 1st place.
+Place = 1st OR 2nd place.
+Show  = 1st OR 2nd OR 3rd place.
+So, the payoff for a Place on a particular humgii will always be lower than for a Win, since a Place is inherently more likely. Similarly, a Show will payout less than a Place or Win would.
+The premiere humgii
+racetrack
+- Sugardown Fields - is located behind (south of) the New
+Thera
+casino entrance. Once there, you may:
+RACETRACK LIST
+- For 1
+minute
+after the last
+race
+, this will show the results of the last race. For the next
+5
+minutes
+, it will show the racers and odds for the next race. It will also show you Points and J Points (Jockey Points). This is a cumulative total of how that humgii and that jockey have done over
+time
+.
+3
+points are given for a win,
+2
+for 2nd place, and 1 for 3rd place.
+The odds shown reflect a single ticket bet. Double them for two tickets, triple for three tickets, and so on.
+Races are
+run
+every ten minutes.
+RACETRACK VIEW
+- While a race is being run, this will show you the field of racers.
+RACETRACK TICKETS
+-
+Shows
+you how many tickets you have. CREDIT REPORT will also show the same.
+RACETRACK BET <x> TICKETS ON <humgii> TO <WIN/PLACE/SHOW>
+- This will let you place a bet on a humgii for the next race.
+Bets
+are only taken 4 minutes prior to the next race. Each ticket is effectively worth 3 credits as a bet, and if you win, you will be paid out in credits.
+RACETRACK BETS
+- Will show you what outstanding bets you have.
+For the
+Griesly
+Manor
+Brawlers
+, please see
+HELP
+MAYAWEEN
+!
+Good luck!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

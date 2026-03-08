@@ -1,0 +1,118 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+5.20.1 Losing Infamy
+It takes
+time
+for
+infamy
+to be
+lost
+, though it does happen. Even the
+'near-permanent infamous' can, over time, eventually
+lose
+their infamy and
+become model
+citizens
+.
+How long does this take?  That depends. In the chart below, approximations are
+given. Please note that this represents solid presence in the realms, not just
+the passage of
+calendar
+time. You see? 'Near-permanent' is a fairly accurate
+description
+, isn't it?
+If you are                      It will take about this long *actively*
+one of these:                   in the realms to lose your Infamy
+------------------------        ---------------------------------------
+near-permanent
+Infamous
+about 10
+Achaean
+months
+staggeringly Infamous           about 8    Achaean months
+entrenched Infamous             about
+6
+Achaean months
+inveterately Infamous           about 4    Achaean months
+solidly Infamous                about
+3
+Achaean months
+Infamous                        about 4    Achaean
+days
+rapidly approaching             about
+2
+Achaean days
+Infamy is reduced at a rate about one tenth of the above if you are
+not actively in the realms. In
+other
+words, it takes about ten
+times
+as long as what is listed above.
+Infamy will also
+decay
+at a slower rate while you are logged in, if you are within a protected
+city
+.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,132 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+15.18 Esteem
+The
+Esteem
+system
+allows you to offer praise for
+other
+players'
+roleplay
+or to simply share a positive comment or good vibe to let someone know you're having fun without breaking
+character
+to do so.
+The
+feedback
+from esteem is considered fully
+OOC
+and should have no
+bearing
+upon your character's actions.
+Esteem works like so:
+- ESTEEM
+-
+Shows
+you how many more
+times
+you can express esteem for someone today.
+- This defaults to
+3
+,
+5
+for leaders.
+- EXPRESS ESTEEM FOR <person> <reason>
+- EXPRESS ESTEEM FOR
+GARDEN
+<reason>
+- ANONEXPRESS ESTEEM FOR <person> <reason>
+- Express esteem for someone,
+- ANONEXPRESS makes this anonymous but cannot be used for the Garden/a God.
+- Note: reasons are mandatory, will be perpetually visible, and must be between 20 and 255 characters.
+-
+Esteeming
+the Garden or a God will not consume an esteem charge.
+- It is not possible to esteem someone you are
+ignoring
+, or
+who
+is ignoring you, on your own
+alts
+, or on someone with esteem toggled off.
+ESTEEM <ON|OFF>
+- Toggle the system on or off - this enables or disables both sending AND receiving, and has a 1
+hour
+cooldown.
+ESTEEM RECEIVED
+- View all the
+esteems
+you've received.
+ESTEEM SENT
+- View all the esteems you've sent.
+Note: This system is intended to foster positive feedback and encouragement between players and also provide a vehicle for positive feedback towards the team without the need to file
+issues
+or send awkward OOC
+messages
+to
+Gods
+in order to do so. It is not a venue for negative commentary or insults, and the administration will
+look
+very poorly on anyone attempting to use it for these.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,158 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+3 COMMUNICATION
+3.1   Communicating
+The importance of
+communication
+in
+Achaea
+.
+3.2   Say
+Saying
+things
+.
+3.2.1 Expressiveness
+Saying things with even more
+style
+.
+3.3   Tells
+Telling
+something
+to a specific adventurer.
+3.4   Shout
+Shouting
+something to the whole land.
+3.5   News
+Achaea's
+news
+system
+.
+3.5.1 Readnext
+A quicker way.
+3.6   Emoting
+Acting out things.
+3.7   Channels
+Communicating
+with
+defined
+groups
+of people.
+3.7.1 Channel How To
+Looked
+at in reverse
+3.7.2 Market Channel
+The good, the bad, the caveat!
+3.7.3 Hall Monitors
+What they are, what not to do.
+3.7.4 MetaMonitors
+The bane of
+halls
+, and alls!
+3.7.5 History
+Channel
+History
+3.8   Emotions
+Pre-defined
+emotions
+and how to use them.
+3.9   Readables
+Books
+,
+journals
+,
+manuscripts
+and
+letters
+.
+3.10  Signs
+Reading
+signs
+posted about the land.
+3.11  Messaging
+Sending private
+messages
+to
+other
+adventurers.
+3.12  Mail
+The
+city
+-state's
+postal
+system.
+3.13  Projects
+Organising
+projects
+within organisations.
+3.14  Advertisements
+Informing people of things you'd like to
+buy
+/
+sell
+.
+3.15  Ignore
+Ignore
+a particularly annoying person.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

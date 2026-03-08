@@ -1,0 +1,239 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+7.19 Heraldry Reference
+Achaean
+Heraldry
+- the
+practice
+of adorning
+things
+with a recognised
+pattern
+associated with an adventurer,
+Divine
+, or organisation (
+City
+,
+House
+, Order, or
+Clan
+). The practice is much the same as found across the known
+planes
+, but not
+entirely so.
+The owner of a
+design
+is called the Armiger. The designer is called the
+Herald
+,
+commissioned to research, design, propose and
+register
+heraldic
+arms, and to
+emblazon them on things.
+We'll cover (1) Heraldry
+Commands
+for You, (
+2
+) How Heraldry Happens, (
+3
+) the
+Elements of Heraldic Design, (4) Decisions to Make in Design, (
+5
+) What Does it
+Look
+Like, (
+6
+) How to Become an Herald, and (7) What
+might
+go
+wrong?
+(1) Heraldry Commands for You
+-----------------------------
+HERALDRY SEAL <letter> WITH <signet> [<colour>]
+- seal a
+letter
+with signet
+ring
+, wax, and
+tinderbox
+.
+- use <colour> only with an
+artefact
+Taper
+of Eternity, in which case the
+colour may be (colours marked with * are available as normal candles):
+1 darkred | maroon
+*  2 green
+*  3
+gold
+4 darkblue
+*  5 purple
+6 teal
+*  7 lightgrey | white
+8 slate
+*  9 red
+10 brightgreen | chartreuse
+* 11 yellow
+* 12 blue
+* 13 magenta | pink
+14 cyan
+* 15 silver
+HERALDRYWHO          - see personal bearers of arms (not organisations).
+HERALDRYWHO MODERN   - see personal bearers of arms rendered into Common
+Achaean!
+HERALDRYWHO O        - see organisational bearers of arms (not persons).
+HERALDRY CHARGE LIST   - a list of available ordinaries and
+charges
+.
+(2) How Does It Happen?
+-----------------------
+Approach an Herald.
+Describe
+your desires. The Herald works with you in a
+selection
+of divisions, lines, tinctures, ordinaries, and charges to create an
+unique set of arms. The Herald registers the arms in the
+name
+of the Armiger
+and then places the design (emblazons the arms) on items as requested by the
+Armiger.
+(3) What are the Elements in an Heraldic Design of Arms?
+--------------------------------------------------------
+All arms are designed to fit upon the front surface of a
+shield
+, also known as
+the field, and are always shown in the shape of a shield.
+DIVISION - the field may be undivided, or divided into two or more parts.
+LINE     - the lines of division may be straight, waved, angled, etc.
+TINCTURE - the colour(s) on the field. Each divided part of the field
+will have a tincture, which may be a metal, colour, or fur.
+ORDINARY - a geometric shape, usually a thick bar across the field. The
+ordinary also has its own tincture and line.
+CHARGE   - the charge is almost
+anything
+else that might lie on the field:
+animals,
+fish
+, birds, and
+weapons
+being most common. The charge
+has its own tincture, but no line. Over four thousand
+distinct charges are now available.
+(4) Decisions in Designing Arms
+-------------------------------
+Decide on some tinctures. The Herald will know which are available, and how to
+name them in proper Heraldic fashion.
+Decide on a division - divided in two, four, or more, by vertical or diagonal
+lines, or not divided at all, and whether the lines will be straight or
+something
+else.
+Decide on an ordinary, if any, along with its tincture.
+Decide on a charge, if any, and on how many of it you'd like, along with the
+charge's tincture. Example: you might want three
+eagles
+with wings extended,
+coloured gold.
+Decide if you want the charge(s) to be ON your ordinary, or not.
+That's about it! The Herald will work some magic and present you with a
+fully-realised "coat of arms" - your own symbol forever.
+(5) Blazon: what does a coat of arms look like?
+-----------------------------------------------
+The heraldic arms of Somebody: Purpure, a bend wavy Vert between three moons
+crescent in bend Tenne.
+This slightly more complex blazon signifies three orange-coloured crescent
+moons set on a wavy diagonal green bar on an undivided purple field.
+(6) How to Become an Herald
+---------------------------
+Find the Herald's Commission office and there purchase a Commission of
+Heraldry, at no small cost to you. As of this
+writing
+, the price of
+commissioning is 200,000 gold
+sovereigns
+.
+Once you have become a commissioned Herald, we suggest that you seek out The
+Achaean Heraldry Association, clan
+alias
+TAHA.
+*NOTE: Some argue that proper usage is "a Herald." The Achaean College of
+Heralds
+does not accept this usage, preferring "an Herald."
+(7) What might go wrong?
+------------------------
+Heraldic design is by
+nature
+somewhat artistic and subjective. Because of this,
+some heraldic
+designs
+that are _possible_ are by no means _desirable_. Indeed,
+some designs are possible but are forbidden by heraldic rules.
+Because of this, it is possible that your
+registration
+may be rejected or
+deleted without refund.
+Please be especially careful to select an experienced Herald and take heed if
+warned that your design could be a problem. It probably will be!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

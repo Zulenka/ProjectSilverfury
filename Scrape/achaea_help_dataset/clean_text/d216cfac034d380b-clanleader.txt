@@ -1,0 +1,373 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+21.3 CLAN LEADERSHIP COMMANDS
+Commands
+for the
+Clan
+Head
+--------------------------
+CLAN
+HISTORY
+ADD [CONFIRM]
+- With 500,000
+gold
+in hand a clan leader can purchase history for the
+currently selected clan in their CLAN LIST.
+CLAN APPOINT <clanmember> TO <position
+name
+, or position #>
+- Appoints a clan
+member
+to a position. There can be multiple people
+per position.
+CLAN CREATE POSITION <name of position>
+- Creates a new position in a clan. Position
+names
+can be up to 30
+characters long and be multiple words.
+CLAN DESTROY POSITION <name of position, or number of position>
+- Destroys a position in a clan. By number we mean that each position will
+be numbered 1-10. It may be easier to refer to the positions by number.
+CLAN DISMISS <clan member> FROM <position>
+- Dismisses a clan member from a position.
+CLAN DISSOLVE
+- Destroys a clan.
+CLAN EDIT SUMMARY
+- Each clan can have a public summary
+scroll
+about the clan.
+CLAN EXEMPT <clan member> <x> YEARS
+or
+CLAN EXEMPT <clan member> PERMANENTLY
+- Exempts a clan member from dues for
+X
+years, or forever.
+(note that by year we mean
+Achaean
+year)
+CLAN FORGIVE <clan member>
+- Forgives a clan member of clan dues, once.
+CLAN FORGIVE ALL
+- Forgives a clan member (or all members) of clan dues, once.
+CLAN
+HOUSES
+- Lists the
+House
+IDS for any clan
+housing
+owned by the clan.
+CLAN
+INVEST
+<position # or name> WITH <
+power
+name>
+- Invests a clan position with a power.
+- Can use ALL in place of position to
+apply
+to all positions.
+- Powers able to be invested are: (you'll find more on these commands
+in the next section)
+APPOINT,
+BANKACCOUNTS
+,
+DESIGNS
+,       DISCHARGE,
+ENEMIES
+,
+ENEMY
+,          EXEC_SUMMARY,  FLEETCOMMAND,
+HELPEDIT,  INDUCT,
+LOG
+,           OWED,
+PROBATION
+,
+READNEWS
+,       SEESECRET,
+WITHDRAW
+,
+WRITELOG,  WRITENEWS
+CLAN
+LOGGING
+OPEN/CLOSE
+- Toggles the
+status
+of clan logging. If it's open, any clan member can
+read
+the log. If it's closed, only the clan head and position holders in
+positions with the log power invested may read the log.
+CLAN NEW_HEAD <clan member>
+- Replace yourself as clan head.
+CLAN
+RENAME
+POSITION <position number> <new name of position>
+- Changes the name of an existing position in a clan. By number we
+mean that each position will be numbered 1-10.
+CLAN STRIP <power> FROM <position # or name>
+- Can strip the same powers as you can invest.
+- Can also use ALL to strip from all positions.
+CLAN SET
+--------
+CLAN SET
+ALIAS
+alias
+- Allows you to change the alias of the clan at will.
+CLAN SET
+BANK
+HERE|NONE
+- Used with HERE, it declares your present location as being your clan's
+official bank. All paid dues will be directly deposited to this bank. You
+need to be standing in a bank for this
+command
+to work. With NONE, it
+declares that your clan does not have an official bank
+anymore
+. All paid
+dues will be directly deposited in your
+inventory
+.
+CLAN SET DEMOCRATIC ON
+- This will *permanently* set the clan to be democratic. The head of the
+clan will be determined by a
+vote
+. A member can contest the current
+head by CONTEST <person> AS HEAD OF <clan>. A democratic clan can
+never be set to org_owned.
+CLAN SET DEFAULT POSITION
+- This will allow the clan head to set a default position that people will
+be assigned to when they are inducted into the clan. If ANY clan position
+is destroyed this setting will be cleared and need to be set again.
+CLAN SET DUES amount
+- Sets clan dues per year per member.
+CLAN SET
+FAMILY
+<name>
+- Sets the clan as a family clan
+- Costs 500,000 gold
+sovereigns
+.
+- PERMANENT, CANNOT BE REVERSED.
+** NOTE ** See
+HELP CLANS
+for more information on this.
+CLAN SET HEAD_NAME clanhead_position_name
+- Sets the name of the head position in the clan.
+CLAN SET NAME name
+- Allows you to change the name of the clan at will.
+CLAN SET OMITFROMHONOURS ON/OFF
+- Sets a clan to be hidden from clan member's
+honours
+list.
+CLAN SET ORG_OWNED org name
+- PERMANENT, CANNOT BE REVERSED. Allows you to set a
+city
+, House,
+Divine
+,
+or Order as the true 'owner' of the clan. This means that the
+organisation's leader can set a new head for the clan at any
+time
+. An
+org_owned clan cannot be set democratic, and vice versa. You can only
+set this ONCE; you cannot change the owning org after setting it, nor
+can you revert it.
+CLAN SET PRIVATE ON/OFF
+- Toggles the private flag on or off. A private clan is one that is not
+listed in HELP CLANLIST.
+- With private on
+CLANHELP
+<clan name> will not
+show
+members in positions.
+- All "OOC"
+clans
+are required to be set as private.
+CLAN SET PROGENITOR <person>
+- For family clans.
+Configure
+up to two progenitors for your family line.
+Once set, this can not be changed. Progenitors either have to:
+* Be in the clan.
+* Have the house surname in their
+title
+.
+CLAN SET SECRET ON/OFF
+- Toggles the secret flag on or off. A secret clan is one in which the
+membership
+cannot see each
+other
+(except for the clan head) and in which
+clan
+news
+posts
+and clantells are anonymous.
+CLAN SET
+SUFFIX
+<suffix>
+- For family clans, this will set the suffix/surname of the family. Clan
+members can use FAMILY TITLE to replace their existing suffix with the
+family name.
+WRITELOG <clan alias> <text to put in the log>
+- Writes any text you want into the clan log.
+Investable powers
+-----------------
+Clan heads have all of these commands. Any position within the clan may be
+invested with any of these commands with the CLAN INVEST command.
+CLAN APPOINT <clanmember> TO <position name, or position #>
+- Appoints a clan member to a position. There can be multiple people
+per position.
+- Those with the appoint power will not be able to appoint to any
+position that also has the appoint power.
+CLAN BANKACCOUNTS
+- List the clan's bank accounts.
+DESIGNS
+- Allows the use of clan owned designs on
+NDS
+.
+CLAN DISCHARGE <adventurer> <optional reason>
+- Kicks someone out of your clan. You cannot kick out the clan head.
+CLAN DISMISS <clan member> FROM <position>
+- Dismiss people from a clan position.
+- Similar to appoint you can not dismiss from a position that also has
+the dismiss power.
+CLAN ENEMIES
+- See a current list of clan enemies.
+CLAN ENEMY/UNENEMY <person> <reason>
+- Declare someone an enemy or
+remove
+an enemy status.
+CLAN EXEC_SUMMARY
+- See an executive summary of your clan.
+CLAN FORGIVE
+- Forgives a clan member of clan dues.
+HELPEDIT
+- Edit the
+CLHELP
+files.
+CLAN INDUCT <adventurer>
+- Asks an adventurer if he wants to
+join
+your clan. The adventurer must
+type AGREE after being asked.
+CLAN OWED
+- See a list of what clan members owe, and how much each owes.
+CLAN PROBATION <adventurer> ON/OFF
+- Turn clan probation on or off on a member.
+- Clan probation means no
+reading
+of news and no clan
+channel
+.
+- You may not use this command on members
+holding
+clan position unless you
+are the clan leader.
+FLEETCOMMAND
+-
+Control
+ships' settings,
+crew
+, captains, etc via ASSUME COMMAND, and
+SHIP
+APPOINT <person> CAPTAIN.
+READLOG <clan alias> <starting
+point
+in log> <
+days
+back>
+- Works just like the readlog commands for
+cities
+and houses. The last
+two fields are optional.
+- If the clan head has made logging open, then anyone in the clan may
+access this command.
+- For the purpose of investing use CLAN INVEST <position> WITH LOG.
+READNEWS
+- Works to allow members of the clan to read the newsboards.
+- By default invested to all members.
+SEESECRET
+- Those positions invested with this power will be able to see
+who
+everyone
+is within a clan that is set to being secret.
+WITHDRAW <amount> <clan alias> <reason optional>
+- Withdraws <amount> gold from the clan bank account at that bank.
+WRITELOG <clan alias> <what you
+wish
+to write in the log>
+- Works just like the writelog commands for cities and houses.
+WRITENEWS
+- Works to allow members of a clan to write to the newsboards.
+- By default invested to all members.
+- CLAN STRIP WRITENEWS FROM ALL
+Commands for the High Clan Leader
+---------------------------------
+CLAN RELATIONS
+- View your clan's organisational relations.
+PREFIX
+<clan member> <prefix>
+- Bestow a title upon a clan member before their name.
+SUFFIX <clan member> <suffix>
+- Bestow a title upon a clan member after their name.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

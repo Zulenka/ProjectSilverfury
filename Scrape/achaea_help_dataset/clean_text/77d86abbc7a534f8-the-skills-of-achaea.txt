@@ -1,0 +1,180 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9 THE SKILLS OF ACHAEA
+9.1    Venom
+9.2    Hypnosis
+9.3    Necromancy
+9.4    Telepathy
+9.5    Tarot
+9.6    Kaido
+9.7    Groves
+9.8    Subterfuge
+9.9    Vision
+9.10   Devotion
+9.11   Tekura
+9.12   Metamorphosis
+9.13   Avoidance
+9.14   Constitution
+9.15   Thermology
+9.16   Frost
+9.17   Riding
+9.18   Fitness
+9.19   Galvanism
+9.20   Philosophy
+9.21   Domination
+9.22   Concoctions
+9.23   Zeal
+9.24   Chivalry
+9.25   Spirituality
+9.26   Tattoos
+9.26.1 Tattoo Body Parts
+9.27   Survival
+9.28   Weaponry
+9.29   Forging
+9.31   Elementalism
+9.32   Crystalism
+9.33   Woodlore
+9.34   Vodun
+9.35   Curses
+9.36   Runelore
+9.36.1 Runelist
+9.36.2 Totems
+: ownership and
+empowering
+9.37   Crafting
+9.37.1 Design
+9.37.2 Crafting Punctuation
+9.37.3 Crafting Guidelines
+9.37.4 Tailoring
+9.37.4.1 Tailoring Design
+9.37.5 Jewellery
+9.37.5.1 Jewellery Design
+9.37.6 Cooking
+9.37.6.1 Cooking Design
+9.37.7 Furnishing
+9.37.7.1 Furnishing Design
+9.37.8 Design Sharing and Passcodes
+9.37.9 Artistry
+9.37.9.1 Artistry Design
+9.37.10 Beverages
+9.37.10.1 Beverage Design
+9.37.10.2 Vessel Design
+9.37.11 Design Handlers
+9.38   Puppetry
+9.39   Pranks
+9.40   Occultism
+9.41   Evileye
+9.42   Apostasy
+9.43   Antidotes
+9.44   Bladedance
+9.45   Sagas
+9.45.1 Woe
+9.46   Composition
+9.47   Seafaring
+9.47.1 Marque
+9.47.2 Specialists
+9.48   Dragoncraft
+9.49   Striking
+9.50   Shindo
+9.51   TwoArts
+9.52   Inkmilling
+9.53   Gathering
+9.54   Alchemy
+9.55   Physiology
+9.60   Spiritlore
+9.61   Tradeskills
+9.62   Augmentation
+9.63   Conjuration
+9.64   Harvesting
+9.65   Remedies
+9.66   Synthesis
+9.67   Toxicology
+9.68   Weaponmastery
+9.69   Formulation
+9.70   Artificing
+9.71   Skirmishing
+9.72   Reclamation
+9.73   Propagation
+9.74   Weatherweaving
+9.75   Battlerage
+9.76   Shipfitting
+9.77   Aeonics
+9.78   Shadowmancy
+9.79   Terminus
+9.80   Shikudo
+9.81   Weaving
+9.82   Emulation
+9.83   Psionics
+9.84   Sublimation
+9.85   Oppression
+9.86   Memorium
+9.87   Pestilence
+9.88   Charnel
+9.89   Excision
+9.90   Valour
+9.91   Anathema
+9.92   Dominion
+9.93   Malignity
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

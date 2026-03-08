@@ -1,0 +1,136 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+9.17 RIDING
+(See also:
+HELP
+DENIZENS
+)
+Riding
+is the noble art of mounting and controlling
+steeds
+. Beginning with the lowly mule, you will
+learn
+to
+ride
+increasingly powerful
+classes
+of
+mounts
+, ranging up to legendary steeds such as giant
+eagles
+. Further, as your riding
+skill
+increases, you will learn to handle your
+mount
+in new ways, from ramming opponents with it to using your mount to help avoid blows in
+combat
+to cracking the limbs of a fallen opponent by trampling on him.
+If you're
+looking
+to purchase a mount,
+look
+at the stables in various villages around the land, for that is where mounts are normally sold. Probing the mount before you
+buy
+it is advisable, as it will inform you of the
+level
+of riding
+ability
+required to mount it successfully. You can also purchase mounts from
+other
+adventurers
+who
+may be
+selling
+(or gifting!), and with the ability STEEDTRADE in riding (
+AB
+RIDING), they can make sure that you're the proud new owner!
+Once you've bought yourself a mount, you're
+going
+to need to keep it fed. Every mount has a feedbag on it that you can put
+food
+of any kind into. A horse may not like to
+eat
+a goose drumstick, but when it's
+hungry
+enough, it will! By probing your mount, you'll be able to see about how many
+Achaean
+months
+of food are left in its feedbag, or you will see that it is near to starving (within
+3
+Achaean months) and needs feeding right away. If you allow your mount to starve, it will
+die
+, and while you won't be torn to
+pieces
+by an angry
+mob
+of horse-lovers for that, perhaps you should be. The
+syntax
+to put most any food in a feedbag is:
+FILL
+<mount> FEEDBAG WITH <food>
+(See also:
+HELP DENIZENS
+, AB RIDING)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

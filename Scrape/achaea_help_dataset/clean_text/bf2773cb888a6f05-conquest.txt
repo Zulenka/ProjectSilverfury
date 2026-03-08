@@ -1,0 +1,313 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+10.8.3 Conquest
+Command
+Summary:
+REQUESTING A
+BEACON
+- In your
+city
+tank
+room:
+say
+I request a beacon
+BEACON RAISE -
+Holding
+the beacon, Raise a beacon in the selected location, starts a countdown
+BEACON ATTUNE -
+Channel
+to
+claim
+or
+steal
+beacon
+BEACON
+STATUS
+-
+Show
+attunement, conditions and beacon location (see the end of this
+help
+file for conditions and more information)
+BEACON FORTIFY - Make all owned
+territory
+safe for 48
+RL
+hours
+. Must be holding the beacon and in your city
+war
+room.
+CITY
+SPIRIT
+STATUS - Show beacon timers and availability
+CITY
+CONQUEST
+SCOUT <...> - Send scouts, report returns later
+CITY CONQUEST REPORT REVIEW - View scout reports in the warroom
+CITY CONQUEST REPORT RETRIEVE - Get report as a hardcopy item
+With your city's spirit summoned, you are now poised to lead them out beyond the gates and walls of their home and
+conquer
+other
+areas! During your next Eidolic Phase (see HELP EIDOLIC
+INFLUENCE
+), an
+aide
+to the Ministry of
+Defence
+or a City Leader can visit your city's "spark keeper" and request a beacon. Your city can request only one beacon every three Eidolic Phases (
+3
+OOC
+days
+approx), and these beacons
+decay
+quickly when not in use. You will then take this beacon to an area adjacent to your home city or to a location you have already conquered (geographically and pathing-adjacent).
+- Adjacent means both geographically and via pathing. If you cannot
+move
+into that area via normal
+movement
+(north/east/southwest/up/in/etc) from the area you are standing in, it is not considered adjacent.
+- This adjacent area can be unconquered, or another city-state can have conquered it in the case where you
+wish
+to
+challenge
+another's
+hold
+.
+- The area must not have conquest
+grace
+, such as that conveyed through a recent
+liberation
+.
+- Some rare areas on
+Sapience
+may be unconquerable for their own reasons!
+Use BEACON RAISE in a location that is available to be conquered to begin a 3-
+minute
+countdown, and prepare your defence.
+Once raised, the beacon will be attuned to your city, and a
+fight
+period
+of about 1.
+5
+hours will begin.
+Other
+cities
+can challenge you during this and use BEACON ATTUNE to claim your beacon for themselves. You can use BEACON ATTUNE to claim it right back if they manage it.
+This is a channelled command that must be done in the same room as the beacon.
+Periodically, the beacon's attunement will increase. Beacons gain attunement every minute after being placed, and the amount gained is 3% unless it is a beacon in an area allied to a city. In this case, beacons controlled by the allied city gain approximately
+6
+% per minute. Ie:  A New
+Thera
+beacon gains 3% per minute when beaconed by someone other than
+Ashtan
+and 6% per minute when beaconed by Ashtan.
+BEACON STATUS will give details on the current attunement and the beacon's location.
+When a beacon's attunement reaches maximum:
+- If the attunement is to the city that raised the beacon and is ready to conquer, the area will be conquered in their
+name
+.
+- If the attunement is to the city that initially held the area prior to the beacon being raised, the area remains in their
+control
+.
+- If the attunement is to another city that does not have their influence spread to the borders of this area, then the area will remain in its original state.
+- If the attunement is not to the city that raised the beacon, but is to a city that is also adjacent and poised to conquer, then one of two
+things
+will happen:
+- If the area is in the attuned city's
+doctrine
+, it will fall under their influence.
+- If it is not in the attuned city's doctrine, it will remain in its original state, but the attuned city will gain bonus spirit.
+Liberated territory remembers
+who
+it was liberated from for four of those organisations' phases after the fact. If that org takes a territory adjacent to the liberated territory in that timeframe, they will reclaim it (assuming no one else has taken it first).
+- For example, if
+Cyrene
+liberates
+Moghedu
+from
+Mhaldor
+but then Mhaldor conquers the
+Mhojave
+, they will take the Mhojave and also flip Moghedu back to them.
+When a beacon is raised, everyone in the area is at risk of
+attack
+. Those attempting to raise the beacon should be ready to defend it.
+This is not a bountyable or contractable period UNLESS the area is mutually allied to an organisation attempting to conquer; if so
+bounties
+may be filed.
+If the Eidolic Phase ends while you are attempting to conquer an area, your
+attempt
+will
+fail
+.
+Fighting
+in an area with an active beacon will not generate
+infamy
+.
+Detonating a tank in a conquest now generates hostility (a comparable amount to detonating one in a city, though slightly less overall).
+BEACON FORTIFY
+Used by the city overseer or the Defence
+minister
+in the war room, makes all territory they hold unconquerable or liberatable for the next 48 hours.
+- You must have a beacon available to use this, and it will prevent you from requesting a beacon during your subsequent 4 phases.
+- This will also prevent you from using SANCTION LIBERATION during the fortified countdown.
+The availability of your beacons and countdown to your next phase can be viewed with CITY SPIRIT STATUS.
+Scouting
+CITY CONQUEST SCOUT <all|<city1> [city2] [city...n]>
+- Scout the territory of a given organisation or multiple organisations from your city's war room.
+- The scouts will
+leave
+for around an
+hour
+with some minor fluctuation each way, so it's not entirely predictable. Upon returning, they will file a report on their findings.
+- Scouts can only be sent out by the defence minister, an aide or a city leader.
+- There is a fee of 10,000
+gold
+per organisation scouted, drawn from the defence budget.
+CITY CONQUEST REPORT REVIEW
+- Review the scout's findings.
+CITY CONQUEST REPORT RETRIEVE
+- If you want a hard copy of the report, this removes the report from the war room (so REPORT REVIEW no longer will show it) and gives you an item with all the relevant information written on it.
+- Be warned, these reports drop from you on
+death
+/
+logout
+by
+design
+, so keep your secrets safe!
+- Additionally, while sending scouts is gated by
+citizenship
+and
+rank
+, reviewing and retrieving reports can be done by any
+citizen
+, including those from other cities.
+Beacon Conditions:
+Flux: Every minute, the Eidolic beacon in this area has a chance to move to a new location.
+Khentimen's Curse: The curse of Khentimen shall make it so
+moving
+throughout an area becomes very difficult. Indeed, you may find that every step becomes quite the
+trial
+...
+Effect: A chance to be hindered at each step while moving through the area.
+Kasmarkin's Doom: There can be no
+escape
+from the doom which awaited fallen
+Kasmarkin
+, and all who stand within the influence of the beacon will find that magic travel over any kind of distance will be denied them entirely.
+Effect: No magical travel, includes (but is not limited to): wings, earrings,
+portals
+Errikale's Cunning: All that move through the influence of this beacon shall find that they are able to evade blows from multiple foes who seek to strike them at once with supreme ease. However, a lone warrior is just as deadly as ever.
+Effect: Many people on one
+target
+are much less effective than single
+combat
+.
+Purity of Mind: All that stand within the influence of the beacon will find their minds pure of unwanted thoughts entirely. So much so that telepathic
+communication
+of any kind will become impossible.
+Effect: No telepathic communication at all, including
+party
+tells
+.
+Yen-Sorte's Folly: All that are within the influence of the beacon will find themselves suffused with resistance to damage of all kinds and will be cleansed of
+afflictions
+periodically. Such
+power
+could make you feel invincible!
+Effect: Damage reduction and a chance to have afflictions removed.
+Heretical
+Rejection
+:
+Shrines
+within the influence of the beacon will be cut off from their source of power, and will convey no miracle, greater or lesser, upon believer or heretic alike.
+Effect: No
+shrine
+usage.
+Rampant Paranoia: Everyone within the influence of the beacon raised in this area shall find they cannot help but
+consider
+everyone else an
+enemy
+, regardless of affiliation.
+Effect: Everyone is considered an enemy.
+The Finality's Vigil: The
+Finality
+observes this location, and as a result no forms of
+resurrection
+, be they starburst or higher methods will avail those that perish. Further, any who fall will be immediately pulled into the
+embrace
+of death.
+Effect: Upon being killed, you will immediately embrace death.
+Peerless Grace: So graceful and fleet of foot will those who stand within the influence of the beacon be, that they will find that no forms of room hinder, passive or active, will keep them from
+leaving
+the location if they so desire.
+Effect: No room hinder
+Vakha's Struggle: Ever shifting and
+changing
+to thwart that which would lay them low, those that find themselves in the influence of this power shall soon
+learn
+a taste of what it means to confront the first to dwell in the darkest depths.
+Effect: Rotating damage resistance to certain elemental types.
+Last Updated: 12/17/2025
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

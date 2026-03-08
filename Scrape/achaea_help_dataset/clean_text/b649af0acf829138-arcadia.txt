@@ -1,0 +1,100 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+12.14.4 Arcadia
+Arcadia
+is the
+city
+of origin for the winged
+race
+of Atavians, created
+by
+Vastar
+, the
+Skylord
+. From far off, this shining city of white marble
+resembles a multifacetted
+diamond
+set upon the southern face of
+Mount
+Erymanthus
+, a floating mountain isle in the clouds. Vertically arranged
+for ease of travel for Atavians, the city is divided into five main
+tiers, with the royal palace at the centre. Above the city, at the very
+peak of Mount Erymanthus, is the Arcadian Temple of Vastar. Long thought
+lost
+forever, the way to Arcadia was only discovered again in the Modern
+Age by a company of adventurers. To
+reach
+the Isle of Erymanthus, one
+must climb to the peak of Mount Nicator in the Southern
+Vashnars
+and
+call out the
+name
+"Arcadia."
+(see also
+HELP
+ERYMANTHUS)
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

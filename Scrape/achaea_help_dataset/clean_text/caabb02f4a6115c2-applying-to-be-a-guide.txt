@@ -1,0 +1,236 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+6.16.3 Applying to be a Guide.
+Being a
+guide
+is a job in which you are paid for. It is not 'playing'
+Achaea
+. If you
+think
+it's
+going
+to be fun, you're either wrong, or you like helping
+newbies
+a lot more than most people do. Helping newbies can be very frustrating at
+times
+. As an adventurer, it
+might
+be ok to
+say
+, "
+Read
+such and such
+help
+scroll
+." but as a Guide, it is not. You will often
+wind
+up explaining the same
+things
+over and over to newbies. That is totally OK. You've got to do it cheerfully. If you don't think you can, then please don't be a Guide.
+Guide Duties
+--------------
+1.
+Assist
+newbies.
+Assist any
+newbie
+that asks for help. Always watch the newbie
+channel
+and, depending on the needs of the newbie, responding appropriately. You may answer on the NEWBIE channel, or you may
+go
+to the newbie personally, or you may answer privately via
+tells
+. Newbies might contact you directly too.
+Give newbies as much assistance as possible, and if no newbie is currently asking for any, try asking some of the younger ones if they need to know
+anything
+or could use any help (of the sort you can give).
+Try to help newbies to be as well informed as possible about _how_ to do things in Achaea. Do not give them step-by-step
+directions
+to
+quests
+, except for perhaps the ones in
+Minia
+/
+Lodi
+with regard to giving
+corpses
+to a certain
+denizen
+.
+Your primary
+goal
+is to assist newbies to understand the breadth and depth of Achaea. Much of a newbie's life may revolve around
+hunting
+denizens
+. This doesn't
+show
+off our
+world
+particularly well. So it's up to you to try to broaden that exposure. Show them more. Inspire them with the possibilities. Give them another approach. If you can succeed in this, then they'll be more likely to stick around.
+2
+. Maintain your knowledge and activity
+Maintain and update your knowledge of Achaea. Know the help
+scrolls
+. Know which ones are best for which problems. It's always good to  mention what help scroll is relevant after you've answered a newbie's
+question
+. Do NOT just refer newbies to a help scroll in response to a question.
+You must also be playing Achaea enough to maintain active eligibility for organisation
+credits
+/
+election
+voting
+. If you are not this active then you are not able to guide
+others
+to play Achaea, as you are not doing so yourself.
+What is not your duty
+---------------------
+To be a
+messenger
+between mortals and the
+gods
+. Gently direct people to use the
+ISSUE
+ME
+command
+if they need help.
+It is also not your duty to answer all
+questions
+just because a newbie asks them. Take note! Answer questions from newbies about newbie-related things. How does the
+elections
+system
+work? What are the proper
+commands
+to set up a
+library
+?
+How do I operate the Winery? These are all interesting questions for which you can give encouragement and general
+direction
+, and then stop.
+The Rules
+---------
+1) You must completely separate your Guide from your
+other
+character
+(s). This means no
+OOC
+chatting _at all_ with adventurers while you are a Guide. Do not under any circumstance
+communicate
+with other adventurers/
+friends
+while you are a Guide - If you want to
+chat
+, go back to your mortal character. This also means no becoming a Guide just to
+escape
+combat
+, or to do anything that has any real affect on your character.
+2) You must _always_ be polite and professional to adventurers while remaining in character. Even if an adventurer gets rude or abusive, you are absolutely, under no circumstances, to be rude or abusive back.
+3
+) Minimum
+service
+time
+is
+5
+hours
+per week. Use ISSUE ME if circumstances may prevent this for short
+periods
+. If you don't do enough Guide work for two weeks, your Guide
+status
+will probably be revoked. We are
+looking
+for consistent work.
+4)
+Everything
+you do will be logged. Yes, everything! You may be watched at any time as well, so if you go
+AFK
+or start getting bad-tempered, we will know about it.
+5)
+Guides
+must guide from the
+Nexus
+client
+,
+If you cannot abide by the rules here, or fear that you would get bored as a Guide, then please do not
+apply
+to become one. For most people, this isn't a fun job. If you're one of the people
+who
+enjoy helping newbies, then this is for you.
+How To Apply
+-------------
+To be eligible to become a guide your
+applying
+character must: Be over
+level
+80 and have over 300 hours played in Achaea.
+To apply, please ISSUE ME with the
+following
+information:
+- Character
+name
+- Real life name
+- Real life age
+- Times that you are usually online in
+GMT
+- A short paragraph about why you think you would make a good guide.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

@@ -1,0 +1,182 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+4.7 TITLES
+Titles
+: What are They?
+----------------------
+Titles in
+Achaea
+are up to 50 characters before and after your
+name
+. The part
+before your name is called the
+prefix
+. The part after is the
+suffix
+. This means
+you could have a 20
+character
+prefix and 30 character suffix, or any
+combination
+thereof to max of 50 characters.
+For instance: The Bakhu,
+Rider
+of the Apocalypse.
+PREFIX: The
+NAME  : Bakhu
+SUFFIX: , Rider of the Apocalypse
+How do You Get a
+Title
+?
+-----------------------
+To gain a title, someone powerful must grant it:
+house
+leader, a high-
+ranking
+member
+of your
+city
+, or a
+Divine
+Patron.
+DO NOT
+ISSUE
+ASKING FOR A TITLE!
+You may, however, politely submit an issue requesting a title be removed. This
+may or may not be done for you, depending on the title and why you have it.
+Can I Ask any God for a Title?
+------------------------------
+You can do
+anything
+you want. For those of you
+who
+wish
+a long life,
+read
+on.
+DO NOT ASK JUST ANY
+IMMORTAL
+or GOD for a TITLE!
+If you ask a God for a title or title change, be quite sure that that Immortal
+is a patron of some organisation of which you are a member! If that Immortal
+is not a patron of yours in any
+sense
+, then it's
+time
+to notify next of kin
+and set your worldly affairs in order.
+Fees
+----
+Changing
+someone's title costs 50
+gold
+per suffix or prefix changed. Everyone
+gets the first prefix and suffix free.
+You can see an adventurer's titles by typing
+HONOURS
+<adventurer>.
+Rules for titles:
+1) A title is just that, a title. It is not a sentence.
+2
+) No acronyms in titles (TGO, OJB, etc).
+3
+) Overly silly titles (our discretion) are bad.
+4) Titles that imply you are immortal, or a god, are bad
+("The Goddess of...," "The mighty
+Celani
+," etc.)
+5
+) Titles that purposely
+attempt
+to obscure your name are bad.
+("Jack Nimby, Proficy Valaria, Ralph, Silvaria" for example)
+* The only exception here is Squires who may be required to wear a title accordingly.
+6
+) Make sure that references to
+immortals
+are OK with them.
+("Danniko, Maya's minion": be VERY SURE that
+Maya
+is OK with it.)
+Good titles:
+------------
+Lancelot, the Lion-hearted.
+Druid
+Lancelot Fionuaidh.
+Freya Xanne Kaer-Leigh
+Lord Buckthorn of
+Ceylon
+Bad titles:
+-----------
+The Lancelot
+Project
+Smiling sweetly, Beth the Pouncer
+Generally, shorter is sweeter. Trying to cram all sorts of information into
+your title just makes you
+look
+silly. In any case, most of you have perfectly
+acceptable titles. It's just a few that don't, and you will likely be hearing
+from us.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

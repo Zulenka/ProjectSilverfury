@@ -1,0 +1,186 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+18.6.1 Dragon Talismans
+There are six
+talismans
+in the
+Dragon
+set, one for each colour of Dragon: Red, Green, Blue, Silver,
+Gold
+, Black.
+Completing each
+talisman
+will give you, if you are a Dragon, the
+power
+to change into a Dragon of that colour. Use
+DRAGONFORM
+<colour> to achieve this!
+Completing all six talismans in the set will make you an Elder Dragon, giving you the
+ability
+to DRAGONFORM much faster than normal
+Dragons
+, giving you a different room
+look
+message
+, and letting you choose from one of five pairs of enter/
+leave
+messages
+.
+Use TALISMAN SELECT DRAGON
+MOVEMENT
+<#> to select from the
+following
+options:
+0
+Your default movement messages for your dragon colour.
+1
+Enter:
+Light
+shines prismatically from the outstretched wings of the elder dragon Cooper,
+who
+glides in from the $dir before landing with a ground-shaking thump.
+Exit
+: Launching $him/her/faenself $dir with $his/her/faes powerful hindquarters, the elder dragon Cooper unfurls $his/her/faes enormous wings and glides effortlessly to the $dir.
+2
+Enter: Cooper glides gracefully in from the $dir on open wings, the air rippling in $his/her/faes wake.
+Exit: With a sinuous dip, Cooper wings gracefully away to the $dir, the air rippling in $his/her/faes wake.
+3
+Enter: With ominous portent, Cooper's draconic form approaches from the $dir.
+Exit: Cooper vanishes to the $Dir, the surroundings seeming to
+shift
+in $his/her/faes wake.
+4
+Enter: The immense body of Cooper, $his/her/faes iron-hard scales gleaming brightly, emerges from the $dir.
+Exit: The towering, draconic form of Cooper
+moves
+to the $dir, razor-sharp claws
+leaving
+deep gouges in $his/her/faes wake.
+5
+Enter: The earth trembles underfoot as the elder dragon Cooper enters from the $dir.
+Exit: The elder dragon Cooper leaves to the $dir, the earth trembling in $his/her/faes wake.
+Red Dragon Talisman    (TALISMAN INFO REDDRAGON)
+a Red Dragon's claw,
+level
+7
+a Red Dragon's heart, level 7
+a Red Dragon's tooth, level 7
+a Red Dragon's scale, level 7
+Red Dragon
+leather
+, level 7
+a Red Dragon
+bone
+, level 7
+a Red Dragon's
+eye
+, level 7
+a Red Dragon's belly, level 3
+Green Dragon Talisman  (TALISMAN INFO GREENDRAGON)
+a Green Dragon's claw, level 7
+a Green Dragon's heart, level 7
+a Green Dragon's tooth, level 7
+a Green Dragon's scale, level 7
+Green Dragon leather, level 7
+a Green Dragon bone, level 7
+a Green Dragon's eye, level 7
+a Green Dragon's poison sac, level 3
+Blue Dragon Talisman  (TALISMAN INFO BLUEDRAGON)
+a Blue Dragon's claw, level 7
+a Blue Dragon's heart, level 7
+a Blue Dragon's tooth, level 7
+a Blue Dragon's scale, level 7
+Blue Dragon leather, level 7
+a Blue Dragon bone, level 7
+a Blue Dragon's eye, level 7
+a Blue Dragon's lung, level 3
+Silver Dragon Talisman   (TALISMAN INFO SILVERDRAGON)
+a Silver Dragon's claw, level 7
+a Silver Dragon's heart, level 7
+a Silver Dragon's tooth, level 7
+a Silver Dragon's scale, level 7
+Silver Dragon leather, level 7
+a Silver Dragon bone, level 7
+a Silver Dragon's eye, level 7
+a Silver Dragon's larynx, level 3
+Gold Dragon Talisman   (TALISMAN INFO GOLDDRAGON)
+a Gold Dragon's claw, level 7
+a Gold Dragon's heart, level 7
+a Gold Dragon's tooth, level 7
+a Gold Dragon's scale, level 7
+Gold Dragon leather, level 7
+a Gold Dragon bone, level 7
+a Gold Dragon's eye, level 7
+a Gold Dragon's brain stem, level 3
+Black Dragon Talisman  (TALISMAN INFO BLACKDRAGON)
+a Black Dragon's claw, level 7
+a Black Dragon's heart, level 7
+a Black Dragon's tooth, level 7
+a Black Dragon's scale, level 7
+Black Dragon leather, level 7
+a Black Dragon bone, level 7
+a Black Dragon's eye, level 7
+a Black Dragon's acid sac, level 3
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

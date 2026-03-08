@@ -1,0 +1,285 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+17.4.4.1 RUNNING LOTTERIES
+LOTTERY
+PERMIT
+--------------
+The Official Lottery
+Runner
+Permits can be bought at the Lottery Office in
+Delos
+. Just bring 500,000 golden
+sovereigns
+and
+BUY
+LOTTERY PERMIT.
+LOTTERY TYPES
+-------------
+There are three different types:
+1.
+GOLD
+: These are
+lotteries
+where the prizes are in golden sovereigns.
+2
+. INCREASING: Same as gold, but the first prize increases when more tickets
+are bought.
+3
+. SPECIAL: These lotteries are there for all
+other
+prizes, for example: items
+and services.
+LOTTERY
+TARGETS
+---------------
+Lotteries can be opened for different
+groups
+or for the public. You can
+target
+a total of
+5
+organisations, including
+cities
+,
+houses
+,
+clans
+, and
+orders
+.
+The more organisations you target, the more expensive the opening costs will
+be. Obviously the profit can be higher in the end.
+LOTTERY STATES
+--------------
+A lottery can be in 5 different states:
+1. INITIALISED: The lottery is in setup mode, all
+configuration
+is done here.
+2. OPENED: All configuration is done and the lottery is opened. People can buy
+tickets now.
+3. CLOSED: Ticket sales is over.
+Time
+for the big
+drawing
+.
+4. DRAWN: At least one
+winning
+ticket is drawn.
+5. CONSOLIDATED: All prizes are drawn and the lottery runner has claimed the
+profits.
+After a lottery is consolidated, it will be deleted automatically after 175
+days
+.
+LOTTERY
+PRICING
+---------------
+The opening costs for a lottery are based on the targeted audience and the
+optional features. These fees, including the gold value of the prizes are
+charged when the lottery is opened. The gold value of the prizes is charged
+to prevent fraud by the lottery runner.
+Target type:
+- Public:          50,000 gold or
+- For each
+city
+:   25,000 gold.
+- For each
+house
+:  20,000 gold.
+- For each
+clan
+:   15,000 gold.
+- For each order:  10,000 gold.
+Optional:
+-
+Sell
+your ticket at the Delos Lottery Office: Free!
+- Get a little ticket box to sell tickets: 15,000 gold.
+You may opt to sell your tickets at both the Delos Lottery Office and
+through a ticket box. If neither option is selected, lottery tickets may
+only be purchased from the lottery runner.
+Tax:
+The Official
+Achaean
+Lottery Tax is 5 percent and shall be deducted from the
+profits of the lottery at consolidation time.
+LOTTERY
+POLICIES
+----------------
+- In case a ticket owner is no longer in the targetted
+group
+of the
+lottery, the ticket will be void. No gold will be returned!
+- In case the lottery runner will not hand out the prizes of a SPECIAL type
+lottery, we
+hold
+the right to revoke the permit without refunds. Other
+penalties
+may also
+apply
+. Where
+credits
+are involved as special prizes,
+fradulent lotteries will be treated as illegal
+credit
+scams
+.
+- Prizes and
+descriptions
+subject to all normal policies -
+OOC
+,
+language
+rules, et cetera.
+- We hold the right to change the pricing structure at any time.
+- Be careful where you drop your ticket box. If you drop it on
+organisational, private, or interest property, or any other such
+inappropriate location, it may be removed.
+LOTTERY
+COMMANDS
+----------------
+LOTTERY CREATE < [GOLD] | [INCREASING] | [SPECIAL] > <title>
+- Create a new lottery with the specified type and
+title
+.
+LOTTERY <lottery #> CANCEL
+- If you decide not to continue with a certain lottery, you can cancel it.
+Keep in mind that you cannot cancel lotteries once they are opened!
+LOTTERY <lottery #> TITLE <description>
+- Change the title.
+LOTTERY <lottery #>
+DESCRIBE
+<description>
+- Give the lottery a
+description
+.
+LOTTERY <lottery #> TARGET PUBLIC
+- Target everyone with this lottery.
+LOTTERY <lottery #> EXCLUDE ADD <org>
+- Exclude a specific organisation.
+- Exclusion to an org will overrule
+membership
+in a target org.
+LOTTERY <lottery #> TARGET ADD <org>
+- Target a specific organisation.
+- This will automatically exclude everyone except those added.
+LOTTERY <lottery #> TARGET
+REMOVE
+< [#] | [org] | ALL >
+- Remove a target or all of them with ALL.
+LOTTERY <lottery #> PRIZE ADD [ <shortname> | < # GOLD > ]
+- Add a prize.
+Shortnames
+for lotteries of the SPECIAL type and just an amount
+of gold for the other types.
+LOTTERY <lottery #> PRIZE REMOVE < [
+shortname
+] | [#] | ALL >
+- Remove a prize or all of them with ALL.
+LOTTERY <lottery #> PRIZE DESCRIBE < [shortname] | [#] > <description>
+- Give a prize a description.
+LOTTERY <lottery #> TICKET COST <price in gold>
+- Set the ticket cost. There is a minimum of 200 gold and a maximum of 10,000.
+LOTTERY <lottery #> TICKET MAX <#>
+- If you like, you can set a maximum amount of tickets per person. Set it to
+0 to remove the limit.
+LOTTERY <lottery #> PERSONAL <YES/NO>
+- If you do not want people to buy tickets for someone else, you can set this.
+LOTTERY <lottery #> SELL IN DELOS <YES/NO>
+- If you want the Lottery Office in Delos to sell your tickets, set this.
+LOTTERY <lottery #> SELL BY BOX <YES/NO>
+- If you want a little ticket box to sell your tickets, set this. You will
+receive a ticket box which you can drop at your favourite location. Once
+you have dropped it, you cannot pick it up, so choose carefully. See the
+LOTTERY POLICIES section above for more information about where you may
+drop ticket boxes.
+LOTTERY <lottery #> OPEN
+- When you are done with all the configuration, you can open the lottery for
+ticket sales.
+LOTTERY <lottery #> CLOSE [ IN # DAYS ] [
+RL
+]
+- Stop
+selling
+tickets. You can do this with an optional delay, specified in
+Achaean days by default. Append RL to use real-life days format, this will
+automatically be converted to Achaean days.
+LOTTERY <lottery #>
+DRAW
+[ [shortname] | [#] ]
+- Draw a winning ticket for the specified prize.
+LOTTERY <lottery #> CONSOLIDATE
+- When all prizes are drawn, the lottery can be consolidated. The
+balance
+will
+be made up, and the profit, minus the Achaean Lottery Tax, is claimed by the
+lottery runner.
+ADDITIONAL INFORMATION
+----------------------
+- Lotteries will automatically close and be deleted 175 Achaean days after prizes are drawn. This is in line with the time limit to
+claim
+prizes.
+- After 10 Achaean years, lotteries will automatically be closed and deleted on the next 1st of Sarapin.
+- If a closed lottery has not been drawn, all tickets will be refunded.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

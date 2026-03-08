@@ -1,0 +1,178 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+19.24.19 Wanderer Talismans
+The "Wanderer"
+talisman
+set:
+--------------------------
+Talismans
+and
+pieces
+from this set can be obtained in the
+following
+ways:
+-
+Promotions
+. This will always be announced via the relevant
+news
+when the
+pieces are currently available.
+-
+Trading
+between players (pieces only)
+The Wanderer set contains the following talismans:
+------------------------------------------------
+A large slice of
+waybread
+- TALISMAN INFO WAYBREAD
+- Priced at 50
+credits
+- You may
+eat
+this waybread once per
+Achaean
+day
+to fully satiate yourself and
+remove
+any vestiges of tiredness.
+A globe of the aimless              - TALISMAN INFO
+AIMLESSGLOBE
+- Priced at 200 credits
+- If you
+THROW
+this globe at someone, they will suffer from poor accuracy with their bows for the next five
+minutes
+.
+- Can only be used once every 30 minutes.
+A tattered
+parchment
+- TALISMAN INFO
+TATTEREDPARCHMENT
+- Priced at 400 credits
+- CONSULT PARCHMENT <area> will
+tell
+you how many non-player loyals are currently alive in that area.
+A wanderer's
+starchart
+- TALISMAN INFO WANDERERSTARCHART
+- Priced at 600 credits
+- This starchart will increase the radius of your visible
+map
+when on
+board
+a
+ship
+.
+A Khalasian
+compass
+- TALISMAN INFO
+KHALASIANCOMPASS
+- Priced at 800 credits
+- Possessing this compass will increase your celerity when not upon the Prime Material
+Plane
+.
+A featureless sculpture             - TALISMAN INFO SCULPTURE
+- Priced at 1000 credits
+- Declare that your foe is a mistake (MISTAKE <target>), and you will begin a channeled action which, if it resolves, will slay them outright and
+leave
+a stone statue of them behind.
+- This sculpture will also change to be the last person you slew with it.
+A bloody
+knife
+- TALISMAN INFO
+BLOODYKNIFE
+- Priced at 1200 credits
+- With this knife in your
+inventory
+(not
+wielded
+), you may BETRAY <a mutual ally> and plunge it into their chest.
+- While this does deal some damage, it will also let you balancelessly farsee that person (requires but does not consume
+equilibrium
+) for the next thirty minutes.
+- You may only betray someone every ten minutes in this way.
+Some woven hand wraps               - TALISMAN INFO
+HANDWRAPS
+- Priced at 1400 credits
+- These unassuming hand wraps convey truly mighty
+power
+upon the wearer.
+- You may OVERPOWER <target> <HIGH|HIGHER|HIGHEST> and send them rocketing into the sky after a
+channel
+(longer for each grade of
+strength
+).
+- You may only overpower someone in this way every five minutes.
+Robes of the wanderer               - TALISMAN INFO
+WANDERERROBES
+- Priced at 2000 credits
+- These robes serve as robes of the
+magi
+and cut all
+mana
+usage, but also cut
+willpower
+usage to a similar degree as well.
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

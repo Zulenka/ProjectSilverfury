@@ -1,0 +1,311 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+16.8 THE COMING OF THE MORNING STAR
+On the 13th of Lupar, 208 years after the fall of the Empire, the single
+greatest catastrophe in the
+history
+of our
+world
+took place. It was an
+event
+that was to have far-
+reaching
+consequences for
+Achaea
+, and one whose effect
+lingers on even today.
+It was a
+day
+in late summer much like any
+other
+. The sun was shining brightly
+and the birds were twittering their songs of love. But there was a note of
+unrest, and perhaps the first tastes of fear in the air. For during the
+previous night, Averroes, the Prophet of
+Shallam
+, had dreamed a dream of cosmic
+destruction
+; of an event so catastrophic that it would alter the
+balance
+of
+power
+in the heavens themselves. His warnings were largely ignored, however,
+and he was mocked by some of the more foolish in the land. When the
+flash
+of
+light
+came, however, trickles of belief broke through the walls of ignorance in
+the minds of the populace.
+"We
+looked
+to the sky, and there was a star shining so brightly it could be
+seen in the full of the afternoon sunlight! Just about all I could see was the
+sun and that star, because that first flash of light nearly blinded
+me
+."
+--An unnamed
+citizen
+of
+Ashtan
+"Horribly, the beautiful star began to, well, LEAK, like it was
+going
+down some
+sort of drain. There was a lot of panic, and the
+pixies
+were
+running
+about in
+sheer terror,
+screaming
+something
+about the Morning Star."
+--
+Vellis
+, the
+butterfly
+collector of
+Minia
+Then came the second flash, and pain, and
+death
+. All the
+plant
+life on the
+planet died, and much of the animal life, when
+Aeon
+, God of
+Time
+intervened.
+Though a strange God with stranger motivations, he apparently sought to prevent
+the countless deaths that were about to occur. Stopping, and then reversing
+time, he turned
+events
+backwards. But to his
+horror
+, he found that he was
+unable to prevent events from proceeding just as they had the first time.
+This is the story of the Coming of the Morning Star.
+Far away, though not far enough, there was a sun, but not like the sun that
+illuminates
+Sapience
+and provides succour to the cold, and that is the source
+of all life. No, this sun was far larger than your own, and far more powerful.
+But the heavens have their celestial dance, and as this sun danced its slow,
+stately dance across the palette upon which I have painted, it encountered a
+bottomless pit, called Abbadon, destroyer of worlds. Not sentient, it
+nevertheless was compelled by its very
+nature
+to
+attack
+and absorb all into
+itself. Like a mindless, sightless behemoth, it lumbered and sloughed,
+consuming all within its path.
+Until it met with this sun, this shining epitome of light. Then it had met its
+match.
+Attacking
+it, it began to gorge itself as never before, but the sun was
+too much. After some of its energy had been eaten away, the sun exploded, as it
+lacked the energy to
+hold
+itself together.
+Abbadon, the pit, tried to consume this massive outpouring of energy, but
+failed
+. It had gorged itself past its limit, and it too exploded, carrying with
+it energy that was to the first explosion as an ocean is to a drop of water.
+The energy from this explosion, the
+winds
+of the
+stars
+, streaked across the
+heavens, instantly obliterating all in its path. But like all
+things
+aside from
+the
+Logos
+, this
+wind
+of the stars was finite, and its power began to dim. The
+world that Sapience is on, however, lay too close. While the world itself was
+not destroyed, the intense energy killed nearly
+everything
+alive on the
+continent
+, which happened to be the side of the planet facing the explosion
+when the star winds arrived. The forests were scourged, the
+seas
+purged of
+life, and the
+cities
+became heaped with dead
+rats
+and people.
+The sole survivors were the Mhun
+who
+live and work in the lower
+levels
+of
+Moghedu
+, including the Great Mhunna and his bodyguards. They were deep enough
+within the earth to survive, while those in
+Azdun
+, such as Lachesis, did not
+fare so well. Strangely, one mortal man, with a strange, foreign-sounding
+name
+survived. It is unknown why, but Averroes has theorised that this man was so
+pure of
+spirit
+that somehow the same protections that exist for
+Gods
+protected
+him too. This is, of course, just a theory.
+Sarapis
+, the Logos, explained:
+"To understand this event, mortals, you must first try to grasp the magnitude
+of it. This was an event of such power that one of the Elder Gods, Aeon, was
+not able to prevent it. Such a
+thing
+has not been seen since the
+days
+of the
+Chaos Wars. The unnamed sun was one of the largest and most powerful in
+existence, but even its power was dwarfed by the amount of energy contained in
+Abbadon. When the sun exploded, causing Abbadon to explode, the power was such
+that the fabric of reality was wrinkled, twisted, torn, and eventually it found
+its outlet in the creation of two new sentient beings who embody the forces
+contained in these explosions:
+Aurora
+, Goddess of Light, and
+Apollyon
+, the
+Malefactor."
+After the apocalyptic wave of deaths that followed in the wake of the star
+winds, a God not seen since the Chaos Wars appeared, apparently awakened from
+His slumber by the great energies unleashed in the explosions. He,
+Vastar
+, the
+Skylord
+, saw his realm polluted by lingering
+killing
+energy.
+Drawing
+it out of
+the atmosphere in the same way that water condenses, he drew it all into a
+shimmering ball of energy high above the continent.
+"Oh
+child
+, 'twas like nothin' these ole
+eyes
+have ever seen. I saw the hand of
+God! I did! It reached out, and it snuffed that deadly energy right out, like
+it was just slappin' a
+firefly
+."
+--A wandering
+gypsy
+woman.
+Soon after this,
+Oneiros
+, God of Peace, and an Elder God, in an effort that
+must surely have been a sacrifice even for one of his power, restored life to
+the forests, and
+grasslands
+of Achaea. The mortals were, of course, resurrected
+by Sarapis, after
+praying
+extensively to him for succour.
+What are the lasting results of this, you ask? We are, as of yet, unsure.
+Perhaps the Logos and the other
+Divinities
+have a plan, or perhaps not. We do
+not and cannot know, unless the Gods choose to
+tell
+us, or unless we are
+blessed with prophetic visions, if the remains of Abbadon and the unnamed sun
+will plague us in the future.
+Yet, this historian cannot
+help
+but feeling that though our world was blasted
+and death enveloped her as never before, it is yet a day to be celebrated. For
+today, we have experienced new communion with the
+Divine
+. Though in the future,
+there is no doubt that some of us will suffer as a result of Aurora or
+Apollyon's actions and decisions, such is our lot as mortals. We must find joy
+in the Divine, for it is only through the eyes of God that we can truly see
+ourselves. Whether our souls
+sing
+in
+harmony
+with Aurora's goodness, or
+resonate darkly with the sombre strains of Apollyon's music, we are richer for
+knowing them.
+We must also celebrate the return of one who has seen and done so much, Vastar,
+the Skylord. God of old, he was one of the first created by Ayar-now-Sarapis,
+and his return is an occasion for celebration by itself. With the new
+Divinities, and His return, we cannot help but be joyous, and forget about the
+suffering that our world sustained today. Blessed are we and glory be to the
+Dwellers of the
+Garden
+!
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes

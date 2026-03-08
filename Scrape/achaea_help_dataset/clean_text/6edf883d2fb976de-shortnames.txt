@@ -1,0 +1,123 @@
+Game Help | Achaea
+Skip to content
+Play more great MUDs from
+Iron Realms Entertainment!
+Aetolia
+Lusternia
+Menu
+Play!
+Game
+Features Overview
+City-States
+Classes
+Races
+The Gods of Achaea
+History & Mythos
+Achaea Maps
+Portal
+Game Messages
+Game News
+Game Logs
+Community
+Forums
+Using The Forums
+Join us on Discord!
+Achaea Wiki
+Latest News
+Help
+Game Help Files
+Frequently Asked Questions
+Newbie Guides
+How to Connect
+Extensions
+Support
+Credits
+Log In
+Achaea Help Files
+Achaea has hundreds of help files to you learn about Achaea. This is a copy of the in-game help file structure. HELP in-game will show you this same menu.
+Help:
+[
+Return to Help Index
+]
+2.14 Item Shortnames
+Sometimes, there's not an easy way to specify which item you're trying to manipulate, and managing item IDs can be a hassle, especially in high-pressure situations such as
+combat
+, or high-volume situations like
+shopping
+. To
+help
+combat this, and to lower the scripting burden, we've added some
+shortnames
+, or item
+identifiers
+, so that certain items can be more easily managed. Shortnames can be used in most instances where you would otherwise use an item's
+name
+or id, including probing,
+attacking
+, checking inventories, and the like.
+Shortnames are as follows:
+corpse
+/<person>
+- Person's corpse.
+head/<person>
+- Person's decapitated head.
+doll/<person>
+puppet/<person>
+- A
+vodun
+doll or
+jester
+puppet of Person.
+ench/<enchant>
+- An item with a particular
+enchantment
+.
+scroll
+/<enchant>
+-
+Scrolls
+with a particular enchantment.
+stencil/<tattoo>
+- A stencil of a particular
+tattoo
+.
+urn/<person>
+- An urn
+mount
+that belongs to Person.
+snake/<person>
+- A serpent's snake that belongs to Person.
+falcon/<person>
+- A knight's falcon that belongs to Person.
+For example, one could "
+point
+ench/firelash" to point a firelash
+ring
+, or "get corpse/Santar" to pick up Santar's corpse.
+NB: When using these identifiers in
+aliases
+, forwardslashes are used to denote multicommand aliases, so you will want to use two slashes instead of one. E.g. "setalias drophead drop head//mezghar".
+Achaea is developed and published by
+Iron Realms Entertainment.
+Privacy Policy
+Terms Of Service
+Support
+Follow us on Facebook!
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in
+settings
+.
+Accept
+Scroll To Top
+Close GDPR Cookie Settings
+Privacy Overview
+Strictly Necessary Cookies
+Privacy Overview
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+Strictly Necessary Cookies
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+Enable or Disable Cookies
+Enabled
+Disabled
+Enable All
+Save Changes
