@@ -14,6 +14,11 @@ local function bool(value)
   return not not value
 end
 
+local function offenseOnly()
+  local cfg = rwda.config and rwda.config.integration or {}
+  return cfg.offense_only ~= false
+end
+
 local function hasLegacy()
   local L = rawget(_G, "Legacy")
   if type(L) ~= "table" then
@@ -76,27 +81,29 @@ function legacy.syncFromGlobals()
   local C = L.Curing or {}
   local me = rwda.state.me
 
-  me.affs = {}
-  if type(C.Affs) == "table" then
-    for affName, active in pairs(C.Affs) do
-      if active then
-        me.affs[tostring(affName)] = { active = true, source = "legacy", at = now() }
+  if not offenseOnly() then
+    me.affs = {}
+    if type(C.Affs) == "table" then
+      for affName, active in pairs(C.Affs) do
+        if active then
+          me.affs[tostring(affName)] = { active = true, source = "legacy", at = now() }
+        end
       end
     end
-  end
 
-  me.defs = {}
-  local defsCurrent = C.Defs and C.Defs.current or nil
-  if type(defsCurrent) == "table" then
-    for defName, active in pairs(defsCurrent) do
-      if active then
-        me.defs[tostring(defName)] = { active = true, source = "legacy", at = now() }
+    me.defs = {}
+    local defsCurrent = C.Defs and C.Defs.current or nil
+    if type(defsCurrent) == "table" then
+      for defName, active in pairs(defsCurrent) do
+        if active then
+          me.defs[tostring(defName)] = { active = true, source = "legacy", at = now() }
+        end
       end
-    end
-  elseif type(C.Defs) == "table" and type(C.Defs.tracking) == "table" then
-    for defName, value in pairs(C.Defs.tracking) do
-      if tonumber(value) == 0 then
-        me.defs[tostring(defName)] = { active = true, source = "legacy_tracking", at = now() }
+    elseif type(C.Defs) == "table" and type(C.Defs.tracking) == "table" then
+      for defName, value in pairs(C.Defs.tracking) do
+        if tonumber(value) == 0 then
+          me.defs[tostring(defName)] = { active = true, source = "legacy_tracking", at = now() }
+        end
       end
     end
   end
@@ -108,12 +115,14 @@ function legacy.syncFromGlobals()
       setBalance("equilibrium", bool(bal.active))
     end
 
-    if bal.eat ~= nil then me.balances.herb = bool(bal.eat) end
-    if bal.apply ~= nil then me.balances.salve = bool(bal.apply) end
-    if bal.sip ~= nil then me.balances.sip = bool(bal.sip) end
-    if bal.focus ~= nil then me.balances.focus = bool(bal.focus) end
-    if bal.tree ~= nil then me.balances.tree = bool(bal.tree) end
-    if bal.smoke ~= nil then me.balances.smoke = bool(bal.smoke) end
+    if not offenseOnly() then
+      if bal.eat ~= nil then me.balances.herb = bool(bal.eat) end
+      if bal.apply ~= nil then me.balances.salve = bool(bal.apply) end
+      if bal.sip ~= nil then me.balances.sip = bool(bal.sip) end
+      if bal.focus ~= nil then me.balances.focus = bool(bal.focus) end
+      if bal.tree ~= nil then me.balances.tree = bool(bal.tree) end
+      if bal.smoke ~= nil then me.balances.smoke = bool(bal.smoke) end
+    end
   end
 
   if gmcp and gmcp.Char and gmcp.Char.Vitals then
@@ -131,11 +140,21 @@ function legacy.syncFromGlobals()
     end
   end
 
+  -- Primary: GMCP Char.Status.class (most reliable — changes immediately on morph/revert).
+  -- Fallback: Legacy defence tracking (only when not in offense-only mode).
+  local trackedDragonform = (not offenseOnly()) and me.defs and (me.defs.dragonform ~= nil)
   local dragon = false
-  if me.defs.dragonform then
-    dragon = true
-  elseif C.dragonforming then
-    dragon = true
+  if gmcp and gmcp.Char and gmcp.Char.Status then
+    local class = type(gmcp.Char.Status.class) == "string" and gmcp.Char.Status.class:lower() or ""
+    if class == "dragon" then
+      dragon = true
+    elseif class ~= "" then
+      dragon = false  -- any named non-dragon class means human form
+    else
+      dragon = trackedDragonform or bool(C.dragonforming)
+    end
+  else
+    dragon = trackedDragonform or bool(C.dragonforming)
   end
   me.form = dragon and "dragon" or "human"
 
@@ -183,10 +202,13 @@ function legacy.registerHandlers()
 
   legacy._handler_ids.loaded = registerAnonymousEventHandler("LegacyLoaded", "rwda.integrations.legacy.onLegacyLoaded")
   legacy._handler_ids.vitals = registerAnonymousEventHandler("gmcp.Char.Vitals", "rwda.integrations.legacy.onVitals")
-  legacy._handler_ids.aff_add = registerAnonymousEventHandler("gmcp.Char.Afflictions.Add", "rwda.integrations.legacy.onAffAdd")
-  legacy._handler_ids.aff_remove = registerAnonymousEventHandler("gmcp.Char.Afflictions.Remove", "rwda.integrations.legacy.onAffRemove")
-  legacy._handler_ids.def_add = registerAnonymousEventHandler("gmcp.Char.Defences.Add", "rwda.integrations.legacy.onDefAdd")
-  legacy._handler_ids.def_remove = registerAnonymousEventHandler("gmcp.Char.Defences.Remove", "rwda.integrations.legacy.onDefRemove")
+
+  if not offenseOnly() then
+    legacy._handler_ids.aff_add = registerAnonymousEventHandler("gmcp.Char.Afflictions.Add", "rwda.integrations.legacy.onAffAdd")
+    legacy._handler_ids.aff_remove = registerAnonymousEventHandler("gmcp.Char.Afflictions.Remove", "rwda.integrations.legacy.onAffRemove")
+    legacy._handler_ids.def_add = registerAnonymousEventHandler("gmcp.Char.Defences.Add", "rwda.integrations.legacy.onDefAdd")
+    legacy._handler_ids.def_remove = registerAnonymousEventHandler("gmcp.Char.Defences.Remove", "rwda.integrations.legacy.onDefRemove")
+  end
 
   return true
 end

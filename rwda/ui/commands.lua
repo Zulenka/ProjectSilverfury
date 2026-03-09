@@ -149,7 +149,7 @@ local function formatCurrentConfig()
   local offVenom = cfg.runewarden and cfg.runewarden.venoms and cfg.runewarden.venoms.dsl_off and cfg.runewarden.venoms.dsl_off[1] or "epteth"
 
   return string.format(
-    "cfg breath=%s dsl=%s/%s autostart_legacy=%s follow_legacy_target=%s prompttick=%s retaliation=%s retalock=%sms execute=%s executecooldown=%sms use_legacy=%s capture_unmatched=%s",
+    "cfg breath=%s dsl=%s/%s autostart_legacy=%s follow_legacy_target=%s prompttick=%s retaliation=%s retalock=%sms execute=%s executecooldown=%sms use_legacy=%s offense_only=%s capture_unmatched=%s",
     tostring(dragon.breath_type or "lightning"),
     tostring(mainVenom),
     tostring(offVenom),
@@ -161,6 +161,7 @@ local function formatCurrentConfig()
     tostring(finisher.enabled ~= false),
     tostring(finisher.cooldown_ms or 1500),
     tostring(integration.use_legacy ~= false),
+    tostring(integration.offense_only ~= false),
     tostring(parser.capture_unmatched_lines == true)
   )
 end
@@ -203,12 +204,15 @@ function commands.statusText()
   end
   local execActive = finisherStatus.active == true and "yes" or "no"
   local execFallback = finisherStatus.fallback_active == true and "yes" or "no"
+  local integration = rwda.config and rwda.config.integration or {}
+  local offenseOnly = integration.offense_only ~= false and "yes" or "no"
 
   return string.format(
-    "enabled=%s stopped=%s backend=%s mode=%s goal=%s profile=%s form=%s target=%s tsrc=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s execute=%s eactive=%s efallback=%s",
+    "enabled=%s stopped=%s backend=%s offense_only=%s mode=%s goal=%s profile=%s form=%s target=%s tsrc=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s execute=%s eactive=%s efallback=%s",
     tostring(s.flags.enabled),
     stopped,
     backend,
+    offenseOnly,
     mode,
     goal,
     profile,
@@ -1805,4 +1809,3 @@ function commands.unregisterAlias()
 
   return true
 end
-

@@ -90,6 +90,7 @@ local function exportPersistedConfig()
     integration = {
       use_legacy = config.integration.use_legacy,
       auto_enable_with_legacy = config.integration.auto_enable_with_legacy,
+      offense_only = config.integration.offense_only,
       follow_legacy_target = config.integration.follow_legacy_target,
       group_target_events = copyArray(config.integration.group_target_events),
     },
@@ -160,6 +161,8 @@ setDefault(config.integration, "auto_enable_with_legacy", true)
 setDefault(config.integration, "legacy_control_mode", false)
 setDefault(config.integration, "use_aklimb", true)
 setDefault(config.integration, "use_group_layer", true)
+-- When true, RWDA avoids self cure/defence triggers and only tracks offensive combat data.
+setDefault(config.integration, "offense_only", true)
 setDefault(config.integration, "follow_legacy_target", true)
 config.integration.group_target_events = config.integration.group_target_events or {
   "GroupTargetChanged",
@@ -473,5 +476,3 @@ function config.loadPersisted(path)
 
   return true, resolved
 end
-
-

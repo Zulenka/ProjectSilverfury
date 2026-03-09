@@ -15,6 +15,11 @@ local function emit(name, payload)
   end
 end
 
+local function selfStateDisabled()
+  local integration = rwda.config and rwda.config.integration or {}
+  return integration.offense_only ~= false
+end
+
 local function stripAnsi(text)
   if type(text) ~= "string" then
     return ""
@@ -1106,41 +1111,43 @@ function parser.handleLine(line)
     return
   end
 
-  local selfAffGain = captureByPatterns(line, {
-    "^You are afflicted with (.+)%.$",
-    "^You have been afflicted with (.+)%.$",
-    "^You are now afflicted with (.+)%.$",
-    "^You suffer from (.+)%.$",
-  }) or captureByPatterns(lower, {
-    "^you are afflicted with (.+)[%.!]*$",
-    "^you have been afflicted with (.+)[%.!]*$",
-    "^you are now afflicted with (.+)[%.!]*$",
-    "^you suffer from (.+)[%.!]*$",
-  })
-  if selfAffGain then
-    local aff = resolveAffName(selfAffGain)
-    if aff then
-      state.setMeAff(aff, true, "line")
-      emit("AFF_GAINED", { who = "me", affliction = aff })
-      return
+  if not selfStateDisabled() then
+    local selfAffGain = captureByPatterns(line, {
+      "^You are afflicted with (.+)%.$",
+      "^You have been afflicted with (.+)%.$",
+      "^You are now afflicted with (.+)%.$",
+      "^You suffer from (.+)%.$",
+    }) or captureByPatterns(lower, {
+      "^you are afflicted with (.+)[%.!]*$",
+      "^you have been afflicted with (.+)[%.!]*$",
+      "^you are now afflicted with (.+)[%.!]*$",
+      "^you suffer from (.+)[%.!]*$",
+    })
+    if selfAffGain then
+      local aff = resolveAffName(selfAffGain)
+      if aff then
+        state.setMeAff(aff, true, "line")
+        emit("AFF_GAINED", { who = "me", affliction = aff })
+        return
+      end
     end
-  end
 
-  local selfAffCure = captureByPatterns(line, {
-    "^You are no longer afflicted with (.+)%.$",
-    "^You have recovered from (.+)%.$",
-    "^You are cured of (.+)%.$",
-  }) or captureByPatterns(lower, {
-    "^you are no longer afflicted with (.+)[%.!]*$",
-    "^you have recovered from (.+)[%.!]*$",
-    "^you are cured of (.+)[%.!]*$",
-  })
-  if selfAffCure then
-    local aff = resolveAffName(selfAffCure)
-    if aff then
-      state.setMeAff(aff, false, "line")
-      emit("AFF_CURED", { who = "me", affliction = aff })
-      return
+    local selfAffCure = captureByPatterns(line, {
+      "^You are no longer afflicted with (.+)%.$",
+      "^You have recovered from (.+)%.$",
+      "^You are cured of (.+)%.$",
+    }) or captureByPatterns(lower, {
+      "^you are no longer afflicted with (.+)[%.!]*$",
+      "^you have recovered from (.+)[%.!]*$",
+      "^you are cured of (.+)[%.!]*$",
+    })
+    if selfAffCure then
+      local aff = resolveAffName(selfAffCure)
+      if aff then
+        state.setMeAff(aff, false, "line")
+        emit("AFF_CURED", { who = "me", affliction = aff })
+        return
+      end
     end
   end
 
@@ -1601,7 +1608,3 @@ function parser.unregisterMudletHandlers()
 
   return true
 end
-
-
-
-
