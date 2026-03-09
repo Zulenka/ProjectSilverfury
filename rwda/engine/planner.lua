@@ -15,16 +15,34 @@ local function limbBroken(target, limb)
 end
 
 local function getAbility(mode, name)
+  -- Priority 1: knowledge module (Legacy integration, most authoritative)
+  if rwda.knowledge and rwda.knowledge.getAbilitySpec then
+    local spec = rwda.knowledge.getAbilitySpec(mode, name)
+    if spec then
+      return spec
+    end
+  end
+
+  -- Priority 2: static data tables (data/abilities.lua)
   local data = rwda.data and rwda.data.abilities
-  if not data then
-    return nil
+  if data then
+    local spec
+    if mode == "human_dualcut" then
+      spec = data.human and data.human[name]
+    else
+      spec = data.dragon and data.dragon[name]
+    end
+    if spec then
+      return spec
+    end
   end
 
-  if mode == "human_dualcut" then
-    return data.human and data.human[name]
+  -- Priority 3: combat_db (from markdown import — 1000+ abilities with syntax/cooldown)
+  if rwda.combat and rwda.combat.getAbility then
+    return rwda.combat.getAbility(name)
   end
 
-  return data.dragon and data.dragon[name]
+  return nil
 end
 
 local function action(mode, name, commands, reason, extra)
@@ -58,6 +76,56 @@ local function enrichReason(summary, code, profileName, blockId, extra)
     out.strategy_block = blockId
   end
   return out
+end
+
+local function nowMs()
+  return rwda.util.now()
+end
+
+local function markPlanState(state, payload)
+  if not state or not state.runtime then
+    return
+  end
+
+  state.runtime.last_plan = payload
+  if payload and payload.code then
+    state.runtime.last_reason = payload
+  end
+end
+
+local function reasonNoAction(state, code, summary, extra)
+  local reason = enrichReason(summary, code, nil, nil, extra or {})
+  reason.outcome = "no_action"
+  reason.phase = "planner"
+  reason.at = nowMs()
+  reason.mode = planner.resolveMode(state)
+  reason.target = state and state.target and state.target.name or nil
+  markPlanState(state, reason)
+  return nil
+end
+
+local function reasonPlanned(state, mode, action)
+  local actionReason = action and action.reason or {}
+  local summary = actionReason.summary or "Planned action."
+  local reason = {
+    at = nowMs(),
+    outcome = "planned",
+    phase = "planner",
+    mode = mode,
+    target = state and state.target and state.target.name or nil,
+    action = action and action.name,
+    action_mode = action and action.mode,
+    strategy_profile = actionReason.strategy_profile,
+    strategy_block = actionReason.strategy_block,
+    code = actionReason.code or "planned",
+    summary = summary,
+  }
+  if actionReason.requires then
+    reason.requires = actionReason.requires
+  end
+  markPlanState(state, reason)
+  state.runtime.last_reason = actionReason or reason
+  return action
 end
 
 local function profileForState(state)
@@ -104,7 +172,6 @@ local function tagFinisherFallback(selected, blockId)
   selected.reason = selected.reason or {}
   selected.reason.finisher_fallback = true
   selected.reason.finisher_fallback_block = blockId
-  return selected
 end
 
 function planner.resolveMode(state)
@@ -344,14 +411,32 @@ local function dragonPickCurse()
   return order[1] or "impatience"
 end
 
+-- venom → affliction it delivers
 local VENOM_AFF = {
-  curare  = "paralysis",
-  kalmia  = "asthma",
-  gecko   = "slickness",
-  slike   = "anorexia",
-  aconite = "stupidity",
+  curare   = "paralysis",
+  kalmia   = "asthma",
+  gecko    = "slickness",
+  slike    = "anorexia",
+  aconite  = "stupidity",
+  prefarar = "sensitivity",  -- rend/claw venom for sensitivity
 }
 
+-- Pick a venom for an inline REND attack (affliction delivered via claw).
+-- Priority comes from config.dragon.rend_venom_priority (venom names).
+-- Skips the curse affliction and venoms whose aff is already at 100+.
+local function dragonPickRendVenom(curse)
+  local order = (rwda.config and rwda.config.dragon and rwda.config.dragon.rend_venom_priority)
+                or { "curare", "kalmia", "prefarar", "gecko", "slike", "aconite" }
+  for _, v in ipairs(order) do
+    local aff = VENOM_AFF[v]
+    if aff ~= curse and affScore(aff or v) < 100 then
+      return v, aff
+    end
+  end
+  return order[1] or "curare", VENOM_AFF[order[1] or "curare"] or "paralysis"
+end
+
+-- Pick a venom for a GUT attack (loaded via ENVENOM CLAWS separately).
 local function dragonPickGutVenom(curse)
   local order = (rwda.config and rwda.config.dragon and rwda.config.dragon.gut_venom_priority)
                 or { "curare", "kalmia", "gecko", "slike", "aconite" }
@@ -377,12 +462,15 @@ end
 local function dragonContext(state)
   local devourTime = planner.estimateDevourTime(state)
   local curse = dragonPickCurse()
+  local rend_venom, rend_aff = dragonPickRendVenom(curse)
   return {
     goal = (state.flags.goal or "dragon_devour"):lower(),
     can_devour = planner.canDevour(state),
     devour_time = devourTime,
     pressure_limb = dragonPressureLimb(state),
     curse = curse,
+    rend_venom = rend_venom,   -- inline venom for REND (e.g. "curare")
+    rend_aff = rend_aff,       -- affliction it delivers (informational)
     gut_venom = dragonPickGutVenom(curse),
   }
 end
@@ -538,7 +626,7 @@ local function dragonActionFromBlock(state, target, block, profileName, ctx)
     return action(
       "dragon_silver",
       "gust",
-      { string.format("gust %s", target) },
+      { string.format("breathgust %s", target) },
       enrichReason("Force prone state to lock movement and prep devour window.", "dragon_force_prone", profileName, id)
     )
   end
@@ -563,7 +651,7 @@ local function dragonActionFromBlock(state, target, block, profileName, ctx)
     return action(
       "dragon_silver",
       "rend",
-      { string.format("rend %s torso", target) },
+      { string.format("rend %s torso %s", target, ctx.rend_venom) },
       enrichReason("Increase torso damage to accelerate devour channel.", "dragon_torso_pressure", profileName, id)
     )
   end
@@ -572,7 +660,7 @@ local function dragonActionFromBlock(state, target, block, profileName, ctx)
     return action(
       "dragon_silver",
       "rend",
-      { string.format("rend %s %s", target, ctx.pressure_limb) },
+      { string.format("rend %s %s %s", target, ctx.pressure_limb, ctx.rend_venom) },
       enrichReason(
         string.format("Keep adding restoration pressure on %s.", ctx.pressure_limb),
         "dragon_limb_pressure",
@@ -580,6 +668,26 @@ local function dragonActionFromBlock(state, target, block, profileName, ctx)
         id,
         { limb = ctx.pressure_limb, devour_time = ctx.devour_time }
       )
+    )
+  end
+
+  -- Primary dragon attack: curse(eq) + rend(bal with inline venom) + breathgust(eq).
+  -- Mirrors DragonFull buildAttackCmd() which uses rend as the main damage/afflict move.
+  if id == "dragon_curse_rend" then
+    return action(
+      "dragon_silver",
+      "rend",
+      {
+        { cmd = string.format("dragoncurse %s %s 1", target, ctx.curse),                      queue = "eq" },
+        { cmd = string.format("rend %s %s %s", target, ctx.pressure_limb, ctx.rend_venom),    queue = "bal" },
+        { cmd = string.format("breathgust %s", target),                                        queue = "eq" },
+      },
+      enrichReason(
+        string.format("Curse(%s)+rend(%s/%s)+breathgust combo.", ctx.curse, ctx.pressure_limb, ctx.rend_venom),
+        "dragon_curse_rend", profileName, id,
+        { curse = ctx.curse, limb = ctx.pressure_limb, venom = ctx.rend_venom }
+      ),
+      { requires = { bal = true, eq = true } }
     )
   end
 
@@ -621,22 +729,24 @@ local function dragonActionFromBlock(state, target, block, profileName, ctx)
     return action(
       "dragon_silver",
       "becalm",
-      { "becalm" },
+      { string.format("becalm %s", target) },
       enrichReason("Target airborne, becalm to ground them.", "dragon_flying_becalm", profileName, id)
     )
   end
 
   if id == "dragon_curse_gut" then
+    -- GUT takes no inline venom; load claw venom via ENVENOM CLAWS first (freestand).
     return action(
       "dragon_silver",
       "gut",
       {
-        { cmd = string.format("dragoncurse %s %s 1", target, ctx.curse), queue = "eq" },
-        { cmd = string.format("gut %s %s", target, ctx.gut_venom),       queue = "bal" },
-        { cmd = string.format("breathgust %s", target),                   queue = "eq" },
+        { cmd = string.format("envenom claws with %s", ctx.gut_venom),    queue = "freestand" },
+        { cmd = string.format("dragoncurse %s %s 1", target, ctx.curse),  queue = "eq" },
+        { cmd = string.format("gut %s", target),                           queue = "bal" },
+        { cmd = string.format("breathgust %s", target),                    queue = "eq" },
       },
       enrichReason(
-        string.format("Curse(%s)+gut(%s)+breathgust combo.", ctx.curse, ctx.gut_venom),
+        string.format("Envenom+curse(%s)+gut(%s)+breathgust combo.", ctx.curse, ctx.gut_venom),
         "dragon_curse_gut", profileName, id, { curse = ctx.curse, venom = ctx.gut_venom }
       ),
       { requires = { bal = true, eq = true } }
@@ -752,17 +862,19 @@ local function dragonLegacyFallback(state, target, ctx)
   end
 
   if not state.target.prone then
+    -- Primary fallback: curse(eq) + rend(bal, inline venom) + breathgust(eq).
+    -- Mirrors DragonFull buildAttackCmd(). Rend takes venom inline; no pre-envenom needed.
     return action(
       "dragon_silver",
-      "gut",
+      "rend",
       {
-        { cmd = string.format("dragoncurse %s %s 1", target, ctx.curse), queue = "eq" },
-        { cmd = string.format("gut %s %s", target, ctx.gut_venom),       queue = "bal" },
-        { cmd = string.format("breathgust %s", target),                   queue = "eq" },
+        { cmd = string.format("dragoncurse %s %s 1", target, ctx.curse),                    queue = "eq" },
+        { cmd = string.format("rend %s %s %s", target, ctx.pressure_limb, ctx.rend_venom), queue = "bal" },
+        { cmd = string.format("breathgust %s", target),                                     queue = "eq" },
       },
       enrichReason(
-        string.format("Fallback curse(%s)+gut(%s)+breathgust.", ctx.curse, ctx.gut_venom),
-        "dragon_curse_gut"
+        string.format("Fallback curse(%s)+rend(%s/%s)+breathgust.", ctx.curse, ctx.pressure_limb, ctx.rend_venom),
+        "dragon_curse_rend"
       ),
       { requires = { bal = true, eq = true } }
     )
@@ -855,6 +967,12 @@ function planner.humanDualcut(state)
   return humanLegacyFallback(state, target, ctx)
 end
 
+-- Test helper: call dragonActionFromBlock directly, bypassing strategy selection.
+-- Used by selftest to verify individual block commands without the full choose() pipeline.
+function planner.dragonActionFromBlockForTest(state, target, block, profileName, ctx)
+  return dragonActionFromBlock(state, target, block, profileName, ctx)
+end
+
 function planner.dragonSilver(state)
   local target = state.target.name
   if not target then
@@ -917,30 +1035,52 @@ function planner.autoGoal(state)
       rwda.util.log("info", "Auto-goal: legs recovered → limbprep")
     end
   end
-  -- Dragon: blocks are condition-driven; no goal switching needed.
+
+  -- Dragon: when goal is still at the human default (limbprep), switch to the
+  -- configured dragon default so devour_window and pressure blocks can fire.
+  -- User-set dragon goals (dragon_devour, pressure, etc.) are left unchanged.
+  if mode == "dragon_silver" then
+    local curGoal = (state.flags.goal or "limbprep"):lower()
+    if curGoal == "limbprep" then
+      local dragonDefault = (rwda.config.dragon and rwda.config.dragon.default_goal) or "dragon_devour"
+      state.flags.goal = dragonDefault
+      rwda.util.log("info", "Auto-goal: dragon mode, auto-set goal → %s", dragonDefault)
+    end
+  end
 end
 
 function planner.choose(state)
-  if not state.flags.enabled or state.flags.stopped then
-    return nil
+  -- Only gate on enabled; stopped is an executor concern (blocks sending, not planning).
+  -- Selftest sets stopped=true to prevent live attacks but still needs choose() to work.
+  if not state.flags.enabled then
+    return reasonNoAction(state, "disabled", "RWDA planner is disabled.")
   end
 
   if rwda.config.parser and rwda.config.parser.decay_target_defences and rwda.state and rwda.state.decayTargetDefences then
     rwda.state.decayTargetDefences(rwda.util.now())
   end
 
-  if not state.target.name or state.target.dead then
-    return nil
+  if not state.target.name then
+    return reasonNoAction(state, "no_target", "No target is currently selected.")
+  end
+
+  if state.target.dead then
+    return reasonNoAction(state, "target_dead", "Current target is marked dead.")
   end
 
   planner.autoGoal(state)
 
   if rwda.state and rwda.state.isTargetAvailable and not rwda.state.isTargetAvailable() then
-    state.runtime.last_reason = {
-      summary = string.format("Target unavailable (%s), hold offense.", tostring(state.target.unavailable_reason or "unknown")),
-      code = "target_unavailable",
-    }
-    return nil
+    return reasonNoAction(
+      state,
+      "target_unavailable",
+      string.format("Target unavailable (%s), hold offense.", tostring(state.target.unavailable_reason or "unknown")),
+      {
+        unavailable_reason = state.target.unavailable_reason,
+        available_source = state.target.available_source,
+        unavailable_since = state.target.unavailable_since,
+      }
+    )
   end
 
   local mode = planner.resolveMode(state)
@@ -953,8 +1093,9 @@ function planner.choose(state)
   end
 
   if selected then
-    state.runtime.last_reason = selected.reason
+    return reasonPlanned(state, mode, selected)
   end
 
-  return selected
+  return reasonNoAction(state, "no_strategy_action", "No strategy action was available.")
+
 end
