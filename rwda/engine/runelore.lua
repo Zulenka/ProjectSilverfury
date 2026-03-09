@@ -181,6 +181,13 @@ function runelore.isKenaEligible()
   return targetManaPercent() < KENA_MANA_THRESHOLD
 end
 
+function runelore.isHugalazCoreEnabled()
+  local rb = runebladeState()
+  if not rb or not rb.getConfiguration then return false end
+  local cfg = rb.getConfiguration()
+  return cfg and cfg.core_rune == "hugalaz"
+end
+
 function runelore.getKenaDistance()
   return math.max(0, targetManaPercent() - KENA_MANA_THRESHOLD)
 end
@@ -282,7 +289,18 @@ function runelore.onPithakhanDrain_event(targetName)
   local drain = runelore.estimatePithakhanDrain()
   if type(t.mana_percent) == "number" then
     t.mana_percent = math.max(0, t.mana_percent - drain)
+    t.last_pithakhan_drain = rwda.util and rwda.util.now() or 0
+    return
   end
+
+  if type(t.mp) == "number" and type(t.maxmp) == "number" and t.maxmp > 0 then
+    local loss = math.floor((drain * t.maxmp) + 0.5)
+    t.mp = math.max(0, t.mp - loss)
+    t.mana_percent = t.mp / t.maxmp
+    t.last_pithakhan_drain = rwda.util and rwda.util.now() or 0
+    return
+  end
+
   t.last_pithakhan_drain = rwda.util and rwda.util.now() or 0
 end
 
@@ -400,3 +418,4 @@ function runelore.manualEmpower(runeName)
 end
 
 return runelore
+

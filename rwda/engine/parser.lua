@@ -47,7 +47,13 @@ local function buildAffNameMap()
     count = count + 1
   end
 
-  if AFF_NAME_MAP and AFF_NAME_MAP._count == count and count > 0 then
+  local primaryNames = {}
+  if rwda.knowledge and rwda.knowledge.getAfflictionNames then
+    primaryNames = rwda.knowledge.getAfflictionNames() or {}
+  end
+  local primaryCount = #primaryNames
+
+  if AFF_NAME_MAP and AFF_NAME_MAP._count == count and AFF_NAME_MAP._primary_count == primaryCount and (count > 0 or primaryCount > 0) then
     return AFF_NAME_MAP
   end
 
@@ -57,7 +63,15 @@ local function buildAffNameMap()
     map[norm] = tostring(key)
   end
 
+  for _, key in ipairs(primaryNames) do
+    local norm = tostring(key):lower():gsub("_", " "):gsub("%s+", " ")
+    if norm ~= "" and map[norm] == nil then
+      map[norm] = tostring(key)
+    end
+  end
+
   map._count = count
+  map._primary_count = primaryCount
   AFF_NAME_MAP = map
   return map
 end
@@ -72,6 +86,13 @@ local function resolveAffName(phrase)
     return nil
   end
 
+  if rwda.knowledge and rwda.knowledge.resolveAfflictionName then
+    local resolved = rwda.knowledge.resolveAfflictionName(cleaned)
+    if resolved then
+      return resolved
+    end
+  end
+
   local map = buildAffNameMap()
   if map[cleaned] then
     return map[cleaned]
@@ -80,6 +101,14 @@ local function resolveAffName(phrase)
   for norm, key in pairs(map) do
     if cleaned:find(norm, 1, true) then
       return key
+    end
+  end
+
+  -- Priority 3: combat_db afflictions (markdown import — 76 afflictions)
+  if rwda.combat and rwda.combat.getAffliction then
+    local rec = rwda.combat.getAffliction(cleaned)
+    if rec and rec.name then
+      return rec.name
     end
   end
 
@@ -384,25 +413,43 @@ local function looksLikePlayerName(name)
   return true
 end
 
-local function detectAggressorFromLine(line)
+-- Runewarden/human mode attack patterns (weapon attacks, tekura, sorcery gestures).
+local HUMAN_AGGRESSOR_PATTERNS = {
+  "^([A-Z][%w'%-]+) attacks you",
+  "^([A-Z][%w'%-]+) hits you",
+  "^([A-Z][%w'%-]+) strikes you",
+  "^([A-Z][%w'%-]+) slashes you",
+  "^([A-Z][%w'%-]+) slashes viciously at you",
+  "^([A-Z][%w'%-]+) kicks you",
+  "^([A-Z][%w'%-]+) punches you",
+  "^([A-Z][%w'%-]+) stares at you",
+  "^([A-Z][%w'%-]+) points at you",
+  "^([A-Z][%w'%-]+) gestures toward you",
+  "^([A-Z][%w'%-]+) gestures at you",
+  "^([A-Z][%w'%-]+) .+ at you",
+}
+
+-- Dragon mode attack patterns (rend/breathgust/dragoncurse/bite).
+-- Some dragon messages place the attacker's name mid-sentence.
+local DRAGON_AGGRESSOR_PATTERNS = {
+  -- rend: "Jarpa lunges forward with long, flashing claws extended..."
+  "^([A-Z][%w'%-]+) lunges forward",
+  -- breathgust: "Drawing an enormous breath, Jarpa exhales, expelling a gale..."
+  "Drawing an enormous breath, ([A-Z][%w'%-]+) exhales",
+  -- dragoncurse: "An ominous feeling descends upon you as Jarpa turns his gaze upon you."
+  "An ominous feeling descends upon you as ([A-Z][%w'%-]+) turns",
+  -- dragon bite
+  "^([A-Z][%w'%-]+) opens .+ jaws",
+  -- generic fallback
+  "^([A-Z][%w'%-]+) attacks you",
+}
+
+local function detectAggressorFromLine(line, mode)
   if type(line) ~= "string" or line == "" then
     return nil
   end
 
-  local patterns = {
-    "^([A-Z][%w'%-]+) attacks you",
-    "^([A-Z][%w'%-]+) hits you",
-    "^([A-Z][%w'%-]+) strikes you",
-    "^([A-Z][%w'%-]+) slashes you",
-    "^([A-Z][%w'%-]+) slashes viciously at you",
-    "^([A-Z][%w'%-]+) kicks you",
-    "^([A-Z][%w'%-]+) punches you",
-    "^([A-Z][%w'%-]+) stares at you",
-    "^([A-Z][%w'%-]+) points at you",
-    "^([A-Z][%w'%-]+) gestures toward you",
-    "^([A-Z][%w'%-]+) gestures at you",
-    "^([A-Z][%w'%-]+) .- at you",
-  }
+  local patterns = (mode == "dragon_silver") and DRAGON_AGGRESSOR_PATTERNS or HUMAN_AGGRESSOR_PATTERNS
 
   local who
   for _, pat in ipairs(patterns) do
@@ -784,6 +831,72 @@ function parser.onGMCPRoomPlayers()
   parser.refreshTargetAvailabilityFromGMCP("gmcp_room")
 end
 
+-- gmcp.IRE.Target.Info fires when the server reports the current target's vitals.
+-- The `hp` field is an integer 0–100 (health percentage).  We store it as a
+-- 0.0–1.0 fraction on state.target so condition tokens can compare uniformly.
+function parser.onGMCPTargetInfo()
+  if not gmcp or not gmcp.IRE or not gmcp.IRE.Target or not gmcp.IRE.Target.Info then
+    return
+  end
+
+  local info = gmcp.IRE.Target.Info
+  local hp = tonumber(info.hp)
+  if hp ~= nil and rwda.state and rwda.state.target then
+    rwda.state.target.hp_percent = hp / 100.0
+  end
+
+  local mp = tonumber(info.mp)
+  local maxmp = tonumber(info.maxmp)
+  if mp == nil and info.mana ~= nil then
+    mp = tonumber(info.mana)
+  end
+  if maxmp == nil and info.maxmana ~= nil then
+    maxmp = tonumber(info.maxmana)
+  end
+  if rwda.state and rwda.state.target then
+    rwda.state.target.mp = mp
+    rwda.state.target.maxmp = maxmp
+    rwda.state.target.mana_percent = nil
+
+    if mp ~= nil and maxmp ~= nil and maxmp > 0 then
+      rwda.state.target.mana_percent = mp / maxmp
+    elseif mp ~= nil and mp <= 1 then
+      rwda.state.target.mana_percent = mp
+    elseif mp ~= nil and mp <= 100 then
+      rwda.state.target.mana_percent = mp / 100.0
+    end
+  end
+
+  -- Also sync target name if reported and we have no lock yet.
+  local targetName = type(info.name) == "string" and info.name or nil
+  if targetName and targetName ~= "" then
+    local current = rwda.state and rwda.state.target and rwda.state.target.name
+    if not current or current == "" then
+      rwda.state.setTarget(targetName, "gmcp_target_info")
+    end
+  end
+end
+
+-- gmcp.Char.Status fires on login and whenever class/form changes.
+-- In Achaea, Char.Status.class becomes "Dragon" when morphed to dragon form
+-- and reverts to the base class name (e.g. "Runewarden") when reverting.
+-- This is the most reliable form-change signal available.
+function parser.onGMCPCharStatus()
+  if not gmcp or not gmcp.Char or not gmcp.Char.Status then return end
+  local status = gmcp.Char.Status
+  local class = type(status.class) == "string" and status.class:lower() or nil
+  if not class or class == "" then return end
+
+  local newForm = (class == "dragon") and "dragon" or "human"
+
+  if rwda.state and rwda.state.me then
+    local prev = rwda.state.me.form
+    if newForm ~= prev then
+      parser.setForm(newForm, "gmcp_char_status")
+    end
+  end
+end
+
 function parser.onPrompt()
   local state = rwda.state
   state.me.last_prompt_ms = rwda.util.now()
@@ -921,7 +1034,11 @@ function parser.handleLine(line)
 
   local matched = false
 
-  local aggressor = detectAggressorFromLine(line)
+  local _resolvedMode = "human_dualcut"
+  if rwda.engine and rwda.engine.planner and rwda.engine.planner.resolveMode then
+    _resolvedMode = rwda.engine.planner.resolveMode(rwda.state)
+  end
+  local aggressor = detectAggressorFromLine(line, _resolvedMode)
   if aggressor then
     matched = true
     emit("AGGRESSOR_HIT", {
@@ -1420,7 +1537,9 @@ function parser.registerMudletHandlers()
   parser._handler_ids.gmcp_room_players = registerAnonymousEventHandler("gmcp.Room.Players", "rwda.engine.parser.onGMCPRoomPlayers")
   parser._handler_ids.gmcp_room_add = registerAnonymousEventHandler("gmcp.Room.AddPlayer", "rwda.engine.parser.onGMCPRoomPlayers")
   parser._handler_ids.gmcp_room_remove = registerAnonymousEventHandler("gmcp.Room.RemovePlayer", "rwda.engine.parser.onGMCPRoomPlayers")
-  parser._handler_ids.prompt = registerAnonymousEventHandler("sysPrompt", "rwda.engine.parser.onPrompt")
+  parser._handler_ids.gmcp_char_status  = registerAnonymousEventHandler("gmcp.Char.Status", "rwda.engine.parser.onGMCPCharStatus")
+  parser._handler_ids.gmcp_target_info  = registerAnonymousEventHandler("gmcp.IRE.Target.Info", "rwda.engine.parser.onGMCPTargetInfo")
+  parser._handler_ids.prompt            = registerAnonymousEventHandler("sysPrompt", "rwda.engine.parser.onPrompt")
 
   if rwda.config.parser.use_data_events then
     parser._handler_ids.data_received = registerAnonymousEventHandler("sysDataReceived", "rwda.engine.parser.onDataReceived")
@@ -1429,6 +1548,26 @@ function parser.registerMudletHandlers()
 
   if rwda.config.parser.use_temp_line_trigger and type(tempRegexTrigger) == "function" and not parser._line_trigger_id then
     parser._line_trigger_id = tempRegexTrigger("^.*$", [[rwda.engine.parser.handleLine(line)]])
+  end
+
+  -- Internal event listeners: tick on balance/eq recovery (primary combat loop driver).
+  -- These fire at the exact moment balance returns, independent of auto_tick_on_prompt.
+  parser._internal_handler_ids = parser._internal_handler_ids or {}
+  if not parser._internal_handler_ids.bal_gained and rwda.engine and rwda.engine.events then
+    parser._internal_handler_ids.bal_gained = rwda.engine.events.on("BAL_GAINED", function()
+      if rwda.state and rwda.state.flags
+         and rwda.state.flags.enabled and not rwda.state.flags.stopped then
+        rwda.tick("bal")
+      end
+    end)
+  end
+  if not parser._internal_handler_ids.eq_gained and rwda.engine and rwda.engine.events then
+    parser._internal_handler_ids.eq_gained = rwda.engine.events.on("EQ_GAINED", function()
+      if rwda.state and rwda.state.flags
+         and rwda.state.flags.enabled and not rwda.state.flags.stopped then
+        rwda.tick("eq")
+      end
+    end)
   end
 
   return true
@@ -1448,5 +1587,21 @@ function parser.unregisterMudletHandlers()
     parser._line_trigger_id = nil
   end
 
+  -- Remove internal event listeners (BAL_GAINED / EQ_GAINED)
+  local ids = parser._internal_handler_ids or {}
+  if rwda.engine and rwda.engine.events then
+    if ids.bal_gained then
+      rwda.engine.events.off("BAL_GAINED", ids.bal_gained)
+    end
+    if ids.eq_gained then
+      rwda.engine.events.off("EQ_GAINED", ids.eq_gained)
+    end
+  end
+  parser._internal_handler_ids = {}
+
   return true
 end
+
+
+
+

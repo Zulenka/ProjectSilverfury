@@ -138,16 +138,18 @@ end
 function strategy.resolveProfileName(state)
   local cfg = rwda.config and rwda.config.strategy or {}
   local requested = trim((state and state.flags and state.flags.profile) or cfg.active_profile or "duel")
-  if requested ~= "" and cfg.profiles and cfg.profiles[requested] then
+
+  local configuredProfiles = cfg.profiles
+  if requested ~= "" and configuredProfiles and configuredProfiles[requested] then
     return requested
   end
 
-  if cfg.profiles and cfg.profiles.duel then
+  if configuredProfiles and configuredProfiles.duel then
     return "duel"
   end
 
-  if cfg.profiles then
-    for name, _ in pairs(cfg.profiles) do
+  if configuredProfiles then
+    for name, _ in pairs(configuredProfiles) do
       return name
     end
   end
@@ -248,6 +250,83 @@ function strategy.evaluateToken(token, state, context)
 
   if token == "state.can_devour" then
     return context and context.can_devour
+  end
+
+  -- ── Target vitals ────────────────────────────────────────────────────────
+  -- hp_percent is set from gmcp.IRE.Target.Info (0.0–1.0 fraction).
+  -- Returns false when no HP data is available (conservative).
+  if token == "target.health_low" then
+    local t = state.target
+    if not t then return false end
+    if type(t.hp_percent) == "number" then
+      local threshold = rwda.config and rwda.config.runewarden
+                        and rwda.config.runewarden.health_low_threshold or 0.20
+      return t.hp_percent <= threshold
+    end
+    return false
+  end
+
+  -- mana_percent is set by runelore.onPithakhanDrain_event (0.0–1.0 fraction).
+  -- Also accepts raw mp/maxmp fields if available.
+  if token == "target.mana_low" then
+    local t = state.target
+    if not t then return false end
+    local threshold = rwda.config and rwda.config.runelore
+                      and rwda.config.runelore.kena_mana_threshold or 0.40
+    if type(t.mana_percent) == "number" then
+      return t.mana_percent <= threshold
+    end
+    if type(t.mp) == "number" and type(t.maxmp) == "number" and t.maxmp > 0 then
+      return (t.mp / t.maxmp) <= threshold
+    end
+    return false
+  end
+
+  -- Shorthand: torso broken (common dragon devour gate).
+  if token == "target.torso_broken" then
+    return limbBroken(state.target, "torso")
+  end
+
+  -- ── Runelore ────────────────────────────────────────────────────────────
+  -- bisect_ready = bisect_enabled in config AND hugalaz core is equipped AND Kena is eligible.
+  -- Kena attunes at <40% mana (Dec 2025); bisect fires when the lock setup is fully active.
+  if token == "runelore.bisect_ready" then
+    if not (rwda.config and rwda.config.runelore
+            and rwda.config.runelore.bisect_enabled == true) then
+      return false
+    end
+
+    local rbCfg
+    if rwda.state and rwda.state.runeblade and rwda.state.runeblade.getConfiguration then
+      rbCfg = rwda.state.runeblade.getConfiguration()
+    end
+    if not (rbCfg and rbCfg.core_rune == "hugalaz") then
+      return false
+    end
+
+    if rwda.engine and rwda.engine.runelore and rwda.engine.runelore.isKenaEligible then
+      return rwda.engine.runelore.isKenaEligible()
+    end
+    -- Offline fallback: check target mana_percent directly.
+    local t = state.target
+    local threshold = rwda.config.runelore.kena_mana_threshold or 0.40
+    if t and type(t.mana_percent) == "number" then
+      return t.mana_percent <= threshold
+    end
+    return false
+  end
+
+  -- ── Self vitals ──────────────────────────────────────────────────────────
+  -- mp/maxmp set from gmcp.Char.Vitals by parser.onGMCPVitals().
+  if token == "me.mana_low" then
+    local me = state.me
+    if not me then return false end
+    if type(me.mp) == "number" and type(me.maxmp) == "number" and me.maxmp > 0 then
+      local threshold = rwda.config and rwda.config.combat
+                        and rwda.config.combat.mana_low_threshold or 0.50
+      return (me.mp / me.maxmp) <= threshold
+    end
+    return false
   end
 
   return false
