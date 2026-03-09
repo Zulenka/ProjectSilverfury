@@ -34,6 +34,84 @@ local function trim(input)
   return input:gsub("^%s+", ""):gsub("%s+$", "")
 end
 
+local function describePlanFailure(reason)
+  if type(reason) ~= "table" then
+    return "No reason recorded."
+  end
+
+  local code = tostring(reason.code or "unknown")
+  local summary = tostring(reason.summary or "no summary")
+  local details = {}
+
+  if reason.phase then
+    details[#details + 1] = "phase=" .. tostring(reason.phase)
+  end
+  if reason.mode then
+    details[#details + 1] = "mode=" .. tostring(reason.mode)
+  end
+  if reason.target then
+    details[#details + 1] = "target=" .. tostring(reason.target)
+  end
+  if reason.strategy_profile then
+    details[#details + 1] = "profile=" .. tostring(reason.strategy_profile)
+  end
+  if reason.strategy_block then
+    details[#details + 1] = "block=" .. tostring(reason.strategy_block)
+  end
+  if reason.unavailable_reason then
+    details[#details + 1] = "unavail=" .. tostring(reason.unavailable_reason)
+  end
+  local tail = ""
+  if #details > 0 then
+    tail = " [" .. table.concat(details, " ") .. "]"
+  end
+  return string.format("%s (%s)%s", code, summary, tail)
+end
+
+local function reasonHint(reason)
+  if type(reason) ~= "table" then
+    return nil
+  end
+
+  local code = tostring(reason.code or "")
+  if code == "" then
+    code = tostring(reason.reason or "")
+  end
+  if code == "target_unavailable" then
+    local source = tostring(reason.unavailable_reason or "unknown")
+    return string.format("GMCP says target unavailable: %s. Wait for target to re-enter room or re-engage by name.", source)
+  end
+  if code == "no_balance" or code == "no_equilibrium" then
+    return "Balance or equilibrium not ready when action was planned."
+  end
+  if code == "anti_spam_" .. tostring(reason.wait_ms or "") then
+    return "Action was within anti-spam delay. Wait briefly and try again."
+  end
+  if code:find("anti_spam_") == 1 then
+    return "Action was within anti-spam delay. Wait briefly and try again."
+  end
+  if code == "disabled" or code == "stopped" then
+    return "Enable RWDA (rwda on) and resume if needed (rwda resume)."
+  end
+
+  local helpdb = rwda.integrations and rwda.integrations.helpdb
+  if helpdb and helpdb.getCommand then
+    local item = helpdb.getCommand(code)
+    if type(item) == "table" then
+      local text = item.description or item.summary or item.text
+      if text then
+        text = tostring(text):gsub("\n", " ")
+        if #text > 140 then
+          text = text:sub(1, 137) .. "..."
+        end
+        return text
+      end
+    end
+  end
+
+  return nil
+end
+
 -- Resolve a file path: if relative (no drive letter or leading slash), prepend rwda.base_path.
 local function resolvePath(path)
   if type(path) ~= "string" or path == "" then return path end
@@ -150,7 +228,7 @@ function commands.statusText()
 end
 
 function commands.printHelp()
-  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour|bisect>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retaldebounce <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]|runesmith [list [goal]|info <preset>|weapon <ref> <preset>|armour <ref>|configure <ref> <preset>|status|cancel]  (alias: rs)|helpdb [status|import <path>|command <name>|ability <name>|affliction <name>|defence <name>|search <term>|unload]")
+  tell("Commands: rwda on|off|stop|resume|reload|status|doctor|explain|tick|start <name>|engage <name>|selftest|target <name>|mode <auto|human|dragon>|goal <pressure|limbprep|impale_kill|dragon_devour|bisect>|profile <duel|group|kena_lock|head_focus>|debug <on|off>|retaliate <on|off>|execute <on|off>|builder open|close|strategy show|apply|save|load|set breath <type>|set venoms <main> <off>|set autostart <on|off>|set followlegacytarget <on|off>|set prompttick <on|off>|set retalockms <ms>|set retalminconf <0-1>|set executecooldown <ms>|set executefallbackwindow <ms>|set executetimeout <disembowel|devour> <ms>|set executefallback <human|dragon> <block_id>|set capture <on|off>|set captureprompts <on|off>|set capturepath <path>|show config|save config|load config|line <text>|replay <file>|replayassert <file> <expected_last_action> [min_actions]|replaysuite <suite_file>|clear target|reset|runelore [status|core <rune>|config <r1,r2>|autoempower on/off|bisect on/off|empower <rune>|priority <r1> <r2>]|falcon [status|track on/off|observe on/off|follow on/off|slay <name>|report]|runesmith [list [goal]|info <preset>|weapon <ref> <preset>|armour <ref>|configure <ref> <preset>|status|cancel]  (alias: rs)|helpdb [status|import <path>|command <name>|ability <name>|affliction <name>|defence <name>|search <term>|unload]|audit helpdb]")
 end
 
 function commands.handle(raw)
@@ -202,6 +280,15 @@ function commands.handle(raw)
     return
   end
 
+  if sub == "audit" and (words[2] or ""):lower() == "helpdb" then
+    if rwda.tools and rwda.tools.helpdb_audit and rwda.tools.helpdb_audit.run then
+      rwda.tools.helpdb_audit.run()
+    else
+      tell("HelpDB audit tool not loaded.")
+    end
+    return
+  end
+
   if sub == "helpdb" then
     local action = (words[2] or "status"):lower()
     local module = rwda.integrations and rwda.integrations.helpdb
@@ -211,7 +298,15 @@ function commands.handle(raw)
     end
     if action == "status" then
       local st = module.status()
-      tell(string.format("helpdb loaded=%s path=%s", tostring(st.loaded), tostring(st.path or "(none)")))
+      local primary = rwda.knowledge and rwda.knowledge.status and rwda.knowledge.status() or {}
+      tell(string.format("helpdb loaded=%s path=%s primary=%s commands=%s abilities=%s afflictions=%s defences=%s",
+        tostring(st.loaded),
+        tostring(st.path or "(none)"),
+        tostring(primary.primary_enabled == true),
+        tostring(primary.source and primary.source.helpdb_commands or 0),
+        tostring(primary.source and primary.source.helpdb_abilities or 0),
+        tostring(primary.source and primary.source.helpdb_afflictions or 0),
+        tostring(primary.source and primary.source.helpdb_defences or 0)))
       return
     end
     if action == "import" or action == "load" then
@@ -287,11 +382,24 @@ function commands.handle(raw)
 
 
   if sub == "explain" then
-    local reason = rwda.state.runtime.last_reason
+    local runtime = rwda.state.runtime or {}
+    local reason = runtime.last_plan or runtime.last_reason
     if reason then
-      tell(string.format("last_action=%s (%s)", reason.summary or "no summary", reason.code or "no code"))
+      tell(string.format("last_plan=%s", describePlanFailure(reason)))
+      local hint = reasonHint(reason)
+      if hint then
+        tell("suggestion=" .. hint)
+      end
     else
       tell("No action reason recorded yet.")
+    end
+    local lastAction = rwda.state.runtime and rwda.state.runtime.last_action
+    if lastAction then
+      tell(string.format("last_action=%s (%s)", lastAction.name or "unknown", tostring(lastAction.mode or "unknown")))
+    end
+    local exec = runtime.last_exec
+    if exec then
+      tell(string.format("last_exec=%s reason=%s action=%s", tostring(exec.ok), tostring(exec.reason or "nil"), tostring(exec.action or "nil")))
     end
     return
   end
@@ -312,17 +420,44 @@ function commands.handle(raw)
   if sub == "tick" or sub == "attack" then
     local action = rwda.tick("manual")
     if action then
-      tell(string.format("planned=%s", action.name or "unknown"))
+      local state = rwda.state or {}
+      local runtime = state.runtime or {}
+      local exec = runtime.last_exec
+      local execInfo = ""
+      if exec and exec.action == action.name and exec.phase == "executor" then
+        if not exec.ok then
+          execInfo = string.format(" (not sent: %s)", tostring(exec.reason or "unknown"))
+        else
+          execInfo = " (sent)"
+        end
+      end
+      tell(string.format("planned=%s%s", action.name or "unknown", execInfo))
+      if exec and exec.phase == "executor" and not exec.ok then
+        local hint = reasonHint(exec)
+        if hint then
+          tell("suggestion=" .. hint)
+        end
+      end
     else
-      tell("No action planned.")
+      local runtime = rwda.state.runtime or {}
+      local plan = runtime.last_plan or runtime.last_reason
+      if plan then
+        tell("No action planned: " .. describePlanFailure(plan))
+        local hint = reasonHint(plan)
+        if hint then
+          tell("suggestion=" .. hint)
+        end
+      else
+        tell("No action planned.")
+      end
     end
     return
   end
 
-  if sub == "att" or sub == "engage" then
+  if sub == "att" or sub == "engage" or sub == "start" then
     local name = trim(raw:match("^%S+%s+(.+)$") or "")
     if name == "" then
-      tell("Usage: rwda engage <target>  (or: att <target>)")
+      tell("Usage: rwda engage <target>  (or: att <target>, rwda start <target>)")
       return
     end
     rwda.state.setTarget(name, "manual")
@@ -336,11 +471,29 @@ function commands.handle(raw)
     if rwda.engine and rwda.engine.fury then
       rwda.engine.fury.onEngage()
     end
+    -- Startup diagnostic
+    local legacy_ok = rwda.state.integration.legacy_present
+    local prompttick = rwda.config.combat.auto_tick_on_prompt
+    local form = (rwda.state.me and rwda.state.me.form) or "unknown"
+    local mode = (rwda.engine and rwda.engine.planner and rwda.engine.planner.resolveMode and
+                  rwda.engine.planner.resolveMode(rwda.state)) or "?"
+    tell(string.format(
+      "RWDA engage: target=%s form=%s mode=%s legacy=%s prompttick=%s",
+      name, form, mode,
+      legacy_ok and "ok" or "not detected",
+      prompttick and "on" or "off (bal events will still tick)"
+    ))
     local action = rwda.tick("manual")
     if action then
-      tell(string.format("engaging %s -> %s", name, action.name or "unknown"))
+      tell(string.format("  -> first action: %s", action.name or "unknown"))
     else
-      tell(string.format("engaging %s (no action planned yet)", name))
+      local runtime = rwda.state.runtime or {}
+      local plan = runtime.last_plan or runtime.last_reason
+      if plan then
+        tell("  -> no action yet: " .. describePlanFailure(plan))
+      else
+        tell("  -> no action yet (waiting for balance or target availability)")
+      end
     end
     return
   end
@@ -382,6 +535,36 @@ function commands.handle(raw)
     return
   end
 
+  if sub == "validate" then
+    local arg2 = raw:match("^validate%s+(%S+)")
+    if arg2 == "combatdb" or arg2 == "db" or arg2 == "combat" then
+      -- Ensure the validate tool is loaded, then run it.
+      if not (rwda.tools and rwda.tools.validateCombatDB) then
+        local toolPath = rwda.base_path
+          and (rwda.base_path .. (package and package.config and package.config:sub(1,1) or "\\") .. "tools\\validate_combat_db.lua")
+          or nil
+        if toolPath then
+          local ok, err = pcall(dofile, toolPath)
+          if not ok then
+            tell("Failed to load validate tool: " .. tostring(err))
+            return
+          end
+        else
+          tell("Cannot locate validate_combat_db.lua (rwda.base_path not set).")
+          return
+        end
+      end
+      if rwda.tools and rwda.tools.validateCombatDB then
+        rwda.tools.validateCombatDB()
+      else
+        tell("validate_combat_db.lua loaded but rwda.tools.validateCombatDB not found.")
+      end
+    else
+      tell("Usage: rwda validate combatdb")
+    end
+    return
+  end
+
   if sub == "target" then
     local target = raw:match("^target%s+(.+)$")
     target = trim(target)
@@ -407,6 +590,24 @@ function commands.handle(raw)
       tell("Mode set to " .. mode)
     else
       tell("Usage: rwda mode <auto|human|dragon>")
+    end
+    return
+  end
+
+  -- rwda form dragon|human — manually override the detected physical form.
+  -- Use this when GMCP/text detection fails; resolveMode() will use this value
+  -- when mode is "auto".
+  if sub == "form" then
+    local form = (words[2] or ""):lower()
+    if form == "dragon" or form == "human" then
+      if rwda.engine and rwda.engine.parser and rwda.engine.parser.setForm then
+        rwda.engine.parser.setForm(form, "manual")
+      else
+        rwda.state.setForm(form)
+      end
+      tell("Form set to " .. form .. " (manual override)")
+    else
+      tell("Usage: rwda form <dragon|human>")
     end
     return
   end
@@ -738,18 +939,6 @@ function commands.handle(raw)
       rwda.config.retaliation = rwda.config.retaliation or {}
       rwda.config.retaliation.lock_ms = math.floor(value)
       tell("Retaliation lock_ms set to " .. tostring(rwda.config.retaliation.lock_ms))
-      return
-    end
-
-    if key == "retaldebounce" then
-      local value = tonumber(words[3] or "")
-      if not value or value < 0 then
-        tell("Usage: rwda set retaldebounce <ms>")
-        return
-      end
-      rwda.config.retaliation = rwda.config.retaliation or {}
-      rwda.config.retaliation.swap_debounce_ms = math.floor(value)
-      tell("Retaliation swap_debounce_ms set to " .. tostring(rwda.config.retaliation.swap_debounce_ms))
       return
     end
 
@@ -1336,14 +1525,14 @@ function commands.handle(raw)
       return
     end
 
-    -- rwda falcon observe <on|off>  — toggle observe-on-attack
+    -- rwda falcon observe <on|off>  - deprecated (observe is disabled)
     if op == "observe" then
       local ok, bval = parseBoolWord(val)
       if ok then
         if rwda.engine and rwda.engine.falcon then
           rwda.engine.falcon.setObserveOnAttack(bval)
         end
-        tell("falcon observe-on-attack: " .. (bval and "ON" or "OFF"))
+        tell("falcon observe-on-attack is disabled (setting preserved but ignored).")
       else
         tell("Usage: rwda falcon observe on|off")
       end
@@ -1616,3 +1805,4 @@ function commands.unregisterAlias()
 
   return true
 end
+

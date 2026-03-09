@@ -4,15 +4,6 @@ rwda.engine.falcon = rwda.engine.falcon or {}
 
 local falcon = rwda.engine.falcon
 
--- Action names that are NOT attacks and should NOT trigger observe.
-local NON_ATTACK_NAMES = {
-  assess   = true,
-  predict  = true,
-  recall   = true,
-  wield    = true,
-  ["none"] = true,
-}
-
 -- Per-fight tracking state (reset on bootstrap / rwda stop).
 local last_track_target  = nil
 local last_slay_target   = nil
@@ -35,11 +26,6 @@ end
 
 local function currentTargetName()
   return rwda.state and rwda.state.target and rwda.state.target.name
-end
-
-local function isAttackAction(actionName)
-  if not actionName then return false end
-  return not NON_ATTACK_NAMES[actionName]
 end
 
 -- ─────────────────────────────────────────────
@@ -74,14 +60,10 @@ end
 --- Registered as an ACTION_SENT listener by bootstrap().
 --- Handles two jobs per attack tick:
 ---   1. Re-issue FALCON TRACK / player FOLLOW only when target has changed mid-fight.
----   2. Send `observe <target>` alongside each offensive action (not assess/predict/etc.).
-function falcon.onActionSent(payload)
+function falcon.onActionSent(_payload)
   local c = cfg()
   local tname = currentTargetName()
   if not tname or tname == "" then return end
-
-  local actionName = payload and payload.action and payload.action.name
-
   -- Re-track falcon only when target changed (e.g. retaliation swap).
   if c.auto_track ~= false and tname ~= last_track_target then
     sendGame("falcon track " .. tname)
@@ -94,20 +76,6 @@ function falcon.onActionSent(payload)
     last_follow_target = tname
   end
 
-  -- Observe on each offensive attack to get health reports (per FALCON TRACK ability).
-  if c.observe_on_attack ~= false and isAttackAction(actionName) then
-    if type(tempTimer) == "function" then
-      -- Small delay so queue commands reach the server first.
-      tempTimer(0.05, function()
-        local t = currentTargetName()
-        if t and t ~= "" and type(send) == "function" then
-          send("observe " .. t)
-        end
-      end)
-    else
-      sendGame("observe " .. tname)
-    end
-  end
 end
 
 -- ─────────────────────────────────────────────
@@ -131,11 +99,11 @@ function falcon.setAutoFollow(enabled)
   rwda.util.log("info", "Falcon auto-follow (player): %s", enabled and "ON" or "OFF")
 end
 
---- Enable or disable `observe <target>` sent alongside each attack tick.
+--- Deprecated: observe-on-attack is disabled; this setter only preserves config compatibility.
 function falcon.setObserveOnAttack(enabled)
   rwda.config.falcon = rwda.config.falcon or {}
   rwda.config.falcon.observe_on_attack = enabled
-  rwda.util.log("info", "Falcon observe-on-attack: %s", enabled and "ON" or "OFF")
+  rwda.util.log("info", "Falcon observe-on-attack is deprecated and ignored.")
 end
 
 --- Print current falcon state to the RWDA log.
@@ -144,7 +112,7 @@ function falcon.status()
   rwda.util.log("info",
     "Falcon: auto_track=%s  observe_on_attack=%s  auto_follow=%s | last_track=%s  last_slay=%s  last_follow=%s",
     tostring(c.auto_track ~= false),
-    tostring(c.observe_on_attack ~= false),
+    "disabled",
     tostring(c.auto_follow == true),
     tostring(last_track_target  or "none"),
     tostring(last_slay_target   or "none"),
@@ -174,7 +142,9 @@ function falcon.bootstrap()
   rwda.util.log("info",
     "Falcon bootstrap complete (auto_track=%s  observe=%s  auto_follow=%s)",
     tostring(c.auto_track ~= false),
-    tostring(c.observe_on_attack ~= false),
+    "disabled",
     tostring(c.auto_follow == true)
   )
 end
+
+

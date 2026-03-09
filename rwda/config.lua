@@ -99,11 +99,11 @@ local function exportPersistedConfig()
       require_target_available = config.combat.require_target_available,
       clear_queue_when_target_missing = config.combat.clear_queue_when_target_missing,
       require_room_presence_when_gmcp = config.combat.require_room_presence_when_gmcp,
+      mana_low_threshold = config.combat.mana_low_threshold,
     },
     retaliation = {
       enabled = config.retaliation.enabled,
       lock_ms = config.retaliation.lock_ms,
-      swap_debounce_ms = config.retaliation.swap_debounce_ms,
       min_confidence = config.retaliation.min_confidence,
       restore_previous_target = config.retaliation.restore_previous_target,
       ignore_non_players = config.retaliation.ignore_non_players,
@@ -126,6 +126,7 @@ local function exportPersistedConfig()
     runewarden = {
       prep_limbs = copyArray(config.runewarden.prep_limbs),
       near_break_pct = config.runewarden.near_break_pct,
+      health_low_threshold = config.runewarden.health_low_threshold,
       lock_venom_priority = copyArray(config.runewarden.lock_venom_priority),
       venoms = {
         dsl_main = copyArray(config.runewarden.venoms and config.runewarden.venoms.dsl_main),
@@ -136,6 +137,9 @@ local function exportPersistedConfig()
       breath_type = config.dragon.breath_type,
       default_goal = config.dragon.default_goal,
       devour_threshold = config.dragon.devour_threshold,
+      curse_priority = rwda.util.deepcopy(config.dragon.curse_priority),
+      rend_venom_priority = rwda.util.deepcopy(config.dragon.rend_venom_priority),
+      gut_venom_priority = rwda.util.deepcopy(config.dragon.gut_venom_priority),
     },
     strategy = rwda.util.deepcopy(config.strategy or {}),
     runelore  = rwda.util.deepcopy(config.runelore  or {}),
@@ -178,15 +182,16 @@ setDefault(config.combat, "auto_tick_on_prompt", true)
 setDefault(config.combat, "auto_goal", true)
 setDefault(config.combat, "require_target_available", true)
 setDefault(config.combat, "clear_queue_when_target_missing", true)
-setDefault(config.combat, "require_room_presence_when_gmcp", true)
+setDefault(config.combat, "require_room_presence_when_gmcp", false)
 setDefault(config.combat, "assess_enabled", true)
+-- MP fraction at or below which the me.mana_low condition token fires.
+setDefault(config.combat, "mana_low_threshold", 0.50)
 setDefault(config.combat, "assess_interval_ms", 9000)
 setDefault(config.combat, "assess_stale_ms", 7000)
 
 config.retaliation = config.retaliation or {}
 setDefault(config.retaliation, "enabled", false)
 setDefault(config.retaliation, "lock_ms", 8000)
-setDefault(config.retaliation, "swap_debounce_ms", 1500)
 setDefault(config.retaliation, "min_confidence", 0.65)
 setDefault(config.retaliation, "restore_previous_target", true)
 setDefault(config.retaliation, "ignore_non_players", true)
@@ -216,6 +221,7 @@ setDefault(config.parser, "capture_unmatched_include_prompts", false)
 config.parser.form_detect = config.parser.form_detect or {}
 setDefault(config.parser.form_detect, "enabled", true)
 config.parser.form_detect.dragon_on = config.parser.form_detect.dragon_on or {
+  -- Achaea canonical morph messages (various era variants)
   "you assume the form of a dragon",
   "you are now in dragonform",
   "you transform into a dragon",
@@ -224,8 +230,17 @@ config.parser.form_detect.dragon_on = config.parser.form_detect.dragon_on or {
   "you surge into dragonform",
   "you take draconic form",
   "you assume draconic form",
+  -- Additional Achaea variants observed in-game
+  "surge into the form of a dragon",
+  "you shift into your draconic form",
+  "your form shudders as you surge into dragonform",
+  "crackling with power, you feel yourself surge into dragonform",
+  "your body morphs as you shift into the form of a mighty dragon",
+  "you feel your body shift and morph into that of a dragon",
+  "power surges through your body as you shift into dragonform",
 }
 config.parser.form_detect.dragon_off = config.parser.form_detect.dragon_off or {
+  -- Achaea canonical revert messages
   "you return to your lesser form",
   "you are no longer in dragonform",
   "you return to your human form",
@@ -234,6 +249,11 @@ config.parser.form_detect.dragon_off = config.parser.form_detect.dragon_off or {
   "you revert to your lesser form",
   "you revert to your human form",
   "you are no longer a dragon",
+  -- Additional Achaea variants
+  "you shift back into your mortal form",
+  "you revert to your mortal form",
+  "your body shifts back into its mortal form",
+  "you feel your body return to its lesser form",
 }
 
 config.weapons = config.weapons or {}
@@ -260,6 +280,9 @@ setDefault(config.runewarden, "default_goal", "limbprep")
 config.runewarden.prep_limbs = config.runewarden.prep_limbs or { "left_leg", "torso", "right_leg" }
 -- Damage % at which nextPrepLimb switches from balanced to sequential-break mode
 setDefault(config.runewarden, "near_break_pct", 75)
+-- Target HP fraction at or below which target.health_low condition token fires.
+-- Used by kena_lock bisect_window block to gate the bisect finisher.
+setDefault(config.runewarden, "health_low_threshold", 0.20)
 -- Lock venom priority: pick the two most-needed from this list each tick
 config.runewarden.lock_venom_priority = config.runewarden.lock_venom_priority or {
   "kalmia",
@@ -307,8 +330,8 @@ config.runelore.empower_priority = config.runelore.empower_priority or { "kena",
 config.falcon = config.falcon or {}
 -- Send FALCON SLAY + FALCON TRACK once on each engage; re-track when target changes.
 setDefault(config.falcon, "auto_track", true)
--- Send `observe <target>` alongside each offensive attack tick (health report).
-setDefault(config.falcon, "observe_on_attack", true)
+-- Deprecated: observe-on-attack is disabled in falcon engine (setting kept for compatibility).
+setDefault(config.falcon, "observe_on_attack", false)
 -- Automatically send `follow <target>` on engage and when target changes (opt-in).
 setDefault(config.falcon, "auto_follow", false)
 
@@ -339,6 +362,8 @@ setDefault(config.dragon, "breath_type", "lightning")
 setDefault(config.dragon, "default_goal", "dragon_devour")
 setDefault(config.dragon, "devour_threshold", 6.0)
 config.dragon.curse_priority = config.dragon.curse_priority or { "impatience", "asthma", "paralysis", "stupidity" }
+-- Venom priority for inline REND attacks (prefarar=sensitivity added; rend can carry it unlike gut).
+config.dragon.rend_venom_priority = config.dragon.rend_venom_priority or { "curare", "kalmia", "prefarar", "gecko", "slike", "aconite" }
 config.dragon.gut_venom_priority = config.dragon.gut_venom_priority or { "curare", "kalmia", "gecko", "slike", "aconite" }
 -- Commands sent automatically when RWDA detects a shift INTO dragon form.
 -- e.g. { "sk rend", "dragonarmour on" }
@@ -448,3 +473,5 @@ function config.loadPersisted(path)
 
   return true, resolved
 end
+
+
