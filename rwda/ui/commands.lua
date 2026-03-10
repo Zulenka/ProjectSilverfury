@@ -93,6 +93,9 @@ local function reasonHint(reason)
   if code == "disabled" or code == "stopped" then
     return "Enable RWDA (rwda on) and resume if needed (rwda resume)."
   end
+  if code == "awaiting_engage" then
+    return "Set a manual target first: rwda engage <target> (or rwda target <target>)."
+  end
 
   local helpdb = rwda.integrations and rwda.integrations.helpdb
   if helpdb and helpdb.getCommand then
@@ -197,6 +200,7 @@ function commands.statusText()
   local bal = s.me.bal and "up" or "down"
   local eq = s.me.eq and "up" or "down"
   local stopped = s.flags.stopped and "yes" or "no"
+  local armed = s.flags.armed and "yes" or "no"
   local finisherStatus = rwda.engine and rwda.engine.finisher and rwda.engine.finisher.status and rwda.engine.finisher.status() or {}
   local execEnabled = finisherStatus.enabled
   if execEnabled == nil then
@@ -208,9 +212,10 @@ function commands.statusText()
   local offenseOnly = integration.offense_only ~= false and "yes" or "no"
 
   return string.format(
-    "enabled=%s stopped=%s backend=%s offense_only=%s mode=%s goal=%s profile=%s form=%s target=%s tsrc=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s execute=%s eactive=%s efallback=%s",
+    "enabled=%s stopped=%s armed=%s backend=%s offense_only=%s mode=%s goal=%s profile=%s form=%s target=%s tsrc=%s tavail=%s treason=%s bal=%s eq=%s tshield=%s trebound=%s execute=%s eactive=%s efallback=%s",
     tostring(s.flags.enabled),
     stopped,
+    armed,
     backend,
     offenseOnly,
     mode,

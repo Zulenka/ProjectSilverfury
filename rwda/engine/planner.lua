@@ -594,15 +594,6 @@ end
 
 local function dragonActionFromBlock(state, target, block, profileName, ctx)
   local id = block and block.id or ""
-  if id == "summon_breath" then
-    local breathType = rwda.config.dragon.breath_type or "lightning"
-    return action(
-      "dragon_silver",
-      "summon",
-      { string.format("summon %s", breathType) },
-      enrichReason("Summon breath before dragon offense cycle.", "summon_breath", profileName, id)
-    )
-  end
 
   if id == "dragon_strip_shield" then
     return action(
@@ -833,16 +824,6 @@ local function humanLegacyFallback(state, target, ctx)
 end
 
 local function dragonLegacyFallback(state, target, ctx)
-  if not state.me.dragon.breath_summoned then
-    local breathType = rwda.config.dragon.breath_type or "lightning"
-    return action(
-      "dragon_silver",
-      "summon",
-      { string.format("summon %s", breathType) },
-      enrichReason("Summon breath before dragon offense cycle.", "summon_breath")
-    )
-  end
-
   if defActive(state.target, "shield") then
     return action(
       "dragon_silver",
@@ -1054,6 +1035,10 @@ function planner.choose(state)
   -- Selftest sets stopped=true to prevent live attacks but still needs choose() to work.
   if not state.flags.enabled then
     return reasonNoAction(state, "disabled", "RWDA planner is disabled.")
+  end
+
+  if rwda.config.combat and rwda.config.combat.require_manual_engage ~= false and not state.flags.armed then
+    return reasonNoAction(state, "awaiting_engage", "Waiting for manual engage/target before starting offense.")
   end
 
   if rwda.config.parser and rwda.config.parser.decay_target_defences and rwda.state and rwda.state.decayTargetDefences then

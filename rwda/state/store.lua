@@ -26,6 +26,7 @@ local function ensure()
       mode = "auto",
       goal = "limbprep",
       profile = "duel",
+      armed = false,
     }
   end
   if not state.integration then
@@ -40,6 +41,8 @@ local function ensure()
     state.runtime = {
       last_action = nil,
       last_reason = nil,
+      last_plan = nil,
+      last_exec = nil,
       pending_action = nil,
       last_send_by_command = {},
     }
@@ -62,6 +65,7 @@ function state.reset()
     mode = "auto",
     goal = "limbprep",
     profile = "duel",
+    armed = false,
   }
   state.integration = {
     gmcp_present = false,
@@ -72,6 +76,8 @@ function state.reset()
   state.runtime = {
     last_action = nil,
     last_reason = nil,
+    last_plan = nil,
+    last_exec = nil,
     pending_action = nil,
     last_send_by_command = {},
   }
@@ -80,6 +86,9 @@ end
 function state.setEnabled(enabled)
   ensure()
   state.flags.enabled = not not enabled
+  if not state.flags.enabled then
+    state.flags.armed = false
+  end
 end
 
 function state.setStopped(stopped)
@@ -92,14 +101,20 @@ function state.setTarget(name, source)
   if type(name) == "string" then
     name = name:gsub("^%s+", ""):gsub("%s+$", "")
   end
+
+  local src = source or "manual"
   state.target.name = name
-  state.target.target_source = source or "manual"
+  state.target.target_source = src
   state.target.dead = false
   state.target.available = true
   state.target.unavailable_reason = nil
   state.target.unavailable_since = 0
-  state.target.available_source = source or "manual"
+  state.target.available_source = src
   state.target.last_seen = util.now()
+
+  if src == "manual" or src == "retaliation" or src == "selftest" or src == "replay" then
+    state.flags.armed = true
+  end
 end
 
 function state.clearTarget()
@@ -109,6 +124,7 @@ function state.clearTarget()
   if oldName then
     state.target.last_target = oldName
   end
+  state.flags.armed = false
 end
 
 function state.setMode(mode)
